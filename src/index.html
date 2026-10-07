@@ -701,7 +701,7 @@ function openItem(id, opts){
     track('open', id);
     const el = document.getElementById('c-' + id);
     if (el){
-      el.scrollIntoView({behavior:'smooth', block: (opts.fromMap || opts.boot) ? 'start' : 'nearest'});
+      el.scrollIntoView({behavior: opts.boot ? 'auto' : 'smooth', block: (opts.fromMap || opts.boot) ? 'start' : 'nearest'});
     }
     const m = markers[id];
     if (m && !opts.fromMap && map){
