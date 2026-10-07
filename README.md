@@ -5,7 +5,7 @@
 - 網站：https://au-deals-map.pages.dev
 - 統計頁：https://au-deals-map.pages.dev/stats/ （需要密碼，密碼不放在這個倉庫裡）
 - 主機：Cloudflare Pages 專案 `au-deals-map`，連動 GitHub 倉庫 `rick97005196-star/au-deals-map` 的 `main` 分支
-- 風格：簡潔、有質感；地圖用 Leaflet（cdnjs），放大後疊 CARTO 底圖
+- 風格：簡潔、有質感；地圖用 Leaflet（cdnjs），放大後疊 OpenStreetMap 底圖（灰階處理）
 
 ## 常用指令
 
