@@ -40,7 +40,7 @@ a{color:inherit}
 .top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px;border-bottom:1px solid var(--line);background:var(--bg)}
 .brand{display:flex;align-items:center;gap:12px;min-width:0}
 .brand svg{flex:none}
-.brand-name{font-family:var(--f-display);font-weight:700;font-size:21px;letter-spacing:.06em;line-height:1.2;margin:0}
+.brand-name{font-family:var(--f-display);font-weight:700;font-size:21px;letter-spacing:.06em;line-height:1.2;margin:0;white-space:nowrap}
 .brand-sub{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:3px}
 .linkbtn{display:inline-flex;align-items:center;gap:7px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:7px 12px;cursor:pointer;font-size:13px;color:var(--ink-2);white-space:nowrap}
 .linkbtn:hover{border-color:var(--line-strong);color:var(--ink)}
@@ -267,8 +267,9 @@ dialog::backdrop{background:rgba(18,26,23,.35)}
   .regioncard{left:10px;bottom:10px;padding:10px 12px}
   .regioncard .areas{display:none}
 }
-@media (max-width:420px){
+@media (max-width:480px){
   .brand-sub{display:none}
+  .brand-name{font-size:18px;letter-spacing:.04em}
   .linkbtn{padding:6px 10px;font-size:12.5px}
   .rg{padding:7px 8px 8px}
   .rg-name{font-size:13.5px}
