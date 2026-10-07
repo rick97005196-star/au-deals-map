@@ -163,6 +163,7 @@ a{color:inherit}
 .rcode{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;border:1px solid var(--line);border-radius:5px;padding:0 5px;color:var(--ink-2)}
 .rcode.au{border-color:transparent;background:var(--ink);color:var(--paper)}
 .hot{font-size:11px;color:var(--urgent);font-weight:500}
+.new{font-size:11px;color:var(--ok);font-weight:500}
 .card-title{font-family:var(--f-display);font-weight:700;font-size:17.5px;line-height:1.4;margin:0;text-wrap:balance;letter-spacing:.01em}
 .card-en{margin:0;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card-foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px;font-size:13px}
@@ -365,9 +366,10 @@ dialog::backdrop{background:rgba(10,16,14,.45)}
     <h2>資料怎麼來、怎麼查證</h2>
     <p class="lead">每一筆都要通過兩道關卡才會出現在地圖上。</p>
     <ol class="steps">
-      <li><div><b>從社群和官方管道蒐集</b><span>搜尋 Instagram、Facebook、TikTok、Reddit、OzBargain 等社群上的討論，再找到主辦單位或品牌的官方頁面。</span></div></li>
+      <li><div><b>從社群和官方管道蒐集</b><span>每天早上自動搜尋 Threads、Instagram、Facebook、TikTok、Reddit、OzBargain 等社群上的討論，再找到主辦單位或品牌的官方頁面。社群貼文只當線索，不直接當作證據。</span></div></li>
       <li><div><b>由另一位查證員重新核對</b><span>沒有參與蒐集的查證員重新打開官方頁面，逐筆核對 2026 年的日期、價格和地點，抓出誇大或錯誤的描述並修正。</span></div></li>
-      <li><div><b>標示查證程度</b><span>「已查證」代表日期、價格、地點都在官方頁面確認過；「部分查證」會寫清楚哪一項官方還沒公布。</span></div></li>
+      <li><div><b>標示查證程度</b><span>「已查證」代表日期、價格、地點都在官方頁面確認過；「部分查證」會寫清楚哪一項官方還沒公布。查不到官方證據的不會上架。</span></div></li>
+      <li><div><b>每天整理</b><span>結束的活動自動下架，快開始的活動和還沒公布票價的項目會再核對一次。</span></div></li>
     </ol>
     <p class="note">活動和優惠可能臨時異動，出發或購買前請以官方公告為準。</p>
   </div>
@@ -417,7 +419,7 @@ const wd = n => WD[fromDn(n).getUTCDay()];
 ITEMS.forEach(it => {
   it._s = dn(it.start);
   it._e = it.end ? dn(it.end) : null;
-  it._hay = [it.title, it.title_zh, it.city, it.venue, it.summary_zh, it.highlight, it.price_zh, CATS[it.category], RBY[it.region].zh, RBY[it.region].en, it.region, it.area_zh, it.type === 'deal' ? '特價 優惠 折扣 deal' : '活動 event']
+  it._hay = [it.title, it.title_zh, it.city, it.venue, it.summary_zh, it.highlight, it.price_zh, CATS[it.category], RBY[it.region].zh, RBY[it.region].en, it.region, it.area_zh, it.schedule_zh, it.type === 'deal' ? '特價 優惠 折扣 deal' : '活動 event']
     .filter(Boolean).join(' ').toLowerCase();
 });
 
@@ -514,7 +516,7 @@ function cardHTML(it){
   <button type="button" class="card-hit" aria-expanded="${open}" aria-controls="d-${esc(it.id)}">
     <div class="stub">${sb.word ? `<div class="d word">${sb.word}</div>` : `<div class="m">${sb.m}</div><div class="d">${sb.d}</div>`}${sb.l ? `<div class="l">${sb.l}</div>` : ''}</div>
     <div class="card-main">
-      <div class="card-meta"><span class="type type--${it.type}">${it.type === 'deal' ? '特價' : '活動'}</span><span>${CATS[it.category]}</span><span class="rcode${it.region === 'AU' ? ' au' : ''}">${it.region === 'AU' ? '全澳' : it.region}</span>${isHot ? '<span class="hot">熱門</span>' : ''}</div>
+      <div class="card-meta"><span class="type type--${it.type}">${it.type === 'deal' ? '特價' : '活動'}</span><span>${CATS[it.category]}</span><span class="rcode${it.region === 'AU' ? ' au' : ''}">${it.region === 'AU' ? '全澳' : it.region}</span>${isNew(it) ? '<span class="new">新上架</span>' : ''}${isHot ? '<span class="hot">熱門</span>' : ''}</div>
       <h3 class="card-title">${esc(it.title_zh)}</h3>
       <p class="card-en">${esc(it.title)}</p>
       <div class="facts-line"><span class="mono">${esc(dateText(it))}</span>${where ? `<span class="where">· ${esc(where)}</span>` : ''}</div>
@@ -524,6 +526,7 @@ function cardHTML(it){
   ${open ? detailHTML(it) : ''}
 </article>`;
 }
+function isNew(it){ return it.added && TODAY - dn(it.added) <= 2; }
 function host(u){ try { return new URL(u).hostname.replace(/^www\./, ''); } catch(e){ return ''; } }
 function detailHTML(it){
   const v = it.verified;
@@ -579,6 +582,7 @@ function renderList(){
 const SOCIAL = [
   ['OzBargain', q => 'https://www.ozbargain.com.au/search/node/' + encodeURIComponent(q)],
   ['Reddit', q => 'https://www.reddit.com/search/?q=' + encodeURIComponent(q)],
+  ['Threads', q => 'https://www.threads.com/search?q=' + encodeURIComponent(q)],
   ['Facebook', q => 'https://www.facebook.com/search/posts/?q=' + encodeURIComponent(q)],
   ['Instagram', q => 'https://www.instagram.com/explore/search/keyword/?q=' + encodeURIComponent(q)],
   ['TikTok', q => 'https://www.tiktok.com/search?q=' + encodeURIComponent(q)],
@@ -779,7 +783,7 @@ function track(t, k){
 const upd = dn(DATA.updated);
 $('updated').textContent = mdy(upd) + '（' + wd(upd) + '）';
 $('verifiedCount').textContent = ITEMS.filter(i => i.verified.status === 'verified').length + ' / ' + ITEMS.length;
-$('foot').innerHTML = `資料最後核對：${esc(DATA.updated.replace(/-/g,'/'))}。活動與優惠可能臨時異動，出發或購買前請以官方公告為準。本站整理公開資訊，與各品牌及主辦單位無關。`;
+$('foot').innerHTML = `資料每天早上自動更新，最後核對：${esc(DATA.updated.replace(/-/g,'/'))}。活動與優惠可能臨時異動，出發或購買前請以官方公告為準。本站整理公開資訊，與各品牌及主辦單位無關。`;
 initMap();
 const hash = decodeURIComponent(location.hash.slice(1));
 if (hash && BYID[hash]) S.open = hash;

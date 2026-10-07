@@ -23,6 +23,20 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 
 `data/items.json` 的 `updated` 要改成這次核對資料的日期，網站右上角會顯示。
 
+## 每日自動更新
+
+每天早上布里斯本時間約 4:50，雲端排程任務會照 `tools/DAILY.md` 跑一次（電腦關機也會照常跑），完成後推播結果到手機：
+
+1. 下架已結束的項目（`node tools/daily.js prune`）
+2. 重新查證快開始、部分查證、太久沒查的項目
+3. 3 位研究員從社群找線索（一定包含 **Threads**，另外有 Instagram、Facebook、TikTok、Reddit、OzBargain、X 和各地官方 what's on 頁面），再到官方頁面確認
+4. 另一位沒參與蒐集的查證員逐筆重新查證，只有通過的才上架（網站會標「新上架」3 天）
+5. 檢查格式、保護機制（筆數暴跌就不上線）後推送到 GitHub，Cloudflare 自動上線
+
+只在雲端更新，桌面資料夾不會自動變；要讓資料夾變成最新版，跟 Claude 說「同步」。
+
+相關檔案：`tools/DAILY.md`（流程）、`tools/SCHEMA.md`（格式與收錄規則）、`tools/VERIFY.md`（查證規則）、`tools/daily.js`（小工具）。
+
 ## 資料欄位（data/items.json）
 
 | 欄位 | 說明 |
@@ -39,6 +53,7 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 | `price_zh` `free` `highlight` | 價格文字、是否免費、短標籤 |
 | `summary_zh` `tip_zh` | 介紹與小提醒（只寫官方頁面看得到的內容） |
 | `sources` | 來源清單，`kind` 是 `official`／`social`／`community`／`news`，至少要一個 `official` |
+| `added` | 每日任務新增的日期，網站顯示「新上架」3 天 |
 | `verified` | `status`：`verified`（日期、價格、地點都在官方頁面確認）或 `partial`（要寫 `unconfirmed_zh` 說明哪裡還沒確認）；`checked` 是核對日期 |
 
 ## 收錄與查證規則

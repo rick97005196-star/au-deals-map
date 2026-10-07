@@ -28,6 +28,8 @@ for (const it of data.items) {
   if (!isDate(it.start)) e('start 日期格式要是 YYYY-MM-DD');
   if (it.end !== null && !isDate(it.end)) e('end 日期格式要是 YYYY-MM-DD 或 null');
   if (it.end && it.end < it.start) e('end 早於 start');
+  if (it.added !== undefined && !isDate(it.added)) e('added 日期格式要是 YYYY-MM-DD');
+  if (/今天|明天|本週|下週|剩\s*\d|倒數/.test(it.highlight || '')) e('highlight 不能寫會過期的字（今天、本週、剩 N 天…）');
   if (it.region !== 'AU' && !it.area_zh && (typeof it.lat !== 'number' || typeof it.lng !== 'number')) e('缺少座標 lat/lng');
   if (typeof it.lat === 'number' && (it.lat > -9 || it.lat < -44 || it.lng < 112 || it.lng > 155)) e('座標不在澳洲');
   if (!Array.isArray(it.sources) || !it.sources.some((s) => s.kind === 'official')) e('至少要有一個 official 來源');
