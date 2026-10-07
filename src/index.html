@@ -5,11 +5,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap">
 <style>/*__LEAFLET_CSS__*/</style>
 <style>
-/* Layout: a white atlas. Left column (intro → region grid → filters → timetable list) scrolls; the map stays fixed on the right.
-   Phones stack intro → regions → map → filters → list. */
+/* Layout: white atlas. Full-width filter bar on top (regions, search, refinements);
+   below it a reading column for the timetable list and the map beside it. Phones: intro → filters → map → list. */
 :root{
   --bg:#FFFFFF; --tint:#F6F7F5; --tint-2:#EEF0ED;
-  --ink:#121A17; --ink-2:#38443F; --muted:#68746F; --faint:#99A39E;
+  --ink:#121A17; --ink-2:#38443F; --muted:#66726D; --faint:#99A39E;
   --line:#E3E6E2; --line-2:#EEF0ED; --line-strong:#C9CFCA;
   --sea:#EDF1EF; --land:#FFFFFF; --land-hover:#F2F6F4; --land-sel:#E2EDE9; --border-land:#C3CBC6;
   --event:#1D5E78; --event-soft:#E8F1F5;
@@ -23,7 +23,8 @@
   --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
   --r:6px;
-  --tile-filter:grayscale(.92) contrast(.88) brightness(1.06);
+  --gutter:28px;
+  --tile-filter:grayscale(1) contrast(.78) brightness(1.1);
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -35,88 +36,82 @@ a{color:inherit}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
 .mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums;letter-spacing:.01em}
 
-/* ---------- shell ---------- */
+/* ---------- header ---------- */
 .shell{display:flex;flex-direction:column;min-height:100%}
-.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 24px;border-bottom:1px solid var(--line);background:var(--bg)}
-.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.top{display:flex;align-items:center;gap:20px;padding:14px var(--gutter);border-bottom:1px solid var(--line);background:var(--bg)}
+.brand{display:flex;align-items:center;gap:12px;min-width:0;flex:none}
 .brand svg{flex:none}
 .brand-name{font-family:var(--f-display);font-weight:700;font-size:21px;letter-spacing:.06em;line-height:1.2;margin:0;white-space:nowrap}
-.brand-sub{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:3px}
-.linkbtn{display:inline-flex;align-items:center;gap:7px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);padding:7px 12px;cursor:pointer;font-size:13px;color:var(--ink-2);white-space:nowrap}
+.brand-sub{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:3px;white-space:nowrap}
+.meta{flex:1;display:flex;justify-content:flex-end;align-items:center;gap:0 8px;margin:0;font-size:13px;color:var(--muted);min-width:0}
+.meta b{color:var(--ink);font-weight:500}
+.meta .long::before{content:"·";margin:0 8px 0 2px;color:var(--faint)}
+.live{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px var(--ok-soft);flex:none}
+.linkbtn{display:inline-flex;align-items:center;gap:7px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);height:36px;padding:0 12px;cursor:pointer;font-size:13px;color:var(--ink-2);white-space:nowrap;flex:none}
 .linkbtn:hover{border-color:var(--line-strong);color:var(--ink)}
 .linkbtn i{width:16px;height:16px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-style:normal;font-size:10px}
+.intro{display:none}
 
-.body{flex:1;display:grid;grid-template-columns:minmax(400px,460px) 1fr;min-height:0}
-.panel{min-height:0;overflow-y:auto;border-right:1px solid var(--line);background:var(--bg)}
+/* ---------- filter bar ---------- */
+.filters{display:grid;gap:12px;padding:16px var(--gutter);border-bottom:1px solid var(--line);background:var(--bg)}
+.regiongrid{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:6px}
+.rg{display:flex;align-items:center;gap:8px;height:42px;padding:0 12px;text-align:left;border:1px solid var(--line);border-radius:var(--r);background:var(--bg);cursor:pointer;transition:border-color .15s,background .15s;min-width:0}
+.rg:hover{border-color:var(--line-strong);background:var(--tint)}
+.rg .code{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;color:var(--muted)}
+.rg-name{font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.rg .n{margin-left:auto;font-family:var(--f-mono);font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
+.rg[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.rg[aria-pressed="true"] .code,.rg[aria-pressed="true"] .n{color:rgba(255,255,255,.65)}
+.refine{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.search{position:relative;flex:1 1 280px;max-width:420px}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.search input{width:100%;height:38px;padding:0 36px;border:1px solid var(--line);border-radius:var(--r);background:var(--tint);font-size:14.5px;outline:none;transition:border-color .15s,background .15s}
+.search input::placeholder{color:var(--faint)}
+.search input::-webkit-search-cancel-button{display:none}
+.search input:focus{border-color:var(--ink-2);background:var(--bg)}
+.search .clear{position:absolute;right:4px;top:50%;transform:translateY(-50%);width:30px;height:30px;border:0;background:none;border-radius:4px;color:var(--muted);cursor:pointer}
+.seg{display:inline-flex;padding:2px;border:1px solid var(--line);border-radius:var(--r);background:var(--bg)}
+.seg button{border:0;background:none;height:32px;padding:0 13px;border-radius:4px;font-size:13.5px;color:var(--ink-2);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+.seg button:hover{background:var(--tint)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.seg .sw{width:7px;height:7px;border-radius:2px}
+.toggle,.select{height:38px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);font-size:13.5px;cursor:pointer;color:var(--ink-2)}
+.toggle{padding:0 12px;display:inline-flex;align-items:center;gap:7px}
+.toggle::before{content:"";width:13px;height:13px;border:1.5px solid var(--line-strong);border-radius:3px;background:var(--bg)}
+.toggle[aria-pressed="true"]{border-color:var(--ok);color:var(--ok);background:var(--ok-soft)}
+.toggle[aria-pressed="true"]::before{background:var(--ok) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2 5.2l2 2L8 3' fill='none' stroke='white' stroke-width='1.6'/%3E%3C/svg%3E") center/10px no-repeat;border-color:var(--ok)}
+.select{appearance:none;background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%2366726D' stroke-width='1.4'/%3E%3C/svg%3E") no-repeat right 11px center;padding:0 30px 0 12px}
+.toggle:hover,.select:hover{border-color:var(--line-strong)}
+
+/* ---------- body: list + map ---------- */
+.body{flex:1;display:grid;grid-template-columns:minmax(460px,600px) 1fr;min-height:0}
+.listwrap{min-height:0;overflow-y:auto;border-right:1px solid var(--line);background:var(--bg)}
 .mapwrap{position:relative;min-height:0;background:var(--sea)}
 #map{position:absolute;inset:0;background:var(--sea)}
 @media (min-width:961px){ html,body{overflow:hidden} .shell{height:100%} }
 
-/* ---------- intro ---------- */
-.intro{padding:26px 24px 6px}
-.eyebrow{display:flex;align-items:center;gap:8px;margin:0;font-size:12.5px;color:var(--muted)}
-.eyebrow .live{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px var(--ok-soft)}
-.headline{font-family:var(--f-display);font-weight:700;font-size:25px;line-height:1.4;letter-spacing:.02em;margin:10px 0 6px;text-wrap:balance}
-.sub{margin:0;font-size:13.5px;line-height:1.75;color:var(--muted)}
-.sub b{color:var(--ink);font-weight:500}
-
-/* ---------- region grid ---------- */
-.regionsel{padding:18px 24px 4px}
-.label{font-size:12px;font-weight:500;color:var(--ink-2);margin:0 0 8px;letter-spacing:.04em}
-.regiongrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
-.rg{display:grid;gap:1px;text-align:left;padding:8px 10px 9px;border:1px solid var(--line);border-radius:var(--r);background:var(--bg);cursor:pointer;transition:border-color .15s,background .15s;min-width:0}
-.rg:hover{border-color:var(--line-strong);background:var(--tint)}
-.rg-top{display:flex;justify-content:space-between;align-items:baseline;gap:6px}
-.rg .code{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted)}
-.rg .n{font-family:var(--f-mono);font-size:11.5px;color:var(--faint);font-variant-numeric:tabular-nums}
-.rg-name{font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.rg[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
-.rg[aria-pressed="true"] .code,.rg[aria-pressed="true"] .n{color:rgba(255,255,255,.65)}
-
-/* ---------- filters ---------- */
-.controls{padding:16px 24px 18px;display:grid;gap:10px;border-bottom:1px solid var(--line)}
-.search{position:relative}
-.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
-.search input{width:100%;height:42px;padding:0 38px;border:1px solid var(--line);border-radius:var(--r);background:var(--tint);font-size:15px;outline:none;transition:border-color .15s,background .15s}
-.search input::placeholder{color:var(--faint)}
-.search input::-webkit-search-cancel-button{display:none}
-.search input:focus{border-color:var(--ink-2);background:var(--bg)}
-.search .clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:30px;height:30px;border:0;background:none;border-radius:4px;color:var(--muted);cursor:pointer}
-.row{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
-.seg{display:inline-flex;padding:2px;border:1px solid var(--line);border-radius:var(--r);background:var(--bg)}
-.seg button{border:0;background:none;height:30px;padding:0 12px;border-radius:4px;font-size:13.5px;color:var(--ink-2);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.seg button:hover{background:var(--tint)}
-.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
-.seg .sw{width:7px;height:7px;border-radius:2px}
-.toggle,.select{height:36px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);font-size:13.5px;cursor:pointer;color:var(--ink-2)}
-.toggle{padding:0 12px;display:inline-flex;align-items:center;gap:6px}
-.toggle::before{content:"";width:12px;height:12px;border:1.5px solid var(--line-strong);border-radius:3px;background:var(--bg)}
-.toggle[aria-pressed="true"]{border-color:var(--ok);color:var(--ok);background:var(--ok-soft)}
-.toggle[aria-pressed="true"]::before{background:var(--ok) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2 5.2l2 2L8 3' fill='none' stroke='white' stroke-width='1.6'/%3E%3C/svg%3E") center/10px no-repeat;border-color:var(--ok)}
-.select{appearance:none;background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%2368746F' stroke-width='1.4'/%3E%3C/svg%3E") no-repeat right 11px center;padding:0 30px 0 12px}
-.toggle:hover,.select:hover{border-color:var(--line-strong)}
-
 /* ---------- list ---------- */
-.listhead{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:18px 24px 4px}
-.count{font-size:13px;color:var(--muted)}
-.count b{font-family:var(--f-mono);color:var(--ink);font-weight:500;font-size:14px}
-.section-h{display:flex;align-items:center;gap:10px;padding:18px 24px 6px;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;color:var(--muted)}
+.listhead{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px var(--gutter);background:var(--bg);border-bottom:1px solid var(--line-2)}
+.count{font-size:13.5px;color:var(--muted)}
+.count b{font-family:var(--f-mono);color:var(--ink);font-weight:500;font-size:14.5px}
+.listhead .select{height:34px}
+.section-h{display:flex;align-items:center;gap:10px;padding:20px var(--gutter) 6px;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.1em;color:var(--muted)}
 .section-h::after{content:"";flex:1;height:1px;background:var(--line)}
-.section-h .zh{font-family:var(--f-body);letter-spacing:.06em;font-size:12.5px;color:var(--ink);font-weight:500}
+.section-h .zh{font-family:var(--f-body);letter-spacing:.06em;font-size:13px;color:var(--ink);font-weight:700}
 
-.card{margin:0 12px;border-radius:10px;border:1px solid transparent;transition:background .15s}
+.card{margin:0 16px;border-radius:10px;border:1px solid transparent;transition:background .15s;scroll-margin-top:64px}
 .card + .card{border-top-color:var(--line-2);border-top-left-radius:0;border-top-right-radius:0}
 .card.is-open{background:var(--tint);border-color:var(--line);border-radius:10px}
 .card.is-open + .card{border-top-color:transparent}
-.card-hit{display:grid;grid-template-columns:50px 1fr;gap:14px;width:100%;text-align:left;background:none;border:0;padding:16px 12px;cursor:pointer;border-radius:10px}
+.card-hit{display:grid;grid-template-columns:52px 1fr;gap:16px;width:100%;text-align:left;background:none;border:0;padding:18px 12px;cursor:pointer;border-radius:10px}
 .card:not(.is-open) .card-hit:hover{background:var(--tint)}
-.stub{display:flex;flex-direction:column;align-items:center;padding-top:2px;border-right:1px solid var(--line);padding-right:12px;min-height:58px}
+.stub{display:flex;flex-direction:column;align-items:center;padding-top:2px;border-right:1px solid var(--line);padding-right:14px;min-height:60px}
 .stub .m{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.14em;color:var(--muted)}
-.stub .d{font-family:var(--f-display);font-weight:700;font-size:26px;line-height:1.05;margin-top:3px}
+.stub .d{font-family:var(--f-display);font-weight:700;font-size:27px;line-height:1.05;margin-top:3px}
 .stub .d.word{font-size:15px;line-height:1.3;margin-top:5px}
-.stub .l{font-size:11px;color:var(--muted);margin-top:4px}
-.card-main{min-width:0;display:grid;gap:4px}
-.card-meta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.stub .l{font-size:11.5px;color:var(--muted);margin-top:4px}
+.card-main{min-width:0;display:grid;gap:5px}
+.card-meta{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
 .type{display:inline-flex;align-items:center;gap:6px;font-weight:500}
 .type::before{content:"";width:8px;height:8px;border-radius:2px;background:currentColor}
 .type--event{color:var(--event)}
@@ -124,49 +119,49 @@ a{color:inherit}
 .type--deal::before{border-radius:50%;background:var(--deal-pin)}
 .rcode{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;border:1px solid var(--line-strong);border-radius:3px;padding:0 5px;color:var(--ink-2);line-height:17px}
 .rcode.au{border-color:var(--ink);background:var(--ink);color:#fff}
-.hot{font-size:11.5px;color:var(--urgent);font-weight:500}
-.new{font-size:11.5px;color:var(--ok);font-weight:500}
-.card-title{font-family:var(--f-display);font-weight:700;font-size:17.5px;line-height:1.45;margin:2px 0 0;text-wrap:balance;letter-spacing:.01em}
-.card-en{margin:0;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.facts-line{display:flex;gap:4px 10px;flex-wrap:wrap;font-size:13px;color:var(--ink-2)}
-.facts-line .mono{font-size:12.5px}
+.hot{font-size:12px;color:var(--urgent);font-weight:500}
+.new{font-size:12px;color:var(--ok);font-weight:500}
+.card-title{font-family:var(--f-display);font-weight:700;font-size:19px;line-height:1.45;margin:2px 0 0;text-wrap:balance;letter-spacing:.01em}
+.card-en{margin:0;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.facts-line{display:flex;gap:4px 10px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
+.facts-line .mono{font-size:13px}
 .where{color:var(--muted)}
-.card-foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px;font-size:13px}
-.status{display:inline-flex;align-items:center;gap:6px;font-size:12px;height:22px;padding:0 8px;border-radius:4px;background:var(--tint-2);color:var(--ink-2);white-space:nowrap}
+.card-foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px;font-size:13.5px}
+.status{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;height:24px;padding:0 9px;border-radius:4px;background:var(--tint-2);color:var(--ink-2);white-space:nowrap}
 .status::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
 .status--now{background:var(--ok-soft);color:var(--ok)}
 .status--urgent{background:var(--urgent-soft);color:var(--urgent)}
 .status--soon{background:var(--event-soft);color:var(--event)}
 .price{color:var(--ink);font-weight:500}
 .price.free{color:var(--ok)}
-.hl{font-size:12px;color:var(--deal);background:var(--deal-soft);height:22px;line-height:22px;padding:0 8px;border-radius:4px;white-space:nowrap}
-.vmini{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;color:var(--ok)}
+.hl{font-size:12.5px;color:var(--deal);background:var(--deal-soft);height:24px;line-height:24px;padding:0 9px;border-radius:4px;white-space:nowrap}
+.vmini{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:var(--ok)}
 .vmini.part{color:var(--part)}
 
-.detail{padding:0 18px 20px 76px;display:grid;gap:16px;animation:open .2s ease-out}
+.detail{padding:0 20px 22px 80px;display:grid;gap:16px;animation:open .2s ease-out}
 @keyframes open{from{opacity:.4;transform:translateY(-3px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.detail{animation:none}}
 .detail p{margin:0}
-.summary{font-size:14.5px;line-height:1.85;color:var(--ink-2);max-width:62ch}
-.tip{border-left:2px solid var(--deal-pin);padding:2px 0 2px 12px;font-size:13.5px;line-height:1.75;color:var(--ink-2)}
-.tip b{display:block;font-size:11.5px;letter-spacing:.1em;color:var(--deal);font-weight:500;margin-bottom:2px}
-.kv{display:grid;grid-template-columns:auto 1fr;gap:7px 16px;font-size:13.5px;margin:0;padding:12px 14px;background:var(--bg);border:1px solid var(--line);border-radius:8px}
-.kv dt{color:var(--muted);font-size:12.5px;padding-top:1px}
+.summary{font-size:15px;line-height:1.9;color:var(--ink-2);max-width:60ch}
+.tip{border-left:2px solid var(--deal-pin);padding:2px 0 2px 12px;font-size:14px;line-height:1.8;color:var(--ink-2)}
+.tip b{display:block;font-size:12px;letter-spacing:.1em;color:var(--deal);font-weight:500;margin-bottom:2px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px;margin:0;padding:12px 14px;background:var(--bg);border:1px solid var(--line);border-radius:8px}
+.kv dt{color:var(--muted);font-size:13px;padding-top:1px}
 .kv dd{margin:0;min-width:0}
 .actions{display:flex;gap:8px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:6px;height:34px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);padding:0 12px;font-size:13px;text-decoration:none;cursor:pointer;color:var(--ink)}
 .btn:hover{border-color:var(--line-strong)}
-.h5{font-size:12px;font-weight:500;letter-spacing:.06em;color:var(--ink-2);margin:0 0 6px}
+.h5{font-size:12.5px;font-weight:500;letter-spacing:.06em;color:var(--ink-2);margin:0 0 6px}
 .sources{list-style:none;margin:0;padding:0;display:grid;border:1px solid var(--line);border-radius:8px;background:var(--bg);overflow:hidden}
 .sources li + li{border-top:1px solid var(--line-2)}
-.sources a{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:baseline;padding:9px 12px;text-decoration:none;font-size:13.5px}
+.sources a{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:9px 12px;text-decoration:none;font-size:13.5px}
 .sources a:hover{background:var(--tint)}
 .sources .k{font-size:11px;padding:0 6px;line-height:18px;border-radius:3px;border:1px solid var(--line-strong);color:var(--muted);white-space:nowrap}
 .sources .k.k-official{border-color:var(--ink);background:var(--ink);color:#fff}
 .sources .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .sources .t small{color:var(--muted);margin-left:6px;font-size:12px}
 .sources .ext{color:var(--faint);font-size:12px}
-.verify{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:12px 14px;border-radius:8px;font-size:13px;line-height:1.7}
+.verify{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:12px 14px;border-radius:8px;font-size:13.5px;line-height:1.7}
 .verify.ok{background:var(--ok-soft)}
 .verify.part{background:var(--part-soft)}
 .verify .ic{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;margin-top:1px}
@@ -176,60 +171,54 @@ a{color:inherit}
 .verify.ok b{color:var(--ok)}
 .verify.part b{color:var(--part)}
 
-.empty{padding:40px 24px;text-align:center;color:var(--muted)}
+.empty{padding:48px 24px;text-align:center;color:var(--muted)}
 .empty h4{font-family:var(--f-display);font-size:18px;color:var(--ink);margin:0 0 6px}
-.social{margin:28px 24px 8px;padding:18px;border-radius:10px;background:var(--tint)}
+.social{margin:32px var(--gutter) 8px;padding:18px;border-radius:10px;background:var(--tint)}
 .social h4{margin:0 0 4px;font-family:var(--f-display);font-size:16px}
 .social p{margin:0 0 12px;font-size:13px;color:var(--muted);line-height:1.7}
 .social .kw{color:var(--ink);font-weight:500}
-.social-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:6px}
+.social-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:6px}
 .social-links a{border:1px solid var(--line);background:var(--bg);border-radius:var(--r);height:36px;padding:0 12px;font-size:13px;text-decoration:none;display:flex;justify-content:space-between;align-items:center}
 .social-links a:hover{border-color:var(--ink-2)}
 .social-links a span{color:var(--faint)}
-.foot{padding:16px 24px 40px;font-size:12px;color:var(--faint);line-height:1.8}
+.foot{padding:16px var(--gutter) 40px;font-size:12px;color:var(--faint);line-height:1.8}
 
 /* ---------- map ---------- */
 .leaflet-container{background:var(--sea);font-family:var(--f-body)}
 .leaflet-tile-pane{filter:var(--tile-filter)}
+.leaflet-tile-container img.leaflet-tile{width:256.5px!important;height:256.5px!important}
 .state{fill:var(--land);stroke:var(--border-land);stroke-width:1;fill-opacity:1;cursor:pointer;transition:fill .2s,fill-opacity .2s}
 .state:hover{fill:var(--land-hover)}
 .state.is-sel{fill:var(--land-sel);stroke:var(--ink-2);stroke-width:1.4}
 .state.is-dim{fill-opacity:.55}
-.tiles-on .state{fill-opacity:0;stroke:var(--ink-2);stroke-opacity:.4;stroke-width:1}
-.tiles-on .state:hover{fill:var(--land-hover);fill-opacity:.25}
-.tiles-on .state.is-sel{fill:var(--land-sel);fill-opacity:.15;stroke-opacity:.8}
+.tiles-on .state{fill-opacity:0;stroke:var(--ink-2);stroke-opacity:.35;stroke-width:1}
+.tiles-on .state:hover{fill-opacity:0}
+.tiles-on .state.is-sel{fill-opacity:0;stroke-opacity:.6}
 .tiles-on .state.is-dim{fill-opacity:0}
 .st-label{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted);white-space:nowrap;text-align:center;pointer-events:none;line-height:1.3}
 .st-label.zero{opacity:.45}
 .st-label b{display:block;font-family:var(--f-display);font-size:15px;letter-spacing:0;color:var(--ink-2);font-weight:700}
 .leaflet-marker-icon.st-wrap{background:none;border:0}
-.pin{display:block;width:16px;height:16px;border-radius:50%;border:2.5px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.28);transition:transform .15s}
+.pin{display:block;width:20px;height:20px;border-radius:50%;border:3px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.35);transition:transform .15s}
 .pin.event{background:var(--event)}
 .pin.deal{background:var(--deal-pin)}
-.pin:hover{transform:scale(1.25)}
-.pin.is-active{transform:scale(1.45);box-shadow:0 0 0 5px rgba(18,26,23,.16),0 1px 4px rgba(0,0,0,.3)}
+.pin:hover{transform:scale(1.2)}
+.pin.is-active{transform:scale(1.35);box-shadow:0 0 0 6px rgba(18,26,23,.18),0 1px 5px rgba(0,0,0,.35)}
 .leaflet-marker-icon.pin-wrap,.leaflet-marker-icon.cl-wrap{background:none;border:0}
-.cl{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:13px;font-weight:500;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.22)}
-.cl.lg{width:40px;height:40px}
-.leaflet-tooltip.tt{background:var(--bg);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:6px;padding:6px 10px;font-size:13px;font-family:var(--f-body)}
+.cl{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:13px;font-weight:500;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.cl.lg{width:42px;height:42px}
+.leaflet-tooltip.tt{background:var(--bg);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:6px;padding:7px 11px;font-size:13.5px;font-family:var(--f-body)}
 .leaflet-tooltip.tt::before{display:none}
-.leaflet-tooltip.tt small{display:block;color:var(--muted);font-size:11.5px}
+.leaflet-tooltip.tt small{display:block;color:var(--muted);font-size:12px}
 .leaflet-bar a,.leaflet-bar a:hover{background:var(--bg);color:var(--ink);border-bottom-color:var(--line)}
 .leaflet-bar{border:1px solid var(--line)!important;box-shadow:var(--shadow)!important;border-radius:8px!important;overflow:hidden}
 .leaflet-control-attribution{background:rgba(255,255,255,.85)!important;color:var(--muted)!important;font-size:10px}
 .leaflet-control-attribution a{color:var(--ink-2)!important}
-.legend{position:absolute;left:14px;top:14px;z-index:500;display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:8px;padding:7px 12px;font-size:12.5px;color:var(--ink-2)}
+.maptools{position:absolute;left:14px;top:14px;z-index:500;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.legend{display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:8px;height:36px;padding:0 12px;font-size:13px;color:var(--ink-2)}
 .legend span{display:inline-flex;align-items:center;gap:6px}
-.legend i{width:10px;height:10px;border-radius:50%;display:inline-block;border:2px solid #fff;box-shadow:0 0 0 1px var(--line-strong)}
-.regioncard{position:absolute;left:14px;bottom:14px;z-index:500;max-width:min(340px,calc(100% - 28px));background:var(--bg);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:10px;padding:14px 16px;font-size:13px}
-.regioncard h3{margin:0;font-family:var(--f-display);font-size:18px;display:flex;align-items:baseline;gap:8px}
-.regioncard h3 .mono{font-size:10.5px;color:var(--muted);letter-spacing:.12em;font-weight:400}
-.regioncard p{margin:4px 0 0;color:var(--muted)}
-.regioncard .areas{margin-top:10px;padding-top:10px;border-top:1px solid var(--line-2);display:grid;gap:5px}
-.regioncard .areas button{all:unset;cursor:pointer;font-size:12.5px;color:var(--ink-2);display:flex;gap:7px;align-items:baseline}
-.regioncard .areas button:hover{color:var(--ink);text-decoration:underline}
-.regioncard .areas i{width:7px;height:7px;border-radius:50%;background:var(--deal-pin);flex:none;transform:translateY(-1px)}
-.regioncard .back{margin-top:12px}
+.legend i{width:11px;height:11px;border-radius:50%;display:inline-block;border:2px solid #fff;box-shadow:0 0 0 1px var(--line-strong)}
+.mapback{box-shadow:var(--shadow);height:36px}
 
 /* ---------- dialog ---------- */
 dialog{border:1px solid var(--line);border-radius:12px;padding:0;max-width:min(560px,calc(100% - 32px));background:var(--bg);color:var(--ink);box-shadow:var(--shadow)}
@@ -246,33 +235,52 @@ dialog::backdrop{background:rgba(18,26,23,.35)}
 .dlg .close{float:right;margin:-10px -10px 0 0;width:34px;height:34px;border:0;background:none;border-radius:6px;cursor:pointer;color:var(--muted);font-size:20px}
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:9px 14px;border-radius:6px;font-size:13px;z-index:2000;box-shadow:var(--shadow)}
 
+/* ---------- medium widths ---------- */
+@media (min-width:961px) and (max-width:1439px){
+  .rg .code{display:none}
+}
+@media (min-width:961px) and (max-width:1240px){
+  :root{--gutter:20px}
+  .meta .long{display:none}
+  .rg{padding:0 9px;gap:6px}
+  .rg-name{font-size:13px}
+  .rg .n{font-size:11px}
+  .body{grid-template-columns:minmax(420px,1fr) minmax(360px,1fr)}
+}
 /* ---------- phones & narrow panels ---------- */
 @media (max-width:960px){
+  :root{--gutter:16px}
   .body{display:flex;flex-direction:column}
-  .panel{display:contents}
-  .intro{order:1;padding:20px 16px 2px}
-  .headline{font-size:21px;margin-top:8px}
-  .regionsel{order:2;padding:16px 16px 18px}
-  .mapwrap{order:3;height:clamp(280px,46vh,440px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .controls{order:4;padding:16px 16px 16px}
-  .listwrap{order:5}
-  .top{padding:12px 16px}
+  .meta{display:none}
+  .top{padding:12px var(--gutter)}
   .brand-name{font-size:19px}
-  .listhead,.section-h{padding-left:16px;padding-right:16px}
+  .intro{display:block;padding:20px var(--gutter) 4px}
+  .eyebrow{display:flex;align-items:center;gap:8px;margin:0;font-size:12.5px;color:var(--muted)}
+  .headline{font-family:var(--f-display);font-weight:700;font-size:21px;line-height:1.45;letter-spacing:.02em;margin:8px 0 6px;text-wrap:balance}
+  .sub{margin:0;font-size:13.5px;line-height:1.75;color:var(--muted)}
+  .sub b{color:var(--ink);font-weight:500}
+  .filters{border-bottom:0;padding-bottom:18px}
+  .regiongrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .rg{display:grid;grid-template-columns:1fr auto;grid-template-areas:"code n" "name name";align-items:baseline;gap:1px 6px;height:auto;padding:8px 10px 9px}
+  .rg .code{grid-area:code}
+  .rg .n{grid-area:n;margin-left:0}
+  .rg-name{grid-area:name}
+  .search{flex:1 1 100%;max-width:none}
+  .search input{height:42px;font-size:15px}
+  .mapwrap{order:1;height:clamp(280px,46vh,440px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .listwrap{order:2;overflow:visible;border-right:0}
+  .listhead{position:static;background:var(--bg)}
   .card{margin:0 4px}
   .detail{padding:0 12px 18px 12px}
-  .social{margin:28px 16px 8px}
-  .foot{padding:16px 16px 40px}
-  .legend{left:10px;top:10px;padding:5px 10px}
-  .regioncard{left:10px;bottom:10px;padding:10px 12px}
-  .regioncard .areas{display:none}
+  .maptools{left:10px;top:10px}
 }
 @media (max-width:480px){
   .brand-sub{display:none}
   .brand-name{font-size:18px;letter-spacing:.04em}
-  .linkbtn{padding:6px 10px;font-size:12.5px}
+  .linkbtn{padding:0 10px;font-size:12.5px}
   .rg{padding:7px 8px 8px}
   .rg-name{font-size:13.5px}
+  .card-title{font-size:18px}
 }
 </style>
 
@@ -290,60 +298,60 @@ dialog::backdrop{background:rgba(18,26,23,.35)}
         <div class="brand-sub">Australia · Deals &amp; Events</div>
       </div>
     </div>
+    <p class="meta"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono js-updated"></span></span><span class="long">收錄 <b class="mono js-count"></b> 筆，其中 <b class="mono js-verified"></b> 筆已完整查證</span></p>
     <button class="linkbtn" id="howBtn" type="button"><i aria-hidden="true">✓</i>查證方式</button>
   </header>
 
+  <section class="intro">
+    <p class="eyebrow"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono js-updated"></span>・每日清晨自動更新</span></p>
+    <h2 class="headline">澳洲各州進行中的活動與優惠</h2>
+    <p class="sub">目前收錄 <b class="mono js-count"></b> 筆，每筆均附官方來源，其中 <b class="mono js-verified"></b> 筆的日期、價格與地點已完整查證。</p>
+  </section>
+
+  <section class="filters" aria-label="篩選">
+    <div class="regiongrid" id="regions" role="group" aria-label="地區"></div>
+    <div class="refine">
+      <div class="search">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <input id="q" type="search" autocomplete="off" placeholder="搜尋活動名稱、品牌或城市" aria-label="搜尋">
+        <button class="clear" id="qClear" type="button" aria-label="清除搜尋" hidden>✕</button>
+      </div>
+      <div class="seg" role="group" aria-label="類型">
+        <button type="button" data-type="all" aria-pressed="true">全部</button>
+        <button type="button" data-type="event" aria-pressed="false"><span class="sw" style="background:var(--event)"></span>活動</button>
+        <button type="button" data-type="deal" aria-pressed="false"><span class="sw" style="background:var(--deal-pin);border-radius:50%"></span>特價</button>
+      </div>
+      <button class="toggle" id="freeBtn" type="button" aria-pressed="false">僅顯示免費</button>
+      <select class="select" id="when" aria-label="時間">
+        <option value="any">所有日期</option>
+        <option value="now">進行中</option>
+        <option value="weekend">本週末</option>
+        <option value="30">30 天內開始</option>
+      </select>
+      <select class="select" id="cats" aria-label="類別"></select>
+    </div>
+  </section>
+
   <div class="body">
-    <aside class="panel">
-      <section class="intro">
-        <p class="eyebrow"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono" id="updated"></span>・每日清晨自動更新</span></p>
-        <h2 class="headline">澳洲各州進行中的活動與優惠</h2>
-        <p class="sub">目前收錄 <b class="mono" id="itemCount"></b> 筆，每筆均附官方來源，其中 <b class="mono" id="verifiedCount"></b> 筆的日期、價格與地點已完整查證。</p>
-      </section>
-      <section class="regionsel" aria-labelledby="regionLabel">
-        <p class="label" id="regionLabel">地區</p>
-        <div class="regiongrid" id="regions" role="group" aria-labelledby="regionLabel"></div>
-      </section>
-      <div class="controls">
-        <div class="search">
-          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-          <input id="q" type="search" autocomplete="off" placeholder="搜尋活動名稱、品牌或城市" aria-label="搜尋">
-          <button class="clear" id="qClear" type="button" aria-label="清除搜尋" hidden>✕</button>
-        </div>
-        <div class="row">
-          <div class="seg" role="group" aria-label="類型">
-            <button type="button" data-type="all" aria-pressed="true">全部</button>
-            <button type="button" data-type="event" aria-pressed="false"><span class="sw" style="background:var(--event)"></span>活動</button>
-            <button type="button" data-type="deal" aria-pressed="false"><span class="sw" style="background:var(--deal-pin);border-radius:50%"></span>特價</button>
-          </div>
-          <button class="toggle" id="freeBtn" type="button" aria-pressed="false">僅顯示免費</button>
-          <select class="select" id="when" aria-label="時間">
-            <option value="any">所有日期</option>
-            <option value="now">進行中</option>
-            <option value="weekend">本週末</option>
-            <option value="30">30 天內開始</option>
-          </select>
-          <select class="select" id="cats" aria-label="類別"></select>
-        </div>
+    <div class="listwrap" id="listwrap">
+      <div class="listhead">
+        <div class="count" id="count"></div>
+        <select class="select" id="sort" aria-label="排序">
+          <option value="smart">依截止日期</option>
+          <option value="start">依開始日期</option>
+          <option value="hot" id="sortHot" hidden>依瀏覽次數</option>
+        </select>
       </div>
-      <div class="listwrap" id="listwrap">
-        <div class="listhead">
-          <div class="count" id="count"></div>
-          <select class="select" id="sort" aria-label="排序">
-            <option value="smart">依截止日期</option>
-            <option value="start">依開始日期</option>
-            <option value="hot" id="sortHot" hidden>依瀏覽次數</option>
-          </select>
-        </div>
-        <div id="list"></div>
-        <section class="social" id="social"></section>
-        <div class="foot" id="foot"></div>
-      </div>
-    </aside>
+      <div id="list"></div>
+      <section class="social" id="social"></section>
+      <div class="foot" id="foot"></div>
+    </div>
     <section class="mapwrap" aria-label="地圖">
       <div id="map"></div>
-      <div class="legend" aria-hidden="true"><span><i style="background:var(--event)"></i>活動</span><span><i style="background:var(--deal-pin)"></i>特價</span></div>
-      <div class="regioncard" id="regioncard" hidden></div>
+      <div class="maptools">
+        <div class="legend" aria-hidden="true"><span><i style="background:var(--event)"></i>活動</span><span><i style="background:var(--deal-pin)"></i>特價</span></div>
+        <button type="button" class="btn mapback" id="mapBack" data-region="AU" hidden>顯示全澳洲</button>
+      </div>
     </section>
   </div>
 </div>
@@ -385,7 +393,7 @@ const REGIONS = [
   {code:'SA',  zh:'南澳',       en:'South Australia',   city:'Adelaide',  label:[-29.6,135.2]},
   {code:'WA',  zh:'西澳',       en:'Western Australia', city:'Perth',     label:[-25.6,121.6]},
   {code:'TAS', zh:'塔斯馬尼亞', en:'Tasmania',          city:'Hobart',    label:[-42.3,143.6]},
-  {code:'ACT', zh:'坎培拉',     en:'Canberra (ACT)',    city:'Canberra',  label:[-35.75,147.7]},
+  {code:'ACT', zh:'坎培拉',     en:'Canberra (ACT)',    city:'Canberra'},
   {code:'NT',  zh:'北領地',     en:'Northern Territory',city:'Darwin',    label:[-19.6,133.4]},
 ];
 const RBY = Object.fromEntries(REGIONS.map(r => [r.code, r]));
@@ -472,7 +480,7 @@ function renderRegions(){
   const base = ITEMS.filter(it => pass(it, {region:true}));
   $('regions').innerHTML = REGIONS.map(r => {
     const n = r.code === 'AU' ? base.length : base.filter(it => it.region === r.code).length;
-    return `<button type="button" class="rg" data-region="${r.code}" aria-pressed="${S.region === r.code}"><span class="rg-top"><span class="code">${r.code === 'AU' ? 'ALL' : r.code}</span><span class="n">${n}</span></span><span class="rg-name">${r.zh}</span></button>`;
+    return `<button type="button" class="rg" data-region="${r.code}" aria-pressed="${S.region === r.code}"><span class="code">${r.code === 'AU' ? 'ALL' : r.code}</span><span class="rg-name">${r.zh}</span><span class="n">${n}</span></button>`;
   }).join('');
 }
 function renderCats(){
@@ -592,7 +600,7 @@ let map, stateLayer, clusters, markers = {}, labelLayer, tiles;
 const AU_BOUNDS = [[-43.9, 112.5], [-10.4, 154]];
 function initMap(){
   if (!window.L){ $('map').innerHTML = '<div class="empty"><p>地圖載入失敗，請重新整理頁面。</p></div>'; return; }
-  map = L.map('map', {zoomControl:false, attributionControl:true, minZoom:3, maxZoom:17, zoomSnap:0.25, worldCopyJump:false, maxBounds:[[-60, 90], [5, 180]]});
+  map = L.map('map', {zoomControl:false, attributionControl:true, minZoom:3, maxZoom:17, zoomSnap:0.5, zoomDelta:1, worldCopyJump:false, maxBounds:[[-60, 90], [5, 180]]});
   map.attributionControl.setPrefix('');
   L.control.zoom({position:'topright', zoomInTitle:'放大', zoomOutTitle:'縮小'}).addTo(map);
   map.fitBounds(AU_BOUNDS, {padding:[10,10]});
@@ -612,8 +620,8 @@ function initMap(){
   }).addTo(map);
   labelLayer = L.layerGroup().addTo(map);
   clusters = L.markerClusterGroup({
-    showCoverageOnHover:false, maxClusterRadius:38, spiderfyOnMaxZoom:true, zoomToBoundsOnClick:true,
-    iconCreateFunction: c => { const n = c.getChildCount(); return L.divIcon({html:`<span class="cl${n > 9 ? ' lg' : ''}">${n}</span>`, className:'cl-wrap', iconSize:[n > 9 ? 40 : 34, n > 9 ? 40 : 34]}); }
+    showCoverageOnHover:false, maxClusterRadius:40, disableClusteringAtZoom:12, spiderfyOnMaxZoom:false, zoomToBoundsOnClick:true,
+    iconCreateFunction: c => { const n = c.getChildCount(); return L.divIcon({html:`<span class="cl${n > 9 ? ' lg' : ''}">${n}</span>`, className:'cl-wrap', iconSize:[n > 9 ? 42 : 36, n > 9 ? 42 : 36]}); }
   });
   map.addLayer(clusters);
   map.on('zoomend resize', syncLabels);
@@ -624,7 +632,7 @@ function syncLabels(){
   labelLayer.eachLayer(l => { const el = l.getElement(); if (el) el.style.visibility = hide ? 'hidden' : 'visible'; });
 }
 function pinIcon(it, active){
-  return L.divIcon({html:`<span class="pin ${it.type}${active ? ' is-active' : ''}"></span>`, className:'pin-wrap', iconSize:[16,16], iconAnchor:[8,8]});
+  return L.divIcon({html:`<span class="pin ${it.type}${active ? ' is-active' : ''}"></span>`, className:'pin-wrap', iconSize:[20,20], iconAnchor:[10,10]});
 }
 function renderMap(list){
   if (!map) return;
@@ -652,19 +660,10 @@ function renderMap(list){
     labelLayer.addLayer(L.marker(r.label, {interactive:false, keyboard:false, icon: L.divIcon({className:'st-wrap', iconSize:[80,36], iconAnchor:[40,18], html:`<div class="st-label${n ? '' : ' zero'}"><b>${n}</b>${r.code}</div>`})}));
   });
   syncLabels();
-  renderRegionCard(list);
+  renderRegionCard();
 }
-function renderRegionCard(list){
-  const card = $('regioncard');
-  if (S.region === 'AU'){ card.hidden = true; return; }
-  const R = RBY[S.region];
-  const local = list.filter(it => it.region === S.region);
-  const areas = local.filter(it => it.area_zh);
-  card.hidden = false;
-  card.innerHTML = `<h3>${R.zh}<span class="mono">${R.code}</span></h3>
-    <p>本地 ${local.length} 筆，另有全澳適用 ${list.length - local.length} 筆</p>
-    ${areas.length ? `<div class="areas">${areas.map(a => `<button type="button" data-open="${esc(a.id)}"><i></i>${esc(a.title_zh)}・${esc(a.area_zh)}</button>`).join('')}</div>` : ''}
-    <div class="back"><button type="button" class="btn" data-region="AU">顯示全澳洲</button></div>`;
+function renderRegionCard(){
+  $('mapBack').hidden = S.region === 'AU';
 }
 function fitRegion(code){
   if (!map) return;
@@ -702,18 +701,15 @@ function openItem(id, opts){
     track('open', id);
     const el = document.getElementById('c-' + id);
     if (el){
-      const wide = matchMedia('(min-width:961px)').matches;
-      if (opts.fromMap || !isInView(el)) el.scrollIntoView({behavior: wide ? 'smooth' : 'smooth', block: wide ? 'nearest' : 'start'});
-      el.querySelector('.card-hit').focus({preventScroll:true});
+      el.scrollIntoView({behavior:'smooth', block: (opts.fromMap || opts.boot) ? 'start' : 'nearest'});
     }
     const m = markers[id];
     if (m && !opts.fromMap && map){
-      clusters.zoomToShowLayer(m, () => { if (map.getZoom() < 9) map.flyTo(m.getLatLng(), 10, {duration:.6}); });
+      map.flyTo(m.getLatLng(), Math.min(Math.max(map.getZoom(), 12), 13), {duration:.6});
     }
     try { history.replaceState(null, '', '#' + id); } catch(e) {}
   }
 }
-function isInView(el){ const r = el.getBoundingClientRect(); return r.top >= 0 && r.bottom <= innerHeight; }
 function syncControls(){
   document.querySelectorAll('.seg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.type === S.type));
   $('freeBtn').setAttribute('aria-pressed', S.free);
@@ -769,10 +765,10 @@ function track(t, k){
 
 /* ---------- boot ---------- */
 const upd = dn(DATA.updated);
-$('updated').textContent = mdy(upd) + '（' + wd(upd) + '）';
+document.querySelectorAll('.js-updated').forEach(e => e.textContent = mdy(upd) + '（' + wd(upd) + '）');
 const live = ITEMS.filter(i => status(i).k !== 'ended');
-$('itemCount').textContent = live.length;
-$('verifiedCount').textContent = live.filter(i => i.verified.status === 'verified').length;
+document.querySelectorAll('.js-count').forEach(e => e.textContent = live.length);
+document.querySelectorAll('.js-verified').forEach(e => e.textContent = live.filter(i => i.verified.status === 'verified').length);
 $('foot').innerHTML = `資料每日清晨自動更新，最後核對日期：${esc(DATA.updated.replace(/-/g,'/'))}。活動與優惠內容可能異動，請以主辦單位及品牌之官方公告為準。本站僅整理公開資訊，與各品牌及主辦單位無隸屬關係。`;
 initMap();
 const hash = decodeURIComponent(location.hash.slice(1));
@@ -780,7 +776,7 @@ if (hash && BYID[hash]) S.open = hash;
 syncControls();
 render();
 if (S.region !== 'AU') fitRegion(S.region);
-if (S.open && BYID[S.open]) setTimeout(() => { const id = S.open; S.open = null; openItem(id); }, 300);
+if (S.open && BYID[S.open]) setTimeout(() => { const id = S.open; S.open = null; openItem(id, {boot:true}); }, 300);
 track('view', S.region);
 if (CFG.api){
   fetch('/api/popular').then(r => r.ok ? r.json() : null).then(d => {
