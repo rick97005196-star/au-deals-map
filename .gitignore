@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+統計密碼.txt
+public/
+artifact/
