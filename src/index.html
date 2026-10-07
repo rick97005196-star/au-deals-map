@@ -22,6 +22,7 @@
   --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
   --r:10px;
+  --tile-filter:grayscale(.9) contrast(.9) brightness(1.04);
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -36,6 +37,7 @@
     --urgent:#E58468; --urgent-soft:#35201A;
     --focus:#71B8D4;
     --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 28px rgba(0,0,0,.35);
+    --tile-filter:invert(1) hue-rotate(180deg) grayscale(.85) brightness(.82) contrast(.9);
     color-scheme:dark;
   }
 }
@@ -51,6 +53,7 @@
   --urgent:#E58468; --urgent-soft:#35201A;
   --focus:#71B8D4;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 28px rgba(0,0,0,.35);
+  --tile-filter:invert(1) hue-rotate(180deg) grayscale(.85) brightness(.82) contrast(.9);
   color-scheme:dark;
 }
 
@@ -227,6 +230,7 @@ a{color:inherit}
 
 /* ---------- map ---------- */
 .leaflet-container{background:var(--sea);font-family:var(--f-body)}
+.leaflet-tile-pane{filter:var(--tile-filter)}
 .state{fill:var(--land);stroke:var(--border-land);stroke-width:1.2;fill-opacity:1;cursor:pointer;transition:fill .2s,fill-opacity .2s}
 .state:hover{fill:var(--land-hover)}
 .state.is-sel{fill:var(--land-sel)}
@@ -601,8 +605,7 @@ function initMap(){
   L.control.zoom({position:'topright', zoomInTitle:'放大', zoomOutTitle:'縮小'}).addTo(map);
   map.fitBounds(AU_BOUNDS, {padding:[10,10]});
   if (CFG.tiles){
-    const dark = document.documentElement.dataset.theme === 'dark' || (document.documentElement.dataset.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches);
-    tiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/' + (dark ? 'dark_all' : 'light_all') + '/{z}/{x}/{y}{r}.png', {subdomains:'abcd', maxZoom:19, minZoom:6, attribution:'© OpenStreetMap © CARTO'}).addTo(map);
+    tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, minZoom:6, attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> 貢獻者'}).addTo(map);
     let ok = 0, bad = 0;
     const sync = () => $('map').classList.toggle('tiles-on', !!tiles && map.getZoom() >= 6);
     tiles.on('tileload', () => ok++);
@@ -755,6 +758,7 @@ $('q').addEventListener('input', e => {
   qTimer = setTimeout(() => { S.q = e.target.value.trim(); $('qClear').hidden = !S.q; render(); }, 120);
   qTrack = setTimeout(() => { const v = e.target.value.trim(); if (v.length >= 2) track('search', v.toLowerCase().slice(0, 40)); }, 1500);
 });
+addEventListener('hashchange', () => { const h = decodeURIComponent(location.hash.slice(1)); if (h && BYID[h] && S.open !== h) openItem(h); });
 $('qClear').addEventListener('click', () => { $('q').value = ''; S.q = ''; syncControls(); render(); $('q').focus(); });
 $('howBtn').addEventListener('click', () => { const d = $('how'); if (d.showModal) d.showModal(); else d.setAttribute('open', ''); });
 $('how').addEventListener('click', e => { if (e.target === $('how')) $('how').close(); });
