@@ -1,4 +1,4 @@
--- 澳洲好康地圖 統計資料庫（Cloudflare D1：au-deals-map-stats）
+-- 澳洲活動優惠地圖 統計資料庫（Cloudflare D1：au-deals-map-stats）
 CREATE TABLE IF NOT EXISTS counts (
   day  TEXT NOT NULL,              -- 布里斯本日期 YYYY-MM-DD
   kind TEXT NOT NULL,              -- view / geo / device / ref / open / src / search / region / social / cat

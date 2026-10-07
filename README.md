@@ -1,11 +1,11 @@
-# 澳洲好康地圖
+# 澳洲活動優惠地圖
 
 澳洲各州正在進行的活動與特價，用一張互動地圖整理。每一筆都附官方來源，並經過獨立查證（核對 2026 年的日期、價格、地點）。
 
 - 網站：https://au-deals-map.pages.dev
 - 統計頁：https://au-deals-map.pages.dev/stats/ （需要密碼，密碼不放在這個倉庫裡）
 - 主機：Cloudflare Pages 專案 `au-deals-map`，連動 GitHub 倉庫 `rick97005196-star/au-deals-map` 的 `main` 分支
-- 風格：簡潔、有質感；地圖用 Leaflet（cdnjs），放大後疊 OpenStreetMap 底圖（灰階處理）
+- 風格：白色主題、簡潔有質感、用詞正式；地圖用 Leaflet（cdnjs），放大後疊 OpenStreetMap 底圖（灰階處理）
 
 ## 常用指令
 

@@ -12,7 +12,7 @@
 2. 打開 social／community／news 來源，記錄能不能打開、內容是不是這一筆。Threads、Facebook、Instagram、TikTok 常常擋自動讀取，記成 blocked 即可，不是刪除的理由；但完全無關或明顯錯的連結要從 sources 拿掉。
 3. 判定：
    - `ok`：全部正確
-   - `fix`：項目是真的、現在有效，但某些欄位要修正 → 把修正後的值放在 `fixes`（欄位名稱和 SCHEMA.md 一樣，中文用台灣用語）
+   - `fix`：項目是真的、現在有效，但某些欄位要修正 → 把修正後的值放在 `fixes`（欄位名稱和 SCHEMA.md 一樣，中文用正式書面語、台灣用語，遵守 SCHEMA.md 的用詞規則）
    - `drop`：官方頁面確認不了 2026 年資訊、已經結束、取消、整個售完，或關鍵事實錯了又無法修正
    另外給 `status`：`verified`（日期、價格、地點都在官方頁面確認）或 `partial`（有一項確認不了，必須寫 `unconfirmed_zh` 說明）。
 

@@ -16,9 +16,9 @@
    "end": null,
    "price_zh": "A$2.49 起",
    "free": false,
-   "highlight": "週三＋週六上架",
-   "summary_zh": "ALDI 10/7（三）與 10/10（六）的 Special Buys：週三 10/7 有 Ambiano 3.5L 氣炸鍋 A$44.99、198L 冷凍櫃 A$269，限時肉品如 Ingham's 雞肉玉米排 8 片 1kg A$9.79；週六 10/10 有 Bauhn 50 吋 4K 智慧電視 A$389、汽油割草機 A$299，還有防蚊防蟲用品（蚊香 30 片 A$5.79）。",
-   "tip_zh": "Special Buys 數量有限、各門市庫存不同，熱門品可能第一天就賣完；電視、氣炸鍋這類熱門品建議開門前就到。部分商品也能透過 ALDI 的 DoorDash 外送訂購（需付外送費用）。",
+   "highlight": "週三、週六上架",
+   "summary_zh": "ALDI 10/7（三）與 10/10（六）Special Buys：10/7 推出 Ambiano 3.5L 氣炸鍋 A$44.99、198L 冷凍櫃 A$269，以及限時肉品，如 Ingham's 雞肉玉米排 8 片 1kg A$9.79；10/10 推出 Bauhn 50 吋 4K 智慧電視 A$389、汽油割草機 A$299，另有防蚊防蟲用品（蚊香 30 片 A$5.79）。",
+   "tip_zh": "Special Buys 數量有限，各門市庫存不一，熱門商品可能於首日售完；電視、氣炸鍋等熱門品項建議於開門前抵達。部分商品亦可透過 ALDI 的 DoorDash 外送訂購（須支付外送費用）。",
    "sources": [
     {
      "kind": "official",
@@ -60,8 +60,8 @@
    "price_zh": "A$0.99 起",
    "free": false,
    "highlight": "萬聖節糖果",
-   "summary_zh": "ALDI 10/14（三）與 10/17（六）的 Special Buys：週三 10/14 有歐式聖誕餅乾甜點（WEISS 軟薑餅 200g A$4.99）和限時肉品海鮮（醃豬里肌烤肉 600g A$12.99、椒鹽魷魚 270g A$6.99）；週六 10/17 有萬聖節糖果，KitKat 50 入 A$16.99、Freddo 分享包 A$7.49，另有 Ferrex 1600W 高壓清洗機 A$89.99。",
-   "tip_zh": "萬聖節糖果和限時肉品通常很快被搶光，想買的話當天早點去；可先在官網看完整清單再出門。",
+   "summary_zh": "ALDI 10/14（三）與 10/17（六）Special Buys：10/14 推出歐式聖誕餅乾甜點（WEISS 軟薑餅 200g A$4.99）及限時肉品海鮮（醃豬里肌烤肉 600g A$12.99、椒鹽魷魚 270g A$6.99）；10/17 推出萬聖節糖果，包括 KitKat 50 入 A$16.99、Freddo 分享包 A$7.49，另有 Ferrex 1600W 高壓清洗機 A$89.99。",
+   "tip_zh": "萬聖節糖果與限時肉品通常很快售完，建議當日提早前往；出發前可先於官網查閱完整商品清單。",
    "sources": [
     {
      "kind": "official",
@@ -102,9 +102,9 @@
    "end": "2026-10-13",
    "price_zh": "精選商品半價",
    "free": false,
-   "highlight": "半價",
-   "summary_zh": "Woolworths 10/7–10/13 目錄有上百項半價：Easy Tiger 煎餃／餛飩 A$5.50（原價 A$11）、SunRice 泰國茉莉香米 5kg A$17.50（原價 A$35）、Just Caught 生蝦 500g A$12、John West 鮪魚罐 90g A$1.45，囤米、冷凍水餃和罐頭蛋白質的好時機。",
-   "tip_zh": "半價到週二 10/13 為止，各州品項略有不同；出門前用 Woolworths App 或官網查自家門市價格，結帳刷 Everyday Rewards 卡還能累積點數。",
+   "highlight": "半價優惠",
+   "summary_zh": "Woolworths 10/7–10/13 目錄共有上百項商品半價：Easy Tiger 煎餃／餛飩 A$5.50（原價 A$11）、SunRice 泰國茉莉香米 5kg A$17.50（原價 A$35）、Just Caught 生蝦 500g A$12、John West 鮪魚罐 90g A$1.45，適合添購米、冷凍水餃及蛋白質罐頭等常備食品。",
+   "tip_zh": "半價優惠至 10/13（二）止，各州品項略有差異；建議出發前以 Woolworths App 或官網查詢所在門市價格，結帳時出示 Everyday Rewards 卡可累積點數。",
    "sources": [
     {
      "kind": "official",
@@ -128,14 +128,14 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "商品價格已比對 Woolworths 官方資料；10/7–10/13 的期間只有 OzBargain 與目錄網站可佐證。"
+    "unconfirmed_zh": "商品價格已與 Woolworths 官方資料比對；10/7–10/13 之優惠期間僅有 OzBargain 與目錄網站可供佐證。"
    }
   },
   {
    "id": "woolworths-free-fissler-containers-2026",
    "type": "deal",
    "title": "Everyday Rewards Free Food Containers (Fissler)",
-   "title_zh": "Woolworths 集點換保鮮盒",
+   "title_zh": "Woolworths 集點兌換保鮮盒",
    "category": "grocery",
    "region": "AU",
    "city": null,
@@ -144,11 +144,11 @@
    "lng": null,
    "start": "2026-09-09",
    "end": "2026-12-08",
-   "price_zh": "每消費 A$20 得 1 點，20 點起換",
+   "price_zh": "每消費 A$20 累積 1 點，20 點起可兌換",
    "free": false,
-   "highlight": "集點免費換",
-   "summary_zh": "在 Woolworths 刷 Everyday Rewards 卡，每消費 A$20 送 1 點，集滿即可免費換德國 Fissler 保鮮盒：玻璃盒 520ml 需 20 點、不鏽鋼盒 800ml 30 點、便當盒 930ml 40 點，最高還有 5L 攪拌盆組（70 點）。平常買菜順便集，對自己帶便當的打工族很實用。",
-   "tip_zh": "集點期到 12/1，12/2–12/8 只能兌換；兌換限 Woolworths 超市與部分 Metro 實體店，Everyday Market 與 MILKRUN 消費不算點。",
+   "highlight": "集點兌換",
+   "summary_zh": "於 Woolworths 使用 Everyday Rewards 卡消費，每 A$20 可得 1 點，累積足夠點數即可免費兌換德國 Fissler 保鮮盒：玻璃盒 520ml 需 20 點、不鏽鋼盒 800ml 需 30 點、便當盒 930ml 需 40 點，最高另有 5L 攪拌盆組（70 點）。適合於日常採買時累積，對自備便當的打工度假族相當實用。",
+   "tip_zh": "集點期間至 12/1，12/2–12/8 僅開放兌換；兌換限 Woolworths 超市及部分 Metro 實體門市，Everyday Market 與 MILKRUN 之消費不列入集點。",
    "sources": [
     {
      "kind": "official",
@@ -177,9 +177,9 @@
    "end": "2026-10-27",
    "price_zh": "A$6",
    "free": false,
-   "highlight": "A$6 吃飽",
-   "summary_zh": "7-Eleven Hot Roll 熱狗捲、Traveller 派、澳洲牛肉派或蔬菜餡餅任選一樣，加一杯大杯咖啡、冰咖啡、熱巧克力或 375ml 汽水、V／Red Bull 能量飲，只要 A$6，趕工休息時快速吃一餐很划算。",
-   "tip_zh": "門市現場點購即可；品項依門市而異，不能與其他優惠併用，外送平台不適用（7NOW 除外）。",
+   "highlight": "A$6 套餐",
+   "summary_zh": "7-Eleven Hot Roll 熱狗捲、Traveller 派、澳洲牛肉派或蔬菜餡餅任選一項，搭配大杯咖啡、冰咖啡、熱巧克力或 375ml 汽水、V／Red Bull 能量飲一杯，合計 A$6，適合工作休息時快速用餐。",
+   "tip_zh": "於門市現場點購即可；品項依門市而異，不得與其他優惠併用，外送平台不適用（7NOW 除外）。",
    "sources": [
     {
      "kind": "official",
@@ -197,7 +197,7 @@
    "id": "kfc-2-for-5-happier-hours",
    "type": "deal",
    "title": "KFC 2 FOR $5 2-5PM Happier Hours",
-   "title_zh": "KFC 午後 2 件 A$5",
+   "title_zh": "KFC 午後時段 2 件 A$5",
    "category": "dining",
    "region": "AU",
    "city": null,
@@ -209,8 +209,8 @@
    "price_zh": "指定品項 2 件 A$5",
    "free": false,
    "highlight": "下午茶時段",
-   "summary_zh": "KFC 下午 2 點到 5 點的 Happier Hours，指定品項 2 件只要 A$5，限自取，適合下午補餐或收工後先墊肚子。",
-   "tip_zh": "限自取、僅限指定品項，不是每家門市都有、隨時可能結束；品項要在官網或 KFC App 選好門市後才看得到。",
+   "summary_zh": "KFC Happier Hours 於下午 2 點至 5 點提供指定品項 2 件 A$5，限自取，適合午後加餐或下班後簡單用餐。",
+   "tip_zh": "限自取，僅適用指定品項，並非所有門市皆提供，且可能隨時結束；須於官網或 KFC App 選擇門市後方可查看適用品項。",
    "sources": [
     {
      "kind": "official",
@@ -222,7 +222,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒寫適用星期、品項與結束日期。"
+    "unconfirmed_zh": "官網未載明適用星期、品項及結束日期。"
    },
    "schedule_zh": "下午 2–5 點"
   },
@@ -242,8 +242,8 @@
    "price_zh": "A$12.81（原價約 A$18.90）",
    "free": false,
    "highlight": "F1 週日限定",
-   "summary_zh": "Grill'd 為澳洲 F1 車手 Oscar Piastri 推出的雞肉或和牛漢堡，在他有比賽的週日只要 A$12.81。接下來的日期是 10/11、10/25、11/1、11/8、11/22、11/29 和 12/6。",
-   "tip_zh": "先免費加入 Grill'd Relish 會員，比賽當週日優惠券會自動發到帳號（Email 或 App 會員專區），限當天使用；內用、外帶、官網／App 點餐都可以，每筆限用一張，第三方外送平台不適用。",
+   "summary_zh": "Grill'd 為澳洲 F1 車手 Oscar Piastri 推出雞肉或和牛漢堡，於其出賽的週日特價 A$12.81。後續適用日期為 10/11、10/25、11/1、11/8、11/22、11/29 及 12/6。",
+   "tip_zh": "須先免費加入 Grill'd Relish 會員，比賽日（週日）優惠券將自動發送至帳號（Email 或 App 會員專區），限當日使用；內用、外帶及官網／App 點餐均適用，每筆訂單限用一張，第三方外送平台不適用。",
    "sources": [
     {
      "kind": "official",
@@ -280,8 +280,8 @@
    "price_zh": "App／網站點餐點數 2 倍",
    "free": false,
    "highlight": "限時 6 天",
-   "summary_zh": "墨西哥捲餅連鎖 Guzman y Gomez 慶祝 20 週年，10/6–10/11 GOMEX 會員用 GYG App 或官網點餐，點數雙倍；累積 150 點可折抵 A$10，集點更快。",
-   "tip_zh": "要用 App 或官網下單才算，現場點餐不適用；OzBargain 網友另回報 App 內有「任意消費送中薯」獎勵（至 10/19），可順便確認自己帳號有沒有。",
+   "summary_zh": "墨西哥捲餅連鎖品牌 Guzman y Gomez 慶祝 20 週年，10/6–10/11 期間 GOMEX 會員透過 GYG App 或官網點餐可獲雙倍點數；累積 150 點可折抵 A$10。",
+   "tip_zh": "須透過 App 或官網下單方可適用，現場點餐不適用；另有 OzBargain 使用者回報 App 內提供「任意消費送中薯」獎勵（至 10/19），可一併確認個人帳號是否適用。",
    "sources": [
     {
      "kind": "official",
@@ -305,7 +305,7 @@
    "id": "hoyts-cheap-tuesday-uber-one",
    "type": "deal",
    "title": "HOYTS Cheap Tuesday & Uber One Movie Tickets",
-   "title_zh": "HOYTS 週二便宜電影票",
+   "title_zh": "HOYTS 週二電影票優惠",
    "category": "tickets",
    "region": "AU",
    "city": null,
@@ -317,8 +317,8 @@
    "price_zh": "週二 A$13.50；Uber One 會員 A$12",
    "free": false,
    "highlight": "每週二",
-   "summary_zh": "HOYTS 每週二一般場次 A$13.50、LUX 豪華廳 A$26；有 Uber One 會員的話每天看一般場只要 A$12、LUX A$27.50，還能免費續爆米花，全澳 HOYTS 影城適用。",
-   "tip_zh": "線上訂票會加收手續費；Uber One 優惠要從 Uber App 領取，每人每天限 6 張，到 2027/11/30。",
+   "summary_zh": "HOYTS 每週二一般場次 A$13.50、LUX 豪華廳 A$26；Uber One 會員每日一般場次 A$12、LUX A$27.50，並可免費續爆米花，全澳 HOYTS 影城均適用。",
+   "tip_zh": "線上訂票須另付手續費；Uber One 優惠須於 Uber App 領取，每人每日限 6 張，至 2027/11/30 止。",
    "sources": [
     {
      "kind": "official",
@@ -367,8 +367,8 @@
    "price_zh": "A$5",
    "free": false,
    "highlight": "每週五",
-   "summary_zh": "每週五 IKEA 瑞典餐廳指定餐點每份 A$5，IKEA Family 會員限定（免費加入）：8 顆瑞典肉丸／素肉丸／魚丸餐、鷹嘴豆餅佐庫斯庫斯、早餐、Daim 蛋糕、肉桂捲 4 入等。全澳 10 家 IKEA 參加（QLD 為 Logan、North Lakes），到 12/18 為止。",
-   "tip_zh": "結帳時出示 IKEA Family 實體或電子會員卡；早餐只供應到 11 點，肉丸等正餐 11 點後才有，每天售完為止。",
+   "summary_zh": "每週五 IKEA 瑞典餐廳指定餐點每份 A$5，限 IKEA Family 會員（可免費加入）：包括 8 顆瑞典肉丸／素肉丸／魚丸餐、鷹嘴豆餅佐庫斯庫斯、早餐、Daim 蛋糕、肉桂捲 4 入等。全澳共 10 家 IKEA 參與（QLD 為 Logan、North Lakes），至 12/18 止。",
+   "tip_zh": "結帳時須出示 IKEA Family 實體或電子會員卡；早餐供應至 11 點，肉丸等正餐自 11 點起供應，每日售完為止。",
    "sources": [
     {
      "kind": "official",
@@ -417,8 +417,8 @@
    "price_zh": "回程 A$0（需同訂去程 Starter）",
    "free": false,
    "highlight": "回程免費・限時 3 天",
-   "summary_zh": "Jetstar 經典「回程免費」促銷：同一筆訂單買去程 Starter 機票飛東京、大阪或首爾，回程票價 A$0。OzBargain 網友試算布里斯本來回首爾約 A$342、凱恩斯來回大阪約 A$302，適合規劃打工結束後順遊日韓。",
-   "tip_zh": "10/9（五）晚上 11:59（AEDT）截止、售完為止；搭乘期間為 2027 年 5 月起的指定日期，Starter 票只含小件隨身行李，託運行李建議訂票時一起加購。",
+   "summary_zh": "Jetstar 經典「回程免費」促銷：於同一筆訂單購買飛往東京、大阪或首爾的去程 Starter 機票，回程票價為 A$0。OzBargain 使用者試算布里斯本來回首爾約 A$342、凱恩斯來回大阪約 A$302，適合規劃打工度假結束後前往日韓旅遊。",
+   "tip_zh": "10/9（五）晚上 11:59（AEDT）截止，售完為止；搭乘期間為 2027 年 5 月起之指定日期。Starter 票僅含小件隨身行李，如需託運行李，建議於訂票時一併加購。",
    "sources": [
     {
      "kind": "official",
@@ -459,9 +459,9 @@
    "end": "2026-10-30",
    "price_zh": "請見官網",
    "free": false,
-   "highlight": "年度大檔・限時 4 天",
-   "summary_zh": "Click Frenzy 年度大檔「The Main Event」，主打「澳洲最大優惠、只有 4 天」，集中放送科技、居家、時尚、美妝、嗜好、運動和旅遊優惠，比黑色星期五早一個月開跑。",
-   "tip_zh": "10/27（二）晚上 7 點開跑；先到官網登記提醒或領免費的 Frenzy Pass（存在手機錢包），可拿到搶先購買和專屬折扣碼。",
+   "highlight": "年度檔期・為期 4 天",
+   "summary_zh": "Click Frenzy 年度主要檔期「The Main Event」，以「澳洲最大優惠、只有 4 天」為訴求，集中提供科技、居家、時尚、美妝、嗜好、運動及旅遊類優惠，較黑色星期五早一個月開始。",
+   "tip_zh": "10/27（二）晚上 7 點開始；可先於官網登記提醒或領取免費 Frenzy Pass（儲存於手機錢包），以取得搶先購買資格及專屬折扣碼。",
    "sources": [
     {
      "kind": "official",
@@ -502,9 +502,9 @@
    "end": "2026-10-31",
    "price_zh": "A$199／年（原價 A$320）",
    "free": false,
-   "highlight": "省 A$121",
-   "summary_zh": "amaysim 365 天 240GB 預付方案首年只要 A$199（平均每月不到 A$17），5G/4G 網路、含澳洲國內無限通話和簡訊，還有部分國家國際通話。在 OzBargain 討論度很高，適合想一次搞定一年網路的打工度假族。",
-   "tip_zh": "僅限線上申辦新門號（可攜碼轉入），10/31 截止；優惠價只適用第一期，之後依原價 A$320 續約。",
+   "highlight": "優惠 A$121",
+   "summary_zh": "amaysim 365 天 240GB 預付方案首年 A$199（平均每月不到 A$17），提供 5G/4G 網路，含澳洲國內無限通話與簡訊，以及部分國家國際通話。於 OzBargain 討論度高，適合希望一次辦妥全年行動網路的打工度假族。",
+   "tip_zh": "僅限線上申辦新門號（可攜碼轉入），10/31 截止；優惠價僅適用第一期，其後依原價 A$320 續約。",
    "sources": [
     {
      "kind": "official",
@@ -528,7 +528,7 @@
    "id": "disney-plus-annual-plan-42-off-oct-2026",
    "type": "deal",
    "title": "Save 42% with Disney+ Annual Plans",
-   "title_zh": "Disney+ 年繳省 42%",
+   "title_zh": "Disney+ 年繳方案優惠 42%",
    "category": "shopping",
    "region": "AU",
    "city": null,
@@ -539,9 +539,9 @@
    "end": "2026-10-21",
    "price_zh": "Standard A$125.99／年、Premium A$174.99／年",
    "free": false,
-   "highlight": "省 42%",
-   "summary_zh": "Disney+ 年繳方案限時優惠，Standard 一年 A$125.99、Premium 一年 A$174.99，和按月付比起來省 42%，追 Marvel、星際大戰和迪士尼新片一年份一次搞定。",
-   "tip_zh": "僅限新用戶及符合資格的回鍋用戶，10/21 晚上 11:59（AEDT）前訂閱；隔年會自動以原價（Standard A$179.99、Premium A$249.99）續訂，記得設提醒。",
+   "highlight": "年繳優惠 42%",
+   "summary_zh": "Disney+ 年繳方案限時優惠：Standard 每年 A$125.99、Premium 每年 A$174.99，價格較按月付費低 42%，可觀看 Marvel、星際大戰及迪士尼新片。",
+   "tip_zh": "僅限新用戶及符合資格之回訪用戶，須於 10/21 晚上 11:59（AEDT）前訂閱；次年將自動以原價（Standard A$179.99、Premium A$249.99）續訂，建議設定提醒。",
    "sources": [
     {
      "kind": "official",
@@ -576,9 +576,9 @@
    "end": "2026-10-19",
    "price_zh": "BONDS 6 折",
    "free": false,
-   "highlight": "6 折",
-   "summary_zh": "Target 10/7–10/19 期間 BONDS 打 6 折（例如原價 A$35 的 Retro Rib 無鋼圈內衣特價 A$21）。BONDS 是澳洲國民內著品牌，自己囤貨或買回台灣送人都划算。",
-   "tip_zh": "童裝睡衣與清倉品不適用、不能與其他優惠併用；網購滿 A$60 免運，10/19 晚上 11:59（AEDT）截止。",
+   "highlight": "6 折優惠",
+   "summary_zh": "Target 於 10/7–10/19 期間提供 BONDS 6 折優惠（例如原價 A$35 的 Retro Rib 無鋼圈內衣特價 A$21）。BONDS 為澳洲代表性內著品牌，適合自用或作為返台伴手禮。",
+   "tip_zh": "童裝睡衣與清倉品不適用，且不得與其他優惠併用；網購滿 A$60 免運費，10/19 晚上 11:59（AEDT）截止。",
    "sources": [
     {
      "kind": "official",
@@ -614,8 +614,8 @@
    "price_zh": "滿 A$149 折 A$15",
    "free": false,
    "highlight": "折扣碼",
-   "summary_zh": "BIG W 官網或 App 結帳輸入折扣碼 EXTRA15，單筆滿 A$149（不含運費）現折 A$15，買家電、廚具、玩具等湊單很好用；需登入 BIG W 帳號，門市不適用。",
-   "tip_zh": "每個帳號限用 1 次、不能與其他折扣碼併用；Apple 產品、遊戲主機、預購、清倉品、禮物卡及指定 DeLonghi 咖啡機不適用，10/12 晚上 11:59（AEST）截止。",
+   "summary_zh": "於 BIG W 官網或 App 結帳時輸入折扣碼 EXTRA15，單筆消費滿 A$149（不含運費）即折抵 A$15，適用於選購家電、廚具、玩具等商品；須登入 BIG W 帳號，門市不適用。",
+   "tip_zh": "每個帳號限用 1 次，不得與其他折扣碼併用；Apple 產品、遊戲主機、預購商品、清倉品、禮物卡及指定 DeLonghi 咖啡機不適用，10/12 晚上 11:59（AEST）截止。",
    "sources": [
     {
      "kind": "official",
@@ -651,8 +651,8 @@
    "price_zh": "經濟艙來回特價（依航線與日期而異）",
    "free": false,
    "highlight": "早鳥特價",
-   "summary_zh": "Virgin Australia 搭配卡達航空（經杜哈轉機）推出歐洲來回經濟艙（Economy Choice）早鳥特價，從雪梨、布里斯本、墨爾本、伯斯、阿德雷德出發，可飛倫敦、巴黎、羅馬、巴塞隆納、阿姆斯特丹、都柏林等城市；官網 10/8 查到雪梨–都柏林來回 A$1,499（即時票價，訂票時可能已變動），適合規劃打工後的歐洲行。",
-   "tip_zh": "搭乘期間為 2027/1/17–3/14 及 4/17–6/8；10/30 晚上 11:59（AEST）截止、座位有限，到官網或 App 訂票。",
+   "summary_zh": "Virgin Australia 與卡達航空合作（經杜哈轉機）推出歐洲來回經濟艙（Economy Choice）早鳥特價，自雪梨、布里斯本、墨爾本、伯斯、阿德雷德出發，可飛往倫敦、巴黎、羅馬、巴塞隆納、阿姆斯特丹、都柏林等城市；10/8 於官網查得雪梨–都柏林來回 A$1,499（即時票價，訂票時可能已變動），適合規劃打工度假結束後的歐洲行程。",
+   "tip_zh": "搭乘期間為 2027/1/17–3/14 及 4/17–6/8；10/30 晚上 11:59（AEST）截止，座位有限，可於官網或 App 訂票。",
    "sources": [
     {
      "kind": "official",
@@ -676,14 +676,14 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒有公布起價，A$1,499 是 10/8 查到的即時票價。"
+    "unconfirmed_zh": "官網未公布起價，A$1,499 為 10/8 查得之即時票價。"
    }
   },
   {
    "id": "target-toy-sale-20-off-lego-oct-2026",
    "type": "deal",
    "title": "20% off LEGO Sets & Big Brand Toys",
-   "title_zh": "Target 玩具樂高 8 折",
+   "title_zh": "Target 玩具與樂高 8 折",
    "category": "shopping",
    "region": "AU",
    "city": null,
@@ -695,8 +695,8 @@
    "price_zh": "指定玩具 8 折",
    "free": false,
    "highlight": "樂高 8 折",
-   "summary_zh": "Target 玩具特賣：指定樂高、Barbie、Hot Wheels、Fisher-Price、VTech、Bluey 等大品牌玩具 8 折，Pokémon 玩具和部分遊戲也有特價，提早買聖誕禮物或寄回台灣送小朋友剛好。",
-   "tip_zh": "10/11（日）晚上 11:59（AEDT）結束，數量有限、售完為止；部分商品僅限網購（WA 不適用），也可用 Click & Collect 到門市取貨。",
+   "summary_zh": "Target 玩具特賣：指定樂高、Barbie、Hot Wheels、Fisher-Price、VTech、Bluey 等知名品牌玩具 8 折，Pokémon 玩具及部分遊戲亦有特價，適合提前選購聖誕禮物或寄回台灣贈送孩童。",
+   "tip_zh": "10/11（日）晚上 11:59（AEDT）結束，數量有限，售完為止；部分商品僅限網購（WA 不適用），亦可使用 Click & Collect 至門市取貨。",
    "sources": [
     {
      "kind": "official",
@@ -720,7 +720,7 @@
    "id": "black-friday-cyber-monday-2026-au",
    "type": "event",
    "title": "Black Friday & Cyber Monday 2026",
-   "title_zh": "黑色星期五＆網購星期一",
+   "title_zh": "黑色星期五與網購星期一",
    "category": "shopping",
    "region": "AU",
    "city": null,
@@ -731,9 +731,9 @@
    "end": "2026-11-30",
    "price_zh": "請見各店官網",
    "free": false,
-   "highlight": "年度最大",
-   "summary_zh": "澳洲一年最大的折扣季：Black Friday 是 11/27（五）、Cyber Monday 是 11/30（一），JB Hi-Fi、Kmart、BIG W、Myer、Amazon AU 等大型零售商通常都會參加，想買家電、3C 或聖誕禮物等這波最划算。",
-   "tip_zh": "很多店家會提早開跑（Click Frenzy 行事曆列出 11/20 起有搶先優惠），先把想買的東西加入願望清單、比價後再下手。",
+   "highlight": "年度最大折扣季",
+   "summary_zh": "澳洲年度最大折扣季：Black Friday 為 11/27（五），Cyber Monday 為 11/30（一），JB Hi-Fi、Kmart、BIG W、Myer、Amazon AU 等大型零售商通常皆會參與，適合選購家電、3C 產品或聖誕禮物。",
+   "tip_zh": "許多店家會提前開始（Click Frenzy 行事曆列出 11/20 起有搶先優惠），建議先將欲購商品加入願望清單，比價後再行購買。",
    "sources": [
     {
      "kind": "official",
@@ -763,7 +763,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "各零售商還沒公布 2026 年自己的檔期。"
+    "unconfirmed_zh": "各零售商尚未公布各自的 2026 年檔期。"
    }
   },
   {
@@ -781,9 +781,9 @@
    "end": "2026-11-02",
    "price_zh": "免費入場",
    "free": true,
-   "highlight": "免費・年度必看",
-   "summary_zh": "全球知名的免費戶外雕塑展，大型雕塑沿著 Bondi 到 Tamarama 的海岸步道展出，邊走海景步道邊看藝術，是每年 IG 洗版的打卡熱點，18 天預計吸引約 45 萬人次。",
-   "tip_zh": "週末人潮非常多、附近幾乎找不到停車位，建議平日一早去；搭 T4 線火車到 Bondi Junction 再轉接駁公車，或從市區搭 333 路公車直達 Bondi Beach。",
+   "highlight": "免費・年度盛事",
+   "summary_zh": "全球知名的免費戶外雕塑展，大型雕塑沿 Bondi 至 Tamarama 的海岸步道展出，可於海景步道上欣賞藝術作品，每年於社群上討論度高，18 天展期預計吸引約 45 萬人次。",
+   "tip_zh": "週末人潮眾多，周邊停車位極為有限，建議平日清晨前往；可搭乘 T4 線火車至 Bondi Junction 轉乘接駁公車，或自市區搭乘 333 路公車直達 Bondi Beach。",
    "sources": [
     {
      "kind": "official",
@@ -830,9 +830,9 @@
    "end": "2026-10-24",
    "price_zh": "免費入場",
    "free": true,
-   "highlight": "免費・只有 4 晚",
-   "summary_zh": "雪梨最大的免費街頭節之一，今年邁入第 15 年，連續 4 晚在 Parramatta 市中心 20 多個地點有各國街頭小吃、快閃酒吧、400 多位藝人演出和大型燈光藝術裝置。",
-   "tip_zh": "週三、週四 5pm–10pm，週五、週六 5pm–10:30pm；下班直接搭火車到 Parramatta 站就到，週五六晚上人最多。",
+   "highlight": "免費・為期 4 晚",
+   "summary_zh": "雪梨規模最大的免費街頭節之一，今年邁入第 15 年，連續 4 晚於 Parramatta 市中心 20 多個地點提供各國街頭小吃、快閃酒吧、400 多位藝人演出及大型燈光藝術裝置。",
+   "tip_zh": "週三、週四 5pm–10pm，週五、週六 5pm–10:30pm；可搭乘火車至 Parramatta 站，交通便利，週五、週六晚間人潮最多。",
    "sources": [
     {
      "kind": "official",
@@ -881,8 +881,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・小印度",
-   "summary_zh": "雪梨「小印度」Harris Park 一年一度的排燈節（Diwali）街頭慶典，有印度街頭美食、現場表演、市集攤位和傳統文化活動，熱鬧又好拍。",
-   "tip_zh": "官方頁面未公布時間，出發前先看 Facebook 活動頁；搭火車到 Harris Park 站下車即到。11/1（日）在 Prince Alfred Square 另有免費的 Diwali Mela Parramatta。",
+   "summary_zh": "雪梨「小印度」Harris Park 年度排燈節（Diwali）街頭慶典，設有印度街頭美食、現場表演、市集攤位及傳統文化活動，適合拍照。",
+   "tip_zh": "官方頁面未公布時間，建議出發前查閱 Facebook 活動頁；搭乘火車至 Harris Park 站即可抵達。11/1（日）於 Prince Alfred Square 另有免費的 Diwali Mela Parramatta。",
    "sources": [
     {
      "kind": "official",
@@ -917,9 +917,9 @@
    "end": "2026-10-25",
    "price_zh": "免費入場（官方頁未標示）",
    "free": true,
-   "highlight": "一日限定・義式美食",
-   "summary_zh": "內西區 Leichhardt「小義大利」一年一度的義大利文化街頭節，Norton Street（Marion St 到 William St 路段）當天封街，有義式美食、咖啡和表演，預計湧入多達 18 萬人。",
-   "tip_zh": "10am–5pm；當天封路，而且 Inner West 火車線改由公車替代，建議搭 L1 輕軌到 Marion 或 Leichhardt North 站再走過去。",
+   "highlight": "單日活動・義式美食",
+   "summary_zh": "內西區 Leichhardt「小義大利」的年度義大利文化街頭節，Norton Street（Marion St 至 William St 路段）當日封街，提供義式美食、咖啡及表演，預計參與人數多達 18 萬人。",
+   "tip_zh": "10am–5pm；當日封路，且 Inner West 火車線改以公車替代，建議搭乘 L1 輕軌至 Marion 或 Leichhardt North 站後步行前往。",
    "sources": [
     {
      "kind": "official",
@@ -937,7 +937,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官方頁面打不開，免費入場與內容只有 WeekendNotes 可佐證。"
+    "unconfirmed_zh": "官方頁面無法開啟，免費入場及活動內容僅有 WeekendNotes 可供佐證。"
    }
   },
   {
@@ -956,8 +956,8 @@
    "price_zh": "需購票（週四早鳥 A$90 已售完）",
    "free": false,
    "highlight": "萬聖節限定 3 晚",
-   "summary_zh": "Luna Park 把整座遊樂園變成萬聖節主場（官方號稱雪梨最大的萬聖節慶典），入夜後遊樂設施無限搭，還有 Escape the Circus、The Forgotten Children 鬼屋迷宮和 Alienation 沉浸式遊戲。",
-   "tip_zh": "官網提醒門票可能售完，建議提早上官網訂票；每晚活動時間官網未寫明。搭火車到 Milsons Point 站，或搭渡輪到就在 Luna Park 旁的 Milsons Point 碼頭最方便。",
+   "summary_zh": "Luna Park 將整座遊樂園布置為萬聖節主題場地（官方稱為雪梨最大的萬聖節慶典），入夜後遊樂設施可無限次搭乘，另有 Escape the Circus、The Forgotten Children 鬼屋迷宮及 Alienation 沉浸式遊戲。",
+   "tip_zh": "官網提醒門票可能售完，建議提早於官網訂票；官網未載明每晚活動時間。建議搭乘火車至 Milsons Point 站，或搭乘渡輪至緊鄰 Luna Park 的 Milsons Point 碼頭。",
    "sources": [
     {
      "kind": "official",
@@ -981,7 +981,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒公布目前票價與每晚時間。"
+    "unconfirmed_zh": "官網未公布目前票價及每晚活動時間。"
    }
   },
   {
@@ -999,9 +999,9 @@
    "end": "2026-11-08",
    "price_zh": "多數活動免費，部分需購票",
    "free": true,
-   "highlight": "澳洲最老花卉節",
-   "summary_zh": "從 1934 年辦到現在、澳洲歷史最悠久的花卉節，整座小鎮被紫色藍花楹包圍，10 天內有遊行、市集攤位、文化表演和夜間點燈的樹景。",
-   "tip_zh": "重頭戲是 11/5（四）Jacaranda Thursday（7am–3pm）和 11/7（六）5pm 的花車遊行；Grafton 離雪梨很遠，可搭 NSW TrainLink 北海岸線或從 Brisbane / Gold Coast 開車前往。",
+   "highlight": "澳洲最悠久花卉節",
+   "summary_zh": "自 1934 年舉辦至今，為澳洲歷史最悠久的花卉節，整座小鎮為紫色藍花楹所環繞，10 天活動期間有遊行、市集攤位、文化表演及夜間點燈樹景。",
+   "tip_zh": "主要活動為 11/5（四）Jacaranda Thursday（7am–3pm）及 11/7（六）5pm 的花車遊行；Grafton 距雪梨較遠，可搭乘 NSW TrainLink 北海岸線，或自 Brisbane / Gold Coast 開車前往。",
    "sources": [
     {
      "kind": "official",
@@ -1031,7 +1031,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "哪些活動免費、哪些要買票，只有 WeekendNotes 可佐證。"
+    "unconfirmed_zh": "各活動是否免費或須購票，僅有 WeekendNotes 可供佐證。"
    }
   },
   {
@@ -1050,8 +1050,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "100% 免費",
-   "summary_zh": "Wollongong 市中心 Crown Street 一帶 15 個場地同步演出的免費當代音樂節，今年第 4 屆，從在地新秀、青年樂團到全國知名樂團都有，官方稱為新州地區首屈一指的免費音樂節。",
-   "tip_zh": "從雪梨 Central 站搭 South Coast Line 火車約 1.5 小時到 Wollongong 站，可以排一日遊順便逛海灘。",
+   "summary_zh": "於 Wollongong 市中心 Crown Street 一帶 15 個場地同步演出的免費當代音樂節，今年為第 4 屆，演出者涵蓋在地新秀、青年樂團至全國知名樂團，官方稱其為新州地區首屈一指的免費音樂節。",
+   "tip_zh": "自雪梨 Central 站搭乘 South Coast Line 火車約 1.5 小時可抵達 Wollongong 站，適合安排一日遊並順道造訪海灘。",
    "sources": [
     {
      "kind": "official",
@@ -1081,8 +1081,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・河畔燈籠",
-   "summary_zh": "獵人谷 Maitland 的年度多元文化節，在河畔步行街 The Levee 從下午熱鬧到晚上，有各國美食和音樂表演，最後還有河畔燈籠漂流，官方介紹有超過 40 種文化參與。",
-   "tip_zh": "時間 2pm–9pm；從 Newcastle 搭 Hunter Line 火車到 Maitland 站，再步行到 High Street 即可。",
+   "summary_zh": "獵人谷 Maitland 的年度多元文化節，於河畔步行街 The Levee 自下午持續至晚間舉行，設有各國美食與音樂表演，並以河畔燈籠漂流作結，官方介紹有超過 40 種文化參與。",
+   "tip_zh": "活動時間 2pm–9pm；可自 Newcastle 搭乘 Hunter Line 火車至 Maitland 站，再步行至 High Street。",
    "sources": [
     {
      "kind": "official",
@@ -1130,7 +1130,7 @@
    "price_zh": "門票請見官網；遊樂設施 A$6/次",
    "free": false,
    "highlight": "聖誕限定",
-   "summary_zh": "獵人谷花園每年的聖誕燈光秀，官方號稱有數百萬顆燈，整座花園入夜後點亮成大型燈光場景，還有夜間遊樂設施和美食攤，很適合結合酒莊行程。",
+   "summary_zh": "獵人谷花園年度聖誕燈光秀，官方稱有數百萬顆燈，整座花園入夜後化為大型燈光場景，另有夜間遊樂設施及美食攤位，適合與酒莊行程合併安排。",
    "tip_zh": "燈光秀 5:30pm–10:30pm（最後入場 9:30pm），12/25 休息；遊樂設施單次 A$6、6 次套票 A$30。",
    "sources": [
     {
@@ -1149,7 +1149,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒公布入場票價。"
+    "unconfirmed_zh": "官網未公布入場票價。"
    }
   },
   {
@@ -1168,8 +1168,8 @@
    "price_zh": "兩人 A$35（買一送一）",
    "free": false,
    "highlight": "週四夜買一送一",
-   "summary_zh": "環形碼頭旁的當代藝術館 MCA 週四晚上延長開放到 9 點，成人票兩人只要 A$35、學生兩人 A$20，18 歲以下免費，下班後看展再看雪梨港夜景很划算。",
-   "tip_zh": "優惠只到 10/15（四），5pm–9pm；大學生記得選 Tertiary 票（兩人 A$20），優惠票兩人 A$28。",
+   "summary_zh": "位於環形碼頭旁的當代藝術館 MCA 週四晚間延長開放至 9 點，成人票兩人 A$35、學生兩人 A$20，18 歲以下免費，適合下班後參觀展覽並欣賞雪梨港夜景。",
+   "tip_zh": "優惠至 10/15（四）止，時間 5pm–9pm；大學生請選擇 Tertiary 票（兩人 A$20），優惠票兩人 A$28。",
    "sources": [
     {
      "kind": "official",
@@ -1200,8 +1200,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・3 天",
-   "summary_zh": "黃金海岸 Broadbeach 一年一度的免費鄉村音樂節，街道、公園和合作店家同時開好幾個舞台，2026 陣容有 Kasey Chambers、The Wolfe Brothers、Beccy Cole 等。全程免費、不用買票，走幾步就到海邊。",
-   "tip_zh": "大咖演出的好位置先到先得，戶外舞台有指定區域可以自備椅子；搭 G:link 輕軌到 Broadbeach North 或 Broadbeach South 站最方便，昆州車資一律 50 分。",
+   "summary_zh": "黃金海岸 Broadbeach 年度免費鄉村音樂節，於街道、公園及合作店家同步設置多個舞台，2026 年演出陣容包括 Kasey Chambers、The Wolfe Brothers、Beccy Cole 等。全程免費，無須購票，鄰近海灘。",
+   "tip_zh": "知名藝人演出的理想位置採先到先得，戶外舞台設有可自備椅子的指定區域；建議搭乘 G:link 輕軌至 Broadbeach North 或 Broadbeach South 站，昆州車資一律 50 分。",
    "sources": [
     {
      "kind": "official",
@@ -1243,8 +1243,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・市中心",
-   "summary_zh": "布里斯本市政府支持的印度排燈節（Diwali）慶典，在市中心 King George Square 舉辦，免費參加，感受印度與南亞社群最重要節日之一的熱鬧氣氛。",
-   "tip_zh": "免費、不需預約；官網尚未公布活動時段，出發前先上市政府活動頁確認。",
+   "summary_zh": "由布里斯本市政府支持的印度排燈節（Diwali）慶典，於市中心 King George Square 舉辦，免費參加，可體驗印度與南亞社群最重要節日之一的節慶氛圍。",
+   "tip_zh": "免費參加，無須預約；官網尚未公布活動時段，建議出發前於市政府活動頁確認。",
    "sources": [
     {
      "kind": "official",
@@ -1280,8 +1280,8 @@
    "price_zh": "遊行免費；Fair Day 需購票（請見官網）",
    "free": false,
    "highlight": "遊行免費",
-   "summary_zh": "早上在 Fortitude Valley 集會、一路遊行到 New Farm Park，接著是 10am–5pm 的 Fair Day：主舞台有變裝秀和現場音樂，還有彩虹市集和美食區，是布里斯本一年一度最繽紛的街頭活動。",
-   "tip_zh": "遊行免費、誰都能參加；Fair Day 門票在 Eventbrite 購買，價格請見官網。New Farm Park 這時剛好藍花楹盛開。",
+   "summary_zh": "上午於 Fortitude Valley 集合，遊行至 New Farm Park，隨後舉行 10am–5pm 的 Fair Day：主舞台有變裝秀及現場音樂，另設彩虹市集與美食區，為布里斯本年度最具色彩的街頭活動。",
+   "tip_zh": "遊行免費，開放所有人參加；Fair Day 門票於 Eventbrite 購買，價格請見官網。此時正值 New Farm Park 藍花楹盛開。",
    "sources": [
     {
      "kind": "official",
@@ -1305,7 +1305,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒公布 Fair Day 票價與遊行開始時間。"
+    "unconfirmed_zh": "官網未公布 Fair Day 票價及遊行開始時間。"
    }
   },
   {
@@ -1324,8 +1324,8 @@
    "price_zh": "A$18–42（依票種及尖離峰日）",
    "free": false,
    "highlight": "全球獨家",
-   "summary_zh": "只在 GOMA 展出的全球獨家大展：芝麻街 Big Bird、Elmo，《魔王迷宮》、《魔水晶》的布偶與道具，還能走進《Fraggle Rock》的實景場景，另有超過 90 部電影的專屬放映節目。",
-   "tip_zh": "門票為限時入場，分尖峰、平峰、離峰票價，離峰日最便宜，建議先上官網買；最後入場時段 4pm。GOMA 其他常設展大多免費，可以一起逛。",
+   "summary_zh": "僅於 GOMA 展出的全球獨家大型展覽：展出芝麻街 Big Bird、Elmo 及《魔王迷宮》、《魔水晶》的布偶與道具，觀眾可走入《Fraggle Rock》實景場景，另有超過 90 部電影的專屬放映節目。",
+   "tip_zh": "門票採時段入場制，分為尖峰、平峰、離峰票價，離峰日價格最低，建議事先於官網購票；最後入場時段為 4pm。GOMA 其他常設展多為免費，可一併參觀。",
    "sources": [
     {
      "kind": "official",
@@ -1367,8 +1367,8 @@
    "price_zh": "A$89–99",
    "free": false,
    "highlight": "萬聖節限定",
-   "summary_zh": "黃金海岸 Movie World 的萬聖節夜間活動，有 5 座鬼屋迷宮、驚嚇區、密室逃脫和夜間遊樂設施，是 IG、TikTok 上每年 10 月必出現的打卡活動。",
-   "tip_zh": "只在 10 月的週五、六晚上開（10/9、10、16、17、23、24、30、31），票價依日期 A$89–99，官網多個日期標示「Selling Fast」，建議提早上官網買票。",
+   "summary_zh": "黃金海岸 Movie World 的萬聖節夜間活動，設有 5 座鬼屋迷宮、驚嚇區、密室逃脫及夜間遊樂設施，每年 10 月於 IG、TikTok 等社群上討論度高。",
+   "tip_zh": "僅於 10 月的週五、週六晚間開放（10/9、10、16、17、23、24、30、31），票價依日期為 A$89–99，官網多個日期標示「Selling Fast」，建議提早於官網購票。",
    "sources": [
     {
      "kind": "official",
@@ -1405,8 +1405,8 @@
    "price_zh": "兩日通行票：成人 A$10、長者 A$7、13–17 歲 A$5、12 歲以下免費",
    "free": false,
    "highlight": "藍花楹季",
-   "summary_zh": "在紫色藍花楹樹下舉辦的社區嘉年華，有現場音樂、市集攤位、遊樂場 Sideshow Alley 和煙火，是布里斯本近郊感受藍花楹季的好去處。",
-   "tip_zh": "週五 4pm–10pm、週六 8am–10pm；門票在官網連結的 Ticketebo 線上購買，可搭火車到 Goodna 站再步行。",
+   "summary_zh": "於紫色藍花楹樹下舉辦的社區嘉年華，設有現場音樂、市集攤位、遊樂場 Sideshow Alley 及煙火，適合在布里斯本近郊體驗藍花楹季。",
+   "tip_zh": "週五 4pm–10pm、週六 8am–10pm；門票可透過官網連結至 Ticketebo 線上購買，可搭乘火車至 Goodna 站後步行前往。",
    "sources": [
     {
      "kind": "official",
@@ -1454,8 +1454,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "季節限定",
-   "summary_zh": "昆州公園局巡守員帶隊的夜間導覽，在東澳本土海龜產卵數量最多的 Mon Repos 海灘看母龜上岸下蛋（11 月到 2 月初）或小海龜孵化爬向大海（1 月底到 3 月底），人在 Bundaberg 打工的話很值得排一晚。",
-   "tip_zh": "每晚都有，但 12/24、25、31 停辦；只能線上預約，當天 4pm 截止，建議提早訂。全程約步行 1.6 公里，要能在黑暗中走鬆軟沙地。",
+   "summary_zh": "由昆州公園局巡守員帶領的夜間導覽，於東澳本土海龜產卵數量最多的 Mon Repos 海灘觀察母龜上岸產卵（11 月至 2 月初）或幼龜孵化後爬向大海（1 月底至 3 月底），於 Bundaberg 打工者值得安排一晚參加。",
+   "tip_zh": "每晚舉行，惟 12/24、25、31 停辦；僅接受線上預約，當日 4pm 截止，建議提早預訂。全程步行約 1.6 公里，參加者須能於黑暗中行走鬆軟沙地。",
    "sources": [
     {
      "kind": "official",
@@ -1473,7 +1473,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "票價要進訂票流程才看得到。"
+    "unconfirmed_zh": "票價須進入訂票流程後方可查看。"
    }
   },
   {
@@ -1492,8 +1492,8 @@
    "price_zh": "單日 A$135 起",
    "free": false,
    "highlight": "60+ 組演出",
-   "summary_zh": "背包客大本營 Airlie Beach 一年一度的音樂節，60 多組藝人分散在小鎮 15 個場地演出，主舞台在海邊的 Whitsunday Sailing Club，2026 有 Xavier Rudd、The Whitlams、Mental As Anything 等。",
-   "tip_zh": "限 18 歲以上；單日票 A$135、兩日票 A$250、3 日票 A$340（皆另加手續費），11/5 前線上販售；3 日票含 11/5 歡迎派對和 11/9 After Party，也可另外單買（A$25／A$30）。",
+   "summary_zh": "背包客聚集地 Airlie Beach 的年度音樂節，60 多組藝人於小鎮 15 個場地演出，主舞台位於海濱的 Whitsunday Sailing Club，2026 年陣容包括 Xavier Rudd、The Whitlams、Mental As Anything 等。",
+   "tip_zh": "限 18 歲以上；單日票 A$135、兩日票 A$250、3 日票 A$340（均另收手續費），11/5 前線上販售；3 日票含 11/5 歡迎派對及 11/9 After Party，亦可另行單獨購買（A$25／A$30）。",
    "sources": [
     {
      "kind": "official",
@@ -1535,8 +1535,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "凱恩斯近郊",
-   "summary_zh": "凱恩斯西邊高原小鎮 Yungaburra 的週末音樂節，50 多組在地及全國藝人演出，涵蓋民謠、搖滾、藍調、爵士，還有大遊行、市集、詩人早餐和工作坊，很有北昆州小鎮氛圍。",
-   "tip_zh": "從凱恩斯開車約 1 小時多；有含露營的週末票，價格請見官網售票頁。",
+   "summary_zh": "位於凱恩斯西側高原小鎮 Yungaburra 的週末音樂節，50 多組在地及全國藝人演出，涵蓋民謠、搖滾、藍調、爵士，另有大遊行、市集、詩人早餐及工作坊，充分展現北昆州小鎮風情。",
+   "tip_zh": "自凱恩斯開車約 1 小時餘；另有含露營的週末票，價格請見官網售票頁。",
    "sources": [
     {
      "kind": "official",
@@ -1554,7 +1554,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "票價在外部售票系統，官網看不到。"
+    "unconfirmed_zh": "票價位於外部售票系統，官網未列出。"
    }
   },
   {
@@ -1572,9 +1572,9 @@
    "end": null,
    "price_zh": "每趟一律 A$0.50",
    "free": false,
-   "highlight": "永久 50 分",
+   "highlight": "永久 50 分車資",
    "summary_zh": "昆州 Translink 公車、火車、渡輪、輕軌每趟一律 50 分澳幣，涵蓋布里斯本、黃金海岸、陽光海岸等東南昆州，以及凱恩斯、湯斯維爾、圖文巴等地區城市公車，州政府已宣布永久實施，並承諾立法保障。",
-   "tip_zh": "用 go card 或直接刷信用卡／金融卡感應就好；機場線 Airtrain 不適用要另外買票，4 歲（含）以下兒童免費。",
+   "tip_zh": "可使用 go card 或以信用卡／金融卡直接感應付款；機場線 Airtrain 不適用，須另行購票，4 歲（含）以下兒童免費。",
    "sources": [
     {
      "kind": "official",
@@ -1623,8 +1623,8 @@
    "price_zh": "免費入場（餐點自費）",
    "free": true,
    "highlight": "最終屆・免費",
-   "summary_zh": "已舉辦 20 年的 OzAsia 亞洲藝術節，今年是最後一屆。Elder Park 河畔有約 25 攤亞洲小吃的 Lucky Dumpling Market、中秋月亮燈籠和 40 公尺香港龍裝置，週四到週日還有免費表演。台灣人想念亞洲味、拍夜景打卡都很適合。",
-   "tip_zh": "傍晚去最好拍燈籠；確切營業時間官網未列出，出發前先看 OzAsia 的 IG 或 FB。",
+   "summary_zh": "已舉辦 20 年的 OzAsia 亞洲藝術節，今年為最後一屆。Elder Park 河畔設有約 25 個亞洲小吃攤位的 Lucky Dumpling Market、中秋月亮燈籠及 40 公尺香港龍裝置，週四至週日另有免費表演。適合品嚐亞洲風味及拍攝夜景。",
+   "tip_zh": "傍晚為拍攝燈籠的最佳時段；官網未列出確切營業時間，建議出發前查閱 OzAsia 的 IG 或 FB。",
    "sources": [
     {
      "kind": "official",
@@ -1679,8 +1679,8 @@
    "price_zh": "部分活動免費；付費場 A$10 起",
    "free": false,
    "highlight": "免費走秀",
-   "summary_zh": "第五屆 ADL Fashion Week 有 5 場主秀和 30 多場活動。Rundle Place 每天 9am–5pm 的「The Centre Is Your Runway」免費參觀，週五晚上的 Aether Fashion Scene 也有免費入場。",
-   "tip_zh": "Aether Fashion Scene 在 10/9（五）6–9pm、Rundle Place 的 Level 1（台灣說的 2 樓），免費入場，A$25 是 VIP 選項；Adelaide Town Hall 的 5 場主秀都已完售。",
+   "summary_zh": "第五屆 ADL Fashion Week 共有 5 場主秀及 30 多場活動。Rundle Place 每日 9am–5pm 的「The Centre Is Your Runway」可免費參觀，週五晚間的 Aether Fashion Scene 亦開放免費入場。",
+   "tip_zh": "Aether Fashion Scene 於 10/9（五）6–9pm 在 Rundle Place 的 Level 1（即台灣的 2 樓）舉行，免費入場，A$25 為 VIP 選項；Adelaide Town Hall 的 5 場主秀均已售罄。",
    "sources": [
     {
      "kind": "official",
@@ -1722,8 +1722,8 @@
    "price_zh": "沿途觀賞免費；終點慶典需購票（請見官網）",
    "free": false,
    "highlight": "1,500 台老爺車",
-   "summary_zh": "1,500 多台古董車從 West Beach 海邊一路開 67 公里到 Adelaide Hills 的 Birdwood，在國家汽車博物館舉辦終點慶典（10am–3pm）。沿路觀賞免費，拍照很好看。",
-   "tip_zh": "早上在 West Beach 起點附近看最方便；週日往 Birdwood 的大眾運輸班次很少，也沒有接駁車。",
+   "summary_zh": "1,500 多台古董車自 West Beach 海濱出發，行駛 67 公里至 Adelaide Hills 的 Birdwood，並於國家汽車博物館舉辦終點慶典（10am–3pm）。沿途觀賞免費，適合拍照。",
+   "tip_zh": "上午於 West Beach 起點附近觀賞最為便利；週日前往 Birdwood 的大眾運輸班次甚少，亦無接駁車。",
    "sources": [
     {
      "kind": "official",
@@ -1753,7 +1753,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "終點慶典票價只在圖片裡；沿途免費觀賞是依官方 FAQ（公共道路、不封路）推斷。"
+    "unconfirmed_zh": "終點慶典票價僅見於圖片；沿途免費觀賞係依官方 FAQ（公共道路、不封路）推斷。"
    }
   },
   {
@@ -1772,8 +1772,8 @@
    "price_zh": "免費觀賞",
    "free": true,
    "highlight": "南半球最大遊行",
-   "summary_zh": "自 1933 年開始、號稱南半球最大的公眾遊行，2025 年吸引超過 33.5 萬人，有花車、樂隊和聖誕老公公登場，是阿德雷德最有聖誕氣氛的一天。",
-   "tip_zh": "早上 9:30 出發，要提早卡位；主辦方建議帶矮椅、野餐墊或坐墊。",
+   "summary_zh": "自 1933 年開始舉辦，號稱南半球規模最大的公眾遊行，2025 年吸引超過 33.5 萬人，有花車、樂隊及聖誕老人登場，為阿德雷德最具聖誕氛圍的一天。",
+   "tip_zh": "遊行於上午 9:30 出發，建議提早抵達占位；主辦方建議攜帶矮椅、野餐墊或坐墊。",
    "sources": [
     {
      "kind": "official",
@@ -1821,8 +1821,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費",
-   "summary_zh": "南澳 LGBTQIA+ 藝術節 Feast Festival（11/1–22）的閉幕派對，有 DJ、現場不插電音樂、馬戲工作坊、手作和臉部彩繪，還有市集攤位、餐車、酒吧和狗狗秀，最後由 BVT 壓軸演出。",
-   "tip_zh": "上午 11 點到下午 5 點；Feast 在 11/1–22 期間有 80 多場活動，部分免費，可以到官網下載節目表。",
+   "summary_zh": "南澳 LGBTQIA+ 藝術節 Feast Festival（11/1–22）的閉幕派對，設有 DJ、現場不插電音樂、馬戲工作坊、手作及臉部彩繪，另有市集攤位、餐車、酒吧與狗狗秀，最後由 BVT 壓軸演出。",
+   "tip_zh": "時間為上午 11 點至下午 5 點；Feast 於 11/1–22 期間舉辦 80 多場活動，部分免費，節目表可於官網下載。",
    "sources": [
     {
      "kind": "official",
@@ -1863,9 +1863,9 @@
    "end": "2026-11-29",
    "price_zh": "成人 GA A$39 起；週日 A$99 起",
    "free": false,
-   "highlight": "Guns N' Roses 開唱",
-   "summary_zh": "Supercars 年度總決賽在市區街道賽道開跑，賽後還有演唱會：11/28（六）Hilltop Hoods、Ball Park Music，11/29（日）Guns N' Roses 和 Airbourne。看賽車又看演唱會，很划算。",
-   "tip_zh": "週日 GA 或 4 日票才含週日演唱會區的 GA 入場；4 日 GA A$185 起，建議早點買。",
+   "highlight": "Guns N' Roses 演出",
+   "summary_zh": "Supercars 年度總決賽於市區街道賽道舉行，賽後另有演唱會：11/28（六）Hilltop Hoods、Ball Park Music，11/29（日）Guns N' Roses 及 Airbourne，可同時觀賞賽車與演唱會。",
+   "tip_zh": "僅週日 GA 或 4 日票包含週日演唱會區 GA 入場；4 日 GA A$185 起，建議提早購票。",
    "sources": [
     {
      "kind": "official",
@@ -1907,7 +1907,7 @@
    "id": "sa-adelaide-metro-free-city-connector-tram",
    "type": "deal",
    "title": "Adelaide Metro – free city connector buses & free tram zones",
-   "title_zh": "阿德雷德市區免費公車＋電車",
+   "title_zh": "阿德雷德市區免費公車與電車",
    "category": "tickets",
    "region": "SA",
    "city": "Adelaide",
@@ -1919,8 +1919,8 @@
    "price_zh": "免費搭乘",
    "free": true,
    "highlight": "免費",
-   "summary_zh": "City Connector 免費環狀公車（98A/98C 每天行駛、到 North Adelaide；99A/99C 平日）會經過中央市場、Rundle Mall、植物園和動物園。South Terrace 到 Botanic Gardens 之間的市區電車免費，Glenelg 的 Brighton Rd 到 Moseley Square 也免費，不用 metroCARD。",
-   "tip_zh": "Connector 約 7am–7:15pm（週五到 9:15pm）。超出免費區要付費：10/1 起 metroCARD 尖峰 A$4.75、離峰 A$2.70，盡量離峰搭比較省。",
+   "summary_zh": "City Connector 免費環狀公車（98A/98C 每日行駛，延伸至 North Adelaide；99A/99C 平日行駛）途經中央市場、Rundle Mall、植物園及動物園。South Terrace 至 Botanic Gardens 之間的市區電車免費，Glenelg 的 Brighton Rd 至 Moseley Square 路段亦免費，無須 metroCARD。",
+   "tip_zh": "Connector 運行時間約 7am–7:15pm（週五至 9:15pm）。超出免費區須付費：10/1 起 metroCARD 尖峰 A$4.75、離峰 A$2.70，建議於離峰時段搭乘。",
    "sources": [
     {
      "kind": "official",
@@ -1962,9 +1962,9 @@
    "end": "2026-10-31",
    "price_zh": "免費入場（叻沙自費）",
    "free": true,
-   "highlight": "整個 10 月",
-   "summary_zh": "達爾文每年 10 月的叻沙月，全城餐廳推出各式叻沙，可以加入 Laksa League（10/1–30）記錄試吃、評論、投票累積點數拚獎品。10/31 在 Darwin Waterfront 有總決賽，有小販風格的美食市集、名廚現場料理示範和頒獎。",
-   "tip_zh": "總決賽 10/31（六）3pm–9pm；平常吃叻沙時記得在 Laksa League 打卡集點。",
+   "highlight": "10 月全月",
+   "summary_zh": "達爾文每年 10 月舉辦叻沙月，全市餐廳推出各式叻沙，可加入 Laksa League（10/1–30）記錄品嚐、評論及投票以累積點數爭取獎品。10/31 於 Darwin Waterfront 舉行總決賽，設有小販風格美食市集、名廚現場料理示範及頒獎。",
+   "tip_zh": "總決賽 10/31（六）3pm–9pm；品嚐叻沙時可於 Laksa League 登錄以累積點數。",
    "sources": [
     {
      "kind": "official",
@@ -2009,11 +2009,11 @@
    "lng": 130.8327,
    "start": "2026-04-30",
    "end": "2026-10-29",
-   "price_zh": "逛市集免費（餐點自費）",
+   "price_zh": "免費入場（餐點自費）",
    "free": true,
-   "highlight": "10/29 本季最後一場",
-   "summary_zh": "達爾文最有名的海灘夜市，乾季限定，每週四、週日 4pm–9pm 營業。有各國小吃、手作攤和街頭表演，還能邊吃邊看海上日落。2026 年最後一場是 10/29（四），要去就趁現在。",
-   "tip_zh": "可自備酒水（BYO）；市集內有免費停車場，也可以搭 4 或 6 號公車（NT 公車目前免費）。",
+   "highlight": "乾季最終場 10/29",
+   "summary_zh": "達爾文最具代表性的海灘夜市，僅於乾季營業，每週四、週日 4pm–9pm。設有各國小吃、手作攤位及街頭表演，並可於用餐時欣賞海上日落。2026 年最後一場為 10/29（四）。",
+   "tip_zh": "可自備酒水（BYO）；市集內設有免費停車場，亦可搭乘 4 或 6 號公車（NT 公車目前免費）。",
    "sources": [
     {
      "kind": "official",
@@ -2049,7 +2049,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒有明寫免費入場（開放式市集，沒有售票）。"
+    "unconfirmed_zh": "官網未明載免費入場（開放式市集，未設售票）。"
    },
    "schedule_zh": "每週四、週日 16:00–21:00"
   },
@@ -2068,9 +2068,9 @@
    "end": "2026-10-25",
    "price_zh": "成人 A$8；NT 居民免費",
    "free": false,
-   "highlight": "10/25 結束",
-   "summary_zh": "由 Desart 主辦、全澳歷史最悠久的原住民藝術節之一，今年展出 35 個原住民藝術中心、數百位藝術家的 150 多件新作，所有作品都可以購買。在 Alice Springs 或去 Uluru 途中很值得排進行程。",
-   "tip_zh": "每天 10am–4pm 開放；在 NT 居住可免費入場，記得問櫃台需要出示什麼證明。",
+   "highlight": "展期至 10/25",
+   "summary_zh": "由 Desart 主辦，為全澳歷史最悠久的原住民藝術節之一，今年展出 35 個原住民藝術中心、數百位藝術家的 150 多件新作，所有作品均可購買。適合於 Alice Springs 停留或前往 Uluru 途中安排參觀。",
+   "tip_zh": "每日 10am–4pm 開放；NT 居民可免費入場，請向櫃台確認須出示的證明文件。",
    "sources": [
     {
      "kind": "official",
@@ -2100,7 +2100,7 @@
    "id": "nt-free-public-bus-darwin-alice-springs",
    "type": "deal",
    "title": "NT public buses – free travel",
-   "title_zh": "NT 公車全面免費搭",
+   "title_zh": "NT 公車全面免費",
    "category": "tickets",
    "region": "NT",
    "city": "Darwin",
@@ -2112,8 +2112,8 @@
    "price_zh": "免費搭乘",
    "free": true,
    "highlight": "免費",
-   "summary_zh": "北領地政府的公車 2025 年 7 月起持續全面免費，大達爾文地區（Casuarina、Palmerston、郊區）和 Alice Springs 的公車都不用錢，打工度假通勤、去市集都很省。",
-   "tip_zh": "去 Mindil 夜市可以搭 4 或 6 號公車；官方沒有公布結束日期，出發前先看 nt.gov.au 的公告。",
+   "summary_zh": "北領地政府營運的公車自 2025 年 7 月起持續全面免費，大達爾文地區（Casuarina、Palmerston、郊區）及 Alice Springs 的公車均免費搭乘，適合打工度假者通勤或前往市集。",
+   "tip_zh": "前往 Mindil 夜市可搭乘 4 或 6 號公車；官方未公布結束日期，建議出發前查閱 nt.gov.au 公告。",
    "sources": [
     {
      "kind": "official",
@@ -2143,9 +2143,9 @@
    "end": "2026-10-24",
    "price_zh": "早鳥價：成人 A$15、兒童（5 歲以上）A$8、家庭票 A$39；5 歲以下免費",
    "free": false,
-   "highlight": "年度大展 3 天",
-   "summary_zh": "塔州歷史最悠久的農業展，2026 年 10/22–24 在 Regatta Grounds 舉行，有遊樂設施、showbag、剪羊毛示範、動物展和現場表演。一張門票可任選一天入場，CP 值很高。",
-   "tip_zh": "週五開放到晚上 9:30，下班後去也來得及；官網的購票連結是 Fever 售票平台，5 歲以下免費。",
+   "highlight": "年度展會・為期 3 天",
+   "summary_zh": "塔州歷史最悠久的農業展，2026 年 10/22–24 於 Regatta Grounds 舉行，設有遊樂設施、showbag、剪羊毛示範、動物展及現場表演。一張門票可任選一天入場。",
+   "tip_zh": "週五開放至晚上 9:30，下班後亦可前往；官網購票連結為 Fever 售票平台，5 歲以下免費。",
    "sources": [
     {
      "kind": "official",
@@ -2199,8 +2199,8 @@
    "price_zh": "A$10–60（依票種）",
    "free": false,
    "highlight": "南半球最大手作展",
-   "summary_zh": "號稱南半球規模最大的現場工藝展，約 230 個攤商分布在 Deloraine 鎮上 4 個場館，可以看職人現場示範，買木工、織品、藝術品等各式手作，每年吸引超過 1.5 萬人。每天 9:00–16:00。",
-   "tip_zh": "各場館之間有免費接駁車；Deloraine 在 Launceston 西邊約 50 公里，建議開車或找朋友共乘。",
+   "summary_zh": "號稱南半球規模最大的現場工藝展，約 230 個攤商分布於 Deloraine 鎮上 4 個場館，可觀賞職人現場示範，並選購木工、織品、藝術品等各式手作，每年吸引超過 1.5 萬人。每日 9:00–16:00。",
+   "tip_zh": "各場館之間提供免費接駁車；Deloraine 位於 Launceston 以西約 50 公里，建議開車或與他人共乘前往。",
    "sources": [
     {
      "kind": "official",
@@ -2242,8 +2242,8 @@
    "price_zh": "10K A$75、半馬 A$120（10/31 前）",
    "free": false,
    "highlight": "爬升 1,271 公尺",
-   "summary_zh": "從 Sandy Bay 的 Wrest Point 一路跑（或走）上 kunanyi/Mt Wellington 山頂的 21.1 公里半馬，總爬升 1,271 公尺，報名費含從山頂載回 Wrest Point 起點的巴士；想輕鬆一點可選 10 公里的 Point to Pub（爬升 426 公尺），終點在 Fern Tree Tavern，9:45 起有接駁車從 Tavern 發車。",
-   "tip_zh": "10/31 前是一般報名價，11/1–14 漲為晚報價（半馬 A$145、10K A$90）；健走組 7:00 出發、跑步組 8:00 出發。",
+   "summary_zh": "自 Sandy Bay 的 Wrest Point 跑步（或健走）登上 kunanyi/Mt Wellington 山頂的 21.1 公里半程馬拉松，總爬升 1,271 公尺，報名費含自山頂返回 Wrest Point 起點的巴士；另有難度較低的 10 公里 Point to Pub（爬升 426 公尺），終點為 Fern Tree Tavern，9:45 起有接駁車自 Tavern 發車。",
+   "tip_zh": "10/31 前為一般報名價，11/1–14 調整為晚報價（半馬 A$145、10K A$90）；健走組 7:00 出發，跑步組 8:00 出發。",
    "sources": [
     {
      "kind": "official",
@@ -2282,11 +2282,11 @@
    "lng": 147.3318,
    "start": "2026-10-10",
    "end": null,
-   "price_zh": "免費逛（官網未列門票）",
+   "price_zh": "免費入場（官網未列門票資訊）",
    "free": true,
    "highlight": "每週六",
-   "summary_zh": "荷伯特最有名的戶外市集，由 City of Hobart 經營，每週六 8:30–15:00 在 Salamanca Place 擺攤，從塔州農產、熱食到手作工藝、衣服首飾都有，還有街頭表演，是來荷伯特必逛行程。",
-   "tip_zh": "有 RSPCA 志工的「puppy parking」可以暫放狗狗；搭配塔州目前免費的公車去最省錢。",
+   "summary_zh": "荷伯特最具代表性的戶外市集，由 City of Hobart 經營，每週六 8:30–15:00 於 Salamanca Place 舉行，商品涵蓋塔州農產、熱食、手作工藝及服飾首飾，另有街頭表演，為造訪荷伯特的推薦行程。",
+   "tip_zh": "現場有 RSPCA 志工提供「puppy parking」，可暫時寄放犬隻；可搭乘塔州目前免費的公車前往。",
    "sources": [
     {
      "kind": "official",
@@ -2316,7 +2316,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒有明寫免費入場（開放式街頭市集）。"
+    "unconfirmed_zh": "官網未明載免費入場（開放式街頭市集）。"
    },
    "schedule_zh": "每週六 8:30–15:00"
   },
@@ -2333,11 +2333,11 @@
    "lng": 147.141,
    "start": "2026-10-10",
    "end": null,
-   "price_zh": "免費逛（官網未列門票）",
+   "price_zh": "免費入場（官網未列門票資訊）",
    "free": true,
    "highlight": "每週六上午",
-   "summary_zh": "Launceston 每週六 8:30–12:30 的社區農夫市集，買得到塔州當季蔬果、肉品海鮮、乳製品、手工麵包糕點和在地酒款；曾在 2013、2017、2021 年獲 delicious. 雜誌評為全澳最傑出農夫市集（得獎或榮譽提名）。",
-   "tip_zh": "風雨無阻照常營業，入口在 Cimitiere St 或 Cameron St。",
+   "summary_zh": "Launceston 每週六 8:30–12:30 舉行的社區農夫市集，提供塔州當季蔬果、肉品海鮮、乳製品、手工麵包糕點及在地酒款；曾於 2013、2017、2021 年獲 delicious. 雜誌評為全澳最傑出農夫市集（得獎或榮譽提名）。",
+   "tip_zh": "風雨無阻照常營業，入口位於 Cimitiere St 或 Cameron St。",
    "sources": [
     {
      "kind": "official",
@@ -2361,7 +2361,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒有明寫免費入場。"
+    "unconfirmed_zh": "官網未明載免費入場。"
    },
    "schedule_zh": "每週六 8:30–12:30"
   },
@@ -2369,7 +2369,7 @@
    "id": "tas-free-public-transport-2026",
    "type": "deal",
    "title": "Free Bus Travel",
-   "title_zh": "塔州公車渡輪全免費",
+   "title_zh": "塔州公車與渡輪免費搭乘",
    "category": "tickets",
    "region": "TAS",
    "city": "Hobart",
@@ -2378,11 +2378,11 @@
    "lng": 147.329,
    "start": "2026-10-08",
    "end": "2027-06-30",
-   "price_zh": "免費搭乘（不用買票刷卡）",
+   "price_zh": "免費搭乘（無須購票或刷卡）",
    "free": true,
-   "highlight": "免費到 2027/6",
-   "summary_zh": "塔州政府的生活費補助方案：Metro Tasmania、Tassielink、Kinetic 等全州公車（市區與郊區路線）以及 Derwent Ferries 河上渡輪，免費搭到 2027 年 6 月 30 日，上車不用買票也不用刷 GreenCard。",
-   "tip_zh": "SkyBus 機場巴士和 Bruny Island 渡輪不在免費範圍，要另外付費；上車時不要刷 GreenCard。",
+   "highlight": "免費至 2027/6",
+   "summary_zh": "塔州政府生活費補助方案：Metro Tasmania、Tassielink、Kinetic 等全州公車（市區與郊區路線）及 Derwent Ferries 河上渡輪，免費搭乘至 2027 年 6 月 30 日，上車無須購票，亦無須刷 GreenCard。",
+   "tip_zh": "SkyBus 機場巴士及 Bruny Island 渡輪不在免費範圍內，須另行付費；上車時請勿刷 GreenCard。",
    "sources": [
     {
      "kind": "official",
@@ -2425,8 +2425,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・百萬朵花",
-   "summary_zh": "南半球最大的春季花展，今年主題「Feast of Flowers」，超過 100 萬朵花加上名廚料理示範和各式美食攤位，免費入場。10/11 最後一天是 Dogs' Day Out，可以帶狗狗一起逛。",
-   "tip_zh": "10/12 有「The Great Big Bulb Dig」，可以去花圃挖球根帶回家；市中心有免費接駁巴士到會場。",
+   "summary_zh": "南半球規模最大的春季花展，今年主題為「Feast of Flowers」，展出超過 100 萬朵花，並有名廚料理示範及各式美食攤位，免費入場。最後一天 10/11 為 Dogs' Day Out，可攜帶犬隻入場。",
+   "tip_zh": "10/12 舉辦「The Great Big Bulb Dig」，可至花圃挖取球根帶回；市中心有免費接駁巴士前往會場。",
    "sources": [
     {
      "kind": "official",
@@ -2486,8 +2486,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・日本文化",
-   "summary_zh": "紀念坎培拉與日本奈良締結姊妹市的年度活動，數千支蠟燭點亮奈良和平公園，還有日本傳統表演、音樂舞蹈和日式美食，夜景很好拍。",
-   "tip_zh": "燭光天黑後最美，建議傍晚到；官網表示 2026 詳細節目即將公布，出發前再確認時間。",
+   "summary_zh": "紀念坎培拉與日本奈良締結姊妹市的年度活動，數千支蠟燭點亮奈良和平公園，另有日本傳統表演、音樂舞蹈及日式美食，適合拍攝夜景。",
+   "tip_zh": "燭光於天黑後最為美觀，建議傍晚抵達；官網表示 2026 詳細節目即將公布，出發前請再次確認時間。",
    "sources": [
     {
      "kind": "official",
@@ -2528,9 +2528,9 @@
    "end": "2026-10-24",
    "price_zh": "請見官網",
    "free": false,
-   "highlight": "限定 1 天",
-   "summary_zh": "在國家圖書館旁 Patrick White Lawns 舉辦的德式啤酒節，下午 1 點到晚上 9 點，主打德國啤酒和巴伐利亞風格的戶外派對，很適合和朋友一起去。",
-   "tip_zh": "可上官網登記早鳥票和 VIP 套票；同一天晚上還有免費的奈良燭光節，兩個活動可以排在一起。",
+   "highlight": "為期 1 天",
+   "summary_zh": "於國家圖書館旁 Patrick White Lawns 舉辦的德式啤酒節，時間為下午 1 點至晚上 9 點，以德國啤酒及巴伐利亞風格戶外派對為主，適合與朋友同行。",
+   "tip_zh": "可於官網登記早鳥票及 VIP 套票；同日晚間另有免費的奈良燭光節，可合併安排。",
    "sources": [
     {
      "kind": "official",
@@ -2548,7 +2548,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "票價還沒公布。"
+    "unconfirmed_zh": "票價尚未公布。"
    }
   },
   {
@@ -2564,11 +2564,11 @@
    "lng": 149.144,
    "start": "2026-10-11",
    "end": null,
-   "price_zh": "免費逛（官網未列門票）",
+   "price_zh": "免費入場（官網未列門票資訊）",
    "free": true,
    "highlight": "每週日",
-   "summary_zh": "坎培拉最有名的週日市集，在 Kingston 歷史悠久的老公車廠房裡，每週日 9:30–14:30 營業，手作設計商品、服飾首飾、收藏品和各式小吃都有，下雨天也能逛。",
-   "tip_zh": "旁邊就是 Kingston Foreshore 湖畔區，逛完可以順便散步、吃早午餐。",
+   "summary_zh": "坎培拉最具代表性的週日市集，位於 Kingston 歷史悠久的舊公車廠房內，每週日 9:30–14:30 營業，提供手作設計商品、服飾首飾、收藏品及各式小吃，雨天亦可參觀。",
+   "tip_zh": "鄰近 Kingston Foreshore 湖畔區，可順道散步或享用早午餐。",
    "sources": [
     {
      "kind": "official",
@@ -2592,7 +2592,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒有明寫免費入場。"
+    "unconfirmed_zh": "官網未明載免費入場。"
    },
    "schedule_zh": "每週日 9:30–14:30"
   },
@@ -2612,8 +2612,8 @@
    "price_zh": "週末一日最多 A$6.22",
    "free": false,
    "highlight": "週末封頂",
-   "summary_zh": "坎培拉公車和輕軌可直接用 Visa / Mastercard 或 MyWay+ 卡感應搭乘，週末與國定假日一天最多只扣 A$6.22（平日封頂 A$10.16），離峰單趟 A$2.70，90 分鐘內轉乘免費。",
-   "tip_zh": "上下車都要感應（tap on / tap off）才會自動封頂；同一種付款方式當月搭到次數上限後，剩下的行程都免費。",
+   "summary_zh": "坎培拉公車及輕軌可直接以 Visa / Mastercard 或 MyWay+ 卡感應搭乘，週末與國定假日每日扣款上限為 A$6.22（平日上限 A$10.16），離峰單趟 A$2.70，90 分鐘內轉乘免費。",
+   "tip_zh": "上下車均須感應（tap on / tap off）方可自動套用封頂上限；同一付款方式當月搭乘達次數上限後，其餘行程均免費。",
    "sources": [
     {
      "kind": "official",
@@ -2644,8 +2644,8 @@
    "price_zh": "一般入場 A$50–120（12–17 歲 A$15–36）",
    "free": false,
    "highlight": "年度賽馬盛事",
-   "summary_zh": "號稱「讓全國停下來的比賽」，四個賽馬日：10/31 Derby Day、11/3 墨爾本盃、11/5 Oaks Day、11/7 Stakes Day。盛裝打扮、帽飾加上滿場人潮，是最能體驗澳洲文化的活動之一。",
-   "tip_zh": "想省錢選 Oaks Day（成人 A$50）；墨爾本盃當天 Flinders Street 與 Southern Cross 都有直達 Flemington Racecourse 站的火車。11/3 當天是墨爾本都會區公眾假日。",
+   "summary_zh": "號稱「讓全國停下來的比賽」，共四個賽馬日：10/31 Derby Day、11/3 墨爾本盃、11/5 Oaks Day、11/7 Stakes Day。觀眾盛裝出席、配戴帽飾，現場人潮眾多，為體驗澳洲文化的代表性活動之一。",
+   "tip_zh": "Oaks Day 票價較低（成人 A$50）；墨爾本盃當日 Flinders Street 與 Southern Cross 皆有直達 Flemington Racecourse 站的火車。11/3 為墨爾本都會區公眾假日。",
    "sources": [
     {
      "kind": "official",
@@ -2693,9 +2693,9 @@
    "end": "2026-10-25",
    "price_zh": "單日 A$50 起（週日 A$99、三日 A$190）",
    "free": false,
-   "highlight": "Phillip Island 最後一屆",
-   "summary_zh": "世界頂級重機賽 MotoGP 在 Phillip Island 海岸賽道開跑，官方表示 2026 年是在 Phillip Island 舉辦的最後一屆（第 30 場），車迷錯過就沒了。",
-   "tip_zh": "2026 年票價凍漲；14 歲以下由付費成人陪同免費（每張成人票可帶 4 位）。沒車可搭官方 Catch-a-Coach 巴士，Cowes 也有 MotoGP 露營區。",
+   "highlight": "Phillip Island 最終屆",
+   "summary_zh": "世界頂級重型機車賽事 MotoGP 於 Phillip Island 海岸賽道舉行，官方表示 2026 年為在 Phillip Island 舉辦的最後一屆（第 30 場）。",
+   "tip_zh": "2026 年票價凍漲；14 歲以下由付費成人陪同可免費入場（每張成人票可攜帶 4 位）。無自用車者可搭乘官方 Catch-a-Coach 巴士，Cowes 另設有 MotoGP 露營區。",
    "sources": [
     {
      "kind": "official",
@@ -2742,9 +2742,9 @@
    "end": "2026-10-31",
    "price_zh": "免費入場",
    "free": true,
-   "highlight": "免費＋煙火",
-   "summary_zh": "第 21 屆維州排燈節在 Fed Square 登場，有寶萊塢舞蹈、現場音樂、瑜伽、印度手作市集，Birrarung Marr Walk 一整排印度街頭小吃，晚上還有煙火秀。",
-   "tip_zh": "11:30am–10pm，想看煙火就晚上去；當天也是萬聖節，市區人多，建議搭電車（Fed Square 在市區免費電車區內）。",
+   "highlight": "免費・煙火秀",
+   "summary_zh": "第 21 屆維州排燈節於 Fed Square 舉行，有寶萊塢舞蹈、現場音樂、瑜伽及印度手作市集，Birrarung Marr Walk 沿線設有印度街頭小吃攤位，晚間另有煙火秀。",
+   "tip_zh": "11:30am–10pm，煙火於晚間舉行；當日亦為萬聖節，市區人潮較多，建議搭乘電車（Fed Square 位於市區免費電車區內）。",
    "sources": [
     {
      "kind": "official",
@@ -2785,9 +2785,9 @@
    "end": "2026-11-02",
    "price_zh": "免費入場（需線上登記），餐點另計",
    "free": true,
-   "highlight": "免費・一日限定",
-   "summary_zh": "Queen Victoria Market 一天限定的餃子節，小籠包、日式煎餃、韓式餃子（mandu）、波蘭餃、尼泊爾 momo 等世界各國餃子一次吃遍，還有現場音樂。",
-   "tip_zh": "免費但要先上 Eventbrite（midf2026.eventbrite.com）登記拿票；12pm–10pm，場地有遮蔽不怕下雨。隔天 11/3 是墨爾本盃假日，週一晚上去剛好。",
+   "highlight": "免費・單日活動",
+   "summary_zh": "於 Queen Victoria Market 舉辦的單日餃子節，匯集小籠包、日式煎餃、韓式餃子（mandu）、波蘭餃、尼泊爾 momo 等世界各國餃子，另有現場音樂。",
+   "tip_zh": "免費入場，但須先於 Eventbrite（midf2026.eventbrite.com）登記取票；12pm–10pm，場地設有遮蔽，雨天亦可前往。翌日 11/3 為墨爾本盃假日，適合於週一晚間前往。",
    "sources": [
     {
      "kind": "official",
@@ -2835,8 +2835,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・燈籠夜景",
-   "summary_zh": "Alexandra Gardens 變身亞洲夜市花園：35 家以上攤商、200 多道亞洲街頭小吃，加上燈籠、竹屋造景、市集和文化表演，天黑後燈籠點亮超好拍。",
-   "tip_zh": "只有兩個週末開放（11/13–15、11/20–22），11am–10pm，免預約；傍晚到可以邊吃邊等燈籠亮。",
+   "summary_zh": "Alexandra Gardens 化身亞洲夜市花園：35 家以上攤商、200 多道亞洲街頭小吃，另有燈籠、竹屋造景、市集及文化表演，入夜後燈籠點亮，適合拍照。",
+   "tip_zh": "僅於兩個週末開放（11/13–15、11/20–22），11am–10pm，無須預約；建議傍晚抵達，可於用餐時欣賞燈籠點亮。",
    "sources": [
     {
      "kind": "official",
@@ -2885,8 +2885,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・180+ 攤位",
-   "summary_zh": "在世界遺產皇家展覽館舉辦的義大利文化節，180 多個攤位（50 家以上美食酒水）、多個舞台的現場音樂與爵士、品酒和名廚料理示範，還有 Vespa 展。",
-   "tip_zh": "週六 11am–10:30pm、週日 11am–8:30pm，免預約直接進場；同週末 Queen Victoria Market 也有免費的 Melbourne Donut Festival，可以順路去。",
+   "summary_zh": "於世界遺產皇家展覽館舉辦的義大利文化節，設有 180 多個攤位（50 家以上美食酒水），以及多個舞台的現場音樂與爵士、品酒和名廚料理示範，另有 Vespa 展。",
+   "tip_zh": "週六 11am–10:30pm、週日 11am–8:30pm，無須預約即可入場；同週末 Queen Victoria Market 另有免費的 Melbourne Donut Festival，可順道前往。",
    "sources": [
     {
      "kind": "official",
@@ -2934,8 +2934,8 @@
    "price_zh": "部分節目免費，其餘依節目而定",
    "free": false,
    "highlight": "450+ 場節目",
-   "summary_zh": "每年 450 場以上的獨立藝術節：喜劇、卡巴萊、劇場、舞蹈、馬戲和大型公共藝術，也有不少免費節目，是認識墨爾本創意圈的好機會。",
-   "tip_zh": "到官網節目表找免費（free）節目；Trades Hall（Lygon St 與 Victoria St 交叉口）是藝穗節的主要活動據點，有酒吧和多個表演空間。",
+   "summary_zh": "每年舉辦 450 場以上節目的獨立藝術節，涵蓋喜劇、卡巴萊、劇場、舞蹈、馬戲及大型公共藝術，並有多項免費節目，適合認識墨爾本的創意藝文界。",
+   "tip_zh": "可於官網節目表查詢免費（free）節目；Trades Hall（Lygon St 與 Victoria St 交叉口）為藝穗節主要活動據點，設有酒吧及多個表演空間。",
    "sources": [
     {
      "kind": "official",
@@ -2983,8 +2983,8 @@
    "price_zh": "成人 A$40，未滿 17 歲免費",
    "free": false,
    "highlight": "百萬花海",
-   "summary_zh": "Dandenong Ranges 山腳下的百萬花海，整片鬱金香田是 IG 上維州春天的代表景點；最後一個週末（10/10–11）是 Irish Weekend，有現場表演。",
-   "tip_zh": "每天 10am–5pm、免費停車；搭火車到 Lilydale 或 Belgrave 站再轉 663 路公車。官網首頁標示目前全票 7 折，請在官網或 TryBooking 購票，社群轉售票現場不收。",
+   "summary_zh": "位於 Dandenong Ranges 山腳下的百萬花海，鬱金香田為社群上維州春季的代表景點；最後一個週末（10/10–11）為 Irish Weekend，設有現場表演。",
+   "tip_zh": "每日 10am–5pm，提供免費停車；可搭乘火車至 Lilydale 或 Belgrave 站，再轉乘 663 路公車。官網首頁標示目前全票 7 折，請於官網或 TryBooking 購票，現場不接受社群轉售票。",
    "sources": [
     {
      "kind": "official",
@@ -3038,8 +3038,8 @@
    "price_zh": "一般入場 A$25，17 歲以下免費",
    "free": false,
    "highlight": "平價賽馬日",
-   "summary_zh": "維州春季賽馬季的重要賽事之一，有頂級賽馬、現場娛樂、時尚活動和賽道邊的熱鬧氣氛；門票只要墨爾本盃的零頭，適合第一次體驗澳洲賽馬。",
-   "tip_zh": "週三舉行，11am–7:30pm；揪團買 10 張團體票 A$125，平均每人 A$12.5。",
+   "summary_zh": "維州春季賽馬季的重要賽事之一，有頂級賽馬、現場娛樂、時尚活動及賽道周邊的熱烈氣氛；門票價格遠低於墨爾本盃，適合初次體驗澳洲賽馬。",
+   "tip_zh": "週三舉行，11am–7:30pm；10 張團體票 A$125，平均每人 A$12.5。",
    "sources": [
     {
      "kind": "official",
@@ -3069,7 +3069,7 @@
    "id": "queenscliff-music-festival-2026",
    "type": "event",
    "title": "Queenscliff Music Festival 2026",
-   "title_zh": "Queenscliff 海邊音樂節",
+   "title_zh": "Queenscliff 海濱音樂節",
    "category": "music",
    "region": "VIC",
    "city": "Queenscliff",
@@ -3081,8 +3081,8 @@
    "price_zh": "單日 A$119 起；三日票 A$319",
    "free": false,
    "highlight": "80+ 組藝人",
-   "summary_zh": "Bellarine 半島海邊小鎮的年度音樂節，三天 80 多組藝人，包括 Matt Corby、Lime Cordiale、Baker Boy、Kate Miller-Heidke，還有喜劇、DJ、靜音派對和遊船音樂行程。",
-   "tip_zh": "票價已含手續費；官方有接駁巴士票與露營區，也可從 Mornington Peninsula 的 Sorrento 搭 Searoad 渡輪過來。",
+   "summary_zh": "Bellarine 半島海濱小鎮的年度音樂節，三天共 80 多組藝人演出，包括 Matt Corby、Lime Cordiale、Baker Boy、Kate Miller-Heidke，另有喜劇、DJ、靜音派對及遊船音樂行程。",
+   "tip_zh": "票價已含手續費；官方提供接駁巴士票及露營區，亦可自 Mornington Peninsula 的 Sorrento 搭乘 Searoad 渡輪前往。",
    "sources": [
     {
      "kind": "official",
@@ -3130,8 +3130,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "每週五・免費",
-   "summary_zh": "伯斯市中心最大的街頭美食市集，每週五傍晚在 Forrest Place 登場，集結世界各地平價小吃和現場表演，一路辦到 2027 年 4 月底。下班後找朋友來吃晚餐、感受夏夜氣氛很適合。",
-   "tip_zh": "每週五 16:30–21:30，Forrest Place 就在 Perth 火車站旁；12/25、1/1、1/15、3/26 停辦。",
+   "summary_zh": "伯斯市中心規模最大的街頭美食市集，每週五傍晚於 Forrest Place 舉行，匯集世界各地平價小吃及現場表演，持續至 2027 年 4 月底。適合下班後與朋友共進晚餐，感受夏夜氛圍。",
+   "tip_zh": "每週五 16:30–21:30，Forrest Place 位於 Perth 火車站旁；12/25、1/1、1/15、3/26 停辦。",
    "sources": [
     {
      "kind": "official",
@@ -3162,8 +3162,8 @@
    "price_zh": "免費入場（部分工作坊需購票）",
    "free": true,
    "highlight": "每月第二個週四・免費",
-   "summary_zh": "每月第二個週四晚上，East Perth 的 Perth City Farm 變身夜間小市集：有咖啡廳晚餐和飲料、農場小店、新手排舞、皮拉提斯、藝術展，還有免費導覽，是在地人私藏的週四夜活動。",
-   "tip_zh": "2026 年接下來的場次是 10/8 和 11/12，17:00–20:00；排舞新手班 18:00、中級班 19:00，皮拉提斯需另外預約。",
+   "summary_zh": "每月第二個週四晚間，East Perth 的 Perth City Farm 化身夜間市集：提供咖啡廳晚餐與飲品、農場小店、新手排舞、皮拉提斯及藝術展，另有免費導覽，深受在地居民喜愛。",
+   "tip_zh": "2026 年後續場次為 10/8 及 11/12，17:00–20:00；排舞新手班 18:00、中級班 19:00，皮拉提斯須另行預約。",
    "sources": [
     {
      "kind": "official",
@@ -3205,9 +3205,9 @@
    "end": null,
    "price_zh": "週日免費（需用 SmartRider 或感應付款）；其他日子單趟 A$3.50（SmartRider 自動加值 A$2.80）",
    "free": true,
-   "highlight": "週日全免費",
-   "summary_zh": "伯斯 Transperth 公車、火車、渡輪每逢週日從首班到末班全部免費（需使用 SmartRider 或信用卡／手機感應付款，買現金票不適用），州政府已宣布永久實施；週一至週六則有 Go Anywhere 單一票價，刷信用卡或手機每趟 A$3.50、SmartRider 自動加值只要 A$2.80，3 小時內坐到 Mandurah 也一樣價。",
-   "tip_zh": "週日也要照常 tap on / tap off 才算免費，SmartRider 餘額不能是負數；用信用卡感應無法享優待票價。",
+   "highlight": "週日免費搭乘",
+   "summary_zh": "伯斯 Transperth 公車、火車、渡輪每逢週日自首班至末班車全面免費（須使用 SmartRider 或信用卡／手機感應付款，現金票不適用），州政府已宣布永久實施；週一至週六則實施 Go Anywhere 單一票價，以信用卡或手機感應每趟 A$3.50，SmartRider 自動加值則為 A$2.80，3 小時內搭乘至 Mandurah 亦為相同票價。",
+   "tip_zh": "週日仍須照常 tap on / tap off 方可免費搭乘，SmartRider 餘額不得為負數；以信用卡感應無法適用優待票價。",
    "sources": [
     {
      "kind": "official",
@@ -3255,9 +3255,9 @@
    "end": "2028-06-30",
    "price_zh": "來回 A$60 起（含登島費）",
    "free": false,
-   "highlight": "省約 3 成",
-   "summary_zh": "Rottnest Express 的 Telethon Saver 優惠：Fremantle 出發當日來回 A$60 起、Perth 市區 Barrack St 出發 A$89 起，已含登島費；一般票價分別是 A$87.50 和 A$135.50。去 Rotto 騎腳踏車、跟短尾矮袋鼠（quokka）自拍最划算的方式之一。",
-   "tip_zh": "官網直接訂票並輸入代碼 TELETHON；票價頁另註明可能限週一至週五、Fremantle 出發、需前一天預訂，12/24–1/11 不適用，以訂票畫面為準。",
+   "highlight": "優惠約 3 成",
+   "summary_zh": "Rottnest Express 的 Telethon Saver 優惠：自 Fremantle 出發當日來回 A$60 起、自 Perth 市區 Barrack St 出發 A$89 起，均已含登島費；一般票價分別為 A$87.50 及 A$135.50。適合前往 Rotto 騎乘自行車及與短尾矮袋鼠（quokka）合影。",
+   "tip_zh": "於官網訂票並輸入代碼 TELETHON；票價頁另註明可能限週一至週五、自 Fremantle 出發且須於前一日預訂，12/24–1/11 不適用，以訂票畫面為準。",
    "sources": [
     {
      "kind": "official",
@@ -3294,8 +3294,8 @@
    "price_zh": "免費觀賞；After Party 免費",
    "free": true,
    "highlight": "免費・年度盛事",
-   "summary_zh": "Pride WA 一年一度的 PrideFEST 彩虹大遊行，11/28 走過 Northbridge 街頭，結束後在 Russell Square 有 City of Perth 主辦的免費 After Party，氣氛超熱鬧，也是 IG 打卡熱點。",
-   "tip_zh": "11/8 在 Wellington Square（Moort-ak Waadiny）還有 PrideFEST Fairday 園遊會，有社群攤位、表演和超人氣狗狗選美。",
+   "summary_zh": "Pride WA 年度 PrideFEST 彩虹大遊行，11/28 行經 Northbridge 街頭，結束後於 Russell Square 舉行由 City of Perth 主辦的免費 After Party，現場氣氛熱烈，於社群上討論度高。",
+   "tip_zh": "11/8 於 Wellington Square（Moort-ak Waadiny）另有 PrideFEST Fairday 園遊會，設有社群攤位、表演及廣受歡迎的狗狗選美。",
    "sources": [
     {
      "kind": "official",
@@ -3342,9 +3342,9 @@
    "end": "2026-11-14",
    "price_zh": "門票 A$25",
    "free": false,
-   "highlight": "週五晚放煙火",
-   "summary_zh": "西澳南岸 Albany 的年度農業展，有牲畜比賽、馬術、牧羊犬表演、手作和烘焙展、遊樂設施與美食攤，週五晚上 8 點還有煙火秀，是體驗澳洲鄉村文化的好機會。",
-   "tip_zh": "週五 9:00–22:00、週六 9:00–17:00，門票可在 Megatix 預購；11/15 另有牧羊犬比賽。",
+   "highlight": "週五晚間煙火",
+   "summary_zh": "西澳南岸 Albany 的年度農業展，有牲畜比賽、馬術、牧羊犬表演、手作與烘焙展、遊樂設施及美食攤位，週五晚上 8 點另有煙火秀，適合體驗澳洲鄉村文化。",
+   "tip_zh": "週五 9:00–22:00、週六 9:00–17:00，門票可於 Megatix 預購；11/15 另有牧羊犬比賽。",
    "sources": [
     {
      "kind": "official",
@@ -3386,8 +3386,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "首度移師歐洲以外",
-   "summary_zh": "UCI 礫石公路車世界錦標賽首次在歐洲以外舉辦，也是西澳第一次辦菁英級世界錦標賽，10/10–11 在西南部小鎮 Nannup 一帶的森林與河谷賽道開打，菁英選手和分齡組都會出賽。",
-   "tip_zh": "官方網站有觀賽點地圖（Soigneur & Spectator Locations Map），出發前先查好位置；Nannup 沒有火車，建議自行開車前往。",
+   "summary_zh": "UCI 礫石公路車世界錦標賽首次於歐洲以外地區舉辦，亦為西澳首度舉辦菁英級世界錦標賽，10/10–11 於西南部小鎮 Nannup 一帶的森林與河谷賽道進行，菁英選手及分齡組均將出賽。",
+   "tip_zh": "官方網站提供觀賽點地圖（Soigneur & Spectator Locations Map），建議出發前先行確認位置；Nannup 無火車服務，建議自行開車前往。",
    "sources": [
     {
      "kind": "official",
@@ -3417,7 +3417,7 @@
    "verified": {
     "status": "partial",
     "checked": "2026-10-08",
-    "unconfirmed_zh": "官網沒寫觀賽是否收費。"
+    "unconfirmed_zh": "官網未載明觀賽是否收費。"
    }
   },
   {
@@ -3436,8 +3436,8 @@
    "price_zh": "依活動而異，請見官網",
    "free": false,
    "highlight": "年度美酒盛會",
-   "summary_zh": "西澳頂級酒鄉 Margaret River 的年度美酒美食節，四天 20 多場活動：侍酒師帶領的品酒、米其林星級主廚聯名餐酒晚宴、Meelup Beach 海灘俱樂部、卡里森林長桌午宴等。",
-   "tip_zh": "票已開賣，熱門場次可能很快售完，想去要早點訂；活動分散在各酒莊，部分場次有 Pair'd 接駁巴士（巴士票 11/5 截止），其餘需自行安排交通。",
+   "summary_zh": "西澳頂級酒鄉 Margaret River 的年度美酒美食節，四天舉辦 20 多場活動，包括侍酒師帶領的品酒、米其林星級主廚聯名餐酒晚宴、Meelup Beach 海灘俱樂部及卡里森林長桌午宴等。",
+   "tip_zh": "門票已開賣，熱門場次可能迅速售完，建議提早預訂；活動分散於各酒莊，部分場次提供 Pair'd 接駁巴士（巴士票 11/5 截止），其餘須自行安排交通。",
    "sources": [
     {
      "kind": "official",

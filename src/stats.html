@@ -1,31 +1,18 @@
-<title>網站統計・澳洲好康地圖</title>
+<title>網站統計・澳洲活動優惠地圖</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
 <style>
 /* Layout: owner-only dashboard — KPI row, one trend chart, then ranked lists in two columns. */
 :root{
-  --paper:#F4F6F2; --surface:#FFFFFF; --ink:#13201C; --ink-2:#3A4843; --muted:#66746F; --faint:#93A09A;
+  --paper:#FFFFFF; --surface:#FFFFFF; --ink:#13201C; --ink-2:#3A4843; --muted:#66746F; --faint:#93A09A;
   --line:#DFE4DD; --line-2:#EAEEE8; --grid:#E6EAE4;
   --s1:#1A6FA0; --s2:#C4851A; --bar:#1A6FA0; --bar-bg:#ECF0EB;
   --bad:#B0472C; --focus:#1A6FA0;
   --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
   --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --paper:#0E1412; --surface:#151D1A; --ink:#E6ECE9; --ink-2:#C3CDC8; --muted:#8D9B95; --faint:#66746F;
-    --line:#25302C; --line-2:#1D2724; --grid:#222C28;
-    --s1:#4290C0; --s2:#C08828; --bar:#4290C0; --bar-bg:#1D2724; --bad:#E58468; --focus:#4290C0;
-    color-scheme:dark;
-  }
-}
-:root[data-theme="dark"]{
-  --paper:#0E1412; --surface:#151D1A; --ink:#E6ECE9; --ink-2:#C3CDC8; --muted:#8D9B95; --faint:#66746F;
-  --line:#25302C; --line-2:#1D2724; --grid:#222C28;
-  --s1:#4290C0; --s2:#C08828; --bar:#4290C0; --bar-bg:#1D2724; --bad:#E58468; --focus:#4290C0;
-  color-scheme:dark;
+  color-scheme:light;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.6 var(--f-body);-webkit-font-smoothing:antialiased}
@@ -38,22 +25,22 @@ button,input,select{font:inherit;color:inherit}
 .top h1{font-family:var(--f-display);font-size:22px;margin:0;letter-spacing:.03em}
 .top h1 small{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--muted);font-weight:400;text-transform:uppercase}
 .top .ctl{display:flex;gap:8px;align-items:center}
-.seg{display:inline-flex;padding:3px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
-.seg button{border:0;background:none;padding:4px 12px;border-radius:999px;font-size:13px;cursor:pointer;color:var(--ink-2)}
+.seg{display:inline-flex;padding:2px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.seg button{border:0;background:none;padding:4px 12px;border-radius:4px;font-size:13px;cursor:pointer;color:var(--ink-2)}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
-.btn{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 12px;font-size:13px;cursor:pointer;text-decoration:none;color:var(--ink)}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:6px;padding:6px 12px;font-size:13px;cursor:pointer;text-decoration:none;color:var(--ink)}
 .btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.login{max-width:380px;margin:12vh auto 0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px}
+.login{max-width:380px;margin:12vh auto 0;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:24px}
 .login h2{font-family:var(--f-display);margin:0 0 6px;font-size:20px}
 .login p{margin:0 0 16px;color:var(--muted);font-size:13px}
-.login input{width:100%;height:42px;border:1px solid var(--line);border-radius:10px;padding:0 12px;background:var(--paper);margin-bottom:10px}
+.login input{width:100%;height:42px;border:1px solid var(--line);border-radius:6px;padding:0 12px;background:var(--paper);margin-bottom:10px}
 .login .err{color:var(--bad);font-size:13px;margin:0 0 10px}
 .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}
-.kpi{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi{background:#F6F7F5;border:1px solid var(--line);border-radius:8px;padding:14px 16px}
 .kpi .l{font-size:12.5px;color:var(--muted)}
 .kpi .v{font-family:var(--f-mono);font-size:28px;font-weight:500;line-height:1.2;margin-top:4px}
 .kpi .s{font-size:12px;color:var(--faint);margin-top:2px}
-.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;min-width:0}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;min-width:0}
 .panel h3{margin:0 0 2px;font-size:15px;font-weight:700}
 .panel .sub{margin:0 0 12px;font-size:12.5px;color:var(--muted)}
 .legend{display:flex;gap:16px;font-size:12.5px;color:var(--ink-2);margin-bottom:6px}
@@ -89,14 +76,14 @@ button,input,select{font:inherit;color:inherit}
         <button type="button" data-days="30" aria-pressed="true">30 天</button>
         <button type="button" data-days="90" aria-pressed="false">90 天</button>
       </div>
-      <a class="btn" href="/">回網站</a>
+      <a class="btn" href="/">返回網站</a>
       <button class="btn" type="button" id="logout">登出</button>
     </div>
   </div>
 
   <form class="login" id="login" hidden>
     <h2>輸入統計密碼</h2>
-    <p>這一頁只給網站管理者看。密碼只會存在這台裝置的瀏覽器裡。</p>
+    <p>此頁面僅供網站管理者使用。密碼僅儲存於本裝置的瀏覽器。</p>
     <p class="err" id="err" hidden></p>
     <label for="key" class="sr" hidden>密碼</label>
     <input id="key" type="password" autocomplete="current-password" placeholder="統計密碼">
@@ -106,13 +93,13 @@ button,input,select{font:inherit;color:inherit}
   <div id="dash" hidden>
     <div class="kpis" id="kpis"></div>
     <section class="panel">
-      <h3>每天的瀏覽與訪客</h3>
-      <p class="sub">瀏覽＝每次打開網站；訪客＝每天不重複的裝置</p>
+      <h3>每日瀏覽與訪客</h3>
+      <p class="sub">瀏覽：每次開啟網站；訪客：每日不重複裝置</p>
       <div class="legend"><span><i style="background:var(--s1)"></i>瀏覽</span><span><i style="background:var(--s2)"></i>訪客</span></div>
       <div class="chart" id="chart"></div>
     </section>
     <div class="grid" id="lists"></div>
-    <p class="note">統計不記錄姓名、帳號或 IP；訪客是瀏覽器裡隨機產生的匿名編號，只用來計算每天不重複人數。時間以布里斯本時間（UTC+10）計算。</p>
+    <p class="note">本統計不記錄姓名、帳號或 IP 位址；訪客編號為瀏覽器隨機產生的匿名代碼，僅用於計算每日不重複人數。時間以布里斯本時間（UTC+10）計算。</p>
   </div>
 </div>
 
@@ -157,7 +144,7 @@ function load(){
     .then(r => { if (r.status === 401) throw new Error('auth'); if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
     .then(render)
     .catch(err => {
-      if (err.message === 'auth'){ try { localStorage.removeItem('adm_stats_key'); } catch(e) {} KEY = ''; showLogin('密碼不對，請再輸入一次。'); }
+      if (err.message === 'auth'){ try { localStorage.removeItem('adm_stats_key'); } catch(e) {} KEY = ''; showLogin('密碼不正確，請重新輸入。'); }
       else showLogin('讀取統計失敗（' + err.message + '），請稍後再試。');
     });
 }
@@ -167,8 +154,8 @@ function render(d){
   const t = d.totals;
   const per = t.visitors ? (t.views / t.visitors).toFixed(1) : '0';
   $('kpis').innerHTML = [
-    ['今天瀏覽', fmt(t.today_views), '布里斯本時間今天'],
-    ['今天訪客', fmt(t.today_visitors), '不重複裝置'],
+    ['今日瀏覽', fmt(t.today_views), '布里斯本時間'],
+    ['今日訪客', fmt(t.today_visitors), '不重複裝置'],
     [DAYS + ' 天瀏覽', fmt(t.views), '平均每天 ' + fmt(Math.round(t.views / DAYS))],
     [DAYS + ' 天訪客', fmt(t.visitors), '每位訪客平均 ' + per + ' 次'],
   ].map(([l, v, s]) => `<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="s">${s}</div></div>`).join('');
@@ -176,18 +163,18 @@ function render(d){
   const T = d.top;
   const box = (title, sub, rows, name) => `<section class="panel"><h3>${title}</h3><p class="sub">${sub}</p>${rank(rows, name)}</section>`;
   $('lists').innerHTML = [
-    box('最多人點開的項目', '在列表或地圖上點開看詳情', T.open, k => esc(TITLES[k] || k)),
-    box('最多人點的來源連結', '點了「資料來源」裡的連結', T.src, k => { const [id, kind] = k.split('|'); return `${esc(TITLES[id] || id)}<small>${esc(KIND[kind] || kind || '')}</small>`; }),
-    box('訪客在哪裡', '依連線位置推估（澳洲顯示到州）', T.geo, k => { if (k.startsWith('AU-')) return esc((STATE_ZH[k.slice(3)] || k.slice(3)) + '・澳洲'); return esc(country(k) || k); }),
+    box('點閱最多的項目', '於列表或地圖上開啟詳細資訊', T.open, k => esc(TITLES[k] || k)),
+    box('點擊最多的來源連結', '點擊「資料來源」中的連結', T.src, k => { const [id, kind] = k.split('|'); return `${esc(TITLES[id] || id)}<small>${esc(KIND[kind] || kind || '')}</small>`; }),
+    box('訪客地區', '依連線位置推估（澳洲顯示至州）', T.geo, k => { if (k.startsWith('AU-')) return esc((STATE_ZH[k.slice(3)] || k.slice(3)) + '・澳洲'); return esc(country(k) || k); }),
     box('使用裝置', '依螢幕寬度判斷', T.device, k => ({mobile:'手機', tablet:'平板', desktop:'電腦'}[k] || esc(k))),
-    box('從哪裡連過來', '來源網站（直接打網址不列入）', T.ref, k => esc(k)),
-    box('大家搜尋什麼', '搜尋框輸入的關鍵字', T.search, k => esc(k)),
-    box('最常看的地區', '點選地區或地圖上的州', T.region, k => esc(STATE_ZH[k] || k)),
-    box('到社群搜尋', '點了哪個社群平台的搜尋按鈕', T.social, k => esc(k)),
+    box('來源網站', '直接輸入網址者不列入', T.ref, k => esc(k)),
+    box('搜尋關鍵字', '於搜尋框輸入的關鍵字', T.search, k => esc(k)),
+    box('地區篩選', '選擇地區或點選地圖上的州', T.region, k => esc(STATE_ZH[k] || k)),
+    box('社群搜尋', '點擊各社群平台搜尋按鈕的次數', T.social, k => esc(k)),
   ].join('');
 }
 function rank(rows, name){
-  if (!rows || !rows.length) return '<div class="none">這段期間還沒有資料</div>';
+  if (!rows || !rows.length) return '<div class="none">此期間尚無資料</div>';
   const max = Math.max(...rows.map(r => r.n));
   return `<ol class="rank">${rows.map(r => `<li title="${esc(r.key)}：${fmt(r.n)}"><span class="name">${name(r.key)}</span><span class="n">${fmt(r.n)}</span><span class="bar"><span style="width:${Math.max(2, r.n / max * 100).toFixed(1)}%"></span></span></li>`).join('')}</ol>`;
 }

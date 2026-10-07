@@ -1,4 +1,4 @@
-// 澳洲好康地圖：把 data/ 的資料塞進 src/ 的版型，產生可上線的 public/ 和 Claude 預覽用的 artifact/
+// 澳洲活動優惠地圖：把 data/ 的資料塞進 src/ 的版型，產生可上線的 public/ 和 Claude 預覽用的 artifact/
 // 用法：node build.js   （零相依，Node 18 以上）
 const fs = require('fs');
 const path = require('path');
@@ -59,7 +59,7 @@ function fill(tpl, cfg) {
     .replace('/*__CONFIG__*/{api:false,tiles:false}', () => JSON.stringify(cfg));
 }
 
-const FAVICON = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><rect width="34" height="34" rx="9" fill="#13201C"/><g fill="#F4F6F2"><circle cx="17" cy="27" r="2.3"/><circle cx="17.5" cy="7" r="1.9"/><circle cx="9" cy="15" r="1.9"/><circle cx="24.5" cy="13.5" r="1.6"/><circle cx="21.5" cy="20" r="1.1"/></g></svg>');
+const FAVICON = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><rect width="34" height="34" rx="7" fill="#121A17"/><g fill="#FFFFFF"><circle cx="17" cy="27" r="2.3"/><circle cx="17.5" cy="7" r="1.9"/><circle cx="9" cy="15" r="1.9"/><circle cx="24.5" cy="13.5" r="1.6"/><circle cx="21.5" cy="20" r="1.1"/></g></svg>');
 
 // 把「只有內容」的版型包成完整網頁：<title>/<meta>/<link>/<style> 放進 head，其餘放進 body
 function wrap(content, extraHead = '') {
@@ -71,7 +71,7 @@ function wrap(content, extraHead = '') {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#13201C">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="${FAVICON}">
 ${extraHead}${head}</head>
 <body>
@@ -81,8 +81,8 @@ ${body}</body>
 }
 
 const site = read('site.json') ? JSON.parse(read('site.json')) : {};
-const og = `<meta property="og:title" content="澳洲好康地圖">
-<meta property="og:description" content="澳洲各州正在進行的活動與特價，一張地圖看完。每一筆都附官方來源並逐筆查證。">
+const og = `<meta property="og:title" content="澳洲活動優惠地圖">
+<meta property="og:description" content="以互動地圖整理澳洲各州進行中的活動與優惠，每筆均附官方來源並經獨立查證。">
 <meta property="og:type" content="website">
 ${site.url ? `<meta property="og:url" content="${site.url}">\n` : ''}`;
 
