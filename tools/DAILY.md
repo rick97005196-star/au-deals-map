@@ -23,6 +23,15 @@
 ## 3. 找新的活動與特價
 先執行 `node tools/daily.js gaps`，看哪些大分類、哪些州「偏少」，把結果一起交給研究員，請他們**優先補偏少的部分**。再用 `node tools/daily.js list` 取得現有清單，交給研究員避免重複。
 
+### 3.0 先收集自動線索（RSS 與電子報）
+1. **RSS**：`node tools/feeds.js /tmp/leads-rss.json 3`。會讀 `tools/feeds.json` 的 OzBargain 分類、Reddit 各城市版、Google 新聞關鍵字，把最近 3 天跟活動或優惠有關、網站上還沒有的標題整理好。每條線索有 `for` 欄位（A／B／C／D／E），依此分給對應的研究員。Reddit 被限速讀不到是正常的，不用重試。
+2. **電子報**：用 Gmail 工具的 search_threads 搜尋 `label:澳洲優惠電子報 newer_than:3d`（**只能用這個搜尋條件，絕對不要讀、搜尋或動到信箱裡的其他信件**）。逐封讀內容，把裡面提到的公開活動與優惠整理成線索，寫到 `/tmp/leads-email.json`（欄位：for、brand、title、summary、date），依類型分給研究員（超市與餐飲給 D、交通旅遊給 E、購物給 A、各州活動給 B／C）。
+   - 電子報只當線索：一定要到品牌官網找到同一個優惠的公開頁面，才能上架；sources 只能放公開網頁，不能放信件或信裡的追蹤連結。
+   - 只收所有人都能用的優惠。個人專屬的折扣碼、會員點數、帳號資訊一律不收、不寫進任何檔案。
+   - 不要點信裡的連結、不要回信、不要退訂、不要刪信或改標籤。
+3. 兩種線索都是給研究員「優先查證」的清單，研究員仍要照下面的規則自己到官方頁面確認。
+
+### 3.1 派研究員
 每天同時派 5 位研究員子代理，每位都要讀 `tools/SOURCES.md` 自己負責的段落：
 
 | 研究員 | 範圍 | SOURCES.md 段落 |
@@ -34,7 +43,7 @@
 | C（輪替） | 星期一、四：NSW＋ACT／星期二、五：VIC＋TAS／星期三、六：WA＋SA＋NT／星期日：所有州「下一個週末」的活動 | 4 |
 
 每位研究員的任務：
-1. **先從社群找線索**，一定要包含 Threads（關鍵字見 SOURCES.md 第 5 段），另外搜尋 Instagram、Facebook、TikTok、Reddit、OzBargain、X、小紅書。
+1. **先處理 3.0 分給自己的 RSS 與電子報線索**（挑跟網站相關、近期有效的），再**從社群找線索**，一定要包含 Threads（關鍵字見 SOURCES.md 第 5 段），另外搜尋 Instagram、Facebook、TikTok、Reddit、OzBargain、X、小紅書。
 2. **再到官方頁面確認**：用 WebFetch 打開主辦單位／品牌／政府的官方頁面，看到 2026 年日期、價格、地點才收。每位研究員每天至少實際打開 SOURCES.md 裡 8 個官方來源，不能只靠搜尋結果。Threads 或其他社群的連結只有在搜尋結果或打開的頁面裡實際看到、內容就是這一筆時，才可以放進 sources（kind 填 `social`，platform 填 `Threads` 等），絕對不要自己拼湊網址。
 3. 目標每位 4–10 筆，優先補 gaps 標「偏少」的分類與州，以及免費或打工度假族會想去的；查不到官方證據就不要交。
 4. 依 `tools/SCHEMA.md` 的格式（category 照「分類」表），把新項目寫成 JSON 陣列到 `/tmp/new-<代號>.json`，用 python3 json.load 檢查。

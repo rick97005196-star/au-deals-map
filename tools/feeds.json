@@ -1,0 +1,237 @@
+{
+ "_說明": "每日任務用 node tools/feeds.js 讀這些 RSS，整理成線索給研究員。feeds 可以直接加；news 是 Google 新聞的搜尋關鍵字（自動加上最近 7 天、澳洲）。",
+ "feeds": [
+  {
+   "id": "ozb-deals",
+   "url": "https://www.ozbargain.com.au/deals/feed",
+   "topic": "全澳優惠",
+   "region": "AU",
+   "for": "A"
+  },
+  {
+   "id": "ozb-freebies",
+   "url": "https://www.ozbargain.com.au/freebies/feed",
+   "topic": "免費",
+   "region": "AU",
+   "for": "A"
+  },
+  {
+   "id": "ozb-dining",
+   "url": "https://www.ozbargain.com.au/cat/dining-takeaway/feed",
+   "topic": "餐飲與外送",
+   "region": "AU",
+   "for": "D"
+  },
+  {
+   "id": "ozb-groceries",
+   "url": "https://www.ozbargain.com.au/cat/groceries/feed",
+   "topic": "超市",
+   "region": "AU",
+   "for": "D"
+  },
+  {
+   "id": "ozb-travel",
+   "url": "https://www.ozbargain.com.au/cat/travel/feed",
+   "topic": "交通與旅遊",
+   "region": "AU",
+   "for": "E"
+  },
+  {
+   "id": "ozb-entertain",
+   "url": "https://www.ozbargain.com.au/cat/entertainment/feed",
+   "topic": "娛樂",
+   "region": "AU",
+   "for": "A"
+  },
+  {
+   "id": "ozb-mobile",
+   "url": "https://www.ozbargain.com.au/cat/mobile/feed",
+   "topic": "電信",
+   "region": "AU",
+   "for": "A"
+  },
+  {
+   "id": "ozb-fashion",
+   "url": "https://www.ozbargain.com.au/cat/fashion-apparel/feed",
+   "topic": "服飾",
+   "region": "AU",
+   "for": "A"
+  },
+  {
+   "id": "rd-frugal",
+   "url": "https://www.reddit.com/r/AussieFrugal/.rss",
+   "topic": "省錢討論",
+   "region": "AU",
+   "for": "D"
+  },
+  {
+   "id": "rd-brisbane",
+   "url": "https://www.reddit.com/r/brisbane/.rss",
+   "topic": "城市討論",
+   "region": "QLD",
+   "for": "B"
+  },
+  {
+   "id": "rd-goldcoast",
+   "url": "https://www.reddit.com/r/GoldCoast/.rss",
+   "topic": "城市討論",
+   "region": "QLD",
+   "for": "B"
+  },
+  {
+   "id": "rd-sunshine",
+   "url": "https://www.reddit.com/r/sunshinecoast/.rss",
+   "topic": "城市討論",
+   "region": "QLD",
+   "for": "B"
+  },
+  {
+   "id": "rd-cairns",
+   "url": "https://www.reddit.com/r/cairns/.rss",
+   "topic": "城市討論",
+   "region": "QLD",
+   "for": "B"
+  },
+  {
+   "id": "rd-sydney",
+   "url": "https://www.reddit.com/r/sydney/.rss",
+   "topic": "城市討論",
+   "region": "NSW",
+   "for": "C"
+  },
+  {
+   "id": "rd-melbourne",
+   "url": "https://www.reddit.com/r/melbourne/.rss",
+   "topic": "城市討論",
+   "region": "VIC",
+   "for": "C"
+  },
+  {
+   "id": "rd-perth",
+   "url": "https://www.reddit.com/r/perth/.rss",
+   "topic": "城市討論",
+   "region": "WA",
+   "for": "C"
+  },
+  {
+   "id": "rd-adelaide",
+   "url": "https://www.reddit.com/r/Adelaide/.rss",
+   "topic": "城市討論",
+   "region": "SA",
+   "for": "C"
+  },
+  {
+   "id": "rd-canberra",
+   "url": "https://www.reddit.com/r/canberra/.rss",
+   "topic": "城市討論",
+   "region": "ACT",
+   "for": "C"
+  },
+  {
+   "id": "rd-hobart",
+   "url": "https://www.reddit.com/r/hobart/.rss",
+   "topic": "城市討論",
+   "region": "TAS",
+   "for": "C"
+  },
+  {
+   "id": "rd-darwin",
+   "url": "https://www.reddit.com/r/darwin/.rss",
+   "topic": "城市討論",
+   "region": "NT",
+   "for": "C"
+  }
+ ],
+ "news": [
+  {
+   "q": "Brisbane (\"free event\" OR festival OR \"things to do\")",
+   "region": "QLD",
+   "for": "B"
+  },
+  {
+   "q": "(\"Gold Coast\" OR \"Sunshine Coast\") (festival OR event OR \"things to do\")",
+   "region": "QLD",
+   "for": "B"
+  },
+  {
+   "q": "(Cairns OR Townsville OR Toowoomba) (festival OR event)",
+   "region": "QLD",
+   "for": "B"
+  },
+  {
+   "q": "Sydney (\"free event\" OR festival OR \"things to do\")",
+   "region": "NSW",
+   "for": "C"
+  },
+  {
+   "q": "Melbourne (\"free event\" OR festival OR \"things to do\")",
+   "region": "VIC",
+   "for": "C"
+  },
+  {
+   "q": "Perth WA (\"free event\" OR festival OR \"things to do\")",
+   "region": "WA",
+   "for": "C"
+  },
+  {
+   "q": "Adelaide (\"free event\" OR festival OR \"things to do\")",
+   "region": "SA",
+   "for": "C"
+  },
+  {
+   "q": "(Hobart OR Launceston) (festival OR event)",
+   "region": "TAS",
+   "for": "C"
+  },
+  {
+   "q": "Canberra (festival OR event OR \"things to do\")",
+   "region": "ACT",
+   "for": "C"
+  },
+  {
+   "q": "(Darwin OR \"Alice Springs\") (festival OR event)",
+   "region": "NT",
+   "for": "C"
+  },
+  {
+   "q": "(Woolworths OR Coles OR ALDI OR IGA) (specials OR \"half price\" OR catalogue)",
+   "region": "AU",
+   "for": "D"
+  },
+  {
+   "q": "(McDonald's OR \"Hungry Jack's\" OR KFC OR \"Guzman y Gomez\" OR Domino's) (deal OR free OR app) Australia",
+   "region": "AU",
+   "for": "D"
+  },
+  {
+   "q": "(\"free coffee\" OR \"free food\" OR \"free meal\") Australia",
+   "region": "AU",
+   "for": "D"
+  },
+  {
+   "q": "(Jetstar OR \"Virgin Australia\" OR Qantas OR Rex) (sale OR fares OR deal)",
+   "region": "AU",
+   "for": "E"
+  },
+  {
+   "q": "(\"free public transport\" OR \"free travel\" OR \"fare\") (Queensland OR NSW OR Victoria OR Perth OR Adelaide OR Tasmania OR Canberra OR Darwin)",
+   "region": "AU",
+   "for": "E"
+  },
+  {
+   "q": "Australia (\"national park\" OR tourism) (free OR deal OR discount)",
+   "region": "AU",
+   "for": "E"
+  },
+  {
+   "q": "(Kmart OR \"Big W\" OR \"Target Australia\" OR \"JB Hi-Fi\" OR Myer) sale",
+   "region": "AU",
+   "for": "A"
+  },
+  {
+   "q": "(HOYTS OR \"Event Cinemas\" OR \"Village Cinemas\" OR museum) (cheap OR free OR deal) Australia",
+   "region": "AU",
+   "for": "A"
+  }
+ ]
+}

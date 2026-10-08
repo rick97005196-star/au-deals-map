@@ -32,7 +32,7 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 
 1. 下架已結束的項目（`node tools/daily.js prune`）
 2. 重新查證快開始、部分查證、太久沒查的項目
-3. 5 位研究員（全澳購物、全澳吃喝、交通與旅遊、昆士蘭、輪替的州）照 `tools/SOURCES.md` 的來源清單找線索（一定包含 **Threads**，另外有 Instagram、Facebook、TikTok、Reddit、OzBargain、X、小紅書和各地官方 what's on 頁面），先補 `node tools/daily.js gaps` 標「偏少」的分類與州，再到官方頁面確認；找到的新來源會加進清單，讓來源越來越多
+3. 先自動收集線索：`node tools/feeds.js` 讀 RSS（OzBargain、Reddit 各城市版、Google 新聞關鍵字，清單在 `tools/feeds.json`），並讀 Gmail 裡標籤「澳洲優惠電子報」最近 3 天的品牌電子報（只讀這個標籤）。接著 5 位研究員（全澳購物、全澳吃喝、交通與旅遊、昆士蘭、輪替的州）照 `tools/SOURCES.md` 的來源清單找線索（一定包含 **Threads**，另外有 Instagram、Facebook、TikTok、Reddit、OzBargain、X、小紅書和各地官方 what's on 頁面），先補 `node tools/daily.js gaps` 標「偏少」的分類與州，再到官方頁面確認；找到的新來源會加進清單，讓來源越來越多
 4. 另一位沒參與蒐集的查證員逐筆重新查證，只有通過的才上架（網站會標「新上架」3 天）
 5. 檢查格式、保護機制（筆數暴跌就不上線）後推送到 GitHub，Cloudflare 自動上線
 
