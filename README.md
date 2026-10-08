@@ -1,11 +1,14 @@
 # 澳洲活動優惠地圖
 
-澳洲各州正在進行的活動與特價，用一張互動地圖整理。每一筆都附官方來源，並經過獨立查證（核對 2026 年的日期、價格、地點）。
+澳洲各州正在進行的活動與特價：超市特價、速食與外送 App、節慶市集、購物、交通與旅遊，一次整理。每一筆都附官方來源，並經過獨立查證（核對 2026 年的日期、價格、地點）。
 
 - 網站：https://au-deals-map.pages.dev
 - 統計頁：https://au-deals-map.pages.dev/stats/ （需要密碼，密碼不放在這個倉庫裡）
 - 主機：Cloudflare Pages 專案 `au-deals-map`，連動 GitHub 倉庫 `rick97005196-star/au-deals-map` 的 `main` 分支
-- 風格：白色主題、簡潔有質感、用詞正式；地圖用 Leaflet（cdnjs），放大後疊 OpenStreetMap 底圖（灰階處理）
+- 免責聲明：https://au-deals-map.pages.dev/disclaimer/
+- 風格：白色主題、簡潔有質感、用詞正式
+- 版面（由上而下）：標題與搜尋、地區 → 快速瀏覽（本週末、免費、超市特價、餐飲與外送、交通與旅遊、即將截止）→ 分類列（全部／吃喝／活動／購物／行程交通，捲動時固定在上方）→ 卡片牆（電腦 3 欄、平板 2 欄、手機 1 欄）。點卡片打開詳細資訊（電腦從右側滑出、手機從底部滑出）。畫面下方的按鈕切換「地圖」檢視（Leaflet，放大後疊灰階 OpenStreetMap 底圖）。
+- Logo：`brand/`（價格標籤＋南十字星，琥珀色圓點是標籤孔）。`logo-mark.svg` 圖示、`logo.svg` 橫式、`logo-stacked.svg` 直式；網站上的圖示與分頁小圖示都從這裡來。
 
 ## 常用指令
 
@@ -29,13 +32,13 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 
 1. 下架已結束的項目（`node tools/daily.js prune`）
 2. 重新查證快開始、部分查證、太久沒查的項目
-3. 3 位研究員從社群找線索（一定包含 **Threads**，另外有 Instagram、Facebook、TikTok、Reddit、OzBargain、X 和各地官方 what's on 頁面），再到官方頁面確認
+3. 5 位研究員（全澳購物、全澳吃喝、交通與旅遊、昆士蘭、輪替的州）照 `tools/SOURCES.md` 的來源清單找線索（一定包含 **Threads**，另外有 Instagram、Facebook、TikTok、Reddit、OzBargain、X、小紅書和各地官方 what's on 頁面），先補 `node tools/daily.js gaps` 標「偏少」的分類與州，再到官方頁面確認；找到的新來源會加進清單，讓來源越來越多
 4. 另一位沒參與蒐集的查證員逐筆重新查證，只有通過的才上架（網站會標「新上架」3 天）
 5. 檢查格式、保護機制（筆數暴跌就不上線）後推送到 GitHub，Cloudflare 自動上線
 
 只在雲端更新，桌面資料夾不會自動變；要讓資料夾變成最新版，跟 Claude 說「同步」。
 
-相關檔案：`tools/DAILY.md`（流程）、`tools/SCHEMA.md`（格式與收錄規則）、`tools/VERIFY.md`（查證規則）、`tools/daily.js`（小工具）。
+相關檔案：`tools/DAILY.md`（流程）、`tools/SOURCES.md`（資訊來源清單，會自動增加）、`tools/SCHEMA.md`（格式、分類與收錄規則）、`tools/VERIFY.md`（查證規則）、`tools/daily.js`（小工具，`gaps` 看哪些分類偏少）。
 
 ## 資料欄位（data/items.json）
 
@@ -43,7 +46,7 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 |---|---|
 | `id` | 小寫英文、數字、`-`，不能重複；也是分享連結的 `#` 後面那段 |
 | `type` | `event`（活動）或 `deal`（特價） |
-| `category` | `festival` 節慶、`music` 音樂、`food` 美食、`market` 市集、`arts` 藝文、`sport` 運動、`outdoors` 戶外、`family` 親子、`shopping` 購物、`grocery` 超市、`dining` 餐飲、`tickets` 票券交通 |
+| `category` | 吃喝：`grocery` 超市特價、`dining` 餐飲與外送、`food` 美食活動／活動：`festival` 節慶、`music` 音樂、`arts` 藝文、`market` 市集、`sport` 運動、`family` 親子、`outdoors` 戶外、`entertainment` 電影與娛樂／購物：`shopping` 購物與方案／行程交通：`tickets` 交通與機票、`travel` 旅遊行程（對照表在 `tools/SCHEMA.md`） |
 | `region` | `QLD` `NSW` `VIC` `SA` `WA` `TAS` `ACT` `NT`，全澳都適用填 `AU` |
 | `title` / `title_zh` | 官方英文名稱／中文短標題 |
 | `city` `venue` `lat` `lng` | 地點與座標（全澳或全州適用的可以是 null） |
@@ -79,6 +82,8 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 | `data/items.json` | 所有活動與特價 |
 | `data/au-states.geojson` | 澳洲各州邊界（Natural Earth，公有領域，已簡化） |
 | `src/index.html` | 首頁版型（`build.js` 會把資料塞進去） |
+| `src/disclaimer.html` | 免責聲明頁（修改內容時記得更新頁尾的「最後修訂日期」） |
+| `brand/` | Logo（SVG） |
 | `src/stats.html` | 統計頁 |
 | `functions/api/` | Cloudflare Pages Functions：`track`、`stats`、`popular` |
 | `build.js` | 檢查資料並產生 `public/`、`artifact/` |

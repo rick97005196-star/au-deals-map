@@ -1,12 +1,12 @@
 <title>澳洲活動優惠地圖</title>
-<meta name="description" content="以互動地圖整理澳洲各州進行中的活動與優惠，每筆均附官方來源，並經獨立查證日期、價格與地點。">
+<meta name="description" content="整理澳洲各州進行中的活動與優惠：超市特價、速食與外送 App、節慶市集、交通與旅遊。每筆均附官方來源，並經獨立查證日期、價格與地點。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap">
 <style>/*__LEAFLET_CSS__*/</style>
 <style>
-/* Layout: white atlas. Full-width filter bar on top (regions, search, refinements);
-   below it a reading column for the timetable list and the map beside it. Phones: intro → filters → map → list. */
+/* 版面：由上而下閱讀。頁首 → 標題與搜尋、地區 → 快速入口 → 分類列（捲動時固定）→ 卡片牆。
+   點卡片開詳細資訊（電腦：右側面板／手機：底部抽屜）；地圖改為可切換的檢視（畫面下方的按鈕）。 */
 :root{
   --bg:#FFFFFF; --tint:#F6F7F5; --tint-2:#EEF0ED;
   --ink:#121A17; --ink-2:#38443F; --muted:#66726D; --faint:#99A39E;
@@ -14,176 +14,181 @@
   --sea:#EDF1EF; --land:#FFFFFF; --land-hover:#F2F6F4; --land-sel:#E2EDE9; --border-land:#C3CBC6;
   --event:#1D5E78; --event-soft:#E8F1F5;
   --deal:#97600A; --deal-pin:#DF9A2B; --deal-soft:#FBF3E3;
+  --g-eat:#A4521F; --g-eat-soft:#F8EDE5;
+  --g-event:#1D5E78; --g-event-soft:#E8F1F5;
+  --g-shop:#6A4C86; --g-shop-soft:#F1ECF5;
+  --g-travel:#2F5F8F; --g-travel-soft:#E9F0F7;
   --ok:#2A7350; --ok-soft:#E8F3EC;
   --part:#7A6740; --part-soft:#F4F0E6;
   --urgent:#AB442A; --urgent-soft:#FBEBE5;
   --focus:#1D5E78;
   --shadow:0 1px 2px rgba(18,26,23,.05),0 10px 30px rgba(18,26,23,.08);
+  --shadow-lg:0 2px 6px rgba(18,26,23,.06),0 24px 60px rgba(18,26,23,.16);
   --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
   --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
   --r:6px;
-  --gutter:28px;
+  --wrap:1240px;
+  --gutter:32px;
   --tile-filter:grayscale(1) contrast(.78) brightness(1.1);
   color-scheme:light;
 }
 *{box-sizing:border-box}
-html,body{height:100%}
+html{scroll-padding-top:120px}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 var(--f-body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 [hidden]{display:none!important}
 button,input,select{font:inherit;color:inherit}
 a{color:inherit}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:4px}
 .mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
+body.no-scroll{overflow:hidden}
 
-/* ---------- header ---------- */
-.shell{display:flex;flex-direction:column;min-height:100%}
-.top{display:flex;align-items:center;gap:20px;padding:14px var(--gutter);border-bottom:1px solid var(--line);background:var(--bg)}
-.brand{display:flex;align-items:center;gap:12px;min-width:0;flex:none}
+/* ---------- 頁首 ---------- */
+.top{border-bottom:1px solid var(--line);background:var(--bg)}
+.top .wrap{display:flex;align-items:center;gap:20px;height:68px}
+.brand{display:flex;align-items:center;gap:12px;min-width:0;text-decoration:none}
 .brand svg{flex:none}
-.brand-name{font-family:var(--f-display);font-weight:700;font-size:21px;letter-spacing:.06em;line-height:1.2;margin:0;white-space:nowrap}
-.brand-sub{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:3px;white-space:nowrap}
-.meta{flex:1;display:flex;justify-content:flex-end;align-items:center;gap:0 8px;margin:0;font-size:13px;color:var(--muted);min-width:0}
-.meta b{color:var(--ink);font-weight:500}
-.meta .long::before{content:"·";margin:0 8px 0 2px;color:var(--faint)}
-.live{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px var(--ok-soft);flex:none}
-.linkbtn{display:inline-flex;align-items:center;gap:7px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);height:36px;padding:0 12px;cursor:pointer;font-size:13px;color:var(--ink-2);white-space:nowrap;flex:none}
-.linkbtn:hover{border-color:var(--line-strong);color:var(--ink)}
-.linkbtn i{width:16px;height:16px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-style:normal;font-size:10px}
-.intro{display:none}
+.brand-name{font-family:var(--f-display);font-weight:700;font-size:20px;letter-spacing:.06em;line-height:1.2;margin:0;white-space:nowrap}
+.brand-sub{font-family:var(--f-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:3px;white-space:nowrap}
+.nav{margin-left:auto;display:flex;align-items:center;gap:4px}
+.nav a,.nav button{display:inline-flex;align-items:center;gap:7px;height:36px;padding:0 12px;border:0;background:none;border-radius:var(--r);font-size:13.5px;color:var(--ink-2);text-decoration:none;cursor:pointer;white-space:nowrap}
+.nav a:hover,.nav button:hover{background:var(--tint);color:var(--ink)}
+.nav .ok-dot{width:16px;height:16px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-size:10px;font-style:normal}
 
-/* ---------- filter bar ---------- */
-.filters{display:grid;gap:12px;padding:16px var(--gutter);border-bottom:1px solid var(--line);background:var(--bg)}
-.regiongrid{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:6px}
-.rg{display:flex;align-items:center;gap:8px;height:42px;padding:0 12px;text-align:left;border:1px solid var(--line);border-radius:var(--r);background:var(--bg);cursor:pointer;transition:border-color .15s,background .15s;min-width:0}
-.rg:hover{border-color:var(--line-strong);background:var(--tint)}
-.rg .code{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;color:var(--muted)}
-.rg-name{font-size:14px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
-.rg .n{margin-left:auto;font-family:var(--f-mono);font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
-.rg[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
-.rg[aria-pressed="true"] .code,.rg[aria-pressed="true"] .n{color:rgba(255,255,255,.65)}
-.refine{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.search{position:relative;flex:1 1 280px;max-width:420px}
-.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
-.search input{width:100%;height:38px;padding:0 36px;border:1px solid var(--line);border-radius:var(--r);background:var(--tint);font-size:14.5px;outline:none;transition:border-color .15s,background .15s}
+/* ---------- 開場：標題、搜尋、地區 ---------- */
+.hero{background:var(--tint);border-bottom:1px solid var(--line)}
+.hero .wrap{padding-top:40px;padding-bottom:28px}
+.eyebrow{display:flex;align-items:center;gap:8px;margin:0;font-size:13px;color:var(--muted)}
+.live{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 3px var(--ok-soft);flex:none}
+.headline{font-family:var(--f-display);font-weight:700;font-size:34px;line-height:1.35;letter-spacing:.03em;margin:10px 0 8px;text-wrap:balance}
+.sub{margin:0 0 22px;font-size:15px;line-height:1.75;color:var(--ink-2);max-width:62ch}
+.sub b{font-weight:500;color:var(--ink)}
+.search{position:relative;max-width:640px}
+.search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+.search input{width:100%;height:52px;padding:0 48px;border:1px solid var(--line-strong);border-radius:10px;background:var(--bg);font-size:16px;outline:none;box-shadow:0 1px 2px rgba(18,26,23,.04);transition:border-color .15s,box-shadow .15s}
 .search input::placeholder{color:var(--faint)}
 .search input::-webkit-search-cancel-button{display:none}
-.search input:focus{border-color:var(--ink-2);background:var(--bg)}
-.search .clear{position:absolute;right:4px;top:50%;transform:translateY(-50%);width:30px;height:30px;border:0;background:none;border-radius:4px;color:var(--muted);cursor:pointer}
-.seg{display:inline-flex;padding:2px;border:1px solid var(--line);border-radius:var(--r);background:var(--bg)}
-.seg button{border:0;background:none;height:32px;padding:0 13px;border-radius:4px;font-size:13.5px;color:var(--ink-2);cursor:pointer;display:inline-flex;align-items:center;gap:6px}
-.seg button:hover{background:var(--tint)}
-.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
-.seg .sw{width:7px;height:7px;border-radius:2px}
-.toggle,.select{height:38px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);font-size:13.5px;cursor:pointer;color:var(--ink-2)}
+.search input:focus{border-color:var(--ink-2);box-shadow:0 0 0 4px rgba(18,26,23,.06)}
+.search .clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;background:none;border-radius:6px;color:var(--muted);cursor:pointer}
+.search .clear:hover{background:var(--tint)}
+.regions-label{margin:22px 0 8px;font-size:12.5px;color:var(--muted);letter-spacing:.06em}
+.regions{display:flex;flex-wrap:wrap;gap:6px}
+.rg{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--bg);cursor:pointer;font-size:14px;white-space:nowrap;transition:border-color .15s,background .15s}
+.rg:hover{border-color:var(--line-strong)}
+.rg .n{font-family:var(--f-mono);font-size:12px;color:var(--faint)}
+.rg[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.rg[aria-pressed="true"] .n{color:rgba(255,255,255,.65)}
+
+/* ---------- 快速入口 ---------- */
+.quick-sec .wrap{padding-top:28px;padding-bottom:4px}
+.sec-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0 0 12px}
+.sec-title h2{font-family:var(--f-display);font-size:19px;font-weight:700;margin:0;letter-spacing:.03em}
+.sec-title span{font-size:13px;color:var(--muted)}
+.quick{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.qt{display:grid;grid-template-columns:36px 1fr auto;grid-template-areas:"ic t n" "ic d d";align-items:center;gap:0 12px;text-align:left;padding:14px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);cursor:pointer;transition:border-color .15s,box-shadow .15s,transform .15s}
+.qt:hover{border-color:var(--line-strong);box-shadow:var(--shadow)}
+.qt .ic{grid-area:ic;width:36px;height:36px;border-radius:9px;display:grid;place-items:center;background:var(--tint);color:var(--ink-2)}
+.qt .t{grid-area:t;font-weight:700;font-size:15px}
+.qt .n{grid-area:n;font-family:var(--f-mono);font-size:13px;color:var(--muted)}
+.qt .d{grid-area:d;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qt[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.qt[aria-pressed="true"] .ic{background:var(--ink);color:#fff}
+.qt:disabled{opacity:.45;cursor:default;box-shadow:none}
+
+/* ---------- 分類列（捲動時固定在上方） ---------- */
+.bar{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.96);backdrop-filter:saturate(1.4) blur(8px);-webkit-backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--line);margin-top:24px}
+.bar .wrap{display:flex;align-items:center;gap:16px;min-height:60px}
+.tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.tabs::-webkit-scrollbar{display:none}
+.tab{position:relative;display:inline-flex;align-items:center;gap:7px;height:60px;padding:0 14px;border:0;background:none;cursor:pointer;font-size:15px;color:var(--ink-2);white-space:nowrap}
+.tab .dot{width:8px;height:8px;border-radius:50%;background:var(--c,var(--ink))}
+.tab .n{font-family:var(--f-mono);font-size:12px;color:var(--faint)}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{color:var(--ink);font-weight:700}
+.tab[aria-selected="true"]::after{content:"";position:absolute;left:12px;right:12px;bottom:-1px;height:2px;background:var(--c,var(--ink));border-radius:2px}
+.tools{display:flex;gap:8px;align-items:center;flex:none}
+.toggle,.select{height:36px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);font-size:13.5px;cursor:pointer;color:var(--ink-2);white-space:nowrap}
 .toggle{padding:0 12px;display:inline-flex;align-items:center;gap:7px}
 .toggle::before{content:"";width:13px;height:13px;border:1.5px solid var(--line-strong);border-radius:3px;background:var(--bg)}
 .toggle[aria-pressed="true"]{border-color:var(--ok);color:var(--ok);background:var(--ok-soft)}
 .toggle[aria-pressed="true"]::before{background:var(--ok) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10'%3E%3Cpath d='M2 5.2l2 2L8 3' fill='none' stroke='white' stroke-width='1.6'/%3E%3C/svg%3E") center/10px no-repeat;border-color:var(--ok)}
 .select{appearance:none;background:var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%2366726D' stroke-width='1.4'/%3E%3C/svg%3E") no-repeat right 11px center;padding:0 30px 0 12px}
 .toggle:hover,.select:hover{border-color:var(--line-strong)}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:10px 0 12px}
+.chips::-webkit-scrollbar{display:none}
+.chip{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--bg);font-size:13.5px;color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.chip .n{font-family:var(--f-mono);font-size:11.5px;color:var(--faint)}
+.chip:hover{border-color:var(--line-strong)}
+.chip[aria-pressed="true"]{background:var(--c-soft,var(--tint-2));border-color:var(--c,var(--ink));color:var(--c,var(--ink));font-weight:500}
+.chips-row{border-top:1px solid var(--line-2)}
+.chips-row .wrap{min-height:0}
 
-/* ---------- body: list + map ---------- */
-.body{flex:1;display:grid;grid-template-columns:minmax(460px,600px) 1fr;min-height:0}
-.listwrap{min-height:0;overflow-y:auto;border-right:1px solid var(--line);background:var(--bg)}
-.mapwrap{position:relative;min-height:0;background:var(--sea)}
-#map{position:absolute;inset:0;background:var(--sea)}
-@media (min-width:961px){ html,body{overflow:hidden} .shell{height:100%} }
+/* ---------- 結果 ---------- */
+.results .wrap{padding-top:24px;padding-bottom:120px}
+.result-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.count{font-size:14px;color:var(--muted)}
+.count b{font-family:var(--f-mono);color:var(--ink);font-weight:500;font-size:15px}
+.active-filters{display:flex;gap:6px;flex-wrap:wrap}
+.af{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 6px 0 10px;border-radius:999px;background:var(--tint-2);font-size:12.5px;border:0;cursor:pointer;color:var(--ink-2)}
+.af span{width:18px;height:18px;border-radius:50%;display:grid;place-items:center;color:var(--muted)}
+.af:hover span{background:var(--line)}
+.group-h{display:flex;align-items:baseline;gap:10px;margin:28px 0 14px}
+.group-h h3{margin:0;font-family:var(--f-display);font-size:18px;font-weight:700;letter-spacing:.03em}
+.group-h .n{font-family:var(--f-mono);font-size:12.5px;color:var(--muted)}
+.group-h p{margin:0;font-size:13px;color:var(--muted)}
+.group-h::after{content:"";flex:1;height:1px;background:var(--line);align-self:center}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 
-/* ---------- list ---------- */
-.listhead{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px var(--gutter);background:var(--bg);border-bottom:1px solid var(--line-2)}
-.count{font-size:13.5px;color:var(--muted)}
-.count b{font-family:var(--f-mono);color:var(--ink);font-weight:500;font-size:14.5px}
-.listhead .select{height:34px}
-.section-h{display:flex;align-items:center;gap:10px;padding:20px var(--gutter) 6px;font-family:var(--f-mono);font-size:11.5px;letter-spacing:.1em;color:var(--muted)}
-.section-h::after{content:"";flex:1;height:1px;background:var(--line)}
-.section-h .zh{font-family:var(--f-body);letter-spacing:.06em;font-size:13px;color:var(--ink);font-weight:700}
-
-.card{margin:0 16px;border-radius:10px;border:1px solid transparent;transition:background .15s;scroll-margin-top:64px}
-.card + .card{border-top-color:var(--line-2);border-top-left-radius:0;border-top-right-radius:0}
-.card.is-open{background:var(--tint);border-color:var(--line);border-radius:10px}
-.card.is-open + .card{border-top-color:transparent}
-.card-hit{display:grid;grid-template-columns:52px 1fr;gap:16px;width:100%;text-align:left;background:none;border:0;padding:18px 12px;cursor:pointer;border-radius:10px}
-.card:not(.is-open) .card-hit:hover{background:var(--tint)}
-.stub{display:flex;flex-direction:column;align-items:center;padding-top:2px;border-right:1px solid var(--line);padding-right:14px;min-height:60px}
-.stub .m{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.14em;color:var(--muted)}
-.stub .d{font-family:var(--f-display);font-weight:700;font-size:27px;line-height:1.05;margin-top:3px}
-.stub .d.word{font-size:15px;line-height:1.3;margin-top:5px}
-.stub .l{font-size:11.5px;color:var(--muted);margin-top:4px}
-.card-main{min-width:0;display:grid;gap:5px}
-.card-meta{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
-.type{display:inline-flex;align-items:center;gap:6px;font-weight:500}
-.type::before{content:"";width:8px;height:8px;border-radius:2px;background:currentColor}
-.type--event{color:var(--event)}
-.type--deal{color:var(--deal)}
-.type--deal::before{border-radius:50%;background:var(--deal-pin)}
+.card{--c:var(--ink);--c-soft:var(--tint);position:relative;border:1px solid var(--line);border-radius:12px;background:var(--bg);transition:border-color .15s,box-shadow .15s,transform .15s}
+.card:hover{border-color:var(--line-strong);box-shadow:var(--shadow);transform:translateY(-1px)}
+.card-hit{display:flex;flex-direction:column;gap:8px;width:100%;height:100%;text-align:left;background:none;border:0;padding:16px 18px 16px;cursor:pointer;border-radius:12px}
+.card::before{content:"";position:absolute;left:18px;right:18px;top:-1px;height:3px;border-radius:0 0 3px 3px;background:var(--c)}
+.card-top{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+.cat{color:var(--c);font-weight:500}
 .rcode{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;border:1px solid var(--line-strong);border-radius:3px;padding:0 5px;color:var(--ink-2);line-height:17px}
 .rcode.au{border-color:var(--ink);background:var(--ink);color:#fff}
-.hot{font-size:12px;color:var(--urgent);font-weight:500}
-.new{font-size:12px;color:var(--ok);font-weight:500}
-.card-title{font-family:var(--f-display);font-weight:700;font-size:19px;line-height:1.45;margin:2px 0 0;text-wrap:balance;letter-spacing:.01em}
-.card-en{margin:0;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.facts-line{display:flex;gap:4px 10px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
-.facts-line .mono{font-size:13px}
-.where{color:var(--muted)}
-.card-foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px;font-size:13.5px}
+.tag-new{font-size:11.5px;color:var(--ok);background:var(--ok-soft);border-radius:3px;padding:0 6px;line-height:18px;font-weight:500}
+.tag-hot{font-size:11.5px;color:var(--urgent);background:var(--urgent-soft);border-radius:3px;padding:0 6px;line-height:18px;font-weight:500}
+.card-title{font-family:var(--f-display);font-weight:700;font-size:18.5px;line-height:1.45;margin:0;letter-spacing:.01em;text-wrap:balance}
+.card-en{margin:-4px 0 0;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card-when{display:flex;gap:4px 8px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
+.card-when .mono{font-size:13px}
+.card-when .where{color:var(--muted)}
+.card-price{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:auto;padding-top:10px;border-top:1px dashed var(--line)}
+.price{font-weight:700;font-size:15px;color:var(--ink)}
+.price.free{color:var(--ok)}
+.hl{font-size:12.5px;color:var(--deal);background:var(--deal-soft);line-height:22px;padding:0 8px;border-radius:4px}
+.card-foot{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .status{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;height:24px;padding:0 9px;border-radius:4px;background:var(--tint-2);color:var(--ink-2);white-space:nowrap}
 .status::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
 .status--now{background:var(--ok-soft);color:var(--ok)}
 .status--urgent{background:var(--urgent-soft);color:var(--urgent)}
 .status--soon{background:var(--event-soft);color:var(--event)}
-.price{color:var(--ink);font-weight:500}
-.price.free{color:var(--ok)}
-.hl{font-size:12.5px;color:var(--deal);background:var(--deal-soft);height:24px;line-height:24px;padding:0 9px;border-radius:4px;white-space:nowrap}
-.vmini{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:var(--ok)}
+.vmini{font-size:12px;color:var(--ok);white-space:nowrap}
 .vmini.part{color:var(--part)}
+.g-eat{--c:var(--g-eat);--c-soft:var(--g-eat-soft)}
+.g-event{--c:var(--g-event);--c-soft:var(--g-event-soft)}
+.g-shop{--c:var(--g-shop);--c-soft:var(--g-shop-soft)}
+.g-travel{--c:var(--g-travel);--c-soft:var(--g-travel-soft)}
 
-.detail{padding:0 20px 22px 80px;display:grid;gap:16px;animation:open .2s ease-out}
-@keyframes open{from{opacity:.4;transform:translateY(-3px)}to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.detail{animation:none}}
-.detail p{margin:0}
-.summary{font-size:15px;line-height:1.9;color:var(--ink-2);max-width:60ch}
-.tip{border-left:2px solid var(--deal-pin);padding:2px 0 2px 12px;font-size:14px;line-height:1.8;color:var(--ink-2)}
-.tip b{display:block;font-size:12px;letter-spacing:.1em;color:var(--deal);font-weight:500;margin-bottom:2px}
-.kv{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;font-size:14px;margin:0;padding:12px 14px;background:var(--bg);border:1px solid var(--line);border-radius:8px}
-.kv dt{color:var(--muted);font-size:13px;padding-top:1px}
-.kv dd{margin:0;min-width:0}
-.actions{display:flex;gap:8px;flex-wrap:wrap}
-.btn{display:inline-flex;align-items:center;gap:6px;height:34px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);padding:0 12px;font-size:13px;text-decoration:none;cursor:pointer;color:var(--ink)}
-.btn:hover{border-color:var(--line-strong)}
-.h5{font-size:12.5px;font-weight:500;letter-spacing:.06em;color:var(--ink-2);margin:0 0 6px}
-.sources{list-style:none;margin:0;padding:0;display:grid;border:1px solid var(--line);border-radius:8px;background:var(--bg);overflow:hidden}
-.sources li + li{border-top:1px solid var(--line-2)}
-.sources a{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:9px 12px;text-decoration:none;font-size:13.5px}
-.sources a:hover{background:var(--tint)}
-.sources .k{font-size:11px;padding:0 6px;line-height:18px;border-radius:3px;border:1px solid var(--line-strong);color:var(--muted);white-space:nowrap}
-.sources .k.k-official{border-color:var(--ink);background:var(--ink);color:#fff}
-.sources .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.sources .t small{color:var(--muted);margin-left:6px;font-size:12px}
-.sources .ext{color:var(--faint);font-size:12px}
-.verify{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:12px 14px;border-radius:8px;font-size:13.5px;line-height:1.7}
-.verify.ok{background:var(--ok-soft)}
-.verify.part{background:var(--part-soft)}
-.verify .ic{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;margin-top:1px}
-.verify.ok .ic{background:var(--ok);color:#fff}
-.verify.part .ic{border:1.5px solid var(--part);color:var(--part)}
-.verify b{font-weight:500}
-.verify.ok b{color:var(--ok)}
-.verify.part b{color:var(--part)}
-
-.empty{padding:48px 24px;text-align:center;color:var(--muted)}
+.empty{padding:56px 24px;text-align:center;color:var(--muted);border:1px dashed var(--line-strong);border-radius:12px;margin-top:20px}
 .empty h4{font-family:var(--f-display);font-size:18px;color:var(--ink);margin:0 0 6px}
-.social{margin:32px var(--gutter) 8px;padding:18px;border-radius:10px;background:var(--tint)}
-.social h4{margin:0 0 4px;font-family:var(--f-display);font-size:16px}
-.social p{margin:0 0 12px;font-size:13px;color:var(--muted);line-height:1.7}
-.social .kw{color:var(--ink);font-weight:500}
-.social-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:6px}
-.social-links a{border:1px solid var(--line);background:var(--bg);border-radius:var(--r);height:36px;padding:0 12px;font-size:13px;text-decoration:none;display:flex;justify-content:space-between;align-items:center}
-.social-links a:hover{border-color:var(--ink-2)}
-.social-links a span{color:var(--faint)}
-.foot{padding:16px var(--gutter) 40px;font-size:12px;color:var(--faint);line-height:1.8}
+.empty p{margin:0 0 14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:38px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);padding:0 14px;font-size:13.5px;text-decoration:none;cursor:pointer;color:var(--ink);white-space:nowrap}
+.btn:hover{border-color:var(--line-strong);background:var(--tint)}
+.btn.primary{background:var(--ink);border-color:var(--ink);color:#fff}
+.btn.primary:hover{background:#26322D}
 
-/* ---------- map ---------- */
+/* ---------- 地圖檢視 ---------- */
+.mapview .wrap{padding-top:16px;padding-bottom:24px}
+.mapbox{position:relative;height:calc(100vh - 140px);height:calc(100dvh - 140px);min-height:420px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--sea)}
+#map{position:absolute;inset:0;background:var(--sea)}
+.maptools{position:absolute;left:12px;top:12px;z-index:500;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.legend{display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:8px;height:36px;padding:0 12px;font-size:13px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:11px;height:11px;border-radius:50%;display:inline-block;border:2px solid #fff;box-shadow:0 0 0 1px var(--line-strong)}
+.mapnote{margin:0 2px 10px;font-size:12.5px;color:var(--muted)}
 .leaflet-container{background:var(--sea);font-family:var(--f-body)}
 .leaflet-tile-pane{filter:var(--tile-filter)}
 .leaflet-tile-container img.leaflet-tile{width:256.5px!important;height:256.5px!important}
@@ -192,19 +197,16 @@ a{color:inherit}
 .state.is-sel{fill:var(--land-sel);stroke:var(--ink-2);stroke-width:1.4}
 .state.is-dim{fill-opacity:.55}
 .tiles-on .state{fill-opacity:0;stroke:var(--ink-2);stroke-opacity:.35;stroke-width:1}
-.tiles-on .state:hover{fill-opacity:0}
-.tiles-on .state.is-sel{fill-opacity:0;stroke-opacity:.6}
-.tiles-on .state.is-dim{fill-opacity:0}
+.tiles-on .state:hover,.tiles-on .state.is-sel,.tiles-on .state.is-dim{fill-opacity:0}
+.tiles-on .state.is-sel{stroke-opacity:.6}
 .st-label{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted);white-space:nowrap;text-align:center;pointer-events:none;line-height:1.3}
 .st-label.zero{opacity:.45}
 .st-label b{display:block;font-family:var(--f-display);font-size:15px;letter-spacing:0;color:var(--ink-2);font-weight:700}
-.leaflet-marker-icon.st-wrap{background:none;border:0}
+.leaflet-marker-icon.st-wrap,.leaflet-marker-icon.pin-wrap,.leaflet-marker-icon.cl-wrap{background:none;border:0}
 .pin{display:block;width:20px;height:20px;border-radius:50%;border:3px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.35);transition:transform .15s}
 .pin.event{background:var(--event)}
 .pin.deal{background:var(--deal-pin)}
 .pin:hover{transform:scale(1.2)}
-.pin.is-active{transform:scale(1.35);box-shadow:0 0 0 6px rgba(18,26,23,.18),0 1px 5px rgba(0,0,0,.35)}
-.leaflet-marker-icon.pin-wrap,.leaflet-marker-icon.cl-wrap{background:none;border:0}
 .cl{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:13px;font-weight:500;border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25)}
 .cl.lg{width:42px;height:42px}
 .leaflet-tooltip.tt{background:var(--bg);color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:6px;padding:7px 11px;font-size:13.5px;font-family:var(--f-body)}
@@ -214,15 +216,70 @@ a{color:inherit}
 .leaflet-bar{border:1px solid var(--line)!important;box-shadow:var(--shadow)!important;border-radius:8px!important;overflow:hidden}
 .leaflet-control-attribution{background:rgba(255,255,255,.85)!important;color:var(--muted)!important;font-size:10px}
 .leaflet-control-attribution a{color:var(--ink-2)!important}
-.maptools{position:absolute;left:14px;top:14px;z-index:500;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
-.legend{display:flex;gap:14px;align-items:center;background:var(--bg);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:8px;height:36px;padding:0 12px;font-size:13px;color:var(--ink-2)}
-.legend span{display:inline-flex;align-items:center;gap:6px}
-.legend i{width:11px;height:11px;border-radius:50%;display:inline-block;border:2px solid #fff;box-shadow:0 0 0 1px var(--line-strong)}
-.mapback{box-shadow:var(--shadow);height:36px}
 
-/* ---------- dialog ---------- */
-dialog{border:1px solid var(--line);border-radius:12px;padding:0;max-width:min(560px,calc(100% - 32px));background:var(--bg);color:var(--ink);box-shadow:var(--shadow)}
-dialog::backdrop{background:rgba(18,26,23,.35)}
+/* 切換清單／地圖的浮動按鈕 */
+.fab{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;display:inline-flex;align-items:center;gap:8px;height:46px;padding:0 20px;border:0;border-radius:999px;background:var(--ink);color:#fff;font-size:14.5px;font-weight:500;cursor:pointer;box-shadow:0 8px 24px rgba(18,26,23,.28)}
+.fab:hover{background:#26322D}
+
+/* ---------- 頁尾 ---------- */
+.foot{border-top:1px solid var(--line);background:var(--tint)}
+.foot .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;padding-top:36px;padding-bottom:96px}
+.foot h4{margin:0 0 6px;font-family:var(--f-display);font-size:16px}
+.foot p{margin:0 0 12px;font-size:13px;color:var(--muted);line-height:1.8}
+.foot .kw{color:var(--ink);font-weight:500}
+.foot a.more{color:var(--ink);font-weight:500;text-underline-offset:3px}
+.social-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:6px}
+.social-links a{border:1px solid var(--line);background:var(--bg);border-radius:var(--r);height:36px;padding:0 12px;font-size:13px;text-decoration:none;display:flex;justify-content:space-between;align-items:center}
+.social-links a:hover{border-color:var(--ink-2)}
+.social-links a span{color:var(--faint)}
+.foot .fine{font-size:12px;color:var(--faint);margin-top:16px}
+
+/* ---------- 詳細資訊（電腦：右側面板／手機：底部抽屜） ---------- */
+dialog.sheet{position:fixed;inset:0 0 0 auto;margin:0;width:min(520px,100%);max-width:none;height:100%;max-height:none;border:0;border-left:1px solid var(--line);padding:0;background:var(--bg);color:var(--ink);box-shadow:var(--shadow-lg);overflow:hidden}
+dialog.sheet[open]{display:flex;flex-direction:column;animation:slide-in .22s ease-out}
+dialog.sheet::backdrop{background:rgba(18,26,23,.38)}
+@keyframes slide-in{from{transform:translateX(24px);opacity:.3}to{transform:none;opacity:1}}
+.sheet-head{display:flex;align-items:center;gap:8px;padding:12px 14px 12px 22px;border-bottom:1px solid var(--line-2);flex:none}
+.sheet-head .card-top{flex:1}
+.x{width:38px;height:38px;border:0;background:none;border-radius:8px;cursor:pointer;color:var(--muted);font-size:22px;line-height:1;flex:none}
+.x:hover{background:var(--tint);color:var(--ink)}
+.sheet-body{overflow-y:auto;padding:20px 22px 28px;display:grid;gap:18px;align-content:start;-webkit-overflow-scrolling:touch}
+.sheet-body p{margin:0}
+.d-title{font-family:var(--f-display);font-weight:700;font-size:25px;line-height:1.4;margin:0;letter-spacing:.02em;text-wrap:balance}
+.d-en{margin:4px 0 0!important;font-size:13.5px;color:var(--muted)}
+.d-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.summary{font-size:15px;line-height:1.9;color:var(--ink-2)}
+.tip{border-left:2px solid var(--deal-pin);padding:2px 0 2px 12px;font-size:14px;line-height:1.8;color:var(--ink-2)}
+.tip b{display:block;font-size:12px;letter-spacing:.1em;color:var(--deal);font-weight:500;margin-bottom:2px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:9px 18px;font-size:14px;margin:0;padding:14px 16px;background:var(--tint);border-radius:10px}
+.kv dt{color:var(--muted);font-size:13px;padding-top:1px}
+.kv dd{margin:0;min-width:0}
+.actions{display:flex;gap:8px;flex-wrap:wrap}
+.h5{font-size:12.5px;font-weight:500;letter-spacing:.06em;color:var(--ink-2);margin:0 0 6px!important}
+.sources{list-style:none;margin:0;padding:0;display:grid;border:1px solid var(--line);border-radius:10px;background:var(--bg);overflow:hidden}
+.sources li + li{border-top:1px solid var(--line-2)}
+.sources a{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:10px 12px;text-decoration:none;font-size:13.5px}
+.sources a:hover{background:var(--tint)}
+.sources .k{font-size:11px;padding:0 6px;line-height:18px;border-radius:3px;border:1px solid var(--line-strong);color:var(--muted);white-space:nowrap}
+.sources .k.k-official{border-color:var(--ink);background:var(--ink);color:#fff}
+.sources .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sources .t small{color:var(--muted);margin-left:6px;font-size:12px}
+.sources .ext{color:var(--faint);font-size:12px}
+.verify{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:12px 14px;border-radius:10px;font-size:13.5px;line-height:1.7}
+.verify.ok{background:var(--ok-soft)}
+.verify.part{background:var(--part-soft)}
+.verify .ic{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;margin-top:1px}
+.verify.ok .ic{background:var(--ok);color:#fff}
+.verify.part .ic{border:1.5px solid var(--part);color:var(--part)}
+.verify b{font-weight:500}
+.verify.ok b{color:var(--ok)}
+.verify.part b{color:var(--part)}
+.d-fine{font-size:12px;color:var(--faint);line-height:1.7}
+.d-fine a{color:var(--muted)}
+
+/* 查證方式說明 */
+dialog.how{border:1px solid var(--line);border-radius:14px;padding:0;max-width:min(580px,calc(100% - 32px));background:var(--bg);color:var(--ink);box-shadow:var(--shadow-lg)}
+dialog.how::backdrop{background:rgba(18,26,23,.38)}
 .dlg{padding:26px 26px 22px}
 .dlg h2{font-family:var(--f-display);font-size:22px;margin:0 0 4px}
 .dlg .lead{color:var(--muted);font-size:13.5px;margin:0 0 20px}
@@ -232,148 +289,187 @@ dialog::backdrop{background:rgba(18,26,23,.35)}
 .steps b{display:block;font-weight:500}
 .steps span{color:var(--ink-2);font-size:13.5px}
 .dlg .note{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;margin:0}
-.dlg .close{float:right;margin:-10px -10px 0 0;width:34px;height:34px;border:0;background:none;border-radius:6px;cursor:pointer;color:var(--muted);font-size:20px}
-.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:9px 14px;border-radius:6px;font-size:13px;z-index:2000;box-shadow:var(--shadow)}
+.dlg .note a{color:var(--ink)}
+.dlg .x{float:right;margin:-12px -12px 0 0}
+.toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:#fff;padding:9px 14px;border-radius:6px;font-size:13px;z-index:2000;box-shadow:var(--shadow)}
 
-/* ---------- medium widths ---------- */
-@media (min-width:961px) and (max-width:1439px){
-  .rg .code{display:none}
+/* ---------- 中等寬度 ---------- */
+@media (max-width:1120px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .quick{grid-template-columns:repeat(3,minmax(0,1fr))}
 }
-@media (min-width:961px) and (max-width:1240px){
+@media (max-width:900px){
   :root{--gutter:20px}
-  .meta .long{display:none}
-  .rg{padding:0 9px;gap:6px}
-  .rg-name{font-size:13px}
-  .rg .n{font-size:11px}
-  .body{grid-template-columns:minmax(420px,1fr) minmax(360px,1fr)}
+  .bar .wrap{flex-direction:column;align-items:stretch;gap:0;min-height:0}
+  .tabs{margin:0 calc(var(--gutter) * -1);padding:0 calc(var(--gutter) - 10px)}
+  .tab{height:50px}
+  .tools{overflow-x:auto;scrollbar-width:none;padding:0 0 10px;margin:0 calc(var(--gutter) * -1);padding-left:var(--gutter);padding-right:var(--gutter)}
+  .tools::-webkit-scrollbar{display:none}
+  .chips-row{border-top:0}
+  .chips{padding-top:0;margin:0 calc(var(--gutter) * -1);padding-left:var(--gutter);padding-right:var(--gutter)}
+  .foot .wrap{grid-template-columns:1fr;gap:28px}
 }
-/* ---------- phones & narrow panels ---------- */
-@media (max-width:960px){
+/* ---------- 手機 ---------- */
+@media (max-width:640px){
   :root{--gutter:16px}
-  .body{display:flex;flex-direction:column}
-  .meta{display:none}
-  .top{padding:12px var(--gutter)}
-  .brand-name{font-size:19px}
-  .intro{display:block;padding:20px var(--gutter) 4px}
-  .eyebrow{display:flex;align-items:center;gap:8px;margin:0;font-size:12.5px;color:var(--muted)}
-  .headline{font-family:var(--f-display);font-weight:700;font-size:21px;line-height:1.45;letter-spacing:.02em;margin:8px 0 6px;text-wrap:balance}
-  .sub{margin:0;font-size:13.5px;line-height:1.75;color:var(--muted)}
-  .sub b{color:var(--ink);font-weight:500}
-  .filters{border-bottom:0;padding-bottom:18px}
-  .regiongrid{grid-template-columns:repeat(3,minmax(0,1fr))}
-  .rg{display:grid;grid-template-columns:1fr auto;grid-template-areas:"code n" "name name";align-items:baseline;gap:1px 6px;height:auto;padding:8px 10px 9px}
-  .rg .code{grid-area:code}
-  .rg .n{grid-area:n;margin-left:0}
-  .rg-name{grid-area:name}
-  .search{flex:1 1 100%;max-width:none}
-  .search input{height:42px;font-size:15px}
-  .mapwrap{order:1;height:clamp(280px,46vh,440px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .listwrap{order:2;overflow:visible;border-right:0}
-  .listhead{position:static;background:var(--bg)}
-  .card{margin:0 4px}
-  .detail{padding:0 12px 18px 12px}
-  .maptools{left:10px;top:10px}
-}
-@media (max-width:480px){
+  html{scroll-padding-top:150px}
+  .top .wrap{height:58px;gap:10px}
+  .brand{gap:10px}
+  .brand svg{width:30px;height:30px}
+  .brand-name{font-size:17px;letter-spacing:.03em}
   .brand-sub{display:none}
-  .brand-name{font-size:18px;letter-spacing:.04em}
-  .linkbtn{padding:0 10px;font-size:12.5px}
-  .rg{padding:7px 8px 8px}
-  .rg-name{font-size:13.5px}
+  .nav a,.nav button{padding:0 8px;font-size:13px}
+  .hero .wrap{padding-top:24px;padding-bottom:20px}
+  .headline{font-size:24px;margin-top:8px}
+  .sub{font-size:14px;margin-bottom:16px}
+  .search input{height:48px;font-size:16px}
+  .regions-label{margin-top:18px}
+  .regions{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(var(--gutter) * -1);padding:0 var(--gutter) 2px}
+  .regions::-webkit-scrollbar{display:none}
+  .quick-sec .wrap{padding-top:22px}
+  .quick{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .qt{grid-template-columns:30px 1fr auto;padding:11px 12px;gap:0 10px;border-radius:10px}
+  .qt .ic{width:30px;height:30px;border-radius:8px}
+  .qt .ic svg{width:16px;height:16px}
+  .qt .t{font-size:14.5px}
+  .bar{margin-top:18px}
+  .grid{grid-template-columns:minmax(0,1fr);gap:12px}
+  .results .wrap{padding-top:18px}
+  .group-h{margin:22px 0 12px}
+  .group-h p{display:none}
+  .card-hit{padding:15px 16px}
   .card-title{font-size:18px}
+  .mapview .wrap{padding:0}
+  .mapbox{border-radius:0;border-left:0;border-right:0;height:calc(100dvh - 120px)}
+  .mapnote{padding:10px var(--gutter) 0}
+  dialog.sheet{inset:auto 0 0 0;width:100%;height:auto;max-height:92vh;max-height:92dvh;border-left:0;border-radius:16px 16px 0 0}
+  dialog.sheet[open]{animation:slide-up .24s ease-out}
+  .sheet-head{padding:8px 8px 8px 18px;position:relative}
+  .sheet-head::before{content:"";position:absolute;left:50%;top:6px;width:36px;height:4px;margin-left:-18px;border-radius:2px;background:var(--line-strong)}
+  .sheet-body{padding:16px 18px calc(28px + env(safe-area-inset-bottom,0px))}
+  .d-title{font-size:22px}
+  .actions .btn{flex:1 1 auto}
 }
+@media (max-width:400px){
+  .nav .ok-dot{display:none}
+  .nav a,.nav button{padding:0 6px}
+}
+@keyframes slide-up{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){dialog.sheet[open]{animation:none}.card:hover{transform:none}}
 </style>
 
-<div class="shell">
-  <header class="top">
-    <div class="brand">
-      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
-        <rect width="34" height="34" rx="7" fill="#121A17"/>
-        <g fill="#FFFFFF">
-          <circle cx="17" cy="27" r="2.3"/><circle cx="17.5" cy="7" r="1.9"/><circle cx="9" cy="15" r="1.9"/><circle cx="24.5" cy="13.5" r="1.6"/><circle cx="21.5" cy="20" r="1.1"/>
-        </g>
-      </svg>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="澳洲活動優惠地圖 首頁">
+      <svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#121A17"/><g transform="rotate(45 32 32)"><path d="M8.5 32 L22 16.5 H50 a5 5 0 0 1 5 5 V42.5 a5 5 0 0 1 -5 5 H22 Z" fill="#FFFFFF"/><circle cx="21.5" cy="32" r="4" fill="#DF9A2B"/></g><path fill="#121A17" d="M38.50 24.10L39.11 25.94L40.92 25.27L39.86 26.89L41.52 27.89L39.59 28.07L39.85 29.99L38.50 28.59L37.15 29.99L37.41 28.07L35.48 27.89L37.14 26.89L36.08 25.27L37.89 25.94ZM38.50 41.60L39.20 43.74L41.31 42.96L40.08 44.84L42.01 46.00L39.77 46.21L40.06 48.44L38.50 46.82L36.94 48.44L37.23 46.21L34.99 46.00L36.92 44.84L35.69 42.96L37.80 43.74ZM31.60 32.70L32.17 34.42L33.87 33.79L32.87 35.31L34.43 36.25L32.62 36.41L32.86 38.21L31.60 36.91L30.34 38.21L30.58 36.41L28.77 36.25L30.33 35.31L29.33 33.79L31.03 34.42ZM45.60 31.60L46.11 33.15L47.63 32.58L46.74 33.94L48.13 34.78L46.51 34.93L46.73 36.54L45.60 35.37L44.47 36.54L44.69 34.93L43.07 34.78L44.46 33.94L43.57 32.58L45.09 33.15ZM42.60 38.10L43.05 39.18L44.22 39.27L43.33 40.04L43.60 41.18L42.60 40.56L41.60 41.18L41.87 40.04L40.98 39.27L42.15 39.18Z"/></svg>
       <div>
-        <h1 class="brand-name">澳洲活動優惠地圖</h1>
+        <p class="brand-name">澳洲活動優惠地圖</p>
         <div class="brand-sub">Australia · Deals &amp; Events</div>
       </div>
-    </div>
-    <p class="meta"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono js-updated"></span></span><span class="long">收錄 <b class="mono js-count"></b> 筆，其中 <b class="mono js-verified"></b> 筆已完整查證</span></p>
-    <button class="linkbtn" id="howBtn" type="button"><i aria-hidden="true">✓</i>查證方式</button>
-  </header>
+    </a>
+    <nav class="nav" aria-label="網站">
+      <button id="howBtn" type="button"><i class="ok-dot" aria-hidden="true">✓</i>查證方式</button>
+      <a href="disclaimer/index.html" class="js-disclaimer">免責聲明</a>
+    </nav>
+  </div>
+</header>
 
-  <section class="intro">
+<section class="hero">
+  <div class="wrap">
     <p class="eyebrow"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono js-updated"></span>・每日清晨自動更新</span></p>
-    <h2 class="headline">澳洲各州進行中的活動與優惠</h2>
-    <p class="sub">目前收錄 <b class="mono js-count"></b> 筆，每筆均附官方來源，其中 <b class="mono js-verified"></b> 筆的日期、價格與地點已完整查證。</p>
-  </section>
+    <h1 class="headline">澳洲現在有哪些活動與優惠</h1>
+    <p class="sub">超市特價、速食與外送 App、節慶市集、交通與旅遊，一次整理。目前收錄 <b class="mono js-count"></b> 筆，每筆均附官方來源，其中 <b class="mono js-verified"></b> 筆的日期、價格與地點已完整查證。</p>
+    <div class="search" role="search">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="搜尋品牌、活動或城市，例如 ALDI、Brisbane、市集" aria-label="搜尋">
+      <button class="clear" id="qClear" type="button" aria-label="清除搜尋" hidden>✕</button>
+    </div>
+    <p class="regions-label">選擇所在地區（全澳適用的優惠會一併顯示）</p>
+    <div class="regions" id="regions" role="group" aria-label="地區"></div>
+  </div>
+</section>
 
-  <section class="filters" aria-label="篩選">
-    <div class="regiongrid" id="regions" role="group" aria-label="地區"></div>
-    <div class="refine">
-      <div class="search">
-        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        <input id="q" type="search" autocomplete="off" placeholder="搜尋活動名稱、品牌或城市" aria-label="搜尋">
-        <button class="clear" id="qClear" type="button" aria-label="清除搜尋" hidden>✕</button>
-      </div>
-      <div class="seg" role="group" aria-label="類型">
-        <button type="button" data-type="all" aria-pressed="true">全部</button>
-        <button type="button" data-type="event" aria-pressed="false"><span class="sw" style="background:var(--event)"></span>活動</button>
-        <button type="button" data-type="deal" aria-pressed="false"><span class="sw" style="background:var(--deal-pin);border-radius:50%"></span>特價</button>
-      </div>
+<section class="quick-sec" aria-labelledby="quickTitle">
+  <div class="wrap">
+    <div class="sec-title"><h2 id="quickTitle">快速瀏覽</h2><span id="quickHint">點選即可篩選，再點一次取消</span></div>
+    <div class="quick" id="quick"></div>
+  </div>
+</section>
+
+<div class="bar" id="bar">
+  <div class="wrap">
+    <div class="tabs" id="tabs" role="tablist" aria-label="分類"></div>
+    <div class="tools">
       <button class="toggle" id="freeBtn" type="button" aria-pressed="false">僅顯示免費</button>
       <select class="select" id="when" aria-label="時間">
         <option value="any">所有日期</option>
         <option value="now">進行中</option>
         <option value="weekend">本週末</option>
-        <option value="30">30 天內開始</option>
+        <option value="7">7 天內</option>
+        <option value="30">30 天內</option>
       </select>
-      <select class="select" id="cats" aria-label="類別"></select>
+      <select class="select" id="sort" aria-label="排序">
+        <option value="smart">依截止日期</option>
+        <option value="start">依開始日期</option>
+        <option value="new">最新上架</option>
+        <option value="hot" id="sortHot" hidden>依瀏覽次數</option>
+      </select>
     </div>
-  </section>
-
-  <div class="body">
-    <div class="listwrap" id="listwrap">
-      <div class="listhead">
-        <div class="count" id="count"></div>
-        <select class="select" id="sort" aria-label="排序">
-          <option value="smart">依截止日期</option>
-          <option value="start">依開始日期</option>
-          <option value="hot" id="sortHot" hidden>依瀏覽次數</option>
-        </select>
-      </div>
-      <div id="list"></div>
-      <section class="social" id="social"></section>
-      <div class="foot" id="foot"></div>
-    </div>
-    <section class="mapwrap" aria-label="地圖">
-      <div id="map"></div>
-      <div class="maptools">
-        <div class="legend" aria-hidden="true"><span><i style="background:var(--event)"></i>活動</span><span><i style="background:var(--deal-pin)"></i>特價</span></div>
-        <button type="button" class="btn mapback" id="mapBack" data-region="AU" hidden>顯示全澳洲</button>
-      </div>
-    </section>
   </div>
+  <div class="chips-row" id="chipsRow" hidden><div class="wrap"><div class="chips" id="chips" role="group" aria-label="細分類"></div></div></div>
 </div>
 
-<dialog id="how">
+<main>
+  <section class="results" id="listView">
+    <div class="wrap">
+      <div class="result-head"><div class="count" id="count"></div><div class="active-filters" id="activeFilters"></div></div>
+      <div id="list"></div>
+    </div>
+  </section>
+  <section class="mapview" id="mapView" hidden aria-label="地圖">
+    <div class="wrap">
+      <p class="mapnote" id="mapNote"></p>
+      <div class="mapbox">
+        <div id="map"></div>
+        <div class="maptools"><div class="legend" aria-hidden="true"><span><i style="background:var(--event)"></i>活動</span><span><i style="background:var(--deal-pin)"></i>特價</span></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div>
+      <h4>免責聲明</h4>
+      <p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係。所有項目雖經官方頁面查證，活動與優惠仍可能臨時異動、提前結束或依門市而異，出發或購買前請以官方公告為準。<a class="more js-disclaimer" href="disclaimer/index.html">閱讀完整免責聲明</a></p>
+      <p class="fine" id="footFine"></p>
+    </div>
+    <div id="social"></div>
+  </div>
+</footer>
+
+<button class="fab" id="fab" type="button"></button>
+
+<dialog class="sheet" id="sheet" aria-labelledby="sheetTitle"></dialog>
+
+<dialog class="how" id="how">
   <div class="dlg">
-    <button class="close" type="button" aria-label="關閉" onclick="this.closest('dialog').close()">×</button>
+    <button class="x" type="button" aria-label="關閉" onclick="this.closest('dialog').close()">×</button>
     <h2>資料來源與查證方式</h2>
-    <p class="lead">所有項目均須經過蒐集與獨立查證兩道程序，方會刊登於地圖。</p>
+    <p class="lead">所有項目均須經過蒐集與獨立查證兩道程序，方會刊登。</p>
     <ol class="steps">
-      <li><div><b>蒐集資訊</b><span>每日清晨自動搜尋 Threads、Instagram、Facebook、TikTok、Reddit、OzBargain 等社群平台的討論，並追查至主辦單位或品牌的官方頁面。社群貼文僅作為線索，不作為查證依據。</span></div></li>
+      <li><div><b>蒐集資訊</b><span>每日清晨自動搜尋 Threads、Instagram、Facebook、TikTok、Reddit、OzBargain、小紅書等社群討論，並查閱品牌官網、超市型錄、速食 App 公告、各地政府與觀光局的活動頁面。社群貼文僅作為線索，不作為查證依據。</span></div></li>
       <li><div><b>獨立查證</b><span>由未參與蒐集的查證人員重新開啟官方頁面，逐筆核對 2026 年的日期、價格與地點，並修正不實或誇大的描述。</span></div></li>
       <li><div><b>標示查證程度</b><span>「已查證」表示日期、價格與地點均已於官方頁面確認；「部分查證」會註明尚待官方公布的項目。無法取得官方證據者不予刊登。</span></div></li>
       <li><div><b>每日維護</b><span>已結束的項目自動下架；即將開始的活動及尚未公布票價的項目，會再次核對。</span></div></li>
     </ol>
-    <p class="note">活動與優惠內容可能異動，出發或購買前請以官方公告為準。</p>
+    <p class="note">活動與優惠內容可能異動，出發或購買前請以官方公告為準。詳見<a class="js-disclaimer" href="disclaimer/index.html">免責聲明</a>。</p>
   </div>
 </dialog>
-<div class="toast" id="toast" hidden></div>
+<div class="toast" id="toast" role="status" hidden></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" defer></script>
 <script type="application/json" id="data">/*__DATA__*/</script>
 <script type="application/json" id="geo">/*__GEO__*/</script>
 <script>
@@ -397,12 +493,20 @@ const REGIONS = [
   {code:'NT',  zh:'北領地',     en:'Northern Territory',city:'Darwin',    label:[-19.6,133.4]},
 ];
 const RBY = Object.fromEntries(REGIONS.map(r => [r.code, r]));
-const CATS = {festival:'節慶',music:'音樂表演',food:'美食',market:'市集',arts:'藝文展覽',sport:'運動賽事',outdoors:'戶外自然',family:'親子',shopping:'購物折扣',grocery:'超市特價',dining:'餐飲優惠',tickets:'票券交通'};
+const CATS = {grocery:'超市特價',dining:'餐飲與外送',food:'美食活動',festival:'節慶',music:'音樂表演',arts:'藝文展覽',market:'市集',sport:'運動賽事',family:'親子',outdoors:'戶外自然',entertainment:'電影與娛樂',shopping:'購物與方案',tickets:'交通與機票',travel:'旅遊行程'};
+const GROUPS = [
+  {k:'eat',    zh:'吃喝',     cats:['grocery','dining','food']},
+  {k:'event',  zh:'活動',     cats:['festival','music','arts','market','sport','family','outdoors','entertainment']},
+  {k:'shop',   zh:'購物',     cats:['shopping']},
+  {k:'travel', zh:'行程交通', cats:['tickets','travel']},
+];
+const GBY = Object.fromEntries(GROUPS.map(g => [g.k, g]));
+const CAT_G = {};
+GROUPS.forEach(g => g.cats.forEach(c => CAT_G[c] = g.k));
 const KIND = {official:'官方',social:'社群',community:'社群論壇',news:'新聞'};
 const WD = ['日','一','二','三','四','五','六'];
-const MON = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 
-/* ---------- dates ---------- */
+/* ---------- 日期 ---------- */
 const DAY = 86400000;
 const dn = s => { const [y,m,d] = s.split('-').map(Number); return Date.UTC(y, m-1, d) / DAY; };
 const now = new Date();
@@ -415,7 +519,8 @@ const wd = n => WD[fromDn(n).getUTCDay()];
 ITEMS.forEach(it => {
   it._s = dn(it.start);
   it._e = it.end ? dn(it.end) : null;
-  it._hay = [it.title, it.title_zh, it.city, it.venue, it.summary_zh, it.highlight, it.price_zh, CATS[it.category], RBY[it.region].zh, RBY[it.region].en, it.region, it.area_zh, it.schedule_zh, it.type === 'deal' ? '特價 優惠 折扣 deal' : '活動 event']
+  it._g = CAT_G[it.category] || 'event';
+  it._hay = [it.title, it.title_zh, it.city, it.venue, it.summary_zh, it.highlight, it.price_zh, CATS[it.category], GBY[it._g].zh, RBY[it.region].zh, RBY[it.region].en, it.region, it.area_zh, it.schedule_zh, it.type === 'deal' ? '特價 優惠 折扣 deal' : '活動 event']
     .filter(Boolean).join(' ').toLowerCase();
 });
 
@@ -437,12 +542,6 @@ function dateText(it){
   if (it._s === it._e) return mdy(it._s) + '（' + wd(it._s) + '）';
   return mdy(it._s) + ' – ' + mdy(it._e);
 }
-function stub(it, st){
-  if (st.k === 'soon') return {m: MON[fromDn(it._s).getUTCMonth()], d: fromDn(it._s).getUTCDate(), l: it._s === it._e ? '單日' : '開始'};
-  if (it._e === null) return {word: it.schedule_zh && /每週/.test(it.schedule_zh) ? '每週' : it.schedule_zh && /每月/.test(it.schedule_zh) ? '每月' : '長期', l: ''};
-  if (it._s === it._e) return {m: MON[fromDn(it._s).getUTCMonth()], d: fromDn(it._s).getUTCDate(), l:'今日'};
-  return {m: MON[fromDn(it._e).getUTCMonth()], d: fromDn(it._e).getUTCDate(), l:'截止'};
-}
 function activeOn(it, d){ return it._s <= d && (it._e === null || it._e >= d); }
 function weekendDays(){
   const w = fromDn(TODAY).getUTCDay();
@@ -450,9 +549,13 @@ function weekendDays(){
   if (w === 0) return [TODAY];
   return [TODAY + (6-w), TODAY + (7-w)];
 }
+const isNew = it => it.added && TODAY - dn(it.added) <= 2;
+const isEnding = it => it._e !== null && it._s <= TODAY && it._e - TODAY <= 7;
+const onWeekend = it => weekendDays().some(d => activeOn(it, d));
 
-/* ---------- state ---------- */
-const S = {q:'', type:'all', free:false, when:'any', region:'AU', cat:'all', sort:'smart', open:null, hot:[]};
+/* ---------- 狀態 ---------- */
+const DEF = {q:'', region:'AU', group:'all', cat:'all', free:false, when:'any', flag:'', quick:'', sort:'smart'};
+const S = Object.assign({}, DEF, {view:'list', open:null, hot:[]});
 try { const r = localStorage.getItem('adm_region'); if (r && RBY[r]) S.region = r; } catch(e) {}
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -462,12 +565,17 @@ function pass(it, skip){
   skip = skip || {};
   if (status(it).k === 'ended') return false;
   if (!skip.region && S.region !== 'AU' && it.region !== S.region && it.region !== 'AU') return false;
-  if (!skip.type && S.type !== 'all' && it.type !== S.type) return false;
-  if (S.free && !it.free) return false;
-  if (!skip.cat && S.cat !== 'all' && it.category !== S.cat) return false;
-  if (S.when === 'now' && it._s > TODAY) return false;
-  if (S.when === 'weekend' && !weekendDays().some(d => activeOn(it, d))) return false;
-  if (S.when === '30' && it._s > TODAY + 30) return false;
+  if (!skip.group && S.group !== 'all' && it._g !== S.group) return false;
+  if (!skip.group && S.cat !== 'all' && it.category !== S.cat) return false;
+  if (!skip.filters){
+    if (S.free && !it.free) return false;
+    if (S.when === 'now' && it._s > TODAY) return false;
+    if (S.when === 'weekend' && !onWeekend(it)) return false;
+    if (S.when === '7' && it._s > TODAY + 7) return false;
+    if (S.when === '30' && it._s > TODAY + 30) return false;
+    if (S.flag === 'new' && !isNew(it)) return false;
+    if (S.flag === 'ending' && !isEnding(it)) return false;
+  }
   if (S.q){
     const toks = S.q.toLowerCase().split(/\s+/).filter(Boolean);
     if (!toks.every(t => it._hay.includes(t))) return false;
@@ -475,60 +583,144 @@ function pass(it, skip){
   return true;
 }
 
-/* ---------- controls ---------- */
+/* ---------- 快速入口 ---------- */
+const IC = {
+  weekend:'<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2.5" y="3.5" width="13" height="12" rx="2"/><path d="M2.5 7.5h13M6 2v3M12 2v3"/><circle cx="11.5" cy="11.5" r="1.3" fill="currentColor" stroke="none"/></svg>',
+  free:'<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h12v7.5H3zM2 5h14v3H2zM9 5v10.5"/><path d="M9 5C7.5 2 4.8 2.6 5.4 4.2 5.8 5 9 5 9 5zm0 0c1.5-3 4.2-2.4 3.6-.8C12.2 5 9 5 9 5z"/></svg>',
+  grocery:'<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1.5 2.5h2l2 9h8.5l1.8-6.5H4.6"/><circle cx="7" cy="14.8" r="1.2"/><circle cx="13" cy="14.8" r="1.2"/></svg>',
+  dining:'<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 2v5.5a1.8 1.8 0 0 0 3.6 0V2M6.8 9v7M13 16V2c-2 1-2.8 3.5-2.8 6.5H13"/></svg>',
+  travel:'<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 3.2 2 8.4l5 1.8 1.8 5L16 3.2zM7 10.2l4.4-3.4"/></svg>',
+  ending:'<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="10" r="6.2"/><path d="M9 6.5V10l2.3 1.6M7 1.8h4"/></svg>',
+  new:'<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 2l1.9 4.3 4.6.5-3.5 3.1 1 4.6L9 12.1 5 14.5l1-4.6L2.5 6.8l4.6-.5z"/></svg>',
+};
+const QUICK = [
+  {k:'weekend', t:'本週末',     d:'週六日可參加',         set:{when:'weekend'},              test:onWeekend},
+  {k:'free',    t:'免費',       d:'免費入場、免費搭乘',   set:{free:true},                   test:it => it.free},
+  {k:'grocery', t:'超市特價',   d:'每週型錄精選',         set:{group:'eat', cat:'grocery'}, test:it => it.category === 'grocery'},
+  {k:'dining',  t:'餐飲與外送', d:'速食 App、餐廳',       set:{group:'eat', cat:'dining'},   test:it => it.category === 'dining'},
+  {k:'travel',  t:'交通與旅遊', d:'機票、車資、行程',     set:{group:'travel'},              test:it => it._g === 'travel'},
+  {k:'ending',  t:'即將截止',   d:'7 天內結束',           set:{flag:'ending'},               test:isEnding},
+];
+function applyQuick(k){
+  const keep = {q:S.q, region:S.region, sort:S.sort};
+  Object.assign(S, DEF, keep);
+  if (k){ const q = QUICK.find(x => x.k === k); Object.assign(S, q.set, {quick:k}); track('cat', 'quick:' + k); }
+  syncControls(); render(); scrollToResults();
+}
+function renderQuick(){
+  const base = ITEMS.filter(it => pass(it, {group:true, filters:true}));
+  $('quick').innerHTML = QUICK.map(q => {
+    const n = base.filter(q.test).length;
+    return `<button type="button" class="qt" data-quick="${q.k}" aria-pressed="${S.quick === q.k}" ${n || S.quick === q.k ? '' : 'disabled'}><span class="ic" aria-hidden="true">${IC[q.k]}</span><span class="t">${q.t}</span><span class="n">${n}</span><span class="d">${q.d}</span></button>`;
+  }).join('');
+}
+
+/* ---------- 地區、分類 ---------- */
 function renderRegions(){
   const base = ITEMS.filter(it => pass(it, {region:true}));
   $('regions').innerHTML = REGIONS.map(r => {
-    const n = r.code === 'AU' ? base.length : base.filter(it => it.region === r.code).length;
-    return `<button type="button" class="rg" data-region="${r.code}" aria-pressed="${S.region === r.code}"><span class="code">${r.code === 'AU' ? 'ALL' : r.code}</span><span class="rg-name">${r.zh}</span><span class="n">${n}</span></button>`;
+    const n = r.code === 'AU' ? base.length : base.filter(it => it.region === r.code || it.region === 'AU').length;
+    return `<button type="button" class="rg" data-region="${r.code}" aria-pressed="${S.region === r.code}">${r.zh}<span class="n">${n}</span></button>`;
   }).join('');
 }
-function renderCats(){
-  const base = ITEMS.filter(it => pass(it, {cat:true}));
-  const counts = {};
-  base.forEach(it => counts[it.category] = (counts[it.category] || 0) + 1);
-  const keys = Object.keys(CATS).filter(k => counts[k] || S.cat === k);
-  $('cats').innerHTML = `<option value="all">全部類別（${base.length}）</option>` +
-    keys.map(k => `<option value="${k}">${CATS[k]}（${counts[k] || 0}）</option>`).join('');
-  $('cats').value = S.cat;
+function renderTabs(){
+  const base = ITEMS.filter(it => pass(it, {group:true}));
+  const tab = (k, zh, n, cls) => `<button type="button" role="tab" class="tab ${cls}" data-group="${k}" aria-selected="${S.group === k}"${k !== 'all' ? ` style="--c:var(--g-${k})"` : ''}>${k !== 'all' ? '<span class="dot"></span>' : ''}${zh}<span class="n">${n}</span></button>`;
+  $('tabs').innerHTML = tab('all', '全部', base.length, '') + GROUPS.map(g => tab(g.k, g.zh, base.filter(it => it._g === g.k).length, '')).join('');
+  // 細分類
+  const g = GBY[S.group];
+  if (!g || g.cats.length < 2){ $('chipsRow').hidden = true; return; }
+  const inG = base.filter(it => it._g === g.k);
+  const counts = {}; inG.forEach(it => counts[it.category] = (counts[it.category] || 0) + 1);
+  const cats = g.cats.filter(c => counts[c] || S.cat === c);
+  $('chipsRow').hidden = cats.length < 2;
+  $('chips').style.setProperty('--c', `var(--g-${g.k})`);
+  $('chips').style.setProperty('--c-soft', `var(--g-${g.k}-soft)`);
+  $('chips').innerHTML = `<button type="button" class="chip" data-cat="all" aria-pressed="${S.cat === 'all'}">全部${g.zh}<span class="n">${inG.length}</span></button>` +
+    cats.map(c => `<button type="button" class="chip" data-cat="${c}" aria-pressed="${S.cat === c}">${CATS[c]}<span class="n">${counts[c] || 0}</span></button>`).join('');
 }
 
-/* ---------- list ---------- */
+/* ---------- 卡片 ---------- */
 function sortItems(arr){
   const hotRank = id => { const i = S.hot.indexOf(id); return i < 0 ? 999 : i; };
   return arr.slice().sort((a, b) => {
     if (S.sort === 'hot'){ const d = hotRank(a.id) - hotRank(b.id); if (d) return d; }
+    if (S.sort === 'new'){ const d = (b.added || '').localeCompare(a.added || ''); if (d) return d; }
     if (S.sort === 'start') return a._s - b._s || a.title_zh.localeCompare(b.title_zh);
     const ea = a._e === null ? 1e9 : a._e, eb = b._e === null ? 1e9 : b._e;
     return ea - eb || a._s - b._s;
   });
 }
-function cardHTML(it){
-  const st = status(it), sb = stub(it, st), open = S.open === it.id, R = RBY[it.region];
+function whereText(it){ return it.area_zh ? it.area_zh : it.region === 'AU' ? '全澳洲' : [it.city, RBY[it.region].code].filter(Boolean).join('・'); }
+function metaHTML(it){
   const isHot = S.hot.slice(0, 5).includes(it.id);
-  const where = it.area_zh ? it.area_zh : [it.city, it.region === 'AU' ? '全澳洲' : ''].filter(Boolean).join('');
-  const v = it.verified;
-  return `<article class="card${open ? ' is-open' : ''}" id="c-${esc(it.id)}" data-id="${esc(it.id)}">
-  <button type="button" class="card-hit" aria-expanded="${open}" aria-controls="d-${esc(it.id)}">
-    <div class="stub">${sb.word ? `<div class="d word">${sb.word}</div>` : `<div class="m">${sb.m}</div><div class="d">${sb.d}</div>`}${sb.l ? `<div class="l">${sb.l}</div>` : ''}</div>
-    <div class="card-main">
-      <div class="card-meta"><span class="type type--${it.type}">${it.type === 'deal' ? '特價' : '活動'}</span><span>${CATS[it.category]}</span><span class="rcode${it.region === 'AU' ? ' au' : ''}">${it.region === 'AU' ? '全澳' : it.region}</span>${isNew(it) ? '<span class="new">新增</span>' : ''}${isHot ? '<span class="hot">熱門</span>' : ''}</div>
-      <h3 class="card-title">${esc(it.title_zh)}</h3>
-      <p class="card-en">${esc(it.title)}</p>
-      <div class="facts-line"><span class="mono">${esc(dateText(it))}</span>${where ? `<span class="where">· ${esc(where)}</span>` : ''}</div>
-      <div class="card-foot"><span class="status status--${st.k}">${esc(st.label)}</span><span class="price${it.free ? ' free' : ''}">${esc(it.price_zh)}</span>${it.highlight ? `<span class="hl">${esc(it.highlight)}</span>` : ''}<span class="vmini${v.status === 'partial' ? ' part' : ''}">${v.status === 'partial' ? '◐ 部分查證' : '✓ 已查證'}</span></div>
-    </div>
+  return `<span class="cat">${CATS[it.category] || ''}</span><span class="rcode${it.region === 'AU' ? ' au' : ''}">${it.region === 'AU' ? '全澳' : it.region}</span>${isNew(it) ? '<span class="tag-new">新上架</span>' : ''}${isHot ? '<span class="tag-hot">熱門</span>' : ''}`;
+}
+function cardHTML(it){
+  const st = status(it), v = it.verified;
+  return `<article class="card g-${it._g}" id="c-${esc(it.id)}">
+  <button type="button" class="card-hit" data-open="${esc(it.id)}" aria-haspopup="dialog">
+    <div class="card-top">${metaHTML(it)}</div>
+    <h3 class="card-title">${esc(it.title_zh)}</h3>
+    <p class="card-en">${esc(it.title)}</p>
+    <div class="card-when"><span class="mono">${esc(dateText(it))}</span><span class="where">· ${esc(whereText(it))}</span></div>
+    <div class="card-price"><span class="price${it.free ? ' free' : ''}">${esc(it.price_zh)}</span>${it.highlight ? `<span class="hl">${esc(it.highlight)}</span>` : ''}</div>
+    <div class="card-foot"><span class="status status--${st.k}">${esc(st.label)}</span><span class="vmini${v.status === 'partial' ? ' part' : ''}">${v.status === 'partial' ? '◐ 部分查證' : '✓ 已查證'}</span></div>
   </button>
-  ${open ? detailHTML(it) : ''}
 </article>`;
 }
-function isNew(it){ return it.added && TODAY - dn(it.added) <= 2; }
+function section(title, note, arr){
+  if (!arr.length) return '';
+  return `<div class="group-h"><h3>${title}</h3><span class="n">${arr.length}</span>${note ? `<p>${note}</p>` : ''}</div><div class="grid">${arr.map(cardHTML).join('')}</div>`;
+}
+function renderActive(){
+  const tags = [];
+  if (S.region !== 'AU') tags.push(['region', RBY[S.region].zh]);
+  if (S.group !== 'all') tags.push(['group', S.cat !== 'all' ? CATS[S.cat] : GBY[S.group].zh]);
+  if (S.free) tags.push(['free', '免費']);
+  if (S.when !== 'any') tags.push(['when', $('when').selectedOptions[0].textContent]);
+  if (S.flag) tags.push(['flag', S.flag === 'new' ? '新上架' : '即將截止']);
+  if (S.q) tags.push(['q', '「' + S.q + '」']);
+  $('activeFilters').innerHTML = tags.map(([k, t]) => `<button type="button" class="af" data-unset="${k}" aria-label="移除篩選：${esc(t)}">${esc(t)}<span aria-hidden="true">✕</span></button>`).join('') +
+    (tags.length > 1 ? `<button type="button" class="af" data-unset="all">全部清除<span aria-hidden="true">✕</span></button>` : '');
+}
+function renderList(){
+  const list = sortItems(ITEMS.filter(it => pass(it)));
+  const R = RBY[S.region];
+  const local = list.filter(it => it.region === S.region).length;
+  $('count').innerHTML = S.region === 'AU'
+    ? `共 <b>${list.length}</b> 筆`
+    : `${R.zh} <b>${local}</b> 筆・全澳適用 <b>${list.length - local}</b> 筆`;
+  renderActive();
+  let html = '';
+  if (!list.length){
+    html = `<div class="empty"><h4>目前沒有符合條件的項目</h4><p>請調整關鍵字、地區或日期條件，或使用頁尾的社群搜尋。</p><button type="button" class="btn" data-unset="all">清除所有篩選</button></div>`;
+  } else if (S.sort === 'smart'){
+    const ending = list.filter(it => { const k = status(it).k; return k === 'urgent' || (isEnding(it) && k !== 'soon'); });
+    const rest = list.filter(it => !ending.includes(it));
+    const ongoing = rest.filter(it => status(it).k === 'now');
+    const longA = rest.filter(it => status(it).k === 'long');
+    const soonA = rest.filter(it => status(it).k === 'soon').sort((a, b) => a._s - b._s);
+    html = section('即將截止', '7 天內結束，請盡早安排', ending) + section('進行中', '', ongoing) + section('長期與固定時段', '常態優惠、每週固定舉行', longA) + section('即將開始', '依開始日期排列', soonA);
+  } else {
+    html = `<div class="grid" style="margin-top:16px">${list.map(cardHTML).join('')}</div>`;
+  }
+  $('list').innerHTML = html;
+  renderSocial();
+  return list;
+}
+
+/* ---------- 詳細資訊 ---------- */
 function host(u){ try { return new URL(u).hostname.replace(/^www\./, ''); } catch(e){ return ''; } }
 function detailHTML(it){
-  const v = it.verified;
+  const v = it.verified, st = status(it);
   const place = [it.venue, it.city].filter(Boolean).join('，') || it.area_zh || (it.region === 'AU' ? '全澳洲（門市或線上）' : '');
   const gmap = (it.lat != null && !it.area_zh) ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(it.lat + ',' + it.lng)}` : '';
-  return `<div class="detail" id="d-${esc(it.id)}">
+  const off = it.sources.find(s => s.kind === 'official');
+  return `<div class="sheet-head g-${it._g}"><div class="card-top">${metaHTML(it)}<span>・${it.type === 'deal' ? '特價' : '活動'}</span></div><button class="x" type="button" data-close aria-label="關閉">×</button></div>
+  <div class="sheet-body g-${it._g}">
+    <div><h2 class="d-title" id="sheetTitle">${esc(it.title_zh)}</h2><p class="d-en">${esc(it.title)}</p></div>
+    <div class="d-row"><span class="status status--${st.k}">${esc(st.label)}</span><span class="price${it.free ? ' free' : ''}">${esc(it.price_zh)}</span>${it.highlight ? `<span class="hl">${esc(it.highlight)}</span>` : ''}</div>
     <p class="summary">${esc(it.summary_zh)}</p>
     ${it.tip_zh ? `<p class="tip"><b>注意事項</b>${esc(it.tip_zh)}</p>` : ''}
     <dl class="kv">
@@ -538,6 +730,7 @@ function detailHTML(it){
       <dt>價格</dt><dd>${esc(it.price_zh)}</dd>
     </dl>
     <div class="actions">
+      ${off ? `<a class="btn primary" href="${esc(off.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="official">前往官方頁面 ↗</a>` : ''}
       ${gmap ? `<a class="btn" href="${gmap}" target="_blank" rel="noopener">Google 地圖 ↗</a>` : ''}
       <button type="button" class="btn" data-copy="${esc(it.id)}">複製連結</button>
     </div>
@@ -551,30 +744,30 @@ function detailHTML(it){
         ? `<b>部分查證</b>・${esc(v.checked.replace(/-/g,'/'))}<br>日期已於官方頁面核對；尚待確認：${esc(v.unconfirmed_zh)}`
         : `<b>已查證</b>・${esc(v.checked.replace(/-/g,'/'))}<br>已由獨立查證人員於官方頁面核對日期、價格與地點。`}</div>
     </div>
+    <p class="d-fine">內容可能臨時異動或依門市而異，請以官方公告為準。本站與該品牌或主辦單位無隸屬關係。<a class="js-disclaimer" href="${DISCLAIMER}">免責聲明</a></p>
   </div>`;
 }
-function renderList(){
-  const list = sortItems(ITEMS.filter(it => pass(it)));
-  const nowA = list.filter(it => status(it).k !== 'soon');
-  const soonA = list.filter(it => status(it).k === 'soon').sort((a, b) => S.sort === 'hot' ? 0 : a._s - b._s);
-  const R = RBY[S.region];
-  const local = S.region === 'AU' ? list.length : list.filter(it => it.region === S.region).length;
-  $('count').innerHTML = S.region === 'AU'
-    ? `共 <b>${list.length}</b> 筆`
-    : `${R.zh} <b>${local}</b> 筆・全澳適用 <b>${list.length - local}</b> 筆`;
-  let html = '';
-  if (!list.length){
-    html = `<div class="empty"><h4>目前沒有符合條件的項目</h4><p>請調整關鍵字、地區或日期條件，或使用下方的社群搜尋。</p><p><button type="button" class="btn" id="resetBtn">清除所有篩選</button></p></div>`;
-  } else {
-    if (nowA.length) html += `<div class="section-h"><span class="zh">進行中</span>${nowA.length}</div>` + nowA.map(cardHTML).join('');
-    if (soonA.length) html += `<div class="section-h"><span class="zh">即將舉行</span>${soonA.length}</div>` + soonA.map(cardHTML).join('');
-  }
-  $('list').innerHTML = html;
-  renderSocial();
-  return list;
+const sheet = $('sheet');
+function openItem(id, opts){
+  opts = opts || {};
+  const it = BYID[id];
+  if (!it || status(it).k === 'ended') return;
+  S.open = id;
+  sheet.innerHTML = detailHTML(it);
+  if (!sheet.open){ if (sheet.showModal) sheet.showModal(); else sheet.setAttribute('open', ''); }
+  sheet.querySelector('.sheet-body').scrollTop = 0;
+  document.body.classList.add('no-scroll');
+  track('open', id);
+  try { history.replaceState(null, '', '#' + id); } catch(e) {}
 }
+sheet.addEventListener('close', () => {
+  S.open = null;
+  document.body.classList.remove('no-scroll');
+  try { history.replaceState(null, '', location.pathname + location.search); } catch(e) {}
+});
+sheet.addEventListener('click', e => { if (e.target === sheet) sheet.close(); });
 
-/* ---------- social search ---------- */
+/* ---------- 社群搜尋 ---------- */
 const SOCIAL = [
   ['OzBargain', q => 'https://www.ozbargain.com.au/search/node/' + encodeURIComponent(q)],
   ['Reddit', q => 'https://www.reddit.com/search/?q=' + encodeURIComponent(q)],
@@ -587,7 +780,7 @@ const SOCIAL = [
 function socialKeyword(){
   if (S.q) return S.q + (S.region !== 'AU' && !S.q.toLowerCase().includes(RBY[S.region].city.toLowerCase()) ? ' ' + RBY[S.region].city : '');
   const city = RBY[S.region].city;
-  return S.type === 'deal' ? city + ' deals' : S.type === 'event' ? city + ' events this weekend' : city + ' deals events';
+  return S.group === 'eat' ? city + ' food deals' : S.group === 'event' ? city + ' events this weekend' : S.group === 'shop' ? city + ' sale' : S.group === 'travel' ? city + ' travel deals' : city + ' deals events';
 }
 function renderSocial(){
   const kw = socialKeyword();
@@ -595,11 +788,12 @@ function renderSocial(){
   <div class="social-links">${SOCIAL.map(([n, f]) => `<a href="${esc(f(kw))}" target="_blank" rel="noopener" data-social="${n}">${n} <span aria-hidden="true">↗</span></a>`).join('')}</div>`;
 }
 
-/* ---------- map ---------- */
-let map, stateLayer, clusters, markers = {}, labelLayer, tiles;
+/* ---------- 地圖（切換到地圖檢視時才載入） ---------- */
+let map, stateLayer, clusters, labelLayer, tiles;
 const AU_BOUNDS = [[-43.9, 112.5], [-10.4, 154]];
 function initMap(){
-  if (!window.L){ $('map').innerHTML = '<div class="empty"><p>地圖載入失敗，請重新整理頁面。</p></div>'; return; }
+  if (map) return true;
+  if (!window.L || !L.markerClusterGroup){ $('map').innerHTML = '<div class="empty" style="margin:20px">地圖載入失敗，請重新整理頁面。</div>'; return false; }
   map = L.map('map', {zoomControl:false, attributionControl:true, minZoom:3, maxZoom:17, zoomSnap:0.5, zoomDelta:1, worldCopyJump:false, maxBounds:[[-60, 90], [5, 180]]});
   map.attributionControl.setPrefix('');
   L.control.zoom({position:'topright', zoomInTitle:'放大', zoomOutTitle:'縮小'}).addTo(map);
@@ -612,12 +806,7 @@ function initMap(){
     tiles.on('tileerror', () => { if (++bad >= 6 && !ok && tiles){ map.removeLayer(tiles); tiles = null; sync(); } });
     map.on('zoomend', sync); sync();
   }
-  stateLayer = L.geoJSON(GEO, {
-    style: () => ({className:'state'}),
-    onEachFeature: (f, layer) => {
-      layer.on('click', () => setRegion(f.properties.code, true));
-    }
-  }).addTo(map);
+  stateLayer = L.geoJSON(GEO, {style: () => ({className:'state'}), onEachFeature: (f, layer) => layer.on('click', () => setRegion(S.region === f.properties.code ? 'AU' : f.properties.code))}).addTo(map);
   labelLayer = L.layerGroup().addTo(map);
   clusters = L.markerClusterGroup({
     showCoverageOnHover:false, maxClusterRadius:40, disableClusteringAtZoom:12, spiderfyOnMaxZoom:false, zoomToBoundsOnClick:true,
@@ -625,26 +814,23 @@ function initMap(){
   });
   map.addLayer(clusters);
   map.on('zoomend resize', syncLabels);
+  return true;
 }
 function syncLabels(){
   if (!map) return;
-  const hide = map.getZoom() > 5.6 || $('map').clientWidth < 620;
+  const hide = map.getZoom() > 5.6 || $('map').clientWidth < 520;
   labelLayer.eachLayer(l => { const el = l.getElement(); if (el) el.style.visibility = hide ? 'hidden' : 'visible'; });
 }
-function pinIcon(it, active){
-  return L.divIcon({html:`<span class="pin ${it.type}${active ? ' is-active' : ''}"></span>`, className:'pin-wrap', iconSize:[20,20], iconAnchor:[10,10]});
-}
 function renderMap(list){
-  if (!map) return;
-  clusters.clearLayers(); markers = {};
+  if (!map || S.view !== 'map') return;
+  clusters.clearLayers();
   const pins = list.filter(it => it.lat != null && it.lng != null && !it.area_zh);
   pins.forEach(it => {
-    const m = L.marker([it.lat, it.lng], {icon: pinIcon(it, S.open === it.id), keyboard:true, title: it.title_zh, riseOnHover:true});
+    const m = L.marker([it.lat, it.lng], {icon: L.divIcon({html:`<span class="pin ${it.type}"></span>`, className:'pin-wrap', iconSize:[20,20], iconAnchor:[10,10]}), keyboard:true, title: it.title_zh, riseOnHover:true});
     m.bindTooltip(`${esc(it.title_zh)}<small>${esc(dateText(it))} · ${esc(it.city || '')}</small>`, {className:'tt', direction:'top', offset:[0,-10]});
-    m.on('click', () => openItem(it.id, {fromMap:true}));
-    clusters.addLayer(m); markers[it.id] = m;
+    m.on('click', () => openItem(it.id));
+    clusters.addLayer(m);
   });
-  // state shading + labels
   const counts = {};
   list.forEach(it => counts[it.region] = (counts[it.region] || 0) + 1);
   stateLayer.eachLayer(layer => {
@@ -660,71 +846,78 @@ function renderMap(list){
     labelLayer.addLayer(L.marker(r.label, {interactive:false, keyboard:false, icon: L.divIcon({className:'st-wrap', iconSize:[80,36], iconAnchor:[40,18], html:`<div class="st-label${n ? '' : ' zero'}"><b>${n}</b>${r.code}</div>`})}));
   });
   syncLabels();
-  renderRegionCard();
-}
-function renderRegionCard(){
-  $('mapBack').hidden = S.region === 'AU';
+  const off = list.length - pins.length;
+  $('mapNote').textContent = `地圖顯示 ${pins.length} 個地點。` + (off ? `另有 ${off} 筆為全澳或全州適用的優惠（例如超市、交通），請切換到清單查看。` : '');
 }
 function fitRegion(code){
-  if (!map) return;
+  if (!map || S.view !== 'map') return;
   if (code === 'AU'){ map.flyToBounds(AU_BOUNDS, {padding:[10,10], duration:.6}); return; }
   let b = null;
   stateLayer.eachLayer(l => { if (l.feature.properties.code === code) b = l.getBounds(); });
   if (code === 'ACT' && b) b = b.pad(1.2);
   if (b) map.flyToBounds(b, {padding:[30,30], duration:.6, maxZoom:8});
 }
+function setView(v, boot){
+  S.view = v;
+  $('listView').hidden = v !== 'list';
+  $('mapView').hidden = v !== 'map';
+  $('fab').innerHTML = v === 'list'
+    ? '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1.5 3.5l4-1.5 5 2 4-1.5v10l-4 1.5-5-2-4 1.5zM5.5 2v10M10.5 4v10"/></svg>顯示地圖'
+    : '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 3.5h12M2 8h12M2 12.5h12"/></svg>顯示清單';
+  if (v === 'map'){
+    if (initMap()){ setTimeout(() => { map.invalidateSize(); renderMap(lastList); fitRegion(S.region); }, 30); }
+  }
+  if (!boot) scrollToResults(true);
+}
+function scrollToResults(force){
+  const bar = $('bar');
+  const y = bar.getBoundingClientRect().top + scrollY - 0;
+  if (force || scrollY > y + 4 || bar.getBoundingClientRect().top > innerHeight * .55) scrollTo({top: y, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+}
 
-/* ---------- actions ---------- */
+/* ---------- 操作 ---------- */
 let lastList = [];
 function render(){
-  renderRegions(); renderCats();
+  renderRegions(); renderQuick(); renderTabs();
   lastList = renderList();
   renderMap(lastList);
 }
-function setRegion(code, fromMap){
-  if (S.region === code && fromMap) code = 'AU';
-  S.region = code; S.cat = 'all';
+function setRegion(code){
+  S.region = code;
   try { localStorage.setItem('adm_region', code); } catch(e) {}
   track('region', code);
   render(); fitRegion(code);
 }
-function openItem(id, opts){
-  opts = opts || {};
-  const it = BYID[id];
-  if (!it) return;
-  const wasOpen = S.open === id;
-  S.open = wasOpen && !opts.fromMap ? null : id;
-  if (S.open && !pass(it)){ S.q = ''; $('q').value = ''; S.cat = 'all'; S.type = 'all'; S.free = false; S.when = 'any'; if (!pass(it)) S.region = 'AU'; syncControls(); }
-  lastList = renderList(); renderRegions(); renderCats();
-  Object.entries(markers).forEach(([mid, m]) => m.setIcon(pinIcon(BYID[mid], S.open === mid)));
-  if (S.open){
-    track('open', id);
-    const el = document.getElementById('c-' + id);
-    if (el){
-      el.scrollIntoView({behavior: opts.boot ? 'auto' : 'smooth', block: (opts.fromMap || opts.boot) ? 'start' : 'nearest'});
-    }
-    const m = markers[id];
-    if (m && !opts.fromMap && map){
-      map.flyTo(m.getLatLng(), Math.min(Math.max(map.getZoom(), 12), 13), {duration:.6});
-    }
-    try { history.replaceState(null, '', '#' + id); } catch(e) {}
-  }
-}
 function syncControls(){
-  document.querySelectorAll('.seg button').forEach(b => b.setAttribute('aria-pressed', b.dataset.type === S.type));
   $('freeBtn').setAttribute('aria-pressed', S.free);
   $('when').value = S.when; $('sort').value = S.sort;
+  $('q').value = S.q;
   $('qClear').hidden = !S.q;
 }
+const manual = () => { S.quick = ''; };
 function toast(msg){ const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 1800); }
 
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a');
   if (!t) return;
+  if (t.hasAttribute('data-close')){ sheet.close(); return; }
   if (t.dataset.region){ setRegion(t.dataset.region); return; }
-  if (t.dataset.type){ S.type = t.dataset.type; syncControls(); render(); return; }
+  if (t.dataset.quick){ applyQuick(S.quick === t.dataset.quick ? '' : t.dataset.quick); return; }
+  if (t.dataset.group){ manual(); S.group = t.dataset.group; S.cat = 'all'; track('cat', S.group); render(); scrollToResults(); return; }
+  if (t.dataset.cat){ manual(); S.cat = t.dataset.cat; track('cat', S.cat); render(); return; }
+  if (t.dataset.unset){
+    const k = t.dataset.unset;
+    manual();
+    if (k === 'all'){ Object.assign(S, DEF, {sort:S.sort}); setRegion('AU'); syncControls(); render(); return; }
+    if (k === 'region'){ setRegion('AU'); return; }
+    if (k === 'group'){ S.group = 'all'; S.cat = 'all'; }
+    if (k === 'free') S.free = false;
+    if (k === 'when') S.when = 'any';
+    if (k === 'flag') S.flag = '';
+    if (k === 'q') S.q = '';
+    syncControls(); render(); return;
+  }
   if (t.dataset.open){ openItem(t.dataset.open); return; }
-  if (t.classList.contains('card-hit')){ openItem(t.closest('.card').dataset.id); return; }
   if (t.dataset.copy){
     const url = location.href.split('#')[0] + '#' + t.dataset.copy;
     const done = () => toast('已複製連結');
@@ -734,24 +927,24 @@ document.addEventListener('click', e => {
   }
   if (t.dataset.src){ track('src', t.dataset.src + '|' + (t.dataset.kind || '')); return; }
   if (t.dataset.social){ track('social', t.dataset.social); return; }
-  if (t.id === 'resetBtn'){ Object.assign(S, {q:'', type:'all', free:false, when:'any', cat:'all', region:'AU'}); $('q').value = ''; syncControls(); render(); fitRegion('AU'); return; }
 });
-$('freeBtn').addEventListener('click', () => { S.free = !S.free; syncControls(); render(); });
-$('when').addEventListener('change', e => { S.when = e.target.value; render(); });
-$('sort').addEventListener('change', e => { S.sort = e.target.value; renderList(); });
-$('cats').addEventListener('change', e => { S.cat = e.target.value; track('cat', S.cat); render(); });
+$('fab').addEventListener('click', () => setView(S.view === 'list' ? 'map' : 'list'));
+$('freeBtn').addEventListener('click', () => { manual(); S.free = !S.free; syncControls(); render(); });
+$('when').addEventListener('change', e => { manual(); S.when = e.target.value; render(); });
+$('sort').addEventListener('change', e => { S.sort = e.target.value; lastList = renderList(); });
 let qTimer, qTrack;
 $('q').addEventListener('input', e => {
   clearTimeout(qTimer); clearTimeout(qTrack);
-  qTimer = setTimeout(() => { S.q = e.target.value.trim(); $('qClear').hidden = !S.q; render(); }, 120);
+  qTimer = setTimeout(() => { S.q = e.target.value.trim(); $('qClear').hidden = !S.q; render(); }, 140);
   qTrack = setTimeout(() => { const v = e.target.value.trim(); if (v.length >= 2) track('search', v.toLowerCase().slice(0, 40)); }, 1500);
 });
+$('q').addEventListener('keydown', e => { if (e.key === 'Enter'){ e.target.blur(); scrollToResults(); } });
+$('qClear').addEventListener('click', () => { S.q = ''; syncControls(); render(); $('q').focus(); });
 addEventListener('hashchange', () => { const h = decodeURIComponent(location.hash.slice(1)); if (h && BYID[h] && S.open !== h) openItem(h); });
-$('qClear').addEventListener('click', () => { $('q').value = ''; S.q = ''; syncControls(); render(); $('q').focus(); });
 $('howBtn').addEventListener('click', () => { const d = $('how'); if (d.showModal) d.showModal(); else d.setAttribute('open', ''); });
 $('how').addEventListener('click', e => { if (e.target === $('how')) $('how').close(); });
 
-/* ---------- analytics ---------- */
+/* ---------- 匿名統計 ---------- */
 let vid = '';
 try { vid = localStorage.getItem('adm_vid') || ''; if (!vid){ vid = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2)).replace(/-/g,'').slice(0,20); localStorage.setItem('adm_vid', vid); } } catch(e){ vid = String(Math.random()).slice(2, 18); }
 function track(t, k){
@@ -763,24 +956,24 @@ function track(t, k){
   } catch(e) {}
 }
 
-/* ---------- boot ---------- */
+/* ---------- 啟動 ---------- */
+const DISCLAIMER = CFG.api ? '/disclaimer/' : 'disclaimer/index.html';
+document.querySelectorAll('.js-disclaimer').forEach(a => a.href = DISCLAIMER);
 const upd = dn(DATA.updated);
 document.querySelectorAll('.js-updated').forEach(e => e.textContent = mdy(upd) + '（' + wd(upd) + '）');
 const live = ITEMS.filter(i => status(i).k !== 'ended');
 document.querySelectorAll('.js-count').forEach(e => e.textContent = live.length);
 document.querySelectorAll('.js-verified').forEach(e => e.textContent = live.filter(i => i.verified.status === 'verified').length);
-$('foot').innerHTML = `資料每日清晨自動更新，最後核對日期：${esc(DATA.updated.replace(/-/g,'/'))}。活動與優惠內容可能異動，請以主辦單位及品牌之官方公告為準。本站僅整理公開資訊，與各品牌及主辦單位無隸屬關係。`;
-initMap();
-const hash = decodeURIComponent(location.hash.slice(1));
-if (hash && BYID[hash]) S.open = hash;
+$('footFine').textContent = `資料每日清晨自動更新，最後核對日期：${DATA.updated.replace(/-/g,'/')}。地圖底圖 © OpenStreetMap 貢獻者。`;
 syncControls();
+setView('list', true);
 render();
-if (S.region !== 'AU') fitRegion(S.region);
-if (S.open && BYID[S.open]) setTimeout(() => { const id = S.open; S.open = null; openItem(id, {boot:true}); }, 300);
+const hash = decodeURIComponent(location.hash.slice(1));
+if (hash && BYID[hash]) openItem(hash, {boot:true});
 track('view', S.region);
 if (CFG.api){
   fetch('/api/popular').then(r => r.ok ? r.json() : null).then(d => {
-    if (d && Array.isArray(d.ids) && d.ids.length){ S.hot = d.ids.filter(id => BYID[id]); $('sortHot').hidden = false; renderList(); }
+    if (d && Array.isArray(d.ids) && d.ids.length){ S.hot = d.ids.filter(id => BYID[id]); $('sortHot').hidden = false; lastList = renderList(); }
   }).catch(() => {});
 }
 })();

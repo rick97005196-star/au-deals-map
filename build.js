@@ -11,7 +11,7 @@ const write = (p, s) => { const f = path.join(ROOT, p); fs.mkdirSync(path.dirnam
 const data = JSON.parse(read('data/items.json'));
 const geo = JSON.parse(read('data/au-states.geojson'));
 const REGIONS = ['AU', 'QLD', 'NSW', 'VIC', 'SA', 'WA', 'TAS', 'ACT', 'NT'];
-const CATS = ['festival', 'music', 'food', 'market', 'arts', 'sport', 'outdoors', 'family', 'shopping', 'grocery', 'dining', 'tickets'];
+const CATS = ['festival', 'music', 'food', 'market', 'arts', 'sport', 'outdoors', 'family', 'shopping', 'grocery', 'dining', 'tickets', 'entertainment', 'travel'];
 const KINDS = ['official', 'social', 'community', 'news'];
 const isDate = (s) => /^\d{4}-\d{2}-\d{2}$/.test(s) && !isNaN(Date.parse(s));
 const errors = [];
@@ -59,7 +59,7 @@ function fill(tpl, cfg) {
     .replace('/*__CONFIG__*/{api:false,tiles:false}', () => JSON.stringify(cfg));
 }
 
-const FAVICON = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><rect width="34" height="34" rx="7" fill="#121A17"/><g fill="#FFFFFF"><circle cx="17" cy="27" r="2.3"/><circle cx="17.5" cy="7" r="1.9"/><circle cx="9" cy="15" r="1.9"/><circle cx="24.5" cy="13.5" r="1.6"/><circle cx="21.5" cy="20" r="1.1"/></g></svg>');
+const FAVICON = 'data:image/svg+xml,' + encodeURIComponent(read('brand/logo-mark.svg').trim());
 
 // 把「只有內容」的版型包成完整網頁：<title>/<meta>/<link>/<style> 放進 head，其餘放進 body
 function wrap(content, extraHead = '') {
@@ -82,14 +82,17 @@ ${body}</body>
 
 const site = read('site.json') ? JSON.parse(read('site.json')) : {};
 const og = `<meta property="og:title" content="澳洲活動優惠地圖">
-<meta property="og:description" content="以互動地圖整理澳洲各州進行中的活動與優惠，每筆均附官方來源並經獨立查證。">
+<meta property="og:description" content="整理澳洲各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。">
 <meta property="og:type" content="website">
 ${site.url ? `<meta property="og:url" content="${site.url}">\n` : ''}`;
 
 const indexTpl = read('src/index.html');
 const statsTpl = read('src/stats.html');
+const disclaimerTpl = read('src/disclaimer.html');
 
 write('public/index.html', wrap(fill(indexTpl, { api: true, tiles: true }), og));
+write('public/disclaimer/index.html', wrap(disclaimerTpl));
+write('artifact/disclaimer/index.html', wrap(disclaimerTpl));
 write('public/stats/index.html', wrap(statsTpl, '<meta name="robots" content="noindex">\n'));
 write('public/items.json', JSON.stringify({ updated: data.updated, items: data.items.map((i) => ({ id: i.id, title_zh: i.title_zh, region: i.region, type: i.type })) }));
 write('public/_headers', `/*
@@ -104,6 +107,7 @@ write('public/_headers', `/*
   X-Robots-Tag: noindex
   Cache-Control: no-store
 `);
+for (const f of fs.readdirSync(path.join(ROOT, 'brand')).filter((f) => f.endsWith('.svg'))) write('public/brand/' + f, read('brand/' + f));
 write('artifact/index.html', fill(indexTpl, { api: false, tiles: false }));
 
 const v = data.items.filter((i) => i.verified.status === 'verified').length;

@@ -111,7 +111,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 let KEY = ''; try { KEY = localStorage.getItem('adm_stats_key') || ''; } catch(e) {}
 let DAYS = 30, TITLES = {};
 const STATE_ZH = {QLD:'昆士蘭',NSW:'新南威爾斯',VIC:'維多利亞',SA:'南澳',WA:'西澳',TAS:'塔斯馬尼亞',ACT:'坎培拉',NT:'北領地',AU:'全澳洲'};
-const CATS = {all:'全部類別',festival:'節慶',music:'音樂表演',food:'美食',market:'市集',arts:'藝文展覽',sport:'運動賽事',outdoors:'戶外自然',family:'親子',shopping:'購物折扣',grocery:'超市特價',dining:'餐飲優惠',tickets:'票券交通'};
+const CATS = {all:'全部類別',festival:'節慶',music:'音樂表演',food:'美食',market:'市集',arts:'藝文展覽',sport:'運動賽事',outdoors:'戶外自然',family:'親子',shopping:'購物折扣',grocery:'超市特價',dining:'餐飲與外送',tickets:'交通與機票',entertainment:'電影與娛樂',travel:'旅遊行程',eat:'吃喝',event:'活動',shop:'購物'};
 const KIND = {official:'官方',social:'社群',community:'社群論壇',news:'新聞'};
 let regionNames = null; try { regionNames = new Intl.DisplayNames(['zh-Hant'], {type:'region'}); } catch(e) {}
 const country = c => { try { return regionNames ? regionNames.of(c) : c; } catch(e) { return c; } };

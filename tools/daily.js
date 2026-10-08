@@ -7,6 +7,7 @@
 //   add <新項目.json> <查證結果.json>
 //                              只把查證結果是 ok／fix 的新項目加進去（套用修正、補 added＝今天），重複的跳過
 //   stamp                      把 updated 改成今天
+//   gaps                       各分類、各州目前筆數，標出偏少的，研究員優先補這些
 //   count                      印出目前項目數
 const fs = require('fs');
 const path = require('path');
@@ -110,6 +111,25 @@ switch (cmd) {
     d.updated = TODAY;
     save(d);
     console.log(`updated = ${TODAY}`);
+    break;
+  }
+  case 'gaps': {
+    // 目標：讓每個大分類、每個州都有足夠的內容（不足的標「偏少」，研究員優先補）
+    const GROUPS = { 吃喝: ['grocery', 'dining', 'food'], 活動: ['festival', 'music', 'arts', 'market', 'sport', 'family', 'outdoors', 'entertainment'], 購物: ['shopping'], 行程交通: ['tickets', 'travel'] };
+    const GOAL_G = { 吃喝: 25, 活動: 50, 購物: 15, 行程交通: 20 };
+    const GOAL_R = { AU: 30, QLD: 20, NSW: 15, VIC: 15, SA: 8, WA: 8, TAS: 6, ACT: 5, NT: 5 };
+    const live = d.items.filter((it) => !it.end || it.end >= TODAY);
+    const by = (f) => live.reduce((m, it) => ((m[f(it)] = (m[f(it)] || 0) + 1), m), {});
+    const cat = by((it) => it.category), reg = by((it) => it.region);
+    console.log('大分類（目前／目標）');
+    for (const [g, cs] of Object.entries(GROUPS)) {
+      const n = cs.reduce((s, c) => s + (cat[c] || 0), 0);
+      console.log(`  ${n < GOAL_G[g] ? '偏少' : '　　'} ${g} ${n}／${GOAL_G[g]}：${cs.map((c) => c + ' ' + (cat[c] || 0)).join('、')}`);
+    }
+    console.log('地區（目前／目標）');
+    for (const [r, goal] of Object.entries(GOAL_R)) console.log(`  ${(reg[r] || 0) < goal ? '偏少' : '　　'} ${r} ${reg[r] || 0}／${goal}`);
+    const soon = live.filter((it) => it.start > TODAY && it.start <= bne(14)).length;
+    console.log(`未來 14 天內開始：${soon} 筆${soon < 15 ? '（偏少，多找近期活動）' : ''}`);
     break;
   }
   case 'count': {

@@ -6,7 +6,7 @@
   "type": "event | deal",
   "title": "主辦單位或品牌寫的官方英文名稱",
   "title_zh": "繁體中文短標題（台灣用語），品牌與專有名詞保留英文，盡量 18 字內",
-  "category": "festival | music | food | market | arts | sport | outdoors | family | shopping | grocery | dining | tickets",
+  "category": "grocery | dining | food | festival | music | arts | market | sport | family | outdoors | entertainment | shopping | tickets | travel（分類說明見下方）",
   "region": "QLD | NSW | VIC | WA | SA | TAS | ACT | NT | AU（AU＝全澳洲或全國線上都適用）",
   "city": "Brisbane（AU 填 null）",
   "venue": "場地名稱（AU 或線上填 null）",
@@ -34,6 +34,18 @@
   "added": "2026-10-09（每日任務新增時由 tools/daily.js 自動填上，網站會顯示「新上架」3 天）"
 }
 ```
+
+## 分類（網站上分成四個大分類）
+| 大分類 | category | 用途 |
+|---|---|---|
+| 吃喝 | `grocery` 超市特價 | Woolworths、Coles、ALDI、IGA 門市特價與集點 |
+| | `dining` 餐飲與外送 | 速食與咖啡 App 優惠、餐廳優惠、外送平台全站優惠 |
+| | `food` 美食活動 | 美食節、夜市、品酒活動 |
+| 活動 | `festival` `music` `arts` `market` `sport` `family` `outdoors` | 節慶、音樂、藝文展覽、市集、運動賽事、親子、戶外自然 |
+| | `entertainment` 電影與娛樂 | 電影院優惠、博物館與景點門票優惠 |
+| 購物 | `shopping` 購物與方案 | 零售特賣、電信方案、訂閱服務 |
+| 行程交通 | `tickets` 交通與機票 | 大眾運輸優惠、機票特價、渡輪與長途交通 |
+| | `travel` 旅遊行程 | 一日遊、導覽行程、國家公園、觀光局優惠 |
 
 ## 收錄規則
 - 只收 2026 年確定會舉辦、現在進行中或 60 天內開始的活動／優惠。
