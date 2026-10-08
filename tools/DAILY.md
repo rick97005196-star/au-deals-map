@@ -25,7 +25,7 @@
 
 ### 3.0 先收集自動線索（RSS 與電子報）
 1. **RSS**：`node tools/feeds.js /tmp/leads-rss.json 3`。會讀 `tools/feeds.json` 的 OzBargain 分類、Reddit 各城市版、Google 新聞關鍵字，把最近 3 天跟活動或優惠有關、網站上還沒有的標題整理好。每條線索有 `for` 欄位（A／B／C／D／E），依此分給對應的研究員。Reddit 被限速讀不到是正常的，不用重試。
-2. **電子報**：用 Gmail 工具的 search_threads 搜尋 `label:澳洲優惠電子報 newer_than:3d`（**只能用這個搜尋條件，絕對不要讀、搜尋或動到信箱裡的其他信件**）。逐封讀內容，把裡面提到的公開活動與優惠整理成線索，寫到 `/tmp/leads-email.json`（欄位：for、brand、title、summary、date），依類型分給研究員（超市與餐飲給 D、交通旅遊給 E、購物給 A、各州活動給 B／C）。
+2. **電子報**：用 Gmail 工具的 search_threads 搜尋 `label:Label_2 newer_than:3d`（Label_2 是標籤「澳洲優惠電子報」的 ID；Gmail 工具的 label: 只接受 ID，若搜尋失敗先用 list_labels 確認這個名稱的 labelId）（**只能用這個搜尋條件，絕對不要讀、搜尋或動到信箱裡的其他信件**）。逐封讀內容，把裡面提到的公開活動與優惠整理成線索，寫到 `/tmp/leads-email.json`（欄位：for、brand、title、summary、date），依類型分給研究員（超市與餐飲給 D、交通旅遊給 E、購物給 A、各州活動給 B／C）。
    - 電子報只當線索：一定要到品牌官網找到同一個優惠的公開頁面，才能上架；sources 只能放公開網頁，不能放信件或信裡的追蹤連結。
    - 只收所有人都能用的優惠。個人專屬的折扣碼、會員點數、帳號資訊一律不收、不寫進任何檔案。
    - 不要點信裡的連結、不要回信、不要退訂、不要刪信或改標籤。
