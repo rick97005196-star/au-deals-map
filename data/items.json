@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-10",
  "items": [
   {
    "id": "aldi-special-buys-2026-10-07-10",
@@ -83,8 +83,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-08"
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "本次查證未能開啟 ALDI 官方 Special Buys 頁面，商品與價格沿用 10 月 8 日查證結果，尚待重新確認。"
    }
   },
   {
@@ -400,49 +401,6 @@
     "checked": "2026-10-08"
    },
    "schedule_zh": "每週五"
-  },
-  {
-   "id": "jetstar-japan-korea-return-for-free-oct-2026",
-   "type": "deal",
-   "title": "Japan and South Korea - Return for FREE",
-   "title_zh": "Jetstar 日韓回程免費",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-07",
-   "end": "2026-10-09",
-   "price_zh": "回程 A$0（需同訂去程 Starter）",
-   "free": false,
-   "highlight": "回程免費・限時 3 天",
-   "summary_zh": "Jetstar 經典「回程免費」促銷：於同一筆訂單購買飛往東京、大阪或首爾的去程 Starter 機票，回程票價為 A$0。OzBargain 使用者試算布里斯本來回首爾約 A$342、凱恩斯來回大阪約 A$302，適合規劃打工度假結束後前往日韓旅遊。",
-   "tip_zh": "10/9（五）晚上 11:59（AEDT）截止，售完為止；搭乘期間為 2027 年 5 月起之指定日期。Starter 票僅含小件隨身行李，如需託運行李，建議於訂票時一併加購。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Jetstar – Japan and South Korea Return for FREE sale page",
-     "url": "https://www.jetstar.com/au/en/deals/japan-south-korea-return-for-free"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – Jetstar Return for Free to Japan and South Korea",
-     "url": "https://www.ozbargain.com.au/node/977842"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "Travel Weekly – Qantas, Jetstar and Virgin launch airfare sales",
-     "url": "https://travelweekly.com.au/qantas-jetstar-and-virgin-launch-airfare-sales-to-japan-europe-and-more/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-08"
-   }
   },
   {
    "id": "click-frenzy-the-main-event-2026",
@@ -1111,7 +1069,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-08"
+    "checked": "2026-10-10"
    }
   },
   {
@@ -2285,8 +2243,8 @@
    "price_zh": "免費入場（官網未列門票資訊）",
    "free": true,
    "highlight": "每週六",
-   "summary_zh": "荷伯特最具代表性的戶外市集，由 City of Hobart 經營，每週六 8:30–15:00 於 Salamanca Place 舉行，商品涵蓋塔州農產、熱食、手作工藝及服飾首飾，另有街頭表演，為造訪荷伯特的推薦行程。",
-   "tip_zh": "現場有 RSPCA 志工提供「puppy parking」，可暫時寄放犬隻；可搭乘塔州目前免費的公車前往。",
+   "summary_zh": "荷伯特具代表性的戶外市集，由 City of Hobart 經營，每週六 8:30–15:00 於 Salamanca Place 舉行，風雨無阻；設有逾 300 個攤位，販售在地手作商品、新鮮農產、咖啡與餐點，另有街頭藝人表演。",
+   "tip_zh": "市集日 9:00–14:00 由 RSPCA 人員提供「puppy parking」犬隻寄放服務，攜犬前往者可多加利用。",
    "sources": [
     {
      "kind": "official",
@@ -2315,7 +2273,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-08",
+    "checked": "2026-10-10",
     "unconfirmed_zh": "官網未明載免費入場（開放式街頭市集）。"
    },
    "schedule_zh": "每週六 8:30–15:00"
@@ -2360,7 +2318,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-08",
+    "checked": "2026-10-10",
     "unconfirmed_zh": "官網未明載免費入場。"
    },
    "schedule_zh": "每週六 8:30–12:30"
@@ -2564,10 +2522,10 @@
    "lng": 149.144,
    "start": "2026-10-11",
    "end": null,
-   "price_zh": "免費入場（官網未列門票資訊）",
+   "price_zh": "免費入場",
    "free": true,
    "highlight": "每週日",
-   "summary_zh": "坎培拉最具代表性的週日市集，位於 Kingston 歷史悠久的舊公車廠房內，每週日 9:30–14:30 營業，提供手作設計商品、服飾首飾、收藏品及各式小吃，雨天亦可參觀。",
+   "summary_zh": "坎培拉知名的週日市集，位於 Kingston 的歷史公車廠房，逾 200 個攤位販售在地與周邊地區創作者的手作商品，另有服飾、首飾及各式餐點。",
    "tip_zh": "鄰近 Kingston Foreshore 湖畔區，可順道散步或享用早午餐。",
    "sources": [
     {
@@ -2591,8 +2549,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-08",
-    "unconfirmed_zh": "官網未明載免費入場。"
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "本次查證未能開啟市集官網，營業時間 9:30–14:30 尚未於官方頁面確認。"
    },
    "schedule_zh": "每週日 9:30–14:30"
   },
@@ -3386,8 +3344,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "首度移師歐洲以外",
-   "summary_zh": "UCI 礫石公路車世界錦標賽首次於歐洲以外地區舉辦，亦為西澳首度舉辦菁英級世界錦標賽，10/10–11 於西南部小鎮 Nannup 一帶的森林與河谷賽道進行，菁英選手及分齡組均將出賽。",
-   "tip_zh": "官方網站提供觀賽點地圖（Soigneur & Spectator Locations Map），建議出發前先行確認位置；Nannup 無火車服務，建議自行開車前往。",
+   "summary_zh": "UCI 礫石公路車世界錦標賽首次於歐洲以外地區舉辦，10/10–11 於西澳西南部小鎮 Nannup 一帶舉行；10/10 為女子組及 50 歲以上分齡組，10/11 為菁英男子組及 19–49 歲分齡組，Nannup 市區另設家庭活動區。",
+   "tip_zh": "Nannup 地方政府網站提供 Adina Farm 與 Dunnet Road 觀賽區及停車地圖，比賽期間部分道路將實施交通管制，建議出發前先行確認。",
    "sources": [
     {
      "kind": "official",
@@ -3416,7 +3374,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-08",
+    "checked": "2026-10-10",
     "unconfirmed_zh": "官網未載明觀賽是否收費。"
    }
   },
@@ -3475,6 +3433,1613 @@
     "checked": "2026-10-08",
     "unconfirmed_zh": "節目頁無法讀取，各場次票價未確認。"
    }
+  },
+  {
+   "id": "palace-cinemas-royal-discount-2026",
+   "type": "deal",
+   "title": "Palace Cinemas Royal Discount",
+   "title_zh": "Palace 影城週一、週二優惠票",
+   "category": "entertainment",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-02-02",
+   "end": null,
+   "schedule_zh": "每週一、週二（國定假日除外）",
+   "price_zh": "一般票 A$12；Movie Club 會員 A$10",
+   "free": false,
+   "highlight": "每週一、週二",
+   "summary_zh": "Palace Cinemas 每週一、週二一般場次票價 A$12，Movie Club 會員 A$10，適用維州、新州、昆州、坎培拉與伯斯的 Palace 影城（Astor Theatre 除外）。",
+   "tip_zh": "線上訂票須另付手續費；Platinum、Recliner、3D 等場次須加價，影展與特別場次不適用。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Palace Cinemas – Royal Discount",
+     "url": "https://www.palacecinemas.com.au/offers/royal-discount"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Palace Cinemas – Offers",
+     "url": "https://www.palacecinemas.com.au/offers"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "russell-hobbs-british-film-festival-2026",
+   "type": "event",
+   "title": "Russell Hobbs British Film Festival 2026",
+   "title_zh": "2026 英國電影節",
+   "category": "entertainment",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-28",
+   "end": "2026-12-06",
+   "price_zh": "一般場次請見官網；特別場 A$29 起；10 張套票 A$169（限 Movie Club 會員）",
+   "free": false,
+   "highlight": "年度影展",
+   "summary_zh": "英國電影節於 Palace Cinemas、Luna Palace 與 Palace Nova 影城全國放映，城市包括雪梨、墨爾本、布里斯本、坎培拉、伯斯、阿德雷德、Ballarat 與 Byron Bay，片單含《My Duchess》、《Prima Facie》、《Elsinore》等，適合喜愛英國電影的觀眾。",
+   "tip_zh": "Movie Club 會員可於 11/15 前購買 10 張電子票套票 A$169（每筆限購 1 組，不適用特別場次及布里斯本 Barracks、James St 與 Luna Palace）；各城市放映日期略有不同。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "British Film Festival – Sydney program",
+     "url": "https://britishfilmfestival.com.au/events?city=Sydney"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Palace Cinemas – Russell Hobbs British Film Festival",
+     "url": "https://www.palacecinemas.com.au/festivals/russell-hobbs-british-film-festival"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Palace Cinemas – British Film Festival eTicket Bundle",
+     "url": "https://www.palacecinemas.com.au/offers/russell-hobbs-british-film-festival-eticket-bundle"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "event-cinemas-half-price-tuesdays-2026",
+   "type": "deal",
+   "title": "Event Cinemas Half Price Tuesdays",
+   "title_zh": "Event Cinemas 週二半價",
+   "category": "entertainment",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-10",
+   "end": null,
+   "schedule_zh": "每週二全天",
+   "price_zh": "成人全票 5 折（依各影城票價）",
+   "free": false,
+   "highlight": "會員半價",
+   "summary_zh": "Event Cinemas 的 Cinebuzz 會員每週二購買成人全票可享 5 折，適用 Gold Class、Boutique、V-Max、IMAX、4DX 等多種廳型，限指定影片，票價依各影城而定。",
+   "tip_zh": "須為 Cinebuzz 會員並於線上登入或臨櫃出示會員卡，每筆限購 4 張；線上訂票另收手續費，Moonlight Cinemas 與特別場次不適用。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Event Cinemas – Half Price Tuesdays",
+     "url": "https://www.eventcinemas.com.au/Promotions/HalfPriceTuesdays"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Event Cinemas – Promotions",
+     "url": "https://www.eventcinemas.com.au/promotions"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官網僅標示「限時」，未公布優惠起訖日期。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "telstra-prepaid-54-plan-15-oct-2026",
+   "type": "deal",
+   "title": "Telstra $54 Pre-Paid Mobile Plan (28 Day) now $15",
+   "title_zh": "Telstra 預付卡首期 A$15",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-10",
+   "end": "2026-11-02",
+   "price_zh": "首期 A$15（原價 A$54）",
+   "free": false,
+   "highlight": "首期 A$15",
+   "summary_zh": "Telstra 28 天預付方案原價 A$54，新開通首期 A$15，1 月 1 日前的前三次儲值享 75GB 數據，之後為 35GB。",
+   "tip_zh": "限實體 SIM 卡新開通，eSIM 不適用；之後儲值恢復原價。另有 7 天 A$15 方案新開通首期 A$10（10/19 截止）。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Telstra – Pre-Paid offers and rates",
+     "url": "https://www.telstra.com.au/mobile-phones/prepaid-mobiles/offers-and-rates"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "boost-mobile-49-sim-for-17-oct-2026",
+   "type": "deal",
+   "title": "Boost Mobile $49 SIM for $17",
+   "title_zh": "Boost 預付卡首期 A$17",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-10",
+   "end": "2026-10-19",
+   "price_zh": "首期 A$17（原價 A$49）",
+   "free": false,
+   "highlight": "首期約 3.5 折",
+   "summary_zh": "Boost Mobile 使用 Telstra 預付網路，28 天 A$49 預付 SIM 卡新開通首期 A$17，前六次儲值享 75GB 數據，之後為 45GB；另有 6 個月效期 A$180 SIM 卡特價 A$160。",
+   "tip_zh": "限線上購買並新開通，每人限購 1 件；數據加贈須於 2026/11/2 前開通，之後儲值恢復 A$49。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Boost Mobile – Deals",
+     "url": "https://boost.com.au/pages/deals"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Boost Mobile – Prepaid plans",
+     "url": "https://boost.com.au/prepaid-plans"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "lebara-sim-plan-sale-nov-2026",
+   "type": "deal",
+   "title": "Lebara Prepaid SIM Plan Deals",
+   "title_zh": "Lebara 預付卡首期 A$11 起",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-10",
+   "end": "2026-11-03",
+   "price_zh": "A$30 方案首期 A$11；A$40 方案首期 A$15",
+   "free": false,
+   "highlight": "含國際通話",
+   "summary_zh": "Lebara 28 天預付方案新客戶首期優惠：A$30 方案 A$11，前三次儲值享 70GB；A$40 方案 A$15，前三次儲值享 140GB，皆含撥打美國、英國、日本等國家的無限國際通話，適合需經常與家人聯絡的旅居者。",
+   "tip_zh": "限新客戶線上購買，開通即算第一次儲值；之後儲值恢復原價，網速上限 150Mbps。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Lebara – Prepaid deals",
+     "url": "https://www.lebara.com.au/prepaid-plans/deals/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Lebara – 28 day prepaid plans",
+     "url": "https://www.lebara.com.au/prepaid-plans/28-day/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "spotify-premium-4-months-free-au-2026",
+   "type": "deal",
+   "title": "Spotify Premium Individual – up to 4 months free",
+   "title_zh": "Spotify Premium 免費 4 個月",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-10",
+   "end": null,
+   "price_zh": "前 4 個月免費，之後每月 A$15.99",
+   "free": false,
+   "highlight": "新用戶免費試用",
+   "summary_zh": "首次訂閱 Spotify Premium 個人方案的用戶可免費使用最多 4 個月，之後每月 A$15.99，可隨時取消；曾訂閱且已停用超過 30 天者可享前 2 個月 75 折優惠。",
+   "tip_zh": "僅限個人方案；官網標示優惠期限為 3/11/27，試用結束前如不續訂請記得取消。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Spotify Australia – Premium offer",
+     "url": "https://www.spotify.com/au/ppt/hm4m/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "myer-super-weekend-oct-2026",
+   "type": "deal",
+   "title": "Myer Super Weekend",
+   "title_zh": "Myer Super Weekend 特賣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-09",
+   "end": "2026-10-11",
+   "price_zh": "指定商品原價 9 折至 3 折",
+   "free": false,
+   "highlight": "週末限定・最低 3 折",
+   "summary_zh": "Myer 週末特賣涵蓋服飾、鞋包、寢具、廚具與小家電，例如指定品牌床包與浴巾 5 折、行李箱 6 折、指定品牌女鞋 7 折、小型廚房家電 8 折、指定廚具組 3 折。",
+   "tip_zh": "除另有註明外線上也可購買；不得與其他優惠合併，多數品項排除清倉商品與指定品牌，並非所有門市皆有全部品牌。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Myer – Super Weekend",
+     "url": "https://www.myer.com.au/content/latest-news/super-weekend"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Myer – Sales & Promotions",
+     "url": "https://www.myer.com.au/content/latest-news"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "brisbane-rubber-duck-melt-2026",
+   "type": "event",
+   "title": "Rubber Duck – Melt Festival 2026",
+   "title_zh": "布里斯本河巨型黃色小鴨",
+   "category": "family",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane River（Brisbane Powerhouse 一帶）",
+   "lat": -27.4683,
+   "lng": 153.053,
+   "start": "2026-10-21",
+   "end": "2026-11-08",
+   "schedule_zh": "每日 9:00–21:00",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "首度來到布里斯本・免費",
+   "summary_zh": "荷蘭藝術家 Florentijn Hofman 的 15 公尺高巨型橡皮鴨公共藝術，以粉紅新版本漂浮於布里斯本河，為 Melt Festival 的一部分，適合所有年齡。",
+   "tip_zh": "小鴨先停留於市中心河段，之後移至 New Farm 的 Brisbane Powerhouse 附近，出發前請查看官網的最新位置。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane Powerhouse – Rubber Duck",
+     "url": "https://brisbanepowerhouse.org/events/rubber-duck/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane Powerhouse – Rubber Duck (Melt Festival 2026)",
+     "url": "https://brisbanepowerhouse.org/?p=27044"
+    },
+    {
+     "kind": "community",
+     "platform": "Brisbane Kids",
+     "label": "Brisbane Kids – Giant Rubber Duck",
+     "url": "https://brisbanekids.com.au/event/rubber-duck/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "brisbane-sculpture-festival-trail-2026",
+   "type": "event",
+   "title": "Brisbane Sculpture Festival 2026 – Outdoor Sculpture Trail",
+   "title_zh": "Mt Coot-tha 植物園戶外雕塑步道",
+   "category": "outdoors",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane Botanic Gardens Mt Coot-tha",
+   "lat": -27.4757,
+   "lng": 152.9767,
+   "start": "2026-07-31",
+   "end": "2026-10-30",
+   "schedule_zh": "每日 8:00–16:00",
+   "price_zh": "免費，不需預約",
+   "free": true,
+   "highlight": "免費・戶外雕塑展",
+   "summary_zh": "昆士蘭多位雕塑家的作品陳列於 Mt Coot-tha 植物園各處，將園區化為露天藝廊，作品可購買，適合全家散步參觀。",
+   "tip_zh": "室內展覽已於 8 月結束，目前僅開放戶外步道；植物園位於 152 Mt Coot-tha Road, Toowong。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane City Council – Brisbane Sculpture Festival",
+     "url": "https://www.brisbane.qld.gov.au/events/brisbane-sculpture-festival/204186505"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "tamborine-mountain-scarecrow-festival-2026",
+   "type": "event",
+   "title": "Tamborine Mountain Scarecrow Festival 2026",
+   "title_zh": "Tamborine 山稻草人節",
+   "category": "festival",
+   "region": "QLD",
+   "city": "Tamborine Mountain",
+   "venue": "Cauldron Distillery 與 Tamborine Mountain 各地",
+   "lat": -27.923,
+   "lng": 153.185,
+   "start": "2026-10-30",
+   "end": "2026-11-01",
+   "schedule_zh": "稻草人步道 10/30 9:00 起至 11/1 16:00；主活動 10/31 13:00–20:00",
+   "price_zh": "稻草人步道免費；10/31 主活動門票 A$5–60",
+   "free": false,
+   "highlight": "社區節慶・步道免費",
+   "summary_zh": "稻草人展示於山上的商店、花園、公園與街道，遊客可沿步道參觀並參與人氣票選；10 月 31 日於 Cauldron Distillery 另有現場音樂、手作市集、美食與親子活動。",
+   "tip_zh": "主活動門票於 Humanitix 購買；稻草人步道可自由參觀。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Brisbane – Tamborine Mountain Scarecrow Festival",
+     "url": "https://visit.brisbane.qld.au/whats-on/scenic-rim/festivals-and-celebrations/tamborine-mountain-scarecrow-festival-170b"
+    },
+    {
+     "kind": "official",
+     "platform": "Humanitix",
+     "label": "Tamborine Mountain Chamber of Commerce – Scarecrow Trail 2026",
+     "url": "https://events.humanitix.com/scarecrow-festival-trail"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "supanova-brisbane-2026",
+   "type": "event",
+   "title": "Supanova Comic Con & Gaming Brisbane 2026",
+   "title_zh": "Supanova 布里斯本動漫展",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane Convention & Exhibition Centre",
+   "lat": -27.4766,
+   "lng": 153.0181,
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "schedule_zh": "每日 10:00–18:00",
+   "price_zh": "單日 A$30 起（線上價）；12 歲以下兒童隨購票成人免費",
+   "free": false,
+   "highlight": "12 歲以下免費入場",
+   "summary_zh": "結合動漫、遊戲、Cosplay 與電競的大型展會，於南布里斯本會展中心舉行三天，適合動漫迷與親子同行。",
+   "tip_zh": "線上購票較現場便宜；12 歲以下兒童須由已購票成人陪同入場，外表看似超過 12 歲者可能需出示年齡證明。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Supanova Brisbane 2026 – Ticket Info",
+     "url": "https://www.supanova.com.au/events/brisbane-2026/ticket-info/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Supanova Brisbane 2026 – Event Home",
+     "url": "https://www.supanova.com.au/events/brisbane-2026/event-home/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "sea-world-spooky-nights-2026",
+   "type": "event",
+   "title": "Spooky Nights at Sea World",
+   "title_zh": "Sea World 萬聖親子夜",
+   "category": "family",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Sea World, Main Beach",
+   "lat": -27.9573,
+   "lng": 153.4256,
+   "start": "2026-10-17",
+   "end": "2026-10-31",
+   "schedule_zh": "10/17、10/23、10/24、10/30、10/31 17:30–20:30",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "萬聖節親子活動・5 晚",
+   "summary_zh": "Sea World 於萬聖節期間舉辦的夜間活動，設有七個主題區、燈光展示、夜間遊樂設施、萬聖節裝扮角色見面與表演。",
+   "tip_zh": "Premium Annual Pass 持有人可免費入場一次；門票請透過官網購買。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Gold Coast – Spooky Nights at Sea World",
+     "url": "https://experiencegoldcoast.com/events/spooky-nights-at-sea-world"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官方旅遊網站未列出票價，Sea World 活動購票頁面無法讀取。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "boost-mobile-gold-coast-500-2026",
+   "type": "event",
+   "title": "2026 Boost Mobile Gold Coast 500",
+   "title_zh": "黃金海岸 500 房車賽",
+   "category": "sport",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Surfers Paradise Street Circuit",
+   "lat": -27.99,
+   "lng": 153.427,
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "price_zh": "請見官網；12 歲以下兒童隨付費成人免費",
+   "free": false,
+   "highlight": "年度賽事・兒童免費",
+   "summary_zh": "Supercars 錦標賽於衝浪者天堂街道賽道舉行的三天賽事，為 Supercars 總決賽系列首站，提供一般入場與看台座位，另有可進入維修區的 Paddock Pass。",
+   "tip_zh": "門票與套票於 Supercars 官網購買；12 歲以下兒童須由付費成人陪同方可免費入場。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Gold Coast – 2026 Boost Mobile Gold Coast 500",
+     "url": "https://experiencegoldcoast.com/events/2026-boost-mobile-gold-coast-500"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Supercars – 2026 Gold Coast 500 news",
+     "url": "https://www.supercars.com/news/supercars-news-2026-free-fan-event-launch-boost-mobile-gold-coast-500-drivers-details"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "已讀取的官方頁面未列出各類門票價格。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "eumundi-markets",
+   "type": "event",
+   "title": "Eumundi Markets",
+   "title_zh": "Eumundi 市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Eumundi",
+   "venue": "Eumundi Markets, Memorial Drive",
+   "lat": -26.4775,
+   "lng": 152.952,
+   "start": "2026-10-10",
+   "end": null,
+   "schedule_zh": "每週三 8:00–14:00、週六 7:00–14:00；Eumundi Square 週五 7:30–14:00 也開放",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "陽光海岸代表性市集",
+   "summary_zh": "位於陽光海岸內陸的大型藝術手作市集，由多個市集區域組成，販售在地手作、藝術品、居家用品與各國街頭美食，並有現場音樂，旁邊設有兒童遊戲場，適合半日遊。",
+   "tip_zh": "建議早到以便停車；學校假期另有編髮、彩繪、氣球造型與街頭表演等兒童活動。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Eumundi – Eumundi Markets",
+     "url": "https://www.experienceeumundi.com.au/see-do/eumundi-markets/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Eumundi – School Holidays Guide 2026",
+     "url": "https://www.experienceeumundi.com.au/blog/kids-and-school-holidays-at-eumundi-markets/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Sunshine Coast – Eumundi Markets",
+     "url": "https://www.visitsunshinecoast.com/attraction/6443562216501159269135df/eumundi-markets"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官網未明載入場費，也未列出 2026 年特殊休市或加開日期。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "sunshine-coast-chilli-chocolate-festival-2026",
+   "type": "event",
+   "title": "Sunshine Coast Chilli, Chocolate and Beer Festival",
+   "title_zh": "陽光海岸辣椒巧克力節",
+   "category": "food",
+   "region": "QLD",
+   "city": "Sunshine Coast",
+   "venue": "Brouhaha Baringa",
+   "lat": -26.806,
+   "lng": 153.075,
+   "start": "2026-10-11",
+   "end": "2026-10-11",
+   "price_zh": "入場捐款 A$2（捐助 Rural Aid）",
+   "free": false,
+   "highlight": "A$2 入場・親子同樂",
+   "summary_zh": "第四屆辣椒、巧克力與精釀啤酒主題美食節，有辣醬與巧克力試吃選購、餐車及大胃王比賽（含兒童組），適合家庭參加。",
+   "tip_zh": "會場位於 1 Edison Crescent, Baringa；官網未公布開放時間，出發前請確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Sunshine Coast – Sunshine Coast Chilli and Chocolate Festival",
+     "url": "https://www.visitsunshinecoast.com/event/59f041962badf69f0958aa7a/sunshine-coast-chilli-and-chocolate-festival"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官方頁面未列出開放時間。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "nt-alice-springs-masters-games-2026",
+   "type": "event",
+   "title": "Alice Springs Masters Games 2026",
+   "title_zh": "Alice Springs 元老運動會",
+   "category": "sport",
+   "region": "NT",
+   "city": "Alice Springs",
+   "venue": "ANZAC Oval（開幕典禮）及 Alice Springs 市內各比賽場地",
+   "lat": -23.6975,
+   "lng": 133.88,
+   "start": "2026-10-10",
+   "end": "2026-10-17",
+   "price_zh": "開幕典禮免費；參賽報名費 A$99",
+   "free": false,
+   "highlight": "開幕典禮免費・40 週年",
+   "summary_zh": "Alice Springs Masters Games 於 10/10–17 舉行，2026 年適逢 40 週年，提供多項運動競賽，比賽場地集中於市區，彼此車程不遠。10/10 於 ANZAC Oval 舉行免費開幕典禮，由 Baby Animals 與 Choirboys 演出，適合闔家參加。",
+   "tip_zh": "開幕典禮 10/10 5pm 開始，6pm 選手進場遊行，現場娛樂至 10pm；10/14（三）為無賽事日。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NT Government – Baby Animals and Choirboys to headline Alice Springs Masters Games opening ceremony",
+     "url": "https://dth.nt.gov.au/news/2026/baby-animals-and-choirboys-to-headline-alice-springs-masters-games-opening-ceremony"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Tourism NT – Alice Springs Masters Games",
+     "url": "https://northernterritory.com/de/de/alice-springs-and-surrounds/events/alice-springs-masters-games"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NT Government – Alice Springs events set to sparkle in 2026",
+     "url": "https://dth.nt.gov.au/news/2026/alice-springs-events-set-to-sparkle-in-2026"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "nt-darwin-christmas-pageant-2026",
+   "type": "event",
+   "title": "Darwin Christmas Pageant 2026",
+   "title_zh": "達爾文聖誕大遊行",
+   "category": "family",
+   "region": "NT",
+   "city": "Darwin",
+   "venue": "Darwin City Centre（The Esplanade 至 Civic Park）",
+   "lat": -12.463,
+   "lng": 130.8418,
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・闔家同樂",
+   "summary_zh": "City of Darwin 主辦的年度聖誕遊行，花車與表演隊伍由 The Esplanade 與 Knuckey St 路口出發，行經市中心至 Civic Park。當天另有 Smith Street Mall 聖誕手作市集、聖誕樹點燈及 Civic Park 聖誕音樂會，所有活動皆免費。",
+   "tip_zh": "遊行 6:00–6:45pm，市集 4–7pm，音樂會 7:30–9pm；另有 11/28（六）Casuarina 聖誕泳池派對，免費入池。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Darwin – Darwin Christmas Pageant",
+     "url": "https://www.darwin.nt.gov.au/node/66349"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Darwin – Christmas in Darwin 2026",
+     "url": "https://www.darwin.nt.gov.au/christmas"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Tourism NT – Darwin Christmas Pageant",
+     "url": "https://northernterritory.com/gb/en/darwin-and-surrounds/events/darwin-christmas-pageant"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "National Tribune – Darwin Christmas Pageant returns for 2026",
+     "url": "https://www.nationaltribune.com.au/tis-season-darwin-christmas-pageant-returns-for-2026/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "sa-adelaide-film-festival-2026",
+   "type": "event",
+   "title": "Adelaide Film Festival 2026",
+   "title_zh": "阿德雷德電影節",
+   "category": "entertainment",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Adelaide 市內多處戲院",
+   "lat": -34.9226,
+   "lng": 138.61,
+   "start": "2026-10-14",
+   "end": "2026-10-25",
+   "price_zh": "3 片套票 A$59（優待 A$49）起",
+   "free": false,
+   "highlight": "年度影展・12 天",
+   "summary_zh": "阿德雷德電影節於 10/14–25 舉行，放映世界首映與澳洲首映作品、國際影片及紀錄片，並有週六晚間派對。適合影迷及想觀賞非院線片的觀眾。",
+   "tip_zh": "可購買 3、5、10 片套票；持學生證或 Centrelink 健康卡、退休金卡者，可於平日 4pm 前場次使用 Pay What You Can 票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Adelaide Film Festival – 2026 announcement",
+     "url": "https://new.adelaidefilmfestival.org/news/aff-announces-first-affif-films-and-saturday-night-party-for-2026"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Adelaide Film Festival – Passes",
+     "url": "https://adelaidefilmfestival.org/passes"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Adelaide Film Festival – Ticketing info",
+     "url": "https://new.adelaidefilmfestival.org/passes/ticketing-info"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "InDaily CityMag – 2026 Adelaide Film Festival",
+     "url": "https://www.indailysa.com.au/citymag/events/2026-adelaide-film-festival"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "sa-cheesefest-2026",
+   "type": "event",
+   "title": "CheeseFest 2026",
+   "title_zh": "CheeseFest 起司節",
+   "category": "food",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Rundle Park Kadlitpina",
+   "lat": -34.9213,
+   "lng": 138.6143,
+   "start": "2026-10-17",
+   "end": "2026-10-18",
+   "schedule_zh": "11:00–18:00",
+   "price_zh": "A$23–45（含 Eventbrite 手續費）",
+   "free": false,
+   "highlight": "年度美食節・2 天",
+   "summary_zh": "創辦於 2006 年的戶外起司節，集合南澳各地的起司及在地食品、餐廳與飲品業者，現場有娛樂表演、烹飪示範與起司大師課。適合喜愛在地食材與美食活動的民眾。",
+   "tip_zh": "門票分 A$29（僅入場）、A$34（附紀念杯）、A$39（快速入場、紀念杯與提袋），透過 Eventbrite 購票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Adelaide – CheeseFest 2026",
+     "url": "https://www.experienceadelaide.com.au/whats-on/cheesefest-2026/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – CheeseFest 2026",
+     "url": "https://southaustralia.com/products/adelaide/event/cheesefest-2026"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "sa-festival-of-halloween-port-adelaide-2026",
+   "type": "event",
+   "title": "Festival of Halloween 2026",
+   "title_zh": "Port Adelaide 萬聖節慶典",
+   "category": "family",
+   "region": "SA",
+   "city": "Port Adelaide",
+   "venue": "Mundy Street, Port Adelaide",
+   "lat": -34.8466,
+   "lng": 138.5035,
+   "start": "2026-10-24",
+   "end": "2026-10-25",
+   "price_zh": "成人 A$15、優待 A$13、兒童 A$10，5 歲以下免費",
+   "free": false,
+   "highlight": "萬聖節主題・親子日",
+   "summary_zh": "以萬聖節為主題的週末活動，設有詭異、哥德與另類風格創作者市集。10/25（日）為親子日，設有不給糖就搗蛋路線、兒童手作與南瓜雕刻示範；10/24（六）晚間為 16 歲以上場次。",
+   "tip_zh": "兩天為分開售票的活動，請透過 TryBooking 購票並確認場次。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – Festival of Halloween",
+     "url": "https://southaustralia.com/products/adelaide/event/festival-of-halloween"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官方頁面未列出各場次時段，也未說明票價適用於哪一天。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "sa-agsa-monet-to-matisse-2026",
+   "type": "event",
+   "title": "Monet to Matisse: Defying Tradition",
+   "title_zh": "莫內到馬諦斯特展",
+   "category": "arts",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Art Gallery of South Australia",
+   "lat": -34.9206,
+   "lng": 138.604,
+   "start": "2026-07-11",
+   "end": "2026-11-08",
+   "schedule_zh": "每日 10:00–17:00",
+   "price_zh": "成人 A$30 起；12 歲以下免費",
+   "free": false,
+   "highlight": "南澳獨家特展",
+   "summary_zh": "南澳美術館獨家展出美國 Toledo Museum of Art 的 57 件館藏，作者包括 Monet、Cézanne、Degas、Matisse、Picasso 與 Van Gogh 等。適合藝術愛好者及親子參觀。",
+   "tip_zh": "定時票成人 A$30、彈性票 A$40；青少年（12–17 歲）A$15 起，另有家庭票與季票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "AGSA – Monet to Matisse: Defying Tradition",
+     "url": "https://www.agsa.sa.gov.au/whats-on/exhibitions/monet-to-matisse-defying-tradition/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Adelaide – Monet to Matisse",
+     "url": "https://www.experienceadelaide.com.au/whats-on/monet-to-matisse-defying-tradition/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "sa-riverland-rose-and-garden-festival-2026",
+   "type": "event",
+   "title": "Riverland Rose and Garden Festival 2026",
+   "title_zh": "Riverland 玫瑰花園節",
+   "category": "outdoors",
+   "region": "SA",
+   "city": "Renmark",
+   "venue": "Renmark 及 Riverland 各地（花藝展於 Renmark Institute）",
+   "lat": -34.1752,
+   "lng": 140.7468,
+   "start": "2026-10-09",
+   "end": "2026-10-18",
+   "price_zh": "花藝展成人 A$5、兒童免費；其他活動請見官網",
+   "free": false,
+   "highlight": "春季花園・10 天",
+   "summary_zh": "Riverland 一年一度的春季花園節，開放平時不對外的私人花園，並有社區活動與景點參觀，可結合當地酒莊、美食與河流體驗。適合喜愛園藝與戶外散步的旅客。",
+   "tip_zh": "Renmark Institute 志工花藝展 2026 年主題為「wheels in motion」，位於 Ral Ral Ave 54。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – Riverland Rose and Garden Festival 2026",
+     "url": "https://southaustralia.com/products/riverland/event/riverland-rose-and-garden-festival-2026"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – Institute Floral Display",
+     "url": "https://southaustralia.com/products/riverland/event/riverland-rose-and-garden-festival-institute-floral-display"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "開放花園的門票與各場活動時間官方頁面未列出。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "wa-fremantle-design-week-2026",
+   "type": "event",
+   "title": "Fremantle Design Week 2026",
+   "title_zh": "Fremantle 設計週",
+   "category": "arts",
+   "region": "WA",
+   "city": "Fremantle",
+   "venue": "Fremantle West End（主場地 PS Art Space）",
+   "lat": -32.0545,
+   "lng": 115.7464,
+   "start": "2026-10-16",
+   "end": "2026-10-25",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "60 多場設計活動",
+   "summary_zh": "2026 年主題為「Imagine」的設計節，於 10/16–25 在 Fremantle West End 舉辦展覽、講座、導覽、工作坊、影片放映與開放工作室，多數場地步行可達。適合對建築、設計與手作有興趣的民眾。",
+   "tip_zh": "主場地 PS Art Space 有 12 場講座及 PechaKucha 之夜；各場活動是否收費請於官網確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Fremantle – Fremantle Design Week 2026",
+     "url": "https://visitfremantle.com.au/arts-culture/fremantle-design-week-2026"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "ArchitectureAU – Program for Fremantle Design Week 2026 released",
+     "url": "https://architectureau.com/articles/program-for-fremantle-design-week-2026-released/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官方頁面未列出票價與免費場次。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "aldi-special-buys-2026-10-21-24",
+   "type": "deal",
+   "title": "ALDI Special Buys – Wednesday 21st October & Saturday 24th October",
+   "title_zh": "ALDI 10/21、10/24 特賣",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-21",
+   "end": null,
+   "price_zh": "依品項而定（A$2.75 起）",
+   "free": false,
+   "highlight": "每週三、六上架",
+   "summary_zh": "10/21（三）主題為清潔用品、家電、雜貨與印度風味食品：Basmati 香米 5kg A$14.99、Patak's 坦都里醬 A$3.99、Perfecto 奶油雞柳 800g A$11.99、Finish 洗碗錠 70 入 A$31.99；10/24（六）主打園藝、兒童戶外玩具與泳池用品，例如蔬菜種植塔 A$9.99、戶外泥巴廚房 A$49.99。",
+   "tip_zh": "Special Buys 數量有限、售完為止，熱門品項建議上架當天早上前往門市；各門市價格與庫存可能不同。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Australia – Special Buys Wed 21 October 2026",
+     "url": "https://www.aldi.com.au/special-buys/2026-10-21"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Australia – Special Buys Sat 24 October 2026",
+     "url": "https://www.aldi.com.au/special-buys/2026-10-24"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Australia – Special Buys Wed 21 October（各期主題）",
+     "url": "https://www.aldi.com.au/en/special-buys/special-buys-wed-21-october/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "woolworths-lower-shelf-price-1000-products-2026",
+   "type": "deal",
+   "title": "Woolworths Lower Shelf Price – over 1,000 everyday products",
+   "title_zh": "Woolworths 千項商品長期降價",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-08-26",
+   "end": null,
+   "price_zh": "平均較原價低 16.4%",
+   "free": false,
+   "highlight": "長期降價",
+   "summary_zh": "Woolworths 將 Lower Shelf Price 長期降價品項擴大至 1,035 項，門市與線上同步：自有品牌牛絞肉 500g 由 A$9 降為 A$8.50、起司塊 500g 由 A$7.70 降為 A$6.80、18 入籠外雞蛋 A$8.40，適合採買日常基本食材。",
+   "tip_zh": "此為長期價格而非限時特價；部分品項價格依州別不同，例如可口可樂 30 入。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Woolworths Group – Woolworths expands Lower Shelf Price to over 1,000 everyday products",
+     "url": "https://www.woolworthsgroup.com.au/au/en/our-newsroom/media-releases/latest-news/2026/woolworths-expands-lower-shelf-price-to-over-1-000-everyday-prod.html"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "red-rooster-crunch-pack-795-2026",
+   "type": "deal",
+   "title": "Red Rooster $7.95 Crunch Pack",
+   "title_zh": "Red Rooster 炸雞套餐 A$7.95",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-10",
+   "end": "2026-11-17",
+   "price_zh": "A$7.95（部分門市 A$8.95）",
+   "free": false,
+   "highlight": "優惠套餐",
+   "summary_zh": "Red Rooster Crunch Pack 內含炸雞 2 塊、小份薯條與 375ml 飲料，售價 A$7.95，可加 A$1 改為 Reds Hot 或 Hot Honey 口味，適合預算有限的午晚餐。",
+   "tip_zh": "限門市與 Click & Collect 自取，不適用外送及體育場、機場門市，且不得與其他折扣併用。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Red Rooster – Value（$7.95 Crunch Pack）",
+     "url": "https://www.redrooster.com.au/value/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Red Rooster – home page",
+     "url": "https://www.redrooster.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "gyg-free-brekkie-melbourne-cbd-2026-10-16",
+   "type": "deal",
+   "title": "Free Brekkie at select Melbourne CBD Restaurants",
+   "title_zh": "GYG 墨爾本市區免費早餐",
+   "category": "dining",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "GYG 260 Flinders Street 等 4 間門市",
+   "lat": -37.8178,
+   "lng": 144.9646,
+   "start": "2026-10-16",
+   "end": "2026-10-16",
+   "schedule_zh": "6:00 或 7:00–10:30（依門市）",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費早餐・單日",
+   "summary_zh": "Guzman y Gomez 於 10/16（五）在墨爾本市區 4 間門市（260 Flinders St、289-299 Swanston St、567 Collins St、Collins Place 美食街）免費提供一般尺寸早餐捲餅或早餐碗，適合通勤上班族與學生。",
+   "tip_zh": "僅限現場點餐，不適用 GYG App、官網與外送；Big Brekkie Burrito 與加料除外。260 Flinders 與 Swanston St 6:00 開始，兩間 Collins 門市 7:00 開始。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "GYG – Free Brekkie at select Melbourne CBD Restaurants",
+     "url": "https://www.guzmanygomez.com.au/free-brekkie-at-select-melbourne-cbd-restaurants-oct-26/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "gyg-coorparoo-opening-5-burritos-2026",
+   "type": "deal",
+   "title": "Welcome GYG Coorparoo with $5 Burritos & Bowls",
+   "title_zh": "GYG Coorparoo 開幕 A$5 捲餅",
+   "category": "dining",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "GYG Coorparoo（211 Old Cleveland Road）",
+   "lat": -27.495,
+   "lng": 153.057,
+   "start": "2026-10-15",
+   "end": "2026-10-15",
+   "schedule_zh": "7:00–22:00（早餐品項 7:00–10:30）",
+   "price_zh": "捲餅與餐碗 A$5",
+   "free": false,
+   "highlight": "開幕優惠・單日",
+   "summary_zh": "Guzman y Gomez Coorparoo 新店於 10/15（四）開幕，當天一般尺寸捲餅與餐碗一律 A$5。",
+   "tip_zh": "僅限現場點餐，不適用 GYG App；加料另計，每人可能有數量限制。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "GYG – Welcome GYG Coorparoo with $5 Burrito & Bowls",
+     "url": "https://www.guzmanygomez.com.au/welcome-gyg-coorparoo-with-5-burrito-bowls/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "gyg-gregory-hills-free-coffee-2026",
+   "type": "deal",
+   "title": "Free Coffee at GYG Gregory Hills",
+   "title_zh": "GYG Gregory Hills 早餐送咖啡",
+   "category": "dining",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "GYG Gregory Hills（2-8 Lasso Rd）",
+   "lat": -34.027,
+   "lng": 150.77,
+   "start": "2026-10-19",
+   "end": "2026-10-25",
+   "schedule_zh": "每日 6:00–10:30",
+   "price_zh": "購買主餐送中杯咖啡",
+   "free": false,
+   "highlight": "買主餐送咖啡",
+   "summary_zh": "Guzman y Gomez Gregory Hills 門市於 10/19–10/25 每天早上，購買任一主餐即贈中杯咖啡或熱巧克力，可免費更換植物奶、加糖漿或濃縮，適合雪梨西南區通勤族。",
+   "tip_zh": "每人限一杯，僅限現場點餐，不適用 App、官網與外送，且不得與其他優惠併用。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "GYG – Free Coffee at GYG Gregory Hills",
+     "url": "https://www.guzmanygomez.com.au/free-coffee-at-gyg-gregory-hills/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "good-food-wine-show-brisbane-2026",
+   "type": "event",
+   "title": "Good Food & Wine Show Brisbane 2026",
+   "title_zh": "布里斯本美食美酒展",
+   "category": "food",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane Convention & Exhibition Centre (BCEC)",
+   "lat": -27.4767,
+   "lng": 153.018,
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "schedule_zh": "週五、六 9:00–17:00；週日 10:00–17:00",
+   "price_zh": "單日票 A$49.95 起",
+   "free": false,
+   "highlight": "名廚現場示範",
+   "summary_zh": "Good Food & Wine Show 於 10/23–10/25 在布里斯本會展中心舉行，超過 200 家攤商展售精選食材、起司與街頭小吃，並有 Miguel Maestre 等名廚現場烹飪示範、見面會與烹飪教室，今年新增 Bakers Alley 烘焙專區。",
+   "tip_zh": "門票於官方 Flicket 售票頁購買；三日通行票 A$99.95，另有本人加 5 位親友的 Friends & Family 套票 A$249。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Good Food & Wine Show – Brisbane Show 2026",
+     "url": "https://goodfoodshow.com.au/brisbane-show-26/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Good Food & Wine Show – Brisbane ticket info",
+     "url": "https://goodfoodshow.com.au/brisbane-ticket-info/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "good-food-wine-show-sydney-christmas-2026",
+   "type": "event",
+   "title": "Good Food & Wine Show – Sydney Christmas Edition 2026",
+   "title_zh": "雪梨美食展聖誕特別版",
+   "category": "food",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "ICC Sydney",
+   "lat": -33.8746,
+   "lng": 151.199,
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "schedule_zh": "週五 16:00–21:00；週六、日 10:00–17:00",
+   "price_zh": "A$34.95 起；家庭票 A$69.95",
+   "free": false,
+   "highlight": "聖誕美食採購",
+   "summary_zh": "Good Food & Wine Show 聖誕特別版於 11/20–11/22 在 ICC Sydney 舉行，超過 200 家業者展售食品與節慶禮品，並有《The Great Australian Bake Off》沉浸式展覽、節慶廚房示範與兒童裝飾點心專區，適合家庭採買聖誕食材。",
+   "tip_zh": "週五晚場票價 A$34.95 最低；家庭票（2 大 2 小）A$69.95，門票於官方 Flicket 售票頁購買。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Good Food & Wine Show – Sydney Christmas Edition",
+     "url": "https://goodfoodshow.com.au/sydney-christmas-edition/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "savour-the-tweed-2026",
+   "type": "event",
+   "title": "Savour The Tweed",
+   "title_zh": "Tweed 地區美食節",
+   "category": "food",
+   "region": "NSW",
+   "city": "Kingscliff",
+   "venue": "Tweed 地區多處場地",
+   "lat": -28.2585,
+   "lng": 153.5785,
+   "start": "2026-10-21",
+   "end": "2026-10-25",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "產地餐桌・5 天",
+   "summary_zh": "由 Tweed Shire Council 主辦的 Savour The Tweed 於 10/21–10/25 舉行，由名廚 Christine Manfield 與 Amy Colli 共同策劃近 30 場活動，包括長桌饗宴、產地參訪與名廚合作晚餐，場地遍及 Tweed 內陸與海岸的餐廳、農場與酒莊。",
+   "tip_zh": "各場活動票價與訂位方式請見官方網站 savourthetweed.com.au。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit NSW – Savour The Tweed",
+     "url": "https://www.visitnsw.com/tw/destinations/north-coast/the-tweed-area/kingscliff/events/savour-the-tweed"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "The Echo – Savour the Tweed returns",
+     "url": "https://www.echo.net.au/2026/07/savour-the-tweed-returns-12-25-oct/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官方活動網站無法開啟，各場活動票價未確認。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "npws-great-north-walk-stage-9-guided-walk-2026",
+   "type": "event",
+   "title": "Great North Walk Stage 9: Rainforest Walk",
+   "title_zh": "大北步道第 9 段雨林導覽健行",
+   "category": "travel",
+   "region": "NSW",
+   "city": "Gosford",
+   "venue": "Brisbane Water National Park（Wondabyne Station 出發）",
+   "lat": -33.4925,
+   "lng": 151.255,
+   "start": "2026-10-25",
+   "end": "2026-10-28",
+   "schedule_zh": "10/25（日）、10/28（三）8:00–15:15",
+   "price_zh": "成人 A$30、優待 A$26、兒童 A$21（含入園費）",
+   "free": false,
+   "highlight": "國家公園導覽・2 梯次",
+   "summary_zh": "NSW 國家公園管理局（NPWS）舉辦的 16 公里導覽健行，由只能搭火車抵達的 Wondabyne 車站出發，爬升至 Scopas Peak、穿越 Piles Creek 峽谷溫帶雨林，於 Girrakool 野餐區午餐後抵達 Kariong；難度為困難，適合 15 歲以上、具健行經驗者。",
+   "tip_zh": "須事先預約；自 Hornsby 搭 7:22 火車並坐最後一節車廂，告知列車員在 Wondabyne 下車，請攜帶 Opal 卡或銀行卡、至少 2 公升飲水與午餐。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NSW National Parks – Great North Walk stage 9: Rainforest walk",
+     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/great-north-walk-stage-9-rainforest-walk"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "uluru-ranger-guided-mala-walk",
+   "type": "deal",
+   "title": "Ranger-guided Mala walk",
+   "title_zh": "Uluru 巡守員免費導覽步道",
+   "category": "travel",
+   "region": "NT",
+   "city": "Yulara",
+   "venue": "Uluṟu-Kata Tjuṯa National Park – Mala walk carpark",
+   "lat": -25.3404,
+   "lng": 131.03,
+   "start": "2026-10-10",
+   "end": null,
+   "schedule_zh": "10 月至 4 月每日 8:00；5 月至 9 月每日 10:00（約 1.5 小時）",
+   "price_zh": "導覽免費（需購買國家公園門票：成人 3 日 A$38、年票 A$50，未滿 18 歲免費）",
+   "free": true,
+   "highlight": "免費導覽・每日",
+   "summary_zh": "Uluṟu-Kata Tjuṯa 國家公園巡守員每日帶領的 Mala 步道導覽，沿 Uluru 岩壁介紹地質、自然環境與 Anangu 文化，國家公園表示所有巡守員導覽活動皆對入園遊客免費，適合初次造訪 Uluru 的旅客。",
+   "tip_zh": "於 Mala walk 停車場集合；入園證可先於 Parks Australia 官網線上購買，列印或存入手機後於入園站掃描。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Uluṟu-Kata Tjuṯa National Park – Ranger-guided Mala walk",
+     "url": "https://uluru.gov.au/things-do/activities/ranger-guided-activities/ranger-guided-mala-walk/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Uluṟu-Kata Tjuṯa National Park – Ranger-guided activities",
+     "url": "https://uluru.gov.au/things-do/activities/ranger-guided-activities/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Uluṟu-Kata Tjuṯa National Park – Buy your pass",
+     "url": "https://uluru.gov.au/plan/buy-your-pass/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官網未註明是否須預約，亦未標示 2026 年特定日期。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "brisbane-greeters-free-walking-tours",
+   "type": "deal",
+   "title": "Brisbane Greeters",
+   "title_zh": "布里斯本市政府免費導覽",
+   "category": "travel",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane City（集合地點依行程而定）",
+   "lat": -27.4689,
+   "lng": 153.0235,
+   "start": "2026-10-10",
+   "end": null,
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費導覽・需預約",
+   "summary_zh": "布里斯本市政府的 Brisbane Greeters 免費導覽計畫，由近百位導覽員帶領，提供流放殖民地與早期開拓歷史、21 世紀布里斯本，以及 Bulimba、Paddington、South Brisbane 等街區導覽，每趟約 2–3 小時，另有失智友善與低視力友善路線，適合想深入認識城市的新來者。",
+   "tip_zh": "須透過市政府網頁的線上預約系統、電郵 brisbanegreeters@brisbane.qld.gov.au 或致電 07 3403 8888 預約。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane City Council – Brisbane Greeter program",
+     "url": "https://www.brisbane.qld.gov.au/whats-on-in-brisbane/brisbane-greeter-program"
+    },
+    {
+     "kind": "community",
+     "platform": "WeekendNotes",
+     "label": "FREE Brisbane Greeters Walking Tours in 2026",
+     "url": "https://www.weekendnotes.com/free-brisbane-greeters-walking-tours-in-2026"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官網未列出固定出團日期、時間與集合地點。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "adelaide-greeters-free-walking-tour",
+   "type": "deal",
+   "title": "Adelaide Greeters Walking Tour",
+   "title_zh": "阿德雷德志工免費導覽",
+   "category": "travel",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Adelaide Visitor Information Centre（25 Pirie Street）",
+   "lat": -34.9255,
+   "lng": 138.6015,
+   "start": "2026-10-10",
+   "end": null,
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費導覽・小團",
+   "summary_zh": "阿德雷德遊客中心的 Adelaide Greeters 免費導覽，由在地導覽員依個人興趣帶領約 3 小時的市區認識行程，每團最多 6 人，可依需求安排多種語言，適合剛抵達阿德雷德、想熟悉市區環境的旅客。",
+   "tip_zh": "須透過遊客中心網頁的 Book now 連結預約；集合地點為 25 Pirie Street 的 Adelaide Visitor Information Centre（週一至週五 9:00–17:00 開放）。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Adelaide – Adelaide Greeters",
+     "url": "https://www.experienceadelaide.com.au/adelaidegreeters"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Adelaide Greeters Walking Tour – Weekdays（Rezdy 預約頁）",
+     "url": "https://adelaidegreeters.rezdy.com/600119/adelaide-greeters-walking-tour-weekdays"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – Adelaide Greeters Walking Tour",
+     "url": "https://southaustralia.com/products/adelaide/tour/adelaide-greeters/adelaide-greeters-walking-tour"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "預約頁未列出 2026 年具體可預約日期與出發時間，亦無法確認週末是否出團。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "rbg-melbourne-free-guided-walk",
+   "type": "deal",
+   "title": "Free Guided Walk – Royal Botanic Gardens Melbourne",
+   "title_zh": "墨爾本皇家植物園免費導覽",
+   "category": "travel",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Royal Botanic Gardens Melbourne – Visitor Centre",
+   "lat": -37.8306,
+   "lng": 144.9797,
+   "start": "2026-10-10",
+   "end": null,
+   "schedule_zh": "週二至週日 10:30；週六、週日加開 13:30（約 1.5 小時）",
+   "price_zh": "免費（須預約）",
+   "free": true,
+   "highlight": "免費導覽・每週 6 天",
+   "summary_zh": "墨爾本皇家植物園提供的免費導覽健行，由遊客中心出發，約 1.5 小時介紹園區植物與景觀，路線可通行輪椅與嬰兒車，適合親子與初訪墨爾本的旅客。",
+   "tip_zh": "須事先預約，週一無導覽；於植物園遊客中心集合。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Royal Botanic Gardens Victoria – Free guided walk",
+     "url": "https://www.rbg.vic.gov.au/melbourne-gardens/whats-on-melbourne/free-guided-walk/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官網列為常設活動，未標示 2026 年起訖日期。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "daisy-hill-koala-centre-free-talks",
+   "type": "deal",
+   "title": "Daisy Hill Koala Centre",
+   "title_zh": "Daisy Hill 無尾熊中心免費參觀",
+   "category": "travel",
+   "region": "QLD",
+   "city": "Logan",
+   "venue": "Daisy Hill Koala Centre（Daisy Hill Conservation Park）",
+   "lat": -27.6301,
+   "lng": 153.1609,
+   "start": "2026-10-10",
+   "end": null,
+   "schedule_zh": "每日 10:00–16:00；免費解說 11:00、14:00（14:00 解說後餵食）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・每日解說",
+   "summary_zh": "昆州政府設立的無尾熊教育中心，位於布里斯本南方約 25 公里的 Daisy Hill 保育公園，可從兩座觀景步道俯瞰戶外園區的無尾熊，每日 14:00 解說後有餵食，另有受威脅物種教育展示與無尾熊醫院主題兒童遊戲區，適合親子出遊。",
+   "tip_zh": "耶穌受難日、聖誕節與元旦休館；地址 253 Daisy Hill Road，一般車輛可抵達，園區設有停車場。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Queensland National Parks – Daisy Hill Koala Centre (About)",
+     "url": "https://parks.qld.gov.au/parks/daisy-hill-koala-centre/about"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Queensland National Parks – Daisy Hill Koala Centre",
+     "url": "https://parks.qld.gov.au/parks/daisy-hill-koala-centre"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "im-free-walking-tours-sydney",
+   "type": "deal",
+   "title": "I'm Free Walking Tours Sydney",
+   "title_zh": "雪梨自由付費市區導覽",
+   "category": "travel",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Town Hall Square（483 George Street）",
+   "lat": -33.8731,
+   "lng": 151.2066,
+   "start": "2026-10-10",
+   "end": null,
+   "price_zh": "無需預付，導覽後自由給付小費",
+   "free": false,
+   "highlight": "自由付費・每日出團",
+   "summary_zh": "列於 NSW 官方觀光網站 Sydney.com 的步行導覽，每日不論天候出團，提供 Sydney Sights 與 The Rocks 兩條路線，採導覽後依滿意度自由給付的方式，適合預算有限的打工度假者與初訪雪梨的旅客。",
+   "tip_zh": "於 Town Hall Square（483 George Street）集合，無預付費用與訂位手續費；出團時間可致電 0436 018 633 洽詢。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sydney.com – I'm Free Walking Tours Sydney",
+     "url": "https://www.sydney.com/things-to-do/tours/im-free-walking-tours-sydney"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "觀光局頁面未列出出團時間與導覽時長，業者網站未能開啟確認。"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "virgin-australia-wa-dream-sale-2026",
+   "type": "deal",
+   "title": "WA Dream sale",
+   "title_zh": "Virgin 西澳 Broome、Kununurra 特價",
+   "category": "tickets",
+   "region": "WA",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "西澳 Perth–Broome、Kununurra–Perth 航線",
+   "start": "2026-10-10",
+   "end": "2026-10-24",
+   "price_zh": "Broome–Perth 單程 A$179 起；Kununurra–Perth 單程 A$259（Economy Choice）",
+   "free": false,
+   "highlight": "西澳航線特價",
+   "summary_zh": "Virgin Australia 推出西澳區域航線單程特價：Perth 與 Broome 雙向 Economy Lite A$179、Economy Choice A$199（10/10 截止），Kununurra 飛 Perth Economy Choice A$259（10/24 截止），適用 2026 年指定搭乘日期，適合規劃西澳北部旅行或往返工作地點的旅客。",
+   "tip_zh": "須於搭乘日 21 天前購票，座位有限；Economy Choice 含選位與 23 公斤托運行李，取消不退款。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Virgin Australia – Specials and flight sales",
+     "url": "https://www.virginaustralia.com/au/en/specials/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-10"
+   },
+   "added": "2026-10-10"
+  },
+  {
+   "id": "jetstar-weekend-fare-frenzy-2026-10",
+   "type": "deal",
+   "title": "Weekend Fare Frenzy",
+   "title_zh": "Jetstar 週末限時特價",
+   "category": "tickets",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-10",
+   "end": "2026-10-12",
+   "price_zh": "單程特價（依航線與日期而異）",
+   "free": false,
+   "highlight": "限時特價",
+   "summary_zh": "Jetstar 於官網推出 Weekend Fare Frenzy 限時特價，提供單程、限官網購買的特價票（不含托運行李），適用指定搭乘日期，適合已確定行程、想以較低票價購票的旅客。",
+   "tip_zh": "2026/10/12 晚上 11:59（AEDT）截止，售完為止；須於官網購買，搭乘日期與條件以官網為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Jetstar – Weekend Fare Frenzy",
+     "url": "https://www.jetstar.com/au/en/friday-fare-frenzy"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Jetstar – Home",
+     "url": "https://www.jetstar.com/au/en/home"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-10",
+    "unconfirmed_zh": "官網未列出起價、適用航線與搭乘期間。"
+   },
+   "added": "2026-10-10"
   }
  ]
 }

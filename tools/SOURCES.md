@@ -72,3 +72,27 @@
 
 研究員發現新的可靠官方來源時，照這個格式加在下面（同一個網站不要重複加）：
 `- YYYY-MM-DD｜類別｜名稱｜https://…｜一句說明`
+- 2026-10-10｜travel｜Experience Adelaide（City of Adelaide 遊客中心）｜https://www.experienceadelaide.com.au/adelaidegreeters｜Adelaide Greeters 免費導覽、市政廳導覽與遊客服務
+- 2026-10-10｜travel｜Queensland National Parks（新網域）｜https://parks.qld.gov.au/things-to-do/talks-and-tours｜parks.des.qld.gov.au 已轉址至此；各公園導覽、解說與開放時間
+- 2026-10-10｜travel｜Royal Botanic Gardens Victoria｜https://www.rbg.vic.gov.au/melbourne-gardens/whats-on-melbourne/free-guided-walk/｜墨爾本與 Cranbourne 植物園活動與免費導覽
+- 2026-10-10｜travel｜Uluṟu-Kata Tjuṯa National Park｜https://uluru.gov.au/things-do/activities/ranger-guided-activities/｜parksaustralia.gov.au/uluru 已轉址至此；免費巡守員導覽與入園證價格
+- 2026-10-10｜吃喝｜CheeseFest｜https://www.cheesefest.com.au/｜阿德雷德年度起司節官網（日期、票種）
+- 2026-10-10｜吃喝｜Coles Group 新聞室｜https://www.colesgroup.com.au/news/｜Coles 集點與 Flybuys 活動新聞稿；coles.com.au 擋自動讀取時可改看此處
+- 2026-10-10｜吃喝｜GYG Newsroom（各門市優惠公告）｜https://www.guzmanygomez.com.au/blog/｜GYG 各門市開幕 A$5、免費早餐、送咖啡等限時優惠的官方公告列表
+- 2026-10-10｜吃喝｜Good Food & Wine Show｜https://goodfoodshow.com.au/｜布里斯本、雪梨、墨爾本美食美酒展日期與票價
+- 2026-10-10｜吃喝｜Uber 澳洲新聞室｜https://www.uber.com/au/en/newsroom/｜Uber Eats 全站活動與合作公告
+- 2026-10-10｜吃喝｜Woolworths Group 新聞室｜https://www.woolworthsgroup.com.au/au/en/our-newsroom/media-releases/latest-news/2026/woolworths-expands-lower-shelf-price-to-over-1-000-everyday-prod.html｜Woolworths 降價、價格凍結與節慶商品官方新聞稿（woolworthsgroup.com.au）
+- 2026-10-10｜娛樂｜Madame Tussauds Sydney Annual Passes｜https://www.madametussauds.com/sydney/tickets-passes/annual-passes｜Merlin 年票官方頁（雪梨四館）
+- 2026-10-10｜娛樂｜Russell Hobbs British Film Festival｜https://britishfilmfestival.com.au/events?city=Sydney｜英國電影節官方網站，各城市場次、票價與片單
+- 2026-10-10｜娛樂｜SEA LIFE Melbourne Annual Pass Hub｜https://visitsealife.com/melbourne/tickets-passes/tickets/annual-pass-hub｜Merlin 年票價格、適用景點與條款
+- 2026-10-10｜活動 QLD｜Brisbane Powerhouse｜https://brisbanepowerhouse.org/｜New Farm 藝文中心，Melt Festival 與夜間活動的主辦官網
+- 2026-10-10｜活動 QLD｜Experience Eumundi｜https://www.experienceeumundi.com.au/see-do/eumundi-markets/｜Eumundi 市集官方營業日與時段
+- 2026-10-10｜活動 QLD｜Experience Gold Coast｜https://experiencegoldcoast.com/events｜黃金海岸官方觀光活動頁，列出日期、時間與官方購票連結
+- 2026-10-10｜活動 QLD｜Visit Brisbane（新網域）｜https://visit.brisbane.qld.au/｜布里斯本官方觀光 what's on，含 Scenic Rim 等周邊地區活動、票價
+- 2026-10-10｜活動 全國｜Supanova Comic Con & Gaming｜https://www.supanova.com.au/｜各城市動漫展日期與票價（12 歲以下免費）
+- 2026-10-10｜活動（NT）｜Join the Territory – Territory markets｜https://jointheterritory.nt.gov.au/live/what-to-do-in-the-nt/territory-markets｜NT 政府整理的全區市集一覽（星期、時段、地點），未標年份
+- 2026-10-10｜活動（NT）｜NT Department of Tourism and Hospitality 新聞稿｜https://dth.nt.gov.au/news/2026/alice-springs-events-set-to-sparkle-in-2026｜NT 政府觀光部門新聞稿，公布 Alice Springs 與全區大型活動日期
+- 2026-10-10｜活動（NT）｜Tourism Top End – What's on｜https://www.tourismtopend.com.au/whats-on/event/84357-parap-markets｜Top End 區域觀光局活動頁，部分頁面資料較舊
+- 2026-10-10｜活動（SA）｜Adelaide Film Festival｜https://adelaidefilmfestival.org/passes｜阿德雷德電影節官網，2026 套票價格與購票資訊
+- 2026-10-10｜活動（SA）｜Art Gallery of South Australia｜https://www.agsa.sa.gov.au/whats-on/exhibitions/monet-to-matisse-defying-tradition/｜南澳美術館官網，特展日期、票價與開放時間
+- 2026-10-10｜運動 全國｜Supercars｜https://www.supercars.com/｜Supercars 房車賽各站日期、購票與免費粉絲活動
