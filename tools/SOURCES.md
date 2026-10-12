@@ -96,3 +96,40 @@
 - 2026-10-10｜活動（SA）｜Adelaide Film Festival｜https://adelaidefilmfestival.org/passes｜阿德雷德電影節官網，2026 套票價格與購票資訊
 - 2026-10-10｜活動（SA）｜Art Gallery of South Australia｜https://www.agsa.sa.gov.au/whats-on/exhibitions/monet-to-matisse-defying-tradition/｜南澳美術館官網，特展日期、票價與開放時間
 - 2026-10-10｜運動 全國｜Supercars｜https://www.supercars.com/｜Supercars 房車賽各站日期、購票與免費粉絲活動
+- 2026-10-12｜購物｜rebel Promotions（條款 PDF 索引）｜https://www.rebelsport.com.au/help-centre/promotions｜rebel 各檔促銷條款 PDF 連結（含起訖日期與時間），首頁擋不住時可由此找條款
+- 2026-10-12｜購物｜Macpac Promotions T&Cs｜https://www.macpac.com.au/promotions-terms-and-conditions.html｜Macpac 各檔特賣與會員優惠的完整起訖日期與排除項目
+- 2026-10-12｜購物｜Williams Shoes Promotions T&Cs｜https://www.williamsshoes.com.au/promotions｜Williams 鞋店全站折扣的起訖日期、線上或門市適用範圍
+- 2026-10-12｜購物（電信）｜Everyday Mobile from Woolworths｜https://mobile.everyday.com.au/plans/30-prepaid-mobile-plan｜Woolworths 預付卡方案與 Starter Pack 優惠條款（Telstra Wholesale 網路）；WebFetch 常逾時
+- 2026-10-12｜購物（訂閱）｜BritBox Australia promo terms｜https://www.britbox.com/au/promo-terms｜BritBox 澳洲年繳優惠條款（價格與起訖日）；WebFetch 無法讀取
+- 2026-10-12｜娛樂｜Village Cinemas offers & promotions｜https://villagecinemas.com.au/offers-and-promotions/vrewards-super-tuesdays｜Village 影城 Vrewards 週二半價、學生週三、每週 A$10 電影等優惠頁（內容由 JS 載入）
+- 2026-10-12｜娛樂（ACT）｜Dendy Canberra｜https://canberra.dendy.com.au/budget-tuedays-at-dendy-canberra/｜Dendy 坎培拉影城週二優惠與 IMAX 半價；Newtown、Coorparoo、Southport 各館有同類頁面
+- 2026-10-12｜活動 QLD｜Brisbane City Council 開放資料（活動 API）｜https://data.brisbane.qld.gov.au/explore/dataset/music-events/table/｜市政府活動行事曆的開放資料（另有 brisbane-city-council-events、films-events、brisbane-botanic-gardens-events 等資料集），含 2026 年完整日期、場地、費用與座標；個別活動頁不顯示年份時可用來對照
+- 2026-10-12｜活動 QLD｜HOTA, Home of the Arts｜https://hota.com.au/whats-on｜黃金海岸藝文中心官網，活動頁列出 2026 年日期、時段與票價（活動網址格式 hota.com.au/events/<名稱>）
+- 2026-10-12｜活動 QLD｜City of Gold Coast What's On｜https://www.whatsongoldcoast.au/｜黃金海岸市政府活動行事曆，各活動頁列出 2026 年全部日期、時段與地點
+- 2026-10-12｜活動 QLD｜Sunshine Coast Council Events｜https://events.sunshinecoast.qld.gov.au/｜陽光海岸市政府活動行事曆；每月「Reasons to love <月份> on the Sunshine Coast」新聞（sunshinecoast.qld.gov.au/news）整理當月活動
+- 2026-10-12｜活動 QLD｜Sunshine Coast Libraries – What's on｜https://library.sunshinecoast.qld.gov.au/whats-on/story-walk｜陽光海岸圖書館活動，含植物園 Story Walk 等親子活動日期
+- 2026-10-12｜活動 NSW｜Ghost Festival（Ghost in The Rocks）｜https://ghostfestival.com.au/｜雪梨 The Rocks 萬聖節慶典官網，日期、免費與售票體驗
+- 2026-10-12｜活動 NSW｜Blackheath Rhododendron Festival｜https://rhodofestival.org/｜藍山 Blackheath 杜鵑花節官網，遊行與市集時段（節目單為圖片）
+- 2026-10-12｜運動 NSW/全國｜Rugby League World Cup 2026｜https://www.rlwc2026.com/draws-and-pools｜聯盟式橄欖球世界盃官方賽程（日期、球場），首頁標示票價 A$19 起
+- 2026-10-12｜活動 NSW｜Nan Tien Temple｜https://www.nantien.org.au/en/upcoming-events/nan-tien-market｜臥龍崗南天寺活動頁，每月市集日期與時段
+- 2026-10-12｜活動 NSW｜Destination Wollongong – events｜https://www.visitwollongong.com.au/events/｜臥龍崗官方觀光活動列表（含 RLWC 賽事、市集）
+- 2026-10-12｜活動 ACT｜SpringOUT Pride Festival｜https://springout.com.au/｜坎培拉彩虹驕傲節官網，Fair Day 日期、時段與節目
+- 2026-10-12｜活動 ACT｜Craft + Design Canberra Festival｜https://craftanddesigncanberrafestival.org/｜坎培拉工藝設計節節目表，可篩選免費活動
+- 2026-10-12｜運動 ACT｜GIO Stadium Canberra｜https://giostadiumcanberra.com.au/｜坎培拉體育場賽事頁，開賽時間與憑票免費公車資訊
+- 2026-10-12｜活動（VIC）｜Royal Geelong Show｜https://royalgeelongshow.org.au/geelong-show/buy-tickets/｜吉朗皇家農業展官網，日期、票價、每日開放時間與週四優惠
+- 2026-10-12｜活動（VIC）｜Bendigo Agricultural Show｜https://www.bendigoshow.com.au/｜本迪戈農業展官網（bendigoshow.org.au/show 已轉址至此），日期與購票頁
+- 2026-10-12｜活動（VIC）｜Melbourne International Jazz Festival｜https://www.melbournejazz.com/｜墨爾本國際爵士節官網，節目、日期與免費場次
+- 2026-10-12｜活動（VIC）｜Melbourne Sculpture Biennale｜https://www.melbournesculpturebiennale.com/｜墨爾本雕塑雙年展官網，展期、開放時間與地點
+- 2026-10-12｜活動（VIC）｜Polish Festival Melbourne｜https://www.polishfestival.com.au｜Fed Square 波蘭文化節主辦官網
+- 2026-10-12｜活動（VIC）｜SpringFest Ballarat｜https://www.ballaratspringfest.com.au/｜Ballarat Lake Wendouree 春季市集（Rotary 主辦）日期；入場費與時段未列
+- 2026-10-12｜活動（TAS）｜Hobart Twilight Market｜https://www.hobarttwilightmarket.com.au/｜荷伯特週五黃昏市集官方場次表（Brooke St Pier、Long Beach）；頁面未標年份與入場費
+- 2026-10-12｜吃喝｜SaleFinder – Woolworths 官方型錄｜https://www.salefinder.com.au/woolworths-catalogue｜woolworths.com.au 型錄頁內嵌的官方型錄平台；週二即可看到下週三起的新型錄日期與「list」商品清單（含半價標示），官網 403 時可用
+- 2026-10-12｜吃喝｜SaleFinder – Coles 官方型錄｜https://www.salefinder.com.au/coles-catalogue｜Coles 每週型錄（NSW Metro 等）日期與商品清單，coles.com.au 型錄頁載不出內容時可用
+- 2026-10-12｜吃喝｜SaleFinder – IGA 官方型錄｜https://www.salefinder.com.au/iga-catalogue｜IGA 各州大型／中型／社區門市型錄與 3 Day Specials 日期、價格
+- 2026-10-12｜tickets｜Victoria half price travel（vic.gov.au）｜https://www.vic.gov.au/half-price-travel｜維州大眾運輸半價方案的官方說明（期間、每日上限、不適用路線）；transport.vic.gov.au 擋自動讀取時改看此處
+- 2026-10-12｜tickets｜V/Line 新聞｜https://www.vline.com.au/News-Alerts/News-Articles/2026/March/Free-public-transport-across-Victoria｜V/Line 區域火車與長途巴士的票價、訂位與跨州附加費公告
+- 2026-10-12｜tickets｜Seniors Online Victoria｜https://www.seniorsonline.vic.gov.au/seniors-card/public-transport-benefits｜維州長者卡交通優惠（週末免費、Seniors Festival 免費搭乘期間）
+- 2026-10-12｜tickets｜Transport for NSW – WSI Link｜https://transportnsw.info/wsi-link｜西雪梨國際機場免費接駁巴士班次、站牌與搭乘規定
+- 2026-10-12｜tickets｜Queensland Rail Travel – 2 For 1 Outback Rail｜https://www.queenslandrailtravel.com.au/2-for-1-outback-rail｜昆州內陸火車（Spirit of the Outback 等）年度兩人同行優惠
+- 2026-10-12｜tickets｜Velocity Frequent Flyer 會員優惠｜https://www.velocityfrequentflyer.com/partners-offers/airlines/virgin-australia-airlines/pick-your-bonus-oct-2026｜Virgin Australia 點數加倍活動的官方條款；virginaustralia.com 擋自動讀取時可改看 Velocity 網站
+- 2026-10-12｜travel｜NSW National Parks – Sydney kids and family activities｜https://www.nationalparks.nsw.gov.au/things-to-do/kids-tours-greater-sydney｜雪梨周邊國家公園導覽一覽，列出日期與各導覽頁面連結

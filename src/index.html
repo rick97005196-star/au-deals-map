@@ -44,6 +44,42 @@ a{color:inherit}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gutter)}
 body.no-scroll{overflow:hidden}
 
+/* ---------- 收藏星號與週末行程抽屜 ---------- */
+.card{position:relative}
+.card .card-top{padding-right:40px}
+.btn-star{position:absolute;top:10px;right:10px;z-index:2;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--bg);display:grid;place-items:center;color:var(--muted);cursor:pointer;transition:transform .15s,color .15s,background .15s;padding:0}
+.btn-star:hover{color:var(--deal-pin);border-color:var(--deal-pin);transform:scale(1.15);background:var(--tint)}
+.btn-star.is-saved{color:var(--deal-pin);border-color:var(--deal-pin);background:var(--deal-soft)}
+.btn-star svg{pointer-events:none}
+.btn-itin-action.is-saved{background:var(--deal-soft);border-color:var(--deal-pin);color:var(--deal)}
+
+.itin-badge{display:inline-grid;place-items:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--deal-pin);color:#fff;font-family:var(--f-mono);font-size:11px;font-weight:700;margin-left:4px}
+.itin-sheet{max-width:620px!important}
+.itin-actions-bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 18px;padding-bottom:12px;border-bottom:1px solid var(--line-2)}
+.itin-list{display:grid;gap:12px}
+.itin-item{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--bg);transition:border-color .15s,box-shadow .15s}
+.itin-item:hover{border-color:var(--line-strong);box-shadow:var(--shadow)}
+.itin-item-main{flex:1;min-width:0;cursor:pointer}
+.itin-item-title{font-weight:700;font-size:15px;margin:0 0 4px;color:var(--ink)}
+.itin-item-meta{font-size:13px;color:var(--muted);margin:0 0 6px}
+.itin-item-foot{display:flex;align-items:center;gap:10px;font-size:13px}
+.itin-item-price{font-weight:600;color:var(--deal)}
+.itin-item-del{width:32px;height:32px;border:0;background:none;border-radius:6px;color:var(--muted);cursor:pointer;display:grid;place-items:center;flex:none}
+.itin-item-del:hover{background:var(--tint);color:var(--urgent)}
+.btn-sm{height:34px;padding:0 12px;font-size:13px}
+.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--ink-2)}
+.btn.ghost:hover{border-color:var(--ink);color:var(--ink)}
+
+
+@media print{
+  body *{visibility:hidden}
+  dialog#itineraryModal,dialog#itineraryModal *{visibility:visible}
+  dialog#itineraryModal{position:absolute;left:0;top:0;width:100%;height:auto;max-height:none;border:0;box-shadow:none;margin:0;padding:0;background:#fff;color:#000}
+  .itin-actions-bar,.itin-item-del,.sheet-head button{display:none!important}
+  .itin-item{border-color:#ccc!important;break-inside:avoid}
+}
+
+
 /* ---------- 頁首 ---------- */
 .top{border-bottom:1px solid var(--line);background:var(--bg)}
 .top .wrap{display:flex;align-items:center;gap:20px;height:68px}
@@ -319,6 +355,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
   .brand-name{font-size:17px;letter-spacing:.03em}
   .brand-sub{display:none}
   .nav a,.nav button{padding:0 8px;font-size:13px}
+  #itinBtn .nav-label{display:none}
   .hero .wrap{padding-top:24px;padding-bottom:20px}
   .headline{font-size:24px;margin-top:8px}
   .sub{font-size:14px;margin-bottom:16px}
@@ -353,6 +390,10 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
 @media (max-width:400px){
   .nav .ok-dot{display:none}
   .nav a,.nav button{padding:0 6px}
+  .nav a.js-disclaimer{display:none}
+  .brand-name{font-size:15px;letter-spacing:0}
+  .nav{gap:0}
+  .brand{gap:8px}
 }
 @keyframes slide-up{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
 @media (prefers-reduced-motion:reduce){dialog.sheet[open]{animation:none}.card:hover{transform:none}}
@@ -368,11 +409,13 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
       </div>
     </a>
     <nav class="nav" aria-label="網站">
+      <button id="itinBtn" type="button" aria-label="我的收藏"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="nav-label">收藏</span><span class="itin-badge" id="itinBadge" hidden>0</span></button>
       <button id="howBtn" type="button"><i class="ok-dot" aria-hidden="true">✓</i>查證方式</button>
       <a href="disclaimer/index.html" class="js-disclaimer">免責聲明</a>
     </nav>
   </div>
 </header>
+
 
 <section class="hero">
   <div class="wrap">
@@ -443,6 +486,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
       <h4>免責聲明</h4>
       <p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係。所有項目雖經官方頁面查證，活動與優惠仍可能臨時異動、提前結束或依門市而異，出發或購買前請以官方公告為準。<a class="more js-disclaimer" href="disclaimer/index.html">閱讀完整免責聲明</a></p>
       <p class="fine" id="footFine"></p>
+      <p class="fine">本站為「<a href="https://au-working-holiday.pages.dev">澳洲打工度假資訊平台</a>」的一部分。</p>
     </div>
     <div id="social"></div>
   </div>
@@ -451,6 +495,29 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
 <button class="fab" id="fab" type="button"></button>
 
 <dialog class="sheet" id="sheet" aria-labelledby="sheetTitle"></dialog>
+
+<dialog class="sheet itin-sheet" id="itineraryModal" aria-labelledby="itinTitle">
+  <div class="sheet-head">
+    <div class="card-top">
+      <span class="cat">我的收藏</span>
+      <span class="rcode au" id="itinCountBadge">0 筆</span>
+    </div>
+    <button class="x" type="button" aria-label="關閉" onclick="this.closest('dialog').close()">×</button>
+  </div>
+  <div class="sheet-body">
+    <div>
+      <h2 class="d-title" id="itinTitle">收藏清單</h2>
+      <p class="d-en">Saved Events &amp; Deals</p>
+    </div>
+    <div class="itin-actions-bar">
+      <button type="button" class="btn primary btn-sm" id="itinPrintBtn">列印清單</button>
+      <button type="button" class="btn btn-sm" id="itinExportIcsBtn">活動加入行事曆（.ics）</button>
+      <button type="button" class="btn ghost btn-sm" id="itinClearBtn">全部清除</button>
+    </div>
+    <div id="itinList" class="itin-list"></div>
+  </div>
+</dialog>
+
 
 <dialog class="how" id="how">
   <div class="dlg">
@@ -658,6 +725,7 @@ function metaHTML(it){
 }
 function cardHTML(it){
   const st = status(it), v = it.verified;
+  const saved = isSaved(it.id);
   return `<article class="card g-${it._g}" id="c-${esc(it.id)}">
   <button type="button" class="card-hit" data-open="${esc(it.id)}" aria-haspopup="dialog">
     <div class="card-top">${metaHTML(it)}</div>
@@ -666,6 +734,9 @@ function cardHTML(it){
     <div class="card-when"><span class="mono">${esc(dateText(it))}</span><span class="where">· ${esc(whereText(it))}</span></div>
     <div class="card-price"><span class="price${it.free ? ' free' : ''}">${esc(it.price_zh)}</span>${it.highlight ? `<span class="hl">${esc(it.highlight)}</span>` : ''}</div>
     <div class="card-foot"><span class="status status--${st.k}">${esc(st.label)}</span><span class="vmini${v.status === 'partial' ? ' part' : ''}">${v.status === 'partial' ? '◐ 部分查證' : '✓ 已查證'}</span></div>
+  </button>
+  <button type="button" class="btn-star${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}" aria-label="${saved ? '取消收藏' : '加入收藏'}" title="${saved ? '取消收藏' : '加入收藏'}">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="${saved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
   </button>
 </article>`;
 }
@@ -717,6 +788,7 @@ function detailHTML(it){
   const place = [it.venue, it.city].filter(Boolean).join('，') || it.area_zh || (it.region === 'AU' ? '全澳洲（門市或線上）' : '');
   const gmap = (it.lat != null && !it.area_zh) ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(it.lat + ',' + it.lng)}` : '';
   const off = it.sources.find(s => s.kind === 'official');
+  const saved = isSaved(it.id);
   return `<div class="sheet-head g-${it._g}"><div class="card-top">${metaHTML(it)}<span>・${it.type === 'deal' ? '特價' : '活動'}</span></div><button class="x" type="button" data-close aria-label="關閉">×</button></div>
   <div class="sheet-body g-${it._g}">
     <div><h2 class="d-title" id="sheetTitle">${esc(it.title_zh)}</h2><p class="d-en">${esc(it.title)}</p></div>
@@ -731,9 +803,14 @@ function detailHTML(it){
     </dl>
     <div class="actions">
       ${off ? `<a class="btn primary" href="${esc(off.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="official">前往官方頁面 ↗</a>` : ''}
+      ${it.lat != null && it.lng != null ? `<button type="button" class="btn" data-fly="${esc(it.id)}">在地圖上查看</button>` : ''}
       ${gmap ? `<a class="btn" href="${gmap}" target="_blank" rel="noopener">Google 地圖 ↗</a>` : ''}
+      <button type="button" class="btn btn-itin-action${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}">${saved ? '已收藏' : '加入收藏'}</button>
+      ${it.type === 'event' ? `<button type="button" class="btn" data-gcal="${esc(it.id)}">加入 Google 日曆</button>
+      <button type="button" class="btn" data-ics="${esc(it.id)}">下載行事曆檔</button>` : ''}
       <button type="button" class="btn" data-copy="${esc(it.id)}">複製連結</button>
     </div>
+
     <div>
       <p class="h5">資料來源</p>
       <ul class="sources">${it.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="${esc(s.kind)}"><span class="k k-${esc(s.kind)}">${KIND[s.kind] || s.kind}</span><span class="t">${esc(s.platform)}・${esc(s.label)}<small>${esc(host(s.url))}</small></span><span class="ext">↗</span></a></li>`).join('')}</ul>
@@ -810,6 +887,7 @@ function initMap(){
   labelLayer = L.layerGroup().addTo(map);
   clusters = L.markerClusterGroup({
     showCoverageOnHover:false, maxClusterRadius:40, disableClusteringAtZoom:12, spiderfyOnMaxZoom:false, zoomToBoundsOnClick:true,
+    chunkedLoading:true, chunkInterval:50, chunkDelay:20,
     iconCreateFunction: c => { const n = c.getChildCount(); return L.divIcon({html:`<span class="cl${n > 9 ? ' lg' : ''}">${n}</span>`, className:'cl-wrap', iconSize:[n > 9 ? 42 : 36, n > 9 ? 42 : 36]}); }
   });
   map.addLayer(clusters);
@@ -875,6 +953,166 @@ function scrollToResults(force){
   if (force || scrollY > y + 4 || bar.getBoundingClientRect().top > innerHeight * .55) scrollTo({top: y, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
 }
 
+/* ---------- 週末行程管理 (Itinerary) ---------- */
+let SAVED = new Set();
+try {
+  const raw = localStorage.getItem('adm_favorites');
+  if (raw) SAVED = new Set(JSON.parse(raw));
+} catch(e) {}
+const isSaved = id => SAVED.has(id);
+
+function saveItin() {
+  try { localStorage.setItem('adm_favorites', JSON.stringify([...SAVED])); } catch(e) {}
+  updateItinBadge();
+}
+
+function toggleItin(id) {
+  if (navigator.vibrate) { try { navigator.vibrate(12); } catch(e){} }
+  if (SAVED.has(id)) {
+    SAVED.delete(id);
+    toast('已取消收藏');
+  } else {
+    SAVED.add(id);
+    toast('已加入收藏');
+  }
+  saveItin();
+  // 更新列表卡片星號
+  const cardStar = document.querySelector(`#c-${id} .btn-star`);
+  if (cardStar) {
+    const s = isSaved(id);
+    cardStar.classList.toggle('is-saved', s);
+    cardStar.setAttribute('aria-label', s ? '取消收藏' : '加入收藏');
+    cardStar.setAttribute('title', s ? '取消收藏' : '加入收藏');
+    const svg = cardStar.querySelector('svg');
+    if (svg) svg.setAttribute('fill', s ? 'currentColor' : 'none');
+  }
+  // 更新詳細資訊彈窗按鈕
+  const sheetBtn = document.querySelector('.sheet-body .btn-itin-action');
+  if (sheetBtn && S.open === id) {
+    const s = isSaved(id);
+    sheetBtn.classList.toggle('is-saved', s);
+    sheetBtn.textContent = s ? '已收藏' : '加入收藏';
+  }
+  renderItinList();
+}
+
+function updateItinBadge() {
+  const count = SAVED.size;
+  const badge = $('itinBadge');
+  if (badge) {
+    badge.textContent = count;
+    badge.hidden = count === 0;
+  }
+  const countBadge = $('itinCountBadge');
+  if (countBadge) countBadge.textContent = `${count} 筆`;
+}
+
+function renderItinList() {
+  const container = $('itinList');
+  if (!container) return;
+  const items = [...SAVED].map(id => BYID[id]).filter(Boolean);
+  if (!items.length) {
+    container.innerHTML = `<div class="empty" style="padding:40px 10px">
+      <h4>目前沒有收藏的項目</h4>
+      <p>點選卡片右上角的星號，或詳細頁的「加入收藏」，即可在此集中查看、列印，或將活動匯出至行事曆。</p>
+    </div>`;
+    return;
+  }
+  items.sort((a, b) => a._s - b._s);
+  container.innerHTML = items.map(it => {
+    const st = status(it);
+    return `
+      <div class="itin-item" id="itin-item-${esc(it.id)}">
+        <div class="itin-item-main" data-open="${esc(it.id)}">
+          <h4 class="itin-item-title">${esc(it.title_zh)}</h4>
+          <p class="itin-item-meta">${esc(dateText(it))} · ${esc(whereText(it))}</p>
+          <div class="itin-item-foot">
+            <span class="status status--${st.k}">${esc(st.label)}</span>
+            <span class="itin-item-price">${esc(it.price_zh)}</span>
+          </div>
+        </div>
+        <button type="button" class="itin-item-del" data-itin="${esc(it.id)}" aria-label="取消收藏" title="取消收藏">×</button>
+      </div>
+    `;
+  }).join('');
+}
+
+/* ---------- 日曆同步 (Google Calendar & .ics) ---------- */
+function makeGCalUrl(it) {
+  const sStr = (it.start || '').replace(/-/g, '');
+  let eStr = '';
+  if (it.end) {
+    const eDate = new Date(Date.parse(it.end) + 86400000);
+    const ey = eDate.getUTCFullYear();
+    const em = String(eDate.getUTCMonth() + 1).padStart(2, '0');
+    const ed = String(eDate.getUTCDate()).padStart(2, '0');
+    eStr = `${ey}${em}${ed}`;
+  } else {
+    const sDate = new Date(Date.parse(it.start) + 86400000);
+    const sy = sDate.getUTCFullYear();
+    const sm = String(sDate.getUTCMonth() + 1).padStart(2, '0');
+    const sd = String(sDate.getUTCDate()).padStart(2, '0');
+    eStr = `${sy}${sm}${sd}`;
+  }
+  const dates = `${sStr}/${eStr}`;
+  const details = `${it.summary_zh || ''}\n\n價格：${it.price_zh || ''}\n詳情：https://au-deals-map.pages.dev/#${it.id}`;
+  const location = [it.venue, it.city, it.region].filter(Boolean).join(', ');
+  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(it.title_zh)}&dates=${dates}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
+}
+
+function downloadIcs(items, filename) {
+  const pad = n => String(n).padStart(2, '0');
+  const now = new Date();
+  const nowStr = `${now.getUTCFullYear()}${pad(now.getUTCMonth() + 1)}${pad(now.getUTCDate())}T${pad(now.getUTCHours())}${pad(now.getUTCMinutes())}${pad(now.getUTCSeconds())}Z`;
+  
+  let lines = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//AU Deals and Events//TW',
+    'CALSCALE:GREGORIAN',
+    'METHOD:PUBLISH'
+  ];
+
+  items.forEach(it => {
+    const sStr = (it.start || '').replace(/-/g, '');
+    let eStr = '';
+    if (it.end) {
+      const eDate = new Date(Date.parse(it.end) + 86400000);
+      eStr = `${eDate.getUTCFullYear()}${pad(eDate.getUTCMonth() + 1)}${pad(eDate.getUTCDate())}`;
+    } else {
+      const sDate = new Date(Date.parse(it.start) + 86400000);
+      eStr = `${sDate.getUTCFullYear()}${pad(sDate.getUTCMonth() + 1)}${pad(sDate.getUTCDate())}`;
+    }
+    const ics = s => String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
+    const cleanDesc = ics((it.summary_zh || '') + '\n價格：' + (it.price_zh || ''));
+    const loc = [it.venue, it.city, it.region].filter(Boolean).join(', ');
+    lines.push(
+      'BEGIN:VEVENT',
+      `UID:${it.id}@au-deals-map.pages.dev`,
+      `DTSTAMP:${nowStr}`,
+      `DTSTART;VALUE=DATE:${sStr}`,
+      `DTEND;VALUE=DATE:${eStr}`,
+      `SUMMARY:${ics(it.title_zh)}`,
+      `DESCRIPTION:${cleanDesc}`,
+      `LOCATION:${ics(loc)}`,
+      `URL:https://au-deals-map.pages.dev/#${it.id}`,
+      'END:VEVENT'
+    );
+  });
+
+  lines.push('END:VCALENDAR');
+  const icsText = lines.join('\r\n');
+  const blob = new Blob([icsText], { type: 'text/calendar;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename || 'australia-itinerary.ics';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
 /* ---------- 操作 ---------- */
 let lastList = [];
 function render(){
@@ -918,6 +1156,30 @@ document.addEventListener('click', e => {
     syncControls(); render(); return;
   }
   if (t.dataset.open){ openItem(t.dataset.open); return; }
+  if (t.dataset.fly){
+    const it = BYID[t.dataset.fly];
+    if (it && it.lat != null && it.lng != null){
+      sheet.close();
+      setView('map');
+      setTimeout(() => {
+        if (map) {
+          map.flyTo([it.lat, it.lng], 15, { duration: 0.75, easeLinearity: 0.25 });
+        }
+      }, 100);
+    }
+    return;
+  }
+  if (t.dataset.itin){ toggleItin(t.dataset.itin); return; }
+  if (t.dataset.gcal){
+    const it = BYID[t.dataset.gcal];
+    if (it) window.open(makeGCalUrl(it), '_blank');
+    return;
+  }
+  if (t.dataset.ics){
+    const it = BYID[t.dataset.ics];
+    if (it) downloadIcs([it], `${it.id}.ics`);
+    return;
+  }
   if (t.dataset.copy){
     const url = location.href.split('#')[0] + '#' + t.dataset.copy;
     const done = () => toast('已複製連結');
@@ -944,6 +1206,28 @@ addEventListener('hashchange', () => { const h = decodeURIComponent(location.has
 $('howBtn').addEventListener('click', () => { const d = $('how'); if (d.showModal) d.showModal(); else d.setAttribute('open', ''); });
 $('how').addEventListener('click', e => { if (e.target === $('how')) $('how').close(); });
 
+// 行程抽屜與主題控制監聽器
+$('itinBtn').addEventListener('click', () => {
+  const m = $('itineraryModal');
+  renderItinList();
+  if (m.showModal) m.showModal(); else m.setAttribute('open', '');
+});
+$('itinPrintBtn').addEventListener('click', () => window.print());
+$('itinExportIcsBtn').addEventListener('click', () => {
+  const items = [...SAVED].map(id => BYID[id]).filter(it => it && it.type === 'event');
+  if (items.length) downloadIcs(items, 'au-deals-saved.ics');
+  else toast('收藏中沒有可加入行事曆的活動');
+});
+$('itinClearBtn').addEventListener('click', () => {
+  if (confirm('確定要清除所有收藏嗎？')) {
+    SAVED.clear();
+    saveItin();
+    renderItinList();
+    render();
+    toast('已清除所有收藏');
+  }
+});
+
 /* ---------- 匿名統計 ---------- */
 let vid = '';
 try { vid = localStorage.getItem('adm_vid') || ''; if (!vid){ vid = (crypto.randomUUID ? crypto.randomUUID() : String(Math.random()).slice(2)).replace(/-/g,'').slice(0,20); localStorage.setItem('adm_vid', vid); } } catch(e){ vid = String(Math.random()).slice(2, 18); }
@@ -965,6 +1249,8 @@ const live = ITEMS.filter(i => status(i).k !== 'ended');
 document.querySelectorAll('.js-count').forEach(e => e.textContent = live.length);
 document.querySelectorAll('.js-verified').forEach(e => e.textContent = live.filter(i => i.verified.status === 'verified').length);
 $('footFine').textContent = `資料每日清晨自動更新，最後核對日期：${DATA.updated.replace(/-/g,'/')}。地圖底圖 © OpenStreetMap 貢獻者。`;
+updateItinBadge();
+renderItinList();
 syncControls();
 setView('list', true);
 render();
@@ -978,3 +1264,4 @@ if (CFG.api){
 }
 })();
 </script>
+
