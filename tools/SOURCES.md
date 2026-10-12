@@ -133,3 +133,10 @@
 - 2026-10-12｜tickets｜Queensland Rail Travel – 2 For 1 Outback Rail｜https://www.queenslandrailtravel.com.au/2-for-1-outback-rail｜昆州內陸火車（Spirit of the Outback 等）年度兩人同行優惠
 - 2026-10-12｜tickets｜Velocity Frequent Flyer 會員優惠｜https://www.velocityfrequentflyer.com/partners-offers/airlines/virgin-australia-airlines/pick-your-bonus-oct-2026｜Virgin Australia 點數加倍活動的官方條款；virginaustralia.com 擋自動讀取時可改看 Velocity 網站
 - 2026-10-12｜travel｜NSW National Parks – Sydney kids and family activities｜https://www.nationalparks.nsw.gov.au/things-to-do/kids-tours-greater-sydney｜雪梨周邊國家公園導覽一覽，列出日期與各導覽頁面連結
+- 2026-10-13｜購物（電信）｜Aussie Broadband promo T&Cs｜https://assets.aussiebroadband.com.au/web/assets/legal/tcs/promo/abb-20260910-spring-deals-tcs.pdf｜Aussie Broadband 網路與手機促銷條款 PDF（檔名含開始日期），列出代碼、折扣與起訖時間
+- 2026-10-13｜娛樂｜NAB Goodies promotion T&Cs｜https://www.nab.com.au/content/dam/nab/documents/terms-and-conditions/promotions/nab-goodies-hoyts-october-discounted-movie-tickets-offer-terms-and-conditions.pdf｜NAB 客戶專屬 HOYTS、Event、Amazon 等優惠條款 PDF（價格、期間、資格）
+- 2026-10-13｜活動 QLD｜What's On Townsville（Townsville City Council）｜https://whatson.townsville.qld.gov.au/｜湯斯維爾市政府活動行事曆，各活動頁列出 2026 年日期、時段、地點與費用
+- 2026-10-13｜活動 QLD｜Sunshine Coast Open House｜https://www.sunshinecoastopenhouse.com.au/｜陽光海岸建築開放週官網（2026 年 10/7–25，建築開放週末 10/24–25）；是否免費未載明
+- 2026-10-13｜活動（VIC）｜Visit Macedon Ranges – Events｜https://www.visitmacedonranges.com/events/duneira-estate-bluebell-festival/｜Macedon Ranges 官方觀光活動頁（Duneira 藍鈴花節等春季花園活動），含日期與時段
+- 2026-10-13｜活動（TAS）｜Open House Hobart｜https://openhousehobart.org/faqs/｜荷伯特建築開放日官網（免費、預約方式、年度日期）
+- 2026-10-13｜活動（TAS）｜International Mural Fest（Sheffield）｜https://muralfest.com.au/｜Sheffield 國際壁畫節官網，年度日期與主題
