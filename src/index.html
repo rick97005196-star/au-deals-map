@@ -1,8 +1,5 @@
 <title>澳洲活動優惠地圖</title>
 <meta name="description" content="整理澳洲各州進行中的活動與優惠：超市特價、速食與外送 App、節慶市集、交通與旅遊。每筆均附官方來源，並經獨立查證日期、價格與地點。">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap">
 <style>/*__LEAFLET_CSS__*/</style>
 <style>
 /* 版面：由上而下閱讀。頁首 → 標題與搜尋、地區 → 快速入口 → 分類列（捲動時固定）→ 卡片牆。
@@ -24,9 +21,9 @@
   --focus:#1D5E78;
   --shadow:0 1px 2px rgba(18,26,23,.05),0 10px 30px rgba(18,26,23,.08);
   --shadow-lg:0 2px 6px rgba(18,26,23,.06),0 24px 60px rgba(18,26,23,.16);
-  --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
-  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
-  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+  --f-display:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei","Segoe UI",system-ui,sans-serif;
+  --f-body:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei","Segoe UI",system-ui,sans-serif;
+  --f-mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;
   --r:6px;
   --wrap:1240px;
   --gutter:32px;
@@ -90,6 +87,8 @@ body.no-scroll{overflow:hidden}
 .nav{margin-left:auto;display:flex;align-items:center;gap:4px}
 .nav a,.nav button{display:inline-flex;align-items:center;gap:7px;height:36px;padding:0 12px;border:0;background:none;border-radius:var(--r);font-size:13.5px;color:var(--ink-2);text-decoration:none;cursor:pointer;white-space:nowrap}
 .nav a:hover,.nav button:hover{background:var(--tint);color:var(--ink)}
+.nav .nav-hub{margin-left:6px;border:1px solid var(--line)}
+@media (max-width:900px){.nav .nav-hub{display:none}}
 .nav .ok-dot{width:16px;height:16px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-size:10px;font-style:normal}
 
 /* ---------- 開場：標題、搜尋、地區 ---------- */
@@ -351,7 +350,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
   html{scroll-padding-top:150px}
   .top .wrap{height:58px;gap:10px}
   .brand{gap:10px}
-  .brand svg{width:30px;height:30px}
+  .brand svg{width:36px;height:36px}
   .brand-name{font-size:17px;letter-spacing:.03em}
   .brand-sub{display:none}
   .nav a,.nav button{padding:0 8px;font-size:13px}
@@ -402,7 +401,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
 <header class="top">
   <div class="wrap">
     <a class="brand" href="./" aria-label="澳洲活動優惠地圖 首頁">
-      <svg width="36" height="36" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="15" fill="#121A17"/><g transform="rotate(45 32 32)"><path d="M8.5 32 L22 16.5 H50 a5 5 0 0 1 5 5 V42.5 a5 5 0 0 1 -5 5 H22 Z" fill="#FFFFFF"/><circle cx="21.5" cy="32" r="4" fill="#DF9A2B"/></g><path fill="#121A17" d="M38.50 24.10L39.11 25.94L40.92 25.27L39.86 26.89L41.52 27.89L39.59 28.07L39.85 29.99L38.50 28.59L37.15 29.99L37.41 28.07L35.48 27.89L37.14 26.89L36.08 25.27L37.89 25.94ZM38.50 41.60L39.20 43.74L41.31 42.96L40.08 44.84L42.01 46.00L39.77 46.21L40.06 48.44L38.50 46.82L36.94 48.44L37.23 46.21L34.99 46.00L36.92 44.84L35.69 42.96L37.80 43.74ZM31.60 32.70L32.17 34.42L33.87 33.79L32.87 35.31L34.43 36.25L32.62 36.41L32.86 38.21L31.60 36.91L30.34 38.21L30.58 36.41L28.77 36.25L30.33 35.31L29.33 33.79L31.03 34.42ZM45.60 31.60L46.11 33.15L47.63 32.58L46.74 33.94L48.13 34.78L46.51 34.93L46.73 36.54L45.60 35.37L44.47 36.54L44.69 34.93L43.07 34.78L44.46 33.94L43.57 32.58L45.09 33.15ZM42.60 38.10L43.05 39.18L44.22 39.27L43.33 40.04L43.60 41.18L42.60 40.56L41.60 41.18L41.87 40.04L40.98 39.27L42.15 39.18Z"/></svg>
+      <svg width="42" height="42" viewBox="12.5 5.9 98 98" aria-hidden="true"><g fill="#F4A21C"><path d="M92 10 93.6 14.4 98 16 93.6 17.6 92 22 90.4 17.6 86 16 90.4 14.4Z"/><path d="M104 22 105.2 25.3 108.5 26.5 105.2 27.7 104 31 102.8 27.7 99.5 26.5 102.8 25.3Z"/><path d="M86 26 87 28.8 89.8 29.8 87 30.8 86 33.6 85 30.8 82.2 29.8 85 28.8Z"/><circle cx="97" cy="36" r="2.2"/></g><g transform="rotate(-14 62 66)"><path d="M28 66C26 64 26 62 28 60L42 44Q44 42 47 42H92Q98 42 98 48V84Q98 90 92 90H47Q44 90 42 88Z" fill="#FFFFFF" stroke="#2A2F36" stroke-width="4" stroke-linejoin="round"/><circle cx="42" cy="66" r="5" fill="#DF9A2B" stroke="#2A2F36" stroke-width="3"/><ellipse cx="64" cy="62" rx="4.2" ry="5.2" fill="#2A2F36"/><ellipse cx="82" cy="62" rx="4.2" ry="5.2" fill="#2A2F36"/><circle cx="65.5" cy="60" r="1.5" fill="#fff"/><circle cx="83.5" cy="60" r="1.5" fill="#fff"/><path d="M68 71q5 5.5 10 0" fill="none" stroke="#2A2F36" stroke-width="3" stroke-linecap="round"/></g><path d="M42 67C34 54 26 47 16 47" fill="none" stroke="#2A2F36" stroke-width="3" stroke-linecap="round"/></svg>
       <div>
         <p class="brand-name">澳洲活動優惠地圖</p>
         <div class="brand-sub">Australia · Deals &amp; Events</div>
@@ -412,6 +411,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
       <button id="itinBtn" type="button" aria-label="我的收藏"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="nav-label">收藏</span><span class="itin-badge" id="itinBadge" hidden>0</span></button>
       <button id="howBtn" type="button"><i class="ok-dot" aria-hidden="true">✓</i>查證方式</button>
       <a href="disclaimer/index.html" class="js-disclaimer">免責聲明</a>
+      <a href="https://au-working-holiday.pages.dev/" class="nav-hub" target="_blank" rel="noopener">澳洲打工度假資訊平台</a>
     </nav>
   </div>
 </header>
@@ -486,7 +486,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
       <h4>免責聲明</h4>
       <p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係。所有項目雖經官方頁面查證，活動與優惠仍可能臨時異動、提前結束或依門市而異，出發或購買前請以官方公告為準。<a class="more js-disclaimer" href="disclaimer/index.html">閱讀完整免責聲明</a></p>
       <p class="fine" id="footFine"></p>
-      <p class="fine">本站為「<a href="https://au-working-holiday.pages.dev">澳洲打工度假資訊平台</a>」的一部分。</p>
+      <p class="fine">本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/" target="_blank" rel="noopener">瀏覽其他網站</a></p>
     </div>
     <div id="social"></div>
   </div>

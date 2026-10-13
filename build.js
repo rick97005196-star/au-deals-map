@@ -73,6 +73,9 @@ function wrap(content, extraHead = '') {
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="${FAVICON}">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 ${extraHead}${head}</head>
 <body>
 ${body}</body>
@@ -108,6 +111,18 @@ write('public/_headers', `/*
   Cache-Control: no-store
 `);
 for (const f of fs.readdirSync(path.join(ROOT, 'brand')).filter((f) => f.endsWith('.svg'))) write('public/brand/' + f, read('brand/' + f));
+// PNG 圖示（分頁圖示備援、iPhone 主畫面、Android）；iPhone 預設也會找根目錄的 /apple-touch-icon.png
+for (const f of fs.readdirSync(path.join(ROOT, 'brand')).filter((f) => f.endsWith('.png'))) fs.copyFileSync(path.join(ROOT, 'brand', f), path.join(ROOT, 'public/brand', f));
+fs.copyFileSync(path.join(ROOT, 'brand/apple-touch-icon.png'), path.join(ROOT, 'public/apple-touch-icon.png'));
+write('public/site.webmanifest', JSON.stringify({
+  name: '澳洲活動優惠地圖', short_name: '優惠地圖', start_url: '/', display: 'browser',
+  background_color: '#FFFFFF', theme_color: '#FFFFFF',
+  icons: [
+    { src: '/brand/icon-192.png', sizes: '192x192', type: 'image/png' },
+    { src: '/brand/icon-512.png', sizes: '512x512', type: 'image/png' },
+    { src: '/brand/icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+  ],
+}, null, 2));
 write('artifact/index.html', fill(indexTpl, { api: false, tiles: false }));
 
 const v = data.items.filter((i) => i.verified.status === 'verified').length;
