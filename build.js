@@ -71,7 +71,7 @@ function wrap(content, extraHead = '') {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#FFFFFF">
+<meta name="theme-color" content="#FFFDF8">
 <link rel="icon" href="${FAVICON}">
 <link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
 <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
@@ -116,7 +116,7 @@ for (const f of fs.readdirSync(path.join(ROOT, 'brand')).filter((f) => f.endsWit
 fs.copyFileSync(path.join(ROOT, 'brand/apple-touch-icon.png'), path.join(ROOT, 'public/apple-touch-icon.png'));
 write('public/site.webmanifest', JSON.stringify({
   name: '澳洲活動優惠地圖', short_name: '優惠地圖', start_url: '/', display: 'browser',
-  background_color: '#FFFFFF', theme_color: '#FFFFFF',
+  background_color: '#FFFDF8', theme_color: '#FFFDF8',
   icons: [
     { src: '/brand/icon-192.png', sizes: '192x192', type: 'image/png' },
     { src: '/brand/icon-512.png', sizes: '512x512', type: 'image/png' },

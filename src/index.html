@@ -5,9 +5,9 @@
 /* 版面：由上而下閱讀。頁首 → 標題與搜尋、地區 → 快速入口 → 分類列（捲動時固定）→ 卡片牆。
    點卡片開詳細資訊（電腦：右側面板／手機：底部抽屜）；地圖改為可切換的檢視（畫面下方的按鈕）。 */
 :root{
-  --bg:#FFFFFF; --tint:#F6F7F5; --tint-2:#EEF0ED;
-  --ink:#121A17; --ink-2:#38443F; --muted:#66726D; --faint:#99A39E;
-  --line:#E3E6E2; --line-2:#EEF0ED; --line-strong:#C9CFCA;
+  --bg:#FFFDF8; --tint:#F6F1E6; --tint-2:#EFE8DA;
+  --ink:#1F2A26; --ink-2:#3A4642; --muted:#5A6661; --faint:#7E8883; --amber-ink:#B8770E;
+  --line:#E7E0D2; --line-2:#F0EADF; --line-strong:#CFC6B4;
   --sea:#EDF1EF; --land:#FFFFFF; --land-hover:#F2F6F4; --land-sel:#E2EDE9; --border-land:#C3CBC6;
   --event:#1D5E78; --event-soft:#E8F1F5;
   --deal:#97600A; --deal-pin:#DF9A2B; --deal-soft:#FBF3E3;
@@ -21,9 +21,9 @@
   --focus:#1D5E78;
   --shadow:0 1px 2px rgba(18,26,23,.05),0 10px 30px rgba(18,26,23,.08);
   --shadow-lg:0 2px 6px rgba(18,26,23,.06),0 24px 60px rgba(18,26,23,.16);
-  --f-display:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei","Segoe UI",system-ui,sans-serif;
-  --f-body:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei","Segoe UI",system-ui,sans-serif;
-  --f-mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,"Liberation Mono",monospace;
+  --f-display:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;
+  --f-body:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;
+  --f-mono:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;
   --r:6px;
   --wrap:1240px;
   --gutter:32px;
@@ -50,7 +50,7 @@ body.no-scroll{overflow:hidden}
 .btn-star svg{pointer-events:none}
 .btn-itin-action.is-saved{background:var(--deal-soft);border-color:var(--deal-pin);color:var(--deal)}
 
-.itin-badge{display:inline-grid;place-items:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--deal-pin);color:#fff;font-family:var(--f-mono);font-size:11px;font-weight:700;margin-left:4px}
+.itin-badge{display:inline-grid;place-items:center;min-width:18px;height:18px;padding:0 5px;border-radius:999px;background:var(--deal-pin);color:#fff;font-family:var(--f-mono);font-size:12px;font-weight:700;margin-left:4px}
 .itin-sheet{max-width:620px!important}
 .itin-actions-bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 18px;padding-bottom:12px;border-bottom:1px solid var(--line-2)}
 .itin-list{display:grid;gap:12px}
@@ -83,13 +83,14 @@ body.no-scroll{overflow:hidden}
 .brand{display:flex;align-items:center;gap:12px;min-width:0;text-decoration:none}
 .brand svg{flex:none}
 .brand-name{font-family:var(--f-display);font-weight:700;font-size:20px;letter-spacing:.06em;line-height:1.2;margin:0;white-space:nowrap}
-.brand-sub{font-family:var(--f-mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-top:3px;white-space:nowrap}
+.brand-sub{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:3px;white-space:nowrap}
 .nav{margin-left:auto;display:flex;align-items:center;gap:4px}
 .nav a,.nav button{display:inline-flex;align-items:center;gap:7px;height:36px;padding:0 12px;border:0;background:none;border-radius:var(--r);font-size:13.5px;color:var(--ink-2);text-decoration:none;cursor:pointer;white-space:nowrap}
 .nav a:hover,.nav button:hover{background:var(--tint);color:var(--ink)}
 .nav .nav-hub{margin-left:6px;border:1px solid var(--line)}
 @media (max-width:900px){.nav .nav-hub{display:none}}
-.nav .ok-dot{width:16px;height:16px;border-radius:50%;background:var(--ok);color:#fff;display:grid;place-items:center;font-size:10px;font-style:normal}
+.i{display:inline-block;flex:none;vertical-align:-3px}
+.nav svg[data-ok]{color:var(--ok)}
 
 /* ---------- 開場：標題、搜尋、地區 ---------- */
 .hero{background:var(--tint);border-bottom:1px solid var(--line)}
@@ -105,7 +106,7 @@ body.no-scroll{overflow:hidden}
 .search input::placeholder{color:var(--faint)}
 .search input::-webkit-search-cancel-button{display:none}
 .search input:focus{border-color:var(--ink-2);box-shadow:0 0 0 4px rgba(18,26,23,.06)}
-.search .clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;background:none;border-radius:6px;color:var(--muted);cursor:pointer}
+.search .clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;background:none;border-radius:6px;color:var(--muted);cursor:pointer;display:grid;place-items:center}
 .search .clear:hover{background:var(--tint)}
 .regions-label{margin:22px 0 8px;font-size:12.5px;color:var(--muted);letter-spacing:.06em}
 .regions{display:flex;flex-wrap:wrap;gap:6px}
@@ -153,7 +154,7 @@ body.no-scroll{overflow:hidden}
 .chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:10px 0 12px}
 .chips::-webkit-scrollbar{display:none}
 .chip{display:inline-flex;align-items:center;gap:6px;height:32px;padding:0 12px;border:1px solid var(--line);border-radius:999px;background:var(--bg);font-size:13.5px;color:var(--ink-2);cursor:pointer;white-space:nowrap}
-.chip .n{font-family:var(--f-mono);font-size:11.5px;color:var(--faint)}
+.chip .n{font-family:var(--f-mono);font-size:12px;color:var(--faint)}
 .chip:hover{border-color:var(--line-strong)}
 .chip[aria-pressed="true"]{background:var(--c-soft,var(--tint-2));border-color:var(--c,var(--ink));color:var(--c,var(--ink));font-weight:500}
 .chips-row{border-top:1px solid var(--line-2)}
@@ -181,10 +182,10 @@ body.no-scroll{overflow:hidden}
 .card::before{content:"";position:absolute;left:18px;right:18px;top:-1px;height:3px;border-radius:0 0 3px 3px;background:var(--c)}
 .card-top{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
 .cat{color:var(--c);font-weight:500}
-.rcode{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;border:1px solid var(--line-strong);border-radius:3px;padding:0 5px;color:var(--ink-2);line-height:17px}
+.rcode{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;border:1px solid var(--line-strong);border-radius:3px;padding:0 5px;color:var(--ink-2);line-height:17px}
 .rcode.au{border-color:var(--ink);background:var(--ink);color:#fff}
-.tag-new{font-size:11.5px;color:var(--ok);background:var(--ok-soft);border-radius:3px;padding:0 6px;line-height:18px;font-weight:500}
-.tag-hot{font-size:11.5px;color:var(--urgent);background:var(--urgent-soft);border-radius:3px;padding:0 6px;line-height:18px;font-weight:500}
+.tag-new{font-size:12px;color:var(--ok);background:var(--ok-soft);border-radius:3px;padding:0 6px;line-height:18px;font-weight:500}
+.tag-hot{font-size:12px;color:var(--urgent);background:var(--urgent-soft);border-radius:3px;padding:0 6px;line-height:18px;font-weight:500}
 .card-title{font-family:var(--f-display);font-weight:700;font-size:18.5px;line-height:1.45;margin:0;letter-spacing:.01em;text-wrap:balance}
 .card-en{margin:-4px 0 0;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .card-when{display:flex;gap:4px 8px;flex-wrap:wrap;font-size:13.5px;color:var(--ink-2)}
@@ -200,7 +201,7 @@ body.no-scroll{overflow:hidden}
 .status--now{background:var(--ok-soft);color:var(--ok)}
 .status--urgent{background:var(--urgent-soft);color:var(--urgent)}
 .status--soon{background:var(--event-soft);color:var(--event)}
-.vmini{font-size:12px;color:var(--ok);white-space:nowrap}
+.vmini{font-size:12px;color:var(--ok);white-space:nowrap;display:inline-flex;align-items:center;gap:4px}
 .vmini.part{color:var(--part)}
 .g-eat{--c:var(--g-eat);--c-soft:var(--g-eat-soft)}
 .g-event{--c:var(--g-event);--c-soft:var(--g-event-soft)}
@@ -234,7 +235,7 @@ body.no-scroll{overflow:hidden}
 .tiles-on .state{fill-opacity:0;stroke:var(--ink-2);stroke-opacity:.35;stroke-width:1}
 .tiles-on .state:hover,.tiles-on .state.is-sel,.tiles-on .state.is-dim{fill-opacity:0}
 .tiles-on .state.is-sel{stroke-opacity:.6}
-.st-label{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.12em;color:var(--muted);white-space:nowrap;text-align:center;pointer-events:none;line-height:1.3}
+.st-label{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;color:var(--muted);white-space:nowrap;text-align:center;pointer-events:none;line-height:1.3}
 .st-label.zero{opacity:.45}
 .st-label b{display:block;font-family:var(--f-display);font-size:15px;letter-spacing:0;color:var(--ink-2);font-weight:700}
 .leaflet-marker-icon.st-wrap,.leaflet-marker-icon.pin-wrap,.leaflet-marker-icon.cl-wrap{background:none;border:0}
@@ -249,7 +250,7 @@ body.no-scroll{overflow:hidden}
 .leaflet-tooltip.tt small{display:block;color:var(--muted);font-size:12px}
 .leaflet-bar a,.leaflet-bar a:hover{background:var(--bg);color:var(--ink);border-bottom-color:var(--line)}
 .leaflet-bar{border:1px solid var(--line)!important;box-shadow:var(--shadow)!important;border-radius:8px!important;overflow:hidden}
-.leaflet-control-attribution{background:rgba(255,255,255,.85)!important;color:var(--muted)!important;font-size:10px}
+.leaflet-control-attribution{background:rgba(255,255,255,.85)!important;color:var(--muted)!important;font-size:12px}
 .leaflet-control-attribution a{color:var(--ink-2)!important}
 
 /* 切換清單／地圖的浮動按鈕 */
@@ -257,8 +258,16 @@ body.no-scroll{overflow:hidden}
 .fab:hover{background:#26322D}
 
 /* ---------- 頁尾 ---------- */
+.more-row{display:flex;justify-content:center;margin:18px 0 6px}
+.more-btn{min-width:220px;height:44px;font-size:14px}
 .foot{border-top:1px solid var(--line);background:var(--tint)}
-.foot .wrap{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;padding-top:36px;padding-bottom:96px}
+.foot .foot-social{padding-top:32px;padding-bottom:28px;border-bottom:1px solid var(--line)}
+.foot .foot-info{display:grid;gap:18px;padding-top:28px;padding-bottom:96px}
+.foot .foot-item{max-width:760px}
+.foot .foot-item p{margin:0}
+.foot .foot-item p + p{margin-top:8px}
+.foot a{color:var(--ink-2);text-underline-offset:3px}
+.foot .copy{font-size:12px;color:var(--faint)}
 .foot h4{margin:0 0 6px;font-family:var(--f-display);font-size:16px}
 .foot p{margin:0 0 12px;font-size:13px;color:var(--muted);line-height:1.8}
 .foot .kw{color:var(--ink);font-weight:500}
@@ -266,8 +275,8 @@ body.no-scroll{overflow:hidden}
 .social-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:6px}
 .social-links a{border:1px solid var(--line);background:var(--bg);border-radius:var(--r);height:36px;padding:0 12px;font-size:13px;text-decoration:none;display:flex;justify-content:space-between;align-items:center}
 .social-links a:hover{border-color:var(--ink-2)}
-.social-links a span{color:var(--faint)}
-.foot .fine{font-size:12px;color:var(--faint);margin-top:16px}
+.social-links a span{color:var(--faint);display:grid}
+.foot .fine{font-size:12px;color:var(--faint)}
 
 /* ---------- 詳細資訊（電腦：右側面板／手機：底部抽屜） ---------- */
 dialog.sheet{position:fixed;inset:0 0 0 auto;margin:0;width:min(520px,100%);max-width:none;height:100%;max-height:none;border:0;border-left:1px solid var(--line);padding:0;background:var(--bg);color:var(--ink);box-shadow:var(--shadow-lg);overflow:hidden}
@@ -295,17 +304,17 @@ dialog.sheet::backdrop{background:rgba(18,26,23,.38)}
 .sources li + li{border-top:1px solid var(--line-2)}
 .sources a{display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;padding:10px 12px;text-decoration:none;font-size:13.5px}
 .sources a:hover{background:var(--tint)}
-.sources .k{font-size:11px;padding:0 6px;line-height:18px;border-radius:3px;border:1px solid var(--line-strong);color:var(--muted);white-space:nowrap}
+.sources .k{font-size:12px;padding:0 6px;line-height:18px;border-radius:3px;border:1px solid var(--line-strong);color:var(--muted);white-space:nowrap}
 .sources .k.k-official{border-color:var(--ink);background:var(--ink);color:#fff}
 .sources .t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .sources .t small{color:var(--muted);margin-left:6px;font-size:12px}
-.sources .ext{color:var(--faint);font-size:12px}
+.sources .ext{color:var(--faint);display:grid}
 .verify{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:12px 14px;border-radius:10px;font-size:13.5px;line-height:1.7}
 .verify.ok{background:var(--ok-soft)}
 .verify.part{background:var(--part-soft)}
 .verify .ic{width:20px;height:20px;border-radius:50%;display:grid;place-items:center;margin-top:1px}
 .verify.ok .ic{background:var(--ok);color:#fff}
-.verify.part .ic{border:1.5px solid var(--part);color:var(--part)}
+.verify.part .ic{color:var(--part)}
 .verify b{font-weight:500}
 .verify.ok b{color:var(--ok)}
 .verify.part b{color:var(--part)}
@@ -342,7 +351,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
   .tools::-webkit-scrollbar{display:none}
   .chips-row{border-top:0}
   .chips{padding-top:0;margin:0 calc(var(--gutter) * -1);padding-left:var(--gutter);padding-right:var(--gutter)}
-  .foot .wrap{grid-template-columns:1fr;gap:28px}
+  .foot .foot-info{gap:16px}
 }
 /* ---------- 手機 ---------- */
 @media (max-width:640px){
@@ -387,7 +396,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
   .actions .btn{flex:1 1 auto}
 }
 @media (max-width:400px){
-  .nav .ok-dot{display:none}
+  .nav svg[data-ok]{display:none}
   .nav a,.nav button{padding:0 6px}
   .nav a.js-disclaimer{display:none}
   .brand-name{font-size:15px;letter-spacing:0}
@@ -396,6 +405,104 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
 }
 @keyframes slide-up{from{transform:translateY(40px);opacity:.4}to{transform:none;opacity:1}}
 @media (prefers-reduced-motion:reduce){dialog.sheet[open]{animation:none}.card:hover{transform:none}}
+
+/* ---------- 優惠券風格（方框＋小圓角：標籤 4px、按鈕／輸入框 6px、卡片 8px、大面板 12px） ---------- */
+body{font:16px/1.75 var(--f-body)}
+.n,.mono,.count b,.cl,.itin-badge,.rcode{font-variant-numeric:tabular-nums}
+.top{border-bottom:1.5px solid var(--ink)}
+.brand-name{font-weight:800;letter-spacing:.04em}
+.brand-sub{font-weight:800;letter-spacing:.14em}
+.headline{font-weight:800;font-size:48px;line-height:1.3;letter-spacing:.02em}
+.headline span{color:var(--amber-ink);display:inline-block}
+.headline .h1a{color:inherit}
+.sec-title h2{font-weight:800;font-size:26px;letter-spacing:.03em}
+.group-h h3{font-weight:800;font-size:22px}
+.card-title{font-weight:800;letter-spacing:.02em}
+.d-title,.dlg h2,.foot h4,.empty h4{font-weight:800}
+.hero{border-bottom:1.5px solid var(--ink)}
+.search input{background:#fff;border:1.5px solid var(--ink);border-radius:6px;box-shadow:none}
+.search input:focus{box-shadow:0 0 0 3px rgba(223,154,43,.35)}
+
+/* 地區：相連的分段按鈕 */
+.regions{gap:0}
+.rg{height:40px;margin-left:-1.5px;border:1.5px solid var(--ink);border-radius:0;background:#fff;font-weight:700}
+.rg:first-child{margin-left:0;border-radius:6px 0 0 6px}
+.rg:last-child{border-radius:0 6px 6px 0}
+.rg:hover{background:var(--tint)}
+.rg[aria-pressed="true"]{position:relative;z-index:1}
+.rg .n{color:var(--muted)}
+
+/* 快速入口、分類與篩選 */
+.qt{border:1.5px solid var(--ink);border-radius:8px;background:#fff}
+.qt:hover{box-shadow:3px 3px 0 var(--ink)}
+.qt[aria-pressed="true"]{box-shadow:3px 3px 0 var(--deal-pin)}
+.qt .ic{border-radius:6px}
+.bar{background:rgba(255,253,248,.97);border-bottom:1.5px solid var(--ink)}
+.toggle,.select{border:1.5px solid var(--ink);border-radius:6px;background-color:#fff}
+.toggle::before{border-radius:3px}
+.chip{border-radius:6px;background:#fff}
+.chip[aria-pressed="true"]{border-width:1.5px}
+.af{border-radius:4px}
+.af span{border-radius:4px}
+.itin-badge{border-radius:4px}
+
+/* 折價券卡片：左側日期票根＋虛線撕線＋上下截角 */
+.card{background:#fff;border:1.5px solid var(--ink);border-radius:8px;box-shadow:0 6px 16px -12px rgba(31,42,38,.5)}
+.card::before,.card::after{content:"";position:absolute;left:64px;width:12px;height:7px;background:var(--bg);border:1.5px solid var(--ink);border-radius:3px;z-index:1;top:auto;right:auto}
+.card::before{top:-1.5px;border-top:0;border-radius:0 0 3px 3px}
+.card::after{bottom:-1.5px;border-bottom:0;border-radius:3px 3px 0 0}
+.card:hover{border-color:var(--ink);box-shadow:3px 3px 0 var(--ink);transform:translateY(-1px)}
+.card-hit{display:grid;grid-template-columns:70px minmax(0,1fr);gap:0;padding:0;border-radius:7px}
+.stub{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:12px 4px;background:var(--c);color:#fff;border-right:2px dashed #fff;border-radius:6.5px 0 0 6.5px;text-align:center;line-height:1.2}
+.stub b{font-size:20px;font-weight:800;letter-spacing:.01em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.stub span{font-size:12px;font-weight:700;letter-spacing:.06em;opacity:.95;white-space:nowrap}
+.card-body{display:flex;flex-direction:column;gap:8px;padding:14px 16px 14px;min-width:0}
+.card .card-top{padding-right:36px}
+.cat{font-weight:800;letter-spacing:.06em}
+.rcode{border-radius:4px;border-color:var(--ink)}
+.tag-new,.tag-hot{border-radius:4px}
+.free-mark{display:inline-block;padding:0 6px;border:1.5px solid var(--deal-pin);border-radius:4px;background:#FFF6E5;color:#8A5806;font-size:12px;font-weight:800;line-height:18px}
+.card-price{border-top:1.5px dashed var(--line-strong)}
+.btn-star{top:8px;right:8px;width:34px;height:34px;border-radius:6px;border:1.5px solid var(--line-strong);background:#fff}
+.btn-star:hover{transform:none;border-color:var(--deal-pin)}
+
+/* 按鈕、面板 */
+.btn{border:1.5px solid var(--ink);border-radius:6px;background:#fff;font-weight:700}
+.btn:hover{background:var(--tint)}
+.btn.primary{box-shadow:3px 3px 0 var(--deal-pin)}
+.btn.primary:hover{background:#2C3A35}
+.more-btn{box-shadow:3px 3px 0 var(--ink)}
+.empty{border-radius:8px;border:1.5px dashed var(--ink)}
+.fab{border-radius:6px;border:1.5px solid var(--ink);box-shadow:3px 3px 0 var(--deal-pin);font-weight:700}
+.mapbox{border:1.5px solid var(--ink);border-radius:12px}
+.legend{border:1.5px solid var(--ink);border-radius:6px;box-shadow:none}
+.leaflet-bar{border:1.5px solid var(--ink)!important;border-radius:6px!important;box-shadow:none!important}
+dialog.sheet{border-left:1.5px solid var(--ink)}
+.x{border-radius:6px}
+.kv,.sources,.verify{border-radius:8px}
+.sources{border:1.5px solid var(--ink)}
+.sources .k{border-radius:4px}
+.verify .ic{border-radius:4px}
+.itin-item{border:1.5px solid var(--ink);border-radius:8px;background:#fff}
+dialog.how{border:1.5px solid var(--ink);border-radius:12px}
+.steps li::before{border-radius:4px;border:1.5px solid var(--ink)}
+.social-links a{border:1.5px solid var(--ink);border-radius:6px;background:#fff}
+.foot{border-top:1.5px solid var(--ink)}
+
+@media (max-width:900px){
+  .headline{font-size:40px}
+}
+@media (max-width:640px){
+  .headline{font-size:30px}
+  .sec-title h2{font-size:24px}
+  .group-h h3{font-size:20px}
+  dialog.sheet{border-left:0;border-top:1.5px solid var(--ink);border-radius:12px 12px 0 0}
+  .card-hit{grid-template-columns:64px minmax(0,1fr)}
+  .card::before,.card::after{left:58px}
+  .stub b{font-size:18px}
+  .card-body{padding:13px 14px}
+  .rg{height:38px;padding:0 12px}
+}
 </style>
 
 <header class="top">
@@ -409,7 +516,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
     </a>
     <nav class="nav" aria-label="網站">
       <button id="itinBtn" type="button" aria-label="我的收藏"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="nav-label">收藏</span><span class="itin-badge" id="itinBadge" hidden>0</span></button>
-      <button id="howBtn" type="button"><i class="ok-dot" aria-hidden="true">✓</i>查證方式</button>
+      <button id="howBtn" type="button"><svg class="i" data-ok width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.7 2.7L16 9.8"/></svg>查證方式</button>
       <a href="disclaimer/index.html" class="js-disclaimer">免責聲明</a>
       <a href="https://au-working-holiday.pages.dev/" class="nav-hub" target="_blank" rel="noopener">澳洲打工度假資訊平台</a>
     </nav>
@@ -420,12 +527,12 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
 <section class="hero">
   <div class="wrap">
     <p class="eyebrow"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono js-updated"></span>・每日清晨自動更新</span></p>
-    <h1 class="headline">澳洲現在有哪些活動與優惠</h1>
+    <h1 class="headline"><span class="h1a">澳洲現在有哪些</span><span>活動與優惠</span></h1>
     <p class="sub">超市特價、速食與外送 App、節慶市集、交通與旅遊，一次整理。目前收錄 <b class="mono js-count"></b> 筆，每筆均附官方來源，其中 <b class="mono js-verified"></b> 筆的日期、價格與地點已完整查證。</p>
     <div class="search" role="search">
       <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="搜尋品牌、活動或城市，例如 ALDI、Brisbane、市集" aria-label="搜尋">
-      <button class="clear" id="qClear" type="button" aria-label="清除搜尋" hidden>✕</button>
+      <button class="clear" id="qClear" type="button" aria-label="清除搜尋" hidden><svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
     </div>
     <p class="regions-label">選擇所在地區（全澳適用的優惠會一併顯示）</p>
     <div class="regions" id="regions" role="group" aria-label="地區"></div>
@@ -481,14 +588,20 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
 </main>
 
 <footer class="foot">
-  <div class="wrap">
-    <div>
+  <div class="wrap foot-social"><div id="social"></div></div>
+  <div class="wrap foot-info">
+    <div class="foot-item">
+      <h4>澳洲活動優惠地圖</h4>
+      <p>整理澳洲各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。</p>
+      <p class="fine" id="footFine"></p>
+    </div>
+    <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/" target="_blank" rel="noopener">瀏覽其他網站</a></p></div>
+    <div class="foot-item"><p>資料有誤或想要新功能？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest" target="_blank" rel="noopener">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
+    <div class="foot-item">
       <h4>免責聲明</h4>
       <p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係。所有項目雖經官方頁面查證，活動與優惠仍可能臨時異動、提前結束或依門市而異，出發或購買前請以官方公告為準。<a class="more js-disclaimer" href="disclaimer/index.html">閱讀完整免責聲明</a></p>
-      <p class="fine" id="footFine"></p>
-      <p class="fine">本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/" target="_blank" rel="noopener">瀏覽其他網站</a></p>
     </div>
-    <div id="social"></div>
+    <div class="foot-item"><p class="copy">© 2026 澳洲打工度假資訊平台・澳洲活動優惠地圖</p></div>
   </div>
 </footer>
 
@@ -723,26 +836,52 @@ function metaHTML(it){
   const isHot = S.hot.slice(0, 5).includes(it.id);
   return `<span class="cat">${CATS[it.category] || ''}</span><span class="rcode${it.region === 'AU' ? ' au' : ''}">${it.region === 'AU' ? '全澳' : it.region}</span>${isNew(it) ? '<span class="tag-new">新上架</span>' : ''}${isHot ? '<span class="tag-hot">熱門</span>' : ''}`;
 }
+const LI = {
+  ext: '<svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>',
+  check: '<svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>',
+  half: '<svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>',
+  x: '<svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>'
+};
+/* 票根：左側顯示最關鍵的日期（截止日、開始日或單日活動日） */
+function stubParts(it){
+  const st = status(it);
+  if (it._e !== null && it._s === it._e) return ['週' + wd(it._s), md(it._s), '當日'];
+  if (st.k === 'soon') return ['週' + wd(it._s), md(it._s), '開始'];
+  if (it._e !== null) return ['至', md(it._e), '截止'];
+  return TODAY - it._s > 45 ? ['常態', '長期', '有效'] : ['自', md(it._s), '起'];
+}
 function cardHTML(it){
   const st = status(it), v = it.verified;
   const saved = isSaved(it.id);
+  const sb = stubParts(it);
   return `<article class="card g-${it._g}" id="c-${esc(it.id)}">
   <button type="button" class="card-hit" data-open="${esc(it.id)}" aria-haspopup="dialog">
-    <div class="card-top">${metaHTML(it)}</div>
+    <span class="stub" aria-hidden="true"><span>${sb[0]}</span><b>${sb[1]}</b><span>${sb[2]}</span></span>
+    <span class="card-body">
+    <div class="card-top">${metaHTML(it)}${it.free ? '<span class="free-mark">免費</span>' : ''}</div>
     <h3 class="card-title">${esc(it.title_zh)}</h3>
     <p class="card-en">${esc(it.title)}</p>
     <div class="card-when"><span class="mono">${esc(dateText(it))}</span><span class="where">· ${esc(whereText(it))}</span></div>
     <div class="card-price"><span class="price${it.free ? ' free' : ''}">${esc(it.price_zh)}</span>${it.highlight ? `<span class="hl">${esc(it.highlight)}</span>` : ''}</div>
-    <div class="card-foot"><span class="status status--${st.k}">${esc(st.label)}</span><span class="vmini${v.status === 'partial' ? ' part' : ''}">${v.status === 'partial' ? '◐ 部分查證' : '✓ 已查證'}</span></div>
+    <div class="card-foot"><span class="status status--${st.k}">${esc(st.label)}</span><span class="vmini${v.status === 'partial' ? ' part' : ''}">${v.status === 'partial' ? LI.half + '部分查證' : LI.check + '已查證'}</span></div>
+    </span>
   </button>
   <button type="button" class="btn-star${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}" aria-label="${saved ? '取消收藏' : '加入收藏'}" title="${saved ? '取消收藏' : '加入收藏'}">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="${saved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
   </button>
 </article>`;
 }
-function section(title, note, arr){
+/* 列表分段：每區先顯示 20 筆，「顯示更多」每次再加 20 筆；篩選與計數仍以全部資料計算 */
+const PAGE = 20;
+let SHOW = {};
+function gridHTML(arr, key, style){
+  const shown = arr.slice(0, SHOW[key] || PAGE), rest = arr.length - shown.length;
+  return `<div class="grid" data-key="${key}"${style || ''}>${shown.map(cardHTML).join('')}</div>` +
+    (rest > 0 ? `<div class="more-row"><button type="button" class="btn more-btn" data-more="${key}">顯示更多（還有 ${rest} 筆）</button></div>` : '');
+}
+function section(title, note, arr, key){
   if (!arr.length) return '';
-  return `<div class="group-h"><h3>${title}</h3><span class="n">${arr.length}</span>${note ? `<p>${note}</p>` : ''}</div><div class="grid">${arr.map(cardHTML).join('')}</div>`;
+  return `<div class="group-h"><h3>${title}</h3><span class="n">${arr.length}</span>${note ? `<p>${note}</p>` : ''}</div>` + gridHTML(arr, key);
 }
 function renderActive(){
   const tags = [];
@@ -752,8 +891,8 @@ function renderActive(){
   if (S.when !== 'any') tags.push(['when', $('when').selectedOptions[0].textContent]);
   if (S.flag) tags.push(['flag', S.flag === 'new' ? '新上架' : '即將截止']);
   if (S.q) tags.push(['q', '「' + S.q + '」']);
-  $('activeFilters').innerHTML = tags.map(([k, t]) => `<button type="button" class="af" data-unset="${k}" aria-label="移除篩選：${esc(t)}">${esc(t)}<span aria-hidden="true">✕</span></button>`).join('') +
-    (tags.length > 1 ? `<button type="button" class="af" data-unset="all">全部清除<span aria-hidden="true">✕</span></button>` : '');
+  $('activeFilters').innerHTML = tags.map(([k, t]) => `<button type="button" class="af" data-unset="${k}" aria-label="移除篩選：${esc(t)}">${esc(t)}<span aria-hidden="true">${LI.x}</span></button>`).join('') +
+    (tags.length > 1 ? `<button type="button" class="af" data-unset="all">全部清除<span aria-hidden="true">${LI.x}</span></button>` : '');
 }
 function renderList(){
   const list = sortItems(ITEMS.filter(it => pass(it)));
@@ -772,9 +911,9 @@ function renderList(){
     const ongoing = rest.filter(it => status(it).k === 'now');
     const longA = rest.filter(it => status(it).k === 'long');
     const soonA = rest.filter(it => status(it).k === 'soon').sort((a, b) => a._s - b._s);
-    html = section('即將截止', '7 天內結束，請盡早安排', ending) + section('進行中', '', ongoing) + section('長期與固定時段', '常態優惠、每週固定舉行', longA) + section('即將開始', '依開始日期排列', soonA);
+    html = section('即將截止', '7 天內結束，請盡早安排', ending, 'ending') + section('進行中', '', ongoing, 'now') + section('長期與固定時段', '常態優惠、每週固定舉行', longA, 'long') + section('即將開始', '依開始日期排列', soonA, 'soon');
   } else {
-    html = `<div class="grid" style="margin-top:16px">${list.map(cardHTML).join('')}</div>`;
+    html = gridHTML(list, 'all', ' style="margin-top:16px"');
   }
   $('list').innerHTML = html;
   renderSocial();
@@ -802,9 +941,9 @@ function detailHTML(it){
       <dt>價格</dt><dd>${esc(it.price_zh)}</dd>
     </dl>
     <div class="actions">
-      ${off ? `<a class="btn primary" href="${esc(off.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="official">前往官方頁面 ↗</a>` : ''}
+      ${off ? `<a class="btn primary" href="${esc(off.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="official">前往官方頁面${LI.ext}</a>` : ''}
       ${it.lat != null && it.lng != null ? `<button type="button" class="btn" data-fly="${esc(it.id)}">在地圖上查看</button>` : ''}
-      ${gmap ? `<a class="btn" href="${gmap}" target="_blank" rel="noopener">Google 地圖 ↗</a>` : ''}
+      ${gmap ? `<a class="btn" href="${gmap}" target="_blank" rel="noopener">Google 地圖${LI.ext}</a>` : ''}
       <button type="button" class="btn btn-itin-action${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}">${saved ? '已收藏' : '加入收藏'}</button>
       ${it.type === 'event' ? `<button type="button" class="btn" data-gcal="${esc(it.id)}">加入 Google 日曆</button>
       <button type="button" class="btn" data-ics="${esc(it.id)}">下載行事曆檔</button>` : ''}
@@ -813,10 +952,10 @@ function detailHTML(it){
 
     <div>
       <p class="h5">資料來源</p>
-      <ul class="sources">${it.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="${esc(s.kind)}"><span class="k k-${esc(s.kind)}">${KIND[s.kind] || s.kind}</span><span class="t">${esc(s.platform)}・${esc(s.label)}<small>${esc(host(s.url))}</small></span><span class="ext">↗</span></a></li>`).join('')}</ul>
+      <ul class="sources">${it.sources.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="${esc(s.kind)}"><span class="k k-${esc(s.kind)}">${KIND[s.kind] || s.kind}</span><span class="t">${esc(s.platform)}・${esc(s.label)}<small>${esc(host(s.url))}</small></span><span class="ext">${LI.ext}</span></a></li>`).join('')}</ul>
     </div>
     <div class="verify ${v.status === 'partial' ? 'part' : 'ok'}">
-      <span class="ic" aria-hidden="true">${v.status === 'partial' ? '◐' : '<svg width="11" height="11" viewBox="0 0 12 12"><path d="M2 6.3l2.6 2.5L10 3.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'}</span>
+      <span class="ic" aria-hidden="true">${v.status === 'partial' ? LI.half : '<svg width="11" height="11" viewBox="0 0 12 12"><path d="M2 6.3l2.6 2.5L10 3.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'}</span>
       <div>${v.status === 'partial'
         ? `<b>部分查證</b>・${esc(v.checked.replace(/-/g,'/'))}<br>日期已於官方頁面核對；尚待確認：${esc(v.unconfirmed_zh)}`
         : `<b>已查證</b>・${esc(v.checked.replace(/-/g,'/'))}<br>已由獨立查證人員於官方頁面核對日期、價格與地點。`}</div>
@@ -862,7 +1001,7 @@ function socialKeyword(){
 function renderSocial(){
   const kw = socialKeyword();
   $('social').innerHTML = `<h4>延伸搜尋社群平台</h4><p>以「<span class="kw">${esc(kw)}</span>」搜尋各平台的最新貼文。外部搜尋結果未經本站查證，請自行判斷。</p>
-  <div class="social-links">${SOCIAL.map(([n, f]) => `<a href="${esc(f(kw))}" target="_blank" rel="noopener" data-social="${n}">${n} <span aria-hidden="true">↗</span></a>`).join('')}</div>`;
+  <div class="social-links">${SOCIAL.map(([n, f]) => `<a href="${esc(f(kw))}" target="_blank" rel="noopener" data-social="${n}">${n} <span aria-hidden="true">${LI.ext}</span></a>`).join('')}</div>`;
 }
 
 /* ---------- 地圖（切換到地圖檢視時才載入） ---------- */
@@ -1116,6 +1255,7 @@ function downloadIcs(items, filename) {
 /* ---------- 操作 ---------- */
 let lastList = [];
 function render(){
+  SHOW = {};
   renderRegions(); renderQuick(); renderTabs();
   lastList = renderList();
   renderMap(lastList);
@@ -1155,6 +1295,16 @@ document.addEventListener('click', e => {
     if (k === 'q') S.q = '';
     syncControls(); render(); return;
   }
+  if (t.dataset.more){
+    const k = t.dataset.more, from = SHOW[k] || PAGE, y = scrollY;
+    SHOW[k] = from + PAGE;
+    lastList = renderList();
+    scrollTo({top: y, behavior: 'instant'});
+    const g = document.querySelector('.grid[data-key="' + k + '"]');
+    const c = g && g.children[from] && g.children[from].querySelector('.card-hit');
+    if (c) c.focus({preventScroll: true});
+    return;
+  }
   if (t.dataset.open){ openItem(t.dataset.open); return; }
   if (t.dataset.fly){
     const it = BYID[t.dataset.fly];
@@ -1193,7 +1343,7 @@ document.addEventListener('click', e => {
 $('fab').addEventListener('click', () => setView(S.view === 'list' ? 'map' : 'list'));
 $('freeBtn').addEventListener('click', () => { manual(); S.free = !S.free; syncControls(); render(); });
 $('when').addEventListener('change', e => { manual(); S.when = e.target.value; render(); });
-$('sort').addEventListener('change', e => { S.sort = e.target.value; lastList = renderList(); });
+$('sort').addEventListener('change', e => { S.sort = e.target.value; SHOW = {}; lastList = renderList(); });
 let qTimer, qTrack;
 $('q').addEventListener('input', e => {
   clearTimeout(qTimer); clearTimeout(qTrack);
