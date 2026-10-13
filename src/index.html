@@ -503,7 +503,24 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
   .card-body{padding:13px 14px}
   .rg{height:38px;padding:0 12px}
 }
+/* 置頂免責聲明列（隨頁面捲走，不固定） */
+.notice{background:#FFF6E5;border-bottom:1.5px solid var(--ink);font-size:13.5px;line-height:1.6}
+.notice-in{padding-top:8px;padding-bottom:8px}
+.notice b{display:inline-block;margin-right:8px;padding:0 8px;line-height:1.6;border-radius:4px;background:var(--ink);color:#fff;font-size:12.5px;font-weight:800;letter-spacing:.08em}
+.notice span{color:var(--ink-2)}
+.notice a{margin-left:6px;white-space:nowrap;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.notice .nt-short{display:none}
+@media (max-width:640px){.notice{font-size:13px}.notice .nt-long{display:none}.notice .nt-short{display:inline}}
 </style>
+
+<div class="notice" role="note" aria-label="免責聲明">
+  <div class="wrap notice-in">
+    <b>免責聲明</b>
+    <span class="nt-long">本站整理公開資訊供參考，與各品牌及主辦單位無合作關係；活動與優惠可能臨時異動，請以官方公告為準。</span>
+    <span class="nt-short">資訊僅供參考，活動與優惠以官方公告為準。</span>
+    <a href="disclaimer/index.html" class="js-disclaimer">閱讀完整說明</a>
+  </div>
+</div>
 
 <header class="top">
   <div class="wrap">
