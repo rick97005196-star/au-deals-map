@@ -150,3 +150,25 @@
 - 2026-10-15｜活動 NSW｜Inner West Council – Beyond Studio｜https://www.innerwest.nsw.gov.au/beyond-studio/sydney-street-fair-2026｜Inner West 市政府 Sydney Street Fair 2026 活動頁
 - 2026-10-15｜活動 全國｜National Museum of Australia – What's on｜https://www.nma.gov.au/whats-on｜國立澳洲博物館活動列表，標示免費與收費活動
 - 2026-10-15｜travel｜Aquaduck Sunshine Coast｜https://www.aquaduck.com.au/sunshine-coast/｜陽光海岸兩棲觀光車官網，班次、報到地點與早鳥優惠說明
+- 2026-10-15｜活動（VIC）｜NGV Triennial 2026｜https://www.ngv.vic.gov.au/exhibitons/triennial-2026/｜NGV 三年展官網，展期 13 Dec 26 至 11 Apr 27，免費入場（網址路徑為官方頁面實際路徑）
+- 2026-10-15｜活動（VIC）｜Creative Victoria 新聞｜https://creative.vic.gov.au/news/2026/free-ngv-triennial-returns-to-melbourne-this-summer｜維州政府文化機構公告，NGV 三年展免費入場
+- 2026-10-15｜活動（VIC）｜City of Melbourne What's On（10 月活動）｜https://whatson.melbourne.vic.gov.au/things-to-do/whats-on-october｜墨爾本市政府 10 月活動一覽，列出免費展覽與活動日期
+- 2026-10-15｜活動（ACT）｜ACT 政府 – What to expect at Floriade 2026｜https://www.act.gov.au/our-canberra/latest-news/2026/september/what-to-expect-at-floriade-2026｜Floriade 2026 日期 12 Sep – 11 Oct，Commonwealth Park（已結束）
+- 2026-10-15｜活動（ACT）｜Visit Canberra – Floriade 2026｜https://visitcanberra.com.au/events/69ba3c58a681d70f285e8f9d/floriade-2026｜坎培拉官方觀光活動頁，Floriade 日期與場地（已結束，未列票價）
+- 2026-10-15｜活動（ACT）｜National Portrait Gallery – NPPP2026 導覽｜https://portrait.gov.au/calendar/virtual-highlight-tour-nppp2026｜國家肖像館 2026 年攝影肖像獎展，8 月 22 日起展出，結束日與票價未標示
+- 2026-10-15｜活動（QLD）｜Brisbane Open House 2026｜https://www.brisbane.qld.gov.au/events/brisbane-open-house-2026/201109864｜布里斯本市政府建築開放日，2026 年 7 月 18–19 日免費（已結束）
+- 2026-10-15｜活動 QLD｜Suncorp Stadium（布里斯本 Roar 主場）｜https://suncorpstadium.com.au/about/news/A-League-2026-2027-Draw-Announced｜2026–27 A-League 賽程公告，列出布里斯本 Roar 於 Suncorp Stadium 的 10 月主場日期；票價未在公告內列出
+- 2026-10-15｜活動 QLD｜BirdLife Australia – Aussie Bird Count｜https://birdlife.org.au/events/aussie-bird-count-2026/｜全國公民科學活動，2026 年 10 月 19 至 25 日（National Bird Week）；參與費用未在頁面列出
+- 2026-10-15｜活動 ACT｜Canberra Writers Festival（官方網站）｜https://canberrawritersfestival.com.au/｜坎培拉作家節官網，2026 年 10 月 15 日至 18 日；節目冊與售票連結（首頁本次無法讀取，節目冊 PDF 可讀取）
+- 2026-10-15｜活動 NSW｜Carriageworks｜https://carriageworks.com.au/david-hockney-faq/｜雪梨 Carriageworks 場地官網，霍克尼展覽常見問題、場次與票種說明
+- 2026-10-15｜travel ACT｜Tourism ACT（Major Events Calendar）｜https://tourism.act.gov.au/industry-resources/major-events-calendar/｜澳洲首都直轄區旅遊局主要活動行事曆，列出 Floriade 等大型活動日期
+- 2026-10-15｜活動 NSW｜Visit Lake Macquarie（事件目錄）｜https://www.visitlakemac.com.au/events/event/262-lake-mac-action-festival｜Lake Macquarie 旅遊局官網，Lake Mac Action Festival 說明與地點（頁面未列 2026 年日期）
+- 2026-10-15｜吃喝｜McDonald's Australia 新聞室｜https://www.mcdonalds.com/au/en-au/newsroom.html｜麥當勞澳洲官方新聞稿列表，含 2026 年 10 月公告
+- 2026-10-15｜吃喝｜Hungry Jack's App 條款與活動規則｜https://app.hungryjacks.com.au/terms-conditions｜Shake and Win 與生日優惠規則（頁面未列具體起訖日）
+- 2026-10-15｜交通｜Virgin Australia 新聞稿（2026 年 7 月與 8 月特價）｜https://www.virginaustralia.com/au/en/newsroom/2026/7/virgin-australia-treats-aussie-travellers-to-one-million-sale-fares-starting-from-49/｜7 月 20–27 日訂票的特價，旅遊期至 2027 年 6 月；已於 10 月 15 日前結束訂票，僅供參考。
+- 2026-10-15｜交通｜Tourism Tasmania 新聞稿（Jetstar 特價）｜https://www.tourismtasmania.com.au/news-and-events/news/bumper-jetstar-flight-sale-to-tasmania/｜7 月 24–28 日訂票，已結束。
+- 2026-10-15｜交通｜Spirit of Tasmania 最新票價｜https://www.spiritoftasmania.com.au/sailing-fares/latest-fares-and-offers/adult-fares-from-86｜成人票價由 A$86 起，僅適用低需求期間，頁面未列出具體日期，需再確認。
+- 2026-10-15｜交通｜NSW 區域交通省錢方案（Service NSW）｜https://www.service.nsw.gov.au/referral/nsw-regional-travel-savings｜彙整區域交通折扣入口，未列出金額與有效期間。
+- 2026-10-15｜旅遊｜SA 旅遊優惠（southaustralia.com 阿德雷德優惠頁）｜https://southaustralia.com/destinations/adelaide/deals｜BIG4 Mount Compass 平日小屋特價至 2026 年 11 月 30 日，未列金額；其餘多為第三方套裝，有效期至 2027 年 3 月。
+- 2026-10-15｜旅遊｜BridgeClimb Sydney 團體優惠｜https://www.bridgeclimb.com/experiences/Discounts-Deals/Groups-Special-Offer｜10 人以上平日攀登享 9 折，優惠有效至 2027 年 12 月 24 日，未列具體日期與價格，可作後續追蹤。
+- 2026-10-15｜交通｜Greyhound Australia 訂票頁｜https://www.greyhound.com.au/Book-Now｜頁面未列出 2026 年促銷，僅提供一般票種說明。

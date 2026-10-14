@@ -7807,6 +7807,536 @@
     "unconfirmed_zh": "優惠完整條款與實際金額官網未載明，請見官網。"
    },
    "added": "2026-10-15"
+  },
+  {
+   "id": "ngv-triennial-2026",
+   "type": "event",
+   "title": "2026 NGV Triennial",
+   "title_zh": "2026 NGV 三年展（免費入場）",
+   "category": "arts",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "NGV International",
+   "lat": -37.8226,
+   "lng": 144.9687,
+   "area_zh": null,
+   "start": "2026-12-13",
+   "end": "2027-04-11",
+   "schedule_zh": null,
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・年度大展",
+   "summary_zh": "墨爾本 NGV International 舉辦的三年展，展期自 2026 年 12 月 13 日至 2027 年 4 月 11 日，展出當代藝術與設計作品，全館免費入場。",
+   "tip_zh": "官方頁面未說明免費入場是否需預約，建議出發前查閱官網票務頁面。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NGV Triennial 2026 – NGV International",
+     "url": "https://www.ngv.vic.gov.au/exhibitons/triennial-2026/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Creative Victoria – The free 2026 NGV Triennial",
+     "url": "https://creative.vic.gov.au/news/2026/free-ngv-triennial-returns-to-melbourne-this-summer"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-15"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "melbourne-street-social-halloween-2026",
+   "type": "event",
+   "title": "The Street Social: Halloween",
+   "title_zh": "The Street Social 萬聖節免費活動",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Harbour Esplanade, Docklands",
+   "lat": -37.8167,
+   "lng": 144.9432,
+   "area_zh": null,
+   "start": "2026-10-31",
+   "end": "2026-11-01",
+   "schedule_zh": "10 月 31 日（六）、11 月 1 日（日）12:00–19:00",
+   "price_zh": "免費入場（食物與飲品另購）",
+   "free": true,
+   "highlight": "免費入場・親子同樂",
+   "summary_zh": "墨爾本 Docklands Harbour Esplanade 的萬聖節免費活動，設有萬聖主題表演、現場音樂與餐車，適合全年齡參加。",
+   "tip_zh": "免費入場，無需預約；食物與飲品需另外購買。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "The Street Social: Halloween – City of Melbourne What's On",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/the-street-social-halloween"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Only Melbourne – The Street Social: Halloween",
+     "url": "https://www.onlymelbourne.com.au/the-street-social-halloween"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-15"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "groovin-in-the-green-creekside-2026",
+   "type": "event",
+   "title": "Groovin' in the Green – Creekside Sessions",
+   "title_zh": "Groovin' in the Green 戶外音樂午後",
+   "category": "music",
+   "region": "QLD",
+   "city": "Moreton Bay",
+   "venue": "Lemke Park（17 Jagora Drive, Albany Creek）",
+   "lat": -27.3445,
+   "lng": 152.969,
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "schedule_zh": "2026 年 10 月 25 日 14:00–18:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・戶外音樂",
+   "summary_zh": "由莫頓灣市政府主辦的戶外音樂活動，邀請在地創作歌手與年輕表演者演出，現場設有餐車、兒童活動區與持照飲酒區。適合全家與喜愛輕鬆野餐氛圍的民眾。",
+   "tip_zh": "建議自備野餐墊；場次以主辦單位公告為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Moreton Bay – Groovin' in the Green Creekside Sessions",
+     "url": "https://www.moretonbay.qld.gov.au/Events/Groovin%E2%80%99-in-the-Green-Creekside-Sessions"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "官網列出 10 月 25 日為下一場，但未明確註明該場次已確定舉行。"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "moreton-bay-youth-art-awards-2026",
+   "type": "event",
+   "title": "Moreton Bay Youth Art Awards",
+   "title_zh": "莫頓灣青年藝術獎展覽",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Moreton Bay",
+   "venue": "Albany Creek Community Centre（15 Ernie Street, Albany Creek）",
+   "lat": -27.358,
+   "lng": 152.9715,
+   "start": "2026-10-17",
+   "end": "2026-10-25",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・青年藝術",
+   "summary_zh": "展出莫頓灣地區學生參賽的作品，包含繪畫、雕塑與數位藝術等，並設有民眾票選獎。適合親子與關注青年創作的民眾參觀。",
+   "tip_zh": "展覽期間可自由參觀；參賽報名已於 2026 年 10 月 1 日截止。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Moreton Bay – Moreton Bay Youth Art Awards 2026",
+     "url": "https://www.moretonbay.qld.gov.au/News/Media/Moreton-Bay-Youth-Art-Awards-returns-to-celebrate-young-creative-talent"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-15"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "harrisville-sunday-farm-day-2026",
+   "type": "event",
+   "title": "Harrisville Sunday Farm Day",
+   "title_zh": "Harrisville 週日農場日",
+   "category": "family",
+   "region": "QLD",
+   "city": "Scenic Rim",
+   "venue": "Harrisville Heritage Farm（57 Kalbar Peak Crossing Road, Harrisville）",
+   "lat": -27.81,
+   "lng": 152.68,
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "schedule_zh": "每月最後一個週日 10:00–12:30",
+   "price_zh": "入場免費（部分活動另收費）",
+   "free": true,
+   "highlight": "免費入場・親子農場",
+   "summary_zh": "位於 Scenic Rim 地區的家庭農場活動，可餵食山羊、綿羊、雞與鴨，並設有小馬騎乘與拖拉機遊戲區。適合學齡前與小學階段的兒童及其家庭。",
+   "tip_zh": "臉部彩繪與部分遊戲需另付費，現場可使用現金或信用卡；建議自備野餐墊。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Brisbane – Harrisville Sunday Farm Day",
+     "url": "https://visit.brisbane.qld.au/whats-on/scenic-rim/eat-and-drink-events/harrisville-sunday-farm-day-a31d"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-15"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "eagle-farm-farmers-market-2026",
+   "type": "event",
+   "title": "Jan Powers Farmers Markets – Eagle Farm",
+   "title_zh": "Eagle Farm 週日農夫市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Eagle Farm Racecourse（230 Lancaster Road, Ascot）",
+   "lat": -27.4375,
+   "lng": 153.066,
+   "start": "2026-10-18",
+   "end": null,
+   "schedule_zh": "每週日（營業時間請見官網）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・每週日",
+   "summary_zh": "每週日於 Eagle Farm 賽馬場舉行的農夫市集，適合在週末採買在地農產品與食品的民眾。",
+   "tip_zh": "官方頁面未列出營業時間，前往前請先查閱最新公告。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Brisbane – Jan Powers Farmers Markets Eagle Farm",
+     "url": "https://visit.brisbane.qld.au/things-to-do/northern-suburbs/eat-and-drink/jan-powers-farmers-markets-eagle-farm-7954"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "官方頁面僅表示每週日舉行，未標示 2026 年具體日期與營業時間。"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "palm-cove-markets-2026-11",
+   "type": "event",
+   "title": "Palm Cove Markets – November 2026",
+   "title_zh": "Palm Cove 11 月海濱市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Cairns",
+   "venue": "Williams Esplanade, Palm Cove",
+   "lat": -16.753,
+   "lng": 145.679,
+   "start": "2026-11-01",
+   "end": "2026-11-01",
+   "schedule_zh": "2026 年 11 月 1 日 08:00–14:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・海濱市集",
+   "summary_zh": "由 Rotary Club of Cairns Sunrise 與凱恩斯市政府合作舉辦的海濱市集，地點位於 Palm Cove 海濱大道。適合在週日早晨到海邊走逛、採買在地商品。",
+   "tip_zh": "Triton Street 第 4 號停車場提供免費路外停車，並有標示指引前往市集。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Cairns Regional Council – Palm Cove Markets, November 2026",
+     "url": "https://www.cairns.qld.gov.au/experience-cairns/events/council-events/markets/palm-cove-november"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-15"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "coolangatta-gold-2026",
+   "type": "event",
+   "title": "Shaw and Partners Coolangatta Gold 2026",
+   "title_zh": "Coolangatta Gold 衝浪耐力賽",
+   "category": "sport",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Coolangatta Beach, Marine Parade, Coolangatta",
+   "lat": -28.169,
+   "lng": 153.537,
+   "start": "2026-10-17",
+   "end": "2026-10-18",
+   "schedule_zh": "2026 年 10 月 17 日至 18 日 7:00–17:00",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "運動賽事・衝浪耐力",
+   "summary_zh": "由澳洲救生協會（Surf Life Saving）主辦的衝浪耐力賽事，選手需完成三種賽制的海上與沙灘項目，為澳洲衝浪救生運動的代表賽事。適合喜愛運動賽事與海岸文化的觀眾。",
+   "tip_zh": "官方頁面未說明觀賽費用，請以主辦單位公告為準；建議搭乘大眾運輸前往，現場停車位可能有限。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Gold Coast – Shaw and Partners Coolangatta Gold 2026",
+     "url": "https://experiencegoldcoast.com/events/shaw-and-partners-coolangatta-gold-2026"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "官方頁面未明確註明觀賽是否免費，請以主辦單位公告為準。"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "canberra-writers-festival-2026",
+   "type": "event",
+   "title": "Canberra Writers Festival 2026",
+   "title_zh": "坎培拉作家節 2026",
+   "category": "arts",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "多處場地（National Library of Australia、National Gallery of Australia、National Portrait Gallery 等）",
+   "lat": -35.2965,
+   "lng": 149.13,
+   "start": "2026-10-15",
+   "end": "2026-10-18",
+   "schedule_zh": "2026 年 10 月 15 日至 18 日",
+   "price_zh": "多數場次成人 A$30、優待 A$25；兒童與家庭場次成人 A$15、17 歲以下 A$10；部分場次免費（需預約）",
+   "free": false,
+   "highlight": "部分免費・四日節慶",
+   "summary_zh": "坎培拉年度作家節，節目包括講座、對談與兒童及青少年活動。10 月 17 日至 18 日於國家圖書館前院設有免費兒童故事時間。",
+   "tip_zh": "免費場次需事先預約，建議提前至官網查看場次與時間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Canberra Writers Festival 2026 節目冊（PDF）",
+     "url": "https://canberrawritersfestival.com.au/wp-content/uploads/2026/08/CWF-Program-2026-DIGITAL.pdf"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "VisitCanberra – Canberra Writers Festival",
+     "url": "https://visitcanberra.com.au/events/56b23c75d5f1565045d80ee2/canberra-writers-festival"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-15"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "craft-design-canberra-festival-2026",
+   "type": "event",
+   "title": "2026 Craft + Design Canberra Festival",
+   "title_zh": "坎培拉工藝與設計節 2026",
+   "category": "arts",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "Craft + Design Canberra（1 London Circuit）",
+   "lat": -35.281,
+   "lng": 149.1305,
+   "start": "2026-11-05",
+   "end": "2026-11-15",
+   "schedule_zh": "2026 年 11 月 5 日至 15 日",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "十日設計節",
+   "summary_zh": "以「Dissent」為主題的設計與工藝節，節目超過 120 場，包括論壇、講座、導覽、工作坊、開放工作室、設計市集，以及時尚、舞蹈與劇場演出。適合設計、工藝與創意產業從業者。",
+   "tip_zh": "票價與各場次是否免費，請以官網公告為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "VisitCanberra – 2026 Craft + Design Canberra Festival",
+     "url": "https://visitcanberra.com.au/events/6a72b7170691731919b2f120/2026-craft-and-design-canberra-festival"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "頁面未列出票價與各活動是否免費。"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "david-hockney-bigger-closer-carriageworks-2026",
+   "type": "event",
+   "title": "David Hockney: Bigger & Closer (not smaller & further away)",
+   "title_zh": "大衛・霍克尼沉浸式展覽",
+   "category": "arts",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Carriageworks（Wilson Street, Eveleigh）",
+   "lat": -33.8977,
+   "lng": 151.1958,
+   "start": "2026-10-22",
+   "end": "2027-01-24",
+   "schedule_zh": "每日開放，場次時間依日期而異",
+   "price_zh": "請見官網（票價依日期與時段而異）；4 歲以下幼童免費入場",
+   "free": false,
+   "highlight": "沉浸式 360 度展覽",
+   "summary_zh": "霍克尼作品的沉浸式 360 度展覽，為澳洲首次巡迴展出。適合喜愛當代藝術與數位展演的旅客與當地居民。",
+   "tip_zh": "需依場次購票，建議提前於官網選定時段並抵達前 10 分鐘到場。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Carriageworks – David Hockney FAQ",
+     "url": "https://carriageworks.com.au/david-hockney-faq/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sydney.com – David Hockney: Bigger Closer",
+     "url": "https://www.sydney.com/tw/destinations/sydney/inner-sydney/redfern-and-waterloo/events/david-hockney-bigger-closer-not-smaller-further-away"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-15"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "mcdonalds-senior-coffee-offer-au-2026",
+   "type": "deal",
+   "title": "McDonald's Australia Senior Coffee Offer",
+   "title_zh": "麥當勞長者咖啡優惠",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-04-01",
+   "end": null,
+   "price_zh": "消費滿 A$5.50 可免費兌換小杯飲品",
+   "free": false,
+   "highlight": "長者專屬・門市限定",
+   "summary_zh": "持有 Seniors Card 或 Seniors Business Discount Card 者，於麥當勞參與門市櫃檯單筆消費滿 A$5.50，可兌換一杯小杯熱 McCafé 飲品、小杯汽水或小杯柳橙汁。適合持有長者卡的顧客。",
+   "tip_zh": "須於門市櫃檯點餐並出示長者卡；不適用於得來速、McDelivery、MyMacca's 應用程式或網站點餐。每人每日限用一次，加料與替代奶品另計費用，麥當勞得隨時撤銷優惠。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "McDonald's Australia – Senior Coffee Offer FAQs",
+     "url": "https://www.mcdonalds.com/au/en-au/help-support/senior-coffee-offer-faqs.html"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "官方頁面未列明確起訖日期，僅見「01.04.2026」字樣並註明為限期優惠，實際期限請以麥當勞官網或門市為準。"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "npws-warrumbungle-dark-sky-tour-2026",
+   "type": "event",
+   "title": "Explore the Dark Sky (Warrumbungle National Park)",
+   "title_zh": "Warrumbungle 國家公園夜空導覽",
+   "category": "travel",
+   "region": "NSW",
+   "city": "Coonabarabran",
+   "venue": "Warrumbungle National Park",
+   "lat": -31.2777,
+   "lng": 148.9715,
+   "area_zh": null,
+   "start": "2026-10-16",
+   "end": "2026-10-16",
+   "schedule_zh": "10 月 16 日 20:00–21:30（19:45 抵達）",
+   "price_zh": "請見官網（另收活動費，並需付園區入場費）",
+   "free": false,
+   "highlight": "夜間星空導覽",
+   "summary_zh": "由新南威爾斯國家公園及野生動物管理處（NPWS）安排的夜間導覽，在 Warrumbungle 國家公園欣賞暗夜星空；該園為澳洲首座獲認證的暗夜公園。適合想認識澳洲內陸星空的旅客。",
+   "tip_zh": "集合地點為 Warrumbungle Visitor Centre；官網提供線上預約，或致電 02 6825 4364。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NSW National Parks – Country NSW guided tours（Explore the Dark Sky）",
+     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours-country-nsw"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "官網未列出每人票價。"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "npws-warrumbungles-wild-side-walk-2026",
+   "type": "event",
+   "title": "Walk on the wild side at the Warrumbungles",
+   "title_zh": "Warrumbungles 野生步道導覽",
+   "category": "travel",
+   "region": "NSW",
+   "city": "Coonabarabran",
+   "venue": "Warrumbungle National Park",
+   "lat": -31.2777,
+   "lng": 148.9715,
+   "area_zh": null,
+   "start": "2026-10-15",
+   "end": "2026-10-22",
+   "schedule_zh": "10 月 15 日、22 日 15:00–17:00",
+   "price_zh": "請見官網（另收活動費，並需付園區入場費）",
+   "free": false,
+   "highlight": "國家公園導覽健行",
+   "summary_zh": "由新南威爾斯國家公園及野生動物管理處（NPWS）安排，由導覽員帶領認識 Warrumbungle 國家公園的景觀、聲音與氣味。適合想安排戶外健行行程的旅客。",
+   "tip_zh": "集合地點為 Burbie Canyon 步道；活動另收費，園區入場費需另付，出發前請至官網確認預約方式。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NSW National Parks – Country NSW guided tours（Walk on the wild side）",
+     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours-country-nsw"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "官網未列出每人票價與預約方式。"
+   },
+   "added": "2026-10-15"
+  },
+  {
+   "id": "npws-macquarie-marshes-wading-walk-2026",
+   "type": "event",
+   "title": "Macquarie Marshes Wading and Nature Walk",
+   "title_zh": "Macquarie Marshes 涉水與自然步道",
+   "category": "outdoors",
+   "region": "NSW",
+   "city": "Warren",
+   "venue": "Macquarie Marshes",
+   "lat": -30.932,
+   "lng": 147.629,
+   "area_zh": null,
+   "start": "2026-10-23",
+   "end": "2026-10-30",
+   "schedule_zh": "10 月 23 日、30 日 9:30–12:00",
+   "price_zh": "請見官網（另收活動費，園區免費入場）",
+   "free": false,
+   "highlight": "濕地自然導覽",
+   "summary_zh": "由 NSW 國家公園及野生動物管理處安排的 Macquarie Marshes 涉水與自然步道導覽，適合喜愛戶外活動的旅客。",
+   "tip_zh": "活動需預約，可上官網或致電 1300 072 757；集合點位於 Carinda Road 的圍欄門，園區入場免費。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NSW National Parks – Country NSW guided tours（Macquarie Marshes wading and nature walk）",
+     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours-country-nsw"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-15",
+    "unconfirmed_zh": "官網未列出每人票價；座標僅為保護區中心的約略位置，實際集合點位於 Carinda Road 圍欄門，請以官網說明為準。"
+   },
+   "added": "2026-10-15"
   }
  ]
 }
