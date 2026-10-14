@@ -127,7 +127,7 @@ body.no-scroll{overflow:hidden}
 .qt .ic{grid-area:ic;width:36px;height:36px;border-radius:9px;display:grid;place-items:center;background:var(--tint);color:var(--ink-2)}
 .qt .t{grid-area:t;font-weight:700;font-size:15px}
 .qt .n{grid-area:n;font-family:var(--f-mono);font-size:13px;color:var(--muted)}
-.qt .d{grid-area:d;font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.qt .d{grid-area:d;font-size:12.5px;line-height:1.45;color:var(--muted)}
 .qt[aria-pressed="true"]{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
 .qt[aria-pressed="true"] .ic{background:var(--ink);color:#fff}
 .qt:disabled{opacity:.45;cursor:default;box-shadow:none}
@@ -397,7 +397,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
 }
 @media (max-width:400px){
   .nav svg[data-ok]{display:none}
-  .nav a,.nav button{padding:0 6px}
+  .nav a,.nav button{padding:0 6px;height:40px;min-width:40px;justify-content:center}
   .nav a.js-disclaimer{display:none}
   .brand-name{font-size:15px;letter-spacing:0}
   .nav{gap:0}
@@ -465,6 +465,16 @@ body{font:16px/1.75 var(--f-body)}
 .card-price{border-top:1.5px dashed var(--line-strong)}
 .btn-star{top:8px;right:8px;width:34px;height:34px;border-radius:6px;border:1.5px solid var(--line-strong);background:#fff}
 .btn-star:hover{transform:none;border-color:var(--deal-pin)}
+.btn-star{top:6px;right:6px;width:40px;height:40px}
+.card .card-top{padding-right:46px}
+.acct{border:1.5px solid var(--ink);border-radius:8px;background:#fff;padding:12px 14px;font-size:14px;line-height:1.7;margin-bottom:14px}
+.acct p{margin:0}
+.acct p + p,.acct .acct-login{margin-top:10px}
+.acct .acct-login{min-height:44px}
+.acct .acct-links{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.acct a{font-weight:700;text-underline-offset:3px}
+.itin-item.is-ended{opacity:.65}
+.itin-item-del{width:40px;height:40px}
 
 /* 按鈕、面板 */
 .btn{border:1.5px solid var(--ink);border-radius:6px;background:#fff;font-weight:700}
@@ -532,7 +542,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       </div>
     </a>
     <nav class="nav" aria-label="網站">
-      <button id="itinBtn" type="button" aria-label="我的收藏"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span class="nav-label">收藏</span><span class="itin-badge" id="itinBadge" hidden>0</span></button>
+      <button id="itinBtn" type="button" aria-label="我的收藏"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span class="nav-label">收藏</span><span class="itin-badge" id="itinBadge" hidden>0</span></button>
       <button id="howBtn" type="button"><svg class="i" data-ok width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.7 2.7L16 9.8"/></svg>查證方式</button>
       <a href="disclaimer/index.html" class="js-disclaimer">免責聲明</a>
       <a href="https://au-working-holiday.pages.dev/" class="nav-hub" target="_blank" rel="noopener">澳洲打工度假資訊平台</a>
@@ -612,11 +622,12 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <p>整理澳洲各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。</p>
       <p class="fine" id="footFine"></p>
     </div>
-    <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/" target="_blank" rel="noopener">瀏覽其他網站</a></p></div>
+    <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/" target="_blank" rel="noopener">瀏覽其他網站</a> · <a href="https://au-working-holiday.pages.dev/account/?from=deals" target="_blank" rel="noopener">我的收藏</a></p></div>
     <div class="foot-item"><p>資料有誤或想要新功能？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest" target="_blank" rel="noopener">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
     <div class="foot-item">
       <h4>免責聲明</h4>
       <p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係。所有項目雖經官方頁面查證，活動與優惠仍可能臨時異動、提前結束或依門市而異，出發或購買前請以官方公告為準。<a class="more js-disclaimer" href="disclaimer/index.html">閱讀完整免責聲明</a></p>
+      <p>收藏與 Google 帳戶登入由「澳洲打工度假資訊平台」提供，個人資料的處理方式請見<a href="https://au-working-holiday.pages.dev/privacy/" target="_blank" rel="noopener">隱私權政策</a>。</p>
     </div>
     <div class="foot-item"><p class="copy">© 2026 澳洲打工度假資訊平台・澳洲活動優惠地圖</p></div>
   </div>
@@ -644,6 +655,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <button type="button" class="btn btn-sm" id="itinExportIcsBtn">活動加入行事曆（.ics）</button>
       <button type="button" class="btn ghost btn-sm" id="itinClearBtn">全部清除</button>
     </div>
+    <div id="itinAccount" class="acct"></div>
     <div id="itinList" class="itin-list"></div>
   </div>
 </dialog>
@@ -667,6 +679,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" defer></script>
+<script src="https://au-working-holiday.pages.dev/api/sdk.js" data-site="deals"></script>
 <script type="application/json" id="data">/*__DATA__*/</script>
 <script type="application/json" id="geo">/*__GEO__*/</script>
 <script>
@@ -722,7 +735,7 @@ ITEMS.forEach(it => {
 });
 
 function status(it){
-  if (it._e !== null && it._e < TODAY) return {k:'ended'};
+  if (it._e !== null && it._e < TODAY) return {k:'ended', label:'已結束'};
   if (it._s > TODAY){
     const d = it._s - TODAY;
     return {k:'soon', d, label: d === 1 ? '明日開始' : d <= 13 ? d + ' 天後開始' : md(it._s) + ' 開始'};
@@ -883,8 +896,8 @@ function cardHTML(it){
     <div class="card-foot"><span class="status status--${st.k}">${esc(st.label)}</span><span class="vmini${v.status === 'partial' ? ' part' : ''}">${v.status === 'partial' ? LI.half + '部分查證' : LI.check + '已查證'}</span></div>
     </span>
   </button>
-  <button type="button" class="btn-star${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}" aria-label="${saved ? '取消收藏' : '加入收藏'}" title="${saved ? '取消收藏' : '加入收藏'}">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="${saved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+  <button type="button" class="btn-star${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}" aria-pressed="${saved}" aria-label="${saved ? '取消收藏' : '加入收藏'}" title="${saved ? '取消收藏' : '加入收藏'}">
+    ${BOOKMARK(saved)}
   </button>
 </article>`;
 }
@@ -959,9 +972,9 @@ function detailHTML(it){
     </dl>
     <div class="actions">
       ${off ? `<a class="btn primary" href="${esc(off.url)}" target="_blank" rel="noopener" data-src="${esc(it.id)}" data-kind="official">前往官方頁面${LI.ext}</a>` : ''}
-      ${it.lat != null && it.lng != null ? `<button type="button" class="btn" data-fly="${esc(it.id)}">在地圖上查看</button>` : ''}
+      ${it.lat != null && it.lng != null && !it.area_zh ? `<button type="button" class="btn" data-fly="${esc(it.id)}">在地圖上查看</button>` : ''}
       ${gmap ? `<a class="btn" href="${gmap}" target="_blank" rel="noopener">Google 地圖${LI.ext}</a>` : ''}
-      <button type="button" class="btn btn-itin-action${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}">${saved ? '已收藏' : '加入收藏'}</button>
+      <button type="button" class="btn btn-itin-action${saved ? ' is-saved' : ''}" data-itin="${esc(it.id)}">${BOOKMARK(saved)}${saved ? '已收藏' : '加入收藏'}</button>
       ${it.type === 'event' ? `<button type="button" class="btn" data-gcal="${esc(it.id)}">加入 Google 日曆</button>
       <button type="button" class="btn" data-ics="${esc(it.id)}">下載行事曆檔</button>` : ''}
       <button type="button" class="btn" data-copy="${esc(it.id)}">複製連結</button>
@@ -1000,12 +1013,14 @@ sheet.addEventListener('close', () => {
 });
 sheet.addEventListener('click', e => { if (e.target === sheet) sheet.close(); });
 
+function hashId(){ try { return decodeURIComponent(location.hash.slice(1)); } catch(e) { return ''; } }
+
 /* ---------- 社群搜尋 ---------- */
 const SOCIAL = [
   ['OzBargain', q => 'https://www.ozbargain.com.au/search/node/' + encodeURIComponent(q)],
   ['Reddit', q => 'https://www.reddit.com/search/?q=' + encodeURIComponent(q)],
   ['Threads', q => 'https://www.threads.com/search?q=' + encodeURIComponent(q)],
-  ['Facebook', q => 'https://www.facebook.com/search/posts/?q=' + encodeURIComponent(q)],
+  ['Facebook', q => 'https://www.google.com/search?q=' + encodeURIComponent('site:facebook.com ' + q)],
   ['Instagram', q => 'https://www.instagram.com/explore/search/keyword/?q=' + encodeURIComponent(q)],
   ['TikTok', q => 'https://www.tiktok.com/search?q=' + encodeURIComponent(q)],
   ['X', q => 'https://x.com/search?f=live&q=' + encodeURIComponent(q)],
@@ -1109,73 +1124,94 @@ function scrollToResults(force){
   if (force || scrollY > y + 4 || bar.getBoundingClientRect().top > innerHeight * .55) scrollTo({top: y, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
 }
 
-/* ---------- 週末行程管理 (Itinerary) ---------- */
-let SAVED = new Set();
+/* ---------- 收藏：存在「澳洲打工度假資訊平台」帳號（未登入時存在這個瀏覽器）；SDK 載入失敗時退回本機 ---------- */
+const OZ = window.OZWH || null;
+let SAVED = new Set();   // 舊版收藏（adm_favorites），也是 SDK 無法載入時的備援
 try {
   const raw = localStorage.getItem('adm_favorites');
   if (raw) SAVED = new Set(JSON.parse(raw));
 } catch(e) {}
-const isSaved = id => SAVED.has(id);
-
-function saveItin() {
-  try { localStorage.setItem('adm_favorites', JSON.stringify([...SAVED])); } catch(e) {}
-  updateItinBadge();
+const BOOKMARK = filled => `<svg width="18" height="18" viewBox="0 0 24 24" fill="${filled ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>`;
+const isSaved = id => OZ ? OZ.has('save', id) : SAVED.has(id);
+function saveEntry(it){
+  return {id: it.id, title: it.title_zh, url: 'https://au-deals-map.pages.dev/#' + it.id,
+    meta: {sub: (it.region === 'AU' ? '全澳' : it.region) + '・' + dateText(it)}};
 }
+function savedList(){
+  if (OZ) return OZ.list('save').map(x => Object.assign({}, x, {it: BYID[x.id]}));
+  let pruned = false;
+  SAVED.forEach(id => { if (!BYID[id]) { SAVED.delete(id); pruned = true; } });
+  if (pruned) saveLocal();
+  return [...SAVED].map(id => ({id, it: BYID[id]}));
+}
+function saveLocal(){ try { localStorage.setItem('adm_favorites', JSON.stringify([...SAVED])); } catch(e) {} }
 
 function toggleItin(id) {
   if (navigator.vibrate) { try { navigator.vibrate(12); } catch(e){} }
-  if (SAVED.has(id)) {
-    SAVED.delete(id);
-    toast('已取消收藏');
+  let s;
+  if (OZ){
+    if (OZ.has('save', id)) { OZ.remove('save', id); s = false; }
+    else if (BYID[id]) { OZ.add('save', saveEntry(BYID[id])); s = true; }
+    else return;
   } else {
-    SAVED.add(id);
-    toast('已加入收藏');
+    s = !SAVED.has(id);
+    if (s) SAVED.add(id); else SAVED.delete(id);
+    saveLocal();
   }
-  saveItin();
-  // 更新列表卡片星號
-  const cardStar = document.querySelector(`#c-${id} .btn-star`);
-  if (cardStar) {
-    const s = isSaved(id);
-    cardStar.classList.toggle('is-saved', s);
-    cardStar.setAttribute('aria-label', s ? '取消收藏' : '加入收藏');
-    cardStar.setAttribute('title', s ? '取消收藏' : '加入收藏');
-    const svg = cardStar.querySelector('svg');
+  toast(s ? '已加入收藏' : '已取消收藏');
+  syncSaved();
+}
+
+/* 收藏改變（自己按、登入、其他分頁）時，重畫所有書籤按鈕、徽章與清單 */
+function syncSaved(){
+  document.querySelectorAll('.btn-star[data-itin]').forEach(b => {
+    const s = isSaved(b.dataset.itin);
+    b.classList.toggle('is-saved', s);
+    b.setAttribute('aria-pressed', s);
+    b.setAttribute('aria-label', s ? '取消收藏' : '加入收藏');
+    b.setAttribute('title', s ? '取消收藏' : '加入收藏');
+    const svg = b.querySelector('svg');
     if (svg) svg.setAttribute('fill', s ? 'currentColor' : 'none');
-  }
-  // 更新詳細資訊彈窗按鈕
+  });
   const sheetBtn = document.querySelector('.sheet-body .btn-itin-action');
-  if (sheetBtn && S.open === id) {
-    const s = isSaved(id);
+  if (sheetBtn){
+    const s = isSaved(sheetBtn.dataset.itin);
     sheetBtn.classList.toggle('is-saved', s);
-    sheetBtn.textContent = s ? '已收藏' : '加入收藏';
+    sheetBtn.innerHTML = BOOKMARK(s) + (s ? '已收藏' : '加入收藏');
   }
+  updateItinBadge();
   renderItinList();
+  if ($('itineraryModal').open) renderAccount();
 }
 
 function updateItinBadge() {
-  const count = SAVED.size;
+  const all = savedList();
+  const count = all.filter(x => x.it && status(x.it).k !== 'ended').length;
+  const gone = all.length - count;
   const badge = $('itinBadge');
   if (badge) {
     badge.textContent = count;
     badge.hidden = count === 0;
   }
   const countBadge = $('itinCountBadge');
-  if (countBadge) countBadge.textContent = `${count} 筆`;
+  if (countBadge) countBadge.textContent = `${count} 筆` + (gone ? `・${gone} 筆已結束` : '');
 }
 
 function renderItinList() {
   const container = $('itinList');
   if (!container) return;
-  const items = [...SAVED].map(id => BYID[id]).filter(Boolean);
-  if (!items.length) {
+  const list = savedList();
+  if (!list.length) {
     container.innerHTML = `<div class="empty" style="padding:40px 10px">
       <h4>目前沒有收藏的項目</h4>
-      <p>點選卡片右上角的星號，或詳細頁的「加入收藏」，即可在此集中查看、列印，或將活動匯出至行事曆。</p>
+      <p>點選卡片右上角的書籤，或詳細頁的「加入收藏」，即可在此集中查看、列印，或將活動匯出至行事曆。</p>
     </div>`;
     return;
   }
-  items.sort((a, b) => a._s - b._s);
-  container.innerHTML = items.map(it => {
+  const live = list.filter(x => x.it && status(x.it).k !== 'ended').sort((a, b) => a.it._s - b.it._s);
+  const gone = list.filter(x => !x.it || status(x.it).k === 'ended');
+  const del = id => `<button type="button" class="itin-item-del" data-itin="${esc(id)}" aria-label="取消收藏" title="取消收藏">${LI.x}</button>`;
+  container.innerHTML = live.map(({it}) => {
     const st = status(it);
     return `
       <div class="itin-item" id="itin-item-${esc(it.id)}">
@@ -1187,15 +1223,67 @@ function renderItinList() {
             <span class="itin-item-price">${esc(it.price_zh)}</span>
           </div>
         </div>
-        <button type="button" class="itin-item-del" data-itin="${esc(it.id)}" aria-label="取消收藏" title="取消收藏">×</button>
+        ${del(it.id)}
       </div>
     `;
-  }).join('');
+  }).join('') + gone.map(x => `
+      <div class="itin-item is-ended">
+        <div class="itin-item-main">
+          <h4 class="itin-item-title">${esc(x.title || (x.it && x.it.title_zh) || x.id)}</h4>
+          <p class="itin-item-meta">${esc((x.meta && x.meta.sub) || (x.it ? dateText(x.it) : ''))}</p>
+          <div class="itin-item-foot"><span class="status">已結束</span></div>
+        </div>
+        ${del(x.id)}
+      </div>`).join('');
+}
+
+/* 收藏清單上方的帳號區：登入後可在不同裝置同步 */
+let loginShown = false;
+function renderAccount(){
+  const box = $('itinAccount');
+  if (!box) return;
+  const mine = `<a href="https://au-working-holiday.pages.dev/account/?from=deals" target="_blank" rel="noopener">查看我在所有網站的收藏</a>`;
+  if (!OZ){
+    box.innerHTML = '<p>收藏目前只存在這個瀏覽器中。</p>';
+    return;
+  }
+  if (OZ.user){
+    loginShown = false;
+    const u = OZ.user;
+    box.innerHTML = `<p>已登入：<b>${esc(u.name || u.email || '')}</b>${u.email && u.name ? '（' + esc(u.email) + '）' : ''}，收藏會同步到您的帳號。</p>
+      <p class="acct-links">${mine}<button type="button" class="btn btn-sm" id="ozLogout">登出</button></p>`;
+    $('ozLogout').addEventListener('click', () => { OZ.logout(); toast('已登出'); });
+    return;
+  }
+  if (loginShown) return;
+  loginShown = true;
+  box.innerHTML = `<p>收藏目前存在這個瀏覽器中。使用 Google 帳戶登入後，可在手機與電腦之間同步，並在「澳洲打工度假資訊平台」查看所有網站的收藏。</p>
+    <div id="ozLogin" class="acct-login"></div>
+    <p class="acct-links">${mine}</p>`;
+  OZ.renderLoginButton($('ozLogin'));
+}
+if (OZ){
+  OZ.onChange(syncSaved);
+  // 舊版收藏（存在瀏覽器的 adm_favorites）第一次載入時搬進新的收藏
+  OZ.ready.then(() => {
+    let moved = 0;
+    SAVED.forEach(id => { if (BYID[id] && !OZ.has('save', id)) { OZ.add('save', saveEntry(BYID[id])); moved++; } });
+    if (SAVED.size) { SAVED.clear(); try { localStorage.removeItem('adm_favorites'); } catch(e) {} }
+    syncSaved();
+  });
 }
 
 /* ---------- 日曆同步 (Google Calendar & .ics) ---------- */
+// 沒有結束日的長期活動（每週市集）：開始日已過時，往後推到今天或之後最近的同一個星期幾
+function calStart(it) {
+  if (it.end || it._s >= TODAY) return it.start;
+  const d = it._s + Math.ceil((TODAY - it._s) / 7) * 7;
+  return fromDn(d).toISOString().slice(0, 10);
+}
+const isWeekly = it => !it.end && /每週/.test(it.schedule_zh || '');
 function makeGCalUrl(it) {
-  const sStr = (it.start || '').replace(/-/g, '');
+  const start = calStart(it);
+  const sStr = start.replace(/-/g, '');
   let eStr = '';
   if (it.end) {
     const eDate = new Date(Date.parse(it.end) + 86400000);
@@ -1204,7 +1292,7 @@ function makeGCalUrl(it) {
     const ed = String(eDate.getUTCDate()).padStart(2, '0');
     eStr = `${ey}${em}${ed}`;
   } else {
-    const sDate = new Date(Date.parse(it.start) + 86400000);
+    const sDate = new Date(Date.parse(start) + 86400000);
     const sy = sDate.getUTCFullYear();
     const sm = String(sDate.getUTCMonth() + 1).padStart(2, '0');
     const sd = String(sDate.getUTCDate()).padStart(2, '0');
@@ -1213,7 +1301,7 @@ function makeGCalUrl(it) {
   const dates = `${sStr}/${eStr}`;
   const details = `${it.summary_zh || ''}\n\n價格：${it.price_zh || ''}\n詳情：https://au-deals-map.pages.dev/#${it.id}`;
   const location = [it.venue, it.city, it.region].filter(Boolean).join(', ');
-  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(it.title_zh)}&dates=${dates}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
+  return `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(it.title_zh)}&dates=${dates}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}` + (isWeekly(it) ? '&recur=' + encodeURIComponent('RRULE:FREQ=WEEKLY') : '');
 }
 
 function downloadIcs(items, filename) {
@@ -1230,13 +1318,14 @@ function downloadIcs(items, filename) {
   ];
 
   items.forEach(it => {
-    const sStr = (it.start || '').replace(/-/g, '');
+    const start = calStart(it);
+    const sStr = start.replace(/-/g, '');
     let eStr = '';
     if (it.end) {
       const eDate = new Date(Date.parse(it.end) + 86400000);
       eStr = `${eDate.getUTCFullYear()}${pad(eDate.getUTCMonth() + 1)}${pad(eDate.getUTCDate())}`;
     } else {
-      const sDate = new Date(Date.parse(it.start) + 86400000);
+      const sDate = new Date(Date.parse(start) + 86400000);
       eStr = `${sDate.getUTCFullYear()}${pad(sDate.getUTCMonth() + 1)}${pad(sDate.getUTCDate())}`;
     }
     const ics = s => String(s || '').replace(/\\/g, '\\\\').replace(/;/g, '\\;').replace(/,/g, '\\,').replace(/\r?\n/g, '\\n');
@@ -1248,6 +1337,7 @@ function downloadIcs(items, filename) {
       `DTSTAMP:${nowStr}`,
       `DTSTART;VALUE=DATE:${sStr}`,
       `DTEND;VALUE=DATE:${eStr}`,
+      ...(isWeekly(it) ? ['RRULE:FREQ=WEEKLY'] : []),
       `SUMMARY:${ics(it.title_zh)}`,
       `DESCRIPTION:${cleanDesc}`,
       `LOCATION:${ics(loc)}`,
@@ -1325,7 +1415,7 @@ document.addEventListener('click', e => {
   if (t.dataset.open){ openItem(t.dataset.open); return; }
   if (t.dataset.fly){
     const it = BYID[t.dataset.fly];
-    if (it && it.lat != null && it.lng != null){
+    if (it && it.lat != null && it.lng != null && !it.area_zh){
       sheet.close();
       setView('map');
       setTimeout(() => {
@@ -1369,7 +1459,7 @@ $('q').addEventListener('input', e => {
 });
 $('q').addEventListener('keydown', e => { if (e.key === 'Enter'){ e.target.blur(); scrollToResults(); } });
 $('qClear').addEventListener('click', () => { S.q = ''; syncControls(); render(); $('q').focus(); });
-addEventListener('hashchange', () => { const h = decodeURIComponent(location.hash.slice(1)); if (h && BYID[h] && S.open !== h) openItem(h); });
+addEventListener('hashchange', () => { const h = hashId(); if (h && BYID[h] && S.open !== h) openItem(h); });
 $('howBtn').addEventListener('click', () => { const d = $('how'); if (d.showModal) d.showModal(); else d.setAttribute('open', ''); });
 $('how').addEventListener('click', e => { if (e.target === $('how')) $('how').close(); });
 
@@ -1377,20 +1467,20 @@ $('how').addEventListener('click', e => { if (e.target === $('how')) $('how').cl
 $('itinBtn').addEventListener('click', () => {
   const m = $('itineraryModal');
   renderItinList();
+  renderAccount();
   if (m.showModal) m.showModal(); else m.setAttribute('open', '');
 });
 $('itinPrintBtn').addEventListener('click', () => window.print());
 $('itinExportIcsBtn').addEventListener('click', () => {
-  const items = [...SAVED].map(id => BYID[id]).filter(it => it && it.type === 'event');
+  const items = savedList().map(x => x.it).filter(it => it && it.type === 'event' && status(it).k !== 'ended');
   if (items.length) downloadIcs(items, 'au-deals-saved.ics');
   else toast('收藏中沒有可加入行事曆的活動');
 });
 $('itinClearBtn').addEventListener('click', () => {
   if (confirm('確定要清除所有收藏嗎？')) {
-    SAVED.clear();
-    saveItin();
-    renderItinList();
-    render();
+    if (OZ) savedList().forEach(x => OZ.remove('save', x.id));
+    else { SAVED.clear(); saveLocal(); }
+    syncSaved();
     toast('已清除所有收藏');
   }
 });
@@ -1416,12 +1506,11 @@ const live = ITEMS.filter(i => status(i).k !== 'ended');
 document.querySelectorAll('.js-count').forEach(e => e.textContent = live.length);
 document.querySelectorAll('.js-verified').forEach(e => e.textContent = live.filter(i => i.verified.status === 'verified').length);
 $('footFine').textContent = `資料每日清晨自動更新，最後核對日期：${DATA.updated.replace(/-/g,'/')}。地圖底圖 © OpenStreetMap 貢獻者。`;
-updateItinBadge();
-renderItinList();
+syncSaved();
 syncControls();
 setView('list', true);
 render();
-const hash = decodeURIComponent(location.hash.slice(1));
+const hash = hashId();
 if (hash && BYID[hash]) openItem(hash, {boot:true});
 track('view', S.region);
 if (CFG.api){

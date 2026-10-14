@@ -15,6 +15,7 @@ export async function onRequestPost({ request, env, waitUntil }) {
   } catch {
     return empty(400);
   }
+  if (!b || typeof b !== 'object') return empty(400);
   const t = String(b.t || '');
   if (!KINDS.has(t)) return empty(400);
   const k = String(b.k || '').replace(/[\u0000-\u001f]/g, '').trim().slice(0, t === 'search' ? 40 : 90);

@@ -3368,7 +3368,7 @@
    "lng": 152.9767,
    "start": "2026-07-31",
    "end": "2026-10-30",
-   "schedule_zh": "每日 8:00–16:00",
+   "schedule_zh": "每日 8:00–17:00（依植物園開放時間）",
    "price_zh": "免費，不需預約",
    "free": true,
    "highlight": "免費・戶外雕塑展",
@@ -3378,13 +3378,13 @@
     {
      "kind": "official",
      "platform": "官方網站",
-     "label": "Brisbane City Council – Brisbane Sculpture Festival",
-     "url": "https://www.brisbane.qld.gov.au/events/brisbane-sculpture-festival/204186505"
+     "label": "Brisbane City Council – Brisbane Sculpture Festival 2026",
+     "url": "https://www.brisbane.qld.gov.au/events/brisbane-sculpture-festival-2026/206852968"
     }
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-10"
+    "checked": "2026-10-14"
    },
    "added": "2026-10-10"
   },
@@ -3402,7 +3402,7 @@
    "start": "2026-10-30",
    "end": "2026-11-01",
    "schedule_zh": "稻草人步道 10/30 9:00 起至 11/1 16:00；主活動 10/31 13:00–20:00",
-   "price_zh": "稻草人步道免費；10/31 主活動門票 A$5–60",
+   "price_zh": "稻草人步道免費；10/31 主活動門票 A$7–60",
    "free": false,
    "highlight": "社區節慶・步道免費",
    "summary_zh": "稻草人展示於山上的商店、花園、公園與街道，遊客可沿步道參觀並參與人氣票選；10 月 31 日於 Cauldron Distillery 另有現場音樂、手作市集、美食與親子活動。",
@@ -3417,13 +3417,19 @@
     {
      "kind": "official",
      "platform": "Humanitix",
-     "label": "Tamborine Mountain Chamber of Commerce – Scarecrow Trail 2026",
-     "url": "https://events.humanitix.com/scarecrow-festival-trail"
+     "label": "Tamborine Mountain Scarecrow Festival 2026 – 購票",
+     "url": "https://events.humanitix.com/scarecrow-festival-2026"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Tamborine Mountain Scarecrow Festival – 官方網站",
+     "url": "https://tamborinemountainscarecrowfestival.com.au/"
     }
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-10"
+    "checked": "2026-10-14"
    },
    "added": "2026-10-10"
   },
@@ -5084,21 +5090,15 @@
    "venue": "Brisbane City Hall",
    "lat": -27.4691,
    "lng": 153.0241,
-   "start": "2026-10-13",
+   "start": "2026-10-20",
    "end": "2026-10-20",
-   "schedule_zh": "10/13、10/20（週二）12:00–13:00",
+   "schedule_zh": "10/20（週二）12:00–13:00",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・午間音樂會",
-   "summary_zh": "布里斯本市政府在市政廳舉辦的一小時免費午間音樂會：10/13 為 Jodie-Joy 演唱 Dusty Springfield 等 1960 年代經典歌曲；10/20 由小號手 Blake Humphrey 與管風琴家 Andrej Kouznetsov 在市政廳 Father Henry Willis 管風琴演出 Purcell、Haydn、Widor 等作品。",
+   "summary_zh": "布里斯本市政府在市政廳舉辦的一小時免費午間音樂會：10/20 由小號手 Blake Humphrey 與管風琴家 Andrej Kouznetsov 在市政廳 Father Henry Willis 管風琴演出 Purcell、Haydn、Widor 等作品。",
    "tip_zh": "不需預約，直接前往 64 Adelaide Street 的市政廳主廳入場。",
    "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane City Council – Jodie-Joy Salutes Dusty Springfield and Divas",
-     "url": "https://www.brisbane.qld.gov.au/events/lord-mayors-city-hall-concerts-jodie-joy-salutes-dusty-springfield-and-divas/205470460"
-    },
     {
      "kind": "official",
      "platform": "官方網站",
@@ -5108,7 +5108,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-13"
+    "checked": "2026-10-14"
    },
    "added": "2026-10-12"
   },
@@ -6872,12 +6872,6 @@
      "platform": "官方網站",
      "label": "International Mural Fest – 官方網站",
      "url": "https://muralfest.com.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Mural Fest",
-     "url": "https://discovertasmania.com.au/things-to-do/festivals-and-events/internationalmuralfest/"
     }
    ],
    "verified": {
