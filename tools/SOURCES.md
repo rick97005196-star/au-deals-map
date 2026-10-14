@@ -140,3 +140,13 @@
 - 2026-10-13｜活動（VIC）｜Visit Macedon Ranges – Events｜https://www.visitmacedonranges.com/events/duneira-estate-bluebell-festival/｜Macedon Ranges 官方觀光活動頁（Duneira 藍鈴花節等春季花園活動），含日期與時段
 - 2026-10-13｜活動（TAS）｜Open House Hobart｜https://openhousehobart.org/faqs/｜荷伯特建築開放日官網（免費、預約方式、年度日期）
 - 2026-10-13｜活動（TAS）｜International Mural Fest（Sheffield）｜https://muralfest.com.au/｜Sheffield 國際壁畫節官網，年度日期與主題
+- 2026-10-15｜娛樂（VIC）｜Museums Victoria｜https://museumsvictoria.com.au/｜Melbourne Museum、Scienceworks、Immigration Museum 的官方網站，會員權益與館內活動日期
+- 2026-10-15｜娛樂（QLD）｜Queensland Museum（新網域）｜https://www.museum.qld.gov.au/｜昆士蘭博物館官網（qm.qld.gov.au 已轉址至此），開放時間與特展
+- 2026-10-15｜娛樂（NSW）｜Powerhouse（新網域）｜https://powerhouse.com.au/｜Powerhouse 官網（maas.museum 已轉址至此），各館區開放狀態與 Parramatta 館開幕日期
+- 2026-10-15｜娛樂｜Sydney Tower Eye｜https://www.sydneytowereye.com.au/｜Sydney Tower Eye 門票與組合票官網（SKYWALK 暫停日期與價格）
+- 2026-10-15｜娛樂｜Paramount+ Australia｜https://www.paramountplus.com/au/｜Paramount+ 澳洲方案價格（Essential、Premium）與學生折扣頁；未列出限時促銷日期
+- 2026-10-15｜活動 NSW｜Art Gallery of New South Wales｜https://www.artgallery.nsw.gov.au/whats-on/exhibitions｜雪梨藝術館展覽列表，含 2026 年展期與免費入場標示
+- 2026-10-15｜活動 NSW｜Newcastle Museum｜https://newcastlemuseum.com.au/exhibitions-events/exhibitions/mr-squiggle-and-friends｜紐卡索博物館展覽頁，展期與免費入場
+- 2026-10-15｜活動 NSW｜Inner West Council – Beyond Studio｜https://www.innerwest.nsw.gov.au/beyond-studio/sydney-street-fair-2026｜Inner West 市政府 Sydney Street Fair 2026 活動頁
+- 2026-10-15｜活動 全國｜National Museum of Australia – What's on｜https://www.nma.gov.au/whats-on｜國立澳洲博物館活動列表，標示免費與收費活動
+- 2026-10-15｜travel｜Aquaduck Sunshine Coast｜https://www.aquaduck.com.au/sunshine-coast/｜陽光海岸兩棲觀光車官網，班次、報到地點與早鳥優惠說明
