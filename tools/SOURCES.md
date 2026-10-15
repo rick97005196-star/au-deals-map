@@ -172,3 +172,9 @@
 - 2026-10-15｜旅遊｜SA 旅遊優惠（southaustralia.com 阿德雷德優惠頁）｜https://southaustralia.com/destinations/adelaide/deals｜BIG4 Mount Compass 平日小屋特價至 2026 年 11 月 30 日，未列金額；其餘多為第三方套裝，有效期至 2027 年 3 月。
 - 2026-10-15｜旅遊｜BridgeClimb Sydney 團體優惠｜https://www.bridgeclimb.com/experiences/Discounts-Deals/Groups-Special-Offer｜10 人以上平日攀登享 9 折，優惠有效至 2027 年 12 月 24 日，未列具體日期與價格，可作後續追蹤。
 - 2026-10-15｜交通｜Greyhound Australia 訂票頁｜https://www.greyhound.com.au/Book-Now｜頁面未列出 2026 年促銷，僅提供一般票種說明。
+- 2026-10-16｜活動 QLD｜Cairns Regional Council – Moving Picture Nights｜https://cairns.qld.gov.au/experience-cairns/events/moving-picture-nights｜凱恩斯市議會免費戶外家庭電影夜，列出 10 月至 11 月放映日期
+- 2026-10-16｜活動 QLD｜Cairns Regional Council – Markets｜https://www.cairns.qld.gov.au/experience-cairns/events/markets｜凱恩斯市議會市集總覽，列出 Palm Cove、Gordonvale、Tanks 等市集的 11 月日期
+- 2026-10-16｜活動 QLD｜Strummingbird Sunshine Coast｜https://strummingbird.com.au｜Bokarina 大型鄉村音樂節官網，日期、時段與售票連結
+- 2026-10-16｜活動 VIC｜Visit Ballarat What's On｜https://www.visitballarat.com.au/whats-on｜巴拉瑞特官方觀光活動頁，SpringFest Ballarat Market Sunday 等活動列出 2026 年日期、時間與入場費
+- 2026-10-16｜活動 TAS｜Libraries Tasmania What's On｜https://libraries.tas.gov.au/whats-on/｜塔州圖書館活動頁，列出各館故事時光、親子律動與學校假期活動的日期、時間與免費標示
+- 2026-10-16｜吃喝 TAS｜agriCULTURED 節目表｜https://www.agricultured.com.au/full-program/｜Launceston 飲食節 2026 年 11 月 5–8 日完整節目，標示免費與付費活動

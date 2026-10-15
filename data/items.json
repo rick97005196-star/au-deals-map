@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "items": [
   {
    "id": "aldi-special-buys-2026-10-07-10",
@@ -586,7 +586,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    }
   },
   {
@@ -882,38 +882,6 @@
    }
   },
   {
-   "id": "mca-late-2-for-1-2026",
-   "type": "deal",
-   "title": "MCA Late: 2-for-1 Museum Admission",
-   "title_zh": "MCA 週四夜間門票買一送一",
-   "category": "entertainment",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Museum of Contemporary Art Australia, 140 George St, The Rocks",
-   "lat": -33.8599,
-   "lng": 151.209,
-   "start": "2026-05-21",
-   "end": "2026-10-15",
-   "price_zh": "兩人 A$35（買一送一）",
-   "free": false,
-   "highlight": "週四夜買一送一",
-   "summary_zh": "位於環形碼頭旁的當代藝術館 MCA 週四晚間延長開放至 9 點，成人票兩人 A$35、學生兩人 A$20，18 歲以下免費，適合下班後參觀展覽並欣賞雪梨港夜景。",
-   "tip_zh": "優惠至 10/15（四）止，時間 5pm–9pm；大學生請選擇 Tertiary 票（兩人 A$20），優惠票兩人 A$28。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Sydney What's On – MCA Late",
-     "url": "https://whatson.cityofsydney.nsw.gov.au/events/mca-late"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-15"
-   },
-   "schedule_zh": "每週四 17:00–21:00"
-  },
-  {
    "id": "groundwater-country-music-festival-2026",
    "type": "event",
    "title": "Groundwater Country Music Festival",
@@ -930,7 +898,7 @@
    "free": true,
    "highlight": "免費・3 天",
    "summary_zh": "黃金海岸 Broadbeach 免費鄉村音樂節，2026 年演出陣容包括 Kasey Chambers、The Wolfe Brothers、Beccy Cole 等。",
-   "tip_zh": "建議搭乘 G:link 輕軌至 Broadbeach North 或 Broadbeach South 站，昆州車資一律 50 分。",
+   "tip_zh": "建議搭乘 G:link 輕軌至 Broadbeach North 或 Broadbeach South 站前往，活動期間周邊車位有限。",
    "sources": [
     {
      "kind": "official",
@@ -952,9 +920,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-15",
-    "unconfirmed_zh": "官網首頁未明載免費入場，免費依新聞報導。"
+    "status": "verified",
+    "checked": "2026-10-16"
    }
   },
   {
@@ -1418,11 +1385,11 @@
    "lng": 138.9601,
    "start": "2026-10-18",
    "end": "2026-10-18",
-   "price_zh": "沿途觀賞免費；終點慶典需購票（請見官網）",
+   "price_zh": "終點慶典需購票（請見官網）",
    "free": false,
    "highlight": "1,500 台老爺車",
-   "summary_zh": "1,500 多台古董車自 West Beach 海濱出發，行駛 67 公里至 Adelaide Hills 的 Birdwood，並於國家汽車博物館舉辦終點慶典（10am–3pm）。沿途觀賞免費，適合拍照。",
-   "tip_zh": "上午於 West Beach 起點附近觀賞最為便利；週日前往 Birdwood 的大眾運輸班次甚少，亦無接駁車。",
+   "summary_zh": "1,500 多台古董與經典車輛自 West Beach 的 Barratt Reserve 出發，行駛 67 公里至 Adelaide Hills 的 Birdwood 國家汽車博物館，終點設有現場表演、在地餐車與精釀飲品吧。",
+   "tip_zh": "終點慶典須事先購票，詳情與交通安排請見官網。",
    "sources": [
     {
      "kind": "official",
@@ -1451,8 +1418,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-15",
-    "unconfirmed_zh": "終點慶典票價僅見於圖片；沿途免費觀賞係依官方 FAQ（公共道路）推斷。"
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官網未列出終點慶典票價、活動時間，以及沿途觀賞是否免費。"
    }
   },
   {
@@ -1986,8 +1953,8 @@
    "price_zh": "免費入場（官網未列門票資訊）",
    "free": true,
    "highlight": "每週六",
-   "summary_zh": "荷伯特具代表性的戶外市集，由 City of Hobart 經營，每週六 8:30–15:00 於 Salamanca Place 舉行，風雨無阻；設有逾 300 個攤位，販售在地手作商品、新鮮農產、咖啡與餐點，另有街頭藝人表演。",
-   "tip_zh": "市集日 9:00–14:00 由 RSPCA Tasmania 人員提供犬隻寄放服務（puppy parking），每 2 小時 A$10，須於 13:00 前登記；犬隻不得進入市集範圍。",
+   "summary_zh": "荷伯特具代表性的戶外市集，每週六 8:30–15:00 於 Salamanca Place 舉行，販售在地手作商品、農產與餐點。",
+   "tip_zh": "官網設有由 RSPCA 志工提供的犬隻寄放服務（Puppy Parking），詳情請見官網。",
    "sources": [
     {
      "kind": "official",
@@ -2016,8 +1983,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官網未明載免費入場（開放式街頭市集）。"
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官網未列出入場費用與攤位數量。"
    },
    "schedule_zh": "每週六 8:30–15:00"
   },
@@ -2060,9 +2027,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官網未明載免費入場。"
+    "status": "verified",
+    "checked": "2026-10-16"
    },
    "schedule_zh": "每週六 8:30–12:30"
   },
@@ -2204,7 +2170,7 @@
    "lng": 149.144,
    "start": "2026-10-11",
    "end": null,
-   "price_zh": "免費入場",
+   "price_zh": "請見官網",
    "free": true,
    "highlight": "每週日",
    "summary_zh": "坎培拉知名的週日市集，位於 Kingston 的前公車廠房（Former Transport Depot），販售手作商品、服飾、首飾、收藏品及各式餐點。",
@@ -2231,8 +2197,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官網未明載免費入場。"
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官網首頁未列出入場費用。"
    },
    "schedule_zh": "每週日 9:30–14:30"
   },
@@ -2556,7 +2522,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    }
   },
   {
@@ -3129,9 +3095,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官網僅標示「限時」，未公布優惠起訖日期。"
+    "status": "verified",
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10"
   },
@@ -3455,7 +3420,7 @@
    "free": false,
    "highlight": "萬聖節親子活動・5 晚",
    "summary_zh": "Sea World 於萬聖節期間舉辦的夜間活動，設有七個主題區、燈光展示、夜間遊樂設施、萬聖節裝扮角色見面與表演。",
-   "tip_zh": "Village Roadshow Premium Annual Pass 持有人可免費入場一次；門票請透過 Sea World Spooky Nights 官網購買，10/17 與 10/24 場次購票踴躍。",
+   "tip_zh": "Village Roadshow Premium Annual Pass 持有人可免費入場一次；門票請透過 Sea World Spooky Nights 官網購買。",
    "sources": [
     {
      "kind": "official",
@@ -3472,7 +3437,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10"
   },
@@ -3537,8 +3502,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "陽光海岸代表性市集",
-   "summary_zh": "位於陽光海岸內陸的大型藝術手作市集，由多個市集區域組成，販售在地手作、藝術品、居家用品與各國街頭美食，並有現場音樂，旁邊設有兒童遊戲場，適合半日遊。",
-   "tip_zh": "建議早到以便停車；學校假期另有編髮、彩繪、氣球造型與街頭表演等兒童活動。",
+   "summary_zh": "位於陽光海岸內陸的大型市集，由 Original Eumundi Markets、Eumundi Square 與 Parkside Markets 等區域組成，每週三與週六開市，另有週五的 Eumundi Square 市集。",
+   "tip_zh": "各市集區域的開市時間不同，行前請於官網確認。",
    "sources": [
     {
      "kind": "official",
@@ -3561,8 +3526,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官網未明載入場費，也未列出 2026 年特殊休市或加開日期。"
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官網未載明 2026 年的特別安排與入場費用。"
    },
    "added": "2026-10-10"
   },
@@ -3724,11 +3689,11 @@
    "start": "2026-10-17",
    "end": "2026-10-18",
    "schedule_zh": "11:00–18:00",
-   "price_zh": "A$23–45（含 Eventbrite 手續費）",
+   "price_zh": "A$29–39（依票種）",
    "free": false,
    "highlight": "年度美食節・2 天",
    "summary_zh": "創辦於 2006 年的戶外起司節，集合南澳各地的起司及在地食品、餐廳與飲品業者，現場有娛樂表演、烹飪示範與起司大師課。適合喜愛在地食材與美食活動的民眾。",
-   "tip_zh": "門票分 A$29（僅入場）、A$34（附紀念杯）、A$39（快速入場、紀念杯與提袋），透過 Eventbrite 購票。",
+   "tip_zh": "門票分 A$29（僅入場）、A$34（附紀念杯）、A$39（快速入場、紀念杯與提袋），請於官網購票。",
    "sources": [
     {
      "kind": "official",
@@ -3745,7 +3710,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10"
   },
@@ -3765,7 +3730,7 @@
    "price_zh": "成人 A$15、優待 A$13、兒童 A$10，5 歲以下免費",
    "free": false,
    "highlight": "萬聖節主題・親子日",
-   "summary_zh": "以萬聖節為主題的週末活動，設有詭異、哥德與另類風格創作者市集。10/25（日）為親子日，設有不給糖就搗蛋路線、兒童手作與南瓜雕刻示範；10/24（六）晚間為 16 歲以上場次。",
+   "summary_zh": "第 3 屆 Festival of Halloween 於 Port Adelaide 的 The Flour Shed, Hart's Mill 舉行，10/24（六）晚間為 16 歲以上場次，10/25（日）11:00–18:00 為日間場次。",
    "tip_zh": "兩天為分開售票的活動，請透過 TryBooking 購票並確認場次。",
    "sources": [
     {
@@ -3782,9 +3747,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官方頁面未說明票價適用於哪一天，週六場次結束時間亦未公布。"
+    "status": "verified",
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10",
    "schedule_zh": "10/24（六）17:00 起（16 歲以上）；10/25（日）11:00–18:00"
@@ -3844,8 +3808,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "春季花園・10 天",
-   "summary_zh": "Riverland 一年一度的春季花園節，開放平時不對外的私人花園，並有社區活動與景點參觀，可結合當地酒莊、美食與河流體驗。適合喜愛園藝與戶外散步的旅客。",
-   "tip_zh": "開放花園名單與開放時間公布於官方 Festival Program，可於官網下載花園地圖後規劃行程。",
+   "summary_zh": "Riverland 一年一度的春季花園節，於 10/9–10/18 在 Renmark 及周邊舉辦，官方提供花園地圖，節慶初期並於 Renmark Institute 舉辦花藝展。",
+   "tip_zh": "可於官網下載花園地圖後規劃行程。",
    "sources": [
     {
      "kind": "official",
@@ -3862,8 +3826,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "開放花園的門票與各場活動時間官方頁面未列出。"
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官網未列出入場費用與各花園的開放時間。"
    },
    "added": "2026-10-10"
   },
@@ -3884,7 +3848,7 @@
    "free": false,
    "highlight": "60 多場設計活動",
    "summary_zh": "2026 年以「Imagine」為題的設計節，於 10/16–25 在 Fremantle 舉辦展覽、講座、導覽、工作坊、影片放映與開放工作室，主場地位於 West End 的 PS Art Space。適合對建築、設計與手作有興趣的民眾。",
-   "tip_zh": "主場地 PS Art Space 有 12 場講座及 PechaKucha 之夜；開幕夜等部分活動免費，講座與工作坊多需購票，部分場次已售完，請於官網確認。",
+   "tip_zh": "開幕夜等部分活動免費，講座與工作坊多需購票，部分場次已售完，請於官網確認。",
    "sources": [
     {
      "kind": "official",
@@ -3901,7 +3865,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10"
   },
@@ -4048,40 +4012,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "gyg-coorparoo-opening-5-burritos-2026",
-   "type": "deal",
-   "title": "Welcome GYG Coorparoo with $5 Burritos & Bowls",
-   "title_zh": "GYG Coorparoo 開幕 A$5 捲餅",
-   "category": "dining",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "GYG Coorparoo（211 Old Cleveland Road）",
-   "lat": -27.495,
-   "lng": 153.057,
-   "start": "2026-10-15",
-   "end": "2026-10-15",
-   "schedule_zh": "7:00–22:00（早餐品項 7:00–10:30）",
-   "price_zh": "捲餅與餐碗 A$5",
-   "free": false,
-   "highlight": "開幕優惠・單日",
-   "summary_zh": "Guzman y Gomez Coorparoo 新店於 10/15（四）開幕，當天一般尺寸捲餅與餐碗一律 A$5。",
-   "tip_zh": "僅限現場點餐，不適用 GYG App；加料另計，每人可能有數量限制。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "GYG – Welcome GYG Coorparoo with $5 Burrito & Bowls",
-     "url": "https://www.guzmanygomez.com.au/welcome-gyg-coorparoo-with-5-burrito-bowls/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10"
   },
@@ -4094,8 +4025,8 @@
    "region": "NSW",
    "city": "Sydney",
    "venue": "GYG Gregory Hills（2-8 Lasso Rd）",
-   "lat": -34.027,
-   "lng": 150.77,
+   "lat": -34.0245,
+   "lng": 150.795,
    "start": "2026-10-19",
    "end": "2026-10-25",
    "schedule_zh": "每日 6:00–10:30",
@@ -4114,7 +4045,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10"
   },
@@ -4206,8 +4137,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "產地餐桌・5 天",
-   "summary_zh": "Savour The Tweed 由 Tweed Shire Council 呈獻、The Tweed Tourism Company 籌辦，於 10/21–10/25 舉行，官方網站列出 25 場以上活動，包括農夫市集品嚐路線、農場與果園餐會、名廚合作晚餐與河上餐飲巡航，場地遍及 Tweed 內陸與海岸的餐廳、農場與酒莊；10/25 另有免費的 Salt Village Community Picnic。",
-   "tip_zh": "多場活動已售完，各場票價與訂位請見官方網站 savourthetweed.com.au 的活動頁面；10/25 於 Kingscliff 的 Salt Village Community Picnic 為免費活動。",
+   "summary_zh": "Savour The Tweed 於 10/21–10/25 在 Tweed 地區舉行，官方網站列出 25 場以上美食與飲品活動，包括農夫市集品嚐路線、農場與果園餐會、海鮮餐會及河上餐飲巡航，場地遍及 Murwillumbah、Kingscliff、Pottsville 等地。",
+   "tip_zh": "多場活動已售完，各場票價與訂位請見官方網站活動頁；10/25 的 Salt Village Community Picnic 為免費活動。",
    "sources": [
     {
      "kind": "official",
@@ -4236,8 +4167,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官方網站已可開啟並確認 2026 年日期與活動場地，但各場活動網頁未列出票價，且多場已售完。"
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官網未集中列出各場活動票價。"
    },
    "added": "2026-10-10"
   },
@@ -4335,8 +4266,8 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "免費導覽・需預約",
-   "summary_zh": "布里斯本市政府的 Brisbane Greeters 免費導覽計畫，由近百位導覽員帶領，提供流放殖民地與早期開拓歷史、21 世紀布里斯本，以及 Bulimba、Paddington、South Brisbane 等街區導覽，每趟約 2–3 小時，另有失智友善與低視力友善路線，適合想深入認識城市的新來者。",
-   "tip_zh": "須透過市政府網頁的線上預約系統、電郵 brisbanegreeters@brisbane.qld.gov.au 或致電 07 3403 8888 預約。",
+   "summary_zh": "布里斯本市政府的 Brisbane Greeters 免費導覽計畫，由在地導覽員帶領，涵蓋市中心、Fortitude Valley、Paddington、Bulimba 等街區，每趟約 2–3 小時，適合想深入認識城市的新來者。",
+   "tip_zh": "導覽須事先預約，請透過市政府網頁的線上表單預約；場次的集合地點依行程而定。",
    "sources": [
     {
      "kind": "official",
@@ -4358,9 +4289,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-13",
-    "unconfirmed_zh": "官網未列出固定出團日期與時間，各場次與集合地點須於線上預約系統查詢。"
+    "status": "verified",
+    "checked": "2026-10-16"
    },
    "added": "2026-10-10"
   },
@@ -5070,7 +5000,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-14"
+    "checked": "2026-10-16"
    },
    "added": "2026-10-12"
   },
@@ -5216,11 +5146,11 @@
    "lng": 150.9997,
    "start": "2026-10-16",
    "end": "2026-11-01",
-   "price_zh": "A$19 起",
+   "price_zh": "請見官網",
    "free": false,
-   "highlight": "世界盃・A$19 起",
+   "highlight": "世界盃・4 場賽事",
    "summary_zh": "2026 聯盟式橄欖球世界盃在雪梨 CommBank Stadium（Parramatta）有 4 場小組賽：10/16 薩摩亞對法國、10/23 東加對黎巴嫩、11/1 黎巴嫩對法國與東加對薩摩亞。官方公布門票 A$19 起。",
-   "tip_zh": "門票請透過官方網站連結的售票平台購買，並留意避免非官方網站。",
+   "tip_zh": "請透過官方網站連結的售票管道購票，並留意避免非官方網站。",
    "sources": [
     {
      "kind": "official",
@@ -5236,8 +5166,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-15"
+    "status": "partial",
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官方頁面未列出票價（原 A$19 起無法確認）。"
    },
    "added": "2026-10-12"
   },
@@ -5554,7 +5485,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-15"
+    "checked": "2026-10-16"
    },
    "added": "2026-10-12"
   },
@@ -5711,39 +5642,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-15"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "tas-launceston-little-food-festival-2026",
-   "type": "event",
-   "title": "Little Food Festival",
-   "title_zh": "朗塞斯頓親子小小美食節",
-   "category": "family",
-   "region": "TAS",
-   "city": "Launceston",
-   "venue": "Civic Square",
-   "lat": -41.4364,
-   "lng": 147.1388,
-   "start": "2026-10-14",
-   "end": "2026-10-15",
-   "schedule_zh": "兩天皆 10:00–16:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・學校假期活動",
-   "summary_zh": "City of Launceston 在學校假期舉辦的免費親子活動，透過種植、栽培、品嚐與創作等動手體驗，讓兒童與家長認識食物從哪裡來。",
-   "tip_zh": "地點在市中心 Civic Square；更多資訊可見 launceston.com.au/littlefoodfestival。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Launceston – Little Food Festival",
-     "url": "https://www.launceston.tas.gov.au/Upcoming-Events/Little-Food-Festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-13"
    },
    "added": "2026-10-12"
   },
@@ -7165,40 +7063,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "gold-coast-free-movie-last-vegas-2026",
-   "type": "event",
-   "title": "Free Movie – Last Vegas",
-   "title_zh": "黃金海岸免費電影放映（羅賓娜）",
-   "category": "entertainment",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Robina Auditorium, Robina Community Centre（196 Robina Town Centre Drive）",
-   "lat": -28.0765,
-   "lng": 153.388,
-   "area_zh": null,
-   "start": "2026-10-15",
-   "end": "2026-10-15",
-   "schedule_zh": "10:00 開放入場，10:30 開映（約至 12:30）",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・社區電影",
-   "summary_zh": "黃金海岸市議員 Dan Doran 於 Seniors Month 期間舉辦的免費電影放映，10 月 15 日上午 10:30 於羅賓娜社區中心禮堂播放《Last Vegas》，現場提供免費爆米花與茶點，不需票券。",
-   "tip_zh": "免票券，10:00 開放入場、10:30 開映。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Gold Coast What's On – Free Movie – Last Vegas",
-     "url": "https://www.whatsongoldcoast.au/All-events/Free-Movie-Last-Vegas"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-15"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "hota-art-explorers-2026",
    "type": "event",
    "title": "Art Explorers",
@@ -8337,6 +8201,322 @@
     "unconfirmed_zh": "官網未列出每人票價；座標僅為保護區中心的約略位置，實際集合點位於 Carinda Road 圍欄門，請以官網說明為準。"
    },
    "added": "2026-10-15"
+  },
+  {
+   "id": "cairns-moving-picture-nights-2026",
+   "type": "event",
+   "title": "Cairns Moving Picture Nights",
+   "title_zh": "凱恩斯戶外免費電影夜",
+   "category": "family",
+   "region": "QLD",
+   "city": "Cairns",
+   "venue": null,
+   "lat": -16.9186,
+   "lng": 145.7781,
+   "start": "2026-10-17",
+   "end": "2026-11-07",
+   "schedule_zh": "10/17、10/24、10/31、11/7 每週六晚上",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・戶外親子電影",
+   "summary_zh": "凱恩斯市議會舉辦的免費戶外家庭電影夜。2026 年 10 月至 11 月共四場，放映片單依序為《Kangaroo》《Wonder》《Oddball》《Paper Planes》，適合親子一同參加。",
+   "tip_zh": "各場地點與開放時間官網未逐場列出，請以凱恩斯市議會公告、Facebook 專頁或 My Cairns App 為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Cairns Regional Council – Moving Picture Nights",
+     "url": "https://cairns.qld.gov.au/experience-cairns/events/moving-picture-nights"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官網未列出各場的放映地點與開始時間。"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "rangebow-festival-2026",
+   "type": "event",
+   "title": "Rangebow Festival 2026",
+   "title_zh": "Rangebow 藝術節（陽光海岸山區）",
+   "category": "festival",
+   "region": "QLD",
+   "city": "Sunshine Coast",
+   "venue": "陽光海岸山區多處場地（Nambour、Maleny、Montville、Flaxton、Mapleton 等）",
+   "lat": -26.6236,
+   "lng": 152.9598,
+   "start": "2026-10-09",
+   "end": "2026-10-18",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "非營利藝術節・多場地",
+   "summary_zh": "陽光海岸與山區一帶的非營利藝術節，節目涵蓋電影、戲劇、藝術、美食、音樂與自然等主題。2026 年 10 月 9 日至 18 日舉行。",
+   "tip_zh": "各場次是否收費與票價請見官方票務頁面，前往場地前請先確認地點與時間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Sunshine Coast – Rangebow 2026",
+     "url": "https://www.visitsunshinecoast.com/event/61d28bd6bbc0198c708e770c/rangebow"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官方頁面未明確說明各場次是否免費，票價請見官網。"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "strummingbird-sunshine-coast-2026",
+   "type": "event",
+   "title": "Strummingbird Sunshine Coast 2026",
+   "title_zh": "Strummingbird 鄉村音樂節（陽光海岸）",
+   "category": "music",
+   "region": "QLD",
+   "city": "Sunshine Coast",
+   "venue": "Kawana Sports Precinct（Bokarina）",
+   "lat": -26.638,
+   "lng": 153.099,
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "schedule_zh": "10 月 18 日 12:00–23:00",
+   "price_zh": "請見官網（需購票）",
+   "free": false,
+   "highlight": "大型戶外音樂節",
+   "summary_zh": "陽光海岸 Bokarina 舉辦的大型戶外鄉村音樂節，2026 年 10 月 18 日舉行，需購票入場。適合喜愛鄉村音樂與戶外演出的人。",
+   "tip_zh": "票務透過官網連結的 Moshtix 販售，另有 VIP 與露營選項，請以官網公告為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Strummingbird Sunshine Coast – 官方網站",
+     "url": "https://strummingbird.com.au"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Sunshine Coast – Strummingbird Sunshine Coast",
+     "url": "https://www.visitsunshinecoast.com/event/688b26e7ed0d2e920a8301e9/strummingbird-sunshine-coast"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官方頁面未列出票價，請見官網的票務連結。"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "african-music-cultural-festival-melbourne-2026",
+   "type": "event",
+   "title": "African Music and Cultural Festival 2026",
+   "title_zh": "墨爾本非洲音樂與文化節 2026",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Fed Square",
+   "lat": -37.818,
+   "lng": 144.9691,
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・3 天",
+   "summary_zh": "在墨爾本 Fed Square 舉辦的非洲音樂與文化節，官方頁面標示免費入場，適合想認識非洲音樂與飲食的人。",
+   "tip_zh": "節目內容與開放時間請見官網，活動期間會有人潮，建議提早前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官網",
+     "label": "Visit Melbourne – African Music and Cultural Festival 2026",
+     "url": "https://www.visitmelbourne.com/regions/melbourne/whats-on/multicultural/african-music-and-cultural-festival-2026"
+    },
+    {
+     "kind": "social",
+     "platform": "Threads",
+     "label": "@secretmelbourne on Threads（2026-10-11 貼文，提到回歸墨爾本與免費入場）",
+     "url": "https://www.threads.com/@secretmelbourne/post/DeYMPbwCPIo/australias-largest-african-cultural-festival-is-coming-back-to-melbourne-with/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-16"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "springfest-ballarat-market-sunday-2026",
+   "type": "event",
+   "title": "SpringFest Ballarat Market Sunday",
+   "title_zh": "巴拉瑞特春季市集（週日）",
+   "category": "market",
+   "region": "VIC",
+   "city": "Ballarat",
+   "venue": "Gardens Precinct, Wendouree Parade（Lake Wendouree）",
+   "lat": -37.5585,
+   "lng": 143.844,
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・湖畔市集",
+   "summary_zh": "巴拉瑞特 Lake Wendouree 湖畔的春季市集，2026 年 11 月 29 日上午 10 點至下午 4 點舉辦，入場免費，適合週末逛市集與散步。",
+   "tip_zh": "會場旁沒有大型停車場，可停在 Victoria Park，步行一小段路即可到達。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官網",
+     "label": "Visit Ballarat – SpringFest Ballarat Market Sunday",
+     "url": "https://www.visitballarat.com.au/whats-on/springfest-ballarat-market-sunday"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-16"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "hobart-twilight-market-brooke-street-pier-2026",
+   "type": "event",
+   "title": "Hobart Twilight Market Brooke Street Pier",
+   "title_zh": "荷伯特黃昏市集（Brooke Street 碼頭）",
+   "category": "market",
+   "region": "TAS",
+   "city": "Hobart",
+   "venue": "Brooke Street Pier",
+   "lat": -42.8838,
+   "lng": 147.3391,
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "schedule_zh": "選定週五 16:30–21:00",
+   "price_zh": "請見官網（官方頁面未列入場費）",
+   "free": false,
+   "highlight": "週五傍晚市集",
+   "summary_zh": "荷伯特 Brooke Street 碼頭的黃昏市集，官方頁面說明在選定週五舉辦，下一場為 2026 年 10 月 23 日 16:30 至 21:00，歡迎家庭與寵物同行。",
+   "tip_zh": "其他 2026 場次日期請以主辦官網為準，入場費也請先到官網確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官網",
+     "label": "Discover Tasmania – Hobart Twilight Market Brooke Street Pier",
+     "url": "https://www.discovertasmania.com.au/things-to-do/shopping-and-markets/hobarttwilightbrookestreetpier/"
+    },
+    {
+     "kind": "official",
+     "platform": "官網",
+     "label": "Spirit of Tasmania – Hobart Twilight Market Brooke Street Pier",
+     "url": "https://www.spiritoftasmania.com.au/things-to-do/hobart-twilight-market-brooke-street-pier/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官方頁面只確認 10 月 23 日場次與營業時間，未列全年場次與入場費。"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "agricultured-launceston-2026",
+   "type": "event",
+   "title": "agriCULTURED 2026",
+   "title_zh": "agriCULTURED 2026 飲食節（Launceston）",
+   "category": "food",
+   "region": "TAS",
+   "city": "Launceston",
+   "venue": "Launceston 地區多個場地",
+   "lat": -41.4332,
+   "lng": 147.1441,
+   "start": "2026-11-05",
+   "end": "2026-11-08",
+   "price_zh": "部分活動免費，其餘付費（票價請見官網）",
+   "free": false,
+   "highlight": "部分免費・4 天",
+   "summary_zh": "以農夫、廚師與食材生產者為主題的飲食節，2026 年 11 月 5 日至 8 日在 Launceston 地區舉辦，包括晚宴、工作坊、論壇，以及部分免費活動（例如 11 月 8 日 QVMAG 的 REMADE 永續服飾展演）。",
+   "tip_zh": "免費場次名額有限，官網已標示部分免費活動售罄，建議提早確認。付費活動需至官網購票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官網",
+     "label": "agriCULTURED – Full Program",
+     "url": "https://www.agricultured.com.au/full-program/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-16",
+    "unconfirmed_zh": "官方節目表未列出多數付費活動的票價。"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "rock-and-rhyme-hobart-library-2026-10-29",
+   "type": "event",
+   "title": "Rock and Rhyme at Hobart Library",
+   "title_zh": "荷伯特圖書館 Rock and Rhyme 親子律動",
+   "category": "family",
+   "region": "TAS",
+   "city": "Hobart",
+   "venue": "Hobart Library（91 Murray Street）",
+   "lat": -42.8806,
+   "lng": 147.3266,
+   "start": "2026-10-29",
+   "end": "2026-10-29",
+   "schedule_zh": "10:00–10:30",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費・0–3 歲",
+   "summary_zh": "由 Libraries Tasmania 舉辦的 30 分鐘免費親子活動，適合 0 至 3 歲的嬰幼兒與家長參加。",
+   "tip_zh": "免預約，當日直接到場即可。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官網",
+     "label": "Libraries Tasmania – Rock and Rhyme at Hobart Library（29 Oct 2026）",
+     "url": "https://libraries.tas.gov.au/whats-on/rock-and-rhyme-at-hobart-library-29-oct-26/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-16"
+   },
+   "added": "2026-10-16"
+  },
+  {
+   "id": "saturday-storytime-rosny-library-2026-10-17",
+   "type": "event",
+   "title": "Saturday Storytime at Rosny Library",
+   "title_zh": "Rosny Library 週六故事時光",
+   "category": "family",
+   "region": "TAS",
+   "city": "Rosny Park",
+   "venue": "Rosny Library",
+   "lat": -42.8775,
+   "lng": 147.353,
+   "start": "2026-10-17",
+   "end": "2026-10-17",
+   "schedule_zh": "10:30–11:30",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費・3–5 歲",
+   "summary_zh": "Libraries Tasmania 舉辦的免費週六故事時光，內容包括故事、韻律與律動活動，適合 3 至 5 歲兒童與陪同的大人。",
+   "tip_zh": "需透過 Eventbrite 預約；無法線上預約者可電郵或致電 Rosny Library。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官網",
+     "label": "Libraries Tasmania – Saturday Storytime at Rosny Library（17 Oct 2026）",
+     "url": "https://libraries.tas.gov.au/whats-on/saturday-storytime-at-rosny-library-17-oct-26/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-16"
+   },
+   "added": "2026-10-16"
   }
  ]
 }
