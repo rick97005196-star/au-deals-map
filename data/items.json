@@ -3984,39 +3984,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "gyg-free-brekkie-melbourne-cbd-2026-10-16",
-   "type": "deal",
-   "title": "Free Brekkie at select Melbourne CBD Restaurants",
-   "title_zh": "GYG 墨爾本市區免費早餐",
-   "category": "dining",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "GYG 260 Flinders Street 等 4 間門市",
-   "lat": -37.8178,
-   "lng": 144.9646,
-   "start": "2026-10-16",
-   "end": "2026-10-16",
-   "schedule_zh": "6:00 或 7:00–10:30（依門市）",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "免費早餐・單日",
-   "summary_zh": "Guzman y Gomez 於 10/16（五）在墨爾本市區 4 間門市（260 Flinders St、289-299 Swanston St、567 Collins St、Collins Place 美食街）免費提供一般尺寸早餐捲餅或早餐碗，適合通勤上班族與學生。",
-   "tip_zh": "僅限現場點餐，不適用 GYG App、官網與外送；Big Brekkie Burrito 與加料除外。260 Flinders 與 Swanston St 6:00 開始，兩間 Collins 門市 7:00 開始。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "GYG – Free Brekkie at select Melbourne CBD Restaurants",
-     "url": "https://www.guzmanygomez.com.au/free-brekkie-at-select-melbourne-cbd-restaurants-oct-26/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-16"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "gyg-gregory-hills-free-coffee-2026",
    "type": "deal",
    "title": "Free Coffee at GYG Gregory Hills",
@@ -8094,41 +8061,6 @@
     "status": "partial",
     "checked": "2026-10-15",
     "unconfirmed_zh": "官方頁面未列明確起訖日期，僅見「01.04.2026」字樣並註明為限期優惠，實際期限請以麥當勞官網或門市為準。"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "npws-warrumbungle-dark-sky-tour-2026",
-   "type": "event",
-   "title": "Explore the Dark Sky (Warrumbungle National Park)",
-   "title_zh": "Warrumbungle 國家公園夜空導覽",
-   "category": "travel",
-   "region": "NSW",
-   "city": "Coonabarabran",
-   "venue": "Warrumbungle National Park",
-   "lat": -31.2777,
-   "lng": 148.9715,
-   "area_zh": null,
-   "start": "2026-10-16",
-   "end": "2026-10-16",
-   "schedule_zh": "10 月 16 日 20:00–21:30（19:45 抵達）",
-   "price_zh": "請見官網（另收活動費，並需付園區入場費）",
-   "free": false,
-   "highlight": "夜間星空導覽",
-   "summary_zh": "由新南威爾斯國家公園及野生動物管理處（NPWS）安排的夜間導覽，在 Warrumbungle 國家公園欣賞暗夜星空；該園為澳洲首座獲認證的暗夜公園。適合想認識澳洲內陸星空的旅客。",
-   "tip_zh": "集合地點為 Warrumbungle Visitor Centre；官網提供線上預約，或致電 02 6825 4364。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "NSW National Parks – Country NSW guided tours（Explore the Dark Sky）",
-     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours-country-nsw"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-15",
-    "unconfirmed_zh": "官網未列出每人票價。"
    },
    "added": "2026-10-15"
   },
