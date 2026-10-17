@@ -178,3 +178,11 @@
 - 2026-10-16｜活動 VIC｜Visit Ballarat What's On｜https://www.visitballarat.com.au/whats-on｜巴拉瑞特官方觀光活動頁，SpringFest Ballarat Market Sunday 等活動列出 2026 年日期、時間與入場費
 - 2026-10-16｜活動 TAS｜Libraries Tasmania What's On｜https://libraries.tas.gov.au/whats-on/｜塔州圖書館活動頁，列出各館故事時光、親子律動與學校假期活動的日期、時間與免費標示
 - 2026-10-16｜吃喝 TAS｜agriCULTURED 節目表｜https://www.agricultured.com.au/full-program/｜Launceston 飲食節 2026 年 11 月 5–8 日完整節目，標示免費與付費活動
+- 2026-10-18｜活動 QLD｜QPAC（Queensland Performing Arts Centre）｜https://www.qpac.com.au/whats-on/2026/the-lion-king｜QPAC 官網演出頁，列出 2026–27 演出季日期與票價（from A$60）；購票經 QTIX
+- 2026-10-18｜活動 WA｜RAC Arena – Tame Impala 2026｜https://www.racarena.com.au/whats-on/tame-impala-2026/｜珀斯 RAC Arena 10/24、10/25 兩場演出與入場規定
+- 2026-10-18｜活動 WA｜Visit Fremantle – Blessing of the Fleet｜https://www.visitfremantle.com.au/arts-culture/fremantle-blessing-fleet｜2026 年 10/25 彌撒與遊行時間、起點
+- 2026-10-18｜活動 TAS｜Discover Tasmania – Great Eastern Wine Week｜https://discovertasmania.com.au/experiences/stories/great-eastern-wine-week｜第 12 屆東岸葡萄酒週，10/22–25 日期與地點範圍
+- 2026-10-18｜活動 TAS｜Discover Tasmania – Huon Valley Studio Art Trail｜https://www.discovertasmania.com.au/things-to-do/arts-and-culture/huon-valley-studio-art-trail3/｜2026 年 10/23–25 日期、每日時段與 60 餘間工作室範圍
+- 2026-10-18｜活動 TAS｜Burnie 市議會 – Festivals in Tasmania｜https://www.burnie.tas.gov.au/tourism/Experience/Whats-on/Festivals-in-Tasmania｜塔州節慶總覽，列出 10 月下旬節慶日期
+- 2026-10-18｜活動 NSW｜NSW Government – Sydney Open 活動資訊｜https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/sydney-open｜雪梨開放建築日 2026 年 11 月 1 日日期、票價範圍與購票連結（Museums of History NSW 主辦）
+- 2026-10-18｜tickets｜Journey Beyond – The Ghan Special Offers｜https://www.journeybeyondrail.com.au/the-ghan-special-offers/｜The Ghan 機票補貼與套裝優惠條款，訂位截止日與旅程年份
