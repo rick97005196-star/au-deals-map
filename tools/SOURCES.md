@@ -186,3 +186,17 @@
 - 2026-10-18｜活動 TAS｜Burnie 市議會 – Festivals in Tasmania｜https://www.burnie.tas.gov.au/tourism/Experience/Whats-on/Festivals-in-Tasmania｜塔州節慶總覽，列出 10 月下旬節慶日期
 - 2026-10-18｜活動 NSW｜NSW Government – Sydney Open 活動資訊｜https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/sydney-open｜雪梨開放建築日 2026 年 11 月 1 日日期、票價範圍與購票連結（Museums of History NSW 主辦）
 - 2026-10-18｜tickets｜Journey Beyond – The Ghan Special Offers｜https://www.journeybeyondrail.com.au/the-ghan-special-offers/｜The Ghan 機票補貼與套裝優惠條款，訂位截止日與旅程年份
+- 2026-10-19｜entertainment AU｜Event Cinemas – Half Price Tuesdays（IMAX）｜https://www.eventcinemas.com.au/Promotions/HalfPriceIMAX｜Event Cinemas IMAX 週二半價官網頁，需 Cinebuzz 會員，未列起訖日
+- 2026-10-19｜entertainment AU｜HOYTS – Offers & Promotions｜https://www.hoyts.com.au/offers｜HOYTS 官網優惠總頁，列出會員、學生、Cheap Tuesday、Sunday Sessions 等票價（多數未列活動期間）
+- 2026-10-19｜entertainment AU｜Palace Cinemas – Royal Discount｜https://www.palacecinemas.com.au/events/royal-discount｜Palace 官網週一、週二 Royal Discount 頁，列出 A$10／A$12 票價與 2026 年 2 月 2 日起的開始日（官網 /offers/cheap-tuesday 路徑轉至此內容）
+- 2026-10-19｜shopping AU｜Boost Mobile – 28 Day Prepaid SIMs｜https://boost.com.au/shop/boost-mobile-28-day-sims｜Boost 28 天預付 SIM 頁，列出 $49 SIM 限時價與 6-Times the Bonus 的活動期間
+- 2026-10-19｜shopping AU｜Optus – Mobile plans｜https://www.optus.com.au/mobile/plans/shop｜Optus 官網行動方案頁，列出 Small Promo Plan、學生方案與 iPhone 升級優惠的截止日
+- 2026-10-19｜shopping AU｜Telstra – Best Deals & Special Offers｜https://www.telstra.com.au/deals｜Telstra 官網優惠總頁，列出手機、配件、寬頻與預付方案的限時優惠與截止日
+- 2026-10-19｜shopping AU｜amaysim – Mayhem deals｜https://www.amaysim.com.au/mayhem｜amaysim 官網限時方案頁，列出 120GB、30GB、200GB 方案的續約優惠與截止日（部分未列年份）
+- 2026-10-19｜shopping QLD｜UNIQLO Australia – New Store Openings｜https://www.uniqlo.com/au/en/special-feature/store-opening/｜UNIQLO 澳洲新店開幕頁，列出 Sunshine Coast、Brisbane Queen Street 門市動態與 App 優惠「$5 off $50+」（未列年份與截止日）
+- 2026-10-19｜吃喝｜7-Eleven – Deals & Offers｜https://www.7eleven.com.au/offers.html｜列出 10 月 27 日前的零食飲料多件價與 My 7-Eleven 會員價
+- 2026-10-19｜吃喝｜ALDI Australia – Special Buys 上架日程｜https://www.aldi.com.au/special-buys｜列出 10/17、10/21、10/24、10/28、10/31 上架日與分類（未列個別價格）
+- 2026-10-19｜吃喝｜Hungry Jack's – Jack's App Deals｜https://www.hungryjacks.com.au/menu/jacks-app-deals｜僅列 App 優惠名稱（Buy 4 Get 1 Free 等），無價格與有效日期，待確認
+- 2026-10-19｜吃喝｜Nando's Australia – Offers Terms and Conditions｜https://www.nandos.com.au/offers-terms｜列出 2026 年各項限時優惠與日期（午間時段價 A$14.95 等）
+- 2026-10-19｜吃喝｜Starbucks Australia – Rewards 條款（Matcha Monday）｜https://www.starbucks.com.au/starbucks-rewards/starbucks-rewards-terms-and-conditions/｜每週一抹茶第二件免費，至 2026 年 10 月 26 日
+- 2026-10-19｜活動 NSW｜sydney.com 雪梨活動列表（繁中）｜https://www.sydney.com/tw/events｜雪梨觀光官方活動頁，列出 Sculpture by the Sea（10/16–11/2）、David Hockney 展（10/22 起）與 Just For Laughs Sydney（11/9–22）之 2026 日期；未列票價

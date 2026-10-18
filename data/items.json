@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "items": [
   {
    "id": "aldi-special-buys-2026-10-14-17",
@@ -721,49 +721,6 @@
    }
   },
   {
-   "id": "groundwater-country-music-festival-2026",
-   "type": "event",
-   "title": "Groundwater Country Music Festival",
-   "title_zh": "Groundwater 鄉村音樂節",
-   "category": "music",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Broadbeach precinct",
-   "lat": -28.029,
-   "lng": 153.432,
-   "start": "2026-10-16",
-   "end": "2026-10-18",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・3 天",
-   "summary_zh": "黃金海岸 Broadbeach 免費鄉村音樂節，2026 年演出陣容包括 Kasey Chambers、The Wolfe Brothers、Beccy Cole 等。",
-   "tip_zh": "建議搭乘 G:link 輕軌至 Broadbeach North 或 Broadbeach South 站前往，活動期間周邊車位有限。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Groundwater Country Music Festival – official site",
-     "url": "https://groundwatercmf.com/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Groundwater CMF – Dates & Location",
-     "url": "https://groundwatercmf.com/?p=576"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "Country Town – Groundwater unveils 2026 line-up",
-     "url": "https://countrytown.com/news/groundwater-country-music-festival-unveils-2026-line-up/4Xdf9fT39vk/21-07-26"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-16"
-   }
-  },
-  {
    "id": "diwali-festival-of-lights-brisbane-2026",
    "type": "event",
    "title": "Diwali Festival of Lights",
@@ -1208,55 +1165,6 @@
     "checked": "2026-10-12"
    },
    "schedule_zh": "週二至週四 16:30 起、週五至週日 12:00 起（營業至深夜）"
-  },
-  {
-   "id": "sa-raa-bay-to-birdwood-2026",
-   "type": "event",
-   "title": "RAA Bay to Birdwood 2026",
-   "title_zh": "Bay to Birdwood 老爺車大遊行",
-   "category": "family",
-   "region": "SA",
-   "city": "Birdwood",
-   "venue": "National Motor Museum, Birdwood（起點：Barratt Reserve, West Beach）",
-   "lat": -34.8195,
-   "lng": 138.9601,
-   "start": "2026-10-18",
-   "end": "2026-10-18",
-   "price_zh": "終點慶典需購票（請見官網）",
-   "free": false,
-   "highlight": "1,500 台老爺車",
-   "summary_zh": "1,500 多台古董與經典車輛自 West Beach 的 Barratt Reserve 出發，前往 Adelaide Hills 的 Birdwood 國家汽車博物館，終點設有慶典活動。",
-   "tip_zh": "終點慶典須事先購票，詳情與交通安排請見官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "RAA Bay to Birdwood – official site",
-     "url": "https://baytobirdwood.history.sa.gov.au"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "RAA Bay to Birdwood – FAQs 2026",
-     "url": "https://baytobirdwood.history.sa.gov.au/frequently-asked-questions-2026/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "RAA Bay to Birdwood – Buy tickets (Finish Festival)",
-     "url": "https://baytobirdwood.history.sa.gov.au/buy-tickets/"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@raabaytobirdwood on Instagram",
-     "url": "https://www.instagram.com/raabaytobirdwood/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-18"
-   }
   },
   {
    "id": "sa-feast-picnic-in-the-park-2026",
@@ -2262,104 +2170,6 @@
    "schedule_zh": "11/13–15、11/20–22 兩個週末"
   },
   {
-   "id": "melbourne-italian-festa-2026",
-   "type": "event",
-   "title": "Melbourne Italian Festa 2026",
-   "title_zh": "墨爾本義大利節",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Royal Exhibition Building & Grounds, Carlton",
-   "lat": -37.8047,
-   "lng": 144.9716,
-   "start": "2026-10-17",
-   "end": "2026-10-18",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・235 個攤位",
-   "summary_zh": "於世界遺產皇家展覽館舉辦的義大利文化節，設有 235 個美食、酒類、時尚與家居等攤位，並有現場音樂與料理示範。品酒及部分音樂會可能須另行購票，請見官網。",
-   "tip_zh": "週六 11:00–22:30、週日 11:00–20:30，免費入場，無須購票；品酒與爵士音樂會門票可於官網購買。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Melbourne Italian Festa – official site",
-     "url": "https://www.italianfesta.com.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Italian Festa and Expo",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/italian-festa-and-expo"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@melbourneitalianfesta on Instagram",
-     "url": "https://www.instagram.com/melbourneitalianfesta/"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "Melbourne Italian Festa on Facebook",
-     "url": "https://www.facebook.com/melbourneitalianfesta25"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-16"
-   }
-  },
-  {
-   "id": "melbourne-fringe-2026",
-   "type": "event",
-   "title": "Melbourne Fringe 2026",
-   "title_zh": "墨爾本 Fringe 藝穗節",
-   "category": "arts",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Trades Hall, Carlton（Fringe 中心）及全市多個場地",
-   "lat": -37.8066,
-   "lng": 144.9664,
-   "start": "2026-09-29",
-   "end": "2026-10-18",
-   "price_zh": "部分節目免費，其餘依節目而定",
-   "free": false,
-   "highlight": "450+ 場節目",
-   "summary_zh": "每年舉辦 450 場以上節目的獨立藝術節，涵蓋喜劇、卡巴萊、劇場、舞蹈、馬戲及大型公共藝術，並有多項免費節目，適合認識墨爾本的創意藝文界。",
-   "tip_zh": "可於官網節目表查詢免費（free）節目；Trades Hall（Lygon St 與 Victoria St 交叉口）為藝穗節主要活動據點，設有酒吧及多個表演空間。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Melbourne Fringe – official site",
-     "url": "https://www.melbournefringe.com.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Melbourne Fringe – Festival FAQs",
-     "url": "https://www.melbournefringe.com.au/festival-info/festival-faqs/"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@melbfringe on Instagram",
-     "url": "https://www.instagram.com/melbfringe/"
-    },
-    {
-     "kind": "social",
-     "platform": "TikTok",
-     "label": "@melbfringe on TikTok",
-     "url": "https://www.tiktok.com/@melbfringe"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-15"
-   }
-  },
-  {
    "id": "geelong-cup-2026",
    "type": "event",
    "title": "Geelong Cup 2026",
@@ -3343,45 +3153,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "sa-cheesefest-2026",
-   "type": "event",
-   "title": "CheeseFest 2026",
-   "title_zh": "CheeseFest 起司節",
-   "category": "food",
-   "region": "SA",
-   "city": "Adelaide",
-   "venue": "Rundle Park Kadlitpina",
-   "lat": -34.9213,
-   "lng": 138.6143,
-   "start": "2026-10-17",
-   "end": "2026-10-18",
-   "schedule_zh": "11:00–18:00",
-   "price_zh": "A$29–39（依票種）",
-   "free": false,
-   "highlight": "年度美食節・2 天",
-   "summary_zh": "創辦於 2006 年的戶外起司節，集合南澳各地的起司及在地食品、餐廳與飲品業者，現場有娛樂表演、烹飪示範與起司大師課。適合喜愛在地食材與美食活動的民眾。",
-   "tip_zh": "門票分 A$29（僅入場）、A$34（附紀念杯）、A$39（快速入場、紀念杯與提袋），請於官網購票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Experience Adelaide – CheeseFest 2026",
-     "url": "https://www.experienceadelaide.com.au/whats-on/cheesefest-2026/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "South Australia – CheeseFest 2026",
-     "url": "https://southaustralia.com/products/adelaide/event/cheesefest-2026"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-16"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "sa-festival-of-halloween-port-adelaide-2026",
    "type": "event",
    "title": "Festival of Halloween 2026",
@@ -3457,45 +3228,6 @@
     "status": "partial",
     "checked": "2026-10-18",
     "unconfirmed_zh": "每日開放時間未能在官方頁面確認。"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "sa-riverland-rose-and-garden-festival-2026",
-   "type": "event",
-   "title": "Riverland Rose and Garden Festival 2026",
-   "title_zh": "Riverland 玫瑰花園節",
-   "category": "outdoors",
-   "region": "SA",
-   "city": "Renmark",
-   "venue": "Renmark 及 Riverland 各地（花藝展於 Renmark Institute）",
-   "lat": -34.1752,
-   "lng": 140.7468,
-   "start": "2026-10-09",
-   "end": "2026-10-18",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "春季花園・10 天",
-   "summary_zh": "Riverland 一年一度的春季花園節，於 10/9–10/18 在 Renmark 及周邊舉辦，官方提供花園地圖，節慶初期並於 Renmark Institute 舉辦花藝展。",
-   "tip_zh": "可於官網下載花園地圖後規劃行程。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "South Australia – Riverland Rose and Garden Festival 2026",
-     "url": "https://southaustralia.com/products/riverland/event/riverland-rose-and-garden-festival-2026"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Riverland Rose and Garden Festival – Festival Maps",
-     "url": "https://www.riverlandrosesandgardens.com.au/festival-maps/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-16",
-    "unconfirmed_zh": "官網未列出入場費用與各花園的開放時間。"
    },
    "added": "2026-10-10"
   },
@@ -4272,44 +4004,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "williams-shoes-30-off-sitewide-oct-2026",
-   "type": "deal",
-   "title": "Williams Shoes – 30% Off Sitewide",
-   "title_zh": "Williams 鞋店官網全站 7 折",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-12",
-   "end": "2026-10-18",
-   "price_zh": "全站 7 折",
-   "free": false,
-   "highlight": "全站 7 折",
-   "summary_zh": "鞋類連鎖 Williams 官網全站 7 折，正價與已降價款式都適用，結帳時自動折扣。官方條款註明為線上優惠，門市可依顧客要求比照線上價格。",
-   "tip_zh": "不含禮物卡、配件與最後一雙；Shoebucks 會員登入線上帳戶後可再折抵回饋金。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Williams Shoes – Promotions terms and conditions",
-     "url": "https://www.williamsshoes.com.au/promotions"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – 30% off sitewide @ Williams Shoes",
-     "url": "https://www.ozbargain.com.au/node/978689"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-12"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "britbox-annual-plan-75-oct-2026",
    "type": "deal",
    "title": "BritBox Annual Offer (Australia)",
@@ -4971,45 +4665,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "royal-geelong-show-2026",
-   "type": "event",
-   "title": "Royal Geelong Show 2026",
-   "title_zh": "吉朗皇家農業展",
-   "category": "family",
-   "region": "VIC",
-   "city": "Geelong",
-   "venue": "Geelong Showgrounds",
-   "lat": -38.1716,
-   "lng": 144.374,
-   "start": "2026-10-15",
-   "end": "2026-10-18",
-   "schedule_zh": "週四、週日 9:30–16:00；週五、週六 9:30–22:30",
-   "price_zh": "成人 A$30（週四 10/15 現場 A$20）；8–15 歲學生週四免費，週五至週日 A$15",
-   "free": false,
-   "highlight": "週四學生免費・4 天",
-   "summary_zh": "吉朗地區年度農業展，在 East Geelong 的 Geelong Showgrounds 舉行四天，內容涵蓋農業展示、各項競賽、展覽、娛樂與美食，適合家庭與想體驗澳洲鄉村文化的旅客。",
-   "tip_zh": "10 月 15 日（週四）票價只在現場販售；線上早鳥票已於 10 月 14 日截止。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Royal Geelong Show – Buy Tickets",
-     "url": "https://royalgeelongshow.org.au/geelong-show/buy-tickets/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Royal Geelong Show – 首頁",
-     "url": "https://www.royalgeelongshow.org.au/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-15"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "bendigo-agricultural-show-2026",
    "type": "event",
    "title": "Bendigo Agricultural Show 2026",
@@ -5046,45 +4701,6 @@
     "checked": "2026-10-12"
    },
    "schedule_zh": "兩天皆 9:00–21:00（每晚 21:00 施放煙火）",
-   "added": "2026-10-12"
-  },
-  {
-   "id": "melbourne-donut-festival-2026",
-   "type": "event",
-   "title": "Melbourne Donut Festival",
-   "title_zh": "Queen Vic Market 甜甜圈節",
-   "category": "food",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Queen Victoria Market（C–D Sheds）",
-   "lat": -37.8066,
-   "lng": 144.9571,
-   "start": "2026-10-17",
-   "end": "2026-10-18",
-   "schedule_zh": "兩天皆 9:00–16:00",
-   "price_zh": "免費入場（餐點另計）",
-   "free": true,
-   "highlight": "免費入場・2 天",
-   "summary_zh": "Queen Victoria Market 舉辦的兩天免費甜甜圈節，有超過 15 家墨爾本甜甜圈與甜點店家，另有咖啡與現場表演，適合各年齡層。",
-   "tip_zh": "不需預約；場地在 C–D Sheds，全程有屋頂遮蔽，推車與輪椅可通行。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Queen Victoria Market – Melbourne Donut Festival",
-     "url": "https://qvm.com.au/whats-on/melbourne-donut-festival/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "What's On Melbourne – Melbourne Donut Festival",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/melbourne-donut-festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-16"
-   },
    "added": "2026-10-12"
   },
   {
@@ -7020,41 +6636,6 @@
    "added": "2026-10-15"
   },
   {
-   "id": "sealink-ki99-kangaroo-island-vehicle-2026",
-   "type": "deal",
-   "title": "SeaLink Kangaroo Island vehicle fare offer (KI99)",
-   "title_zh": "SeaLink 袋鼠島車輛票價減 A$99",
-   "category": "tickets",
-   "region": "SA",
-   "city": null,
-   "venue": "Cape Jervis",
-   "lat": -35.596,
-   "lng": 138.11,
-   "area_zh": null,
-   "start": "2026-10-12",
-   "end": "2026-10-18",
-   "schedule_zh": null,
-   "price_zh": "單程車輛票價減 A$99，司機免費（促銷碼 KI99）",
-   "free": false,
-   "highlight": "車輛票價折抵",
-   "summary_zh": "SeaLink 於 2026 年 10 月 12 日至 18 日（ACST）開放訂位的 KI99 優惠：單程車輛票價折抵 A$99，司機免費；適用一名成人與標準車輛、由 Cape Jervis 出發的新直接訂位。",
-   "tip_zh": "以促銷碼 KI99 於 sealink.com.au 或電話 13 13 01 訂位，須一次付清且不可與其他優惠併用；旅行期間為 2027 年 1 月 27 日至 4 月 9 日及 4 月 26 日至 5 月 30 日，並排除假日與特定日期。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "SeaLink – Save $99 off vehicle fare and driver goes free（KI99）",
-     "url": "https://www.sealink.com.au/kangaroo-island/special-offers/ki99/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-18",
-    "unconfirmed_zh": "本輪查證時無法開啟官方頁面（網站被擋或工具額度用盡），細節未能重新確認。"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "qantas-holidays-fly-stay-deals-2026-q4",
    "type": "deal",
    "title": "Qantas Holidays Fly + Stay deals",
@@ -7377,79 +6958,6 @@
    "added": "2026-10-15"
   },
   {
-   "id": "coolangatta-gold-2026",
-   "type": "event",
-   "title": "Shaw and Partners Coolangatta Gold 2026",
-   "title_zh": "Coolangatta Gold 衝浪耐力賽",
-   "category": "sport",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Coolangatta Beach, Marine Parade, Coolangatta",
-   "lat": -28.169,
-   "lng": 153.537,
-   "start": "2026-10-17",
-   "end": "2026-10-18",
-   "schedule_zh": "2026 年 10 月 17 日至 18 日 7:00–17:00",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "運動賽事・衝浪耐力",
-   "summary_zh": "由澳洲救生協會（Surf Life Saving）主辦的衝浪耐力賽事，選手需完成三種賽制的海上與沙灘項目，為澳洲衝浪救生運動的代表賽事。適合喜愛運動賽事與海岸文化的觀眾。",
-   "tip_zh": "官方頁面未說明觀賽費用，請以主辦單位公告為準；建議搭乘大眾運輸前往，現場停車位可能有限。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Experience Gold Coast – Shaw and Partners Coolangatta Gold 2026",
-     "url": "https://experiencegoldcoast.com/events/shaw-and-partners-coolangatta-gold-2026"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-18",
-    "unconfirmed_zh": "本輪查證時無法開啟官方頁面（網站被擋或工具額度用盡），細節未能重新確認。"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "canberra-writers-festival-2026",
-   "type": "event",
-   "title": "Canberra Writers Festival 2026",
-   "title_zh": "坎培拉作家節 2026",
-   "category": "arts",
-   "region": "ACT",
-   "city": "Canberra",
-   "venue": "多處場地（National Library of Australia、National Gallery of Australia、National Portrait Gallery 等）",
-   "lat": -35.2965,
-   "lng": 149.13,
-   "start": "2026-10-15",
-   "end": "2026-10-18",
-   "schedule_zh": "2026 年 10 月 15 日至 18 日",
-   "price_zh": "多數場次成人 A$30、優待 A$25；兒童與家庭場次成人 A$15、17 歲以下 A$10；部分場次免費（需預約）",
-   "free": false,
-   "highlight": "部分免費・四日節慶",
-   "summary_zh": "坎培拉年度作家節，節目包括講座、對談與兒童及青少年活動。10 月 17 日至 18 日於國家圖書館前院設有免費兒童故事時間。",
-   "tip_zh": "免費場次需事先預約，建議提前至官網查看場次與時間。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Canberra Writers Festival 2026 節目冊（PDF）",
-     "url": "https://canberrawritersfestival.com.au/wp-content/uploads/2026/08/CWF-Program-2026-DIGITAL.pdf"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "VisitCanberra – Canberra Writers Festival",
-     "url": "https://visitcanberra.com.au/events/56b23c75d5f1565045d80ee2/canberra-writers-festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-15"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "craft-design-canberra-festival-2026",
    "type": "event",
    "title": "2026 Craft + Design Canberra Festival",
@@ -7657,79 +7165,6 @@
     "status": "partial",
     "checked": "2026-10-16",
     "unconfirmed_zh": "官網未列出各場的放映地點與開始時間。"
-   },
-   "added": "2026-10-16"
-  },
-  {
-   "id": "rangebow-festival-2026",
-   "type": "event",
-   "title": "Rangebow Festival 2026",
-   "title_zh": "Rangebow 藝術節（陽光海岸山區）",
-   "category": "festival",
-   "region": "QLD",
-   "city": "Sunshine Coast",
-   "venue": "陽光海岸山區多處場地（Nambour、Maleny、Montville、Flaxton、Mapleton 等）",
-   "lat": -26.6236,
-   "lng": 152.9598,
-   "start": "2026-10-09",
-   "end": "2026-10-18",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "非營利藝術節・多場地",
-   "summary_zh": "陽光海岸與山區一帶的非營利藝術節，節目涵蓋電影、戲劇、藝術、美食、音樂與自然等主題。2026 年 10 月 9 日至 18 日舉行。",
-   "tip_zh": "各場次是否收費與票價請見官方票務頁面，前往場地前請先確認地點與時間。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Sunshine Coast – Rangebow 2026",
-     "url": "https://www.visitsunshinecoast.com/event/61d28bd6bbc0198c708e770c/rangebow"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-16",
-    "unconfirmed_zh": "官方頁面未明確說明各場次是否免費，票價請見官網。"
-   },
-   "added": "2026-10-16"
-  },
-  {
-   "id": "strummingbird-sunshine-coast-2026",
-   "type": "event",
-   "title": "Strummingbird Sunshine Coast 2026",
-   "title_zh": "Strummingbird 鄉村音樂節（陽光海岸）",
-   "category": "music",
-   "region": "QLD",
-   "city": "Sunshine Coast",
-   "venue": "Kawana Sports Precinct（Bokarina）",
-   "lat": -26.638,
-   "lng": 153.099,
-   "start": "2026-10-18",
-   "end": "2026-10-18",
-   "schedule_zh": "10 月 18 日 12:00–23:00",
-   "price_zh": "請見官網（需購票）",
-   "free": false,
-   "highlight": "大型戶外音樂節",
-   "summary_zh": "陽光海岸 Bokarina 舉辦的大型戶外鄉村音樂節，2026 年 10 月 18 日舉行，需購票入場。適合喜愛鄉村音樂與戶外演出的人。",
-   "tip_zh": "票務透過官網連結的 Moshtix 販售，另有 VIP 與露營選項，請以官網公告為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Strummingbird Sunshine Coast – 官方網站",
-     "url": "https://strummingbird.com.au"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Sunshine Coast – Strummingbird Sunshine Coast",
-     "url": "https://www.visitsunshinecoast.com/event/688b26e7ed0d2e920a8301e9/strummingbird-sunshine-coast"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-18",
-    "unconfirmed_zh": "本輪查證時無法開啟官方頁面（網站被擋或工具額度用盡），細節未能重新確認。"
    },
    "added": "2026-10-16"
   },
@@ -8546,6 +7981,284 @@
     "checked": "2026-10-18"
    },
    "added": "2026-10-18"
+  },
+  {
+   "id": "optus-small-promo-100gb-plan-2026-11-12",
+   "type": "deal",
+   "title": "Optus Small Promo Plan – 100GB for A$39/month for 12 months",
+   "title_zh": "Optus 100GB 方案前 12 個月 A$39",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-19",
+   "end": "2026-11-12",
+   "price_zh": "前 12 個月每月 A$39，第 13 個月起每月 A$60",
+   "free": false,
+   "highlight": "前 12 個月每月 A$39",
+   "summary_zh": "Optus 官網所列 Small Promo Plan 方案，首 12 個月每月 A$39，含 100GB 數據；第 12 個月後數據降為 60GB，費用調整為每月 A$60。官網載明優惠截止日為 2026 年 11 月 12 日。適合需要穩定數據、且接受 12 個月後費用與數據調整的新客戶。",
+   "tip_zh": "官網未列出優惠開始日期，本頁所列起始日為查證日。方案條件、折抵方式與結帳細節以 Optus 官網頁面為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Optus – Mobile plans (Small Promo Plan)",
+     "url": "https://www.optus.com.au/mobile/plans/shop"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-19",
+    "unconfirmed_zh": "官網未列出優惠開始日期；2026 年 11 月 12 日為官網標示之截止日。"
+   },
+   "added": "2026-10-19"
+  },
+  {
+   "id": "boost-mobile-28-day-6x-bonus-2026",
+   "type": "deal",
+   "title": "Boost Mobile 28-Day Plans – 6-Times the Bonus",
+   "title_zh": "Boost 28 天方案加倍加值數據",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-19",
+   "end": "2026-11-02",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "指定 28 天方案加倍數據",
+   "summary_zh": "Boost Mobile 官網所列「6-Times the Bonus」優惠，適用於指定 28 天預付方案，新開通及之後五次加值可享額外數據。官網載明新開通需於 2026 年 11 月 2 日前完成，後續加值須於 2027 年 4 月 5 日前完成。適合以預付卡方式使用、並規劃持續加值的使用者。",
+   "tip_zh": "僅限指定 28 天方案，須於官網確認可參加的方案與數據內容。後續加值的截止日為 2027 年 4 月 5 日。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Boost Mobile – 28 Day Prepaid SIMs",
+     "url": "https://boost.com.au/shop/boost-mobile-28-day-sims"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-19",
+    "unconfirmed_zh": "官網未列出優惠開始日期，也未明列適用方案與增加的數據量；2026 年 11 月 2 日為官網標示之新開通截止日。"
+   },
+   "added": "2026-10-19"
+  },
+  {
+   "id": "caloundra-mapping-threads-2026",
+   "type": "event",
+   "title": "Mapping Threads",
+   "title_zh": "Mapping Threads 展覽（Caloundra）",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Caloundra",
+   "venue": "Caloundra Regional Gallery",
+   "lat": -26.801,
+   "lng": 153.1316,
+   "start": "2026-10-16",
+   "end": "2026-12-06",
+   "price_zh": "開幕活動免費（需報名）；展覽入場費請見官網",
+   "free": false,
+   "highlight": "展覽・2026 年 10 至 12 月",
+   "summary_zh": "Caloundra Regional Gallery 展出 Nicole Voevodin-Cash 的 Mapping Threads 展覽。適合對當代藝術與手作工藝有興趣的讀者。",
+   "tip_zh": "官網載明開幕活動已於 10 月 15 日 18:00–20:00 舉行（免費，需報名）；展覽期間的入場費與開放時間請見 Caloundra Regional Gallery 官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sunshine Coast Council：展覽列表（Mapping Threads，16 Oct–6 Dec 2026）",
+     "url": "https://www.sunshinecoast.qld.gov.au/exhibitions"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Caloundra Regional Gallery：2026 Exhibition Openings（開幕活動免費，需報名）",
+     "url": "https://gallery.sunshinecoast.qld.gov.au/adult-programs/2026-exhibition-openings"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-19",
+    "unconfirmed_zh": "官網未列出展覽入場費與開放時間。"
+   },
+   "added": "2026-10-19"
+  },
+  {
+   "id": "caloundra-manipulating-vision-erin-conron-2026",
+   "type": "event",
+   "title": "Manipulating Vision: The glass art of Erin Conron",
+   "title_zh": "Erin Conron 玻璃藝術展（Caloundra）",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Caloundra",
+   "venue": "Caloundra Regional Gallery",
+   "lat": -26.801,
+   "lng": 153.1316,
+   "start": "2026-10-16",
+   "end": "2026-12-06",
+   "price_zh": "開幕活動免費（需報名）；展覽入場費請見官網",
+   "free": false,
+   "highlight": "展覽・2026 年 10 至 12 月",
+   "summary_zh": "Caloundra Regional Gallery 展出 Erin Conron 的玻璃藝術作品。適合對玻璃工藝與當代藝術有興趣的讀者。",
+   "tip_zh": "官網載明開幕活動已於 10 月 15 日 18:00–20:00 舉行（免費，需報名）；展覽期間的入場費與開放時間請見 Caloundra Regional Gallery 官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sunshine Coast Council：展覽列表（Manipulating Vision，16 Oct–6 Dec 2026）",
+     "url": "https://www.sunshinecoast.qld.gov.au/exhibitions"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Caloundra Regional Gallery：2026 Exhibition Openings",
+     "url": "https://gallery.sunshinecoast.qld.gov.au/adult-programs/2026-exhibition-openings"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-19",
+    "unconfirmed_zh": "官網未列出展覽入場費與開放時間。"
+   },
+   "added": "2026-10-19"
+  },
+  {
+   "id": "aldi-special-buys-2026-10-28",
+   "type": "deal",
+   "title": "ALDI Special Buys – Wednesday 28th October 2026",
+   "title_zh": "ALDI 10/28 特賣（食品特價）",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-28",
+   "end": null,
+   "schedule_zh": "每週三、週六更新（本筆為 10 月 28 日）",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "門市特賣",
+   "summary_zh": "ALDI 官網列出 2026 年 10 月 28 日（週三）門市上架的 Special Buys 類別，包括 Grocery Specials、兒童玩具與書籍、限時肉品與寵物用品。適合以門市採買日用食品者參考。",
+   "tip_zh": "Special Buys 商品數量有限，依門市庫存供應（售完為止），各門市價格可能不同，請依當地門市為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Australia – Special Buys 上架日程",
+     "url": "https://www.aldi.com.au/special-buys"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-19",
+    "unconfirmed_zh": "官網僅列出 10 月 28 日上架的商品類別，未列出個別商品名稱、價格與結束日期。"
+   },
+   "added": "2026-10-19"
+  },
+  {
+   "id": "7-eleven-snack-drink-multibuy-2026-10-27",
+   "type": "deal",
+   "title": "7-Eleven Snack and Drink Multi-buy Offers",
+   "title_zh": "7-Eleven 零食飲料多件優惠",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-19",
+   "end": "2026-10-27",
+   "price_zh": "2 件 A$7.50 起（部分品項）",
+   "free": false,
+   "highlight": "多件組合價",
+   "summary_zh": "7-Eleven 門市零食與飲料多件組合價，包括 Doritos 2 件 A$7.50、Nerds Clusters 每件 A$4.50、Coca-Cola、Sprite 與 Fanta 600mL 2 件 A$7.50 等，適合購買點心與飲品者。",
+   "tip_zh": "Cadbury 與 Chobani 的會員價須於 My 7-Eleven 應用程式掃描會員卡方可適用；其餘品項於門市直接以標示價格購買。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "7-Eleven – Deals & Offers",
+     "url": "https://www.7eleven.com.au/offers.html"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-19",
+    "unconfirmed_zh": "官網僅標示有效至 2026 年 10 月 27 日，未載明起始日期；此處 start 為本次確認日，並非官方公告的起始日。"
+   },
+   "added": "2026-10-19"
+  },
+  {
+   "id": "starbucks-matcha-monday-2026",
+   "type": "deal",
+   "title": "Starbucks Matcha Monday",
+   "title_zh": "Starbucks 抹茶週一第二件免費",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-19",
+   "end": "2026-10-26",
+   "schedule_zh": "每週一（至 2026 年 10 月 26 日）",
+   "price_zh": "第二件合資格品項免費（免費者為價格最低品項）",
+   "free": false,
+   "highlight": "會員限定・每週一",
+   "summary_zh": "Starbucks 每週一推出的抹茶系列優惠，合資格品項包括抹茶飲品、VIA 抹茶、Heath Lab 草莓抹茶棒，以及各式馬卡龍與迷你甜甜圈。",
+   "tip_zh": "須為 Starbucks Rewards 會員；Uber Eats 訂單與行動點餐（Mobile Order & Pay）訂單不適用，部分門市庫存有限。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Starbucks Australia – Rewards Terms and Conditions（Matcha Monday）",
+     "url": "https://www.starbucks.com.au/starbucks-rewards/starbucks-rewards-terms-and-conditions/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-19",
+    "unconfirmed_zh": "官網條款列出週一優惠至 2026 年 10 月 26 日，未載明開始日期；此處 start 為本次確認日。"
+   },
+   "added": "2026-10-19"
+  },
+  {
+   "id": "nandos-lunch-daypart-2026",
+   "type": "deal",
+   "title": "Nando's Lunch Daypart Offer",
+   "title_zh": "Nando's 午間時段優惠",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-09-07",
+   "end": "2026-11-02",
+   "schedule_zh": "週一至週四，下午 2 點前",
+   "price_zh": "內用或外帶 A$14.95；外送 A$16.95（加購飲品 A$2.95，南澳 A$3.95）",
+   "free": false,
+   "highlight": "午間時段價",
+   "summary_zh": "Nando's 週一至週四自餐廳開門至下午 2 點的午間時段優惠，指定餐點包括 PERinaise 經典餐搭配薯條、4 塊 PERi-PERi Tenders 搭配薯條、Paella、Mediterranean Salad 與 Grande Loaded Chips。適合在午間用餐的上班族與學生參考。",
+   "tip_zh": "外送價格較內用與外帶高；加購飲品僅限線上點餐。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Nando's Australia – Offers Terms and Conditions",
+     "url": "https://www.nandos.com.au/offers-terms"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-19"
+   },
+   "added": "2026-10-19"
   }
  ]
 }
