@@ -1,49 +1,6 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "items": [
-  {
-   "id": "aldi-special-buys-2026-10-14-17",
-   "type": "deal",
-   "title": "ALDI Special Buys – Wednesday 14th October & Saturday 17th October",
-   "title_zh": "ALDI 10/14、10/17 特賣",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-14",
-   "end": null,
-   "price_zh": "A$2.99 起",
-   "free": false,
-   "highlight": "萬聖節糖果",
-   "summary_zh": "ALDI 10/14（三）與 10/17（六）Special Buys：10/14 推出歐式聖誕餅乾甜點（WEISS 軟薑餅 200g A$4.99）及限時肉品海鮮（醃豬里肌烤肉 600g A$12.99、椒鹽魷魚 270g A$6.99）；10/17 推出萬聖節糖果，包括 KitKat 50 入 A$16.99、Freddo 分享包 A$7.49，另有 Ferrex 1600W 高壓清洗機 A$89.99。",
-   "tip_zh": "萬聖節糖果與限時肉品通常很快售完，建議當日提早前往；出發前可先於官網查閱完整商品清單。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ALDI – Special Buys Wed 14 Oct 2026",
-     "url": "https://www.aldi.com.au/special-buys/2026-10-14"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ALDI – Special Buys Sat 17 Oct 2026",
-     "url": "https://www.aldi.com.au/special-buys/2026-10-17"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – Ferrex High Pressure Washer $89.99 @ ALDI",
-     "url": "https://www.ozbargain.com.au/node/977566"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-13"
-   }
-  },
   {
    "id": "woolworths-free-fissler-containers-2026",
    "type": "deal",
@@ -2684,45 +2641,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "boost-mobile-49-sim-for-17-oct-2026",
-   "type": "deal",
-   "title": "Boost Mobile $49 SIM for $17",
-   "title_zh": "Boost 預付卡首期 A$17",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-10",
-   "end": "2026-10-19",
-   "price_zh": "首期 A$17（原價 A$49）",
-   "free": false,
-   "highlight": "首期約 3.5 折",
-   "summary_zh": "Boost Mobile 使用 Telstra 預付網路，28 天 A$49 預付 SIM 卡新開通特價，優惠至 10/19 止，後續儲值為 A$49。",
-   "tip_zh": "限線上購買並新開通；後續儲值為 A$49。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Boost Mobile – Deals",
-     "url": "https://boost.com.au/pages/deals"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Boost Mobile – Prepaid plans",
-     "url": "https://boost.com.au/prepaid-plans"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-18",
-    "unconfirmed_zh": "官網文字中未能確認首期 A$17 價格與數據量。"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "lebara-sim-plan-sale-nov-2026",
    "type": "deal",
    "title": "Lebara Prepaid SIM Plan Deals",
@@ -5260,38 +5178,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "amaysim-unlimited-120gb-28-day-18-oct-2026",
-   "type": "deal",
-   "title": "amaysim Unlimited 120GB 28-Day Plan – $32 off first renewal",
-   "title_zh": "amaysim 120GB 月方案首期 A$18",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-08-24",
-   "end": "2026-10-19",
-   "price_zh": "首期 A$18（原價 A$50／28 天）",
-   "free": false,
-   "highlight": "首期折 A$32",
-   "summary_zh": "amaysim Unlimited 120GB 預付方案（每 28 天 A$50）新申辦者首期折抵 A$32，實付 A$18，每期 120GB 數據並自動續約。適合想先試用一個月、不想一次預繳整年的打工度假族。",
-   "tip_zh": "限於 amaysim 官網或 App 線上申辦新門號，每人限一次，不適用 Starter Pack 開通；第二期起恢復原價 A$50。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "amaysim – Aug–Oct 2026 Unlimited 120GB 28-day offer terms (PDF)",
-     "url": "https://www.amaysim.com.au/content/dam/amaysim/documents/terms-conditions/promotions/2026_Aug-Oct_50_28d.pdf"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-13"
-   },
-   "added": "2026-10-13"
-  },
-  {
    "id": "aussie-broadband-spring-deals-2026",
    "type": "deal",
    "title": "Aussie Broadband Spring Deals 2026",
@@ -5734,45 +5620,6 @@
     "status": "partial",
     "checked": "2026-10-18",
     "unconfirmed_zh": "官方頁面未列出票價。"
-   },
-   "added": "2026-10-13"
-  },
-  {
-   "id": "tas-tamar-valley-writers-festival-2026",
-   "type": "event",
-   "title": "Tamar Valley Writers Festival 2026",
-   "title_zh": "Tamar Valley 作家節",
-   "category": "arts",
-   "region": "TAS",
-   "city": "Launceston",
-   "venue": "River's Edge Building, UTAS Inveresk Campus",
-   "lat": -41.4243,
-   "lng": 147.1405,
-   "start": "2026-10-15",
-   "end": "2026-10-19",
-   "price_zh": "依場次而定，請見官網（部分場次免費）",
-   "free": false,
-   "highlight": "作家節・部分場次免費",
-   "summary_zh": "位於北塔斯馬尼亞 Launceston 的作家節，節期為 10 月 15 日至 19 日，主要場次於 10 月 17–18 日在 Inveresk 的 River's Edge Building 舉行；2026 年設有 Nigella Lawson 等場次。",
-   "tip_zh": "門票於 Humanitix 購買，部分場次另有獨立售票連結；10 月 18 日 14:45 的 Adam Sharp 場次為免費入場。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "Humanitix",
-     "label": "Tamar Valley Writers Festival 2026 – Humanitix",
-     "url": "https://events.humanitix.com/tamar-valley-writers-festival-2026"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Tamar Valley Writers Festival",
-     "url": "https://www.discovertasmania.com.au/things-to-do/arts-and-culture/tamar-valley-writers-festival/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-18",
-    "unconfirmed_zh": "官方頁面未列出各場票價。"
    },
    "added": "2026-10-13"
   },
@@ -6626,41 +6473,6 @@
      "platform": "官方網站",
      "label": "IGA – Weekly Specials Catalogue",
      "url": "https://www.iga.com.au/catalogue/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-18",
-    "unconfirmed_zh": "本輪查證時無法開啟官方頁面（網站被擋或工具額度用盡），細節未能重新確認。"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "qantas-holidays-fly-stay-deals-2026-q4",
-   "type": "deal",
-   "title": "Qantas Holidays Fly + Stay deals",
-   "title_zh": "Qantas Holidays 機加酒特價",
-   "category": "travel",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": null,
-   "start": "2026-10-15",
-   "end": "2026-10-19",
-   "schedule_zh": null,
-   "price_zh": "每人起價，例如 Uluru Desert Gardens 3 晚 A$1,436 起、Novotel Surfers Paradise 2 晚 A$554 起（雪梨出發經濟艙來回，雙人房均分）",
-   "free": false,
-   "highlight": "機加酒套裝",
-   "summary_zh": "Qantas Holidays 機加酒套裝特價，列表含墨爾本、黃金海岸、烏魯魯、凱恩斯、峇里島等目的地，價格為雪梨出發的經濟艙來回機票加住宿。",
-   "tip_zh": "官網載明專屬優惠於 10 月 19 日 23:59（AEDT）結束，僅適用國內套裝；各套裝截止日不同，且價格依房型與日期而定。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Qantas Holidays – Fly + Stay Deals",
-     "url": "https://www.qantas.com/holidays/deals/fly-stay-deals"
     }
    ],
    "verified": {
