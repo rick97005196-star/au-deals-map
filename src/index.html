@@ -31,6 +31,8 @@
   --tile-filter:grayscale(1) contrast(.78) brightness(1.1);
   color-scheme:light;
 }
+/* 手機上把主網站「意見回饋」按鈕移到「顯示地圖」(#fab) 上方，避免重疊 */
+@media (max-width:440px){:root{--ozfb-fab-bottom:calc(80px + env(safe-area-inset-bottom))}}
 *{box-sizing:border-box}
 html{scroll-padding-top:120px}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 var(--f-body);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
