@@ -91,6 +91,10 @@ body.no-scroll{overflow:hidden}
 @media (max-width:900px){.nav .nav-hub{display:none}}
 .i{display:inline-block;flex:none;vertical-align:-3px}
 .nav svg[data-ok]{color:var(--ok)}
+/* 回到主網站：標題列正下方的細橫條（一般排版，跟著捲走） */
+.hub-bar{background:#fff;border-bottom:1px solid var(--line)}
+.hub-back{display:inline-flex;align-items:center;gap:6px;min-height:40px;font-size:13px;color:var(--ink-2);text-decoration:none}
+.hub-back:hover{color:var(--ink);text-decoration:underline}
 
 /* ---------- 開場：標題、搜尋、地區 ---------- */
 .hero{background:var(--tint);border-bottom:1px solid var(--line)}
@@ -545,6 +549,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
     </nav>
   </div>
 </header>
+<div class="hub-bar"><div class="wrap"><a href="https://au-working-holiday.pages.dev/" class="hub-back"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>回到 澳洲打工度假資訊平台</a></div></div>
 
 
 <section class="hero">
