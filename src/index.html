@@ -25,6 +25,7 @@
   --f-body:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;
   --f-mono:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;
   --r:6px;
+  --ozfb-accent:var(--deal-pin); --ozfb-on-accent:var(--ink); --ozfb-ink:var(--ink);
   --wrap:1240px;
   --gutter:32px;
   --tile-filter:grayscale(1) contrast(.78) brightness(1.1);
@@ -509,6 +510,14 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
 .steps li::before{border-radius:4px;border:1.5px solid var(--ink)}
 .social-links a{border:1.5px solid var(--ink);border-radius:6px;background:#fff}
 .foot{border-top:1.5px solid var(--ink)}
+/* 意見回饋小卡：按鈕由主網站共用檔 feedback-widget.js 開啟站內視窗 */
+.fbk-sec{padding:8px 0 40px}
+.fbk{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px 24px;border:1.5px solid var(--ink);border-radius:8px;background:#fff;padding:18px 22px}
+.fbk h2{margin:0 0 2px;font-size:18px;font-weight:800}
+.fbk p{margin:0;font-size:14px;line-height:1.7;color:var(--muted)}
+.fbk .nw{display:inline-block}
+.fbk .btn{height:42px;padding:0 20px;font-size:14px}
+@media (max-width:640px){.fbk{padding:16px}.fbk .btn{width:100%}}
 
 @media (max-width:900px){
   .headline{font-size:40px}
@@ -631,6 +640,15 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
     </div>
   </section>
 </main>
+
+<section class="fbk-sec" aria-labelledby="fbkTitle">
+  <div class="wrap">
+    <div class="fbk">
+      <div><h2 id="fbkTitle">意見回饋</h2><p>發現優惠資料有誤，或希望新增內容？<span class="nw">歡迎告訴我們。</span></p></div>
+      <button type="button" class="btn primary" data-ozwh-feedback>提供建議</button>
+    </div>
+  </div>
+</section>
 
 <footer class="foot">
   <div class="wrap foot-social"><div id="social"></div></div>
@@ -1511,4 +1529,4 @@ if (CFG.api){
 }
 })();
 </script>
-
+<script src="https://au-working-holiday.pages.dev/feedback-widget.js" data-site="deals" defer></script>
