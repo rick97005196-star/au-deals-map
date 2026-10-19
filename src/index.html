@@ -87,14 +87,25 @@ body.no-scroll{overflow:hidden}
 .nav{margin-left:auto;display:flex;align-items:center;gap:4px}
 .nav a,.nav button{display:inline-flex;align-items:center;gap:7px;height:36px;padding:0 12px;border:0;background:none;border-radius:var(--r);font-size:13.5px;color:var(--ink-2);text-decoration:none;cursor:pointer;white-space:nowrap}
 .nav a:hover,.nav button:hover{background:var(--tint);color:var(--ink)}
-.nav .nav-hub{margin-left:6px;border:1px solid var(--line)}
-@media (max-width:900px){.nav .nav-hub{display:none}}
 .i{display:inline-block;flex:none;vertical-align:-3px}
 .nav svg[data-ok]{color:var(--ok)}
-/* 回到主網站：標題列正下方的細橫條（一般排版，跟著捲走） */
-.hub-bar{background:#fff;border-bottom:1px solid var(--line)}
-.hub-back{display:inline-flex;align-items:center;gap:6px;min-height:40px;font-size:13px;color:var(--ink-2);text-decoration:none}
-.hub-back:hover{color:var(--ink);text-decoration:underline}
+/* 回到平台列（品牌規範第 6 點，方案 C：麵包屑＋按鈕） */
+.ozwh-hubnav{display:flex;align-items:center;gap:12px;min-height:52px;padding:6px 16px;background:#fff;border-top:4px solid #FFD45C;border-bottom:1.5px solid #D9D7CF;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;line-height:1.3}
+.ozwh-hubnav-crumb{display:flex;align-items:center;flex-wrap:wrap;gap:6px;min-width:0;font-size:14px}
+.ozwh-hubnav-crumb a{display:inline-flex;align-items:center;gap:6px;min-height:40px;color:#2A2F36;font-weight:800;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px;text-decoration-color:#FFD45C}
+.ozwh-hubnav-crumb img{width:26px;height:26px;flex:none}
+.ozwh-hubnav-sep{color:#9AA0A6}
+.ozwh-hubnav-here{color:#5B6169}
+.ozwh-hubnav-btn{margin-left:auto;display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 14px;border:2px solid #2A2F36;border-radius:6px;background:#fff;color:#2A2F36;font-size:14px;font-weight:700;text-decoration:none;white-space:nowrap}
+.ozwh-hubnav-btn:hover{background:#F6F5F1}
+.ozwh-hubnav-btn svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.ozwh-hubnav a:focus-visible{outline:2px solid #2A2F36;outline-offset:2px}
+@media (max-width:560px){.ozwh-hubnav-sep,.ozwh-hubnav-here{display:none}}
+/* 本站：內層用 .wrap，讓列的左右邊跟下面內容對齊 */
+.ozwh-hubnav{padding:6px 0}
+.ozwh-hubnav>.wrap{display:flex;align-items:center;gap:12px;width:100%}
+/* 小手機：照品牌規範縮小間距，讓平台名稱在 320 寬排成一行；gap 加在實際排版的 .wrap */
+@media (max-width:360px){.ozwh-hubnav>.wrap{gap:8px}.ozwh-hubnav-btn{padding:0 10px}}
 
 /* ---------- 開場：標題、搜尋、地區 ---------- */
 .hero{background:var(--tint);border-bottom:1px solid var(--line)}
@@ -545,11 +556,17 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <button id="itinBtn" type="button" aria-label="我的收藏"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span class="nav-label">收藏</span><span class="itin-badge" id="itinBadge" hidden>0</span></button>
       <button id="howBtn" type="button"><svg class="i" data-ok width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.7 2.7L16 9.8"/></svg>查證方式</button>
       <a href="disclaimer/index.html" class="js-disclaimer">免責聲明</a>
-      <a href="https://au-working-holiday.pages.dev/" class="nav-hub">澳洲打工度假資訊平台</a>
     </nav>
   </div>
 </header>
-<div class="hub-bar"><div class="wrap"><a href="https://au-working-holiday.pages.dev/" class="hub-back"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>回到 澳洲打工度假資訊平台</a></div></div>
+<div class="ozwh-hubnav"><div class="wrap">
+  <nav class="ozwh-hubnav-crumb" aria-label="目前位置">
+    <a href="https://au-working-holiday.pages.dev/"><img src="/brand/hub.svg" width="26" height="26" alt="">澳洲打工度假資訊平台</a>
+    <span class="ozwh-hubnav-sep" aria-hidden="true">›</span>
+    <span class="ozwh-hubnav-here" aria-current="page">澳洲活動優惠地圖</span>
+  </nav>
+  <a class="ozwh-hubnav-btn" href="https://au-working-holiday.pages.dev/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5L12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>所有網站</a>
+</div></div>
 
 
 <section class="hero">
