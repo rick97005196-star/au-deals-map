@@ -469,10 +469,6 @@ body{font:16px/1.75 var(--f-body)}
 .card .card-top{padding-right:46px}
 .acct{border:1.5px solid var(--ink);border-radius:8px;background:#fff;padding:12px 14px;font-size:14px;line-height:1.7;margin-bottom:14px}
 .acct p{margin:0}
-.acct p + p,.acct .acct-login{margin-top:10px}
-.acct .acct-login{min-height:44px}
-.acct .acct-links{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
-.acct a{font-weight:700;text-underline-offset:3px}
 .itin-item.is-ended{opacity:.65}
 .itin-item-del{width:40px;height:40px}
 
@@ -545,7 +541,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <button id="itinBtn" type="button" aria-label="我的收藏"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span class="nav-label">收藏</span><span class="itin-badge" id="itinBadge" hidden>0</span></button>
       <button id="howBtn" type="button"><svg class="i" data-ok width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.7 2.7L16 9.8"/></svg>查證方式</button>
       <a href="disclaimer/index.html" class="js-disclaimer">免責聲明</a>
-      <a href="https://au-working-holiday.pages.dev/" class="nav-hub" target="_blank" rel="noopener">澳洲打工度假資訊平台</a>
+      <a href="https://au-working-holiday.pages.dev/" class="nav-hub">澳洲打工度假資訊平台</a>
     </nav>
   </div>
 </header>
@@ -622,12 +618,12 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <p>整理澳洲各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。</p>
       <p class="fine" id="footFine"></p>
     </div>
-    <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/" target="_blank" rel="noopener">瀏覽其他網站</a> · <a href="https://au-working-holiday.pages.dev/account/?from=deals" target="_blank" rel="noopener">我的收藏</a></p></div>
-    <div class="foot-item"><p>資料有誤或想要新功能？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest" target="_blank" rel="noopener">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
+    <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/">瀏覽其他網站</a> · <a href="https://au-working-holiday.pages.dev/account/?from=deals">我的收藏</a></p></div>
+    <div class="foot-item"><p>資料有誤或想要新功能？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
     <div class="foot-item">
       <h4>免責聲明</h4>
       <p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係。所有項目雖經官方頁面查證，活動與優惠仍可能臨時異動、提前結束或依門市而異，出發或購買前請以官方公告為準。<a class="more js-disclaimer" href="disclaimer/index.html">閱讀完整免責聲明</a></p>
-      <p>收藏與 Google 帳戶登入由「澳洲打工度假資訊平台」提供，個人資料的處理方式請見<a href="https://au-working-holiday.pages.dev/privacy/" target="_blank" rel="noopener">隱私權政策</a>。</p>
+      <p>收藏功能由「澳洲打工度假資訊平台」提供，收藏只存在這台裝置的瀏覽器；個人資料的處理方式請見<a href="https://au-working-holiday.pages.dev/privacy/">隱私權政策</a>。</p>
     </div>
     <div class="foot-item"><p class="copy">© 2026 澳洲打工度假資訊平台・澳洲活動優惠地圖</p></div>
   </div>
@@ -655,7 +651,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <button type="button" class="btn btn-sm" id="itinExportIcsBtn">活動加入行事曆（.ics）</button>
       <button type="button" class="btn ghost btn-sm" id="itinClearBtn">全部清除</button>
     </div>
-    <div id="itinAccount" class="acct"></div>
+    <div class="acct"><p>收藏只存在這台裝置的瀏覽器，清除瀏覽紀錄或換裝置就會不見。</p></div>
     <div id="itinList" class="itin-list"></div>
   </div>
 </dialog>
@@ -1124,7 +1120,7 @@ function scrollToResults(force){
   if (force || scrollY > y + 4 || bar.getBoundingClientRect().top > innerHeight * .55) scrollTo({top: y, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
 }
 
-/* ---------- 收藏：存在「澳洲打工度假資訊平台」帳號（未登入時存在這個瀏覽器）；SDK 載入失敗時退回本機 ---------- */
+/* ---------- 收藏：用「澳洲打工度假資訊平台」的共用程式存在這個瀏覽器（登入暫停中）；SDK 載入失敗時退回本機 ---------- */
 const OZ = window.OZWH || null;
 let SAVED = new Set();   // 舊版收藏（adm_favorites），也是 SDK 無法載入時的備援
 try {
@@ -1162,7 +1158,7 @@ function toggleItin(id) {
   syncSaved();
 }
 
-/* 收藏改變（自己按、登入、其他分頁）時，重畫所有書籤按鈕、徽章與清單 */
+/* 收藏改變（自己按、其他分頁）時，重畫所有書籤按鈕、徽章與清單 */
 function syncSaved(){
   document.querySelectorAll('.btn-star[data-itin]').forEach(b => {
     const s = isSaved(b.dataset.itin);
@@ -1181,7 +1177,6 @@ function syncSaved(){
   }
   updateItinBadge();
   renderItinList();
-  if ($('itineraryModal').open) renderAccount();
 }
 
 function updateItinBadge() {
@@ -1237,31 +1232,6 @@ function renderItinList() {
       </div>`).join('');
 }
 
-/* 收藏清單上方的帳號區：登入後可在不同裝置同步 */
-let loginShown = false;
-function renderAccount(){
-  const box = $('itinAccount');
-  if (!box) return;
-  const mine = `<a href="https://au-working-holiday.pages.dev/account/?from=deals" target="_blank" rel="noopener">查看我在所有網站的收藏</a>`;
-  if (!OZ){
-    box.innerHTML = '<p>收藏目前只存在這個瀏覽器中。</p>';
-    return;
-  }
-  if (OZ.user){
-    loginShown = false;
-    const u = OZ.user;
-    box.innerHTML = `<p>已登入：<b>${esc(u.name || u.email || '')}</b>${u.email && u.name ? '（' + esc(u.email) + '）' : ''}，收藏會同步到您的帳號。</p>
-      <p class="acct-links">${mine}<button type="button" class="btn btn-sm" id="ozLogout">登出</button></p>`;
-    $('ozLogout').addEventListener('click', () => { OZ.logout(); toast('已登出'); });
-    return;
-  }
-  if (loginShown) return;
-  loginShown = true;
-  box.innerHTML = `<p>收藏目前存在這個瀏覽器中。使用 Google 帳戶登入後，可在手機與電腦之間同步，並在「澳洲打工度假資訊平台」查看所有網站的收藏。</p>
-    <div id="ozLogin" class="acct-login"></div>
-    <p class="acct-links">${mine}</p>`;
-  OZ.renderLoginButton($('ozLogin'));
-}
 if (OZ){
   OZ.onChange(syncSaved);
   // 舊版收藏（存在瀏覽器的 adm_favorites）第一次載入時搬進新的收藏
@@ -1467,7 +1437,6 @@ $('how').addEventListener('click', e => { if (e.target === $('how')) $('how').cl
 $('itinBtn').addEventListener('click', () => {
   const m = $('itineraryModal');
   renderItinList();
-  renderAccount();
   if (m.showModal) m.showModal(); else m.setAttribute('open', '');
 });
 $('itinPrintBtn').addEventListener('click', () => window.print());
