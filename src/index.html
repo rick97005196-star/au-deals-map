@@ -525,6 +525,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
   .headline{font-size:40px}
 }
 @media (max-width:640px){
+  .chip{height:40px}.af{height:36px}
   .headline{font-size:30px}
   .sec-title h2{font-size:24px}
   .group-h h3{font-size:20px}
@@ -618,7 +619,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
         <option value="smart">依截止日期</option>
         <option value="start">依開始日期</option>
         <option value="new">最新上架</option>
-        <option value="hot" id="sortHot" hidden>依瀏覽次數</option>
+        <option value="hot" id="sortHot" hidden disabled>依瀏覽次數</option>
       </select>
     </div>
   </div>
@@ -660,8 +661,8 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <p>整理澳洲各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。</p>
       <p class="fine" id="footFine"></p>
     </div>
-    <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/">瀏覽其他網站</a> · <a href="https://au-working-holiday.pages.dev/account/?from=deals">我的收藏</a></p></div>
-    <div class="foot-item"><p>資料有誤或想要新功能？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
+    <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/">瀏覽其他網站</a></p></div>
+    <div class="foot-item"><p>資料有誤或有功能建議？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
     <div class="foot-item">
       <h4>免責聲明</h4>
       <p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係。所有項目雖經官方頁面查證，活動與優惠仍可能臨時異動、提前結束或依門市而異，出發或購買前請以官方公告為準。<a class="more js-disclaimer" href="disclaimer/index.html">閱讀完整免責聲明</a></p>
@@ -693,7 +694,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
       <button type="button" class="btn btn-sm" id="itinExportIcsBtn">活動加入行事曆（.ics）</button>
       <button type="button" class="btn ghost btn-sm" id="itinClearBtn">全部清除</button>
     </div>
-    <div class="acct"><p>收藏只存在這台裝置的瀏覽器，清除瀏覽紀錄或換裝置就會不見。</p></div>
+    <div class="acct"><p>收藏只存在這台裝置的瀏覽器，清除瀏覽紀錄或更換裝置後就會消失。</p></div>
     <div id="itinList" class="itin-list"></div>
   </div>
 </dialog>
@@ -706,7 +707,7 @@ dialog.how{border:1.5px solid var(--ink);border-radius:12px}
     <p class="lead">所有項目均須經過蒐集與獨立查證兩道程序，方會刊登。</p>
     <ol class="steps">
       <li><div><b>蒐集資訊</b><span>每日清晨自動搜尋 Threads、Instagram、Facebook、TikTok、Reddit、OzBargain、小紅書等社群討論，並查閱品牌官網、超市型錄、速食 App 公告、各地政府與觀光局的活動頁面。社群貼文僅作為線索，不作為查證依據。</span></div></li>
-      <li><div><b>獨立查證</b><span>由未參與蒐集的查證人員重新開啟官方頁面，逐筆核對 2026 年的日期、價格與地點，並修正不實或誇大的描述。</span></div></li>
+      <li><div><b>獨立查證</b><span>由未參與蒐集的查證程序重新開啟官方頁面，逐筆核對日期、價格與地點，並修正不實或誇大的描述。</span></div></li>
       <li><div><b>標示查證程度</b><span>「已查證」表示日期、價格與地點均已於官方頁面確認；「部分查證」會註明尚待官方公布的項目。無法取得官方證據者不予刊登。</span></div></li>
       <li><div><b>每日維護</b><span>已結束的項目自動下架；即將開始的活動及尚未公布票價的項目，會再次核對。</span></div></li>
     </ol>
@@ -972,7 +973,7 @@ function renderList(){
   renderActive();
   let html = '';
   if (!list.length){
-    html = `<div class="empty"><h4>目前沒有符合條件的項目</h4><p>請調整關鍵字、地區或日期條件，或使用頁尾的社群搜尋。</p><button type="button" class="btn" data-unset="all">清除所有篩選</button></div>`;
+    html = `<div class="empty"><h4>目前沒有符合條件的項目</h4><p>請調整關鍵字、地區或日期條件，或使用頁尾的「社群搜尋」。</p><button type="button" class="btn" data-unset="all">清除所有篩選</button></div>`;
   } else if (S.sort === 'smart'){
     const ending = list.filter(it => { const k = status(it).k; return k === 'urgent' || (isEnding(it) && k !== 'soon'); });
     const rest = list.filter(it => !ending.includes(it));
@@ -1026,7 +1027,7 @@ function detailHTML(it){
       <span class="ic" aria-hidden="true">${v.status === 'partial' ? LI.half : '<svg width="11" height="11" viewBox="0 0 12 12"><path d="M2 6.3l2.6 2.5L10 3.4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'}</span>
       <div>${v.status === 'partial'
         ? `<b>部分查證</b>・${esc(v.checked.replace(/-/g,'/'))}<br>日期已於官方頁面核對；尚待確認：${esc(v.unconfirmed_zh)}`
-        : `<b>已查證</b>・${esc(v.checked.replace(/-/g,'/'))}<br>已由獨立查證人員於官方頁面核對日期、價格與地點。`}</div>
+        : `<b>已查證</b>・${esc(v.checked.replace(/-/g,'/'))}<br>已於官方頁面核對日期、價格與地點。`}</div>
     </div>
     <p class="d-fine">內容可能臨時異動或依門市而異，請以官方公告為準。本站與該品牌或主辦單位無隸屬關係。<a class="js-disclaimer" href="${DISCLAIMER}">免責聲明</a></p>
   </div>`;
@@ -1441,7 +1442,7 @@ document.addEventListener('click', e => {
   if (t.dataset.itin){ toggleItin(t.dataset.itin); return; }
   if (t.dataset.gcal){
     const it = BYID[t.dataset.gcal];
-    if (it) window.open(makeGCalUrl(it), '_blank');
+    if (it) window.open(makeGCalUrl(it), '_blank', 'noopener');
     return;
   }
   if (t.dataset.ics){
@@ -1526,7 +1527,7 @@ if (hash && BYID[hash]) openItem(hash, {boot:true});
 track('view', S.region);
 if (CFG.api){
   fetch('/api/popular').then(r => r.ok ? r.json() : null).then(d => {
-    if (d && Array.isArray(d.ids) && d.ids.length){ S.hot = d.ids.filter(id => BYID[id]); $('sortHot').hidden = false; lastList = renderList(); }
+    if (d && Array.isArray(d.ids) && d.ids.length){ S.hot = d.ids.filter(id => BYID[id]); $('sortHot').hidden = false; $('sortHot').disabled = false; lastList = renderList(); }
   }).catch(() => {});
 }
 })();
