@@ -1,5 +1,12 @@
 <title>免責聲明｜澳洲活動優惠地圖</title>
 <meta name="description" content="澳洲活動優惠地圖的資訊來源、查證方式、使用限制與隱私說明。">
+<meta name="color-scheme" content="light dark">
+<script>
+  (function () { var t; try { t = localStorage.getItem('ozwh-theme'); } catch (e) {}
+    if (t !== 'dark' && t !== 'light') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    document.documentElement.dataset.theme = t;
+    if (t === 'dark') document.querySelector('meta[name="theme-color"]').content = '#0E0E10'; })();
+</script>
 <style>
 :root{
   --bg:#FFFFFF; --tint:#F6F7F5; --ink:#121A17; --ink-2:#38443F; --muted:#66726D; --faint:#99A39E; --line:#E3E6E2;
@@ -8,6 +15,7 @@
   --f-body:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;
   --f-mono:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei","Noto Sans TC",Roboto,sans-serif;
   --gutter:32px;
+  --paper:#fff; --edge:#1F2A26; --amber-soft:#FFF6E5; --part:#7A6740;
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -50,7 +58,7 @@ b{color:var(--ink);font-weight:500}
 .levels{display:grid;gap:8px;margin:6px 0 12px}
 .lv{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 14px;background:var(--tint);border-radius:8px;font-size:14px;line-height:1.75}
 .lv b{color:var(--ok)}
-.lv.part b{color:#7A6740}
+.lv.part b{color:var(--part)}
 .meta{font-size:13px;color:var(--muted);margin-top:28px}
 .site-foot{border-top:1px solid var(--line);background:var(--tint);padding:28px 0 40px;font-size:13px;line-height:1.8;color:var(--muted)}
 .site-foot .wrap{display:grid;gap:16px}
@@ -74,25 +82,37 @@ b{color:var(--ink);font-weight:500}
 @media (max-width:400px){.brand b{font-size:15px;letter-spacing:0}.brand{gap:8px}.back{padding:0 10px}}
 /* 優惠券風格 */
 :root{--bg:#FFFDF8;--ink:#1F2A26;--tint:#F6F1E6;--line:#E7E0D2}
+/* 深色模式（品牌規範第 7 點）：重新配色，不是反轉 */
+html[data-theme="dark"]{color-scheme:dark;--bg:#0E0E10;--paper:#1A1A1D;--tint:#222226;--ink:#EEE9DF;--ink-2:#D5CEC2;--muted:#ADA597;--faint:#948C7F;--line:#38383E;--edge:#6B6B72;--ok:#6FCF97;--ok-soft:#18301F;--deal:#F0B451;--deal-soft:#382C17;--amber-soft:#382C17;--part:#D6C08C}
 body{background:var(--bg);color:var(--ink);font:16px/1.75 var(--f-body)}
-.top,.hero{border-bottom:1.5px solid var(--ink)}
+.top,.hero{border-bottom:1.5px solid var(--edge)}
 .brand b,h1,h2{font-weight:800}
 .brand b{letter-spacing:.04em}
 h1{font-size:40px;letter-spacing:.02em}
 .eyebrow{font-weight:800;letter-spacing:.16em}
-.back{border:1.5px solid var(--ink);border-radius:6px;background:#fff;font-weight:700}
+.back{border:1.5px solid var(--edge);border-radius:6px;background:var(--paper);font-weight:700}
 .toc a{border-radius:6px}
 h2 span{font-variant-numeric:tabular-nums}
-.site-foot{border-top:1.5px solid var(--ink)}
-@media (max-width:820px){h1{font-size:30px}.toc{border:1.5px solid var(--ink);border-radius:8px}}
+.site-foot{border-top:1.5px solid var(--edge)}
+@media (max-width:820px){h1{font-size:30px}.toc{border:1.5px solid var(--edge);border-radius:8px}}
 /* 置頂免責聲明列（隨頁面捲走，不固定） */
-.notice{background:#FFF6E5;border-bottom:1.5px solid var(--ink);font-size:13.5px;line-height:1.6}
+.notice{background:var(--amber-soft);border-bottom:1.5px solid var(--edge);font-size:13.5px;line-height:1.6}
 .notice-in{padding-top:8px;padding-bottom:8px}
-.notice b{display:inline-block;margin-right:8px;padding:0 8px;line-height:1.6;border-radius:4px;background:var(--ink);color:#fff;font-size:12.5px;font-weight:800;letter-spacing:.08em}
+.notice b{display:inline-block;margin-right:8px;padding:0 8px;line-height:1.6;border-radius:4px;background:var(--ink);color:var(--paper);font-size:12.5px;font-weight:800;letter-spacing:.08em}
 .notice span{color:var(--ink-2)}
 .notice a{margin-left:6px;white-space:nowrap;font-weight:800;text-decoration:underline;text-underline-offset:3px}
 .notice .nt-short{display:none}
 @media (max-width:640px){.notice{font-size:13px}.notice .nt-long{display:none}.notice .nt-short{display:inline}}
+/* 深色／淺色切換鈕：放在「回到首頁」右邊；頁首間距只在擠的時候才看得出來；320 寬「回到首頁」只留箭頭 */
+.theme-btn{display:inline-flex;align-items:center;justify-content:center;flex:none;width:40px;height:40px;padding:0;border:0;border-radius:6px;background:none;color:var(--ink-2);cursor:pointer}
+.theme-btn:hover{background:var(--tint)}
+.theme-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.theme-btn .i-sun,html[data-theme="dark"] .theme-btn .i-moon{display:none}
+html[data-theme="dark"] .theme-btn .i-sun{display:block}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.top .wrap{gap:8px}
+@media (max-width:360px){.back .nav-label{display:none}}
+html[data-theme="dark"] .brand svg{filter:drop-shadow(1px 0 0 #E9E5DC) drop-shadow(-1px 0 0 #E9E5DC) drop-shadow(0 1px 0 #E9E5DC) drop-shadow(0 -1px 0 #E9E5DC)}
 </style>
 
 <div class="notice" role="note" aria-label="免責聲明">
@@ -110,7 +130,12 @@ h2 span{font-variant-numeric:tabular-nums}
       <svg width="40" height="40" viewBox="12.5 5.9 98 98" aria-hidden="true"><g fill="#F4A21C"><path d="M92 10 93.6 14.4 98 16 93.6 17.6 92 22 90.4 17.6 86 16 90.4 14.4Z"/><path d="M104 22 105.2 25.3 108.5 26.5 105.2 27.7 104 31 102.8 27.7 99.5 26.5 102.8 25.3Z"/><path d="M86 26 87 28.8 89.8 29.8 87 30.8 86 33.6 85 30.8 82.2 29.8 85 28.8Z"/><circle cx="97" cy="36" r="2.2"/></g><g transform="rotate(-14 62 66)"><path d="M28 66C26 64 26 62 28 60L42 44Q44 42 47 42H92Q98 42 98 48V84Q98 90 92 90H47Q44 90 42 88Z" fill="#FFFFFF" stroke="#2A2F36" stroke-width="4" stroke-linejoin="round"/><circle cx="42" cy="66" r="5" fill="#DF9A2B" stroke="#2A2F36" stroke-width="3"/><ellipse cx="64" cy="62" rx="4.2" ry="5.2" fill="#2A2F36"/><ellipse cx="82" cy="62" rx="4.2" ry="5.2" fill="#2A2F36"/><circle cx="65.5" cy="60" r="1.5" fill="#fff"/><circle cx="83.5" cy="60" r="1.5" fill="#fff"/><path d="M68 71q5 5.5 10 0" fill="none" stroke="#2A2F36" stroke-width="3" stroke-linecap="round"/></g><path d="M42 67C34 54 26 47 16 47" fill="none" stroke="#2A2F36" stroke-width="3" stroke-linecap="round"/></svg>
       <b>澳洲活動優惠地圖</b>
     </a>
-    <a class="back" href="../index.html"><svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>回到首頁</a>
+    <a class="back" href="../index.html" aria-label="回到首頁"><svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg><span class="nav-label">回到首頁</span></a>
+    <button class="theme-btn" id="themeBtn" type="button" aria-pressed="false">
+      <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <span class="sr-only">深色模式</span>
+    </button>
   </div>
 </header>
 
@@ -214,7 +239,7 @@ h2 span{font-variant-numeric:tabular-nums}
         <li>不使用第三方追蹤或廣告 Cookie；匿名統計不記錄姓名、帳號或 IP 位址。</li>
         <li>訪客識別碼為瀏覽器隨機產生的匿名編號，僅用於計算每日不重複人數，並於 120 天後刪除。</li>
         <li>您的地區選擇儲存在您的瀏覽器中，可隨時清除瀏覽器資料。</li>
-        <li>收藏功能由「澳洲打工度假資訊平台」提供，收藏只存在您這台裝置的瀏覽器，清除瀏覽紀錄或更換裝置後就會消失。個人資料的處理方式請見<a href="https://au-working-holiday.pages.dev/privacy/">平台隱私權政策</a>。</li>
+        <li>收藏功能由「澳洲打工度假資訊平台」提供，收藏只存在您這台裝置的瀏覽器，清除瀏覽紀錄或換裝置就會不見。個人資料的處理方式請見<a href="https://au-working-holiday.pages.dev/privacy/">平台隱私權政策</a>。</li>
       </ul>
     </section>
 
@@ -229,8 +254,20 @@ h2 span{font-variant-numeric:tabular-nums}
   <div class="wrap">
     <div class="foot-item"><h4>澳洲活動優惠地圖</h4><p>整理澳洲各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。</p></div>
     <div class="foot-item"><p>本站為「澳洲打工度假資訊平台」系列網站 · <a href="https://au-working-holiday.pages.dev/">瀏覽其他網站</a></p></div>
-    <div class="foot-item"><p>資料有誤或有功能建議？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
+    <div class="foot-item"><p>資料有誤或想要新功能？<a href="https://au-working-holiday.pages.dev/?from=deals#suggest">告訴我們</a>，或來信 <a href="mailto:rick97005109@gmail.com">rick97005109@gmail.com</a></p></div>
     <div class="foot-item"><h4>免責聲明</h4><p>本站整理公開資訊供參考，與各品牌及主辦單位無隸屬或合作關係；活動與優惠可能臨時異動，請以官方公告為準。完整內容請見本頁。</p></div>
     <div class="foot-item"><p class="copy">© 2026 澳洲打工度假資訊平台・澳洲活動優惠地圖</p></div>
   </div>
 </footer>
+<script>
+/* 深色／淺色切換：記在 ozwh-theme；沒選過就跟著裝置；網址列顏色跟著底色 */
+(() => {
+  const root = document.documentElement, btn = document.getElementById('themeBtn');
+  const meta = document.querySelector('meta[name="theme-color"]');
+  const apply = th => { root.dataset.theme = th; btn.setAttribute('aria-pressed', th === 'dark');
+    if (meta) meta.content = getComputedStyle(root).getPropertyValue('--bg').trim(); };
+  apply(root.dataset.theme);
+  btn.addEventListener('click', () => { const th = root.dataset.theme === 'dark' ? 'light' : 'dark'; apply(th); try { localStorage.setItem('ozwh-theme', th); } catch (e) {} });
+  matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => { let saved; try { saved = localStorage.getItem('ozwh-theme'); } catch (x) {} if (!saved) apply(e.matches ? 'dark' : 'light'); });
+})();
+</script>
