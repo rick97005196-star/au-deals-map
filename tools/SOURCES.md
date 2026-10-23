@@ -200,3 +200,8 @@
 - 2026-10-19｜吃喝｜Nando's Australia – Offers Terms and Conditions｜https://www.nandos.com.au/offers-terms｜列出 2026 年各項限時優惠與日期（午間時段價 A$14.95 等）
 - 2026-10-19｜吃喝｜Starbucks Australia – Rewards 條款（Matcha Monday）｜https://www.starbucks.com.au/starbucks-rewards/starbucks-rewards-terms-and-conditions/｜每週一抹茶第二件免費，至 2026 年 10 月 26 日
 - 2026-10-19｜活動 NSW｜sydney.com 雪梨活動列表（繁中）｜https://www.sydney.com/tw/events｜雪梨觀光官方活動頁，列出 Sculpture by the Sea（10/16–11/2）、David Hockney 展（10/22 起）與 Just For Laughs Sydney（11/9–22）之 2026 日期；未列票價
+- 2026-10-23｜娛樂 QLD｜Museum of Brisbane｜https://www.museumofbrisbane.com.au/whats-on/｜布里斯本市立博物館展覽與免費入場資訊（City Hall 內）
+- 2026-10-23｜娛樂 全國｜Australian War Memorial｜https://www.awm.gov.au/visit｜坎培拉戰爭紀念館免費入場與開放時間（頁面未列 2026 年特展日期）
+- 2026-10-24｜活動 QLD｜Queensland Art Gallery | Gallery of Modern Art（活動頁）｜https://www.qagoma.qld.gov.au/event/teens-creativity-lounge｜GOMA 官方活動頁，列出青少年創意工作坊場次、時間、免費入場與地點（River Lounge）
+- 2026-10-24｜travel｜Phillip Island Nature Parks｜https://www.penguins.org.au/attractions/penguin-parade/｜企鵝遊行官方票價頁，另列有 3 Parks Pass 折扣入口
+- 2026-10-24｜tickets｜Victorian Government（青少年免費搭乘）｜https://www.premier.vic.gov.au/free-public-transport-every-child-every-day-everywhere｜維州政府公告，18 歲以下自 2026 年 1 月 1 日起免費搭乘大眾運輸
