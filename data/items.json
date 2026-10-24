@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "items": [
   {
    "id": "woolworths-free-fissler-containers-2026",
@@ -346,56 +346,6 @@
     "status": "verified",
     "checked": "2026-10-23"
    }
-  },
-  {
-   "id": "parramatta-lanes-2026",
-   "type": "event",
-   "title": "Parramatta Lanes",
-   "title_zh": "Parramatta Lanes 街頭節",
-   "category": "festival",
-   "region": "NSW",
-   "city": "Parramatta",
-   "venue": "Parramatta CBD",
-   "lat": -33.815,
-   "lng": 151.003,
-   "start": "2026-10-21",
-   "end": "2026-10-24",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・為期 4 晚",
-   "summary_zh": "雪梨的免費街頭節，連續 4 晚於 Parramatta 市中心街道與巷弄提供街頭美食、音樂與藝術表演。",
-   "tip_zh": "週三、週四 5pm–10pm，週五、週六 5pm–10:30pm；可搭乘火車至 Parramatta 站。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Parramatta – About Lanes 2026",
-     "url": "https://atparramatta.com/lanes/about"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Parramatta – Parramatta Lanes 2026",
-     "url": "https://atparramatta.com/lanes"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@atparramatta on Instagram",
-     "url": "https://instagram.com/atparramatta"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "@atparramatta on Facebook",
-     "url": "https://facebook.com/atparramatta"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-18"
-   },
-   "schedule_zh": "每晚 17:00 起"
   },
   {
    "id": "harris-park-diwali-2026",
@@ -808,56 +758,6 @@
     "checked": "2026-10-23"
    },
    "schedule_zh": "10 月指定 9 晚，18:00–22:30（持票者 16:30 起可掃描入場）"
-  },
-  {
-   "id": "goodna-jacaranda-festival-2026",
-   "type": "event",
-   "title": "Goodna Jacaranda Festival",
-   "title_zh": "Goodna 藍花楹節",
-   "category": "festival",
-   "region": "QLD",
-   "city": "Ipswich",
-   "venue": "Evan Marginson Park, Goodna",
-   "lat": -27.608,
-   "lng": 152.899,
-   "start": "2026-10-23",
-   "end": "2026-10-24",
-   "price_zh": "兩日通行票：成人 A$10、長者 A$7、13–17 歲 A$5、12 歲以下免費",
-   "free": false,
-   "highlight": "藍花楹季",
-   "summary_zh": "於紫色藍花楹季舉辦的社區嘉年華，設有舞台節目、美食攤位、Sideshow Alley 遊樂區、才藝比賽及煙火，適合在布里斯本近郊體驗藍花楹季。",
-   "tip_zh": "週五 4pm–10pm、週六 8am–10pm；門票可透過官網連結至 Ticketebo 線上購買，可搭乘火車至 Goodna 站後步行前往。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Goodna Jacaranda Festival – official site",
-     "url": "https://goodnajacarandafestival.com/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Goodna Jacaranda Festival – general event information",
-     "url": "https://goodnajacarandafestival.com/general-event-information/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Ticketebo – Goodna Jacaranda Festival 2026 tickets",
-     "url": "https://www.ticketebo.com.au/goodna-community-association-inc/goodna-jacaranda-festival-2026"
-    },
-    {
-     "kind": "community",
-     "platform": "Brisbane Kids",
-     "label": "Brisbane Kids – Goodna Jacaranda Festival 2026",
-     "url": "https://brisbanekids.com.au/?p=365384"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   }
   },
   {
    "id": "mon-repos-turtle-encounter-2026-27",
@@ -1415,61 +1315,6 @@
    "area_zh": "達爾文、Alice Springs"
   },
   {
-   "id": "tas-royal-hobart-show-2026",
-   "type": "event",
-   "title": "The Betta Milk Royal Hobart Show",
-   "title_zh": "皇家荷伯特農業展",
-   "category": "festival",
-   "region": "TAS",
-   "city": "Hobart",
-   "venue": "Hobart Regatta Grounds (Queens Domain)",
-   "lat": -42.8745,
-   "lng": 147.3375,
-   "start": "2026-10-22",
-   "end": "2026-10-24",
-   "price_zh": "成人 A$20、兒童（5 歲以上）A$12、家庭票（2 大 2 小）A$50；5 歲以下免費",
-   "free": false,
-   "highlight": "年度展會・3 天",
-   "summary_zh": "塔斯馬尼亞年度皇家荷伯特農業展，2026 年 10/22–10/24 於 Royal Hobart Regatta Grounds 舉行，每張票限所選單日使用。",
-   "tip_zh": null,
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Royal Agricultural Society of Tasmania – Royal Hobart Show page",
-     "url": "https://www.hobartshowground.com.au/royalhobartshow"
-    },
-    {
-     "kind": "official",
-     "platform": "Fever 售票",
-     "label": "The Betta Milk Royal Hobart Show 2026 – official tickets (Fever)",
-     "url": "https://feverup.com/m/677228"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@theroyalhobartshow on Instagram",
-     "url": "https://www.instagram.com/theroyalhobartshow/"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "Hobart Showground on Facebook",
-     "url": "https://www.facebook.com/HobartShowground/"
-    },
-    {
-     "kind": "social",
-     "platform": "TikTok",
-     "label": "@royalagsocietyoftasmania on TikTok",
-     "url": "https://www.tiktok.com/@royalagsocietyoftasmania?_t=ZS-8zoaJXZtQ6U&_r=1"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   }
-  },
-  {
    "id": "tas-tasmanian-craft-fair-2026",
    "type": "event",
    "title": "Tasmanian Craft Fair",
@@ -1696,86 +1541,6 @@
     "unconfirmed_zh": "官網未載明免費搭乘的起始日（為既有方案之延長）。本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
    },
    "area_zh": "塔州全境"
-  },
-  {
-   "id": "act-nara-candle-festival-2026",
-   "type": "event",
-   "title": "Canberra Nara Candle Festival",
-   "title_zh": "坎培拉奈良燭光節",
-   "category": "festival",
-   "region": "ACT",
-   "city": "Canberra",
-   "venue": "Canberra Nara Peace Park（Lennox Gardens, Yarralumla）",
-   "lat": -35.3048,
-   "lng": 149.1222,
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・日本文化",
-   "summary_zh": "紀念坎培拉與日本奈良締結姊妹市的年度活動，於日落後點亮 2,000 支蠟燭，另有日本傳統表演、手作燈籠、武術示範、角色扮演比賽及日式美食。",
-   "tip_zh": "官方節目表列出 19:15–20:00 於主舞台舉行儀式與點燈，建議傍晚抵達；詳細節目請見官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Events ACT – Canberra Nara Candle Festival",
-     "url": "https://nara.events.canberra.com.au"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "VisitCanberra – Canberra Nara Candle Festival",
-     "url": "https://visitcanberra.com.au/events/62d8eed2edcf23c0501e9324/canberra-nara-candle-festival"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "Events ACT on Facebook",
-     "url": "https://www.facebook.com/pages/Events-ACT/154149194626537"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   }
-  },
-  {
-   "id": "act-oktoberfest-in-the-gardens-2026",
-   "type": "event",
-   "title": "Oktoberfest in the Gardens Canberra",
-   "title_zh": "Oktoberfest 湖畔啤酒節",
-   "category": "festival",
-   "region": "ACT",
-   "city": "Canberra",
-   "venue": "Patrick White Lawns（Lake Burley Griffin 湖畔）",
-   "lat": -35.295,
-   "lng": 149.1315,
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "為期 1 天",
-   "summary_zh": "於 Lake Burley Griffin 湖畔 Patrick White Lawns 舉辦的德式啤酒節，時間為下午 1 點至晚上 9 點，供應德國啤酒、葡萄酒、蘋果酒及德式與在地餐點，並有多個現場演出舞台、DJ、遊樂設施、Sideshow Alley 與無聲派對。",
-   "tip_zh": "可於官網登記早鳥票及 VIP 套票，VIP 含專屬酒吧與座位，名額有限。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "National Capital Authority – Oktoberfest in the Gardens",
-     "url": "https://www.nca.gov.au/events/oktoberfest-gardens"
-    },
-    {
-     "kind": "community",
-     "platform": "Musick",
-     "label": "Musick – Oktoberfest in the Gardens Canberra 2026 listing",
-     "url": "https://musick.com.au/gig/oktoberfest-in-the-gardens-canberra-2026-2026-10-24/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   }
   },
   {
    "id": "act-old-bus-depot-markets",
@@ -3677,39 +3442,6 @@
    "schedule_zh": "Sydney Sights 每日 10:30（約 2.5 小時）；Sydney Highlights 週一、三、五、六 15:00（約 1.5 小時）；The Rocks 每日 18:00"
   },
   {
-   "id": "virgin-australia-wa-dream-sale-2026",
-   "type": "deal",
-   "title": "WA Dream sale",
-   "title_zh": "Virgin 西澳 Broome、Kununurra 特價",
-   "category": "tickets",
-   "region": "WA",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "西澳 Perth–Broome、Kununurra–Perth 航線",
-   "start": "2026-10-10",
-   "end": "2026-10-24",
-   "price_zh": "Kununurra–Perth 單程 A$259（Economy Choice）",
-   "free": false,
-   "highlight": "西澳航線特價",
-   "summary_zh": "Virgin Australia 西澳區域航線特價：Kununurra 飛 Perth 單程 Economy Choice A$259，須於 10/24 前購買，適用 2026 年指定搭乘日期，適合規劃西澳北部旅行的旅客。",
-   "tip_zh": "須於搭乘日 21 天前購票，座位有限；Economy Choice 含選位與 23 公斤托運行李，取消不退款。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Virgin Australia – Specials and flight sales",
-     "url": "https://www.virginaustralia.com/au/en/specials/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-18"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "vodafone-prepaid-plus-40-sim-for-13-oct-2026",
    "type": "deal",
    "title": "Get a $40 Prepaid Plus SIM for $13",
@@ -4366,46 +4098,6 @@
     "checked": "2026-10-23",
     "unconfirmed_zh": "週六、週日開放時間與自由捐款入場方式未能重新確認。"
    },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "bendigo-agricultural-show-2026",
-   "type": "event",
-   "title": "Bendigo Agricultural Show 2026",
-   "title_zh": "本迪戈農業展",
-   "category": "family",
-   "region": "VIC",
-   "city": "Bendigo",
-   "venue": "Prince of Wales Showgrounds",
-   "lat": -36.738,
-   "lng": 144.2723,
-   "start": "2026-10-23",
-   "end": "2026-10-24",
-   "price_zh": "成人 A$25（線上早鳥 A$20）；12 歲以下免費",
-   "free": false,
-   "highlight": "12 歲以下免費・2 天",
-   "summary_zh": "本迪戈年度農業展，有展覽、競賽、兒童活動、遊樂設施與煙火表演，適合家庭前往。",
-   "tip_zh": "線上早鳥價至 10 月 22 日 23:55；12 歲以下兒童免費，但仍須線上或現場取票才能入場。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Bendigo Agricultural Show – Buy Tickets 2026",
-     "url": "https://www.bendigoshow.com.au/buy-tickets-2026"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Bendigo Agricultural Show – 首頁",
-     "url": "https://bendigoshow.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   },
-   "schedule_zh": "兩天皆 9:00–21:00（每晚 21:00 施放煙火）",
    "added": "2026-10-12"
   },
   {
@@ -5131,39 +4823,6 @@
      "platform": "官方網站",
      "label": "Queen Victoria Market – Pinoy Octoberfest",
      "url": "https://qvm.com.au/whats-on/pinoy-octoberfest/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-13"
-  },
-  {
-   "id": "festival-indonesia-fed-square-2026",
-   "type": "event",
-   "title": "Festival Indonesia",
-   "title_zh": "Fed Square 印尼文化節",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Fed Square",
-   "lat": -37.818,
-   "lng": 144.9691,
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "schedule_zh": "10:00–19:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・闔家適宜",
-   "summary_zh": "以印尼美食、市集攤位、音樂、舞蹈與時裝為主題的戶外文化節，另有蠟染拼布、印尼舞蹈、傳統遊戲及班卡西拉武術等體驗工作坊。",
-   "tip_zh": "免預約；14:15 有快閃舞蹈表演，可提早到場。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Festival Indonesia",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/festival-indonesia"
     }
    ],
    "verified": {
@@ -5951,41 +5610,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-22"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "mayfield-day-2026",
-   "type": "event",
-   "title": "Mayfield Day 2026",
-   "title_zh": "紐卡索 Mayfield 社區日 2026",
-   "category": "family",
-   "region": "NSW",
-   "city": "Newcastle",
-   "venue": "Dangar Park（21 Maitland Road, Mayfield）",
-   "lat": -32.8943,
-   "lng": 151.7312,
-   "area_zh": null,
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "schedule_zh": null,
-   "price_zh": "請見官網（兒童活動免費）",
-   "free": false,
-   "highlight": "社區活動・兒童免費",
-   "summary_zh": "Mayfield Business Improvement Association 與紐卡索市議會合辦的社區活動，10 月 24 日於 Dangar Park 舉行，內容包括餐飲攤位、在地手作市集、現場音樂表演及免費兒童活動（創作工作坊、表演、彩繪）。",
-   "tip_zh": "官網未載明活動時段與一般入場費用，前往前請先確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Destination Newcastle – Mayfield Day",
-     "url": "https://visitnewcastle.com.au/whats-on/mayfield-day"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "官網未列出活動時段與一般入場費用。"
    },
    "added": "2026-10-15"
   },
@@ -8473,72 +8097,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "fremantle-farmer-on-your-plate-2026",
-   "type": "event",
-   "title": "Farmer On Your Plate 2026",
-   "title_zh": "Farmer On Your Plate 2026 農場餐桌日",
-   "category": "food",
-   "region": "WA",
-   "city": "Fremantle",
-   "venue": "Esplanade Park, Marine Terrace",
-   "lat": -32.0563,
-   "lng": 115.7467,
-   "start": "2026-10-24",
-   "end": "2026-10-24",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・家庭",
-   "summary_zh": "由 Farming Champions 主辦的免費家庭活動，10 月 24 日 9:00 至 15:00 於 Esplanade Park 舉行。現場可與在地農夫及生產者交流、購買新鮮在地農產品，並參與互動體驗，認識食物從農場到餐桌的過程。",
-   "tip_zh": null,
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官網",
-     "label": "Visit Fremantle – Farmer On Your Plate 2026",
-     "url": "https://www.visitfremantle.com.au/family/farmer-your-plate-2026"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "fremantle-puppet-playtime-giraffes-cant-dance-2026",
-   "type": "event",
-   "title": "Puppet Playtime - Giraffe's Can't Dance",
-   "title_zh": "偶戲時光《長頸鹿不會跳舞》",
-   "category": "family",
-   "region": "WA",
-   "city": "Fremantle",
-   "venue": "Spare Parts Puppet Theatre, 1 Short Street",
-   "lat": -32.0553,
-   "lng": 115.747,
-   "start": "2026-10-17",
-   "end": "2026-10-24",
-   "schedule_zh": "每場約 09:30–10:30（頁面所列時段）",
-   "price_zh": "A$12（陪同成人免費）",
-   "free": false,
-   "highlight": "親子偶戲・適合 3 至 5 歲",
-   "summary_zh": "Spare Parts Puppet Theatre 為 3 至 5 歲幼童設計的互動偶戲場次，以繪本《Giraffe's Can't Dance》為題材，內容包含故事聆聽、手作小工藝與偶戲遊戲。",
-   "tip_zh": "各場次日期請於售票頁確認，可透過頁面上的 Get tickets 購票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官網",
-     "label": "Visit Fremantle – Puppet Playtime: Giraffe's Can't Dance",
-     "url": "https://www.visitfremantle.com.au/arts-culture/puppet-playtime-giraffes-cant-dance"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "部分資訊官方尚未公布。"
    },
    "added": "2026-10-24"
   },
