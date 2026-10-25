@@ -1,5 +1,5 @@
 <title>澳洲活動優惠地圖</title>
-<meta name="description" content="整理澳洲各州進行中的活動與優惠：超市特價、速食與外送 App、節慶市集、交通與旅遊。每筆均附官方來源，並經獨立查證日期、價格與地點。">
+<meta name="description" content="為在澳洲打工度假的人整理各州進行中的活動與優惠：超市特價、速食與外送 App、節慶市集、交通與旅遊。每筆均附官方來源，並經獨立查證日期、價格與地點。">
 <meta name="color-scheme" content="light dark">
 <script>
   (function () { var t; try { t = localStorage.getItem('ozwh-theme'); } catch (e) {}
@@ -574,6 +574,32 @@ dialog.how{border:1.5px solid var(--edge);border-radius:12px}
   .card-body{padding:13px 14px}
   .rg{padding:0 12px}
 }
+/* 首屏與區塊放大（打工度假版，2026-10） */
+.hero .wrap{padding-top:52px;padding-bottom:40px}
+.hero-kick{display:inline-block;margin:0 0 14px;padding:3px 10px;border:1.5px solid var(--edge);border-radius:4px;background:var(--paper);color:var(--ink);font-size:12.5px;font-weight:800;letter-spacing:.16em;line-height:1.6}
+.headline{font-size:54px;line-height:1.22;margin:14px 0}
+.sub{font-size:17px;line-height:1.8;max-width:68ch}
+.sec-title h2{font-size:30px}
+.group-h h3{font-size:24px}
+.quick-sec .wrap{padding-top:40px}
+.quick{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.qt{padding:16px}
+.qt .t{font-size:16px}
+@media (max-width:900px){
+  .headline{font-size:42px}
+}
+@media (max-width:640px){
+  .hero .wrap{padding-top:28px;padding-bottom:22px}
+  .hero-kick{font-size:12px;letter-spacing:.12em;margin-bottom:10px}
+  .headline{font-size:30px;line-height:1.3;margin:10px 0}
+  .sub{font-size:15px;line-height:1.75}
+  .sec-title h2{font-size:24px}
+  .group-h h3{font-size:20px}
+  .quick-sec .wrap{padding-top:22px}
+  .quick{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .qt{padding:11px 12px}
+  .qt .t{font-size:14.5px}
+}
 /* 置頂免責聲明列（隨頁面捲走，不固定） */
 .notice{background:var(--amber-soft);border-bottom:1.5px solid var(--edge);font-size:13.5px;line-height:1.6}
 .notice-in{padding-top:8px;padding-bottom:8px}
@@ -657,9 +683,10 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
 
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono js-updated"></span>・每日清晨自動更新</span></p>
-    <h1 class="headline"><span class="h1a">澳洲現在有哪些</span><span>活動與優惠</span></h1>
-    <p class="sub">超市特價、速食與外送 App、節慶市集、交通與旅遊，一次整理。目前收錄 <b class="mono js-count"></b> 筆，每筆均附官方來源，其中 <b class="mono js-verified"></b> 筆的日期、價格與地點已完整查證。</p>
+    <p class="hero-kick">FOR WORKING HOLIDAY MAKERS</p>
+<p class="eyebrow"><span class="live" aria-hidden="true"></span><span>最後更新 <span class="mono js-updated"></span>・每日清晨自動更新</span></p>
+    <h1 class="headline"><span class="h1a">在澳洲打工度假，</span><span>活動與優惠一次整理</span></h1>
+    <p class="sub">預算有限也能過得充實：超市特價、免費活動、速食與外送 App、交通與旅遊優惠都在這裡。換城市或到地區工作時，選擇所在地區即可查看當地與全澳適用的優惠。目前收錄 <b class="mono js-count"></b> 筆，每筆均附官方來源，其中 <b class="mono js-verified"></b> 筆的日期、價格與地點已完整查證。</p>
     <div class="search" role="search">
       <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="搜尋品牌、活動或城市，例如 ALDI、Brisbane、市集" aria-label="搜尋">
@@ -919,10 +946,10 @@ const IC = {
 };
 const QUICK = [
   {k:'weekend', t:'本週末',     d:'週六日可參加',         set:{when:'weekend'},              test:onWeekend},
-  {k:'free',    t:'免費',       d:'免費入場、免費搭乘',   set:{free:true},                   test:it => it.free},
-  {k:'grocery', t:'超市特價',   d:'每週型錄精選',         set:{group:'eat', cat:'grocery'}, test:it => it.category === 'grocery'},
-  {k:'dining',  t:'餐飲與外送', d:'速食 App、餐廳',       set:{group:'eat', cat:'dining'},   test:it => it.category === 'dining'},
-  {k:'travel',  t:'交通與旅遊', d:'機票、車資、行程',     set:{group:'travel'},              test:it => it._g === 'travel'},
+  {k:'free',    t:'免費',       d:'不花錢也能參加',   set:{free:true},                   test:it => it.free},
+  {k:'grocery', t:'超市特價',   d:'每週型錄，自煮省錢',         set:{group:'eat', cat:'grocery'}, test:it => it.category === 'grocery'},
+  {k:'dining',  t:'餐飲與外送', d:'速食 App 折扣與外送',       set:{group:'eat', cat:'dining'},   test:it => it.category === 'dining'},
+  {k:'travel',  t:'交通與旅遊', d:'換城市、機票與車資',     set:{group:'travel'},              test:it => it._g === 'travel'},
   {k:'ending',  t:'即將截止',   d:'7 天內結束',           set:{flag:'ending'},               test:isEnding},
 ];
 function applyQuick(k){

@@ -1283,50 +1283,6 @@
    "area_zh": "達爾文、Alice Springs"
   },
   {
-   "id": "tas-tasmanian-craft-fair-2026",
-   "type": "event",
-   "title": "Tasmanian Craft Fair",
-   "title_zh": "Deloraine 塔州手工藝展",
-   "category": "arts",
-   "region": "TAS",
-   "city": "Deloraine",
-   "venue": "Deloraine Community Complex（Alveston Drive）等 4 個場館",
-   "lat": -41.526,
-   "lng": 146.662,
-   "start": "2026-10-30",
-   "end": "2026-11-01",
-   "price_zh": "A$10–60（依票種）",
-   "free": false,
-   "highlight": "南半球最大手作展",
-   "summary_zh": "官方稱為南半球規模最大的現場工藝展，約 230 個攤商分布於 Deloraine 鎮上 4 個場館，可觀賞職人現場示範，並選購木工、織品、藝術品等手作。每日 9:00–16:00。",
-   "tip_zh": "各場館之間提供免費接駁車；Deloraine 位於 Launceston 以西約 50 公里，建議開車或與他人共乘前往。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Tasmanian Craft Fair event page",
-     "url": "https://www.discovertasmania.com.au/things-to-do/festivals-and-events/tasmaniancraftfair/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Northern Tasmania – Tasmanian Craft Fair",
-     "url": "https://northerntasmania.com.au/events/tasmanian-craft-fair"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Tasmanian Craft Fair – official site",
-     "url": "https://tascraftfair.com.au"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   }
-  },
-  {
    "id": "tas-point-to-pinnacle-2026",
    "type": "event",
    "title": "Point to Pinnacle",
@@ -2502,46 +2458,6 @@
     "status": "partial",
     "checked": "2026-10-22",
     "unconfirmed_zh": "官方頁面未能開啟，未確認票價、每日時間、閉幕日與兒童免費政策。"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "sea-world-spooky-nights-2026",
-   "type": "event",
-   "title": "Spooky Nights at Sea World",
-   "title_zh": "Sea World 萬聖親子夜",
-   "category": "family",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Sea World, Main Beach",
-   "lat": -27.9573,
-   "lng": 153.4256,
-   "start": "2026-10-17",
-   "end": "2026-10-31",
-   "schedule_zh": "10/17、10/23、10/24、10/30、10/31 17:30–20:30",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "萬聖節親子活動・5 晚",
-   "summary_zh": "Sea World 於萬聖節期間舉辦的夜間活動，設有七個主題區、燈光展示、夜間遊樂設施、萬聖節裝扮角色見面與表演。",
-   "tip_zh": "Premium Annual Pass 持有人可免費入場一次；門票請透過 Sea World Spooky Nights 官網購買。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Experience Gold Coast – Spooky Nights at Sea World",
-     "url": "https://experiencegoldcoast.com/events/spooky-nights-at-sea-world"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Sea World Spooky Nights 2026 – Tickets",
-     "url": "https://seaworldspookynights.com.au/tickets"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面未列出票價（原 A$69 無法確認）。"
    },
    "added": "2026-10-10"
   },
@@ -4624,39 +4540,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "hocus-pocus-halloween-bulimba-2026",
-   "type": "event",
-   "title": "Hocus Pocus",
-   "title_zh": "Bulimba 萬聖節親子嘉年華",
-   "category": "family",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Bulimba Memorial Park",
-   "lat": -27.4517,
-   "lng": 153.059,
-   "start": "2026-10-31",
-   "end": "2026-10-31",
-   "schedule_zh": "15:00–20:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・萬聖節",
-   "summary_zh": "號稱布里斯本規模最大的萬聖節活動，現場有糖果、兒童舞會、充氣遊樂設施、表演、遊戲與餐車，並舉辦變裝比賽，適合全家同行。",
-   "tip_zh": "不需預約；歡迎穿著萬聖節服裝參加變裝比賽。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane City Council – Hocus Pocus",
-     "url": "https://www.brisbane.qld.gov.au/events/hocus-pocus/207268078"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-13"
-  },
-  {
    "id": "queer-slice-melt-makers-market-2026",
    "type": "event",
    "title": "QUEER SLICE X Melt: LGBTQIA+ Makers Market",
@@ -5302,41 +5185,6 @@
     "status": "partial",
     "checked": "2026-10-22",
     "unconfirmed_zh": "票價與開賽時間未能在官方頁面確認。"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "agnsw-kaori-endo-sleeping-22nd-century-2026",
-   "type": "event",
-   "title": "Kaori Endo: Sleeping in the 22nd Century",
-   "title_zh": "遠藤香織個展《Sleeping in the 22nd Century》",
-   "category": "arts",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Art Gallery of New South Wales（Naala Nura 館）",
-   "lat": -33.8688,
-   "lng": 151.2173,
-   "area_zh": null,
-   "start": "2026-11-07",
-   "end": "2027-01-31",
-   "schedule_zh": "每日 10:00–17:00（週三至 22:00）",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費展覽",
-   "summary_zh": "雪梨藝術館 Naala Nura 館推出藝術家 Kaori Endo 的展覽，展期自 2026 年 11 月 7 日至 2027 年 1 月 31 日，免費入場。",
-   "tip_zh": "展覽位於 Naala Nura 館 Lower level 1 的 Asian Lantern 展廳；每日 10:00–17:00，週三開放至 22:00，聖週五與聖誕節休館。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Art Gallery of NSW – Kaori Endo: Sleeping in the 22nd Century",
-     "url": "https://www.artgallery.nsw.gov.au/whats-on/exhibitions/kaori-endo"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面未列出結束日期（2027 年 1 月 31 日）與開放時間。"
    },
    "added": "2026-10-15"
   },
@@ -7214,38 +7062,6 @@
    "added": "2026-10-24"
   },
   {
-   "id": "gold-coast-movies-under-the-stars-hotel-transylvania-2026",
-   "type": "event",
-   "title": "Movies Under the Stars: Hotel Transylvania",
-   "title_zh": "星空電影院：Hotel Transylvania",
-   "category": "family",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Runaway Bay Cricket Club（Runaway Bay）",
-   "lat": -27.9,
-   "lng": 153.398,
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・露天電影",
-   "summary_zh": "黃金海岸市政府「星空電影」系列活動，16:30 起有兒童活動、臉部彩繪與餐車，18:30 放映《Hotel Transylvania》，可自備野餐，適合親子參加。",
-   "tip_zh": "建議提早到場參與兒童活動與餐車，當日以現場公告為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Gold Coast What's On – Movies Under the Stars: Hotel Transylvania",
-     "url": "https://www.whatsongoldcoast.au/All-events/Movies-Under-the-Stars-Hotel-Transylvania"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
    "id": "carrara-markets-car-boot-sale-2026",
    "type": "event",
    "title": "Carrara Markets Car Boot Sale",
@@ -7406,40 +7222,6 @@
     "status": "partial",
     "checked": "2026-10-24",
     "unconfirmed_zh": "官網未標示開始售票日（此處以查證日計）與旅遊期間，頁面一處標示來回票價、條款又提及單程計價，請以訂票頁為準。"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "sa-barossa-glamping-wine-chocolate-2026",
-   "type": "deal",
-   "title": "Barossa Valley Glamping, Wine & Chocolate Experience",
-   "title_zh": "巴羅薩谷玻璃帳篷與酒莊套裝",
-   "category": "travel",
-   "region": "SA",
-   "city": "Tanunda",
-   "venue": "Discovery Parks Barossa Valley",
-   "lat": -34.5203,
-   "lng": 138.9557,
-   "area_zh": null,
-   "start": "2026-10-24",
-   "end": "2026-11-30",
-   "price_zh": "每人 A$320 起（2 人同住雙床房，3 晚，含住宿與酒莊體驗）",
-   "free": false,
-   "highlight": "3 晚套裝・每人 A$320 起",
-   "summary_zh": "南澳觀光局網站列出的巴羅薩谷套裝，內容為 Discovery Parks Barossa Valley 三晚 Safari Deluxe 帳篷住宿，並含 Just Bliss 葡萄酒與巧克力體驗。",
-   "tip_zh": "線上訂位費或旅遊顧問服務費（如適用）於結帳時加計；出發日期為 2026 年 10 月 1 日至 2027 年 6 月 30 日，並設有旅遊限制。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "South Australia Holiday Deals – Barossa Valley glamping package",
-     "url": "https://southaustralia.com/plan-a-trip/holiday-deals"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "官網未標示優惠開始日（此處以查證日計），出發日期受旅遊限制，請以訂房頁為準。"
    },
    "added": "2026-10-24"
   }

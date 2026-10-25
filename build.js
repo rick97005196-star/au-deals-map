@@ -85,7 +85,7 @@ ${body}</body>
 
 const site = read('site.json') ? JSON.parse(read('site.json')) : {};
 const og = `<meta property="og:title" content="澳洲活動優惠地圖">
-<meta property="og:description" content="整理澳洲各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。">
+<meta property="og:description" content="為在澳洲打工度假的人整理各州的超市特價、餐飲優惠、節慶活動與交通旅遊資訊，每筆均附官方來源並經獨立查證。">
 <meta property="og:type" content="website">
 ${site.url ? `<meta property="og:url" content="${site.url}">\n` : ''}`;
 
