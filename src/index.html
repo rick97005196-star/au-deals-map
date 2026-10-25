@@ -156,7 +156,8 @@ body.no-scroll{overflow:hidden}
 .search input:focus{border-color:var(--ink-2);box-shadow:0 0 0 4px rgba(18,26,23,.06)}
 .search .clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:36px;height:36px;border:0;background:none;border-radius:6px;color:var(--muted);cursor:pointer;display:grid;place-items:center}
 .search .clear:hover{background:var(--tint)}
-.regions-label{margin:22px 0 8px;font-size:12.5px;color:var(--muted);letter-spacing:.06em}
+.regions-head{display:flex;align-items:center;justify-content:space-between;gap:8px 12px;flex-wrap:wrap;margin:22px 0 8px}
+.regions-label{margin:0;font-size:12.5px;color:var(--muted);letter-spacing:.06em}
 .regions{display:flex;flex-wrap:wrap;gap:6px}
 .rg{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--bg);cursor:pointer;font-size:14px;white-space:nowrap;transition:border-color .15s,background .15s}
 .rg:hover{border-color:var(--line-strong)}
@@ -261,6 +262,7 @@ body.no-scroll{overflow:hidden}
 .empty p{margin:0 0 14px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;height:38px;border:1px solid var(--line);background:var(--bg);border-radius:var(--r);padding:0 14px;font-size:13.5px;text-decoration:none;cursor:pointer;color:var(--ink);white-space:nowrap}
 .btn:hover{border-color:var(--line-strong);background:var(--tint)}
+.btn:disabled{opacity:.55;cursor:default}
 .btn.primary{background:var(--ink);border-color:var(--ink);color:var(--paper)}
 .btn.primary:hover{background:#26322D}
 
@@ -418,7 +420,7 @@ dialog.how::backdrop{background:rgba(18,26,23,.38)}
   .headline{font-size:24px;margin-top:8px}
   .sub{font-size:14px;margin-bottom:16px}
   .search input{height:48px;font-size:16px}
-  .regions-label{margin-top:18px}
+  .regions-head{margin-top:18px}
   .regions{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:0 calc(var(--gutter) * -1);padding:0 var(--gutter) 2px}
   .regions::-webkit-scrollbar{display:none}
   .quick-sec .wrap{padding-top:22px}
@@ -663,7 +665,7 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
       <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="搜尋品牌、活動或城市，例如 ALDI、Brisbane、市集" aria-label="搜尋">
       <button class="clear" id="qClear" type="button" aria-label="清除搜尋" hidden><svg class="i" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
     </div>
-    <p class="regions-label">選擇所在地區（全澳適用的優惠會一併顯示）</p>
+    <div class="regions-head"><p class="regions-label">選擇所在地區（全澳適用的優惠會一併顯示）</p><button type="button" class="btn" id="geoBtn" title="透過 GPS 自動偵測您所在的州，並由近到遠排序"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg><span>定位自己的位置</span></button></div>
     <div class="regions" id="regions" role="group" aria-label="地區"></div>
   </div>
 </section>
@@ -1455,10 +1457,10 @@ function render(){
   lastList = renderList();
   renderMap(lastList);
 }
-function setRegion(code){
+function setRegion(code, silent){
   S.region = code;
   try { localStorage.setItem('adm_region', code); } catch(e) {}
-  track('region', code);
+  if (!silent) track('region', code);
   render(); fitRegion(code);
 }
 function syncControls(){
@@ -1477,14 +1479,30 @@ function km(lat1, lng1, lat2, lng2){
   return 12742 * Math.asin(Math.sqrt(h));
 }
 function kmText(d){ return d < 1 ? `約 ${Math.max(1, Math.round(d * 10)) * 100} 公尺` : `約 ${d < 10 ? d.toFixed(1) : Math.round(d)} 公里`; }
-function sortNear(prev){
-  const fail = msg => { toast(msg); S.sort = prev; syncControls(); lastList = renderList(); };
-  if (!navigator.geolocation) return fail('此瀏覽器不支援定位');
+function locate(cb){
+  if (!navigator.geolocation) { toast('此瀏覽器不支援定位，可改為手動選擇地區'); return cb(null); }
   toast('正在取得您的位置…');
   navigator.geolocation.getCurrentPosition(p => {
-    ITEMS.forEach(it => { it._d = (it.lat != null && it.lng != null && !it.area_zh) ? km(p.coords.latitude, p.coords.longitude, it.lat, it.lng) : undefined; });
-    lastList = renderList(); toast('已依您的位置由近到遠排序');
-  }, () => fail('無法取得您的位置，請允許瀏覽器使用定位後再試一次'), {maximumAge:300000, timeout:10000});
+    const {latitude: lat, longitude: lng} = p.coords;
+    ITEMS.forEach(it => { it._d = (it.lat != null && it.lng != null && !it.area_zh) ? km(lat, lng, it.lat, it.lng) : undefined; });
+    cb(p.coords);
+  }, err => { toast(err.code === 1 ? '您未允許瀏覽器取得位置，可改為手動選擇地區' : '無法取得您的位置，可改為手動選擇地區'); cb(null); }, {maximumAge:300000, timeout:10000});
+}
+function sortNear(prev){
+  locate(c => {
+    if (!c) { S.sort = prev; syncControls(); } else toast('已依您的位置由近到遠排序');
+    lastList = renderList();
+  });
+}
+function stateAt(lat, lng){
+  const inRing = ring => { let c = false; for (let i = 0, j = ring.length - 1; i < ring.length; j = i++){ const [x1, y1] = ring[i], [x2, y2] = ring[j]; if ((y1 > lat) !== (y2 > lat) && lng < (x2 - x1) * (lat - y1) / (y2 - y1) + x1) c = !c; } return c; };
+  const polys = f => f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+  const hit = GEO.features.find(f => polys(f).some(p => inRing(p[0]) && !p.slice(1).some(inRing)));
+  if (hit) return hit.properties.code;
+  // 州界是簡化過的，海邊城市（如達爾文）可能落在界外：改取最近的邊界點
+  let best = 'AU', bd = Infinity;
+  GEO.features.forEach(f => polys(f).forEach(p => p[0].forEach(([x, y]) => { const d = Math.hypot(x - lng, y - lat); if (d < bd) { bd = d; best = f.properties.code; } })));
+  return best;
 }
 
 document.addEventListener('click', e => {
@@ -1556,6 +1574,20 @@ $('fab').addEventListener('click', () => setView(S.view === 'list' ? 'map' : 'li
 $('freeBtn').addEventListener('click', () => { manual(); S.free = !S.free; syncControls(); render(); });
 $('when').addEventListener('change', e => { manual(); S.when = e.target.value; render(); });
 $('sort').addEventListener('change', e => { const prev = S.sort; S.sort = e.target.value; SHOW = {}; if (S.sort === 'near') sortNear(prev); else lastList = renderList(); });
+$('geoBtn').addEventListener('click', () => {
+  const btn = $('geoBtn'), label = btn.querySelector('span'), orig = label.textContent;
+  btn.disabled = true; label.textContent = '定位中…';
+  locate(c => {
+    btn.disabled = false; label.textContent = orig;
+    if (!c) return;
+    const {latitude: lat, longitude: lng} = c;
+    if (lat > 0 || lat < -45 || lng < 110 || lng > 155) { toast('偵測到您目前的位置可能不在澳洲境內，已改為顯示全澳洲'); return setRegion('AU', true); }
+    const code = stateAt(lat, lng);
+    S.sort = 'near'; syncControls();
+    setRegion(code, true);
+    toast(`已定位到${RBY[code].zh}，由近到遠排序`);
+  });
+});
 let qTimer, qTrack;
 $('q').addEventListener('input', e => {
   clearTimeout(qTimer); clearTimeout(qTrack);
