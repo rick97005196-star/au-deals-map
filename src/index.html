@@ -465,8 +465,11 @@ body{font:16px/1.75 var(--f-body)}
 .headline{font-weight:800;font-size:48px;line-height:1.3;letter-spacing:.02em}
 .headline span{color:var(--amber-ink);display:inline-block}
 .headline .h1a{color:inherit}
+.sub{font-size:16px}
 .sec-title h2{font-weight:800;font-size:26px;letter-spacing:.03em}
+.group-h{margin:36px 0 16px}
 .group-h h3{font-weight:800;font-size:22px}
+.qt .d,.card-en{font-size:13px}
 .card-title{font-weight:800;letter-spacing:.02em}
 .d-title,.dlg h2,.foot h4,.empty h4{font-weight:800}
 .hero{border-bottom:1.5px solid var(--edge)}
@@ -488,7 +491,7 @@ body{font:16px/1.75 var(--f-body)}
 .qt[aria-pressed="true"]{box-shadow:3px 3px 0 var(--deal-pin)}
 .qt .ic{border-radius:6px}
 .bar{background:var(--bar-bg);border-bottom:1.5px solid var(--edge)}
-.toggle,.select{border:1.5px solid var(--edge);border-radius:6px;background-color:var(--paper)}
+.toggle,.select{height:40px;border:1.5px solid var(--edge);border-radius:6px;background-color:var(--paper);font-size:14px}
 .toggle::before{border-radius:3px}
 .chip{border-radius:6px;background:var(--paper)}
 .chip[aria-pressed="true"]{border-width:1.5px}
@@ -542,7 +545,7 @@ dialog.sheet{border-left:1.5px solid var(--edge)}
 .itin-item{border:1.5px solid var(--edge);border-radius:8px;background:var(--paper)}
 dialog.how{border:1.5px solid var(--edge);border-radius:12px}
 .steps li::before{border-radius:4px;border:1.5px solid var(--edge)}
-.social-links a{border:1.5px solid var(--edge);border-radius:6px;background:var(--paper)}
+.social-links a{height:40px;border:1.5px solid var(--edge);border-radius:6px;background:var(--paper)}
 .foot{border-top:1.5px solid var(--edge)}
 /* 意見回饋小卡：按鈕由主網站共用檔 feedback-widget.js 開啟站內視窗 */
 .fbk-sec{padding:8px 0 40px}
@@ -558,14 +561,16 @@ dialog.how{border:1.5px solid var(--edge);border-radius:12px}
 }
 @media (max-width:640px){
   .headline{font-size:30px}
+  .sub{font-size:15px}
   .sec-title h2{font-size:24px}
+  .group-h{margin:26px 0 12px}
   .group-h h3{font-size:20px}
   dialog.sheet{border-left:0;border-top:1.5px solid var(--edge);border-radius:12px 12px 0 0}
   .card-hit{grid-template-columns:64px minmax(0,1fr)}
   .card::before,.card::after{left:58px}
   .stub b{font-size:18px}
   .card-body{padding:13px 14px}
-  .rg{height:38px;padding:0 12px}
+  .rg{padding:0 12px}
 }
 /* 置頂免責聲明列（隨頁面捲走，不固定） */
 .notice{background:var(--amber-soft);border-bottom:1.5px solid var(--edge);font-size:13.5px;line-height:1.6}

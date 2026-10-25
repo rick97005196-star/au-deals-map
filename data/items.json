@@ -2,38 +2,6 @@
  "updated": "2026-10-25",
  "items": [
   {
-   "id": "woolworths-free-fissler-containers-2026",
-   "type": "deal",
-   "title": "Everyday Rewards Free Food Containers (Fissler)",
-   "title_zh": "Woolworths 集點兌換保鮮盒",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-09-09",
-   "end": "2026-12-08",
-   "price_zh": "每消費 A$20 累積 1 點，20 點起可兌換",
-   "free": false,
-   "highlight": "集點兌換",
-   "summary_zh": "於 Woolworths 使用 Everyday Rewards 卡消費，每 A$20 可得 1 點，累積足夠點數即可免費兌換德國 Fissler 保鮮盒：玻璃盒 520ml 需 20 點、不鏽鋼盒 800ml 需 30 點、便當盒 930ml 需 40 點，最高另有 5L 攪拌盆與刨絲器組（70 點）。",
-   "tip_zh": "集點期間至 12/1，12/2–12/8 僅開放兌換；兌換限 Woolworths 超市及部分 Metro 實體門市，Everyday Market 與 MILKRUN 之消費不列入集點。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Everyday Rewards – Free Food Containers",
-     "url": "https://www.everyday.com.au/rewards/member-offers/containers"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-22",
-    "unconfirmed_zh": "官網未列出各品項所需點數（20／30／40／70 點）、12/2–12/8 兌換期，以及 Everyday Market 與 MILKRUN 不列入集點。"
-   }
-  },
-  {
    "id": "7-eleven-lunch-legends-6-meal-deal",
    "type": "deal",
    "title": "7-Eleven Lunch Legends $6 Meal Deal",
@@ -3551,45 +3519,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "britbox-annual-plan-75-oct-2026",
-   "type": "deal",
-   "title": "BritBox Annual Offer (Australia)",
-   "title_zh": "BritBox 年繳方案首年 A$75",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-09",
-   "end": "2026-10-30",
-   "price_zh": "首年 A$75（原價 A$139.99）",
-   "free": false,
-   "highlight": "年費省 A$64.99",
-   "summary_zh": "英國影集串流平台 BritBox 年繳方案首年 A$75，新訂戶與回流訂戶都適用，不需要優惠碼。適合喜歡英國劇集、推理劇與紀錄片的觀眾。",
-   "tip_zh": "限透過官網或 Apple、Google 裝置訂閱，費用不退；一年後以 A$139.99 自動續約，可在帳戶中關閉自動續約。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "BritBox Australia – Annual Offer terms",
-     "url": "https://www.britbox.com/au/promo-terms"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – BritBox annual plan $75",
-     "url": "https://www.ozbargain.com.au/node/978281"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "village-cinemas-vrewards-super-tuesdays",
    "type": "deal",
    "title": "Vrewards Super Tuesdays & Student Wednesdays",
@@ -4517,38 +4446,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "aussie-broadband-spring-deals-2026",
-   "type": "deal",
-   "title": "Aussie Broadband Spring Deals 2026",
-   "title_zh": "Aussie Broadband 春季網路優惠",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-09-10",
-   "end": "2026-11-15",
-   "price_zh": "前 6 個月每月折 A$20–25",
-   "free": false,
-   "highlight": "家用網路 6 個月折扣",
-   "summary_zh": "Aussie Broadband 住宅 nbn 與 OptiComm 網路優惠：Basic Plus 25/10 與 Value 50/20 方案輸入代碼 SPRING25 每月折 A$25，Fast 100/20 等方案輸入 SPRING20 每月折 A$20，皆連續 6 個月。適合合租住處需要申辦家用網路的人。",
-   "tip_zh": "適用近 6 個月內未使用 Aussie Broadband 網路或行動服務的住宅新客戶（須於申辦時輸入代碼），以及升級至較高方案的既有住宅客戶；折扣不含設備費用與 nbn／OptiComm 新建費用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Aussie Broadband – Spring Deals 2026 terms (PDF)",
-     "url": "https://assets.aussiebroadband.com.au/web/assets/legal/tcs/promo/abb-20260910-spring-deals-tcs.pdf"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-22"
-   },
-   "added": "2026-10-13"
-  },
-  {
    "id": "nab-goodies-hoyts-discounted-tickets-2026",
    "type": "deal",
    "title": "NAB Goodies – HOYTS Discounted Movie Tickets",
@@ -5010,38 +4907,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "mymaccas-binge-6-months-8000-points-2026",
-   "type": "deal",
-   "title": "MyMacca's Partner Reward – 6 Months BINGE Basic for 8000 points",
-   "title_zh": "MyMacca's 點數兌換 BINGE 6 個月",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-13",
-   "end": "2027-01-15",
-   "price_zh": "8,000 點兌換 BINGE Basic 6 個月",
-   "free": false,
-   "highlight": "點數兌換",
-   "summary_zh": "McDonald's MyMacca's App 會員可用 8,000 點兌換 6 個月 BINGE Basic 串流方案，限年滿 18 歲的澳洲居民，且須為 BINGE 新用戶或目前沒有訂閱的回流用戶。",
-   "tip_zh": "在 App「Rewards & Deals」的 Partner Rewards 兌換，取得的代碼須於 2027/1/31 前到 binge.com.au 使用；6 個月後會自動以每月 A$10 續訂，若不續用請於到期前取消。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "McDonald's Australia – Get 6 Months BINGE Basic with Your MyMacca's Points",
-     "url": "https://www.mcdonalds.com/au/en-au/partner-rewards/binge.html"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-13"
-  },
-  {
    "id": "boost-juice-double-vibe-points-2026",
    "type": "deal",
    "title": "Boost Juice Get FREE Faster – Double Vibe Rewards Points",
@@ -5296,75 +5161,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "hota-art-explorers-2026",
-   "type": "event",
-   "title": "Art Explorers",
-   "title_zh": "HOTA 幼童藝術探索課程",
-   "category": "family",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "HOTA, Home of the Arts（Art Lift，135 Bundall Rd）",
-   "lat": -28.0017,
-   "lng": 153.4294,
-   "area_zh": null,
-   "start": "2026-11-13",
-   "end": "2026-12-11",
-   "schedule_zh": "每月第二個週五 10:30（每場約 45 分鐘）",
-   "price_zh": "免費（每名幼童需領票，票內含一名陪同成人）",
-   "free": true,
-   "highlight": "免費・親子",
-   "summary_zh": "HOTA 為 2 至 5 歲幼童及陪同成人舉辦的親子藝術活動，每月第二個週五 10:30 於 Art Lift 進行，每場約 45 分鐘；2026 年列出的場次為 11 月 13 日與 12 月 11 日。",
-   "tip_zh": "每名幼童需領一張票（含一名陪同家長或照顧者）；官網場次資訊中有一場標示售完（未註明日期），建議提早索票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "HOTA – Art Explorers",
-     "url": "https://hota.com.au/events/art-explorers-2026"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "hota-quiet-hour-2026",
-   "type": "event",
-   "title": "Quiet Hour",
-   "title_zh": "HOTA 安靜時段參觀",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "HOTA Gallery, Home of the Arts",
-   "lat": -28.0017,
-   "lng": 153.4294,
-   "area_zh": null,
-   "start": "2026-07-04",
-   "end": "2026-12-05",
-   "schedule_zh": "每月第一個週六 9:00–10:00（2026 年 11 月 7 日、12 月 5 日）",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・安靜時段",
-   "summary_zh": "HOTA 美術館每月第一個週六 9:00–10:00 的安靜參觀時段（Quiet Hour），免費入場。",
-   "tip_zh": "請於 Ground Entry 集合；請以官網所列的 2026 年場次為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "HOTA – Quiet Hour",
-     "url": "https://hota.com.au/events/quiet-hour"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "rlwc-2026-gold-coast-round-3-triple-header",
    "type": "event",
    "title": "2026 Rugby League World Cup Round 3 - Triple Header",
@@ -5580,40 +5376,6 @@
    "added": "2026-10-15"
   },
   {
-   "id": "newcastle-museum-mr-squiggle-and-friends-2026",
-   "type": "event",
-   "title": "Mr Squiggle and Friends: The Creative World of Norman Hetherington",
-   "title_zh": "Mr Squiggle 與好朋友們展覽",
-   "category": "arts",
-   "region": "NSW",
-   "city": "Newcastle",
-   "venue": "Newcastle Museum",
-   "lat": -32.9259,
-   "lng": 151.7756,
-   "area_zh": null,
-   "start": "2026-07-04",
-   "end": "2026-11-01",
-   "schedule_zh": "週二至週日 10:00–17:00（紐南威州學校假期期間週一亦開放）",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費展覽・親子",
-   "summary_zh": "紐卡索博物館展出 Mr Squiggle 創作者 Norman Hetherington 的作品，包含手工木偶、戰時畫作、素描與舞台道具，並設有互動繪圖體驗；展期至 2026 年 11 月 1 日，免費入場。",
-   "tip_zh": "一般週一休館；前往前請先查看官網開放日。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Newcastle Museum – Mr Squiggle and Friends",
-     "url": "https://newcastlemuseum.com.au/exhibitions-events/exhibitions/mr-squiggle-and-friends"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-22"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "sydney-street-fair-2026",
    "type": "event",
    "title": "Sydney Street Fair 2026",
@@ -5803,71 +5565,6 @@
    "added": "2026-10-15"
   },
   {
-   "id": "moreton-bay-youth-art-awards-2026",
-   "type": "event",
-   "title": "Moreton Bay Youth Art Awards",
-   "title_zh": "莫頓灣青年藝術獎展覽",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Moreton Bay",
-   "venue": "Albany Creek Community Centre（15 Ernie Street, Albany Creek）",
-   "lat": -27.358,
-   "lng": 152.9715,
-   "start": "2026-10-17",
-   "end": "2026-10-25",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・青年藝術",
-   "summary_zh": "展出莫頓灣地區學生參賽的作品，包含繪畫、雕塑與數位藝術等，並設有民眾票選獎。適合親子與關注青年創作的民眾參觀。",
-   "tip_zh": "展覽期間可自由參觀；參賽報名已於 2026 年 10 月 1 日截止。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Moreton Bay – Moreton Bay Youth Art Awards 2026",
-     "url": "https://www.moretonbay.qld.gov.au/News/Media/Moreton-Bay-Youth-Art-Awards-returns-to-celebrate-young-creative-talent"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-22"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "harrisville-sunday-farm-day-2026",
-   "type": "event",
-   "title": "Harrisville Sunday Farm Day",
-   "title_zh": "Harrisville 週日農場日",
-   "category": "family",
-   "region": "QLD",
-   "city": "Scenic Rim",
-   "venue": "Harrisville Heritage Farm（57 Kalbar Peak Crossing Road, Harrisville）",
-   "lat": -27.81,
-   "lng": 152.68,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "schedule_zh": "每月最後一個週日 10:00–12:30",
-   "price_zh": "入場免費（部分活動另收費）",
-   "free": true,
-   "highlight": "免費入場・親子農場",
-   "summary_zh": "位於 Scenic Rim 地區的家庭農場活動，可餵食山羊、綿羊、雞與鴨，並設有小馬騎乘與拖拉機遊戲區。適合學齡前與小學階段的兒童及其家庭。",
-   "tip_zh": "臉部彩繪與部分遊戲需另付費，現場可使用現金或信用卡；建議自備野餐墊。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Brisbane – Harrisville Sunday Farm Day",
-     "url": "https://visit.brisbane.qld.au/whats-on/scenic-rim/eat-and-drink-events/harrisville-sunday-farm-day-a31d"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "eagle-farm-farmers-market-2026",
    "type": "event",
    "title": "Jan Powers Farmers Markets – Eagle Farm",
@@ -6004,39 +5701,6 @@
     "status": "partial",
     "checked": "2026-10-22",
     "unconfirmed_zh": "官方頁面未列出具體票價。"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "mcdonalds-senior-coffee-offer-au-2026",
-   "type": "deal",
-   "title": "McDonald's Australia Senior Coffee Offer",
-   "title_zh": "麥當勞長者咖啡優惠",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-04-01",
-   "end": null,
-   "price_zh": "消費滿 A$5.50 可免費兌換小杯飲品",
-   "free": false,
-   "highlight": "長者專屬・門市限定",
-   "summary_zh": "持有 Seniors Card 或 Seniors Business Discount Card 者，於麥當勞參與門市櫃檯單筆消費滿 A$5.50，可兌換一杯小杯熱 McCafé 飲品、小杯汽水或小杯柳橙汁。適合持有長者卡的顧客。",
-   "tip_zh": "須於門市櫃檯點餐並出示長者卡；不適用於得來速、McDelivery、MyMacca's 應用程式或網站點餐。每人每日限用一次，加料與替代奶品另計費用，麥當勞得隨時撤銷優惠。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "McDonald's Australia – Senior Coffee Offer FAQs",
-     "url": "https://www.mcdonalds.com/au/en-au/help-support/senior-coffee-offer-faqs.html"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-22",
-    "unconfirmed_zh": "官網未公布優惠起訖日期。"
    },
    "added": "2026-10-15"
   },
@@ -6209,39 +5873,6 @@
     "status": "partial",
     "checked": "2026-10-23",
     "unconfirmed_zh": "官方節目表未列出多數付費活動的票價。本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   },
-   "added": "2026-10-16"
-  },
-  {
-   "id": "rock-and-rhyme-hobart-library-2026-10-29",
-   "type": "event",
-   "title": "Rock and Rhyme at Hobart Library",
-   "title_zh": "荷伯特圖書館 Rock and Rhyme 親子律動",
-   "category": "family",
-   "region": "TAS",
-   "city": "Hobart",
-   "venue": "Hobart Library（91 Murray Street）",
-   "lat": -42.8806,
-   "lng": 147.3266,
-   "start": "2026-10-29",
-   "end": "2026-10-29",
-   "schedule_zh": "10:00–10:30",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "免費・0–3 歲",
-   "summary_zh": "由 Libraries Tasmania 舉辦的 30 分鐘免費親子活動，適合 0 至 3 歲的嬰幼兒與家長參加。",
-   "tip_zh": "免預約，當日直接到場即可。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官網",
-     "label": "Libraries Tasmania – Rock and Rhyme at Hobart Library（29 Oct 2026）",
-     "url": "https://libraries.tas.gov.au/whats-on/rock-and-rhyme-at-hobart-library-29-oct-26/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
    },
    "added": "2026-10-16"
   },
@@ -6615,107 +6246,6 @@
    "added": "2026-10-18"
   },
   {
-   "id": "perth-gem-and-mineral-show-2026",
-   "type": "event",
-   "title": "Perth Gem and Mineral Show",
-   "title_zh": "珀斯寶石與礦物展 2026",
-   "category": "entertainment",
-   "region": "WA",
-   "city": "Perth",
-   "venue": "Pavilion 6, Perth Convention and Exhibition Centre",
-   "lat": -31.9606,
-   "lng": 115.8539,
-   "start": "2026-11-06",
-   "end": "2026-11-08",
-   "schedule_zh": "11 月 6–7 日 09:00–17:00；11 月 8 日 09:00–16:00",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "展覽・三日",
-   "summary_zh": "西澳寶石與礦物展覽，於珀斯會展中心舉辦，為付費入場活動。",
-   "tip_zh": "票價與購票方式請見主辦單位官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Perth – Perth Gem and Mineral Show",
-     "url": "https://visitperth.com/events/perth-gem-and-mineral-show-pgms"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方活動頁僅標示需購票，未列出票價；請見主辦單位網站 perthgemmineralshow.com。"
-   },
-   "added": "2026-10-18"
-  },
-  {
-   "id": "kings-park-stories-in-the-park-2026-11-25",
-   "type": "event",
-   "title": "Stories in the Park",
-   "title_zh": "Kings Park 戶外故事時光",
-   "category": "family",
-   "region": "WA",
-   "city": "Perth",
-   "venue": "Kings Park（Poolgarla Family Area）",
-   "lat": -31.9629,
-   "lng": 115.8325,
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "schedule_zh": "11 月 25 日（週三）10:00–10:30",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・親子",
-   "summary_zh": "於 Kings Park Poolgarla Family Area 樹蔭下草地舉行的親子故事時光，適合 2 至 6 歲幼童參加，每場約 30 分鐘。",
-   "tip_zh": "免預約。可自備野餐墊或摺疊椅；可搭乘公車 24、27、103 路或 Purple CAT 前往。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Perth – Stories in the Park, Kings Park",
-     "url": "https://visitperth.com/events/storytime-in-the-park"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-18"
-   },
-   "added": "2026-10-18"
-  },
-  {
-   "id": "book-fair-australia-sydney-2026",
-   "type": "event",
-   "title": "Book Fair Australia Sydney 2026",
-   "title_zh": "雪梨書展 2026",
-   "category": "market",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Sydney Showground, Exhibition Hall 5",
-   "lat": -33.8457,
-   "lng": 151.0686,
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "schedule_zh": "11 月 7–8 日 10:00–17:00",
-   "price_zh": "成人票 A$30 起；兒童票免費至 A$10",
-   "free": false,
-   "highlight": "書展・兩日",
-   "summary_zh": "雪梨大型書展，於 Sydney Showground 展館舉行，展售各類圖書。成人須購票入場。",
-   "tip_zh": "票券於 bookfairaustralia.com 購買。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Sydney What's On – Book Fair Australia Sydney 2026",
-     "url": "https://whatson.cityofsydney.nsw.gov.au/events/book-fair-australia-sydney-2026-presented-by-book-addiction"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面營業時間敘述為每日開放，與 11 月 7–8 日日期不一致，請以主辦單位公告為準。"
-   },
-   "added": "2026-10-18"
-  },
-  {
    "id": "halloween-at-the-museum-melbourne-2026",
    "type": "event",
    "title": "Halloween at the Museum",
@@ -6849,38 +6379,6 @@
    "added": "2026-10-18"
   },
   {
-   "id": "the-ghan-fly-free-2027",
-   "type": "deal",
-   "title": "The Ghan Fly Free Offers",
-   "title_zh": "The Ghan 免費機票優惠（2027 年行程）",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-01",
-   "end": "2026-11-30",
-   "price_zh": "機票補貼每段最高 A$375；套裝由 A$8,690 起（每人，金級雙人艙）",
-   "free": false,
-   "highlight": "機票補貼・2026 年 11 月 30 日前訂位",
-   "summary_zh": "Journey Beyond 官方頁面列出的 The Ghan Adelaide 與 Darwin 之間鐵路套裝優惠（Fly Free），內含每人每段最高 A$375 的機票補貼，套裝行程包含達爾文住宿。旅程日期為 2027 年，適合規劃長途鐵路旅遊的旅客。",
-   "tip_zh": "僅限新訂位，不得與其他優惠併用，不發放機票 flight credit；可搭乘航班視各首府與航空公司而定。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Journey Beyond – The Ghan Special Offers",
-     "url": "https://www.journeybeyondrail.com.au/the-ghan-special-offers/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-18"
-   },
-   "added": "2026-10-18"
-  },
-  {
    "id": "optus-small-promo-100gb-plan-2026-11-12",
    "type": "deal",
    "title": "Optus Small Promo Plan – 100GB for A$39/month for 12 months",
@@ -6942,84 +6440,6 @@
     "status": "partial",
     "checked": "2026-10-23",
     "unconfirmed_zh": "官網未列出優惠開始日期，且 eSIM 與實體 SIM 適用範圍標示不一致。"
-   },
-   "added": "2026-10-19"
-  },
-  {
-   "id": "caloundra-mapping-threads-2026",
-   "type": "event",
-   "title": "Mapping Threads",
-   "title_zh": "Mapping Threads 展覽（Caloundra）",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Caloundra",
-   "venue": "Caloundra Regional Gallery",
-   "lat": -26.801,
-   "lng": 153.1316,
-   "start": "2026-10-16",
-   "end": "2026-12-06",
-   "price_zh": "開幕活動免費（需報名）；展覽入場費請見官網",
-   "free": false,
-   "highlight": "展覽・2026 年 10 至 12 月",
-   "summary_zh": "Caloundra Regional Gallery 展出 Nicole Voevodin-Cash 的 Mapping Threads 展覽。適合對當代藝術與手作工藝有興趣的讀者。",
-   "tip_zh": "官網載明開幕活動已於 10 月 15 日 18:00–20:00 舉行（免費，需報名）；展覽期間的入場費與開放時間請見 Caloundra Regional Gallery 官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Sunshine Coast Council：展覽列表（Mapping Threads，16 Oct–6 Dec 2026）",
-     "url": "https://www.sunshinecoast.qld.gov.au/exhibitions"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Caloundra Regional Gallery：2026 Exhibition Openings（開幕活動免費，需報名）",
-     "url": "https://gallery.sunshinecoast.qld.gov.au/adult-programs/2026-exhibition-openings"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官網未列出展覽入場費與開放時間。"
-   },
-   "added": "2026-10-19"
-  },
-  {
-   "id": "caloundra-manipulating-vision-erin-conron-2026",
-   "type": "event",
-   "title": "Manipulating Vision: The glass art of Erin Conron",
-   "title_zh": "Erin Conron 玻璃藝術展（Caloundra）",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Caloundra",
-   "venue": "Caloundra Regional Gallery",
-   "lat": -26.801,
-   "lng": 153.1316,
-   "start": "2026-10-16",
-   "end": "2026-12-06",
-   "price_zh": "開幕活動免費（需報名）；展覽入場費請見官網",
-   "free": false,
-   "highlight": "展覽・2026 年 10 至 12 月",
-   "summary_zh": "Caloundra Regional Gallery 展出 Erin Conron 的玻璃藝術作品。適合對玻璃工藝與當代藝術有興趣的讀者。",
-   "tip_zh": "官網載明開幕活動已於 10 月 15 日 18:00–20:00 舉行（免費，需報名）；展覽期間的入場費與開放時間請見 Caloundra Regional Gallery 官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Sunshine Coast Council：展覽列表（Manipulating Vision，16 Oct–6 Dec 2026）",
-     "url": "https://www.sunshinecoast.qld.gov.au/exhibitions"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Caloundra Regional Gallery：2026 Exhibition Openings",
-     "url": "https://gallery.sunshinecoast.qld.gov.au/adult-programs/2026-exhibition-openings"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面未列出展覽入場費、開放時間，亦未明確標示場地與開幕活動細節。"
    },
    "added": "2026-10-19"
   },
@@ -7155,40 +6575,6 @@
     "checked": "2026-10-19"
    },
    "added": "2026-10-19"
-  },
-  {
-   "id": "merlin-sydney-grandparents-day-2026",
-   "type": "deal",
-   "title": "Grandparents Day Special Offer (Merlin Sydney)",
-   "title_zh": "SEA LIFE 雪梨水族館祖父母節優惠",
-   "category": "entertainment",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "SEA LIFE Sydney Aquarium（Darling Harbour）",
-   "lat": -33.8715,
-   "lng": 151.199,
-   "area_zh": null,
-   "start": "2026-10-23",
-   "end": "2026-10-29",
-   "price_zh": "祖父母票 A$10（需搭配全價成人或兒童票）",
-   "free": false,
-   "highlight": "祖父母節 A$10 票",
-   "summary_zh": "SEA LIFE Sydney Aquarium 於 2026 年 10 月 23 日至 29 日祖父母節期間，提供祖父母票 A$10 的優惠，須與全價成人票或兒童票同時購買。適合與祖父母同遊的家庭。",
-   "tip_zh": "僅限線上購票，須至少提前 1 天預訂，不接受現場購票；每筆交易最多兩張祖父母票，且僅適用單一景點普通門票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "SEA LIFE Sydney – Discount offers（Grandparents Day Special Offer）",
-     "url": "https://www.visitsealife.com/sydney/ticket-deals/discount-offers/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-22",
-   "lead": "其他"
   },
   {
    "id": "powerhouse-parramatta-opening-2026",
@@ -7585,84 +6971,6 @@
    "added": "2026-10-23"
   },
   {
-   "id": "everyday-rewards-commbank-yello-conversion-2026",
-   "type": "deal",
-   "title": "Everyday Rewards and CommBank Yello points conversion",
-   "title_zh": "Everyday Rewards 與 CommBank Yello 點數轉換",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "全澳洲",
-   "start": "2026-10-01",
-   "end": null,
-   "price_zh": "3,000 Yello 點可轉換為 2,000 Everyday Rewards 點；2,000 點可折抵 A$10",
-   "free": false,
-   "highlight": "點數轉換",
-   "summary_zh": "自 2026 年 10 月 1 日起，Everyday Rewards 納入 CommBank Yello 獎勵計畫，符合資格的客戶可將 3,000 Yello 點轉換為 2,000 Everyday Rewards 點，累積 2,000 點可折抵 A$10 的下次消費。Everyday Rewards 會員資格免費。",
-   "tip_zh": "需同時為 CommBank Yello 合資格客戶與 Everyday Rewards 會員；累積 2,000 點後可折抵 A$10，亦可存入「Bank for Christmas」計畫。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Woolworths Group 新聞稿：Everyday Rewards and CommBank join forces（2026 年 8 月 18 日）",
-     "url": "https://woolworthsgroup.com.au/au/en/our-newsroom/latest-news/2026/everyday-rewards-and-commbank-join-forces-to-turn-everyday-banki.html"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方公告未列結束日，亦未說明是否適用於門市消費，以及點數轉換的其他細節。"
-   },
-   "added": "2026-10-23"
-  },
-  {
-   "id": "great-southern-fly-stay-free-2026-27",
-   "type": "deal",
-   "title": "Great Southern Fly & Stay Free",
-   "title_zh": "Great Southern 免費來回機票與住宿",
-   "category": "travel",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-09-25",
-   "end": "2026-10-31",
-   "price_zh": "鐵路行程每人 A$2,555 起（Gold Twin，Adelaide 至 Brisbane；Brisbane 至 Adelaide 為 A$4,265 起；優惠前票價）",
-   "free": false,
-   "highlight": "免費機票・含一晚住宿",
-   "summary_zh": "Great Southern Rail 的「Fly & Stay Free」優惠，適用於 2026 年 9 月 25 日至 10 月 31 日間的新訂位，可享免費來回經濟艙機票（含稅，每人上限 A$750）及布里斯本或阿得雷德一晚住宿。適用 2026 年 12 月 1 日至 2027 年 2 月 28 日的指定出發班次，航段包括 Adelaide 與 Brisbane 之間（雙向）及 Brisbane 至 Melbourne，並設有封鎖日。",
-   "tip_zh": "需於 10 月 31 日前完成新訂位；優惠依供位情況提供，不得與其他優惠併用，商務艙需補差額，請以官網為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Journey Beyond Rail – Great Southern Special Offers",
-     "url": "https://www.journeybeyondrail.com.au/great-southern-special-offers/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Journey Beyond Rail – Brisbane to Melbourne 2026 package",
-     "url": "https://www.journeybeyondrail.com.au/packages/brisbane-to-melbourne-2026/"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "Travel Weekly – Great Southern launches Fly & Stay Free offers for rail journeys",
-     "url": "https://travelweekly.com.au/great-southern-launches-fly-stay-free-offers-for-rail-journeys/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-23"
-  },
-  {
    "id": "spirit-of-tasmania-new-ships-first-sailing-2026",
    "type": "event",
    "title": "Spirit of Tasmania IV and V first passenger sailings",
@@ -7736,39 +7044,6 @@
     "status": "partial",
     "checked": "2026-10-24",
     "unconfirmed_zh": "官網尚未逐項公布主檔期各商家的折扣內容。"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "spotify-premium-family-trial-2026",
-   "type": "deal",
-   "title": "Spotify Premium Family – 2-month free trial",
-   "title_zh": "Spotify 家庭方案兩個月免費試用",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-23",
-   "end": "2026-11-02",
-   "price_zh": "家庭方案 A$27.99／月（前 2 個月免費）",
-   "free": false,
-   "highlight": "前 2 個月免費試用",
-   "summary_zh": "Spotify 澳洲家庭方案，同一地址最多可供 6 位家人使用，前兩個月免費試用。優惠僅限未曾使用 Premium 的用戶。",
-   "tip_zh": "試用資格以官網條款為準；如不需續用，建議於試用期結束前確認訂閱狀態。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Spotify Australia – Premium 方案與家庭方案試用",
-     "url": "https://www.spotify.com/au/premium/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "官網僅標示優惠結束日為 2026 年 11 月 2 日，開始日未列明，此處以查證日為準。"
    },
    "added": "2026-10-24"
   },
@@ -8004,71 +7279,6 @@
    "added": "2026-10-24"
   },
   {
-   "id": "goma-teens-creativity-lounge-2026-11",
-   "type": "event",
-   "title": "Teens Creativity Lounge",
-   "title_zh": "GOMA 青少年創意工作坊",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Gallery of Modern Art（GOMA）River Lounge, Level 3",
-   "lat": -27.4721,
-   "lng": 153.018,
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・青少年工作坊",
-   "summary_zh": "昆士蘭現代美術館為 13 至 17 歲青少年舉辦的創意課程，本場次主題為「DIY: Zines, Totes and Badges」，提供拼貼與手作材料及點心。",
-   "tip_zh": "本場次 10:30–12:30 於 GOMA 三樓 River Lounge 舉行，須事先預約，名額有餘時開放現場參加。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Queensland Art Gallery | Gallery of Modern Art – Teens Creativity Lounge",
-     "url": "https://www.qagoma.qld.gov.au/event/teens-creativity-lounge"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "mudgeeraba-seniors-month-concert-2026",
-   "type": "event",
-   "title": "Mudgeeraba Seniors Month Concert",
-   "title_zh": "Mudgeeraba 長者月免費音樂會",
-   "category": "music",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Mudgeeraba Memorial Hall",
-   "lat": -28.0828,
-   "lng": 153.3659,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "schedule_zh": "12:00 開門，12:30–15:00 演出",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・社區音樂會",
-   "summary_zh": "由 Hinterland Community Band 與 Lions Club of Mudgeeraba 合辦的社區午後音樂會，特邀 Hinterland Strings 演出，現場提供下午茶。",
-   "tip_zh": null,
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Gold Coast What's On – Mudgeeraba Seniors Month Concert",
-     "url": "https://www.whatsongoldcoast.au/All-events/Mudgeeraba-Seniors-Month-Concert"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
    "id": "alice-springs-halloween-pop-up-park-2026",
    "type": "event",
    "title": "Halloween Pop-Up Park: Picnic Movie Night",
@@ -8162,73 +7372,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "woolworths-christmas-ham-2026",
-   "type": "deal",
-   "title": "Woolworths Christmas Hams 2026",
-   "title_zh": "Woolworths 2026 聖誕火腿系列",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-22",
-   "end": "2026-12-25",
-   "price_zh": "Half Leg Ham A$8.00／公斤、Quarter Leg Ham A$12.50／公斤（門市與線上）",
-   "free": false,
-   "highlight": "聖誕火腿・Half Leg Ham A$8／公斤",
-   "summary_zh": "Woolworths 官方新聞稿（10 月 21 日發布）表示，聖誕火腿系列自 10 月 22 日起在全國門市與線上販售至聖誕節，包含 Half Leg Ham（A$8.00／公斤）、Quarter Leg Ham（A$12.50／公斤）及 Gold Collection 系列等品項。",
-   "tip_zh": "各品項價格以官方新聞稿所列為準，實際售價請以門市或官網標示為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Woolworths Group 新聞稿 – Christmas hams are back at Woolworths（2026 年 10 月 21 日發布）",
-     "url": "https://www.woolworthsgroup.com.au/au/en/our-newsroom/media-releases/latest-news/2026/christmas-hams-are-back-at-woolworths.html"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "官方新聞稿未說明這些價格與平日售價相比的折扣幅度，也未說明是否限量供應。"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "vic-visit-victoria-spring-offers-2026",
-   "type": "deal",
-   "title": "Visit Victoria Spring 2026 Seasonal Offers",
-   "title_zh": "維州春季景點優惠 2026",
-   "category": "travel",
-   "region": "VIC",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "維多利亞州（墨爾本與周邊景點）",
-   "start": "2026-09-01",
-   "end": "2026-11-30",
-   "price_zh": "折扣依景點而異，約 5% 至 20%（LEGO Pick & Build 為 50%）；票價以官網為準",
-   "free": false,
-   "highlight": "2026 春季・多項景點折扣",
-   "summary_zh": "維多利亞州觀光局公布的 2026 年春季優惠，涵蓋墨爾本與周邊的導覽、博物館、觀光船、渡輪、動物園與菲利普島自然公園 3 Parks Pass 等景點，另有 Zoos Victoria 於週末及假期提供 16 歲以下兒童免費入場。",
-   "tip_zh": "各項優惠的代碼不同（例如 OVG20、OVG15、SPRING10），多數需於訂票時輸入；部分項目不適用於公共假日與學校假期，購票前請先確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Victoria – Spring 2026 Seasonal Offers",
-     "url": "https://www.visitvictoria.com/ovg-spring-coupons"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "部分項目（例如 Marvel Stadium 365 Tour、Melbourne Skydeck）的折扣幅度在官網標示不清，請以各景點訂票頁為準。"
    },
    "added": "2026-10-24"
   },
