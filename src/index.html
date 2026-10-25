@@ -691,6 +691,7 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
         <option value="smart">依截止日期</option>
         <option value="start">依開始日期</option>
         <option value="new">最新上架</option>
+        <option value="near">離我最近</option>
         <option value="hot" id="sortHot" hidden>依瀏覽次數</option>
       </select>
     </div>
@@ -967,6 +968,7 @@ function sortItems(arr){
   return arr.slice().sort((a, b) => {
     if (S.sort === 'hot'){ const d = hotRank(a.id) - hotRank(b.id); if (d) return d; }
     if (S.sort === 'new'){ const d = (b.added || '').localeCompare(a.added || ''); if (d) return d; }
+    if (S.sort === 'near'){ const d = (a._d ?? Infinity) - (b._d ?? Infinity); if (d) return d; }
     if (S.sort === 'start') return a._s - b._s || a.title_zh.localeCompare(b.title_zh);
     const ea = a._e === null ? 1e9 : a._e, eb = b._e === null ? 1e9 : b._e;
     return ea - eb || a._s - b._s;
@@ -1002,7 +1004,7 @@ function cardHTML(it){
     <div class="card-top">${metaHTML(it)}${it.free ? '<span class="free-mark">免費</span>' : ''}</div>
     <h3 class="card-title">${esc(it.title_zh)}</h3>
     <p class="card-en">${esc(it.title)}</p>
-    <div class="card-when"><span class="mono">${esc(dateText(it))}</span><span class="where">· ${esc(whereText(it))}</span></div>
+    <div class="card-when"><span class="mono">${esc(dateText(it))}</span><span class="where">· ${esc(whereText(it))}${S.sort === 'near' && it._d != null ? '・' + kmText(it._d) : ''}</span></div>
     <div class="card-price"><span class="price${it.free ? ' free' : ''}">${esc(it.price_zh)}</span>${it.highlight ? `<span class="hl">${esc(it.highlight)}</span>` : ''}</div>
     <div class="card-foot"><span class="status status--${st.k}">${esc(st.label)}</span><span class="vmini${v.status === 'partial' ? ' part' : ''}">${v.status === 'partial' ? LI.half + '部分查證' : LI.check + '已查證'}</span></div>
     </span>
@@ -1042,6 +1044,7 @@ function renderList(){
   $('count').innerHTML = S.region === 'AU'
     ? `共 <b>${list.length}</b> 筆`
     : `${R.zh} <b>${local}</b> 筆・全澳適用 <b>${list.length - local}</b> 筆`;
+  if (S.sort === 'near') $('count').innerHTML += '・由近到遠，沒有確切地點的排在最後';
   renderActive();
   let html = '';
   if (!list.length){
@@ -1467,6 +1470,23 @@ function syncControls(){
 const manual = () => { S.quick = ''; };
 function toast(msg){ const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 1800); }
 
+/* ---------- 依距離排序：位置只用來算距離，留在記憶體，不儲存、不上傳 ---------- */
+function km(lat1, lng1, lat2, lng2){
+  const r = Math.PI / 180, dLat = (lat2 - lat1) * r, dLng = (lng2 - lng1) * r;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin(dLng / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+}
+function kmText(d){ return d < 1 ? `約 ${Math.max(1, Math.round(d * 10)) * 100} 公尺` : `約 ${d < 10 ? d.toFixed(1) : Math.round(d)} 公里`; }
+function sortNear(prev){
+  const fail = msg => { toast(msg); S.sort = prev; syncControls(); lastList = renderList(); };
+  if (!navigator.geolocation) return fail('此瀏覽器不支援定位');
+  toast('正在取得您的位置…');
+  navigator.geolocation.getCurrentPosition(p => {
+    ITEMS.forEach(it => { it._d = (it.lat != null && it.lng != null && !it.area_zh) ? km(p.coords.latitude, p.coords.longitude, it.lat, it.lng) : undefined; });
+    lastList = renderList(); toast('已依您的位置由近到遠排序');
+  }, () => fail('無法取得您的位置，請允許瀏覽器使用定位後再試一次'), {maximumAge:300000, timeout:10000});
+}
+
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a');
   if (!t) return;
@@ -1535,7 +1555,7 @@ document.addEventListener('click', e => {
 $('fab').addEventListener('click', () => setView(S.view === 'list' ? 'map' : 'list'));
 $('freeBtn').addEventListener('click', () => { manual(); S.free = !S.free; syncControls(); render(); });
 $('when').addEventListener('change', e => { manual(); S.when = e.target.value; render(); });
-$('sort').addEventListener('change', e => { S.sort = e.target.value; SHOW = {}; lastList = renderList(); });
+$('sort').addEventListener('change', e => { const prev = S.sort; S.sort = e.target.value; SHOW = {}; if (S.sort === 'near') sortNear(prev); else lastList = renderList(); });
 let qTimer, qTrack;
 $('q').addEventListener('input', e => {
   clearTimeout(qTimer); clearTimeout(qTrack);

@@ -101,7 +101,7 @@ write('public/items.json', JSON.stringify({ updated: data.updated, items: data.i
 write('public/_headers', `/*
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: geolocation=(), camera=(), microphone=()
+  Permissions-Policy: geolocation=(self), camera=(), microphone=()
 
 /
   Cache-Control: public, max-age=0, must-revalidate
