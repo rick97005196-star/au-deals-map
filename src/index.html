@@ -600,6 +600,19 @@ dialog.how{border:1.5px solid var(--edge);border-radius:12px}
   .qt{padding:11px 12px}
   .qt .t{font-size:14.5px}
 }
+/* 窄手機排版（2026-10-26）：說明放不下就整段換到下一行；方塊改成圖示與數量在上、標題與說明在下，320 寬改單欄，避免只剩一兩個字掉到下一行 */
+.sec-title{flex-wrap:wrap;row-gap:2px}
+.d-fine a{white-space:nowrap}
+@media (max-width:480px){
+  .qt{grid-template-columns:30px minmax(0,1fr);grid-template-areas:"ic n" "t t" "d d";gap:6px 10px;align-content:start}
+  .qt .n{justify-self:end}
+}
+@media (max-width:360px){
+  .quick{grid-template-columns:minmax(0,1fr)}
+  .qt{grid-template-columns:30px minmax(0,1fr) auto;grid-template-areas:"ic t n" "ic d d";gap:0 10px}
+  .ozwh-hubnav-btn svg{display:none}
+}
+
 /* 置頂免責聲明列（隨頁面捲走，不固定） */
 .notice{background:var(--amber-soft);border-bottom:1.5px solid var(--edge);font-size:13.5px;line-height:1.6}
 .notice-in{padding-top:8px;padding-bottom:8px}
