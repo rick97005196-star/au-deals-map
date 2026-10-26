@@ -46,7 +46,7 @@
 1. **先處理 3.0 分給自己的 RSS 與電子報線索**（挑跟網站相關、近期有效的），再**從社群找線索**，一定要包含 Threads（關鍵字見 SOURCES.md 第 5 段），另外搜尋 Instagram、Facebook、TikTok、Reddit、OzBargain、X、小紅書。
 2. **再到官方頁面確認**：用 WebFetch 打開主辦單位／品牌／政府的官方頁面，看到 2026 年日期、價格、地點才收。每位研究員每天至少實際打開 SOURCES.md 裡 8 個官方來源，不能只靠搜尋結果。Threads 或其他社群的連結只有在搜尋結果或打開的頁面裡實際看到、內容就是這一筆時，才可以放進 sources（kind 填 `social`，platform 填 `Threads` 等），絕對不要自己拼湊網址。
 3. 目標每位 4–10 筆，優先補 gaps 標「偏少」的分類與州，以及免費或打工度假族會想去的。對象不是打工度假者的（長者、親子、家庭長住方案、豪華套裝、小眾展覽，見 tools/SCHEMA.md「收錄規則」）不要交，查不到官方證據也不要交。
-4. 依 `tools/SCHEMA.md` 的格式（category 照「分類」表），把新項目寫成 JSON 陣列到 `/tmp/new-<代號>.json`，用 python3 json.load 檢查。
+4. 依 `tools/SCHEMA.md` 的格式（category 照「分類」表），把新項目寫成 JSON 陣列到 `/tmp/new-<代號>.json`，用 python3 json.load 檢查。符合 SCHEMA.md「熱門標記」規則的項目加上 `"hot": true`，其他項目省略。
 5. 找到新的可靠官方來源（清單裡沒有的），把它寫在 `/tmp/sources-<代號>.txt`，一行一個，格式照 SOURCES.md 最下面「新增來源」。
 
 WebSearch 次數用完時，改用 WebFetch 直接打開 SOURCES.md 裡的官方頁面繼續找，不要停在半路。
@@ -56,7 +56,7 @@ WebSearch 次數用完時，改用 WebFetch 直接打開 SOURCES.md 裡的官方
 ## 4. 獨立查證新項目
 把所有 `/tmp/new-*.json` 合併成 `/tmp/new.json`。另外派一位（多於 20 筆就兩位、多於 40 筆就三位）**沒參與蒐集**的查證員子代理，依 `tools/VERIFY.md` 逐筆查證，結果寫到 `/tmp/new-verdicts.json`。然後：
 `node tools/daily.js add /tmp/new.json /tmp/new-verdicts.json`
-只有 ok／fix 的會加進去，重複的自動跳過。
+只有 ok／fix 的會加進去，重複的自動跳過。新增後執行 `grep -c '"hot": true' data/items.json`，超過 20 筆時，移除今天新增項目中較不具代表性者的 `"hot": true`，使全站不超過 20 筆。
 
 ## 5. 檢查、上線
 1. `node tools/daily.js stamp`，再 `node build.js`（會檢查每一筆的格式，有錯就修到沒錯）。

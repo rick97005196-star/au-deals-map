@@ -172,7 +172,8 @@
     "checked": "2026-10-22",
     "unconfirmed_zh": "官網摘要頁未列出指定餐點、12/18 結束日與參與門市清單，PDF 條款頁無法開啟。"
    },
-   "schedule_zh": "每週五"
+   "schedule_zh": "每週五",
+   "hot": true
   },
   {
    "id": "virgin-australia-europe-early-bird-sale-2026",
@@ -264,7 +265,8 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-18"
-   }
+   },
+   "hot": true
   },
   {
    "id": "sculpture-by-the-sea-bondi-2026",
@@ -313,7 +315,8 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-23"
-   }
+   },
+   "hot": true
   },
   {
    "id": "harris-park-diwali-2026",
@@ -725,7 +728,8 @@
     "status": "verified",
     "checked": "2026-10-23"
    },
-   "schedule_zh": "10 月指定 9 晚，18:00–22:30（持票者 16:30 起可掃描入場）"
+   "schedule_zh": "10 月指定 9 晚，18:00–22:30（持票者 16:30 起可掃描入場）",
+   "hot": true
   },
   {
    "id": "mon-repos-turtle-encounter-2026-27",
@@ -893,7 +897,8 @@
     "checked": "2026-10-22",
     "unconfirmed_zh": "Translink 官網頁面未載明是否永久實施或結束日期；Qld 政府聲明頁無法開啟。"
    },
-   "area_zh": "昆州全境"
+   "area_zh": "昆州全境",
+   "hot": true
   },
   {
    "id": "sa-ozasia-lucky-dumpling-market-2026",
@@ -956,7 +961,8 @@
     "checked": "2026-10-23",
     "unconfirmed_zh": "官方頁面未載明 Lucky Dumpling Market 的確切營業日期與每日時段。"
    },
-   "schedule_zh": "週四至週日有免費表演（餐飲攤位營業時間請見官網）"
+   "schedule_zh": "週四至週日有免費表演（餐飲攤位營業時間請見官網）",
+   "hot": true
   },
   {
    "id": "sa-feast-picnic-in-the-park-2026",
@@ -1205,7 +1211,8 @@
     "checked": "2026-10-23",
     "unconfirmed_zh": "官網未載明 2026 年季節起迄日與入場費，10/29 為最終場未能確認。本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
    },
-   "schedule_zh": "每週四、週日 16:00–21:00"
+   "schedule_zh": "每週四、週日 16:00–21:00",
+   "hot": true
   },
   {
    "id": "nt-desert-mob-2026-exhibition",
@@ -1280,7 +1287,8 @@
     "status": "verified",
     "checked": "2026-10-23"
    },
-   "area_zh": "達爾文、Alice Springs"
+   "area_zh": "達爾文、Alice Springs",
+   "hot": true
   },
   {
    "id": "tas-point-to-pinnacle-2026",
@@ -1374,7 +1382,8 @@
     "checked": "2026-10-23",
     "unconfirmed_zh": "官網未列出入場費用。"
    },
-   "schedule_zh": "每週六 8:30–15:00"
+   "schedule_zh": "每週六 8:30–15:00",
+   "hot": true
   },
   {
    "id": "tas-harvest-launceston-market",
@@ -1464,7 +1473,8 @@
     "checked": "2026-10-23",
     "unconfirmed_zh": "官網未載明免費搭乘的起始日（為既有方案之延長）。本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
    },
-   "area_zh": "塔州全境"
+   "area_zh": "塔州全境",
+   "hot": true
   },
   {
    "id": "act-old-bus-depot-markets",
@@ -1509,7 +1519,8 @@
     "checked": "2026-10-23",
     "unconfirmed_zh": "官方頁面未列出 2026 年的營業時間。"
    },
-   "schedule_zh": "每週日"
+   "schedule_zh": "每週日",
+   "hot": true
   },
   {
    "id": "act-transport-canberra-weekend-cap",
@@ -1592,7 +1603,8 @@
     "status": "verified",
     "checked": "2026-10-18"
    },
-   "schedule_zh": "10/31、11/3、11/5、11/7 四個賽馬日"
+   "schedule_zh": "10/31、11/3、11/5、11/7 四個賽馬日",
+   "hot": true
   },
   {
    "id": "australian-motogp-phillip-island-2026",
@@ -1868,7 +1880,8 @@
     "status": "verified",
     "checked": "2026-10-22"
    },
-   "schedule_zh": "每週五 16:30–21:30"
+   "schedule_zh": "每週五 16:30–21:30",
+   "hot": true
   },
   {
    "id": "farm-after-five-perth-city-farm-2026",
@@ -1962,7 +1975,8 @@
     "status": "verified",
     "checked": "2026-10-22"
    },
-   "area_zh": "伯斯都會區"
+   "area_zh": "伯斯都會區",
+   "hot": true
   },
   {
    "id": "rottnest-express-telethon-saver-fares",
@@ -2225,7 +2239,8 @@
     "status": "verified",
     "checked": "2026-10-23"
    },
-   "added": "2026-10-10"
+   "added": "2026-10-10",
+   "hot": true
   },
   {
    "id": "telstra-prepaid-54-plan-15-oct-2026",
@@ -2843,7 +2858,8 @@
     "status": "verified",
     "checked": "2026-10-18"
    },
-   "added": "2026-10-10"
+   "added": "2026-10-10",
+   "hot": true
   },
   {
    "id": "red-rooster-crunch-pack-795-2026",
@@ -3780,7 +3796,8 @@
     "checked": "2026-10-23",
     "unconfirmed_zh": "僅確認 10/23 東加對黎巴嫩一場；其餘場次的日期與對戰組合未能重新確認。"
    },
-   "added": "2026-10-12"
+   "added": "2026-10-12",
+   "hot": true
   },
   {
    "id": "the-lakes-festival-central-coast-2026",
@@ -5002,7 +5019,8 @@
     "status": "verified",
     "checked": "2026-10-23"
    },
-   "added": "2026-10-13"
+   "added": "2026-10-13",
+   "hot": true
   },
   {
    "id": "transperth-free-transit-zone-cat-buses",
@@ -6893,7 +6911,8 @@
     "checked": "2026-10-24",
     "unconfirmed_zh": "官網尚未逐項公布主檔期各商家的折扣內容。"
    },
-   "added": "2026-10-24"
+   "added": "2026-10-24",
+   "hot": true
   },
   {
    "id": "macpac-summer-launch-multibuy-2026",
@@ -7189,7 +7208,8 @@
     "status": "verified",
     "checked": "2026-10-24"
    },
-   "added": "2026-10-24"
+   "added": "2026-10-24",
+   "hot": true
   },
   {
    "id": "virgin-australia-welcome-abroad-2026",
