@@ -842,8 +842,6 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
 </dialog>
 <div class="toast" id="toast" role="status" hidden></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js" defer></script>
 <script src="https://au-working-holiday.pages.dev/api/sdk.js" data-site="deals"></script>
 <script type="application/json" id="data">/*__DATA__*/</script>
 <script type="application/json" id="geo">/*__GEO__*/</script>
@@ -1210,9 +1208,19 @@ function renderSocial(){
 /* ---------- 地圖（切換到地圖檢視時才載入） ---------- */
 let map, stateLayer, clusters, labelLayer, tiles;
 const AU_BOUNDS = [[-43.9, 112.5], [-10.4, 154]];
+/* 地圖套件（Leaflet＋群組，約 190 KB）等第一次切到地圖才下載，首頁不用等它 */
+let leafletReady;
+function loadLeaflet(){
+  const add = src => new Promise((ok, fail) => { const el = document.createElement('script'); el.src = src; el.onload = ok; el.onerror = fail; document.head.appendChild(el); });
+  if (!leafletReady) leafletReady = add('https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js')
+    .then(() => add('https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js'))
+    .catch(() => {}); // 下載失敗時由 initMap 顯示「地圖載入失敗」
+  return leafletReady;
+}
 function initMap(){
   if (map) return true;
   if (!window.L || !L.markerClusterGroup){ $('map').innerHTML = '<div class="empty" style="margin:20px">地圖載入失敗，請重新整理頁面。</div>'; return false; }
+  $('map').textContent = '';
   map = L.map('map', {zoomControl:false, attributionControl:true, minZoom:3, maxZoom:17, zoomSnap:0.5, zoomDelta:1, worldCopyJump:false, maxBounds:[[-60, 90], [5, 180]]});
   map.attributionControl.setPrefix('');
   L.control.zoom({position:'topright', zoomInTitle:'放大', zoomOutTitle:'縮小'}).addTo(map);
@@ -1285,10 +1293,15 @@ function setView(v, boot){
   $('fab').innerHTML = v === 'list'
     ? '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1.5 3.5l4-1.5 5 2 4-1.5v10l-4 1.5-5-2-4 1.5zM5.5 2v10M10.5 4v10"/></svg>顯示地圖'
     : '<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2 3.5h12M2 8h12M2 12.5h12"/></svg>顯示清單';
+  let ready = Promise.resolve();
   if (v === 'map'){
-    if (initMap()){ setTimeout(() => { map.invalidateSize(); renderMap(lastList); fitRegion(S.region); }, 30); }
+    if (!map) $('map').innerHTML = '<div class="empty" style="margin:20px" role="status">地圖載入中…</div>';
+    ready = loadLeaflet().then(() => {
+      if (S.view === 'map' && initMap()){ setTimeout(() => { map.invalidateSize(); renderMap(lastList); fitRegion(S.region); }, 30); }
+    });
   }
   if (!boot) scrollToResults(true);
+  return ready;
 }
 function scrollToResults(force){
   const bar = $('bar');
@@ -1596,12 +1609,11 @@ document.addEventListener('click', e => {
     const it = BYID[t.dataset.fly];
     if (it && it.lat != null && it.lng != null && !it.area_zh){
       sheet.close();
-      setView('map');
-      setTimeout(() => {
+      setView('map').then(() => setTimeout(() => {
         if (map) {
           map.flyTo([it.lat, it.lng], 15, { duration: 0.75, easeLinearity: 0.25 });
         }
-      }, 100);
+      }, 100));
     }
     return;
   }
