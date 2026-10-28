@@ -2,38 +2,6 @@
  "updated": "2026-10-25",
  "items": [
   {
-   "id": "7-eleven-lunch-legends-6-meal-deal",
-   "type": "deal",
-   "title": "7-Eleven Lunch Legends $6 Meal Deal",
-   "title_zh": "7-Eleven A$6 午餐組合",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-08",
-   "end": "2026-10-27",
-   "price_zh": "A$6",
-   "free": false,
-   "highlight": "A$6 套餐",
-   "summary_zh": "7-Eleven Lunch Legends 午餐組合：任選一項合資格餐點（熱捲、派類或素食派）搭配一杯合資格飲品，合計 A$6，適合工作休息時快速用餐。",
-   "tip_zh": "於門市現場點購；熱抹茶與冰抹茶不適用，不得與其他優惠併用，優惠至 2026 年 10 月 27 日止，品項依門市而異。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "7-Eleven – Offers ($6 Meal Deal)",
-     "url": "https://www.7eleven.com.au/offers.html"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官網載明優惠至 2026 年 10 月 27 日止，但未載明開始日期。"
-   }
-  },
-  {
    "id": "grilld-oscar-piastri-burger-1281",
    "type": "deal",
    "title": "Oscar Piastri Chicken/Wagyu Burger $12.81",
@@ -354,49 +322,6 @@
     "status": "partial",
     "checked": "2026-10-23",
     "unconfirmed_zh": "本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   }
-  },
-  {
-   "id": "norton-street-italian-festa-2026",
-   "type": "event",
-   "title": "Norton Street Italian Festa",
-   "title_zh": "Norton 街義大利美食節",
-   "category": "food",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Norton Street (Marion St to William St), Leichhardt",
-   "lat": -33.881,
-   "lng": 151.1563,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "單日活動・義式美食",
-   "summary_zh": "內西區 Leichhardt「小義大利」的年度義大利文化街頭節，Norton Street（Marion St 至 William St 路段）當日封街，設有多處義式美食攤位，並有兩座舞台的現場音樂與表演、免費料理示範、義大利經典車展及兒童遊樂設施，官方表示每年吸引逾 18 萬人。",
-   "tip_zh": "10am–5pm；當日周邊道路封閉，官方建議搭乘 L1 輕軌至 Marion 或 Leichhardt North 站後步行前往。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Transport for NSW – Norton Street Italian Festa 2026 event travel page",
-     "url": "https://transportnsw.info/events/2026/10/norton-street-italian-festa"
-    },
-    {
-     "kind": "community",
-     "platform": "WeekendNotes",
-     "label": "WeekendNotes – What's On Sydney Spring 2026",
-     "url": "https://www.weekendnotes.com/whats-on-sydney-new-south-wales-this-spring-2026-events-festivals-things-to-do/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Norton Street Italian Festa – official site",
-     "url": "https://festa.net.au/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
    }
   },
   {
@@ -812,43 +737,6 @@
    }
   },
   {
-   "id": "tablelands-folk-festival-2026",
-   "type": "event",
-   "title": "Tablelands Folk Festival",
-   "title_zh": "Tablelands 民謠音樂節",
-   "category": "music",
-   "region": "QLD",
-   "city": "Yungaburra",
-   "venue": "Yungaburra village, Atherton Tablelands",
-   "lat": -17.2697,
-   "lng": 145.5839,
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "price_zh": "A$95–220（依票種）",
-   "free": false,
-   "highlight": "三日民謠音樂節",
-   "summary_zh": "位於凱恩斯西側高原小鎮 Yungaburra 的三日民謠音樂節，10/23 至 10/25 於村內多處場地舉行，有 50 多組在地與全國表演者，涵蓋民謠、搖滾、藍調、爵士與喜劇，另有街頭遊行、市集、工作坊與兒童節。",
-   "tip_zh": "舞蹈夜於週五、週六在社區會堂舉行；購票方式請洽主辦單位官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Tablelands Folk Festival – official site",
-     "url": "https://www.tablelandsfolkfestival.org.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Tourism Tropical North Queensland – 2026 events guide",
-     "url": "https://tropicalnorthqueensland.org.au/articles/winter-to-spring-in-tropical-north-queensland-your-guide-to-the-regions-unmissable-events-in-2026/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   }
-  },
-  {
    "id": "translink-50-cent-fares",
    "type": "deal",
    "title": "50 cent fares",
@@ -1215,49 +1103,6 @@
    "hot": true
   },
   {
-   "id": "nt-desert-mob-2026-exhibition",
-   "type": "event",
-   "title": "Desert Mob 2026 Exhibition",
-   "title_zh": "Desert Mob 原住民藝術展",
-   "category": "arts",
-   "region": "NT",
-   "city": "Alice Springs",
-   "venue": "Araluen Arts Centre（61 Larapinta Drive）",
-   "lat": -23.7016,
-   "lng": 133.864,
-   "start": "2026-09-10",
-   "end": "2026-10-25",
-   "price_zh": "成人 A$8；NT 居民免費",
-   "free": false,
-   "highlight": "展期至 10/25",
-   "summary_zh": "由 Desart 主辦，為全澳歷史最悠久的原住民藝術節之一，今年展出來自 35 個原住民藝術中心、數百位藝術家的作品，於 Alice Springs 的 Araluen Arts Centre 展出。",
-   "tip_zh": "每日 10am–4pm 開放；NT 居民可免費入場，請向櫃台確認須出示的證明文件。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Araluen Arts Centre – Desert Mob 2026 Exhibition",
-     "url": "https://araluenartscentre.nt.gov.au/node/2624"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Desert Mob – official site",
-     "url": "https://desertmob.com/"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "National Indigenous Times – Desert Mob 2026 program out now",
-     "url": "https://nit.com.au/20-08-2026/26047/desert-mob-and-vincent-lingiari-art-award-2026-program-out-now"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   }
-  },
-  {
    "id": "nt-free-public-bus-darwin-alice-springs",
    "type": "deal",
    "title": "NT public buses – free travel",
@@ -1605,56 +1450,6 @@
    },
    "schedule_zh": "10/31、11/3、11/5、11/7 四個賽馬日",
    "hot": true
-  },
-  {
-   "id": "australian-motogp-phillip-island-2026",
-   "type": "event",
-   "title": "Australian Motorcycle Grand Prix 2026",
-   "title_zh": "MotoGP 澳洲大獎賽",
-   "category": "sport",
-   "region": "VIC",
-   "city": "Phillip Island",
-   "venue": "Phillip Island Grand Prix Circuit",
-   "lat": -38.5,
-   "lng": 145.2319,
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "price_zh": "單日 A$50 起",
-   "free": false,
-   "highlight": "Phillip Island 最終屆",
-   "summary_zh": "世界頂級重型機車賽事 MotoGP 於 Phillip Island 海岸賽道舉行，官方表示 2026 年為在 Phillip Island 舉辦的最後一屆（第 30 場）。",
-   "tip_zh": "2026 年票價凍漲；14 歲以下兒童免費，每張成人 Island Pass 可兌換最多 4 張兒童票。無自用車者可搭乘官方 Catch-a-Coach 巴士。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "motogp.com.au – The final chapter: 2026 MotoGP tickets",
-     "url": "https://www.motogp.com.au/fan-zone/news/the-final-chapter-2026-motogp-tickets-on-sale-soon"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "motogp.com.au – Tickets",
-     "url": "https://www.motogp.com.au/tickets"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@ausmotogp on Instagram",
-     "url": "https://www.instagram.com/ausmotogp"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "JustBikes – Ticket guide MotoGP Grand Prix of Australia 2026",
-     "url": "https://www.justbikes.com.au/news-and-reviews/ticket-guide-motogp-grand-prix-of-australia-2026/1097695"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面未列出週日及三日票的價格。"
-   }
   },
   {
    "id": "victorian-festival-of-diwali-2026",
@@ -2477,51 +2272,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "boost-mobile-gold-coast-500-2026",
-   "type": "event",
-   "title": "2026 Boost Mobile Gold Coast 500",
-   "title_zh": "黃金海岸 500 房車賽",
-   "category": "sport",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Surfers Paradise Street Circuit",
-   "lat": -27.99,
-   "lng": 153.427,
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "price_zh": "請見官網；12 歲（含）以下兒童隨付費成人免費",
-   "free": false,
-   "highlight": "年度賽事・兒童免費",
-   "summary_zh": "Supercars 錦標賽於衝浪者天堂街道賽道舉行的三天賽事，提供一般入場、看台座位與可接近車手的 Paddock Pass。",
-   "tip_zh": "12 歲（含）以下兒童須由付費成人陪同，免費入場。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Experience Gold Coast – 2026 Boost Mobile Gold Coast 500",
-     "url": "https://experiencegoldcoast.com/events/2026-boost-mobile-gold-coast-500"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Supercars – 2026 Gold Coast 500 tickets and packages",
-     "url": "https://www.supercars.com/events/2026-gold-coast/tickets-and-packages"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Supercars – 2026 Gold Coast 500 news",
-     "url": "https://www.supercars.com/news/supercars-news-2026-free-fan-event-launch-boost-mobile-gold-coast-500-drivers-details"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面未列一般入場票價。"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "eumundi-markets",
    "type": "event",
    "title": "Eumundi Markets",
@@ -2618,96 +2368,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "sa-adelaide-film-festival-2026",
-   "type": "event",
-   "title": "Adelaide Film Festival 2026",
-   "title_zh": "阿德雷德電影節",
-   "category": "entertainment",
-   "region": "SA",
-   "city": "Adelaide",
-   "venue": "Adelaide 市區",
-   "lat": -34.9226,
-   "lng": 138.61,
-   "start": "2026-10-14",
-   "end": "2026-10-25",
-   "price_zh": "3 片套票 A$59（優待 A$49）起",
-   "free": false,
-   "highlight": "年度影展・12 天",
-   "summary_zh": "阿德雷德電影節於 10/14–25 舉行，放映國際影片與澳洲作品。適合影迷及想觀賞非院線片的觀眾。",
-   "tip_zh": "可購買 3、5、10 片套票；持學生證或 Centrelink 健康卡、退休金卡者，可於平日 4pm 前場次使用 Pay What You Can 票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Adelaide Film Festival – 2026 announcement",
-     "url": "https://new.adelaidefilmfestival.org/news/aff-announces-first-affif-films-and-saturday-night-party-for-2026"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Adelaide Film Festival – Passes",
-     "url": "https://adelaidefilmfestival.org/passes"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Adelaide Film Festival – Ticketing info",
-     "url": "https://new.adelaidefilmfestival.org/passes/ticketing-info"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "InDaily CityMag – 2026 Adelaide Film Festival",
-     "url": "https://www.indailysa.com.au/citymag/events/2026-adelaide-film-festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-22"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "sa-festival-of-halloween-port-adelaide-2026",
-   "type": "event",
-   "title": "Festival of Halloween 2026",
-   "title_zh": "Port Adelaide 萬聖節慶典",
-   "category": "family",
-   "region": "SA",
-   "city": "Port Adelaide",
-   "venue": "The Flour Shed, Hart's Mill, 9A Mundy St, Port Adelaide",
-   "lat": -34.8466,
-   "lng": 138.5035,
-   "start": "2026-10-24",
-   "end": "2026-10-25",
-   "price_zh": "成人 A$15、優待 A$13、兒童 A$10，5 歲以下免費",
-   "free": false,
-   "highlight": "萬聖節主題・親子日",
-   "summary_zh": "Festival of Halloween 於 Port Adelaide 舉行兩場分開售票的活動：10/24（六）為 16 歲以上的夜間場次，10/25（日）為適合全年齡的家庭日。",
-   "tip_zh": "兩天為分開售票的活動，請透過 TryBooking 購票並確認場次與票價。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "South Australia – Festival of Halloween",
-     "url": "https://southaustralia.com/products/adelaide/event/festival-of-halloween"
-    },
-    {
-     "kind": "official",
-     "platform": "TryBooking",
-     "label": "TryBooking – Festival of Halloween 2026",
-     "url": "https://www.trybooking.com/DMSQD"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "官方頁面未說明所列票價是否適用於兩個場次，亦未列出家庭日時間。"
-   },
-   "added": "2026-10-10",
-   "schedule_zh": null
-  },
-  {
    "id": "sa-agsa-monet-to-matisse-2026",
    "type": "event",
    "title": "Monet to Matisse: Defying Tradition",
@@ -2743,44 +2403,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-22"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "wa-fremantle-design-week-2026",
-   "type": "event",
-   "title": "Fremantle Design Week 2026",
-   "title_zh": "Fremantle 設計週",
-   "category": "arts",
-   "region": "WA",
-   "city": "Fremantle",
-   "venue": "Fremantle West End（主場地 PS Art Space）",
-   "lat": -32.0545,
-   "lng": 115.7464,
-   "start": "2026-10-16",
-   "end": "2026-10-25",
-   "price_zh": "部分活動免費，部分需購票（請見官網）",
-   "free": false,
-   "highlight": "60 多場設計活動",
-   "summary_zh": "2026 年以「Imagine」為題的設計節，於 10/16–25 在 Fremantle 舉辦展覽、講座、導覽、工作坊、影片放映與開放工作室，主場地位於 West End 的 PS Art Space。適合對建築、設計與手作有興趣的民眾。",
-   "tip_zh": "開幕夜等部分活動免費，講座與工作坊多需購票，部分場次已售完，請於官網確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Fremantle Design Week – official program",
-     "url": "https://fremantledesignweek.com/"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "ArchitectureAU – Program for Fremantle Design Week 2026 released",
-     "url": "https://architectureau.com/articles/program-for-fremantle-design-week-2026-released/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
    },
    "added": "2026-10-10"
   },
@@ -2900,78 +2522,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "gyg-gregory-hills-free-coffee-2026",
-   "type": "deal",
-   "title": "Free Coffee at GYG Gregory Hills",
-   "title_zh": "GYG Gregory Hills 早餐送咖啡",
-   "category": "dining",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "GYG Gregory Hills（2-8 Lasso Rd）",
-   "lat": -34.0245,
-   "lng": 150.795,
-   "start": "2026-10-19",
-   "end": "2026-10-25",
-   "schedule_zh": "每日 6:00–10:30",
-   "price_zh": "購買主餐送中杯咖啡",
-   "free": false,
-   "highlight": "買主餐送咖啡",
-   "summary_zh": "Guzman y Gomez Gregory Hills 門市於 10/19–10/25 每天早上，購買任一主餐即贈中杯咖啡或熱巧克力，可免費更換植物奶、加糖漿或濃縮，適合雪梨西南區通勤族。",
-   "tip_zh": "每人限一杯，僅限現場點餐，不適用 App、官網與外送，且不得與其他優惠併用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "GYG – Free Coffee at GYG Gregory Hills",
-     "url": "https://www.guzmanygomez.com.au/free-coffee-at-gyg-gregory-hills/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-18"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "good-food-wine-show-brisbane-2026",
-   "type": "event",
-   "title": "Good Food & Wine Show Brisbane 2026",
-   "title_zh": "布里斯本美食美酒展",
-   "category": "food",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Brisbane Convention & Exhibition Centre (BCEC)",
-   "lat": -27.4767,
-   "lng": 153.018,
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "schedule_zh": "週五、週六 9:00–17:00；週日 10:00–17:00",
-   "price_zh": "單日票 A$49.95 起",
-   "free": false,
-   "highlight": "美食美酒展・3 天",
-   "summary_zh": "Good Food & Wine Show 於 10/23 至 10/25 在 Brisbane Convention & Exhibition Centre 舉行，匯集美食與飲品展售及相關體驗活動。",
-   "tip_zh": "單日票 A$49.95、彈性票 A$54.95、三日通行票 A$99.95（含品酒杯）。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Good Food & Wine Show – Brisbane Show 2026",
-     "url": "https://goodfoodshow.com.au/brisbane-show-26/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Good Food & Wine Show – Brisbane ticket info",
-     "url": "https://goodfoodshow.com.au/brisbane-ticket-info/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "good-food-wine-show-sydney-christmas-2026",
    "type": "event",
    "title": "Good Food & Wine Show – Sydney Christmas Edition 2026",
@@ -3001,57 +2551,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-18"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "savour-the-tweed-2026",
-   "type": "event",
-   "title": "Savour The Tweed",
-   "title_zh": "Tweed 地區美食節",
-   "category": "food",
-   "region": "NSW",
-   "city": "Kingscliff",
-   "venue": "Tweed 地區多處場地",
-   "lat": -28.2585,
-   "lng": 153.5785,
-   "start": "2026-10-21",
-   "end": "2026-10-25",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "產地餐桌・5 天",
-   "summary_zh": "Savour The Tweed 於 10/21–10/25 在 Tweed 地區舉行，今年為第 3 屆，節目約 30 場，包括長桌餐宴與小型產地體驗。",
-   "tip_zh": "各場票價與訂位請見官方網站。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Savour The Tweed – 2026 官方網站",
-     "url": "https://www.savourthetweed.com.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Savour The Tweed – 2026 Program",
-     "url": "https://www.savourthetweed.com.au/program"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit NSW – Savour The Tweed",
-     "url": "https://www.visitnsw.com/tw/destinations/north-coast/the-tweed-area/kingscliff/events/savour-the-tweed"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "The Echo – Savour the Tweed returns",
-     "url": "https://www.echo.net.au/2026/07/savour-the-tweed-returns-12-25-oct/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-22",
-    "unconfirmed_zh": "官方節目頁未能開啟，僅由媒體報導確認日期與節目概況。"
    },
    "added": "2026-10-10"
   },
@@ -3375,44 +2874,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "everyday-mobile-30-starter-pack-for-10-oct-2026",
-   "type": "deal",
-   "title": "Everyday Mobile from Woolworths – $30 Starter Pack for $10",
-   "title_zh": "Everyday Mobile 預付卡首期 A$10",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-09-30",
-   "end": "2026-10-27",
-   "price_zh": "首期 A$10（原價 A$30）",
-   "free": false,
-   "highlight": "首期 A$10・30GB",
-   "summary_zh": "Woolworths 旗下 Everyday Mobile 的 A$30 預付方案（30 天、30GB，使用 Telstra Wholesale 網路），新客戶購買 Starter Pack 只要 A$10。適合想用 Telstra 網路、預算有限的使用者。",
-   "tip_zh": "限新客戶於 Everyday Mobile 官網線上購買 Starter Pack，優惠不含之後的儲值，30 天後續用需以原價 A$30 儲值。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Everyday Mobile – $30 prepaid mobile plan",
-     "url": "https://mobile.everyday.com.au/plans/30-prepaid-mobile-plan"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – Everyday Mobile 30GB 30-day plan $10",
-     "url": "https://www.ozbargain.com.au/node/978127"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "telstra-upfront-basic-50gb-promo-oct-2026",
    "type": "deal",
    "title": "Telstra Upfront Basic Mobile Plan – $10/mth off for 12 months with code PROMO",
@@ -3671,45 +3132,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-23"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "art-and-about-oxford-street-2026",
-   "type": "event",
-   "title": "Art & About Oxford Street",
-   "title_zh": "Oxford Street 街頭藝術節",
-   "category": "arts",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Taylor Square, Oxford Street, Darlinghurst",
-   "lat": -33.8806,
-   "lng": 151.2164,
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "免費・3 天",
-   "summary_zh": "City of Sydney 主辦的三天藝術節，在 Oxford Street 與 Taylor Square 一帶展出 13 位藝術家的戶外與室內作品，並有舞蹈、音樂、變裝表演、工作坊與燈光裝置。10/23 晚上 5 點至 10 點在 Bourke Street 舉行迪斯可主題的開幕街頭派對。",
-   "tip_zh": "開幕夜禁止自帶酒類與玻璃容器；各節目時段可在 City of Sydney What's On 頁面查詢。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Sydney – Art & About Oxford Street 節目",
-     "url": "https://whatson.cityofsydney.nsw.gov.au/programs/art-and-about-oxford-street"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Sydney – Art & About opening night",
-     "url": "https://whatson.cityofsydney.nsw.gov.au/events/art-and-about-opening-night"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
    },
    "added": "2026-10-12"
   },
@@ -4002,45 +3424,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "melbourne-sculpture-biennale-2026",
-   "type": "event",
-   "title": "Melbourne Sculpture Biennale 2026: Soft Systems",
-   "title_zh": "墨爾本雕塑雙年展",
-   "category": "arts",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Billilla Mansion, Brighton",
-   "lat": -37.916,
-   "lng": 144.999,
-   "start": "2026-10-08",
-   "end": "2026-10-25",
-   "schedule_zh": "週四至週日 11:00–17:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費入場・雙年展",
-   "summary_zh": "墨爾本雕塑雙年展以「Soft Systems」為題，在 Brighton 的 Billilla 宅邸展出 20 位當代藝術家的作品，適合喜愛當代藝術的民眾。",
-   "tip_zh": "僅週四至週日 11:00–17:00 開放，另有咖啡車於每日 11:00–15:00 營運。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Melbourne Sculpture Biennale 2026",
-     "url": "https://www.melbournesculpturebiennale.com/"
-    },
-    {
-     "kind": "community",
-     "platform": "Broadsheet",
-     "label": "Broadsheet – Melbourne Sculpture Biennale 2026",
-     "url": "https://www.broadsheet.com.au/melbourne/event/melbourne-sculpture-biennale-2026"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-23"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "tas-hobart-christmas-pageant-2026",
    "type": "event",
    "title": "Myer City of Hobart Christmas Pageant",
@@ -4232,77 +3615,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-22"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "velocity-pick-your-bonus-oct-2026",
-   "type": "deal",
-   "title": "Pick Your Bonus – Double Points or Double Status Credits with Virgin Australia",
-   "title_zh": "Virgin 航班 Velocity 點數加倍",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-12",
-   "end": "2026-10-26",
-   "price_zh": "Velocity 點數或 Status Credits 加倍",
-   "free": false,
-   "highlight": "點數加倍",
-   "summary_zh": "Velocity 會員於 2026 年 10 月 12 日至 26 日選擇加倍項目並訂購 Virgin Australia 自營的國內線、跨塔斯曼海或短程國際線，於 10 月 12 日至 11 月 30 日搭乘，可擇一獲得加倍 Velocity 點數或加倍 Status Credits。",
-   "tip_zh": "須先在官方活動頁選擇加倍項目，訂票時輸入會員號碼；選定後不能更改，獎勵機位、Qatar Airways 代營長程航班與合作航空共掛航班不適用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Velocity Frequent Flyer – Pick Your Bonus（2026 年 10 月）",
-     "url": "https://www.velocityfrequentflyer.com/partners-offers/airlines/virgin-australia-airlines/pick-your-bonus-oct-2026"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – Earn Double Velocity Points or Status Credits",
-     "url": "https://www.ozbargain.com.au/node/978606"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-22"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "npws-whales-wildflowers-wattamolla-2026",
-   "type": "event",
-   "title": "Whales and wildflowers guided walk: Wattamolla",
-   "title_zh": "皇家國家公園賞鯨與野花導覽",
-   "category": "travel",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Wattamolla picnic area, Royal National Park",
-   "lat": -34.1376,
-   "lng": 151.1175,
-   "start": "2026-10-18",
-   "end": "2026-10-25",
-   "schedule_zh": "10/18、10/25（日）10:00–12:00（9:45 集合）",
-   "price_zh": "成人 A$20、優待 A$17、兒童 A$14（另收車輛入園費每日 A$12）",
-   "free": false,
-   "highlight": "巡守員導覽",
-   "summary_zh": "NSW 國家公園巡守員帶領的 2 小時海岸步行，從 Wattamolla 出發認識海岸野花與野生動物，在 Providential Point 觀察遷徙中的鯨魚，再經 Coast Track 返回。",
-   "tip_zh": "須透過 NPWS 線上系統預約；4 人以上家庭或團體可享 9 折。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "NSW National Parks – Whales and wildflowers guided walk: Wattamolla",
-     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/whales-and-wildflowers-wattamolla"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-18"
    },
    "added": "2026-10-12"
   },
@@ -4553,78 +3865,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-23"
-   },
-   "added": "2026-10-13"
-  },
-  {
-   "id": "queer-slice-melt-makers-market-2026",
-   "type": "event",
-   "title": "QUEER SLICE X Melt: LGBTQIA+ Makers Market",
-   "title_zh": "QUEER SLICE X Melt 創作市集",
-   "category": "market",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Bakery Lane, Fortitude Valley",
-   "lat": -27.4571,
-   "lng": 153.0346,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "schedule_zh": "9:00–15:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・Melt 藝術節",
-   "summary_zh": "與 Melt 藝術節合作的 LGBTQIA+ 創作者市集，在 Fortitude Valley 的 Winn Lane、Bakery Lane 與 California Lane 展售畫作、首飾、皮件與點心等在地作品。",
-   "tip_zh": "不需預約；地點為 Bakery Lane（690 Ann Street）一帶巷弄。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane City Council – QUEER SLICE X Melt",
-     "url": "https://www.brisbane.qld.gov.au/events/queer-slice-x-melt-lgbtqia-makers-market/208050758"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-13"
-  },
-  {
-   "id": "qvm-pinoy-octoberfest-2026",
-   "type": "event",
-   "title": "Pinoy Octoberfest",
-   "title_zh": "Queen Vic Market 菲律賓文化節",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Queen Victoria Market",
-   "lat": -37.8076,
-   "lng": 144.9568,
-   "start": "2026-10-24",
-   "end": "2026-10-25",
-   "schedule_zh": "週六、週日 10:00–16:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・2 天",
-   "summary_zh": "於 Queen Victoria Market 舉行的菲律賓文化週末，有文化遊行、菲律賓現場音樂及逾 20 個美食攤位，供應菲式烤肉、街頭小吃、海鮮與甜點。",
-   "tip_zh": "免費入場，毋須預約。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Pinoy Octoberfest",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/pinoy-octoberfest"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Queen Victoria Market – Pinoy Octoberfest",
-     "url": "https://qvm.com.au/whats-on/pinoy-octoberfest/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
    },
    "added": "2026-10-13"
   },
@@ -5137,41 +4377,6 @@
    "added": "2026-10-15"
   },
   {
-   "id": "sunshine-coast-open-house-2026",
-   "type": "event",
-   "title": "Sunshine Coast Open House 2026",
-   "title_zh": "陽光海岸建築開放週 2026",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Sunshine Coast",
-   "venue": "Various venues, Sunshine Coast",
-   "lat": -26.8016,
-   "lng": 153.1341,
-   "area_zh": null,
-   "start": "2026-10-07",
-   "end": "2026-10-25",
-   "schedule_zh": "建築開放週末為 10 月 24 至 25 日",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "建築開放週",
-   "summary_zh": "陽光海岸建築開放週於 2026 年 10 月 7 日至 25 日舉行，內容包括社區活動、座談、步行導覽與建築開放導覽，地點涵蓋 Noosa 與陽光海岸地區；建築開放週末為 10 月 24 至 25 日。",
-   "tip_zh": "多數活動與建築導覽需事先預訂，各場次地點與費用請至官網查詢。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Sunshine Coast Open House 2026",
-     "url": "https://www.sunshinecoastopenhouse.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-22",
-    "unconfirmed_zh": "官方頁面未列出費用。"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "cricket-mens-t20-england-carrara-2026",
    "type": "event",
    "title": "Men's T20 Series vs England | 2nd T20",
@@ -5394,39 +4599,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-22"
-   },
-   "added": "2026-10-15"
-  },
-  {
-   "id": "groovin-in-the-green-creekside-2026",
-   "type": "event",
-   "title": "Groovin' in the Green – Creekside Sessions",
-   "title_zh": "Groovin' in the Green 戶外音樂午後",
-   "category": "music",
-   "region": "QLD",
-   "city": "Moreton Bay",
-   "venue": "Lemke Park（17 Jagora Drive, Albany Creek）",
-   "lat": -27.3445,
-   "lng": 152.969,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "schedule_zh": "2026 年 10 月 25 日 14:00–18:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・戶外音樂",
-   "summary_zh": "由莫頓灣市政府主辦的戶外音樂活動，邀請在地創作歌手與年輕表演者演出，現場設有餐車、兒童活動區與持照飲酒區。適合全家與喜愛輕鬆野餐氛圍的民眾。",
-   "tip_zh": "建議自備野餐墊；場次以主辦單位公告為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Moreton Bay – Groovin' in the Green Creekside Sessions",
-     "url": "https://www.moretonbay.qld.gov.au/Events/Groovin%E2%80%99-in-the-Green-Creekside-Sessions"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
    },
    "added": "2026-10-15"
   },
@@ -5842,38 +5014,6 @@
    "added": "2026-10-18"
   },
   {
-   "id": "cairns-tanks-markets-2026-10",
-   "type": "event",
-   "title": "Tanks Markets",
-   "title_zh": "Tanks 市集（10 月）",
-   "category": "market",
-   "region": "QLD",
-   "city": "Cairns",
-   "venue": "Tanks Arts Centre",
-   "lat": -16.8988,
-   "lng": 145.7519,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・週日市集",
-   "summary_zh": "Tanks Arts Centre 的月度市集，販售手工藝品、在地農產品、古董收藏與園藝植物，並有餐飲攤位與現場表演。10 月場次另有免費晨間瑜伽與 Far Northern Brass Band 演出。",
-   "tip_zh": "10 月 25 日市集時間為 8:00–13:00，Tank 4 Gallery 開放至 14:00。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Cairns Regional Council – Tanks Markets October 2026",
-     "url": "https://www.cairns.qld.gov.au/tanks/tanks-only-events/markets/tanks-markets-october"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-18"
-  },
-  {
    "id": "cairns-palm-cove-markets-2026-12",
    "type": "event",
    "title": "Palm Cove Markets",
@@ -5903,178 +5043,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-18"
-   },
-   "added": "2026-10-18"
-  },
-  {
-   "id": "tame-impala-perth-rac-arena-2026",
-   "type": "event",
-   "title": "Tame Impala",
-   "title_zh": "Tame Impala 珀斯 RAC Arena 演唱會",
-   "category": "music",
-   "region": "WA",
-   "city": "Perth",
-   "venue": "RAC Arena",
-   "lat": -31.9557,
-   "lng": 115.8602,
-   "start": "2026-10-24",
-   "end": "2026-10-25",
-   "schedule_zh": "10/24（六）、10/25（日）18:30 開門",
-   "price_zh": "請見官網（Ticketek 售票）",
-   "free": false,
-   "highlight": "加開第二場",
-   "summary_zh": "Tame Impala 於珀斯 RAC Arena 舉辦兩場演出，10 月 24 日為首場，10 月 25 日因需求加開。官方頁面列為全年齡演出，每位入場者皆須持票。",
-   "tip_zh": "入場需經安檢，超過 A4 尺寸的包包（含手提包）不可攜入，建議提早抵達。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "RAC Arena – Tame Impala 2026",
-     "url": "https://www.racarena.com.au/whats-on/tame-impala-2026/"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "X-Press Magazine – Tame Impala second Perth date",
-     "url": "https://xpressmag.com.au/tame-impala-announce-second-perth-date-on-deadbeat-tour/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-18"
-  },
-  {
-   "id": "great-eastern-wine-week-2026",
-   "type": "event",
-   "title": "Great Eastern Wine Week",
-   "title_zh": "東岸葡萄酒週（塔州）",
-   "category": "food",
-   "region": "TAS",
-   "city": "Swansea",
-   "venue": null,
-   "lat": -42.128,
-   "lng": 148.0737,
-   "start": "2026-10-22",
-   "end": "2026-10-25",
-   "price_zh": "部分活動免費，多數需購票；請見官網",
-   "free": false,
-   "highlight": "第 12 屆",
-   "summary_zh": "塔斯馬尼亞東岸第 12 屆葡萄酒週，活動在聖海倫斯至奧福德之間的酒莊與葡萄園草坪舉行，內容包括品酒與美食體驗。",
-   "tip_zh": "多數活動需購票，官方建議提早訂票與住宿；主辦單位設有 Swansea、Coles Bay、Bicheno 等地的接駁車，詳情請見活動官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Great Eastern Wine Week",
-     "url": "https://discovertasmania.com.au/experiences/stories/great-eastern-wine-week"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面未列出各活動票價與 2026 年節目表。"
-   },
-   "added": "2026-10-18"
-  },
-  {
-   "id": "huon-valley-studio-art-trail-2026",
-   "type": "event",
-   "title": "Huon Valley Studio Art Trail",
-   "title_zh": "Huon Valley 工作室藝術路線",
-   "category": "arts",
-   "region": "TAS",
-   "city": "Huonville",
-   "venue": null,
-   "lat": -43.0339,
-   "lng": 147.0441,
-   "start": "2026-10-23",
-   "end": "2026-10-25",
-   "schedule_zh": "每日 10:00–16:00",
-   "price_zh": "請見官網（官方頁面未標示入場費）",
-   "free": false,
-   "highlight": "年度藝術路線",
-   "summary_zh": "自駕路線串連 Huon Valley 與遠南地區 60 位以上藝術家與創作者的工作室，於三日期間開放參觀。",
-   "tip_zh": "工作室分散在各地，建議事先規劃路線。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Huon Valley Studio Art Trail",
-     "url": "https://www.discovertasmania.com.au/things-to-do/arts-and-culture/huon-valley-studio-art-trail3/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官方頁面未標示入場費，也未列出各工作室地址。"
-   },
-   "added": "2026-10-18"
-  },
-  {
-   "id": "fremantle-blessing-of-the-fleet-2026",
-   "type": "event",
-   "title": "Blessing of the Fleet",
-   "title_zh": "Fremantle 船隊祝福遊行",
-   "category": "festival",
-   "region": "WA",
-   "city": "Fremantle",
-   "venue": "St Patrick's Basilica",
-   "lat": -32.055,
-   "lng": 115.7475,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "schedule_zh": "10/25（日）9:30 彌撒、14:00 遊行出發",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "年度傳統・免費",
-   "summary_zh": "Fremantle 年度傳統活動：9:30 於 St Patrick's Basilica 舉行義大利語彌撒，下午遊行至 Fishing Boat Harbour，並於 15:00 進行船隊祝福，另有繩索盤繞比賽，晚間 19:00 施放煙火。",
-   "tip_zh": "遊行 14:00 自 St Patrick's Basilica 出發，路線經過 Fremantle 市區，建議預留步行時間。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Fremantle – Blessing of the Fleet",
-     "url": "https://www.visitfremantle.com.au/arts-culture/fremantle-blessing-fleet"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-18"
-  },
-  {
-   "id": "little-italy-festival-fremantle-2026",
-   "type": "event",
-   "title": "Little Italy Festival",
-   "title_zh": "Fremantle Little Italy 義式節",
-   "category": "festival",
-   "region": "WA",
-   "city": "Fremantle",
-   "venue": "Fremantle Fishing Boat Harbour",
-   "lat": -32.052,
-   "lng": 115.745,
-   "start": "2026-10-25",
-   "end": "2026-10-25",
-   "price_zh": "請見官網（官方未標示費用）",
-   "free": false,
-   "highlight": "社區節慶",
-   "summary_zh": "City of Fremantle 2026/27 年度活動月曆列出 10 月 25 日於 Fishing Boat Harbour 舉辦的 Little Italy Festival，預估規模約 5,000 人。",
-   "tip_zh": null,
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Fremantle – Events Calendar FY26-27（PDF）",
-     "url": "https://www.visitfremantle.com.au/sites/default/files/2026-08/5407%20CoF%20Events%20Calendar%20FY26-27%20FINAL.pdf"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-24",
-    "unconfirmed_zh": "官方月曆僅列出日期與場地，未提供活動內容、時間與費用。"
    },
    "added": "2026-10-18"
   },
@@ -6277,39 +5245,6 @@
    "added": "2026-10-19"
   },
   {
-   "id": "boost-mobile-28-day-6x-bonus-2026",
-   "type": "deal",
-   "title": "Boost Mobile 6 Finger Discount Deal",
-   "title_zh": "Boost 預付方案前 6 期優惠",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-19",
-   "end": "2026-10-26",
-   "price_zh": "前 6 期每期 A$45（原價 A$59）",
-   "free": false,
-   "highlight": "前 6 期 105GB",
-   "summary_zh": "Boost Mobile 官網「6 Finger Discount Deal」：A$59 預付方案前 6 期每期 A$45 並提供 105GB，第 7 期起恢復 A$59 與 55GB。優惠僅限線上購買與新開通，每位顧客限一項。",
-   "tip_zh": "須於 2026 年 10 月 26 日前啟用，其餘加值須於 2027 年 3 月 29 日前完成；官網另標示該方案為 eSIM，購買前請再確認條款。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Boost Mobile – 28 Day Prepaid SIMs",
-     "url": "https://boost.com.au/shop/boost-mobile-28-day-sims"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官網未列出優惠開始日期，且 eSIM 與實體 SIM 適用範圍標示不一致。"
-   },
-   "added": "2026-10-19"
-  },
-  {
    "id": "aldi-special-buys-2026-10-28",
    "type": "deal",
    "title": "ALDI Special Buys – Wednesday 28th October 2026",
@@ -6339,73 +5274,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-24"
-   },
-   "added": "2026-10-19"
-  },
-  {
-   "id": "7-eleven-snack-drink-multibuy-2026-10-27",
-   "type": "deal",
-   "title": "7-Eleven Snack and Drink Multi-buy Offers",
-   "title_zh": "7-Eleven 零食飲料多件優惠",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-19",
-   "end": "2026-10-27",
-   "price_zh": "2 件 A$7.50 起（部分品項）",
-   "free": false,
-   "highlight": "多件組合價",
-   "summary_zh": "7-Eleven 門市零食與飲料多件組合價，包括 Doritos 2 件 A$7.50、Nerds Clusters 每件 A$4.50、Coca-Cola、Sprite 與 Fanta 600mL 2 件 A$7.50 等，適合購買點心與飲品者。",
-   "tip_zh": "Cadbury 與 Chobani 的會員價須於 My 7-Eleven 應用程式掃描會員卡方可適用；其餘品項於門市直接以標示價格購買。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "7-Eleven – Deals & Offers",
-     "url": "https://www.7eleven.com.au/offers.html"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官網僅標示有效至 2026 年 10 月 27 日，未載明起始日期；此處 start 為本次確認日，並非官方公告的起始日。本次複查時官方網站無法開啟，2026 年日期、價格與地點未能重新確認。"
-   },
-   "added": "2026-10-19"
-  },
-  {
-   "id": "starbucks-matcha-monday-2026",
-   "type": "deal",
-   "title": "Starbucks Matcha Monday",
-   "title_zh": "Starbucks 抹茶週一第二件免費",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-19",
-   "end": "2026-10-26",
-   "schedule_zh": "每週一（至 2026 年 10 月 26 日）",
-   "price_zh": "第二件合資格品項免費（免費者為價格最低品項）",
-   "free": false,
-   "highlight": "會員限定・每週一",
-   "summary_zh": "Starbucks 每週一推出的抹茶系列優惠，合資格品項包括抹茶飲品、VIA 抹茶、Heath Lab 草莓抹茶棒，以及各式馬卡龍與迷你甜甜圈。",
-   "tip_zh": "須為 Starbucks Rewards 會員；Uber Eats 訂單與行動點餐（Mobile Order & Pay）訂單不適用，部分門市庫存有限。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Starbucks Australia – Rewards Terms and Conditions（Matcha Monday）",
-     "url": "https://www.starbucks.com.au/starbucks-rewards/starbucks-rewards-terms-and-conditions/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-23",
-    "unconfirmed_zh": "官網條款列出週一優惠至 2026 年 10 月 26 日，未載明開始日期；此處 start 為本次確認日。"
    },
    "added": "2026-10-19"
   },
@@ -6937,38 +5805,6 @@
      "kind": "official",
      "platform": "官方網站",
      "label": "Macpac – Promotions Terms and Conditions",
-     "url": "https://www.macpac.com.au/promotions-terms-and-conditions.html"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "macpac-four-day-deals-2026",
-   "type": "deal",
-   "title": "Macpac Four Day Deals",
-   "title_zh": "Macpac 四日限定特價",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-23",
-   "end": "2026-10-26",
-   "price_zh": "Uber Light 外套 A$99；Uber Light 連帽外套 A$109；兒童 Uber 連帽外套 A$69；Mountain Fleece 及 Quest、Kahuna 背包半價",
-   "free": false,
-   "highlight": "四日限定・指定商品特價",
-   "summary_zh": "Macpac 四天限定特價，列出指定外套、Mountain Fleece 及 Quest、Kahuna 背包的價格或半價，門市與線上皆可適用。清貨品與 Fund for Good 商品不適用。",
-   "tip_zh": "不得與其他優惠併用，官方得提前結束優惠；與夏季新品多件優惠重疊期間無法同時適用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Macpac – Promotions Terms and Conditions（Four Day Deals）",
      "url": "https://www.macpac.com.au/promotions-terms-and-conditions.html"
     }
    ],
