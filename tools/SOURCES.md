@@ -205,3 +205,7 @@
 - 2026-10-24｜活動 QLD｜Queensland Art Gallery | Gallery of Modern Art（活動頁）｜https://www.qagoma.qld.gov.au/event/teens-creativity-lounge｜GOMA 官方活動頁，列出青少年創意工作坊場次、時間、免費入場與地點（River Lounge）
 - 2026-10-24｜travel｜Phillip Island Nature Parks｜https://www.penguins.org.au/attractions/penguin-parade/｜企鵝遊行官方票價頁，另列有 3 Parks Pass 折扣入口
 - 2026-10-24｜tickets｜Victorian Government（青少年免費搭乘）｜https://www.premier.vic.gov.au/free-public-transport-every-child-every-day-everywhere｜維州政府公告，18 歲以下自 2026 年 1 月 1 日起免費搭乘大眾運輸
+- 2026-10-28｜吃喝 QLD｜Jan Powers Farmers Markets – Powerhouse｜https://www.janpowersfarmersmarkets.com.au/powerhouse-farmers-markets｜布里斯本 Powerhouse 週六農夫市集時段與地點
+- 2026-10-28｜活動 QLD｜MELT Festival（Brisbane Powerhouse）｜https://www.melt.org.au/｜布里斯本酷兒藝術文化節 2026 官網（10/21–11/8）
+- 2026-10-28｜活動 QLD｜BrisStyle Twilight Market｜https://www.brisstyle.com.au/brisstyle-twilight-market/｜King George Square 黃昏手作市集 2026 場次與時段
+- 2026-10-28｜travel｜Cruise Whitsundays – Special offers｜https://www.cruisewhitsundays.com/special-offers/｜聖靈群島遊船官方優惠列表；部分優惠未列日期，使用前須確認
