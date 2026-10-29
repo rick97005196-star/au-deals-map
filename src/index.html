@@ -291,6 +291,7 @@ body.no-scroll{overflow:hidden}
 .st-label.zero{opacity:.45}
 .st-label b{display:block;font-family:var(--f-display);font-size:15px;letter-spacing:0;color:var(--ink-2);font-weight:700}
 .leaflet-marker-icon.st-wrap,.leaflet-marker-icon.pin-wrap,.leaflet-marker-icon.cl-wrap{background:none;border:0}
+.here-dot{width:18px;height:18px;border-radius:50%;background:#2B6CC4;border:3px solid #fff;box-sizing:border-box;outline:1px solid rgba(0,0,0,.35)}
 .pin{display:block;width:20px;height:20px;border-radius:50%;border:3px solid var(--ring);box-shadow:0 1px 5px rgba(0,0,0,.35);transition:transform .15s}
 .pin.event{background:var(--event)}
 .pin.deal{background:var(--deal-pin)}
@@ -770,7 +771,7 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
       <p class="mapnote" id="mapNote"></p>
       <div class="mapbox">
         <div id="map"></div>
-        <div class="maptools"><div class="legend" aria-hidden="true"><span><i style="background:var(--event)"></i>活動</span><span><i style="background:var(--deal-pin)"></i>特價</span><span><b class="pin-hot"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></b>熱門</span></div></div>
+        <div class="maptools"><div class="legend" aria-hidden="true"><span><i style="background:var(--event)"></i>活動</span><span><i style="background:var(--deal-pin)"></i>特價</span><span><b class="pin-hot"><svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg></b>熱門</span></div><button class="btn btn-sm" type="button" id="hereBtn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 1.5V4M12 20v2.5M1.5 12H4M20 12h2.5"/></svg>顯示目前位置</button></div>
       </div>
     </div>
   </section>
@@ -1563,6 +1564,19 @@ function locate(cb){
     cb(p.coords);
   }, err => { toast(err.code === 1 ? '您未允許瀏覽器取得位置，可改為手動選擇地區' : '無法取得您的位置，可改為手動選擇地區'); cb(null); }, {maximumAge:300000, timeout:10000});
 }
+// 顯示目前位置：只在地圖上畫一個藍點，座標留在裝置裡，不儲存、不上傳
+let hereMark;
+$('hereBtn').addEventListener('click', () => {
+  if (!map) return toast('地圖還在載入，請稍候再按一次');
+  locate(c => {
+    if (!c) return;
+    const ll = [c.latitude, c.longitude];
+    if (hereMark) hereMark.setLatLng(ll);
+    else hereMark = L.marker(ll, {icon: L.divIcon({className:'here-dot', iconSize:[18,18]}), zIndexOffset:1000, keyboard:false})
+      .bindTooltip('您目前的位置', {permanent:true, direction:'top', offset:[0,-10], className:'tt'}).addTo(map);
+    map.flyTo(ll, Math.max(map.getZoom(), 12), { duration: 0.75, easeLinearity: 0.25 });
+  });
+});
 function sortNear(prev){
   locate(c => {
     if (!c) { S.sort = prev; syncControls(); } else toast('已依您的位置由近到遠排序');
