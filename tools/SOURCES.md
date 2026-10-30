@@ -209,3 +209,11 @@
 - 2026-10-28｜活動 QLD｜MELT Festival（Brisbane Powerhouse）｜https://www.melt.org.au/｜布里斯本酷兒藝術文化節 2026 官網（10/21–11/8）
 - 2026-10-28｜活動 QLD｜BrisStyle Twilight Market｜https://www.brisstyle.com.au/brisstyle-twilight-market/｜King George Square 黃昏手作市集 2026 場次與時段
 - 2026-10-28｜travel｜Cruise Whitsundays – Special offers｜https://www.cruisewhitsundays.com/special-offers/｜聖靈群島遊船官方優惠列表；部分優惠未列日期，使用前須確認
+- 2026-10-31｜娛樂 VIC｜ACMI（Fed Square）｜https://www.acmi.net.au/whats-on/｜墨爾本 ACMI 官方展覽與活動頁，列出免費展覽日期、開放時間與地點
+- 2026-10-31｜活動 QLD｜Redlands Coast（ATDW 活動頁）｜https://www.redlandscoast.com.au/ATDW/Events/Straddie-Oyster-and-Seafood-Festival-634fc2b63cdd2b4004a8e648｜雷德蘭海岸與 Straddie 離島活動的日期、時段與費用
+- 2026-10-31｜娛樂 QLD｜Sydney Film Festival – Travelling Film Festival｜https://www.sff.org.au/tff/tickets/cairns/｜雪梨影展巡迴放映各城市場次與票價（Cairns 等）
+- 2026-10-31｜活動 全國｜Frontier Touring｜https://www.frontiertouring.com/foofighters｜大型巡迴演唱會的官方日期、場地與票價
+- 2026-10-31｜活動 NT｜Tourism Top End – Events｜https://www.visittopend.com.au/events｜Top End 活動列表，含日期與活動頁連結
+- 2026-10-31｜活動 NT｜Million Dollar Fish｜https://www.milliondollarfish.com.au/｜北領地釣魚賽季官網，賽季日期與登記
+- 2026-10-31｜活動 WA｜City of Melville – What's on｜https://www.melvillecity.com.au/things-to-do/events/whats-on/perth-makers-market｜Melville 市政府活動頁，列日期、時間與免費
+- 2026-10-31｜活動 WA｜Perth Makers Market｜https://www.perthmakersmarket.com/｜伯斯手作市集 2026 場次、地點與時間

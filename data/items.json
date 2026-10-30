@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-31",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -6206,6 +6206,974 @@
     "checked": "2026-10-28"
    },
    "added": "2026-10-28"
+  },
+  {
+   "id": "hoyts-lux-28-weekday-2026",
+   "type": "deal",
+   "title": "$28 HOYTS LUX Tickets",
+   "title_zh": "HOYTS LUX 平日午前場 A$28",
+   "category": "entertainment",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-31",
+   "end": "2026-12-14",
+   "schedule_zh": "週一、三、四、五 17:01 前場次",
+   "price_zh": "A$28",
+   "free": false,
+   "highlight": "LUX 影廳優惠",
+   "summary_zh": "HOYTS 提供週一、週三、週四、週五 17:01 前的 LUX 場次 A$28 票價，至 2026 年 12 月 14 日。適合想以較低價格體驗高規格影廳的旅客。",
+   "tip_zh": "國定假日與特別活動場次不適用，Chadstone 與 Melbourne Central 影城除外；另加訂票手續費。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "HOYTS – $28 LUX Tickets",
+     "url": "https://www.hoyts.com.au/28-hoyts-lux-tickets"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "hoyts-sunday-sessions-from-12-2026",
+   "type": "deal",
+   "title": "HOYTS Sunday Sessions",
+   "title_zh": "HOYTS 週日午前場 A$12 起",
+   "category": "entertainment",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-31",
+   "end": null,
+   "schedule_zh": "每週日 12:01 前場次",
+   "price_zh": "A$12 起",
+   "free": false,
+   "highlight": "週日早場",
+   "summary_zh": "HOYTS 週日中午 12:01 前的一般場次票價 A$12 起，系統自動折抵，優惠至官方撤銷為止。",
+   "tip_zh": "LUX、XTRA、IMAX 與特別活動場次不適用；需另付訂票手續費，且不能與其他折扣併用。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "HOYTS – Sunday Sessions",
+     "url": "https://www.hoyts.com.au/sunday-sessions"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-31",
+    "unconfirmed_zh": "官方未公布結束日期。"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "agnsw-dobell-drawing-biennial-2026",
+   "type": "event",
+   "title": "Near at Hand: Dobell Australian Drawing Biennial 2026",
+   "title_zh": "雪梨 AGNSW 多貝爾繪畫雙年展（免費）",
+   "category": "arts",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Art Gallery of NSW",
+   "lat": -33.8688,
+   "lng": 151.2174,
+   "start": "2026-09-12",
+   "end": "2027-03-07",
+   "schedule_zh": "每日 10:00–17:00，週三延長至 22:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費展覽",
+   "summary_zh": "新南威爾斯美術館 Dobell 澳洲繪畫雙年展展出 11 位澳洲藝術家的素描作品，位於 Naala Nura 館，免費入場。",
+   "tip_zh": "週三晚間開放至 22:00，可下班後前往；耶穌受難日與聖誕節休館。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Art Gallery of NSW – Dobell Australian Drawing Biennial 2026",
+     "url": "https://www.artgallery.nsw.gov.au/whats-on/exhibitions/dobell-australian-drawing-biennial-2026"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "acmi-play-on-arcade-2026",
+   "type": "event",
+   "title": "Play On",
+   "title_zh": "墨爾本 ACMI 街機遊戲展（免費）",
+   "category": "entertainment",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "ACMI, Federation Square",
+   "lat": -37.8179,
+   "lng": 144.9689,
+   "start": "2026-08-24",
+   "end": "2027-01-31",
+   "schedule_zh": "每日 10:00–17:00（12/25 休館）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費展覽",
+   "summary_zh": "ACMI 展出三款由澳洲開發者新創作的街機遊戲，可現場免費試玩。",
+   "tip_zh": "位於 Fed Square 一樓，交通方便；同館另有免費展《Feng Mengbo: Long March Restart》。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ACMI – Play On",
+     "url": "https://www.acmi.net.au/whats-on/play-on/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "acmi-feng-mengbo-long-march-restart-2026",
+   "type": "event",
+   "title": "Feng Mengbo: Long March Restart",
+   "title_zh": "ACMI 馮夢波《長征重啟》互動遊戲展",
+   "category": "arts",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "ACMI, Federation Square",
+   "lat": -37.8179,
+   "lng": 144.9689,
+   "start": "2026-08-19",
+   "end": "2027-01-31",
+   "schedule_zh": "每日 10:00–17:00（12/25 休館）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費展覽",
+   "summary_zh": "以 1934 至 1936 年長征為題材的橫向捲軸互動遊戲，使用雙螢幕與手把遊玩，同一時間一人體驗。",
+   "tip_zh": "一次僅限一人操作，其他人可在旁觀看；作品含大音量與閃爍畫面，敏感者請留意。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ACMI – Feng Mengbo: Long March Restart",
+     "url": "https://www.acmi.net.au/whats-on/feng-mengbo-long-march-restart/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "sydney-big-ticket-tower-eye-2026",
+   "type": "deal",
+   "title": "Sydney Big Ticket",
+   "title_zh": "雪梨 Big Ticket 多景點通票 A$39 起",
+   "category": "entertainment",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Sydney Tower Eye",
+   "lat": -33.8705,
+   "lng": 151.2089,
+   "start": "2026-10-31",
+   "end": null,
+   "price_zh": "A$39 起",
+   "free": false,
+   "highlight": "多景點通票",
+   "summary_zh": "Sydney Tower Eye 官網提供含 Tower Eye、SEA LIFE、WILD LIFE 與 Madame Tussauds 的多景點通票，雙景點通票 A$39 起，自首次入場起 60 天內有效。",
+   "tip_zh": "官網額外 A$10 折扣須於 11 月 2 日前訂票；後續景點需預約免費時段；SKYWALK 至 2026/11/12 暫停開放。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sydney Tower Eye – Multiple attractions tickets",
+     "url": "https://www.sydneytowereye.com.au/tickets-passes/tickets/multiple-attractions/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "rlwc-2026-mens-womens-finals-suncorp",
+   "type": "event",
+   "title": "Rugby League World Cup 2026: Men's & Women's Finals",
+   "title_zh": "聯盟式橄欖球世界盃決賽雙重賽",
+   "category": "sport",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Suncorp Stadium",
+   "lat": -27.4648,
+   "lng": 153.0095,
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "schedule_zh": "14:15 開門；女子決賽 15:10、男子決賽 18:35 開賽",
+   "price_zh": "請見 Ticketmaster",
+   "free": false,
+   "highlight": "世界盃決賽・單日",
+   "summary_zh": "2026 年聯盟式橄欖球世界盃男子與女子決賽於 Suncorp Stadium 連續舉行。持票者可使用 Translink 免費大眾運輸與活動接駁。",
+   "tip_zh": "僅透過 Ticketmaster 購票；場館全面無現金，隨身包包須在 A3 尺寸以內。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Suncorp Stadium – RLWC 2026 Men's & Women's Finals",
+     "url": "https://suncorpstadium.com.au/events/rugby-league-world-cup-2026-mens-womens-finals"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "hota-farmers-artisan-market-2026",
+   "type": "event",
+   "title": "HOTA Farmers and Artisan Market",
+   "title_zh": "HOTA 週日農夫與手作市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "HOTA, Home of the Arts",
+   "lat": -28.0021,
+   "lng": 153.4125,
+   "start": "2026-11-01",
+   "end": "2026-12-27",
+   "schedule_zh": "每週日 6:00–11:30",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・每週日",
+   "summary_zh": "位於 Surfers Paradise HOTA 湖畔的社區市集，販售當季農產品、手作食品與設計商品，並有本地藝術家與現場音樂。",
+   "tip_zh": "市集位於 HOTA 湖畔，營業時間較早，建議清晨前往；請先確認當日是否舉辦。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Gold Coast What's On – HOTA Farmers and Artisan Market",
+     "url": "https://www.whatsongoldcoast.au/All-events/HOTA-Farmers-and-Artisan-Market-60deb811cdcec11c46c40065"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "straddie-oyster-seafood-festival-2026",
+   "type": "event",
+   "title": "Straddie Oyster and Seafood Festival",
+   "title_zh": "Straddie 生蠔與海鮮節",
+   "category": "food",
+   "region": "QLD",
+   "city": "North Stradbroke Island",
+   "venue": "North Stradbroke Island Rugby League and Allsports Club",
+   "lat": -27.502,
+   "lng": 153.405,
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "schedule_zh": "10:00–18:00",
+   "price_zh": "免費入場；Bay Island 接駁船來回 A$35",
+   "free": true,
+   "highlight": "免費・離島海鮮節",
+   "summary_zh": "北斯特拉布魯克島的海鮮節，設有現場演出、市集攤位、生蠔與大蝦比賽及泥蟹賽跑，免費入場。",
+   "tip_zh": "需搭船前往；Bay Island 接駁船來回 A$35，須先預約，官方列出的聯絡電話為 07 3409 9216。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Redlands Coast – Straddie Oyster and Seafood Festival",
+     "url": "https://www.redlandscoast.com.au/ATDW/Events/Straddie-Oyster-and-Seafood-Festival-634fc2b63cdd2b4004a8e648"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Straddie Tourism – Oyster Festival",
+     "url": "https://stradbrokeisland.com/straddie-oyster-festival/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "travelling-film-festival-cairns-2026",
+   "type": "event",
+   "title": "Sydney Film Festival Travelling Film Festival – Cairns",
+   "title_zh": "雪梨影展巡迴放映 Cairns 場",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Cairns",
+   "venue": "Event Cinemas Cairns Central",
+   "lat": -16.9234,
+   "lng": 145.7765,
+   "start": "2026-11-06",
+   "end": "2026-11-09",
+   "price_zh": "A$22；優待與 26 歲以下 A$20.50（另加 A$2 手續費）",
+   "free": false,
+   "highlight": "影展・4 天",
+   "summary_zh": "雪梨影展巡迴放映於 Cairns Central 的 Event Cinemas 舉行四天（11 月 6 至 9 日）。",
+   "tip_zh": "26 歲以下適用 A$20.50 優待票價；片單與場次請見官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sydney Film Festival – TFF Cairns tickets",
+     "url": "https://www.sff.org.au/tff/tickets/cairns/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-31",
+    "unconfirmed_zh": "官方票務頁未列出片單與場次。"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "foo-fighters-take-cover-brisbane-2026",
+   "type": "event",
+   "title": "Foo Fighters: Take Cover Tour – Brisbane",
+   "title_zh": "Foo Fighters 布里斯本演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Suncorp Stadium",
+   "lat": -27.4648,
+   "lng": 153.0095,
+   "start": "2026-11-05",
+   "end": "2026-11-05",
+   "price_zh": "A$99.90 起（不含手續費）",
+   "free": false,
+   "highlight": "體育場演唱會",
+   "summary_zh": "Foo Fighters Take Cover 澳洲巡迴的布里斯本場，暖場為 Full Flower Moon Band 與 Mini Skirt。",
+   "tip_zh": "購票上限每人 8 張；開演前以官方售票為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Frontier Touring – Foo Fighters Take Cover Tour",
+     "url": "https://www.frontiertouring.com/foofighters"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "foo-fighters-take-cover-townsville-2026",
+   "type": "event",
+   "title": "Foo Fighters: Take Cover Tour – Townsville",
+   "title_zh": "Foo Fighters 湯斯維爾演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Townsville",
+   "venue": "Queensland Country Bank Stadium",
+   "lat": -19.269,
+   "lng": 146.812,
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "price_zh": "A$99.90 起（不含手續費）",
+   "free": false,
+   "highlight": "體育場演唱會",
+   "summary_zh": "Foo Fighters Take Cover 澳洲巡迴的湯斯維爾場，暖場為 Full Flower Moon Band 與 DOWNGIRL。",
+   "tip_zh": "購票上限每人 8 張；以官方售票為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Frontier Touring – Foo Fighters Take Cover Tour",
+     "url": "https://www.frontiertouring.com/foofighters"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Townsville North Queensland – Events",
+     "url": "https://www.townsvillenorthqueensland.com.au/events/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "perth-lester-prize-portraiture-2026",
+   "type": "event",
+   "title": "The Lester Prize for Portraiture 2026 Main Awards",
+   "title_zh": "Lester 肖像獎 2026 免費展覽",
+   "category": "arts",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "WA Museum Boola Bardip",
+   "lat": -31.949,
+   "lng": 115.8604,
+   "start": "2026-10-10",
+   "end": "2026-11-29",
+   "schedule_zh": "每日 8:30–17:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費展覽・至 11/29",
+   "summary_zh": "展出 40 位入圍藝術家的當代澳洲肖像作品，獎金總額逾 A$140,000，地點位於伯斯文化中心的 WA Museum Boola Bardip。",
+   "tip_zh": "位於 Northbridge 的 Perth Cultural Centre，從伯斯火車站步行即可抵達。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Perth – Lester Prize 2026 Main Awards",
+     "url": "https://visitperth.com/events/the-lester-prize-for-portraiture-2026-main-awards/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "nt-million-dollar-fish-season-12-2026",
+   "type": "event",
+   "title": "Million Dollar Fish Season 12",
+   "title_zh": "Million Dollar Fish 百萬澳幣釣魚賽季",
+   "category": "outdoors",
+   "region": "NT",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "北領地 Top End 一帶",
+   "start": "2026-10-01",
+   "end": "2027-03-31",
+   "price_zh": "免費登記",
+   "free": true,
+   "highlight": "免費登記・每月抽獎",
+   "summary_zh": "北領地 Top End 的釣魚活動，一條 A$100 萬標籤的澳洲尖吻鱸與 100 條各值 A$10,000 的魚。官方頁面表示登記即自動參加每月抽獎，不需要實際釣魚。",
+   "tip_zh": "需先在官方網站登記才能領取任何獎項；詳細規則請見 milliondollarfish.com.au。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Tourism Top End – Million Dollar Fish Season 12",
+     "url": "https://www.visittopend.com.au/events/event/87299-million-dollar-fish-season-12"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Million Dollar Fish",
+     "url": "https://www.milliondollarfish.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "adelaide-bp-grand-final-parade-2026",
+   "type": "event",
+   "title": "bp Adelaide Grand Final Parade",
+   "title_zh": "阿德雷德 Supercars 總決賽遊行",
+   "category": "sport",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Victoria Square / Tarntanyangga",
+   "lat": -34.9285,
+   "lng": 138.6007,
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "schedule_zh": "下午時段（官方未列確切時間）",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費・車手簽名會",
+   "summary_zh": "Supercars 車輛從 Adelaide Street Circuit 駛過市中心，終點為 Victoria Square，現場有車手簽名會、安全車展示與音樂表演。",
+   "tip_zh": "確切時間請查官方公告，建議提早前往 Victoria Square。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – bp Adelaide Grand Final Parade",
+     "url": "https://southaustralia.com/products/adelaide/event/bp-adelaide-grand-final-parade-presented-by-experience-adelaide"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "darwin-tactile-arts-christmas-makers-market-2026",
+   "type": "event",
+   "title": "TACTILE ARTS Christmas Makers Market 2026",
+   "title_zh": "達爾文 Tactile Arts 聖誕手作市集",
+   "category": "market",
+   "region": "NT",
+   "city": "Darwin",
+   "venue": "Territory Marrara Netball Stadium",
+   "lat": -12.4058,
+   "lng": 130.887,
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "schedule_zh": "週六、週日 9:00–16:00",
+   "price_zh": "入場投硬幣或感應付款",
+   "free": false,
+   "highlight": "手作市集・2 天",
+   "summary_zh": "位於 Marrara 的聖誕手作市集，入場費為投硬幣或感應付款，收入支持非營利組織 Tactile Arts。",
+   "tip_zh": "Marrara 離市區較遠，建議事先查好公車路線或共乘。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Tourism Top End – Tactile Arts Christmas Makers Market",
+     "url": "https://www.visittopend.com.au/events/event/87343-tactile-arts-christmas-makers-market-2026"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "perth-makers-market-heathcote-dec-2026",
+   "type": "event",
+   "title": "Perth Makers Market – Heathcote",
+   "title_zh": "伯斯 Makers Market 免費手作市集",
+   "category": "market",
+   "region": "WA",
+   "city": "Applecross",
+   "venue": "Goolugatup Heathcote Reserve",
+   "lat": -32.0124,
+   "lng": 115.8312,
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "schedule_zh": "週日 9:30–15:30",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・手作市集",
+   "summary_zh": "Applecross 的 Goolugatup Heathcote Reserve 舉辦的手作市集，市政府頁面列為免費入場。",
+   "tip_zh": "位於 Applecross，從伯斯市區建議搭乘大眾運輸並先查好班次。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melville – Perth Makers Market",
+     "url": "https://www.melvillecity.com.au/things-to-do/events/whats-on/perth-makers-market"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Perth Makers Market",
+     "url": "https://www.perthmakersmarket.com/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "adelaide-feast-festival-2026",
+   "type": "event",
+   "title": "Feast Festival 2026",
+   "title_zh": "Feast 彩虹藝術節 2026",
+   "category": "festival",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": null,
+   "lat": -34.9285,
+   "lng": 138.6007,
+   "start": "2026-11-01",
+   "end": "2026-11-22",
+   "price_zh": "請見官網（設有免費活動篩選）",
+   "free": false,
+   "highlight": "3 週・逾 80 場活動",
+   "summary_zh": "南澳的 LGBTQIA+ 藝術節，於阿德雷德與南澳各地舉辦逾 80 場活動，官方設有免費活動篩選。",
+   "tip_zh": "在官網節目頁使用「Free」篩選找免費場次。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Feast Festival",
+     "url": "https://feast.org.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – Feast Festival 2026",
+     "url": "https://southaustralia.com/products/adelaide/event/feast-festival-2026"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-31",
+    "unconfirmed_zh": "官網首頁未公布票價，無法確認價格上限。"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "gyg-cessnock-opening-5-burritos-2026",
+   "type": "deal",
+   "title": "Welcome GYG Cessnock with $5 Burritos & Bowls",
+   "title_zh": "GYG Cessnock A$5 捲餅與碗餐",
+   "category": "dining",
+   "region": "NSW",
+   "city": "Cessnock",
+   "venue": "GYG Cessnock（226 Wollombi Road）",
+   "lat": -32.8326,
+   "lng": 151.3548,
+   "start": "2026-11-12",
+   "end": "2026-11-12",
+   "schedule_zh": "11/12 7:00–22:00（早餐捲餅與碗餐 7:00–10:30）",
+   "price_zh": "普通捲餅與碗餐 A$5",
+   "free": false,
+   "highlight": "新店 A$5 優惠",
+   "summary_zh": "Guzman y Gomez 於 Hunter Valley 的 Cessnock 新門市開幕日（11 月 12 日，週四）推出普通尺寸捲餅與碗餐 A$5 優惠，僅限該門市內購買。",
+   "tip_zh": "優惠僅限門市，不適用 GYG App；加料或客製另計費，每位顧客可能有數量限制。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Guzman y Gomez – Welcome GYG Cessnock",
+     "url": "https://www.guzmanygomez.com.au/welcome-gyg-cessnock-with-5-burrito-bowls/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "aldi-special-buys-2026-10-31-electrical-fashion",
+   "type": "deal",
+   "title": "ALDI Special Buys – Saturday 31st October 2026 (Electrical Sale, Family Fashion)",
+   "title_zh": "ALDI 10/31 家電與服飾特賣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-10-31",
+   "end": null,
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "門市特賣",
+   "summary_zh": "ALDI 官網列出 2026 年 10 月 31 日（週六）門市上架的 Special Buys 主題為家電特賣（Electrical Sale）與家庭服飾（Family Fashion）。",
+   "tip_zh": "Special Buys 數量有限，各門市庫存不同，建議上架當天提早前往門市確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Australia – Special Buys 上架日程",
+     "url": "https://www.aldi.com.au/special-buys/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-31",
+    "unconfirmed_zh": "官方頁面未列出具體商品與價格。"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "wa-transwa-half-price-fares-2026",
+   "type": "deal",
+   "title": "Transwa fares permanently reduced by 50 per cent",
+   "title_zh": "Transwa 西澳長途火車與巴士票價減半",
+   "category": "tickets",
+   "region": "WA",
+   "city": null,
+   "venue": null,
+   "area_zh": "西澳全境（Transwa 路線）",
+   "start": "2026-01-01",
+   "end": null,
+   "price_zh": "票價減半（例：Perth–Kalgoorlie 來回省約 A$100）",
+   "free": false,
+   "highlight": "長途票價減半",
+   "summary_zh": "西澳政府公布自 2026 年 1 月 1 日起，Transwa 區域火車與長途巴士票價永久降低 50%，涵蓋逾 200 個目的地，適合前往 Kalgoorlie、Esperance 等地的旅客。",
+   "tip_zh": "以 Transwa 官網查詢實際票價並訂位；官方新聞稿未列出限定身分。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "WA Government – 80s public transport fares to ring in the new year",
+     "url": "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/80s-public-transport-fares-to-ring-in-the-new-year-20251218"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Transwa – News",
+     "url": "https://transwa.wa.gov.au/about-transwa/news/category/news"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "npws-south-head-tunnels-tour-2026-11",
+   "type": "event",
+   "title": "South Head tunnels tour",
+   "title_zh": "雪梨 South Head 隧道導覽",
+   "category": "travel",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Hornby Lighthouse, South Head, Sydney Harbour National Park",
+   "lat": -33.8426,
+   "lng": 151.2808,
+   "start": "2026-11-08",
+   "end": "2026-11-29",
+   "schedule_zh": "11 月 8 日與 29 日，每日 10:30、11:30、12:30 三個場次",
+   "price_zh": "成人 A$25／優待 A$21",
+   "free": false,
+   "highlight": "國家公園導覽",
+   "summary_zh": "由 NPWS 帶領參觀 South Head 的歷史軍事隧道，含 800 公尺步行上燈塔，每場約 45 分鐘，限 16 歲以上。",
+   "tip_zh": "必須事先訂位，可線上或致電 1300 072 757；請穿著好走的鞋並自備手電筒。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NSW National Parks – South Head tunnels tour",
+     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/south-head-tunnels-tour"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "npws-smoky-cape-lighthouse-tour-2026-11",
+   "type": "event",
+   "title": "Smoky Cape Lighthouse tour",
+   "title_zh": "Smoky Cape 燈塔導覽（Hat Head）",
+   "category": "travel",
+   "region": "NSW",
+   "city": "South West Rocks",
+   "venue": "Smoky Cape Lighthouse, Hat Head National Park",
+   "lat": -30.9216,
+   "lng": 153.0678,
+   "start": "2026-11-07",
+   "end": "2026-12-05",
+   "schedule_zh": "11 月 7 日與 12 月 5 日，10:00、11:00、12:00 場次",
+   "price_zh": "成人 A$20／優待 A$17",
+   "free": false,
+   "highlight": "國家公園導覽",
+   "summary_zh": "由 NPWS 巡守員帶領登上新南威爾斯最高的燈塔，每場約 45 分鐘。園區入園費為每車每日 A$8。",
+   "tip_zh": "須事先訂位，請至少提早 10 分鐘抵達步行上燈塔，並穿著包覆式平底耐穿鞋。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NSW National Parks – Smoky Cape Lighthouse tour",
+     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/smoky-cape-lighthouse-tour"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "npws-sea-acres-aboriginal-culture-tour-2026-11",
+   "type": "event",
+   "title": "Sea Acres Aboriginal culture tour",
+   "title_zh": "Sea Acres 原住民文化導覽",
+   "category": "travel",
+   "region": "NSW",
+   "city": "Port Macquarie",
+   "venue": "Sea Acres Rainforest Centre, Sea Acres National Park",
+   "lat": -31.4639,
+   "lng": 152.9254,
+   "start": "2026-11-06",
+   "end": "2026-12-18",
+   "schedule_zh": "11 月 6、20 日與 12 月 4、18 日（週五）10:00–11:30",
+   "price_zh": "成人 A$25／優待 A$21",
+   "free": false,
+   "highlight": "原住民文化導覽",
+   "summary_zh": "在 Sea Acres 國家公園內，由原住民導覽員介紹當地文化，約 1 小時 30 分鐘。",
+   "tip_zh": "需事先訂位，請於 9:45 前抵達集合。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NSW National Parks – Sea Acres Aboriginal culture tour",
+     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/sea-acres-aboriginal-culture-tour"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "jetstar-south-australia-sale-2026-11",
+   "type": "deal",
+   "title": "Jetstar South Australia Sale",
+   "title_zh": "Jetstar 南澳航線特價",
+   "category": "tickets",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "start": "2026-10-31",
+   "end": "2026-11-01",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "限時機票特價",
+   "summary_zh": "南澳觀光局頁面列出 Jetstar 南澳特價活動，於 2026 年 11 月 1 日結束。行程可飛往阿德雷德，適合計畫前往南澳的旅客。",
+   "tip_zh": "特價票數量有限，且並非所有航班與日期皆適用；請先確認行李費用。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – Holiday deals",
+     "url": "https://southaustralia.com/plan-a-trip/holiday-deals"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Jetstar – South Australia sale",
+     "url": "https://www.jetstar.com/au/en/deals/south-australia-sale"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "qantas-red-tail-sale-2026-11",
+   "type": "deal",
+   "title": "Qantas Australia Red Tail Sale",
+   "title_zh": "Qantas 國內線 Red Tail 特價",
+   "category": "tickets",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "start": "2026-10-31",
+   "end": "2026-11-04",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "限時機票特價",
+   "summary_zh": "南澳觀光局頁面列出 Qantas Red Tail 特價，訂票期限至 2026 年 11 月 4 日。",
+   "tip_zh": "售完即止；請於 Qantas 官網確認航線、票價與旅行期間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "South Australia – Holiday deals",
+     "url": "https://southaustralia.com/plan-a-trip/holiday-deals"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "sa-coorong-cruises-25-off-2026-11",
+   "type": "deal",
+   "title": "Coorong cruises – 25% off with code PARKS-SA",
+   "title_zh": "Coorong 遊船 75 折（11 月）",
+   "category": "travel",
+   "region": "SA",
+   "city": "Goolwa",
+   "venue": "Goolwa Wharf (Spirit of the Coorong)",
+   "lat": -35.5,
+   "lng": 138.781,
+   "start": "2026-11-01",
+   "end": "2026-11-30",
+   "price_zh": "依一般船票 75 折",
+   "free": false,
+   "highlight": "遊船 75 折",
+   "summary_zh": "南澳國家公園官網的 11 月主題公園為 Coorong，Spirit of the Coorong 一般航程輸入優惠碼 PARKS-SA 可享 25% 折扣。",
+   "tip_zh": "線上訂票時輸入 PARKS-SA。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NPWS South Australia – Park of the month",
+     "url": "https://www.parks.sa.gov.au/get-inspired/park-of-the-month"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Spirit of the Coorong – booking",
+     "url": "https://spiritaustralia.rezdy.com/catalog/88897/coorong-cruises"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-31",
+    "unconfirmed_zh": "預訂頁無法開啟，出發地點未能在官方頁面確認。"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "sa-goolwa-barrage-talk-2026-11-26",
+   "type": "event",
+   "title": "Gateway to the Coorong – Goolwa Barrage talk",
+   "title_zh": "Goolwa 攔河壩免費導覽講座",
+   "category": "outdoors",
+   "region": "SA",
+   "city": "Goolwa",
+   "venue": "Goolwa Barrage",
+   "lat": -35.519,
+   "lng": 138.804,
+   "start": "2026-11-26",
+   "end": "2026-11-26",
+   "schedule_zh": "10:00–11:00",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費講座",
+   "summary_zh": "南澳國家公園 11 月 Coorong 主題活動之一，於 Goolwa Barrage 舉辦的 Coorong 入口導覽講座，免費參加。",
+   "tip_zh": "需先在 Humanitix 登記。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NPWS South Australia – Park of the month",
+     "url": "https://www.parks.sa.gov.au/get-inspired/park-of-the-month"
+    },
+    {
+     "kind": "official",
+     "platform": "Humanitix",
+     "label": "Gateway to the Coorong – Goolwa Barrage talk",
+     "url": "https://events.humanitix.com/gateway-to-the-coorong-a-goolwa-barrage-talk"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
   }
  ]
 }
