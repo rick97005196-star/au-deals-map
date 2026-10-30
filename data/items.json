@@ -142,50 +142,6 @@
    "hot": true
   },
   {
-   "id": "virgin-australia-europe-early-bird-sale-2026",
-   "type": "deal",
-   "title": "Europe Early Bird Sale",
-   "title_zh": "Virgin 歐洲早鳥特價",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-06",
-   "end": "2026-10-30",
-   "price_zh": "經濟艙來回 A$1,641 起（伯斯—巴塞隆納，經杜哈）",
-   "free": false,
-   "highlight": "早鳥特價",
-   "summary_zh": "Virgin Australia 與卡達航空合作（經杜哈轉機）推出歐洲來回經濟艙（Economy Choice）早鳥特價，自雪梨、布里斯本、墨爾本、伯斯、阿德雷德出發，可前往倫敦（希斯洛）、巴黎、羅馬、巴塞隆納等歐洲城市。",
-   "tip_zh": "搭乘期間為 2027/1/17–3/14 及 4/17–6/8（部分日期不適用）；訂票至 10/30 午夜（AEST）截止，座位有限，須於 Virgin Australia 官網訂票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Virgin Australia – Specials and flight sales",
-     "url": "https://www.virginaustralia.com/au/en/specials/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Virgin Australia – Qatar Airways sale fares",
-     "url": "https://www.virginaustralia.com/en-au/flights-qatar-airways"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "Travel Weekly – Qantas, Jetstar and Virgin launch airfare sales",
-     "url": "https://travelweekly.com.au/qantas-jetstar-and-virgin-launch-airfare-sales-to-japan-europe-and-more/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-28",
-    "unconfirmed_zh": "官網特價頁本次回應 503，細節依官方新聞稿的搜尋摘要與 Travel Weekly 報導確認。"
-   }
-  },
-  {
    "id": "black-friday-cyber-monday-2026-au",
    "type": "event",
    "title": "Black Friday & Cyber Monday 2026",
@@ -1041,64 +997,6 @@
     "status": "verified",
     "checked": "2026-10-23"
    }
-  },
-  {
-   "id": "nt-mindil-beach-sunset-market-2026-season-end",
-   "type": "event",
-   "title": "Mindil Beach Sunset Market",
-   "title_zh": "Mindil 海灘日落市集",
-   "category": "market",
-   "region": "NT",
-   "city": "Darwin",
-   "venue": "Mindil Beach（Casino 與植物園之間）",
-   "lat": -12.4467,
-   "lng": 130.8327,
-   "start": "2026-04-30",
-   "end": "2026-10-29",
-   "price_zh": "免費入場（餐點自費）",
-   "free": true,
-   "highlight": "乾季限定",
-   "summary_zh": "達爾文的海灘夜市，2026 年季節每週四、週日下午 4 點起營業，設有小吃、手作與藝術攤位及音樂表演。",
-   "tip_zh": "官網載明市集季節至 10 月最後一個週四（10/29）止，建議提早抵達。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Mindil Beach Sunset Market – home (2026 season)",
-     "url": "https://mindil.com.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Mindil Beach Sunset Market – FAQ",
-     "url": "https://mindil.com.au/faq/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "NT Government – Territory markets",
-     "url": "https://jointheterritory.nt.gov.au/live/what-to-do-in-the-nt/territory-markets"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@mindilmarket on Instagram",
-     "url": "https://www.instagram.com/mindilmarket/"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "Mindil Market on Facebook",
-     "url": "https://www.facebook.com/mindilmarket"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-28",
-    "unconfirmed_zh": "官網未載明入場費，季節最終場 10/29 依官網季節規則推算。"
-   },
-   "schedule_zh": "每週四、週日 16:00–21:00",
-   "hot": true
   },
   {
    "id": "nt-free-public-bus-darwin-alice-springs",
@@ -2149,39 +2047,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "brisbane-sculpture-festival-trail-2026",
-   "type": "event",
-   "title": "Brisbane Sculpture Festival 2026 – Outdoor Sculpture Trail",
-   "title_zh": "Mt Coot-tha 植物園戶外雕塑步道",
-   "category": "outdoors",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Brisbane Botanic Gardens Mt Coot-tha",
-   "lat": -27.4757,
-   "lng": 152.9767,
-   "start": "2026-07-31",
-   "end": "2026-10-30",
-   "schedule_zh": "每日 8:00–16:00（戶外步道）",
-   "price_zh": "免費，不需預約",
-   "free": true,
-   "highlight": "免費・戶外雕塑展",
-   "summary_zh": "Brisbane Sculpture Festival 的戶外雕塑步道設於 Mt Coot-tha 植物園各處，免費參觀，無須預約，適合全家散步欣賞。",
-   "tip_zh": "室內展覽已於 8 月結束，目前僅開放戶外步道；植物園位於 152 Mt Coot-tha Road, Toowong。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane City Council – Brisbane Sculpture Festival 2026",
-     "url": "https://www.brisbane.qld.gov.au/events/brisbane-sculpture-festival-2026/206852968"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-22"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "tamborine-mountain-scarecrow-festival-2026",
    "type": "event",
    "title": "Tamborine Mountain Scarecrow Festival 2026",
@@ -2545,39 +2410,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-28"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "npws-great-north-walk-stage-9-guided-walk-2026",
-   "type": "event",
-   "title": "Great North Walk Stage 9: Rainforest Walk",
-   "title_zh": "大北步道第 9 段雨林導覽健行",
-   "category": "travel",
-   "region": "NSW",
-   "city": "Gosford",
-   "venue": "Brisbane Water National Park（Wondabyne Station 出發）",
-   "lat": -33.543,
-   "lng": 151.205,
-   "start": "2026-10-25",
-   "end": "2026-10-28",
-   "schedule_zh": "10/25（日）、10/28（三）8:00–15:15",
-   "price_zh": "成人 A$30、優待 A$26、兒童 A$21",
-   "free": false,
-   "highlight": "國家公園導覽・2 梯次",
-   "summary_zh": "NSW 國家公園管理局（NPWS）舉辦的 Great North Walk 第 9 段雨林導覽健行，自 Wondabyne 車站出發，費用含公園入場。",
-   "tip_zh": "須事先預約；自 Hornsby 搭 7:22 火車並坐最後一節車廂，告知列車員在 Wondabyne 下車；全程約 16 公里，難度高，適合 15 歲以上；4 人以上享 10% 團體優惠。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "NSW National Parks – Great North Walk stage 9: Rainforest walk",
-     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/great-north-walk-stage-9-rainforest-walk"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-24"
    },
    "added": "2026-10-10"
   },
@@ -4721,41 +4553,6 @@
    "added": "2026-10-15"
   },
   {
-   "id": "npws-macquarie-marshes-wading-walk-2026",
-   "type": "event",
-   "title": "Macquarie Marshes Wading and Nature Walk",
-   "title_zh": "Macquarie Marshes 涉水與自然步道",
-   "category": "outdoors",
-   "region": "NSW",
-   "city": "Warren",
-   "venue": "Macquarie Marshes",
-   "lat": -30.932,
-   "lng": 147.629,
-   "area_zh": null,
-   "start": "2026-10-23",
-   "end": "2026-10-30",
-   "schedule_zh": "10 月 23 日、30 日 9:30–12:00",
-   "price_zh": "成人約 A$30，其餘票價請見官網",
-   "free": false,
-   "highlight": "濕地自然導覽",
-   "summary_zh": "由 NSW 國家公園及野生動物管理處安排的 Macquarie Marshes 涉水與自然步道導覽，適合喜愛戶外活動的旅客。",
-   "tip_zh": "活動需預約，可上官網或致電 1300 072 757；集合點位於 Carinda Road 的圍欄門，路面過濕時會取消，出發前請再確認。步道需涉水踩泥，難度為困難，適合 8 歲以上。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "NSW National Parks – Country NSW guided tours（Macquarie Marshes wading and nature walk）",
-     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours-country-nsw"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-28",
-    "unconfirmed_zh": "官方列表僅標示「收費」，優待與兒童票價未能確認。"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "african-music-cultural-festival-melbourne-2026",
    "type": "event",
    "title": "African Music and Cultural Festival 2026",
@@ -5618,46 +5415,6 @@
    "added": "2026-10-23"
   },
   {
-   "id": "click-frenzy-main-event-2026",
-   "type": "deal",
-   "title": "Click Frenzy Main Event 2026",
-   "title_zh": "Click Frenzy 2026 主檔期購物節",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-27",
-   "end": "2026-10-30",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "四日購物檔期",
-   "summary_zh": "Click Frenzy 年度主檔期為 2026 年 10 月 27 日（週二）晚間 7 時至 10 月 30 日（週五）晚間 11:59（AEDT），為期四天，各零售商於檔期內推出限時促銷。",
-   "tip_zh": "折扣內容與條款依各商家而定，建議先到官網查看參與商家；部分商品可能售完。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Click Frenzy 官網 – The Main Event, 27 to 30 October",
-     "url": "https://www.clickfrenzy.com.au/"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – Click Frenzy 活動頁（線索）",
-     "url": "https://www.ozbargain.com.au/event/clickfrenzy"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-28",
-    "unconfirmed_zh": "官網無法開啟，檔期日期依多家媒體與 OzBargain 一致報導。"
-   },
-   "added": "2026-10-24",
-   "hot": true
-  },
-  {
    "id": "macpac-summer-launch-multibuy-2026",
    "type": "deal",
    "title": "Macpac Summer Launch Multibuy Offer",
@@ -5821,39 +5578,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-24"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "alice-springs-halloween-pop-up-park-2026",
-   "type": "event",
-   "title": "Halloween Pop-Up Park: Picnic Movie Night",
-   "title_zh": "Alice Springs 萬聖節野餐電影夜",
-   "category": "family",
-   "region": "NT",
-   "city": "Alice Springs",
-   "venue": "Frank McEllister Community Park, Araluen",
-   "lat": -23.699,
-   "lng": 133.876,
-   "start": "2026-10-30",
-   "end": "2026-10-30",
-   "price_zh": "請見官網（免費爆米花與冰棒）",
-   "free": false,
-   "highlight": "免費爆米花・露天電影",
-   "summary_zh": "由 Alice Springs Town Council 主辦的萬聖節夜間活動，16:30 至 22:00 於 Araluen 的 Frank McEllister 社區公園舉行，內容包括三場露天電影放映、美食與市集攤位、遊樂設施，並提供免費爆米花與冰棒，各年齡層皆可參加。",
-   "tip_zh": "活動於戶外公園舉行，建議自備野餐墊或摺疊椅。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官網",
-     "label": "Alice Springs Town Council – Halloween Pop-Up Park: Picnic Movie Night",
-     "url": "https://www.alicesprings.nt.gov.au/events/halloween-pop-up-park-picnic-movie-night/697"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-28",
-    "unconfirmed_zh": "官方頁面未標明入場費用。"
    },
    "added": "2026-10-24"
   },
