@@ -217,3 +217,10 @@
 - 2026-10-31｜活動 NT｜Million Dollar Fish｜https://www.milliondollarfish.com.au/｜北領地釣魚賽季官網，賽季日期與登記
 - 2026-10-31｜活動 WA｜City of Melville – What's on｜https://www.melvillecity.com.au/things-to-do/events/whats-on/perth-makers-market｜Melville 市政府活動頁，列日期、時間與免費
 - 2026-10-31｜活動 WA｜Perth Makers Market｜https://www.perthmakersmarket.com/｜伯斯手作市集 2026 場次、地點與時間
+- 2026-11-03｜購物 全國｜Telstra Pre-Paid｜https://www.telstra.com.au/prepaid｜Black Friday 預付卡特價頁，價格需另開方案頁
+- 2026-11-03｜活動 QLD｜Brisbane Heat｜https://www.brisbaneheat.com.au/tickets｜BBL 主場售票說明與票價
+- 2026-11-03｜活動 VIC｜Japanese Film Festival Australia｜https://jffau.jpf.go.jp/tickets/｜日本影展各州票價與購票
+- 2026-11-03｜吃喝 全國｜Uber Eats 澳洲新聞稿｜https://www.uber.com/en-AU/newsroom｜確認近期是否有全站優惠
+- 2026-11-03｜吃喝 全國｜OzBargain 餐飲外帶分類｜https://www.ozbargain.com.au/cat/dining-takeaway/deals｜線索用，須回官方頁確認
+- 2026-11-03｜交通 全國｜Virgin Australia Specials｜https://www.virginaustralia.com/au/en/specials/all/｜國內外特價（WebFetch 回 503，需用瀏覽器開啟）
+- 2026-11-03｜交通 TAS｜SkyBus Launceston Express｜https://www.skybus.com.au/launceston-express｜朗瑟斯頓機場快線與優惠票價
