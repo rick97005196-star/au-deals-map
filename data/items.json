@@ -135,8 +135,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網僅稱限時優惠，未列結束日與參與門市。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網僅稱限時優惠，未列起訖日與參與門市。"
    },
    "schedule_zh": "每週三至週五",
    "hot": true
@@ -187,47 +187,10 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "Click Frenzy 官方日曆頁無法開啟，日期依媒體報導確認。"
    },
    "hot": true
-  },
-  {
-   "id": "harris-park-diwali-2026",
-   "type": "event",
-   "title": "Harris Park Diwali 2026",
-   "title_zh": "Harris Park 排燈節",
-   "category": "festival",
-   "region": "NSW",
-   "city": "Parramatta",
-   "venue": "Little India, Wigram Street, Harris Park",
-   "lat": -33.8226,
-   "lng": 151.0083,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・小印度",
-   "summary_zh": "雪梨「小印度」Harris Park 排燈節（Diwali）街頭慶典，由社區獨立籌辦，免費參加，設有美食、現場表演、市集攤位及親子活動。",
-   "tip_zh": "官方頁面未公布時間，建議出發前查閱 Facebook 活動頁；11/1（日）於 Prince Alfred Square 另有免費的 Diwali Mela Parramatta。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Parramatta – Diwali 2026 events",
-     "url": "https://atparramatta.com/diwali"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "Diwali Little India Harris Park – Facebook event",
-     "url": "https://www.facebook.com/events/wigram-street-harris-park/diwali-little-india-harris-park/1108541228414963/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
-   }
   },
   {
    "id": "grafton-jacaranda-festival-2026",
@@ -243,10 +206,10 @@
    "start": "2026-10-23",
    "end": "2026-11-08",
    "price_zh": "請見官網",
-   "free": true,
+   "free": false,
    "highlight": "澳洲最悠久花卉節",
-   "summary_zh": "Grafton Jacaranda Festival 為澳洲最古老的花卉節（1934 年起），2026 年 10/23 至 11/8 舉行，主要活動集中於 Market Square，節目內容請見官方節目表。",
-   "tip_zh": "11/6 晚上有煙火、11/7 有花車遊行；各活動票價請見官網節目表。",
+   "summary_zh": "Grafton Jacaranda Festival 為澳洲最悠久的花卉節（1934 年起），2026 年 10/23 至 11/8 於 Grafton 多處場地舉行，包括 Market Square、Memorial Park 與 Prince St，節目內容請見官方節目表。",
+   "tip_zh": "11/6 晚間 9 點於 Memorial Park 有煙火，11/7 下午 5 點於 Prince St 有花車遊行；各活動費用請見官網節目表。",
    "sources": [
     {
      "kind": "official",
@@ -275,7 +238,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未載明入場費用及各活動是否免費。"
    }
   },
@@ -381,7 +344,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "schedule_zh": "11:00–22:00"
   },
@@ -431,7 +394,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "Fair Day 票價官方尚未公布。"
    }
   },
@@ -448,11 +411,11 @@
    "lng": 153.017,
    "start": "2026-09-12",
    "end": "2027-04-18",
-   "price_zh": "請見官網",
+   "price_zh": "A$18–42（定時入場）",
    "free": false,
    "highlight": "布里斯本獨家",
-   "summary_zh": "布里斯本獨家的大型展覽，展出 The Jim Henson Company 的作品世界，另有免費影片放映節目。",
-   "tip_zh": "門票採定時入場，展覽每日 10:00–17:00，最後入場時段為 16:00。",
+   "summary_zh": "布里斯本獨家的大型展覽，展出 The Jim Henson Company 的作品世界，為 Brisbane Festival 期間開幕的 GOMA 展覽。",
+   "tip_zh": "門票採定時入場，最後入場時段為 16:00，17:00 閉館；建議先購票。",
    "sources": [
     {
      "kind": "official",
@@ -475,8 +438,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方票價頁無法開啟，票價與免費兒童年齡未能確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方展覽頁無法開啟，票價依 QAGOMA 售票頁搜尋結果，開館起始時間未能確認。"
    }
   },
   {
@@ -513,7 +476,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    }
   },
   {
@@ -556,7 +519,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    }
   },
   {
@@ -724,8 +687,8 @@
    "price_zh": "免費搭乘",
    "free": true,
    "highlight": "免費",
-   "summary_zh": "City Connector 免費環狀公車無須 metroCARD：98A/98C 每日行駛並延伸至 North Adelaide，99A/99C 僅平日行駛。市區電車在 South Terrace、Entertainment Centre、Festival Plaza 至 Botanic Gardens 之間免費；Glenelg Jetty Road 的 Brighton Road 至 Moseley Square 路段電車亦免費。",
-   "tip_zh": "Connector 運行時間約 7am 至 7:15pm（週五至 9:15pm）；搭乘超出免費區間須付費。",
+   "summary_zh": "City Connector 免費環狀公車無須 metroCARD，99A/99C 僅平日行駛。市區電車除 South Terrace 至 Glenelg Brighton Road 之間須購票外，其餘路段免費，包括 Glenelg Jetty Road 的 Brighton Road 至 Moseley Square。",
+   "tip_zh": "搭乘 South Terrace 與 Brighton Road 之間的電車路段須付費；公車行駛時間請見官網。",
    "sources": [
     {
      "kind": "official",
@@ -748,8 +711,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "Adelaide Metro 官方頁面本次無法開啟，路線、營運時間與免費電車區間未能重新確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "Adelaide Metro 官方頁面無法直接開啟，98A/98C 行駛日與營運時間未能確認。"
    },
    "area_zh": "阿德雷德市區"
   },
@@ -765,12 +728,12 @@
    "lat": -12.4642,
    "lng": 130.8424,
    "start": "2025-07-01",
-   "end": null,
+   "end": "2026-12-31",
    "price_zh": "免費搭乘",
    "free": true,
    "highlight": "免費",
-   "summary_zh": "北領地政府營運的公車自 2025 年 7 月起持續免費，大達爾文地區（Casuarina、Palmerston 與郊區）及 Alice Springs 的公車均免費搭乘。",
-   "tip_zh": "官方未公布結束日期，建議出發前查閱 nt.gov.au 公告。",
+   "summary_zh": "北領地政府營運的公車目前免費，大達爾文地區（Casuarina、Palmerston 與郊區）及 Alice Springs 的公車均免費搭乘，官方頁面標示至 2026 年 12 月 31 日。",
+   "tip_zh": "媒體報導可能延長至 2027 年 1 月，建議出發前查閱 nt.gov.au 公告。",
    "sources": [
     {
      "kind": "official",
@@ -781,8 +744,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "nt.gov.au 官方頁面無法開啟，2026 年仍免費未能直接確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "nt.gov.au 官方頁面無法開啟，結束日僅由搜尋結果確認，媒體報導與官方頁面日期不同。"
    },
    "area_zh": "達爾文、Alice Springs",
    "hot": true
@@ -846,7 +809,7 @@
    "price_zh": "請見官網",
    "free": true,
    "highlight": "每週六",
-   "summary_zh": "荷伯特具代表性的戶外市集，每週六 8:30–15:00 於 Salamanca Place 舉行，販售在地手作商品、農產與餐點。",
+   "summary_zh": "荷伯特具代表性的戶外市集，由荷伯特市議會營運，每週六 8:30–15:00 舉行。",
    "tip_zh": "RSPCA 志工於市集提供犬隻寄放服務（Puppy Parking），詳情請見官網。",
    "sources": [
     {
@@ -876,8 +839,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網未列出入場費用與犬隻入場規定。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網未列出入場費用與市集內容細節。"
    },
    "schedule_zh": "每週六 8:30–15:00",
    "hot": true
@@ -898,8 +861,8 @@
    "price_zh": "請見官網（官方未列入場費）",
    "free": true,
    "highlight": "每週六上午",
-   "summary_zh": "Launceston 每週六 8:30–12:30 舉行的社區農夫市集，販售塔州當季蔬果、肉品海鮮、乳製品、手工麵包糕點及在地酒款。",
-   "tip_zh": "風雨無阻照常營業，地點在 71 Cimitiere Street 停車場。",
+   "summary_zh": "Launceston 每週六 8:30–12:30 舉行的社區農夫市集，販售塔州在地農產與食品。",
+   "tip_zh": "地點在 71 Cimitiere Street 停車場，可由 Cimitiere Street 或 Cameron Street 進入。",
    "sources": [
     {
      "kind": "official",
@@ -922,7 +885,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未列入場費用。"
    },
    "schedule_zh": "每週六 8:30–12:30"
@@ -967,7 +930,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官網未載明免費搭乘的起始日。"
    },
    "area_zh": "塔州全境",
@@ -989,7 +952,7 @@
    "price_zh": "請見官網（官方未列入場費）",
    "free": true,
    "highlight": "每週日",
-   "summary_zh": "坎培拉知名的週日市集，位於 Kingston 的前公車廠房（Former Transport Depot），販售手作商品、服飾、首飾與各式餐點。",
+   "summary_zh": "坎培拉位於 Kingston 前公車廠房（Former Transport Depot）的週日市集，每週日 9:30–14:30 舉行。",
    "tip_zh": null,
    "sources": [
     {
@@ -1013,8 +976,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網未列出入場費用。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網未列出入場費用與攤位內容。"
    },
    "schedule_zh": "每週日 9:30–14:30",
    "hot": true
@@ -1198,7 +1161,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未載明主場地名稱。"
    }
   },
@@ -1248,11 +1211,11 @@
    "lng": 115.8738,
    "start": "2026-11-12",
    "end": "2026-11-12",
-   "price_zh": "請見官網（部分活動須購票）",
+   "price_zh": "免費入場（個別活動與工作坊須購票）",
    "free": true,
    "highlight": "每月第二個週四・免費",
-   "summary_zh": "每月第二個週四傍晚，East Perth 的 Perth City Farm 舉辦農場夜，提供咖啡廳餐飲、農場商店與市集攤位、排舞、藝術體驗與每月工作坊，並有免費導覽。",
-   "tip_zh": "11/12 為下一場；部分工作坊與排舞課須預約或購票，園內有免費場地導覽。",
+   "summary_zh": "每月第二個週四傍晚，East Perth 的 Perth City Farm 舉辦農場夜，可用餐、逛街、學習與參與活動，入場免費。",
+   "tip_zh": "11/12 為下一場；個別活動與工作坊須購票，可由 Claisebrook 車站步行前往。",
    "sources": [
     {
      "kind": "official",
@@ -1274,11 +1237,10 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網未載明入場是否免費與 11 月確切時段。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
-   "schedule_zh": "每月第二個週四傍晚（下一場 11/12）"
+   "schedule_zh": "每月第二個週四 17:00–20:00"
   },
   {
    "id": "transperth-free-sundays-go-anywhere-fare",
@@ -1348,7 +1310,7 @@
    "free": false,
    "highlight": "Telethon 優惠價",
    "summary_zh": "Rottnest Express 的 Telethon Saver 優惠：使用代碼 TELETHON，自 Fremantle 出發的當日來回 A$60、自 Perth 出發 A$89（不含 Perth Premium Ferry）。",
-   "tip_zh": "須於官網直接訂票並輸入代碼 TELETHON；座位有限，12/24 至 1/11 及 Rottnest Channel Swim 當日不適用，票款不可退。",
+   "tip_zh": "須於官網直接訂票並輸入代碼 TELETHON；票價含登島費，9 月至 4 月座位有限，12/24 至 1/11、聖誕節、節禮日及 Rottnest Channel Swim 當日不適用，票款不可退。",
    "sources": [
     {
      "kind": "official",
@@ -1364,9 +1326,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面未明載 Telethon 優惠價是否含登島費。"
+    "status": "verified",
+    "checked": "2026-11-03"
    }
   },
   {
@@ -1458,8 +1419,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面未註明 A$25 適用的票種，週五營業時間亦有出入。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方頁面未註明 A$25 適用的票種。"
    }
   },
   {
@@ -1478,7 +1439,7 @@
    "price_zh": "依活動而異，請見官網",
    "free": false,
    "highlight": "年度美酒盛會",
-   "summary_zh": "Margaret River 地區為期 4 天的年度美酒美食節，11/19–11/22 舉行，官方列出 20 多場活動，包括酒莊品飲、海灘俱樂部與森林長桌午宴。",
+   "summary_zh": "Margaret River 地區為期 4 天的年度美酒美食節，11/19–11/22 舉行，官方列出 20 多場活動，多數於酒莊與餐廳舉辦。",
    "tip_zh": "活動分散於各地，請事先參閱官網規劃行程。",
    "sources": [
     {
@@ -1514,8 +1475,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面未列出各場次票價與完整場地。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方頁面未列出票價。"
    }
   },
   {
@@ -1715,7 +1676,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-10"
   },
@@ -1737,7 +1698,7 @@
    "free": false,
    "highlight": "陽光海岸代表性市集",
    "summary_zh": "位於陽光海岸內陸的大型市集，包含 Original Eumundi Markets、Parkside Markets 與 Eumundi Square 等區域，週三與週六營業，週五僅 Eumundi Square 開放。",
-   "tip_zh": "各區域地點不同，Original Eumundi Markets 位於 80 Memorial Drive，行前請於官網確認。",
+   "tip_zh": "各區域地點不同，行前請於官網確認；週五僅 Eumundi Square 開放。",
    "sources": [
     {
      "kind": "official",
@@ -1760,7 +1721,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未載明入場費。"
    },
    "added": "2026-10-10"
@@ -2043,7 +2004,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未載明集合地點。"
    },
    "added": "2026-10-10"
@@ -2063,8 +2024,8 @@
    "end": null,
    "price_zh": "免費",
    "free": true,
-   "highlight": "免費導覽・小團",
-   "summary_zh": "阿德雷德遊客中心的 Adelaide Greeters 導覽由在地導覽員帶領市區行程，適合剛抵達阿德雷德、想熟悉市區環境的旅客。",
+   "highlight": "免費導覽・志工帶領",
+   "summary_zh": "阿德雷德遊客中心的 Adelaide Greeters 由志工導覽員帶領市區定向導覽，適合剛抵達阿德雷德、想熟悉市區環境的旅客。",
    "tip_zh": "須透過 Experience Adelaide 預約頁預約；平日場次位於 25 Pirie Street 的遊客中心。",
    "sources": [
     {
@@ -2094,8 +2055,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面未明列費用、時長與週末集合點。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "Experience Adelaide 頁面無法開啟，免費與時長依搜尋結果，週末集合點未能確認。"
    },
    "added": "2026-10-10",
    "schedule_zh": null
@@ -2227,8 +2188,8 @@
    "price_zh": "首期 A$13（原價 A$40）",
    "free": false,
    "highlight": "首期 A$13・前 3 次 90GB",
-   "summary_zh": "Vodafone A$40 Prepaid Plus 預付卡新門號於官網購買首期只要 A$13；啟用後 90 天內的前 3 次儲值（含啟用）每次可用 90GB（30GB 加 60GB 加量）。適合需要新門號、用量較大的旅客與打工度假者。",
-   "tip_zh": "限新門號且僅限官網購買，每筆訂單最多 2 張；加量優惠需於 11 月 3 日前啟用，購買與啟用時需提供身分證件。",
+   "summary_zh": "Vodafone A$40 Prepaid Plus 預付卡新門號首期只要 A$13；啟用後 90 天內的前 3 次儲值每次可用 90GB（30GB 加 60GB 加量），其後恢復每期 30GB。",
+   "tip_zh": "限新門號，於 2026/10/6 至 11/3 購買 A$40 Starter Pack 適用，優惠至 11/3 截止。",
    "sources": [
     {
      "kind": "official",
@@ -2239,48 +2200,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "Vodafone 官網頁面無法開啟，A$13 價格與 11/3 啟用期限僅由第三方比價網站確認。"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "village-cinemas-vrewards-super-tuesdays",
-   "type": "deal",
-   "title": "Vrewards Super Tuesdays",
-   "title_zh": "Village 影城會員週二半價",
-   "category": "entertainment",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-12",
-   "end": null,
-   "schedule_zh": "每週二",
-   "price_zh": "週二成人票 5 折",
-   "free": false,
-   "highlight": "會員週二半價",
-   "summary_zh": "Village Cinemas 會員每週二成人票 5 折。",
-   "tip_zh": "適用影廳、例外與條款以官網為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Village Cinemas – Vrewards Super Tuesdays",
-     "url": "https://villagecinemas.com.au/offers-and-promotions/vrewards-super-tuesdays"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Village Cinemas – Vrewards Student Wednesdays",
-     "url": "https://villagecinemas.com.au/offers-and-promotions/vrewards-student-wednesdays"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "Village 官網頁面無法開啟，週二 5 折內容與適用範圍未能確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "Vodafone 官網頁面無法開啟，優惠內容僅由官方頁面搜尋摘要確認。"
    },
    "added": "2026-10-12"
   },
@@ -2405,8 +2326,8 @@
    "schedule_zh": null,
    "price_zh": "遊行與市集未列票價",
    "free": false,
-   "highlight": "年度節慶・市集",
-   "summary_zh": "藍山 Blackheath 一年一度的杜鵑花節，2026 年節慶日為 11 月 7 日（週六），遊行於上午 11:30 出發（10:30 集合），沿 Wentworth Street 前進至 Hat Hill Road，當天設有節慶市集。",
+   "highlight": "年度節慶・遊行",
+   "summary_zh": "藍山 Blackheath 一年一度的杜鵑花節，2026 年遊行訂於 11 月 7 日（週六），10:30 集合、11:30 出發，沿 Wentworth Street 前進至 Hat Hill Road。",
    "tip_zh": "遊行與參加辦法請見官網 Parade 2026 頁面。",
    "sources": [
     {
@@ -2430,8 +2351,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面未列出入場費用與市集時間。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方頁面未列出入場費用與市集資訊。"
    },
    "added": "2026-10-12"
   },
@@ -2475,7 +2396,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-12"
   },
@@ -2487,7 +2408,7 @@
    "category": "market",
    "region": "NSW",
    "city": "Wollongong",
-   "venue": "Nan Tien Institute, 231 Nolan Street, Unanderra",
+   "venue": "Nan Tien Institute, 180 Berkeley Road, Berkeley",
    "lat": -34.4641,
    "lng": 150.8467,
    "start": "2026-11-07",
@@ -2514,7 +2435,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未列出入場費用。"
    },
    "added": "2026-10-12"
@@ -2664,7 +2585,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-12",
    "schedule_zh": "11/4 7:00–22:00"
@@ -2828,8 +2749,8 @@
   {
    "id": "optus-prepaid-sim-sale-100gb-13-oct-2026",
    "type": "deal",
-   "title": "Optus Prepaid SIM Sale – 100GB for $13 / 120GB for $17 (first 28 days)",
-   "title_zh": "Optus 預付卡首期 A$13 起",
+   "title": "Optus Prepaid SIM – 100GB for $13 (first recharge)",
+   "title_zh": "Optus 預付卡首期 A$13",
    "category": "shopping",
    "region": "AU",
    "city": null,
@@ -2838,11 +2759,11 @@
    "lng": null,
    "start": "2026-10-13",
    "end": "2026-11-03",
-   "price_zh": "首期 A$13（100GB）／A$17（120GB）；其後 A$40／A$50",
+   "price_zh": "首期 A$13（100GB）；其後 A$40",
    "free": false,
-   "highlight": "首期最低 A$13",
-   "summary_zh": "Optus Flex Plus 預付方案限時特價：A$40 方案首 28 天 A$13，A$50 方案首 28 天 A$17，開通時與其後兩次儲值分別享 100GB 與 120GB 數據。僅限新門號申辦，適合剛抵達澳洲、需要先辦一張手機卡的打工度假族。",
-   "tip_zh": "須設定自動儲值（AutoRecharge）並綁定信用卡或簽帳卡；關閉自動儲值或扣款失敗即無法再使用此儲值方案，第四期起數據降為每期 30GB（A$40）或 40GB（A$50）。",
+   "highlight": "首期 A$13・100GB",
+   "summary_zh": "Optus A$40 預付方案限時特價：首期 A$13，開通與其後兩次儲值享 100GB 數據，僅限新門號申辦，適合剛抵達澳洲、需要先辦手機卡的打工度假者。",
+   "tip_zh": "須設定自動儲值（AutoRecharge），關閉或扣款失敗即無法繼續使用此方案；第四期起每期 30GB（A$40）；優惠至 11/3 截止。",
    "sources": [
     {
      "kind": "official",
@@ -2859,8 +2780,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "Optus 官網頁面暫時無法開啟，價格與截止日（11 月 3 日）依比價網站的搜尋結果確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "Optus 官網頁面無法直接開啟，優惠內容由官方頁面搜尋摘要確認，A$17／120GB 方案未能確認故已移除。"
    },
    "added": "2026-10-13"
   },
@@ -3015,11 +2936,11 @@
    "start": "2026-11-07",
    "end": "2026-11-07",
    "schedule_zh": "14:00–19:00",
-   "price_zh": "免費入場（需先登記）",
+   "price_zh": "免費入場（品嚐、導覽與工作坊須先登記）",
    "free": true,
    "highlight": "免費・需登記",
    "summary_zh": "陽光海岸市政府主辦的免費親子活動，介紹聯合國教科文組織認定的陽光海岸生物圈，內容包括在地食品品嚐、手作活動、導覽自然步行與在地生產者展示。",
-   "tip_zh": "一般入場免費但須先在 Humanitix 登記；品嚐、導覽與工作坊名額有限。",
+   "tip_zh": "一般入場免費；品嚐、導覽與工作坊須先在 Humanitix 登記，名額有限。",
    "sources": [
     {
      "kind": "official",
@@ -3036,7 +2957,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-13"
   },
@@ -3057,7 +2978,7 @@
    "free": true,
    "highlight": "免費・逾 70 處建築與活動",
    "summary_zh": "每年一度的建築開放週末，2026 年 11 月 7 至 8 日於荷伯特及周邊逾 70 處建築與體驗開放，內容包括建築開放與導覽，適合對建築與城市歷史有興趣的人。",
-   "tip_zh": "部分建築與導覽須事先預約（透過 Eventbrite）；請參閱各建築頁面的入場條件。",
+   "tip_zh": "部分建築與導覽須事先預約，請參閱各建築頁面的入場條件。",
    "sources": [
     {
      "kind": "official",
@@ -3074,8 +2995,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網 FAQ 的免費與預約說明為 2025 年版本，2026 年細節以各建築頁面為準。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網 FAQ 未直接列出 2026 年細節，預約方式以各建築頁面為準。"
    },
    "added": "2026-10-13"
   },
@@ -3092,10 +3013,10 @@
    "lng": 146.3268,
    "start": "2026-11-01",
    "end": "2026-11-07",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "壁畫競賽・7 天",
-   "summary_zh": "「壁畫小鎮」Sheffield 每年舉辦的國際壁畫創作競賽與藝術節，2026 年 11 月 1 日至 7 日在 Mural Park 舉行，為期一週。",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "壁畫節・7 天",
+   "summary_zh": "Sheffield 國際壁畫創作競賽與藝術節，2026 年 11 月 1 日至 7 日在 Mural Park 舉行，為期一週。",
    "tip_zh": null,
    "sources": [
     {
@@ -3107,11 +3028,11 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網頁面內容被截斷，11 月 1 至 7 日日期依官方報名表的搜尋結果確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網頁面無法完整讀取，入場費與每日時程未能確認。"
    },
    "added": "2026-10-13",
-   "schedule_zh": "11/1 9:00 起開始壁畫競賽"
+   "schedule_zh": null
   },
   {
    "id": "coles-flybuys-pay-with-points-up-to-100-2026",
@@ -3505,8 +3426,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網未列票價與具體場地，僅標示 Marrickville，時間為 10:00–18:00。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網未列票價與具體場地。"
    },
    "added": "2026-10-15"
   },
@@ -3619,7 +3540,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未列出營業時間。"
    },
    "added": "2026-10-15"
@@ -3641,7 +3562,7 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "十日設計節",
-   "summary_zh": "以「Dissent」為主題的設計與工藝節，2026 年 11 月 5 日至 15 日於 Craft + Design Canberra 及市區各處舉行，節目超過 120 項，包括座談、講座、導覽、工作坊、開放工作室、設計市集，以及時尚、舞蹈與劇場演出。",
+   "summary_zh": "以「Dissent」為主題的設計與工藝節，2026 年 11 月 5 日至 15 日於 Craft + Design Canberra 及市區各處舉行，十天內共有超過 120 項活動。",
    "tip_zh": "票價與各場次是否免費，請以官網公告為準。",
    "sources": [
     {
@@ -3652,8 +3573,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
+    "status": "partial",
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方頁面未列票價與各場次是否免費。"
    },
    "added": "2026-10-15"
   },
@@ -3761,9 +3683,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面暫時無法開啟，10:00–16:00 與免費入場依搜尋結果的活動列表。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
    "added": "2026-10-16"
   },
@@ -3778,12 +3699,12 @@
    "venue": "Launceston 地區多個場地",
    "lat": -41.4332,
    "lng": 147.1441,
-   "start": "2026-11-05",
+   "start": "2026-11-02",
    "end": "2026-11-08",
    "price_zh": "部分活動免費，其餘付費（票價請見官網）",
    "free": false,
    "highlight": "部分免費・4 天",
-   "summary_zh": "以農夫、廚師與食材生產者為主題的飲食節，2026 年 11 月 5 日至 8 日在 Launceston 地區舉辦，包括晚宴、工作坊、論壇，以及部分免費活動（例如 11 月 8 日 QVMAG 的 REMADE 永續服飾展演）。",
+   "summary_zh": "以農夫、廚師與食材生產者為主題的飲食節，2026 年 11 月 2 日至 8 日在 Launceston 地區舉辦，包括晚宴、工作坊、論壇與紀錄片放映，部分活動免費（例如 11 月 8 日 QVMAG 的 REMADE 永續服飾展演）。",
    "tip_zh": "免費場次名額有限，官網已標示部分免費活動售罄，建議提早確認。付費活動需至官網購票。",
    "sources": [
     {
@@ -3795,7 +3716,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-16"
   },
@@ -3893,7 +3814,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-18"
   },
@@ -3959,7 +3880,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
+    "checked": "2026-11-03",
     "unconfirmed_zh": "官方頁面未列票價。"
    },
    "added": "2026-10-18"
@@ -3993,7 +3914,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-18"
   },
@@ -4015,7 +3936,7 @@
    "free": false,
    "highlight": "歷史遺址導覽・需預約",
    "summary_zh": "由 NPWS 舉辦的 Innes Ruins 歷史遺址導覽，11 月與 12 月共 4 場，須預約並自行開車隨工作人員車隊前往遺址。",
-   "tip_zh": "需自備車輛，由入口閘門至遺址約 4 公里，須與工作人員車隊同行；閘門於出發時上鎖，請提前 15 分鐘抵達。遺址可能因封閉措施而調整，出發前請查看 NPWS 警示。",
+   "tip_zh": "需自備車輛，由入口閘門至遺址約 4 公里，須與工作人員車隊同行；閘門於出發時上鎖，請提前 15 分鐘抵達。",
    "sources": [
     {
      "kind": "official",
@@ -4026,7 +3947,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-18"
   },
@@ -4099,7 +4020,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -4357,7 +4278,7 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・環保主題",
-   "summary_zh": "由莫頓灣市政府主辦的免費社區活動，主題為永續生活與減少廢棄物，設有工作坊與互動體驗，並邀請 ABC《The War on Waste》的 Craig Reucassel 出席，全家皆可參加。",
+   "summary_zh": "由莫頓灣市政府主辦的免費社區活動，主題為永續生活與減少廢棄物，邀請 ABC《The War on Waste》的 Craig Reucassel 出席。",
    "tip_zh": "活動時間為上午 9 時至下午 1 時，現場提供免費停車，校區鄰近 Petrie 車站；請自備水壺，現場提供免費過濾水。",
    "sources": [
     {
@@ -4369,7 +4290,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-24"
   },
@@ -4389,7 +4310,7 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・露天電影",
-   "summary_zh": "於 Manly 港灣公園舉辦的免費戶外電影夜，適合親子與家庭同遊。",
+   "summary_zh": "於 Manly 港灣 Little Bayside Park 舉辦的免費戶外電影夜，每月第一個週六舉行，放映片目請見官網。",
    "tip_zh": "夏季放映時間為晚上 7 時起，冬季為 6 時起，實際時間以官網公告為準。",
    "sources": [
     {
@@ -4407,7 +4328,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-24"
   },
@@ -4459,8 +4380,8 @@
    "end": "2026-11-22",
    "price_zh": "請見官網",
    "free": false,
-   "highlight": "年度盛事・50 週年",
-   "summary_zh": "慶祝創立 50 週年的義大利文化節，2026 年 11 月 1 日至 22 日於阿德雷德各處舉行，內容包含免費與售票活動。",
+   "highlight": "年度盛事・3 週",
+   "summary_zh": "義大利文化節，2026 年 11 月 1 日至 22 日於阿德雷德各處舉行，內容包含免費與售票活動。",
    "tip_zh": "完整節目與免費、收費場次請查看官網活動表。",
    "sources": [
     {
@@ -4472,8 +4393,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面被擋，11 月 14 日免費日與 22 日閉幕午宴未能確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方頁面未確認週年說明與場次票價。"
    },
    "added": "2026-10-24"
   },
@@ -4505,8 +4426,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面被擋，2026 年遊行路線與時間未能確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方頁面未明載免費觀賞與市區路線；experienceadelaide 頁面無法開啟。"
    },
    "added": "2026-10-24",
    "hot": true
@@ -4525,10 +4446,10 @@
    "area_zh": "澳洲各主要城市出發",
    "start": "2026-10-24",
    "end": "2026-11-17",
-   "price_zh": "Economy Lite 來回票價起：墨爾本—峇里島 A$565、布里斯本—Nadi A$675、布里斯本—峇里島 A$705；布里斯本—Port Vila A$549（售至另行通知）",
+   "price_zh": "Economy Lite 來回票價起：墨爾本—峇里島 A$565、布里斯本—Nadi A$675",
    "free": false,
    "highlight": "國際航線特價・峇里島與斐濟售至 11 月 17 日",
-   "summary_zh": "維珍澳洲官網公布的 Welcome Abroad 國際航線特價，涵蓋峇里島、斐濟、萬那杜與紐西蘭皇后鎮等航線；峇里島與斐濟票價售至 2026 年 11 月 17 日，其餘航線售至另行通知。",
+   "summary_zh": "維珍澳洲官網公布的 Welcome Abroad 國際航線特價，峇里島與斐濟票價售至 2026 年 11 月 17 日。",
    "tip_zh": "Economy Lite 票種不含座位選擇與託運行李，且不可取消；行程尚未確定者，宜選擇較具彈性的票種。",
    "sources": [
     {
@@ -4540,8 +4461,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網暫時無法開啟，Welcome Abroad 特價票價與販售期限未能確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網暫時無法開啟，布里斯本—峇里島與萬那杜票價及票種條件未能確認。"
    },
    "added": "2026-10-24"
   },
@@ -4558,23 +4479,28 @@
    "lng": null,
    "start": "2026-10-28",
    "end": "2026-11-15",
-   "price_zh": "15GB 首期 A$11（原價 A$30）；42GB 首期 A$12（原價 A$35）",
+   "price_zh": "15GB 首期 A$11；42GB 首期 A$12（原價 A$35）",
    "free": false,
    "highlight": "預付折扣・僅限新用戶",
-   "summary_zh": "amaysim 預付方案新用戶線上辦理，28 天 15GB 方案首期 A$11，28 天 42GB 方案首期 A$12 並加贈 33GB 數據（至 11 月 15 日前申辦）。",
-   "tip_zh": "僅限線上新啟用；官網的截止日未標年份，請以結帳頁條款為準。",
+   "summary_zh": "amaysim 預付方案新用戶線上辦理，28 天 15GB 方案首期 A$11，42GB 方案首期 A$12，並於前 3 次續約加贈 33GB 數據（至 11 月 15 日前申辦）。",
+   "tip_zh": "僅限線上新啟用，須於 2026 年 11 月 15 日前申辦、11 月 30 日前啟用。",
    "sources": [
     {
      "kind": "official",
      "platform": "官方網站",
-     "label": "amaysim – prepaid mobile plans",
+     "label": "amaysim – 首頁",
      "url": "https://www.amaysim.com.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "amaysim – 42GB 方案",
+     "url": "https://www.amaysim.com.au/sim-plans/28-day-sim-plans/unlimited-42gb"
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "15GB 方案與 33GB 加贈的截止日期，官網未標示年份，僅 42GB 方案由比價網站確認至 2026 年 11 月 15 日。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
    "added": "2026-10-28"
   },
@@ -4627,7 +4553,7 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "每週六・New Farm",
-   "summary_zh": "Brisbane Powerhouse 前方 Lamington St 每週六舉行的農夫市集。官網列出下一場為 10 月 31 日。",
+   "summary_zh": "Brisbane Powerhouse 前方 Lamington St 每週六舉行的農夫市集。",
    "tip_zh": null,
    "sources": [
     {
@@ -4644,9 +4570,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網未載明入場費。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
    "added": "2026-10-28"
   },
@@ -4789,8 +4714,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網未載明入場費。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官方頁面未列入場費用。"
    },
    "added": "2026-10-28"
   },
@@ -4860,7 +4785,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-28"
   },
@@ -4891,9 +4816,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網未標示起始日。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
    "added": "2026-10-28"
   },
@@ -4947,7 +4871,7 @@
    "price_zh": "成人 A$25 起",
    "free": false,
    "highlight": "國家公園導覽",
-   "summary_zh": "New South Wales 國家公園暨野生動物局在 Arakoon 國家公園內的 Trial Bay Gaol 舉辦黃昏導覽，介紹這座歷史監獄遺址。11 月場次為 6 日，12 月另有 4 日場次。",
+   "summary_zh": "New South Wales 國家公園暨野生動物局在 Arakoon 國家公園內的 Trial Bay Gaol 舉辦黃昏導覽，介紹這座歷史監獄遺址。11 月場次為 6 日，12 月另有 4 日、21 日與 28 日場次。",
    "tip_zh": "必須事先預約，可線上訂位或致電 1300 072 757；成人 A$25、優待票 A$21；集合點為監獄入口大門，建議穿包鞋並自備小手電筒。",
    "sources": [
     {
@@ -4959,7 +4883,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-28"
   },
@@ -5057,9 +4981,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方未公布結束日期。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5326,9 +5249,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方票務頁未列出片單與場次。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5360,7 +5282,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5398,7 +5320,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5536,7 +5458,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5612,9 +5534,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網首頁未公布票價，無法確認價格上限。"
+    "status": "verified",
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5648,39 +5569,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-10-31"
-   },
-   "added": "2026-10-31"
-  },
-  {
-   "id": "aldi-special-buys-2026-10-31-electrical-fashion",
-   "type": "deal",
-   "title": "ALDI Special Buys – Saturday 31st October 2026 (Electrical Sale, Family Fashion)",
-   "title_zh": "ALDI 10/31 家電與服飾特賣",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-31",
-   "end": null,
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "門市特賣",
-   "summary_zh": "ALDI 官網列出 2026 年 10 月 31 日（週六）門市上架的 Special Buys 主題為家電特賣（Electrical Sale）與家庭服飾（Family Fashion）。",
-   "tip_zh": "Special Buys 數量有限，各門市庫存不同，建議上架當天提早前往門市確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ALDI Australia – Special Buys 上架日程",
-     "url": "https://www.aldi.com.au/special-buys/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面未列出具體商品與價格。"
    },
    "added": "2026-10-31"
   },
@@ -5771,7 +5659,7 @@
    "price_zh": "成人 A$20／優待 A$17",
    "free": false,
    "highlight": "國家公園導覽",
-   "summary_zh": "由 NPWS 巡守員帶領登上新南威爾斯最高的燈塔，每場約 45 分鐘。園區入園費為每車每日 A$8。",
+   "summary_zh": "由 NPWS 巡守員帶領登上 Smoky Cape 燈塔，每場約 45 分鐘。園區入園費為每車每日 A$8。",
    "tip_zh": "須事先訂位，請至少提早 10 分鐘抵達步行上燈塔，並穿著包覆式平底耐穿鞋。",
    "sources": [
     {
@@ -5783,7 +5671,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5816,7 +5704,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-03"
    },
    "added": "2026-10-31"
   },
@@ -5884,8 +5772,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "預訂頁無法開啟，出發地點未能在官方頁面確認。"
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "預約頁面無法開啟，出發地點 Goolwa Wharf 未能確認。"
    },
    "added": "2026-10-31"
   },
