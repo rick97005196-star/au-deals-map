@@ -217,3 +217,12 @@
 - 2026-10-31｜活動 NT｜Million Dollar Fish｜https://www.milliondollarfish.com.au/｜北領地釣魚賽季官網，賽季日期與登記
 - 2026-10-31｜活動 WA｜City of Melville – What's on｜https://www.melvillecity.com.au/things-to-do/events/whats-on/perth-makers-market｜Melville 市政府活動頁，列日期、時間與免費
 - 2026-10-31｜活動 WA｜Perth Makers Market｜https://www.perthmakersmarket.com/｜伯斯手作市集 2026 場次、地點與時間
+- 2026-10-31｜活動 WA｜Perth Upmarket｜https://www.perthupmarket.com.au/｜伯斯設計市集場次、時間與免費入場
+- 2026-10-31｜活動 WA｜Fremantle Markets｜https://fremantlemarkets.com.au/trading-days-%26-hours｜Fremantle 市集營業日與時間
+- 2026-10-31｜活動 WA｜Walyalup Fremantle Arts Centre｜https://wfac.org.au/｜Fremantle 藝術中心免費週日音樂會與節目
+- 2026-10-31｜活動 WA｜Perth Festival｜https://www.perthfestival.com.au/｜Perth Festival 節目與 Lotterywest Films 戶外電影票價
+- 2026-10-31｜活動 WA｜Art Gallery of WA｜https://artgallery.wa.gov.au/｜西澳美術館開放時間與免費入場
+- 2026-10-31｜活動 WA｜Subi Farmers Market｜https://subifarmersmarket.com.au/｜Subiaco 週六農夫市集時間與地點
+- 2026-10-31｜活動 WA｜Scarborough Sunset Markets｜https://scarboroughsunsetmarkets.com/｜Scarborough 夕陽市集檔期
+- 2026-10-31｜活動 WA｜Eventfinda Perth / Fremantle RSS｜https://www.eventfinda.com.au/feed/events/perth/whatson/upcoming.rss｜伯斯與 Fremantle 活動 RSS（已加入 feeds.json）
+- 2026-10-31｜活動 WA｜So Perth｜https://soperth.com.au/feed｜伯斯在地活動媒體 RSS（已加入 feeds.json，僅作線索）

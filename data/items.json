@@ -7174,6 +7174,422 @@
     "checked": "2026-10-31"
    },
    "added": "2026-10-31"
+  },
+  {
+   "id": "perth-multicultural-festival-elizabeth-quay-2026",
+   "type": "event",
+   "title": "Perth Multicultural Festival 2026",
+   "title_zh": "伯斯多元文化節",
+   "category": "festival",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Elizabeth Quay, Perth",
+   "lat": -31.9578,
+   "lng": 115.8575,
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "schedule_zh": "11 月 14 日（六）、15 日（日）17:00–21:00",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "連續兩晚免費的多元文化舞台表演與各國小吃",
+   "summary_zh": "由 City of Perth 主辦、Lotterywest 支持的多元文化節，連續兩晚在 Elizabeth Quay 舉行，有各國舞台表演、街頭小吃與攤位，免費入場。",
+   "tip_zh": "活動期間 Elizabeth Quay 人行天橋每晚 16:00–22:30 關閉，建議搭火車或公車前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Perth – Perth Multicultural Festival（日期、時間與免費入場）",
+     "url": "https://www.visitperth.com/events/perth-multicultural-festival/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "agwa-art-gallery-wa-free-entry",
+   "type": "event",
+   "title": "Art Gallery of Western Australia – free entry",
+   "title_zh": "西澳美術館免費參觀",
+   "category": "arts",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Art Gallery of Western Australia, Perth Cultural Centre",
+   "lat": -31.9492,
+   "lng": 115.8606,
+   "start": "2026-10-31",
+   "end": null,
+   "schedule_zh": "每日 10:00–17:00",
+   "price_zh": "免費（可自由捐款）",
+   "free": true,
+   "highlight": "市中心的州立美術館免費參觀，每日開放",
+   "summary_zh": "位於 Perth Cultural Centre 的西澳州立美術館，參觀免費，入口設有自由捐款箱；2026 年底至 2027 年有多檔特展同時展出。",
+   "tip_zh": "鄰近 Perth 火車站，與西澳博物館 Boola Bardip 在同一區，可安排同一天參觀。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Art Gallery of WA – 官方網站（開放時間與免費入場）",
+     "url": "https://artgallery.wa.gov.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "perth-upmarket-uwa-nov-2026",
+   "type": "event",
+   "title": "Perth Upmarket – November 2026",
+   "title_zh": "Perth Upmarket 設計市集（11 月場）",
+   "category": "market",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Winthrop Hall, The University of Western Australia, Crawley",
+   "lat": -31.9797,
+   "lng": 115.8176,
+   "start": "2026-11-22",
+   "end": "2026-11-22",
+   "schedule_zh": "11 月 22 日（日）10:00–15:30",
+   "price_zh": "免費入場、免費停車",
+   "free": true,
+   "highlight": "200 多個本地設計、手作與美食攤位齊聚 UWA Winthrop Hall",
+   "summary_zh": "伯斯的大型設計市集，11 月場集合 200 多位本地藝術家、設計師與手作、美食品牌，免費入場。",
+   "tip_zh": "活動當日校園內可免費停車。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Perth Upmarket – November 2026 Details（日期、時間）",
+     "url": "https://www.perthupmarket.com.au/events/351/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Perth Upmarket – Visitor Information（免費入場與停車）",
+     "url": "https://www.perthupmarket.com.au/visitor_information/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "fremantle-markets-weekend-trading",
+   "type": "event",
+   "title": "Fremantle Markets",
+   "title_zh": "Fremantle Markets 週末市集",
+   "category": "market",
+   "region": "WA",
+   "city": "Fremantle",
+   "venue": "Fremantle Markets, South Terrace, Fremantle",
+   "lat": -32.0566,
+   "lng": 115.7484,
+   "start": "2026-10-31",
+   "end": null,
+   "schedule_zh": "每週五、六、日及週一國定假日；The Yard 美食區 8:00–18:00，Hall 館內 9:00–18:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "Fremantle 的歷史市集，每週五至週日與國定假日週一開放",
+   "summary_zh": "Fremantle 最具代表性的傳統市集，有生鮮、小吃、手工藝與紀念品攤位，每週五、六、日及週一國定假日營業；12 月 23、24、26 至 28 日加開，12 月 25 日休市。",
+   "tip_zh": "搭 Fremantle 線火車至 Fremantle 站，步行約 10 分鐘可達。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Fremantle Markets – Trading Days & Hours（營業日與時間）",
+     "url": "https://fremantlemarkets.com.au/trading-days-%26-hours"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "wfac-sunday-music-fremantle-2026-27",
+   "type": "event",
+   "title": "Sunday Music at Walyalup Fremantle Arts Centre 2026–27",
+   "title_zh": "Fremantle Arts Centre 週日免費音樂會",
+   "category": "music",
+   "region": "WA",
+   "city": "Fremantle",
+   "venue": "Walyalup Fremantle Arts Centre, 1 Finnerty Street, Fremantle",
+   "lat": -32.0491,
+   "lng": 115.753,
+   "start": "2026-10-18",
+   "end": "2027-03-21",
+   "schedule_zh": "每週日 14:00–16:00（2026 年 10 月 18 日至 2027 年 3 月 21 日）",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "整個夏季每週日下午的免費草地音樂會",
+   "summary_zh": "Walyalup Fremantle Arts Centre 的夏季週日音樂會系列，每週日下午由不同樂團與歌手在藝術中心前庭草地演出，免費入場。",
+   "tip_zh": "可自備野餐墊與食物；座位有限，建議提早到。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Walyalup Fremantle Arts Centre – Sunday Music 2026–27 完整陣容（檔期與免費）",
+     "url": "https://wfac.org.au/posts/big-summer-sundays-sunday-music-unveils-full-2026-27-lineup"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Walyalup Fremantle Arts Centre – Sunday Music 場次頁（時間 14:00–16:00）",
+     "url": "https://wfac.org.au/whats-on/post/sunday-music-jinan-grace-barbe/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "lotterywest-films-somerville-2026-27",
+   "type": "event",
+   "title": "Lotterywest Films 2026–27 (Perth Festival)",
+   "title_zh": "Perth Festival 戶外電影季 Lotterywest Films",
+   "category": "entertainment",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Somerville Auditorium, The University of Western Australia, Crawley",
+   "lat": -31.9806,
+   "lng": 115.8167,
+   "start": "2026-11-23",
+   "end": "2027-03-21",
+   "schedule_zh": "2026 年 11 月 23 日至 2027 年 3 月 21 日，放映場次以官網節目表為準；售票處 17:30 開放",
+   "price_zh": "一般票 $25；每週二全場 $12.50",
+   "free": false,
+   "highlight": "UWA 校園的戶外電影院，整個夏季放映各國影展片，週二半價",
+   "summary_zh": "Perth Festival 的戶外電影季，在 UWA Somerville Auditorium 露天放映國際影展影片，一般票 $25，每週二場次 $12.50。",
+   "tip_zh": "售票處 17:30 開放，只收卡、不收現金；風雨無阻照常放映。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Perth Festival – Lotterywest Films（檔期、票價、場地）",
+     "url": "https://www.perthfestival.com.au/program/season-2027/lotterywest-films"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "perth-christmas-carollers-forrest-place-2026",
+   "type": "event",
+   "title": "City of Perth Christmas Carollers and Performances",
+   "title_zh": "Perth 市中心聖誕報佳音與街頭表演",
+   "category": "music",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Forrest Place, Perth",
+   "lat": -31.9524,
+   "lng": 115.8594,
+   "start": "2026-12-01",
+   "end": "2026-12-27",
+   "schedule_zh": "12 月 1 日至 27 日，18:00–21:00（場次以官網為準）",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "整個 12 月傍晚在 Forrest Place 有免費聖誕歌唱與表演",
+   "summary_zh": "City of Perth 聖誕活動的一部分，12 月 1 日至 27 日傍晚在 Forrest Place 安排報佳音合唱團與街頭表演，免費觀賞。",
+   "tip_zh": "可與同期的聖誕燈飾步道一起安排，從 Forrest Place 步行即可到 Murray Street Mall 與 Yagan Square。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Perth – City of Perth Christmas Carollers and Performances（日期、時間、免費）",
+     "url": "https://www.visitperth.com/events/city-of-perth-christmas-carollers-and-performances/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "perth-christmas-nativity-concert-2026",
+   "type": "event",
+   "title": "Christmas Nativity Concert 2026",
+   "title_zh": "Perth 聖誕耶穌誕生音樂會",
+   "category": "music",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Forrest Place, Perth",
+   "lat": -31.9528,
+   "lng": 115.8598,
+   "start": "2026-12-20",
+   "end": "2026-12-21",
+   "schedule_zh": "12 月 20 日（日）、21 日（一）18:30–20:30",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "市中心廣場的免費聖誕音樂會，連演兩晚",
+   "summary_zh": "City of Perth 在 Forrest Place 舉辦的聖誕音樂會，以合唱與表演呈現耶穌誕生故事，連續兩晚免費演出。",
+   "tip_zh": "鄰近 Perth 火車站，可與同期的聖誕燈飾步道一併安排。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Perth – Christmas Nativity 2026（日期、時間、免費）",
+     "url": "https://www.visitperth.com/events/christmas-nativity-2026/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "brass-on-the-grass-victoria-gardens-2026",
+   "type": "event",
+   "title": "Brass on The Grass 2026",
+   "title_zh": "Victoria Gardens 草地銅管音樂會",
+   "category": "music",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Victoria Gardens, East Perth",
+   "lat": -31.9538,
+   "lng": 115.8757,
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "schedule_zh": "12 月 6 日（日）16:00–19:00",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "East Perth 河畔公園的免費銅管樂團音樂會",
+   "summary_zh": "City of Perth 聖誕系列活動之一，12 月 6 日傍晚在 East Perth 的 Victoria Gardens 舉行免費銅管樂團演出。",
+   "tip_zh": "戶外草地活動，建議自備野餐墊與防曬用品。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Perth – Brass on The Grass（日期、時間、免費）",
+     "url": "https://www.visitperth.com/events/brass-on-the-grass/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "subi-farmers-market-saturdays",
+   "type": "event",
+   "title": "Subi Farmers Market",
+   "title_zh": "Subiaco 週六農夫市集",
+   "category": "market",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Subiaco Primary School, 271 Bagot Road, Subiaco",
+   "lat": -31.9475,
+   "lng": 115.8285,
+   "start": "2026-10-31",
+   "end": null,
+   "schedule_zh": "每週六 8:00–12:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "伯斯近郊每週六早上的農夫市集，生鮮、麵包與熟食攤位",
+   "summary_zh": "位於 Subiaco 小學校園的常設農夫市集，每週六上午營業，販售本地蔬果、麵包、咖啡與熟食。",
+   "tip_zh": "建議自備購物袋。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Subi Farmers Market – 官方網站（每週六 8:00–12:00、地點）",
+     "url": "https://subifarmersmarket.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-10-31"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "perth-christmas-lights-trail-2026",
+   "type": "event",
+   "title": "Christmas Lights Trail 2026 (City of Perth)",
+   "title_zh": "Perth 市中心聖誕燈飾步道",
+   "category": "festival",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Perth CBD（Yagan Square、Forrest Place、Murray Street Mall、Barrack Square）",
+   "lat": -31.9535,
+   "lng": 115.859,
+   "start": "2026-11-27",
+   "end": "2026-12-27",
+   "schedule_zh": "11 月 27 日至 12 月 27 日，每晚 18:00–21:00",
+   "price_zh": "免費（戶外街道燈飾）",
+   "free": true,
+   "highlight": "市中心 24 組大型聖誕燈飾串成步道，每晚點燈一個月",
+   "summary_zh": "City of Perth 的聖誕燈飾步道，24 組燈光裝置串連 Yagan Square、Forrest Place、Murray Street Mall 與 Barrack Square 等地，可走完整路線或較短的 The Merry Mile，沿途有街頭表演。",
+   "tip_zh": "可與 Forrest Place 的聖誕報佳音表演一併安排。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Perth – Christmas in the City（燈飾步道日期與時間）",
+     "url": "https://www.visitperth.com/christmas"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-31",
+    "unconfirmed_zh": "官方頁面未標示票價；燈飾為市區街道上的公共裝置，依往年慣例免費參觀。"
+   },
+   "added": "2026-10-31"
+  },
+  {
+   "id": "scarborough-sunset-markets-2026-27",
+   "type": "event",
+   "title": "Scarborough Sunset Markets 2026–27",
+   "title_zh": "Scarborough 海灘夕陽市集",
+   "category": "market",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Scarborough Beach foreshore, The Esplanade, Scarborough",
+   "lat": -31.8944,
+   "lng": 115.757,
+   "start": "2026-11-05",
+   "end": "2027-04-29",
+   "schedule_zh": "2026 年 11 月 5 日至 2027 年 4 月 29 日，每週四傍晚 17:00–21:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "海灘邊的週四夕陽市集，整個夏季每週舉行",
+   "summary_zh": "Scarborough 海灘前的夏季夜市，每週四傍晚舉行，有美食與市集攤位，可一邊逛市集一邊看印度洋夕陽。",
+   "tip_zh": "傍晚海邊風大，建議帶薄外套。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Scarborough Sunset Markets – 官方網站（2026–27 檔期）",
+     "url": "https://scarboroughsunsetmarkets.com/"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "So Perth – Scarborough Sunset Markets 2026（每週四時間與免費入場）",
+     "url": "https://soperth.com.au/whats-on/scarborough-sunset-markets-2026-138322"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-10-31",
+    "unconfirmed_zh": "官網僅公布檔期；每週四 17:00–21:00 與免費入場資訊來自 So Perth 報導。"
+   },
+   "added": "2026-10-31"
   }
  ]
 }

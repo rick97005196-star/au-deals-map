@@ -114,6 +114,27 @@
    "for": "C"
   },
   {
+   "id": "ef-perth",
+   "url": "https://www.eventfinda.com.au/feed/events/perth/whatson/upcoming.rss",
+   "topic": "伯斯活動",
+   "region": "WA",
+   "for": "C"
+  },
+  {
+   "id": "ef-fremantle",
+   "url": "https://www.eventfinda.com.au/feed/events/fremantle/whatson/upcoming.rss",
+   "topic": "Fremantle 活動",
+   "region": "WA",
+   "for": "C"
+  },
+  {
+   "id": "soperth",
+   "url": "https://soperth.com.au/feed",
+   "topic": "伯斯在地活動報導",
+   "region": "WA",
+   "for": "C"
+  },
+  {
    "id": "rd-adelaide",
    "url": "https://www.reddit.com/r/Adelaide/.rss",
    "topic": "城市討論",
@@ -172,6 +193,11 @@
    "q": "Perth WA (\"free event\" OR festival OR \"things to do\")",
    "region": "WA",
    "for": "C"
+  },
+  {
+   "q": "(Transperth OR Transwa) (fare OR \"free travel\" OR \"free public transport\" OR SmartRider)",
+   "region": "WA",
+   "for": "E"
   },
   {
    "q": "Adelaide (\"free event\" OR festival OR \"things to do\")",
