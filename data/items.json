@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -7200,6 +7200,403 @@
     "checked": "2026-11-03"
    },
    "added": "2026-11-03"
+  },
+  {
+   "id": "telstra-prepaid-black-friday-13-28day-2026",
+   "type": "deal",
+   "title": "Telstra Pre-Paid Black Friday Sale – $44 28-Day Plan now $13",
+   "title_zh": "Telstra 預付卡黑五 28 天方案 A$13",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-03",
+   "end": "2026-11-30",
+   "price_zh": "28 天方案原價 A$44，首期 A$13",
+   "free": false,
+   "highlight": "預付卡首期優惠",
+   "summary_zh": "Telstra 黑色星期五檔期期間，新啟用 28 天 Pre-Paid 方案由 A$44 降至 A$13，可選 eSIM 或實體 SIM。方案含 65GB 流量（含 45GB 啟用贈送），適合需要全澳涵蓋範圍的短期停留者。",
+   "tip_zh": "僅限新啟用，之後續充按原價；優惠至 11 月 30 日 23:59（AEDT），65GB 僅適用前三次續充，之後為 20GB。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Telstra – Black Friday Sale (Pre-Paid)",
+     "url": "https://www.telstra.com.au/deals/black-friday"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Telstra – Pre-Paid SIM plans and rates",
+     "url": "https://www.telstra.com.au/mobile-phones/prepaid-mobiles/offers-and-rates"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-04"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "glassons-au-15-percent-off-first-order",
+   "type": "deal",
+   "title": "Glassons Australia – 15% off your first order",
+   "title_zh": "Glassons 新會員首單 85 折",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-04",
+   "end": null,
+   "price_zh": "首單 15% 折扣",
+   "free": false,
+   "highlight": "新會員折扣",
+   "summary_zh": "Glassons 澳洲官網提供訂閱電子報或下載 App 即享首筆訂單 15% 折扣的新會員優惠，適用於女裝購物。",
+   "tip_zh": "官網未列出折扣的限制與到期日，結帳前請確認條款。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Glassons Australia – homepage",
+     "url": "https://www.glassons.com/au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官網未公布此優惠的到期日與排除品項。"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "dfo-south-wharf-melbourne-outlet",
+   "type": "deal",
+   "title": "DFO South Wharf – Outlet Shopping Centre",
+   "title_zh": "墨爾本 DFO South Wharf 名牌 Outlet",
+   "category": "shopping",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "DFO South Wharf, 20 Convention Centre Pl",
+   "lat": -37.8243,
+   "lng": 144.9517,
+   "start": "2026-11-04",
+   "end": null,
+   "schedule_zh": "週五 10:00–21:00；週一、三至日 10:00–18:00",
+   "price_zh": "免費入場；品牌折扣依店家公布",
+   "free": true,
+   "highlight": "Outlet 購物中心",
+   "summary_zh": "位於墨爾本 South Wharf 的 Outlet，進駐 Calvin Klein、Coach、Nike Factory Outlet、Peter Alexander、Puma、Tommy Hilfiger 等品牌。官網目前列有 Michael Kors 全店 5 折（11 月 5 至 10 日）等期間限定優惠。",
+   "tip_zh": "各店折扣與期間不同，出發前請先看官網優惠頁。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO South Wharf",
+     "url": "https://www.south-wharf.dfo.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-04"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "flicks-fireworks-surfers-paradise-2026-11",
+   "type": "event",
+   "title": "Flicks & Fireworks, Surfers Paradise",
+   "title_zh": "Surfers 海灘露天電影與煙火",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Surfers Paradise 海灘（Surfers Paradise 招牌旁，2 Esplanade）",
+   "lat": -28.0023,
+   "lng": 153.4298,
+   "start": "2026-11-29",
+   "end": "2026-11-29",
+   "schedule_zh": "週日 19:00–21:30（另有 12/27）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・海灘電影",
+   "summary_zh": "黃金海岸 Surfers Paradise 海灘每月一次的露天電影，19:00 開演，20:00 在海面上施放煙火後繼續播映。",
+   "tip_zh": "建議自備野餐墊或矮背椅並提早到場；官方建議搭乘大眾運輸。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "What's On Gold Coast – Flicks & Fireworks, Surfers Paradise",
+     "url": "https://www.whatsongoldcoast.au/All-events/Flicks-and-Fireworks"
+    },
+    {
+     "kind": "community",
+     "platform": "社群",
+     "label": "Brisbane Kids – Flicks & Fireworks Surfers Paradise 29 Nov",
+     "url": "https://brisbanekids.com.au/event/flicks-fireworks-surfers-paradise/2026-11-29/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-04"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "maleny-music-festival-2026",
+   "type": "event",
+   "title": "Maleny Music Festival 2026",
+   "title_zh": "Maleny 音樂節 2026",
+   "category": "music",
+   "region": "QLD",
+   "city": "Maleny",
+   "venue": "Maleny Showground",
+   "lat": -26.76,
+   "lng": 152.85,
+   "start": "2026-11-06",
+   "end": "2026-11-08",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "3 天音樂節",
+   "summary_zh": "陽光海岸內陸 Maleny 的三天音樂節，演出涵蓋民謠、藍調、世界音樂與社區表演，並設有現場露營；陽光海岸市政府列為售票活動。",
+   "tip_zh": "Maleny 距離海岸較遠，大眾運輸有限，建議事先規劃交通。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sunshine Coast Council – 活動預告（Maleny Music Festival 6–8 November）",
+     "url": "https://www.sunshinecoast.qld.gov.au/news/spring-into-september-with-sunshine-coast-events"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "GC News – Award winning festival returns to Maleny 2026",
+     "url": "https://gcnews.com.au/award-winning-festival-returns-to-maleny-2026/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "票價官方頁面未列出，且市政府頁面未標示年份（年份由新聞報導確認為 2026）。"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "ministry-of-sound-summer-dance-festival-hota-2026",
+   "type": "event",
+   "title": "Ministry of Sound Summer Dance Festival",
+   "title_zh": "Ministry of Sound 夏季舞曲音樂節",
+   "category": "music",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "HOTA (Home of the Arts), 135 Bundall Road, Surfers Paradise",
+   "lat": -28.0014,
+   "lng": 153.411,
+   "start": "2026-12-04",
+   "end": "2026-12-04",
+   "schedule_zh": "16:00–22:00",
+   "price_zh": "A$149.95–269.95",
+   "free": false,
+   "highlight": "電音音樂節",
+   "summary_zh": "黃金海岸 HOTA 舉辦的單日電子舞曲音樂節，票價 A$149.95 至 269.95。",
+   "tip_zh": "購票前請於 HOTA 官網確認年齡限制；官方建議搭乘大眾運輸或步行前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "What's On Gold Coast – Ministry of Sound Summer Dance Festival",
+     "url": "https://www.whatsongoldcoast.au/All-events/Ministry-of-Sound-Summer-Dance-Festival"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "年齡限制官方頁面未列出。"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "wa-day-festival-burswood-2026",
+   "type": "event",
+   "title": "WA Day Festival 2026",
+   "title_zh": "WA Day 免費嘉年華",
+   "category": "festival",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Burswood Park",
+   "lat": -31.9606,
+   "lng": 115.8905,
+   "start": "2026-11-21",
+   "end": "2026-11-22",
+   "schedule_zh": "週六 10:00–21:30、週日 10:00–20:30",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・2 天",
+   "summary_zh": "西澳年度大型免費節慶，設有主舞台音樂演出、煙火、免費遊樂設施、Eat Street 餐車區與 Show Ski WA 水上滑水表演。入場免費，飲食、紀念品與部分活動另計。",
+   "tip_zh": "搭火車至 Burswood 站步行約 5 分鐘；官網建議行前查看道路封閉的交通地圖。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Celebrate WA – 2026 What's On",
+     "url": "https://celebratewa.com.au/2026-whats-on/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Celebrate WA – 2026 Music Lineup",
+     "url": "https://celebratewa.com.au/music/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Celebrate WA – Plan Your Visit",
+     "url": "https://celebratewa.com.au/plan-your-visit/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-04"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "adelaide-carols-by-candlelight-2026",
+   "type": "event",
+   "title": "St John Carols by Candlelight Adelaide 2026",
+   "title_zh": "阿德雷德燭光聖誕頌歌音樂會",
+   "category": "music",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Elder Park / Tarntanya Wama",
+   "lat": -34.9209,
+   "lng": 138.5963,
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "schedule_zh": "15:00 開放入場、20:30 音樂會、22:30 煙火",
+   "price_zh": "免費入場（不需票券）",
+   "free": true,
+   "highlight": "免費・煙火",
+   "summary_zh": "阿德雷德年度聖誕音樂會，下午起設有餐車、聖誕市集與社區音樂會，晚間為燭光音樂會並以煙火作結。入場免費，另提供付費保留座位。",
+   "tip_zh": "官方說明免費入場不需票券；可自備野餐墊提早入場取得位置。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Adelaide Carols by Candlelight",
+     "url": "https://adelaidecarols.com.au"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-04"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "red-bull-aeriality-scarborough-2026",
+   "type": "event",
+   "title": "Red Bull Aeriality",
+   "title_zh": "Red Bull Aeriality 水上摩托衝浪賽",
+   "category": "sport",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Scarborough Beach",
+   "lat": -31.8944,
+   "lng": 115.7566,
+   "start": "2026-11-07",
+   "end": "2026-11-08",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・衝浪賽",
+   "summary_zh": "以水上摩托車拖曳衝浪者入浪、進行空中動作的邀請賽，採單淘汰對戰。主辦單位依浪況於 11 月 7 日或 8 日其中一天舉行。",
+   "tip_zh": "實際舉辦日依浪況於賽前決定，出發前請先查看 Red Bull 官方頁面。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Red Bull – What is Red Bull Aeriality",
+     "url": "https://www.redbull.com/au-en/what-is-red-bull-aeriality"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-04"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "el-jannah-10-charcoal-chicken-2026",
+   "type": "deal",
+   "title": "El Jannah – $10 Charcoal Chicken with $25 Spend (code FEEDME10)",
+   "title_zh": "El Jannah 消費 A$25 加購炭烤全雞 A$10",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-02",
+   "end": "2026-11-29",
+   "price_zh": "A$25 消費加購炭烤全雞與中份 toum 共 A$10",
+   "free": false,
+   "highlight": "加購優惠",
+   "summary_zh": "El Jannah 官網公布，自 11 月 2 日起至 11 月 29 日，消費滿 A$25 並輸入優惠碼 FEEDME10，可加購一份炭烤全雞與中份 toum 醬，加購價 A$10。官網列為內用與自取適用。",
+   "tip_zh": "每筆交易限一份、數量有限；官網未說明適用州別，請先確認所在分店。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "El Jannah – homepage offer",
+     "url": "https://www.eljannah.com.au/"
+    },
+    {
+     "kind": "community",
+     "platform": "OzBargain",
+     "label": "$10 Charcoal Chicken with $25 Spend @ El Jannah",
+     "url": "https://www.ozbargain.com.au/node/981345"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官網未標示年份與適用州別（頁尾為 2026，11/2 為星期一，與 2026 年吻合；優惠碼由 OzBargain 確認）。"
+   },
+   "added": "2026-11-04"
+  },
+  {
+   "id": "rex-special-fares-regional-2026-27",
+   "type": "deal",
+   "title": "Rex Special Fares – regional one-way fares",
+   "title_zh": "Rex 區域航線特價單程票",
+   "category": "tickets",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "area_zh": "全澳區域航線",
+   "start": "2026-11-03",
+   "end": null,
+   "price_zh": "單程 A$149 起（依航線）",
+   "free": false,
+   "highlight": "區域航線特價",
+   "summary_zh": "Rex 官網列出 2026 年 11 月至 2027 年 6 月出發的區域航線單程特價，例如 Albury 至雪梨 A$195、Townsville 至 Cairns A$189、Albany 至伯斯 A$187，最低為 Wagga Wagga 至雪梨 A$149。每條航線僅列一個固定出發日。",
+   "tip_zh": "票價為單程、依艙位而定，另有付款與手續費；出發日固定，請在 rex.com.au 確認航線與日期。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Rex – Special Fares",
+     "url": "https://flights.rex.com.au/en/special-fares"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官方頁面未標示優惠截止日期。"
+   },
+   "added": "2026-11-04"
   }
  ]
 }

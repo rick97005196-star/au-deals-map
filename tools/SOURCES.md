@@ -242,3 +242,9 @@
 - 2026-11-03｜購物 AU｜H&M Australia 會員｜https://www2.hm.com/en_au/member/info.html｜入會即享 10% 折扣
 - 2026-11-03｜購物 AU｜Cotton On & Co. Perks｜https://cottonon.com/AU/perks/welcome/｜集點與免運規則
 - 2026-11-03｜購物 AU｜Bonds Rewards｜https://www.bonds.com.au/｜集點、Bonds Bucks 與會員免運
+- 2026-11-04｜購物 VIC｜DFO South Wharf｜https://www.south-wharf.dfo.com.au/｜DFO 各中心已改用獨立子網域，含營業時間與品牌優惠
+- 2026-11-04｜活動 WA｜Celebrate WA（WA Day Festival）｜https://celebratewa.com.au/2026-whats-on/｜西澳 WA Day 免費節慶官網，日期、節目表與交通
+- 2026-11-04｜活動 SA｜Adelaide Carols by Candlelight｜https://adelaidecarols.com.au｜阿德雷德聖誕頌歌音樂會官網，日期與免費入場說明
+- 2026-11-04｜活動 WA｜Red Bull Aeriality｜https://www.redbull.com/au-en/what-is-red-bull-aeriality｜Red Bull 賽事官方頁，日期與免費入場說明
+- 2026-11-04｜吃喝 AU｜El Jannah｜https://www.eljannah.com.au/｜炭烤雞連鎖官網首頁優惠與分店
+- 2026-11-04｜行程交通 AU｜Rex Special Fares｜https://flights.rex.com.au/en/special-fares｜Rex 區域航線特價單程票清單
