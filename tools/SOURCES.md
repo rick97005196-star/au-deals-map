@@ -226,3 +226,12 @@
 - 2026-10-31｜活動 WA｜Scarborough Sunset Markets｜https://scarboroughsunsetmarkets.com/｜Scarborough 夕陽市集檔期
 - 2026-10-31｜活動 WA｜Eventfinda Perth / Fremantle RSS｜https://www.eventfinda.com.au/feed/events/perth/whatson/upcoming.rss｜伯斯與 Fremantle 活動 RSS（已加入 feeds.json）
 - 2026-10-31｜活動 WA｜So Perth｜https://soperth.com.au/feed｜伯斯在地活動媒體 RSS（已加入 feeds.json，僅作線索）
+- 2026-11-03｜購物 QLD｜Harbour Town Gold Coast｜https://www.harbourtowngoldcoast.com.au/｜黃金海岸 Outlet 購物中心的營業時間、地址與折扣說明
+- 2026-11-03｜購物 SA｜Harbour Town Adelaide｜https://www.harbourtownadelaide.com.au/｜阿得雷德 Outlet 購物中心的營業時間、地址與折扣說明
+- 2026-11-03｜購物 WA｜Watertown Brand Outlet｜https://www.watertownbrandoutlet.com.au/｜伯斯品牌 Outlet 的營業時間與地址
+- 2026-11-03｜購物 NSW｜Birkenhead Point Brand Outlet｜https://www.birkenheadpoint.com.au/｜雪梨 Drummoyne 品牌 Outlet（Mirvac）
+- 2026-11-03｜購物 ACT｜Canberra Outlet｜https://www.canberraoutlet.com.au/｜坎培拉 Outlet 購物中心的營業時間與假日時段
+- 2026-11-03｜購物 AU｜DFO（Vicinity Centres）各中心官網｜https://www.dfo.com.au/｜brisbane／homebush／essendon／perth.dfo.com.au 各有營業時間與地址；South Wharf 子站這次讀不到
+- 2026-11-03｜購物 AU｜H&M Australia 會員｜https://www2.hm.com/en_au/member/info.html｜入會即享 10% 折扣
+- 2026-11-03｜購物 AU｜Cotton On & Co. Perks｜https://cottonon.com/AU/perks/welcome/｜集點與免運規則
+- 2026-11-03｜購物 AU｜Bonds Rewards｜https://www.bonds.com.au/｜集點、Bonds Bucks 與會員免運

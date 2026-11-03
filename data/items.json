@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31",
+ "updated": "2026-11-03",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -7590,6 +7590,459 @@
     "unconfirmed_zh": "官網僅公布檔期；每週四 17:00–21:00 與免費入場資訊來自 So Perth 報導。"
    },
    "added": "2026-10-31"
+  },
+  {
+   "id": "harbour-town-gold-coast-outlet",
+   "type": "deal",
+   "title": "Harbour Town Gold Coast Outlet Centre",
+   "title_zh": "Harbour Town 黃金海岸 Outlet 購物中心",
+   "category": "shopping",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Harbour Town Gold Coast, 147-189 Brisbane Road, Biggera Waters",
+   "lat": -27.9324,
+   "lng": 153.3896,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "週一至週五 9:00–17:30（週四延長至 19:00），週六 9:00–17:30，週日 10:00–17:00；聖誕節、耶穌受難日、ANZAC Day 與勞動節休息；各店時間可能不同",
+   "price_zh": "官網標示每日最高可享 70% 折扣（up to 70% off）；各店折扣不一",
+   "free": false,
+   "highlight": "Outlet 常態折扣・約 200 家門市",
+   "summary_zh": "官網稱為澳洲最大的 Outlet 購物中心，約 200 家門市，位於黃金海岸 Biggera Waters，官網標示每日最高可享 70% 折扣。",
+   "tip_zh": "官網設有 Tourist Discount Card（旅客折扣卡）方案，詳情以官網為準；各店營業時間可能不同。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Harbour Town Gold Coast – 官網",
+     "url": "https://www.harbourtowngoldcoast.com.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Harbour Town Gold Coast – 營業時間",
+     "url": "https://www.harbourtowngoldcoast.com.au/centre-services/opening-hours"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03",
+   "hot": true
+  },
+  {
+   "id": "harbour-town-adelaide-outlet",
+   "type": "deal",
+   "title": "Harbour Town Adelaide Premium Outlet",
+   "title_zh": "Harbour Town 阿得雷德 Outlet 購物中心",
+   "category": "shopping",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Harbour Town Adelaide, 727 Tapleys Hill Road, West Beach",
+   "lat": -34.9449,
+   "lng": 138.5219,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "週一至週三 9:00–17:30，週四 9:00–21:00，週五 9:00–17:30，週六 9:00–17:00，週日 10:00–17:00；多數國定假日 10:00–17:00，ANZAC Day 12:00–17:00，耶穌受難日與聖誕節休息；各店時間可能不同",
+   "price_zh": "官網標示每日最高可享 70% 折扣（up to 70% off）；各店折扣不一",
+   "free": false,
+   "highlight": "Outlet 常態折扣・超過 110 家門市",
+   "summary_zh": "官網稱為阿得雷德唯一的 premium outlet 購物中心，露天式商場，超過 110 家門市，距海灘與機場只需數分鐘車程，官網標示每日最高可享 70% 折扣。",
+   "tip_zh": "官網設有 Tourist Discount Card（旅客折扣卡）與 VIP Card 方案，詳情以官網為準；南澳規定較大型店面在國定假日不得營業，假日前往請先確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Harbour Town Adelaide – 官網",
+     "url": "https://www.harbourtownadelaide.com.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Harbour Town Adelaide – 營業時間",
+     "url": "https://www.harbourtownadelaide.com.au/centre-services/opening-hours"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "watertown-brand-outlet-perth",
+   "type": "deal",
+   "title": "Watertown Brand Outlet Perth",
+   "title_zh": "Watertown 伯斯品牌 Outlet",
+   "category": "shopping",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Watertown Brand Outlet, 840 Wellington St, West Perth",
+   "lat": -31.9468,
+   "lng": 115.8475,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "官網標示 9:00–17:30，各店時間可能不同，以官網為準",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・伯斯市區",
+   "summary_zh": "位於伯斯 West Perth 的 Wellington Street 的品牌 Outlet 商場，集合多家服飾與運動品牌的 Outlet 門市。",
+   "tip_zh": "各店營業時間與折扣不同，前往前可先在官網查看門市清單。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Watertown Brand Outlet – 官網（營業時間與地址）",
+     "url": "https://www.watertownbrandoutlet.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "birkenhead-point-outlet-sydney",
+   "type": "deal",
+   "title": "Birkenhead Point Brand Outlet",
+   "title_zh": "Birkenhead Point 雪梨品牌 Outlet",
+   "category": "shopping",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Birkenhead Point Brand Outlet, 19 Roseby Street, Drummoyne",
+   "lat": -33.8558,
+   "lng": 151.1627,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "週一至週三 10:00–17:30，週四 10:00–19:30，週五 10:00–17:30，週六 9:00–18:00，週日 10:00–18:00；各店時間可能不同",
+   "price_zh": "官網標示最高可享 70% 折扣（up to 70% off）；各店折扣不一",
+   "free": false,
+   "highlight": "Outlet 常態折扣・雪梨 Drummoyne",
+   "summary_zh": "雪梨 Drummoyne 的品牌 Outlet 商場，由 Mirvac 經營，官網標示最高可享 70% 折扣。",
+   "tip_zh": "各店營業時間可能不同，前往前請先在官網確認當日時間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Birkenhead Point Brand Outlet – 官網",
+     "url": "https://www.birkenheadpoint.com.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Birkenhead Point – 營業時間",
+     "url": "https://www.birkenheadpoint.com.au/visit/hours"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "canberra-outlet-fyshwick",
+   "type": "deal",
+   "title": "Canberra Outlet Centre",
+   "title_zh": "Canberra Outlet 購物中心",
+   "category": "shopping",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "Canberra Outlet, 337 Canberra Ave, Fyshwick",
+   "lat": -35.3372,
+   "lng": 149.1792,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "每日 10:00–18:00（官網列出的 2026 年假日時段大多相同，以官網為準）",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・免費停車",
+   "summary_zh": "坎培拉 Fyshwick 的 Outlet 購物中心，每日 10:00–18:00 營業，設有免費地下停車場。",
+   "tip_zh": "官網列有 2026 年各假日的營業時間，出發前可先查看。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Canberra Outlet – 官網（營業時間與地址）",
+     "url": "https://www.canberraoutlet.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "dfo-brisbane-airport-outlet",
+   "type": "deal",
+   "title": "DFO Brisbane (Skygate, Brisbane Airport)",
+   "title_zh": "DFO 布里斯本機場 Outlet",
+   "category": "shopping",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "DFO Brisbane, 18th Avenue, Skygate, Brisbane Airport",
+   "lat": -27.39,
+   "lng": 153.105,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "官網當日標示 10:00–18:00，各店時間可能不同，以官網為準",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・布里斯本機場旁",
+   "summary_zh": "布里斯本機場旁 Skygate 的 DFO Outlet 購物中心，集合多家設計師與運動品牌的 Outlet 門市，官網以「設計師品牌、沒有設計師價格」宣傳。",
+   "tip_zh": "位於機場區，抵達或離開布里斯本當天可順道前往；各店營業時間可能不同。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Brisbane – 官網（營業時間與地址）",
+     "url": "https://brisbane.dfo.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "dfo-homebush-sydney-outlet",
+   "type": "deal",
+   "title": "DFO Homebush",
+   "title_zh": "DFO 雪梨 Homebush Outlet",
+   "category": "shopping",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "DFO Homebush, 3-5 Underwood Rd, Homebush",
+   "lat": -33.8554,
+   "lng": 151.0768,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "官網當日標示 10:00–18:00，各店時間可能不同，以官網為準",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・雪梨 Homebush",
+   "summary_zh": "雪梨 Homebush 的 DFO Outlet 購物中心，集合多家品牌的 Outlet 門市。",
+   "tip_zh": "各店營業時間與折扣不同，前往前可先在官網查看門市清單。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Homebush – 官網（營業時間與地址）",
+     "url": "https://homebush.dfo.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "dfo-essendon-melbourne-outlet",
+   "type": "deal",
+   "title": "DFO Essendon",
+   "title_zh": "DFO 墨爾本 Essendon Outlet",
+   "category": "shopping",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "DFO Essendon, 100 Bulla Road, Essendon Fields",
+   "lat": -37.7341,
+   "lng": 144.9044,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "官網當日標示 10:00–18:00，各店時間可能不同，以官網為準",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・墨爾本 Essendon",
+   "summary_zh": "墨爾本 Essendon Fields 的 DFO Outlet 購物中心，集合多家品牌的 Outlet 門市，官網註明各店營業時間可能不同。",
+   "tip_zh": "各店營業時間與折扣不同，前往前可先在官網查看門市清單。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Essendon – 官網（營業時間與地址）",
+     "url": "https://essendon.dfo.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "dfo-perth-airport-outlet",
+   "type": "deal",
+   "title": "DFO Perth (Perth Airport)",
+   "title_zh": "DFO 伯斯機場 Outlet",
+   "category": "shopping",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "DFO Perth, 11 High Street, Perth Airport",
+   "lat": -31.9385,
+   "lng": 115.9486,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "官網當日標示 10:00–18:00，各店時間可能不同，以官網為準",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・伯斯機場旁",
+   "summary_zh": "伯斯機場區的 DFO Outlet 購物中心，集合多家品牌的 Outlet 門市。",
+   "tip_zh": "位於機場區，抵達或離開伯斯當天可順道前往；各店營業時間可能不同。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Perth – 官網（營業時間與地址）",
+     "url": "https://perth.dfo.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "hm-member-join-10-percent",
+   "type": "deal",
+   "title": "H&M Membership – 10% off when you join",
+   "title_zh": "H&M 免費會員入會享 10% 折扣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲",
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "長期方案，以官網為準",
+   "price_zh": "免費加入會員，官網標示入會即享 10% 折扣",
+   "free": false,
+   "highlight": "免費會員・入會折扣",
+   "summary_zh": "H&M 澳洲官網的會員方案可免費加入，官網標示加入即享 10% 折扣。",
+   "tip_zh": "折扣的使用方式與適用範圍以官網會員頁面為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "H&M Australia – Membership",
+     "url": "https://www2.hm.com/en_au/member/info.html"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "kathmandu-member-deals",
+   "type": "deal",
+   "title": "Kathmandu Member Deals (30–50% off selected items)",
+   "title_zh": "Kathmandu 會員享指定商品 30%–50% 折扣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲",
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "長期方案，品項不定期更換",
+   "price_zh": "官網標示會員享 30%–50% 折扣（限指定商品）",
+   "free": false,
+   "highlight": "會員折扣・戶外裝備",
+   "summary_zh": "戶外用品品牌 Kathmandu 官網首頁標示會員可享 30%–50% 折扣，例如指定 Epiq 羽絨外套 50% 折扣、指定美麗諾羊毛衣 30% 折扣，適合準備農場工作、露營或健行裝備的打工度假者。",
+   "tip_zh": "會員折扣僅限指定商品，品項與期間會更換，以官網當時標示為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Kathmandu Australia – Member Deals",
+     "url": "https://www.kathmandu.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-03",
+    "unconfirmed_zh": "官網首頁的會員折扣品項會定期更換，未列明結束日。"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "cotton-on-perks-rewards",
+   "type": "deal",
+   "title": "Cotton On & Co. Perks",
+   "title_zh": "Cotton On & Co. Perks 免費會員集點",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲",
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "長期方案，以官網為準",
+   "price_zh": "免費加入；消費 A$1 集 1 點，100 點可換 A$10 回饋",
+   "free": false,
+   "highlight": "免費會員・集點回饋",
+   "summary_zh": "Cotton On & Co. 的免費會員方案，消費 A$1 集 1 點，滿 100 點可換 A$10 回饋；加入後首筆 A$30 以上的訂單免運費，一般訂單 A$75 以上免運費。",
+   "tip_zh": "特價商品、捐款與禮品卡不列入集點；可透過官方 App 加入。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Cotton On & Co. – Perks",
+     "url": "https://cottonon.com/AU/perks/welcome/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
+  },
+  {
+   "id": "bonds-rewards-members",
+   "type": "deal",
+   "title": "Bonds Rewards",
+   "title_zh": "Bonds Rewards 免費會員集點與免運",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲",
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "長期方案，以官網為準",
+   "price_zh": "免費加入；消費 A$1 集 1 點，滿 100 點得 A$5 Bonds Bucks",
+   "free": false,
+   "highlight": "免費會員・澳洲會員免運",
+   "summary_zh": "內衣與基本款服飾品牌 Bonds 的免費會員方案，消費 A$1 集 1 點，滿 100 點可得 A$5 Bonds Bucks；官網標示澳洲會員享免運與免費退貨。",
+   "tip_zh": "官網不定期有限時折扣活動，結束日未必公布，以官網當時標示為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Bonds Australia – Bonds Rewards",
+     "url": "https://www.bonds.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-03"
+   },
+   "added": "2026-11-03"
   }
  ]
 }

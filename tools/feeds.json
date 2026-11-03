@@ -258,6 +258,11 @@
    "q": "(HOYTS OR \"Event Cinemas\" OR \"Village Cinemas\" OR museum) (cheap OR free OR deal) Australia",
    "region": "AU",
    "for": "A"
+  },
+  {
+   "q": "(DFO OR \"Harbour Town\" OR \"brand outlet\" OR Uniqlo OR \"Cotton On\" OR Kathmandu OR Bonds OR \"H&M\") (sale OR outlet OR \"off\" OR members)",
+   "region": "AU",
+   "for": "A"
   }
  ]
 }
