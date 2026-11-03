@@ -516,11 +516,16 @@ body{font:16px/1.75 var(--f-body)}
 .stub b{font-size:20px;font-weight:800;letter-spacing:.01em;font-variant-numeric:tabular-nums;white-space:nowrap}
 .stub span{font-size:12px;font-weight:700;letter-spacing:.06em;opacity:.95;white-space:nowrap}
 .card-body{display:flex;flex-direction:column;gap:8px;padding:14px 16px 14px;min-width:0}
-.card .card-top{padding-right:36px}
-.cat{font-weight:800;letter-spacing:.06em}
-.rcode{border-radius:4px;border-color:var(--ctl)}
-.tag-new,.tag-hot{border-radius:4px}
-.free-mark{display:inline-block;padding:0 6px;border:1px solid var(--deal-pin);border-radius:4px;background:var(--amber-soft);color:var(--free-ink);font-size:12px;font-weight:800;line-height:18px}
+.card .card-top{padding-right:36px;gap:6px}
+/* 卡片小標籤：統一 20px 高、4px 圓角、12px 字；分類用分類色淡底、州別用框線、新上架／熱門／免費用淡底加同色細框 */
+.cat,.rcode,.tag-new,.tag-hot,.free-mark{display:inline-flex;align-items:center;gap:4px;height:20px;padding:0 7px;border:1px solid transparent;border-radius:4px;font-size:12px;font-weight:600;line-height:1;letter-spacing:.03em;white-space:nowrap}
+.cat{color:var(--c,var(--ink));background:var(--c-soft,var(--tint));border-color:color-mix(in srgb,var(--c,var(--ink)) 32%,transparent);font-weight:700;letter-spacing:.06em}
+.rcode{color:var(--ink-2);background:var(--paper);border-color:var(--ctl);letter-spacing:.08em}
+.rcode.au{color:var(--paper);background:var(--ink);border-color:var(--ink)}
+.tag-new{color:var(--ok);background:var(--ok-soft);border-color:color-mix(in srgb,var(--ok) 32%,transparent)}
+.tag-new::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.tag-hot{color:var(--urgent);background:var(--urgent-soft);border-color:color-mix(in srgb,var(--urgent) 32%,transparent)}
+.free-mark{color:var(--free-ink);background:var(--amber-soft);border-color:var(--deal-pin);font-weight:700}
 .card-price{border-top:1px dashed var(--line-strong)}
 .btn-star{top:8px;right:8px;width:34px;height:34px;border-radius:4px;border:1px solid var(--line-strong);background:var(--paper)}
 .btn-star:hover{transform:none;border-color:var(--deal-pin)}
@@ -660,7 +665,7 @@ html[data-theme="dark"] .ozwh-hubnav-btn{border-color:#6B6B72;background:#1A1A1D
 html[data-theme="dark"] .ozwh-hubnav-btn:hover{background:#2A2A2F}
 html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
 /* 熱門：卡片徽章、快速篩選、地圖圖釘角標 */
-.tag-hot{display:inline-flex;align-items:center;gap:3px;font-weight:700}
+.tag-hot{font-weight:700}
 .tag-hot svg,.pin-hot svg{flex:none}
 .qt[data-quick="hot"]{grid-column:1/-1}
 .qt[data-quick="hot"] .ic{background:var(--urgent-soft);color:var(--urgent)}
