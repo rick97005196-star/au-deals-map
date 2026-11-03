@@ -17,7 +17,7 @@
    "price_zh": "A$12.81（原價 A$18.90）",
    "free": false,
    "highlight": "F1 週日限定",
-   "summary_zh": "Grill'd 為澳洲 F1 車手 Oscar Piastri 推出雞肉或和牛漢堡，Relish 會員於其出賽的週日可享特價 A$12.81（原價 A$18.90）。尚餘適用日期為 11/1、11/8、11/22、11/29 及 12/6。",
+   "summary_zh": "Grill'd 為澳洲 F1 車手 Oscar Piastri 推出雞肉或和牛漢堡，Relish 會員於其出賽的週日可享特價 A$12.81（原價 A$18.90）。尚餘適用日期為 11/8、11/22、11/29 及 12/6。",
    "tip_zh": "須為 Grill'd Relish 會員，優惠券會加入會員帳號，限當日使用，每筆訂單限用一張、一份標準漢堡；內用、外帶、官網／App、Drive-Thru 及 Grill'd Delivery 均適用，第三方外送平台不適用。",
    "sources": [
     {
@@ -35,7 +35,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "schedule_zh": "Piastri 出賽的週日"
   },
@@ -85,7 +85,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "schedule_zh": "每週二（Uber One 會員每天）"
   },
@@ -307,7 +307,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    }
   },
   {
@@ -344,7 +344,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "schedule_zh": "11:00–22:00"
   },
@@ -394,8 +394,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "Fair Day 票價官方尚未公布。"
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官方尚未公布 Fair Day 票價。"
    }
   },
   {
@@ -476,7 +476,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    }
   },
   {
@@ -496,7 +496,7 @@
    "free": false,
    "highlight": "60 組以上演出",
    "summary_zh": "Airlie Beach 年度音樂節，6–8 日多組藝人於約 15 個場地演出，主舞台位於海濱的 Whitsunday Sailing Club，2026 年陣容包括 Xavier Rudd、The Whitlams、Mental As Anything 等。",
-   "tip_zh": "限 18 歲以上；單日票 A$135、兩日票 A$250、3 日票 A$340（均另收手續費），11/5 前線上販售；3 日票含 11/5 歡迎派對及 11/9 After Party，亦可另行單獨購買（A$25／A$30）。",
+   "tip_zh": "限 18 歲以上；單日票 A$135、兩日票 A$250、3 日票 A$340（均另收手續費）；單日票須待官方公布完整節目後才開賣。3 日票含 11/5 歡迎派對及 11/9 After Party，亦可另行單獨購買（A$25／A$30）。",
    "sources": [
     {
      "kind": "official",
@@ -519,7 +519,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    }
   },
   {
@@ -568,7 +568,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "area_zh": "昆州全境",
    "hot": true
@@ -1010,7 +1010,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "area_zh": "坎培拉全區"
   },
@@ -1111,7 +1111,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "schedule_zh": "11/13–15、11/20–22 兩個週末"
   },
@@ -1376,7 +1376,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    }
   },
   {
@@ -1514,7 +1514,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10"
   },
@@ -1575,8 +1575,8 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "免費・Melt Festival",
-   "summary_zh": "荷蘭藝術家 Florentijn Hofman 的 15 公尺高粉紅橡皮鴨公共藝術漂浮於布里斯本河，由 Brisbane Powerhouse 作為 Melt Festival 的一部分呈現，免費觀賞。",
-   "tip_zh": "10/27 因天候橡皮鴨曾洩氣未下水，官方表示條件許可時會重新充氣，出發前建議先查看官網公告。",
+   "summary_zh": "荷蘭藝術家 Florentijn Hofman 的 15 公尺高粉紅橡皮鴨公共藝術，由 Brisbane Powerhouse 作為 Melt Festival 的一部分於布里斯本河呈現，免費觀賞，展期至 11/8。",
+   "tip_zh": "官方 10/28 公告指橡皮鴨受暴雨影響暫時下線，條件許可後才會返回，尚無回歸日期；出發前請先查看官網或致電 Brisbane Powerhouse。",
    "sources": [
     {
      "kind": "official",
@@ -1598,8 +1598,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "橡皮鴨目前是否在水面展出，官方尚未公布回歸日期。"
    },
    "added": "2026-10-10"
   },
@@ -1638,7 +1639,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10"
   },
@@ -1734,7 +1735,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10"
   },
@@ -1793,7 +1794,7 @@
    "price_zh": "平均較原價低 16.4%",
    "free": false,
    "highlight": "長期降價",
-   "summary_zh": "Woolworths 自 8/26 起新增 105 項 Lower Shelf Price 長期降價品項，總數達 1,035 項，官方稱平均較原標準價低 16.4%，新增品項包括絞肉、雞肉、雞蛋與起司等日常食材。",
+   "summary_zh": "Woolworths 自 8/26 起新增 105 項 Lower Shelf Price 長期降價品項，總數達 1,035 項，官方稱平均較原標準價低 16.4%，新增品項包括牛絞肉與雞胸肉等日常食材，門市可購買。",
    "tip_zh": "此為長期價格而非限時特價；品項及價格請見官網。",
    "sources": [
     {
@@ -1805,7 +1806,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10",
    "hot": true
@@ -1844,7 +1845,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10"
   },
@@ -1866,7 +1867,7 @@
    "free": false,
    "highlight": "聖誕美食採購",
    "summary_zh": "Good Food & Wine Show 聖誕特別版於 11/20–11/22 在 ICC Sydney 舉行，超過 200 家業者展售食品與節慶禮品，並有《The Great Australian Bake Off》沉浸式展覽、節慶廚房示範與兒童裝飾點心專區，適合家庭採買聖誕食材。",
-   "tip_zh": "週五晚場票價 A$34.95 最低；家庭票（2 大 2 小）A$69.95，門票於官方 Flicket 售票頁購買。",
+   "tip_zh": "週五票價 A$34.95 起為最低；家庭票（2 大 2 小）A$69.95 起，週六、日單日票 A$39.95 起。",
    "sources": [
     {
      "kind": "official",
@@ -1877,7 +1878,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10"
   },
@@ -1922,7 +1923,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10"
   },
@@ -2091,7 +2092,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10"
   },
@@ -2129,7 +2130,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-10",
    "schedule_zh": "Sydney Sights 每日 10:30（約 2.5 小時）；Sydney Highlights 週一、三、五、六 15:00（約 1.5 小時）；The Rocks 每日 18:00"
@@ -2190,19 +2191,20 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・植物園週年",
-   "summary_zh": "布里斯本市政府主辦的 Mt Coot-tha 植物園 50 週年紀念活動，可在園內野餐，認識參與植物園工作的團隊與組織，並沿歷史照片與故事步道了解植物園的發展。適合所有年齡層。",
+   "summary_zh": "布里斯本市政府主辦的 Mt Coot-tha 植物園 50 週年紀念活動，可在園內野餐，並透過展示了解植物園的早期歷史與相關人物。免費參加。",
    "tip_zh": "活動已由 10/25 延期至 11/29；不需預約。植物園位於 Toowong 的 152 Mt Coot-tha Road，可自備野餐用品。",
    "sources": [
     {
      "kind": "official",
      "platform": "官方網站",
-     "label": "Brisbane City Council – Celebrating 50 years of Brisbane Botanic Gardens Mt Coot-tha",
-     "url": "https://www.brisbane.qld.gov.au/events/celebrating-50-years-of-brisbane-botanic-gardens-mt-coot-tha/208878917"
+     "label": "Brisbane City Council – Celebrating 50 years of Brisbane Botanic Gardens Mt Coot-tha (postponed)",
+     "url": "https://www.brisbane.qld.gov.au/events/postponed-celebrating-50-years-of-brisbane-botanic-gardens-mt-coot-tha/208878917"
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官方活動頁無法直接開啟，內容依搜尋結果摘要確認。"
    },
    "added": "2026-10-12"
   },
@@ -2279,9 +2281,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未列出入場費用與市集資訊。"
+    "status": "verified",
+    "checked": "2026-11-04"
    },
    "added": "2026-10-12"
   },
@@ -2301,7 +2302,7 @@
    "price_zh": "20 項以上免費活動",
    "free": true,
    "highlight": "免費活動・10 天",
-   "summary_zh": "Central Coast Council 主辦的第 11 屆湖區節，為期 10 天，在中央海岸各地湖泊與水域周邊舉辦運動、親子、文化、教育、藝術與現場音樂活動，其中 20 項以上免費。",
+   "summary_zh": "Central Coast Council 主辦的湖區節，為期 10 天，在中央海岸各地湖泊與水域周邊舉辦運動、親子、文化、教育、藝術與現場音樂活動，其中 20 項以上免費。",
    "tip_zh": "各項活動地點與時段不同，部分活動須預約或另行收費，出發前請先查看官方節目表。",
    "sources": [
     {
@@ -2325,7 +2326,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-12"
   },
@@ -2363,9 +2364,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未列出入場費用。"
+    "status": "verified",
+    "checked": "2026-11-04"
    },
    "added": "2026-10-12"
   },
@@ -2404,7 +2404,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-12"
   },
@@ -2514,7 +2514,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-12",
    "schedule_zh": "11/4 7:00–22:00"
@@ -2671,7 +2671,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-12"
   },
@@ -2736,7 +2736,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-13"
   },
@@ -2757,8 +2757,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・海濱市集",
-   "summary_zh": "黃金海岸規模最大的海濱市集之一，匯集數百個手作與文創攤位，販售藝術設計品、服飾、禮品與居家用品，適合週日到海邊散步選購。",
-   "tip_zh": "剩餘開市日為 11/1、11/15、12/6、12/20；Kurrawa Park 停車位有限，建議步行或搭乘大眾運輸。",
+   "summary_zh": "位於 Kurrawa Park 的海濱市集，匯集數百個手作與文創攤位，販售藝術設計品、服飾、禮品與居家用品，適合週日到海邊散步選購。",
+   "tip_zh": "剩餘開市日為 11/15、12/6、12/20，8:00–14:00。",
    "sources": [
     {
      "kind": "official",
@@ -2769,7 +2769,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-13"
   },
@@ -2808,7 +2808,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-13"
   },
@@ -2847,7 +2847,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-13"
   },
@@ -2884,9 +2884,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網 FAQ 未直接列出 2026 年細節，預約方式以各建築頁面為準。"
+    "status": "verified",
+    "checked": "2026-11-04"
    },
    "added": "2026-10-13"
   },
@@ -2925,44 +2924,6 @@
    "schedule_zh": null
   },
   {
-   "id": "coles-flybuys-pay-with-points-up-to-100-2026",
-   "type": "deal",
-   "title": "Coles Pay with Points – up to $100 off your in-store shop with Flybuys",
-   "title_zh": "Coles 門市 Flybuys 點數折抵最高 A$100",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-07-15",
-   "end": null,
-   "price_zh": "每 2,000 點折 A$10，單筆最高折 A$100",
-   "free": false,
-   "highlight": "集點折抵",
-   "summary_zh": "Flybuys 會員在 Coles 超市門市結帳時，可直接用點數折抵購物金額，依點數與消費金額選擇折 A$10、20、30、50、70 或 100（20,000 點），適合平時在 Coles 累積點數的消費者。",
-   "tip_zh": "帳戶至少 2,000 點、單筆消費滿 A$10，每個帳戶每天限折抵一次，不適用線上購物、禮物卡與菸品，也不能與 Coles Pay 併用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Coles Group – Coles helps customers take $100 off their in store shop with 20,000 Flybuys points",
-     "url": "https://www.colesgroup.com.au/news/2026/media-releases/?page=coles-helps-customers-take-100-dollars-off-their-in-store-shop-with-20-000-flybuys-points"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Coles Group – media release PDF (15 July 2026)",
-     "url": "https://www.colesgroup.com.au/FormBuilder/_Resource/_module/2vcrTL60Bk6soyq7yornjg/150726_Media-Release-Coles-helps-customers-take-$100-off-their-in-store-shop.pdf"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
-   },
-   "added": "2026-10-13"
-  },
-  {
    "id": "gyg-yarrabilba-5-burritos-2026",
    "type": "deal",
    "title": "Welcome GYG Yarrabilba – $5 Burritos and Bowls",
@@ -2990,7 +2951,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-13",
    "schedule_zh": "11/11 7:00–22:00"
@@ -3101,7 +3062,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-13"
   },
@@ -3248,7 +3209,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-15"
   },
@@ -3282,7 +3243,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-15"
   },
@@ -3335,7 +3296,7 @@
    "area_zh": null,
    "start": "2026-10-06",
    "end": "2026-12-11",
-   "schedule_zh": "週三至週日 10:30、13:00、15:30（昆州學校假期另加班次）",
+   "schedule_zh": "每日第一班",
    "price_zh": "大人票 A$44（原價 A$56），以兒童票價搭乘",
    "free": false,
    "highlight": "早鳥優惠・兩棲觀光車",
@@ -3356,8 +3317,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
+    "status": "partial",
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官網頁面直接開啟時未顯示早鳥優惠與班次時間，依搜尋結果摘要確認。"
    },
    "added": "2026-10-15"
   },
@@ -3464,7 +3426,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "unconfirmed_zh": "官方頁面未列票價與各場次是否免費。"
    },
    "added": "2026-10-15"
@@ -3480,7 +3442,7 @@
    "venue": "Carriageworks（Wilson Street, Eveleigh）",
    "lat": -33.8977,
    "lng": 151.1958,
-   "start": "2026-10-28",
+   "start": "2026-11-04",
    "end": "2027-01-24",
    "schedule_zh": "每日開放，場次時間依日期而異",
    "price_zh": "請見官網（票價依日期與時段而異）",
@@ -3504,7 +3466,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-15"
   },
@@ -3638,7 +3600,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-18"
   },
@@ -3660,7 +3622,7 @@
    "free": false,
    "highlight": "年度聖誕音樂會",
    "summary_zh": "布里斯本市政府主辦的年度聖誕頌歌音樂會，於 City Botanic Gardens 的 Riverstage 舉行，並於 Roma Street Parkland 設免費直播場地。",
-   "tip_zh": "Riverstage 門票於 2026 年 11 月 10 日上午 10 時起在 Ticketmaster 開賣，每筆交易上限 6 張；免費直播不需登記。",
+   "tip_zh": "Riverstage 門票於 2026 年 11 月 11 日（週三）上午 10 時起在 Ticketmaster 開賣，每筆交易上限 6 張，5 歲以下免費票須與至少一張 13 歲以上票同筆購買；Roma Street Parkland 免費直播不需登記。",
    "sources": [
     {
      "kind": "official",
@@ -3671,7 +3633,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-18"
   },
@@ -3704,7 +3666,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-18"
   },
@@ -3737,7 +3699,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-18"
   },
@@ -3804,7 +3766,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-18"
   },
@@ -3837,42 +3799,9 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-18"
-  },
-  {
-   "id": "aldi-special-buys-2026-10-28",
-   "type": "deal",
-   "title": "ALDI Special Buys – Wednesday 28th October 2026",
-   "title_zh": "ALDI 10/28 特賣（食品特價）",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-28",
-   "end": null,
-   "schedule_zh": "每週三、週六更新（本筆為 10 月 28 日）",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "門市特賣",
-   "summary_zh": "ALDI 官網列出 2026 年 10 月 28 日（週三）門市上架的 Special Buys 類別，包括 Grocery Specials、兒童玩具與書籍、限時肉品與寵物用品。適合以門市採買日用食品者參考。",
-   "tip_zh": "Special Buys 商品數量有限，依門市庫存供應（售完為止），各門市價格可能不同，請依當地門市為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ALDI Australia – Special Buys 上架日程",
-     "url": "https://www.aldi.com.au/special-buys"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
-   },
-   "added": "2026-10-19"
   },
   {
    "id": "powerhouse-parramatta-opening-2026",
@@ -3892,7 +3821,7 @@
    "price_zh": "博物館與多數展覽免費入場；16 歲以下免費參觀所有展覽；部分節目票價請見官網",
    "free": false,
    "highlight": "2026 年 11 月開幕",
-   "summary_zh": "Powerhouse Parramatta 新館將於 2026 年 11 月 7 日開幕，首批五項大型展覽之一《The Mall》探討購物中心的歷史與文化意義。開幕節期間為 11 月 7 日至 29 日，約 65% 的節目為免費活動。",
+   "summary_zh": "Powerhouse Parramatta 新館將於 2026 年 11 月 7 日開幕，首批開幕展覽共五項，《The Mall》為其中之一。開幕節期間為 11 月 7 日至 29 日，約 65% 的節目為免費活動。",
    "tip_zh": "開幕節期間每日開放，週四至週日開放至晚間 9 點；節目與購票方式請見官網節目表。",
    "sources": [
     {
@@ -3910,7 +3839,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -3944,7 +3873,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -3979,7 +3908,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "lead": "其他",
    "added": "2026-10-22"
@@ -4052,7 +3981,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-23"
   },
@@ -4084,7 +4013,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-23"
   },
@@ -4180,7 +4109,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-24"
   },
@@ -4218,7 +4147,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-24"
   },
@@ -4422,7 +4351,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4481,7 +4410,7 @@
    "price_zh": "依場次而定，部分免費",
    "free": false,
    "highlight": "3 週藝文節慶",
-   "summary_zh": "由 Brisbane Powerhouse 製作的酷兒藝術與文化節，涵蓋表演、展覽與音樂。Melting Pot 為節期內的據點，場次票價各異。",
+   "summary_zh": "由 Brisbane Powerhouse 製作的 Melt Festival，節期為 2026 年 10 月 21 日至 11 月 8 日。Melting Pot 為節期內的據點，匯集酷兒藝術家在藝術、時尚與聲音等領域的創作，場次票價各異。",
    "tip_zh": "購票請至各場次頁面；The Huxleys 的 bloodlines 展覽免費。",
    "sources": [
     {
@@ -4499,7 +4428,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4516,7 +4445,7 @@
    "lng": 153.0508,
    "start": "2026-10-21",
    "end": "2026-11-08",
-   "schedule_zh": "每日 9:00–17:00",
+   "schedule_zh": "每日 9:00–17:00（11 月 3 至 7 日開放時間略有調整，請見官網）",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費展覽",
@@ -4532,7 +4461,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4565,7 +4494,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4643,7 +4572,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4675,7 +4604,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4740,7 +4669,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4773,7 +4702,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -4806,7 +4735,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-28"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-28"
   },
@@ -5140,7 +5069,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-31"
   },
@@ -5157,7 +5086,7 @@
    "lng": 153.0095,
    "start": "2026-11-05",
    "end": "2026-11-05",
-   "price_zh": "A$99.90 起（不含手續費）",
+   "price_zh": "A$79.90 起（不含手續費）",
    "free": false,
    "highlight": "體育場演唱會",
    "summary_zh": "Foo Fighters Take Cover 澳洲巡迴的布里斯本場，暖場為 Full Flower Moon Band 與 Mini Skirt。",
@@ -5172,7 +5101,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-31"
   },
@@ -5210,7 +5139,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-31"
   },
@@ -5348,7 +5277,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-31"
   },
@@ -5528,7 +5457,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-31"
   },
@@ -5561,7 +5490,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-31"
   },
@@ -5594,7 +5523,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-10-31"
   },
@@ -5928,7 +5857,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-11-03"
   },
@@ -6027,7 +5956,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-11-03"
   },
@@ -6065,7 +5994,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-11-03"
   },
@@ -6098,7 +6027,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-11-03"
   },
@@ -6130,7 +6059,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
+    "checked": "2026-11-04",
     "unconfirmed_zh": "官方頁面未列出開放時間與入場費。"
    },
    "added": "2026-11-03"
@@ -6169,7 +6098,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-04"
    },
    "added": "2026-11-03"
   },
@@ -6758,12 +6687,12 @@
    "lng": 115.859,
    "start": "2026-11-27",
    "end": "2026-12-27",
-   "schedule_zh": "11 月 27 日至 12 月 27 日，每晚 18:00–21:00",
-   "price_zh": "免費（戶外街道燈飾）",
-   "free": true,
-   "highlight": "市中心 24 組大型聖誕燈飾串成步道，每晚點燈一個月",
-   "summary_zh": "City of Perth 的聖誕燈飾步道，24 組燈光裝置串連 Yagan Square、Forrest Place、Murray Street Mall 與 Barrack Square 等地，可走完整路線或較短的 The Merry Mile，沿途有街頭表演。",
-   "tip_zh": "可與 Forrest Place 的聖誕報佳音表演一併安排。",
+   "schedule_zh": "11 月 27 日至 12 月 27 日，每晚 18:00 起（現場表演 18:00–21:00）",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "24 組燈飾・為期一個月",
+   "summary_zh": "City of Perth 的聖誕燈飾步道，24 組燈光裝置沿市中心串連，可走完整路線或適合親子的 The Merry Mile，Yagan Square、Forrest Place、Murray Street Mall 與 Barrack Square 一帶有巡迴表演者。",
+   "tip_zh": "12 月 1 日 18:00–21:00 於 Forrest Place 與 Murray Street Mall 另有聖誕頌歌表演；路線地圖官方尚未公布。",
    "sources": [
     {
      "kind": "official",
@@ -6774,8 +6703,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官方頁面未標示票價；燈飾為市區街道上的公共裝置，依往年慣例免費參觀。"
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官網未標示是否免費，路線地圖也尚未公布。"
    },
    "added": "2026-10-31"
   },
@@ -6795,9 +6724,9 @@
    "schedule_zh": "2026 年 11 月 5 日至 2027 年 4 月 29 日，每週四傍晚 17:00–21:00",
    "price_zh": "免費入場",
    "free": true,
-   "highlight": "海灘邊的週四夕陽市集，整個夏季每週舉行",
-   "summary_zh": "Scarborough 海灘前的夏季夜市，每週四傍晚舉行，有美食與市集攤位，可一邊逛市集一邊看印度洋夕陽。",
-   "tip_zh": "傍晚海邊風大，建議帶薄外套。",
+   "highlight": "每週四・免費入場",
+   "summary_zh": "Scarborough 海灘前的夏季夜市，每週四傍晚舉行，有 100 個以上攤位、各國餐車與在地手作商品。",
+   "tip_zh": "現場停車位有限，可搭乘免費的 Surf CAT 巴士（Stirling 車站至 Scarborough 海灘）。",
    "sources": [
     {
      "kind": "official",
@@ -6814,8 +6743,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-10-31",
-    "unconfirmed_zh": "官網僅公布檔期；每週四 17:00–21:00 與免費入場資訊來自 So Perth 報導。"
+    "checked": "2026-11-04",
+    "unconfirmed_zh": "官網未列時段與入場費，17:00–21:00 與免費入場取自 SO Perth 報導。"
    },
    "added": "2026-10-31"
   },
