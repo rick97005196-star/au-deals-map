@@ -1559,44 +1559,6 @@
    "hot": true
   },
   {
-   "id": "lebara-sim-plan-sale-nov-2026",
-   "type": "deal",
-   "title": "Lebara Prepaid SIM Plan Deals",
-   "title_zh": "Lebara 預付卡首期 A$9 起",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-10",
-   "end": "2026-11-03",
-   "price_zh": "A$30 方案首期 A$9；A$40 方案首期 A$15",
-   "free": false,
-   "highlight": "含國際通話",
-   "summary_zh": "Lebara 28 天預付方案首期優惠：A$30 方案首期 A$9、A$40 方案首期 A$15，皆含撥打美國、英國、日本等國家的無限國際通話，優惠至 11/3 止。",
-   "tip_zh": "限新客戶於線上購買，須於 11/3 前啟用；之後儲值恢復原價，合資格國家與條款請見官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Lebara – Prepaid deals",
-     "url": "https://www.lebara.com.au/prepaid-plans/deals/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Lebara – 28 day prepaid plans",
-     "url": "https://www.lebara.com.au/prepaid-plans/28-day/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-28"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "brisbane-rubber-duck-melt-2026",
    "type": "event",
    "title": "Rubber Duck – Melt Festival 2026",
@@ -2173,39 +2135,6 @@
    "schedule_zh": "Sydney Sights 每日 10:30（約 2.5 小時）；Sydney Highlights 週一、三、五、六 15:00（約 1.5 小時）；The Rocks 每日 18:00"
   },
   {
-   "id": "vodafone-prepaid-plus-40-sim-for-13-oct-2026",
-   "type": "deal",
-   "title": "Get a $40 Prepaid Plus SIM for $13",
-   "title_zh": "Vodafone 預付卡首期 A$13",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-06",
-   "end": "2026-11-03",
-   "price_zh": "首期 A$13（原價 A$40）",
-   "free": false,
-   "highlight": "首期 A$13・前 3 次 90GB",
-   "summary_zh": "Vodafone A$40 Prepaid Plus 預付卡新門號首期只要 A$13；啟用後 90 天內的前 3 次儲值每次可用 90GB（30GB 加 60GB 加量），其後恢復每期 30GB。",
-   "tip_zh": "限新門號，於 2026/10/6 至 11/3 購買 A$40 Starter Pack 適用，優惠至 11/3 截止。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Vodafone – Prepaid Plus plans and offer terms",
-     "url": "https://www.vodafone.com.au/prepaid/plans"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "Vodafone 官網頁面無法開啟，優惠內容僅由官方頁面搜尋摘要確認。"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "dendy-canberra-budget-tuesdays",
    "type": "deal",
    "title": "Budget Tue$days at Dendy Canberra",
@@ -2745,45 +2674,6 @@
     "checked": "2026-10-28"
    },
    "added": "2026-10-12"
-  },
-  {
-   "id": "optus-prepaid-sim-sale-100gb-13-oct-2026",
-   "type": "deal",
-   "title": "Optus Prepaid SIM – 100GB for $13 (first recharge)",
-   "title_zh": "Optus 預付卡首期 A$13",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-13",
-   "end": "2026-11-03",
-   "price_zh": "首期 A$13（100GB）；其後 A$40",
-   "free": false,
-   "highlight": "首期 A$13・100GB",
-   "summary_zh": "Optus A$40 預付方案限時特價：首期 A$13，開通與其後兩次儲值享 100GB 數據，僅限新門號申辦，適合剛抵達澳洲、需要先辦手機卡的打工度假者。",
-   "tip_zh": "須設定自動儲值（AutoRecharge），關閉或扣款失敗即無法繼續使用此方案；第四期起每期 30GB（A$40）；優惠至 11/3 截止。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Optus – Prepaid SIM plans (SIM Sale ends 03/11/26)",
-     "url": "https://www.optus.com.au/lol"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – Optus 100GB 28-Day Prepaid Plan for $13",
-     "url": "https://www.ozbargain.com.au/node/977849"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "Optus 官網頁面無法直接開啟，優惠內容由官方頁面搜尋摘要確認，A$17／120GB 方案未能確認故已移除。"
-   },
-   "added": "2026-10-13"
   },
   {
    "id": "nab-goodies-hoyts-discounted-tickets-2026",
