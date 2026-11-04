@@ -2487,39 +2487,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "gyg-nedlands-opening-5-burritos-2026",
-   "type": "deal",
-   "title": "Welcome GYG Nedlands – $5 Burritos and Bowls",
-   "title_zh": "GYG Nedlands A$5 捲餅與碗餐",
-   "category": "dining",
-   "region": "WA",
-   "city": "Perth",
-   "venue": "GYG Nedlands（Nedlands Square）",
-   "lat": -31.9795,
-   "lng": 115.8045,
-   "start": "2026-11-04",
-   "end": "2026-11-04",
-   "price_zh": "捲餅與碗餐 A$5",
-   "free": false,
-   "highlight": "新店 A$5 優惠",
-   "summary_zh": "Guzman y Gomez 伯斯 Nedlands 新門市（Nedlands Square，80 Stirling Highway）於 11 月 4 日（三）推出普通尺寸捲餅與碗餐 A$5 單日優惠，僅限門市購買。",
-   "tip_zh": "優惠僅限門市，不適用 GYG App，每位顧客可能有數量限制；當日營業時間為 7:00–22:00。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Guzman y Gomez – Welcome GYG Nedlands",
-     "url": "https://www.guzmanygomez.com.au/welcome-gyg-nedlands/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-04"
-   },
-   "added": "2026-10-12",
-   "schedule_zh": "11/4 7:00–22:00"
-  },
-  {
    "id": "vic-public-transport-half-price-2026",
    "type": "deal",
    "title": "Public transport now half price for everyone",
@@ -5524,36 +5491,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-04"
-   },
-   "added": "2026-10-31"
-  },
-  {
-   "id": "qantas-red-tail-sale-2026-11",
-   "type": "deal",
-   "title": "Qantas Australia Red Tail Sale",
-   "title_zh": "Qantas 國內線 Red Tail 特價",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "start": "2026-10-31",
-   "end": "2026-11-04",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "限時機票特價",
-   "summary_zh": "南澳觀光局頁面列出 Qantas Red Tail 特價，訂票期限至 2026 年 11 月 4 日。",
-   "tip_zh": "售完即止；請於 Qantas 官網確認航線、票價與旅行期間。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "South Australia – Holiday deals",
-     "url": "https://southaustralia.com/plan-a-trip/holiday-deals"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-31"
    },
    "added": "2026-10-31"
   },
