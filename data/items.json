@@ -344,7 +344,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "schedule_zh": "11:00–22:00"
   },
@@ -394,8 +394,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
-    "unconfirmed_zh": "官方尚未公布 Fair Day 票價。"
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "Fair Day 2026 票價官方尚未公布。"
    }
   },
   {
@@ -476,7 +476,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    }
   },
   {
@@ -496,7 +496,7 @@
    "free": false,
    "highlight": "60 組以上演出",
    "summary_zh": "Airlie Beach 年度音樂節，6–8 日多組藝人於約 15 個場地演出，主舞台位於海濱的 Whitsunday Sailing Club，2026 年陣容包括 Xavier Rudd、The Whitlams、Mental As Anything 等。",
-   "tip_zh": "限 18 歲以上；單日票 A$135、兩日票 A$250、3 日票 A$340（均另收手續費）；單日票須待官方公布完整節目後才開賣。3 日票含 11/5 歡迎派對及 11/9 After Party，亦可另行單獨購買（A$25／A$30）。",
+   "tip_zh": "限 18 歲以上；單日票 A$135、兩日票 A$250、3 日票 A$340（均另收手續費，現場購票價格較高）。3 日票含歡迎派對及 After Party，亦可另行單獨購買（A$25／A$30）。",
    "sources": [
     {
      "kind": "official",
@@ -519,7 +519,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    }
   },
   {
@@ -1639,7 +1639,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-10"
   },
@@ -2282,7 +2282,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-12"
   },
@@ -2303,7 +2303,7 @@
    "free": true,
    "highlight": "免費活動・10 天",
    "summary_zh": "Central Coast Council 主辦的湖區節，為期 10 天，在中央海岸各地湖泊與水域周邊舉辦運動、親子、文化、教育、藝術與現場音樂活動，其中 20 項以上免費。",
-   "tip_zh": "各項活動地點與時段不同，部分活動須預約或另行收費，出發前請先查看官方節目表。",
+   "tip_zh": "各項活動地點與時段不同，出發前請先查看官方節目表。",
    "sources": [
     {
      "kind": "official",
@@ -2326,7 +2326,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-12"
   },
@@ -2365,7 +2365,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-12"
   },
@@ -2796,7 +2796,7 @@
    "price_zh": "免費入場（品嚐、導覽與工作坊須先登記）",
    "free": true,
    "highlight": "免費・需登記",
-   "summary_zh": "陽光海岸市政府主辦的免費親子活動，介紹聯合國教科文組織認定的陽光海岸生物圈，內容包括在地食品品嚐、手作活動、導覽自然步行與在地生產者展示。",
+   "summary_zh": "陽光海岸市政府主辦的免費活動，介紹陽光海岸生物圈，內容包括在地食品與飲品品嚐、手作活動、導覽自然步行及生物圈聲景與故事分享。",
    "tip_zh": "一般入場免費；品嚐、導覽與工作坊須先在 Humanitix 登記，名額有限。",
    "sources": [
     {
@@ -2814,7 +2814,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-13"
   },
@@ -2851,8 +2851,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-04"
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官網尚未公布建築總數，逾 70 處引自媒體報導。"
    },
    "added": "2026-10-13"
   },
@@ -3393,7 +3394,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
+    "checked": "2026-11-05",
     "unconfirmed_zh": "官方頁面未列票價與各場次是否免費。"
    },
    "added": "2026-10-15"
@@ -3617,11 +3618,11 @@
    "lng": 145.784,
    "start": "2026-11-07",
    "end": "2026-11-07",
-   "schedule_zh": "11/7 7:00–13:00",
-   "price_zh": "免費入場",
+   "schedule_zh": "11/7（時間請見官網）",
+   "price_zh": "請見官網",
    "free": true,
-   "highlight": "免費・每月市集",
-   "summary_zh": "凱恩斯市議會官網列出的 Gordonvale 小屋市集，於 Norman Park 舉行，由 Gordonvale Scout Group 主辦。",
+   "highlight": "每月市集",
+   "summary_zh": "Gordonvale 小屋市集每月第一個週六於 Norman Park 舉行，由 Gordonvale Scout Group 主辦。",
    "tip_zh": "最新資訊請見主辦單位活動網站 gordonvalecottagemarkets.com.au。",
    "sources": [
     {
@@ -3632,8 +3633,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-04"
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官方頁面無法確認市集時間與入場費用。"
    },
    "added": "2026-10-18"
   },
@@ -3733,7 +3735,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-18"
   },
@@ -3806,7 +3808,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -4076,7 +4078,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-24"
   },
@@ -4114,7 +4116,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-24"
   },
@@ -4571,7 +4573,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-28"
   },
@@ -4669,7 +4671,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-28"
   },
@@ -5036,7 +5038,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-31"
   },
@@ -5068,7 +5070,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-31"
   },
@@ -5106,7 +5108,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-31"
   },
@@ -5244,7 +5246,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-31"
   },
@@ -5408,7 +5410,7 @@
    "lng": 151.2808,
    "start": "2026-11-08",
    "end": "2026-11-29",
-   "schedule_zh": "11 月 8 日與 29 日，每日 10:30、11:30、12:30 三個場次",
+   "schedule_zh": "11 月 8 日與 29 日，10:30、11:30、12:30 三個場次",
    "price_zh": "成人 A$25／優待 A$21",
    "free": false,
    "highlight": "國家公園導覽",
@@ -5424,7 +5426,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-31"
   },
@@ -5457,7 +5459,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-31"
   },
@@ -5490,7 +5492,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-10-31"
   },
@@ -5794,7 +5796,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-11-03"
   },
@@ -5881,7 +5883,7 @@
    "price_zh": "A$25（學生或優待票 A$22.50）",
    "free": false,
    "highlight": "無兒童夜間場",
-   "summary_zh": "每月第一個週四晚間的夜間開放活動，可在無兒童的環境中參觀博物館，設有現場 DJ，並供應來自館內咖啡廳的飲品與點心。",
+   "summary_zh": "夜間開放活動，可在無兒童的環境中參觀墨爾本博物館，設有現場 DJ，並供應來自館內 Museum Market Café 的飲品與點心。",
    "tip_zh": "需事先於 Museums Victoria 網站訂票。",
    "sources": [
     {
@@ -5893,7 +5895,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-11-03"
   },
@@ -5931,7 +5933,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-11-03"
   },
@@ -5964,7 +5966,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-11-03"
   },
@@ -5996,7 +5998,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
+    "checked": "2026-11-05",
     "unconfirmed_zh": "官方頁面未列出開放時間與入場費。"
    },
    "added": "2026-11-03"
@@ -6680,7 +6682,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
+    "checked": "2026-11-05",
     "unconfirmed_zh": "官網未列時段與入場費，17:00–21:00 與免費入場取自 SO Perth 報導。"
    },
    "added": "2026-10-31"
@@ -7303,6 +7305,12 @@
     {
      "kind": "official",
      "platform": "官方網站",
+     "label": "Maleny Music Festival – 官方網站",
+     "url": "https://malenymusicfestival.com"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
      "label": "Sunshine Coast Council – 活動預告（Maleny Music Festival 6–8 November）",
      "url": "https://www.sunshinecoast.qld.gov.au/news/spring-into-september-with-sunshine-coast-events"
     },
@@ -7315,8 +7323,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
-    "unconfirmed_zh": "票價官方頁面未列出，且市政府頁面未標示年份（年份由新聞報導確認為 2026）。"
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "票價官方頁面未列出。"
    },
    "added": "2026-11-04"
   },
@@ -7460,7 +7468,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-05"
    },
    "added": "2026-11-04"
   },
