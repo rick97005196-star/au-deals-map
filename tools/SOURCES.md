@@ -248,3 +248,7 @@
 - 2026-11-04｜活動 WA｜Red Bull Aeriality｜https://www.redbull.com/au-en/what-is-red-bull-aeriality｜Red Bull 賽事官方頁，日期與免費入場說明
 - 2026-11-04｜吃喝 AU｜El Jannah｜https://www.eljannah.com.au/｜炭烤雞連鎖官網首頁優惠與分店
 - 2026-11-04｜行程交通 AU｜Rex Special Fares｜https://flights.rex.com.au/en/special-fares｜Rex 區域航線特價單程票清單
+- 2026-11-05｜活動 ACT｜Handmade Canberra｜https://handmadecanberra.com.au｜坎培拉手作市集日期與地點
+- 2026-11-05｜活動 NSW｜The Finders Keepers｜https://thefinderskeepers.com｜雪梨設計市集日期與票價
+- 2026-11-05｜活動 ACT｜SpringOUT｜https://springout.com.au｜坎培拉驕傲節活動官網
+- 2026-11-05｜活動 NSW｜Just For Laughs Sydney｜https://justforlaughs.sydney｜雪梨喜劇節場次與日期

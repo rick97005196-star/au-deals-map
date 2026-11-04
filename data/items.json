@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -7542,6 +7542,579 @@
     "unconfirmed_zh": "官方頁面未標示優惠截止日期。"
    },
    "added": "2026-11-04"
+  },
+  {
+   "id": "lebara-25-sim-9-first-28-days-2026",
+   "type": "deal",
+   "title": "Lebara $25 SIM Plan – $9 for the first 28 days",
+   "title_zh": "Lebara 預付卡 25GB 首期 A$9",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "start": "2026-11-04",
+   "end": "2026-12-03",
+   "price_zh": "首 28 天 A$9（原價 A$25）",
+   "free": false,
+   "highlight": "新客首期優惠",
+   "summary_zh": "Lebara 官網標示 25GB 預付方案，新客首次 28 天儲值 A$9，內含 35 個國家／地區的標準國際通話與簡訊。適合短期停留、需要便宜澳洲門號的使用者。",
+   "tip_zh": "僅限新客在線上購買，以信用卡、簽帳卡或 PayPal 付款；第二期起恢復原價，官方保留延長優惠的權利。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Lebara – $25 SIM Plan",
+     "url": "https://www.lebara.com.au/mobile-plan/small-sim"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Lebara – prepaid promotions",
+     "url": "https://www.lebara.com.au"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-05"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "target-au-10-off-first-online-order-2026",
+   "type": "deal",
+   "title": "Target Australia – $10 off your first online order of $50",
+   "title_zh": "Target 新訂閱電子報首次網購折 A$10",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "start": "2026-11-05",
+   "end": null,
+   "price_zh": "首次線上訂單滿 A$50 折 A$10",
+   "free": false,
+   "highlight": "新客折扣",
+   "summary_zh": "Target Australia 官網標示，新訂閱電子報者首次線上訂單滿 A$50 可折抵 A$10；官網另提供逾 A$60 免運費與 2 小時門市取貨服務。",
+   "tip_zh": "電子優惠券為單次使用，不可與其他優惠併用，運費與清倉商品不適用，發送後 30 天內有效。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Target Australia – homepage offers",
+     "url": "https://www.target.com.au"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官網未標示此優惠的結束日期。"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "sydney-attractions-combo-pass-2026",
+   "type": "deal",
+   "title": "Sydney Tower Eye, Madame Tussauds, SEA LIFE and WILD LIFE – multi-attraction passes",
+   "title_zh": "雪梨景點多館聯票 A$49 起",
+   "category": "entertainment",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Sydney Tower Eye / Madame Tussauds Sydney",
+   "lat": -33.8704,
+   "lng": 151.2089,
+   "start": "2026-11-05",
+   "end": null,
+   "price_zh": "2 館 A$49 起、3 館 A$54 起、4 館 A$59 起",
+   "free": false,
+   "highlight": "聯票優惠",
+   "summary_zh": "官方頁面列出雪梨塔觀景台、Madame Tussauds、SEA LIFE 與 WILD LIFE 的聯票，2 館 A$49 起，另一館須於 60 天內參觀。適合在雪梨停留數週的旅客。",
+   "tip_zh": "需預約入場時段；其他景點的時段須在各自官網預約。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sydney Tower Eye – tickets and passes",
+     "url": "https://www.sydneytowereye.com.au/tickets-passes"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Madame Tussauds Sydney – tickets",
+     "url": "https://www.madametussauds.com/sydney/en/tickets/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官網未標示聯票優惠的截止日期。"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "agnsw-free-entry-wednesday-late-2026",
+   "type": "deal",
+   "title": "Art Gallery of NSW – free general entry, open until 10pm Wednesdays",
+   "title_zh": "雪梨 AGNSW 免費入場與週三夜間開放",
+   "category": "entertainment",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Art Gallery of New South Wales",
+   "lat": -33.8688,
+   "lng": 151.2174,
+   "start": "2026-11-05",
+   "end": null,
+   "schedule_zh": "每日 10:00–17:00；週三至 22:00",
+   "price_zh": "一般入場免費（特展另收費）",
+   "free": true,
+   "highlight": "免費入場・週三夜間",
+   "summary_zh": "雪梨新南威爾斯美術館一般參觀免費，每週三開放至晚間 10 點；官網列出多項 2026 至 2027 年免費展覽。",
+   "tip_zh": "部分特展須購票，例如 Nolan Origins；Takashi Murakami 特展 12 月 5 日開幕。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "AGNSW – plan your visit",
+     "url": "https://www.artgallery.nsw.gov.au/visit/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "AGNSW – what's on",
+     "url": "https://www.artgallery.nsw.gov.au/whats-on/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-05"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "hota-collects-alchemy-2026",
+   "type": "event",
+   "title": "HOTA Collects: Alchemy",
+   "title_zh": "HOTA 館藏展《Alchemy》免費參觀",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "HOTA Gallery, 135 Bundall Rd, Surfers Paradise",
+   "lat": -28.0003,
+   "lng": 153.4166,
+   "start": "2026-10-24",
+   "end": "2027-04-04",
+   "price_zh": "免費入場、免購票",
+   "free": true,
+   "highlight": "免費・展期至 2027 年 4 月",
+   "summary_zh": "HOTA 美術館以館藏作品探討物質、過程、腐朽與轉化，涵蓋攝影、陶藝、雕塑與繪畫，並展出 Lindy Lee 的兩件光雕塑，參展藝術家包括 Daniel Boyd、Leah King-Smith 與 John Wolseley。",
+   "tip_zh": "展覽免費、無須購票；前往方式請見 HOTA 官網的交通與停車頁面。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "HOTA – HOTA Collects: Alchemy",
+     "url": "https://hota.com.au/events/hota-collects-alchemy"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Gold Coast – HOTA Collects: Alchemy",
+     "url": "https://experiencegoldcoast.com/events/hota-collects-alchemy"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-05"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "woodford-folk-festival-2026-27",
+   "type": "event",
+   "title": "Woodford Folk Festival 2026/27",
+   "title_zh": "Woodford 民謠音樂節",
+   "category": "music",
+   "region": "QLD",
+   "city": "Woodford",
+   "venue": "Woodfordia, 87 Woodrow Road, Woodford",
+   "lat": -26.957,
+   "lng": 152.779,
+   "start": "2026-12-27",
+   "end": "2027-01-02",
+   "price_zh": "門票 A$25–745（依票種），車輛通行證 A$10–80",
+   "free": false,
+   "highlight": "年度盛事・跨年",
+   "summary_zh": "澳洲規模最大的藝術與表演聚會，逾 450 組演出涵蓋音樂、舞蹈、馬戲、喜劇與劇場，另有工作坊、論壇與元旦火焰儀式，園區提供露營。",
+   "tip_zh": "距布里斯本約一小時車程，園區可露營；各票種與車輛通行證請至官網確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Brisbane – Woodford Folk Festival",
+     "url": "https://visit.brisbane.qld.au/whats-on/moreton-bay-region/live-performances/woodford-folk-festival-e337"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Queensland.com – Woodford Folk Festival",
+     "url": "https://www.queensland.com/tw/zh/things-to-do/events/p-56b264102cbcbe7073ade337-woodford-folk-festival"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "主辦單位官網無法讀取，各票種明細未能逐項確認。"
+   },
+   "hot": true,
+   "added": "2026-11-05"
+  },
+  {
+   "id": "good-things-festival-brisbane-2026",
+   "type": "event",
+   "title": "Good Things Festival 2026 – Brisbane",
+   "title_zh": "Good Things 音樂節布里斯本場",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane Showgrounds, 600 Gregory Terrace, Bowen Hills",
+   "lat": -27.4492,
+   "lng": 153.0372,
+   "start": "2026-12-06",
+   "end": "2026-12-06",
+   "price_zh": "請見官網（Oztix 售票）",
+   "free": false,
+   "highlight": "一日音樂節・16 歲以上",
+   "summary_zh": "單日另類搖滾與金屬音樂節，主要演出者包括 Limp Bizkit、Simple Plan、Spiritbox、Polaris 與 The All-American Rejects，限 16 歲以上入場。",
+   "tip_zh": "票價與購票請見 Oztix 頁面。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Good Things Festival – 2026 tour dates",
+     "url": "https://goodthingsfestival.com.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Brisbane – Good Things Festival",
+     "url": "https://visit.brisbane.qld.au/whats-on/inner-city/festivals-and-celebrations/good-things-festival-af44"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官方頁面未列出票價。"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "finders-keepers-sydney-design-market-ss26-2026",
+   "type": "event",
+   "title": "The Finders Keepers Sydney Design Market (Spring Summer 2026)",
+   "title_zh": "Finders Keepers 雪梨設計市集",
+   "category": "market",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Carriageworks, Eveleigh",
+   "lat": -33.8929,
+   "lng": 151.1948,
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "schedule_zh": "週五 16:00–21:00、週六與週日 10:00–17:00",
+   "price_zh": "單日 A$7、週末通票 A$10",
+   "free": false,
+   "highlight": "設計市集・3 天",
+   "summary_zh": "Carriageworks 舉辦的設計市集，集合獨立設計師與手作品牌，適合想逛在地創意商品的旅客。",
+   "tip_zh": "票券需線上購買，另加少額手續費。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Finders Keepers – Sydney market",
+     "url": "https://thefinderskeepers.com/sydney-markets/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-05"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "handmade-market-canberra-summer-2026",
+   "type": "event",
+   "title": "Handmade Market Canberra – Summer",
+   "title_zh": "坎培拉 Handmade 手作市集（夏季）",
+   "category": "market",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "Exhibition Park in Canberra (EPIC), Lyneham",
+   "lat": -35.2497,
+   "lng": 149.1403,
+   "start": "2026-11-27",
+   "end": "2026-11-29",
+   "schedule_zh": "週五 17:00–21:00、週六與週日 10:00–16:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・3 天",
+   "summary_zh": "在 EPIC 三座展館舉行的手作與設計市集，免費入場，現場有慈善團體接受自由捐款。",
+   "tip_zh": "輕軌 EPIC 站就在入口外，另有免費停車位。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Canberra – Handmade Market Canberra Summer",
+     "url": "https://visitcanberra.com.au/events/65b99f0ef661619412e2d379/handmade-market-canberra-summer"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Handmade Canberra – Visiting the market",
+     "url": "https://handmadecanberra.com.au/visiting-the-market/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-05"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "sydney-martin-place-christmas-tree-2026",
+   "type": "event",
+   "title": "Martin Place Christmas Tree",
+   "title_zh": "馬丁廣場聖誕樹燈光秀",
+   "category": "festival",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Martin Place",
+   "lat": -33.8678,
+   "lng": 151.2103,
+   "start": "2026-11-26",
+   "end": "2027-01-05",
+   "schedule_zh": "每晚 20:00–24:00，每 15 分鐘一場燈光秀",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費・聖誕燈光",
+   "summary_zh": "雪梨市中心的大型聖誕樹與燈光秀，12 月每晚有合唱團於樹前演出，全程免費。",
+   "tip_zh": null,
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Sydney – Martin Place Christmas Tree",
+     "url": "https://whatson.cityofsydney.nsw.gov.au/events/martin-place-christmas-tree"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-05"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "canberra-springout-pride-festival-2026",
+   "type": "event",
+   "title": "Canberra SpringOUT Pride Festival",
+   "title_zh": "坎培拉 SpringOUT 驕傲節",
+   "category": "festival",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "Glebe Park（Fair Day）／Braddon 等地",
+   "lat": -35.279,
+   "lng": 149.133,
+   "start": "2026-10-31",
+   "end": "2026-11-30",
+   "price_zh": "含免費與低價活動，請見官網",
+   "free": false,
+   "highlight": "年度節慶・為期一個月",
+   "summary_zh": "坎培拉的月度彩虹驕傲節，以 Glebe Park 的 Fair Day 揭開序幕，節目包括電影、喜劇、音樂與社群活動。",
+   "tip_zh": "各場次日期與票價請查 SpringOUT 官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Canberra – SpringOUT",
+     "url": "https://visitcanberra.com.au/events/6531d078d3e2ef517e2e6da6/canberra-springout-pride-festival"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "SpringOUT",
+     "url": "https://springout.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "個別場次的日期與票價官方頁面未列出；SpringOUT 官網寫 10 月 23 日至 12 月 1 日，Visit Canberra 寫 10 月 31 日至 11 月 30 日。"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "just-for-laughs-sydney-2026",
+   "type": "event",
+   "title": "Just For Laughs Sydney 2026",
+   "title_zh": "雪梨 Just For Laughs 喜劇節",
+   "category": "arts",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "State Theatre、Sydney Opera House 等",
+   "lat": -33.8727,
+   "lng": 151.2088,
+   "start": "2026-11-09",
+   "end": "2026-11-22",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "年度喜劇節",
+   "summary_zh": "第 14 屆雪梨喜劇節，於 State Theatre、Sydney Opera House 等場地演出，包含國際與本地喜劇演員。",
+   "tip_zh": "僅向各場次官方指定售票管道購票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Just For Laughs Sydney",
+     "url": "https://justforlaughs.sydney"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官網未列票價。"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "gyg-southbank-5-brekkie-free-coffee-2026-11-06",
+   "type": "deal",
+   "title": "$5 Brekkie & Free Coffee at GYG Southbank",
+   "title_zh": "GYG Southbank 早餐 A$5 加贈小杯咖啡",
+   "category": "dining",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "GYG Southbank, 179 Grey St, South Brisbane",
+   "lat": -27.4778,
+   "lng": 153.019,
+   "start": "2026-11-06",
+   "end": "2026-11-06",
+   "schedule_zh": "11 月 6 日（週五）6:00–10:30",
+   "price_zh": "早餐 Burrito 或 Bowl A$5，另送小杯咖啡",
+   "free": false,
+   "highlight": "單日・早餐 A$5",
+   "summary_zh": "GYG 官方公告 Southbank 門市於 2026 年 11 月 6 日早上推出一般尺寸早餐 Burrito 與 Bowl 每份 A$5，並加贈一杯小杯咖啡，加濃縮、替代奶與糖漿不另收費。",
+   "tip_zh": "僅限門市內用或現場購買，不適用 App、網站與外送；不含 Big Brekkie Burrito，每人可能有數量限制。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "GYG – $5 Brekkie & Free Coffee at GYG Southbank",
+     "url": "https://www.guzmanygomez.com.au/5-brekkie-free-coffee-at-gyg-southbank/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-05"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "gyg-caringbah-5-burritos-bowls-2026-12-10",
+   "type": "deal",
+   "title": "$5 Burritos and Bowls at GYG Caringbah",
+   "title_zh": "GYG Caringbah 12 月 10 日 Burrito 與 Bowl A$5",
+   "category": "dining",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "GYG Caringbah, 52 President Ave, Caringbah",
+   "lat": -34.0446,
+   "lng": 151.1215,
+   "start": "2026-12-10",
+   "end": "2026-12-10",
+   "price_zh": "Burrito 與 Bowl A$5",
+   "free": false,
+   "highlight": "單日・A$5",
+   "summary_zh": "GYG 官方頁面公布 Caringbah 新門市 11 月 18 日開幕，並於 2026 年 12 月 10 日（週四）提供 A$5 Burrito 與 Bowl。",
+   "tip_zh": "官方頁面未列出條款與時段，行前請再向門市或官網確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "GYG – Welcome GYG Caringbah",
+     "url": "https://www.guzmanygomez.com.au/welcome-gyg-caringbah/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官方頁面尚未公布 12 月 10 日的營業時段與條款。"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "aldi-special-buys-2026-11-11-grocery-meat",
+   "type": "deal",
+   "title": "ALDI Special Buys – Grocery Specials and Limited Time Only Meat (Wed 11 Nov)",
+   "title_zh": "ALDI 11/11 食品特賣與限時肉品",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-11",
+   "end": null,
+   "schedule_zh": "11 月 11 日（週三）起，售完為止",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "門市特賣",
+   "summary_zh": "ALDI 官方 Special Buys 頁面列出 2026 年 11 月 11 日週三上架的聖誕商品、園藝、食品特賣、兒童玩具與書籍及限時肉品，標示僅限門市、售完為止。",
+   "tip_zh": "僅限門市購買，各店價格與庫存可能不同，建議開門時前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Australia – Special Buys",
+     "url": "https://www.aldi.com.au/special-buys/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官網尚未列出 11 月 11 日的商品價格。"
+   },
+   "added": "2026-11-05"
+  },
+  {
+   "id": "rex-special-fares-regional-2026-11",
+   "type": "deal",
+   "title": "Rex Latest Promotional Fares",
+   "title_zh": "Rex 區域航線促銷機票",
+   "category": "tickets",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲區域航線",
+   "start": "2026-11-05",
+   "end": null,
+   "price_zh": "單程 A$149 起（例如 Wagga Wagga 至雪梨 A$149、Albany 至伯斯 A$187）",
+   "free": false,
+   "highlight": "區域航線單程特價",
+   "summary_zh": "Rex 官網列出多條區域航線的單程經濟艙促銷票價，出發日期涵蓋 2026 年 11 月至 2027 年 4 月，例如 Coffs Harbour 至雪梨 A$199、Roma 至布里斯本 A$228、Port Lincoln 至阿德雷德 A$225。",
+   "tip_zh": "票價依出發日期與座位而異，另有付款與訂位手續費；請在官網確認日期後訂票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Rex – Latest Promotional Fares",
+     "url": "https://flights.rex.com.au/en/special-fares"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-05",
+    "unconfirmed_zh": "官方未公布優惠截止日，票價與日期可能隨時更動。"
+   },
+   "added": "2026-11-05"
   }
  ]
 }
