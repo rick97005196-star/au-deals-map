@@ -36,6 +36,8 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 4. 另一位沒參與蒐集的查證員逐筆重新查證，只有通過的才上架（網站會標「新上架」3 天）
 5. 檢查格式、保護機制（筆數暴跌就不上線）後推送到 GitHub，Cloudflare 自動上線
 
+另外每天 06:30，GitHub Actions「每日自動整理」（`.github/workflows/daily-tidy.yml`，跑 `node tools/auto-daily.js .`）會再下架一次已結束的項目並檢查格式和保護機制，有變動才推送；它不改「最後更新」日期。Claude 那次沒跑或只跑一半時，過期項目照樣會下架。
+
 只在雲端更新，桌面資料夾不會自動變；要讓資料夾變成最新版，跟 Claude 說「同步」。
 
 相關檔案：`tools/DAILY.md`（流程）、`tools/SOURCES.md`（資訊來源清單，會自動增加）、`tools/SCHEMA.md`（格式、分類與收錄規則）、`tools/VERIFY.md`（查證規則）、`tools/daily.js`（小工具，`gaps` 看哪些分類偏少）。

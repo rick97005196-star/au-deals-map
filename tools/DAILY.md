@@ -61,7 +61,7 @@ WebSearch 次數用完時，改用 WebFetch 直接打開 SOURCES.md 裡的官方
 ## 5. 檢查、上線
 1. `node tools/daily.js stamp`，再 `node build.js`（會檢查每一筆的格式，有錯就修到沒錯）。
 2. 保護機制：今天結束時的筆數比第 0 步少超過 40%，或少於 30 筆，就**不要上線**，回報原因。
-3. 用繁體中文 commit（包含 data/items.json 和 tools/SOURCES.md）（例如「每日更新 10/9：新增 6、下架 3、修正 4」），推送到 `main`。Cloudflare Pages 會自動建置，約 1–2 分鐘。
+3. 用繁體中文 commit（包含 data/items.json 和 tools/SOURCES.md）（例如「每日更新 10/9：新增 6、下架 3、修正 4」）。推送前先執行 `git pull --rebase origin main` 拉最新版本（每天 06:30 GitHub Actions「每日自動整理」也會推送下架結果），再推送到 `main`。拉的時候發生衝突，就執行 `git rebase --abort`，改用本節第 5 點。推送被拒絕時，再拉一次、推一次；還是失敗，同樣改用第 5 點。Cloudflare Pages 會自動建置，約 1–2 分鐘。
 4. 等 2 分鐘後用 WebFetch 打開 https://au-deals-map.pages.dev ，確認頁面原始碼裡的 `"updated":"今天日期"` 已經出現。
 5. 推送被擋時不要用其他方法繞過：推到 `daily-<日期>` 分支並開 Pull Request 到 main，在回報裡附上連結請 Rick 合併。
 

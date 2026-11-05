@@ -1,0 +1,31 @@
+# 每天 06:30（布里斯本）自動下架已結束的項目。Claude 每日更新（約 04:50）沒跑或只跑一半的日子，過期項目照樣會下架。
+# 不改「最後更新」日期，不需要任何密鑰。
+name: 每日自動整理
+on:
+  schedule:
+    - cron: '30 20 * * *'   # 布里斯本 06:30（UTC+10，沒有夏令時間）；GitHub 可能延遲
+  workflow_dispatch: {}      # 可以在 GitHub 網頁上手動執行
+permissions:
+  contents: write            # 只用 GitHub 內建的推送權限
+concurrency: daily-tidy
+jobs:
+  tidy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: 自我檢查
+        run: node tools/auto-daily.test.js
+      - name: 下架過期、熱門上限、格式檢查、保護機制
+        run: node tools/auto-daily.js .
+      - name: 有變動才推送（推送就是上架）
+        run: |
+          git diff --quiet -- data/items.json && { echo '沒有變動'; exit 0; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/items.json
+          git commit -m "自動整理 $(TZ=Australia/Brisbane date +%-m/%-d)：下架已結束的項目"
+          git push || { git pull --rebase && git push; } || echo '和每日任務撞到，今天跳過'
