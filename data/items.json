@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -8031,6 +8031,718 @@
     "unconfirmed_zh": "官方未公布優惠截止日，票價與日期可能隨時更動。"
    },
    "added": "2026-11-05"
+  },
+  {
+   "id": "brisbane-council-pools-2-summer-dips-2026",
+   "type": "deal",
+   "title": "$2 Summer Dips – Brisbane City Council pools",
+   "title_zh": "布里斯本市議會泳池 A$2 入場",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "布里斯本市議會轄下泳池",
+   "start": "2026-12-01",
+   "end": "2027-02-28",
+   "price_zh": "一般入場 A$2",
+   "free": false,
+   "highlight": "夏季 A$2 入場",
+   "summary_zh": "布里斯本市議會於夏季將轄下公共泳池的一般入場費降為 A$2，適用成人、兒童與優待票。Chermside 水上樂園與 Newmarket 大型雙環滑水道不在優惠範圍。",
+   "tip_zh": "出發前先在市議會頁面查詢離住處最近的泳池與開放時間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane City Council – council pools",
+     "url": "https://www.brisbane.qld.gov.au/things-to-see-and-do/outdoor-activities/council-pools"
+    },
+    {
+     "kind": "community",
+     "platform": "OzBargain",
+     "label": "[QLD] $2 Entry Fee to Brisbane Council Pools",
+     "url": "https://www.ozbargain.com.au/node/981806"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "lebara-35-sim-for-10-2026",
+   "type": "deal",
+   "title": "Lebara $35 SIM Plan for $10 (first 28 days)",
+   "title_zh": "Lebara 預付卡首 28 天 A$10",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-06",
+   "end": "2026-12-03",
+   "price_zh": "A$35 方案首 28 天 A$10，之後依原價",
+   "free": false,
+   "highlight": "新客首期優惠",
+   "summary_zh": "Lebara 官網提供新客戶限定優惠，A$35 預付方案首 28 天只需 A$10，之後恢復標準價格。僅限線上購買，所有方案支援 eSIM。",
+   "tip_zh": "僅限新客戶線上辦理；首期後恢復原價，可在官網確認續約價格。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Lebara Australia – prepaid SIM plans",
+     "url": "https://www.lebara.com.au"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未標示優惠起始日；結束日為 2026-12-03。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "kathmandu-out-there-rewards-member-days-2026",
+   "type": "deal",
+   "title": "Kathmandu Out There Rewards – Member Days",
+   "title_zh": "Kathmandu 免費會員專屬折扣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-06",
+   "end": null,
+   "price_zh": "會員價最高 5 折（免費加入）",
+   "free": false,
+   "highlight": "免費會員折扣",
+   "summary_zh": "Kathmandu 的 Out There Rewards 可免費加入，登入後可買會員專屬特價，官網目前列出部分外套與 T 恤 5 折、保暖層與背包 6 折、羊毛衣與雨衣 7 折，另有每消費 A$1 累積 1 點。",
+   "tip_zh": "標準運費非會員 A$12、初階會員 A$5，較高會員等級免運；折扣品項與時間以官網為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Kathmandu Australia – Out There Rewards",
+     "url": "https://www.kathmandu.com.au"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未標示會員日的起訖日期，僅稱限時。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "agnsw-and-still-i-rise-2026",
+   "type": "event",
+   "title": "And Still I Rise",
+   "title_zh": "AGNSW《And Still I Rise》免費展",
+   "category": "entertainment",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Art Gallery of NSW, Naala Nura building",
+   "lat": -33.8688,
+   "lng": 151.2174,
+   "start": "2025-11-08",
+   "end": "2027-01-10",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費展覽",
+   "summary_zh": "雪梨新南威爾斯美術館展出居住在澳洲的多元文化女性藝術家作品，涵蓋紡織、繪畫、金工、裝置與影像，部分來自館藏、部分為新委託創作。",
+   "tip_zh": "展場含動態雕塑、影像與較暗空間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Art Gallery of NSW – And Still I Rise",
+     "url": "https://www.artgallery.nsw.gov.au/whats-on/exhibitions/and-still-i-rise"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "agnsw-kaori-endo-2026",
+   "type": "event",
+   "title": "Kaori Endo: Sleeping in the 22nd Century",
+   "title_zh": "AGNSW Kaori Endo 免費展",
+   "category": "entertainment",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Art Gallery of NSW, Naala Nura building",
+   "lat": -33.8688,
+   "lng": 151.2174,
+   "start": "2026-11-07",
+   "end": null,
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・新展開幕",
+   "summary_zh": "新南威爾斯美術館 2026 年 11 月 7 日開幕的免費展覽，展出藝術家 Kaori Endo 作品。",
+   "tip_zh": null,
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Art Gallery of NSW – What's on",
+     "url": "https://www.artgallery.nsw.gov.au/whats-on/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "展覽專頁無法載入，結束日與作品內容官方列表未提供。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "south-bank-collective-markets-2026",
+   "type": "event",
+   "title": "The Collective Markets at South Bank",
+   "title_zh": "South Bank 週末 Collective 市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Little Stanley Street, South Bank",
+   "lat": -27.479,
+   "lng": 153.0185,
+   "start": "2026-11-06",
+   "end": "2027-02-26",
+   "schedule_zh": "每週五、六、日",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・週末市集",
+   "summary_zh": "每週五至週日在南岸 Little Stanley Street 舉行的週末市集，有原創藝術、攝影、禮品、服飾、古著與小吃攤位。",
+   "tip_zh": "官網列出時段為 9:00–21:00，出發前請再確認當天營業時間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit South Bank – The Collective Markets",
+     "url": "https://www.visitsouthbank.com.au/events/the-collective-markets-at-south-bank"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "south-bank-free-guided-tours-2026",
+   "type": "event",
+   "title": "South Bank Guided Tours",
+   "title_zh": "South Bank 免費導覽步行",
+   "category": "travel",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "South Bank Visitor Information Centre",
+   "lat": -27.4783,
+   "lng": 153.0194,
+   "start": "2026-11-06",
+   "end": "2027-02-28",
+   "schedule_zh": "週一、二、五、六、日 10:00",
+   "price_zh": "免費（需預約）",
+   "free": true,
+   "highlight": "免費・志工導覽",
+   "summary_zh": "由志工導覽員帶領，約 90 分鐘、2.5 公里的南岸公園歷史與地標步行導覽，涵蓋 Expo 88 與 2011 年洪水的故事。",
+   "tip_zh": "名額有限，需透過官網連結的 Eventbrite 預約；集合點在 Stanley Street Plaza 的遊客資訊中心。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit South Bank – Guided Tours",
+     "url": "https://www.visitsouthbank.com.au/events/south-bank-guided-tours"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "brisbane-portrait-prize-2026",
+   "type": "event",
+   "title": "Brisbane Portrait Prize 2026",
+   "title_zh": "布里斯本肖像獎 2026 免費展",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "State Library of Queensland, Gallery level 2",
+   "lat": -27.4702,
+   "lng": 153.0187,
+   "start": "2026-09-19",
+   "end": "2026-11-08",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費展覽",
+   "summary_zh": "昆士蘭州立圖書館展出入圍的布里斯本人物肖像作品，主題涵蓋身分、歸屬與被看見。",
+   "tip_zh": "官網兩處列出的開放時間不一致，出發前請向昆士蘭州立圖書館確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit South Bank – Brisbane Portrait Prize 2026",
+     "url": "https://www.visitsouthbank.com.au/events/brisbane-portrait-prize-2026"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網兩處列出的開放時間互相矛盾，無法確認。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "south-bank-free-yoga-saturdays-2026",
+   "type": "event",
+   "title": "Yoga at South Bank",
+   "title_zh": "South Bank 週六免費瑜伽",
+   "category": "sport",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "The Arbour, Tribune Street",
+   "lat": -27.4777,
+   "lng": 153.0185,
+   "start": "2026-10-10",
+   "end": "2026-11-28",
+   "schedule_zh": "每週六 7:30",
+   "price_zh": "免費（需報名）",
+   "free": true,
+   "highlight": "免費・週六晨間",
+   "summary_zh": "南岸 The Arbour 的週六晨間免費瑜伽課，官網註明報名免費。",
+   "tip_zh": "需先透過官網連結的 Eventbrite 報名並自備瑜伽墊。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit South Bank – Yoga",
+     "url": "https://www.visitsouthbank.com.au/events/yoga"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "south-bank-sunday-social-2026",
+   "type": "event",
+   "title": "Sunday Social at South Bank",
+   "title_zh": "South Bank 週日河畔音樂 Sunday Social",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "River Quay Green, South Bank",
+   "lat": -27.4745,
+   "lng": 153.0225,
+   "start": "2025-10-05",
+   "end": "2026-12-31",
+   "schedule_zh": "每週日 14:00–17:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・每週日",
+   "summary_zh": "每週日下午在 River Quay Green 舉行的免費現場音樂，可帶野餐並欣賞河岸與市區天際線。",
+   "tip_zh": "露天活動，遇雨可能取消，出發前請查看 Visit South Bank 社群更新。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit South Bank – Sunday Social",
+     "url": "https://www.visitsouthbank.com.au/events/sunday-social"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "stanthorpe-berry-festival-2026",
+   "type": "event",
+   "title": "Stanthorpe Berry Festival 2026",
+   "title_zh": "Stanthorpe 莓果美食節",
+   "category": "food",
+   "region": "QLD",
+   "city": "Stanthorpe",
+   "venue": "Stanthorpe Showgrounds",
+   "lat": -28.658,
+   "lng": 151.937,
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "price_zh": "線上 A$30／現場 A$35",
+   "free": false,
+   "highlight": "年度美食節",
+   "summary_zh": "Stanthorpe Showgrounds 舉行的莓果美食節，有草莓採摘與品嚐、主廚烹飪示範、Snag Slam 烤腸比賽與免費工作坊。",
+   "tip_zh": "地點在 Stanthorpe，距布里斯本有一段車程，請先規劃交通；線上購票 A$30 比現場 A$35 便宜。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Stanthorpe Berry Festival",
+     "url": "https://www.berryfestival.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未列開放時間。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "pan-pacific-masters-games-gold-coast-2026",
+   "type": "event",
+   "title": "Pan Pacific Masters Games 2026",
+   "title_zh": "泛太平洋大師運動會（黃金海岸）",
+   "category": "sport",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Gold Coast（多處場地）",
+   "lat": -28.034,
+   "lng": 153.43,
+   "start": "2026-11-06",
+   "end": "2026-11-14",
+   "price_zh": "多數場地免費觀賽",
+   "free": true,
+   "highlight": "大型運動盛事",
+   "summary_zh": "多項目運動會，分布於黃金海岸多處場地，11 月 7 日（週六）舉行開幕式、11 月 14 日（週六）舉行閉幕式。",
+   "tip_zh": "官網說明多數場地觀賽不需支持者費用，但游泳、跳水與徒手體操需另付入場費。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Pan Pacific Masters Games – Enter / Spectators",
+     "url": "https://mastersgames.com.au/enter/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Pan Pacific Masters Games",
+     "url": "https://mastersgames.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未列出整體賽期（僅見 Pan Pacs Central 11 月 6–14 日與各項目日期），游泳、跳水與徒手體操的入場費金額也未公布。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "melbourne-palestine-cultural-festival-2026",
+   "type": "event",
+   "title": "Palestine Cultural Festival",
+   "title_zh": "Fed Square 巴勒斯坦文化節",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Federation Square",
+   "lat": -37.818,
+   "lng": 144.9691,
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "schedule_zh": "16:00–22:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・單日",
+   "summary_zh": "第 10 屆巴勒斯坦文化節，現場有傳統音樂與舞蹈、劇場、料理示範、餐車、工作坊與市集攤位。",
+   "tip_zh": "免費入場、不需預約，活動時間為 16:00–22:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – Palestine Cultural Festival",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/palestine-cultural-festival"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "shrine-commemoration-in-concert-2026",
+   "type": "event",
+   "title": "Commemoration in Concert",
+   "title_zh": "Shrine 紀念音樂會（免費）",
+   "category": "music",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Shrine of Remembrance",
+   "lat": -37.8305,
+   "lng": 144.9733,
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "schedule_zh": "16:45–17:45",
+   "price_zh": "免費入場，不需預約",
+   "free": true,
+   "highlight": "免費・音樂會",
+   "summary_zh": "墨爾本交響樂團合唱團與 Footscray Yarraville City Band 於戰爭紀念館前廣場演出，曲目為戰時經典與追思歌曲。",
+   "tip_zh": "座位先到先坐，16:45 先有 Last Post 儀式；天氣不佳可能影響活動。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – Commemoration in Concert",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/commemoration-in-concert"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "qvm-stock-up-vintage-market-2026-11",
+   "type": "event",
+   "title": "Stock Up Vintage Market",
+   "title_zh": "女王市場 Stock Up 古著市集",
+   "category": "market",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Queen Victoria Market（C Shed）",
+   "lat": -37.8076,
+   "lng": 144.9568,
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "schedule_zh": "9:00–16:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・古著市集",
+   "summary_zh": "精選古著市集，攤商販售古著、90 年代與 Y2K 服飾、街頭潮流、球鞋與收藏品，現場有黑膠 DJ。",
+   "tip_zh": "全程位於室內有頂棚區域，不需預約，開放 9:00–16:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Queen Victoria Market – Stock Up Vintage Market",
+     "url": "https://qvm.com.au/whats-on/stock-up-vintage-market/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "qvm-pinoy-christmas-fiesta-2026",
+   "type": "event",
+   "title": "The Grand Pinoy Christmas Fiesta – Himig ng Pasko",
+   "title_zh": "女王市場菲律賓聖誕市集",
+   "category": "food",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Queen Victoria Market（C & D Shed）",
+   "lat": -37.8076,
+   "lng": 144.9568,
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "schedule_zh": "9:00–16:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・2 天",
+   "summary_zh": "數十個菲律賓美食攤位與餐車、燈籠裝飾，並有現場音樂與聖誕歌曲。",
+   "tip_zh": "不需預約，兩天皆為 9:00–16:00，場地有頂棚。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Queen Victoria Market – Grand Pinoy Christmas Fiesta",
+     "url": "https://qvm.com.au/whats-on/the-grand-pinoy-christmas-fiesta-himig-ng-pasko/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "japanese-film-festival-melbourne-2026",
+   "type": "event",
+   "title": "Japanese Film Festival 2026",
+   "title_zh": "墨爾本日本影展 2026",
+   "category": "arts",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Kino Cinema",
+   "lat": -37.8155,
+   "lng": 144.9686,
+   "start": "2026-11-06",
+   "end": "2026-11-17",
+   "price_zh": "一般票 A$25／學生與優待票 A$20",
+   "free": false,
+   "highlight": "日本影展・12 天",
+   "summary_zh": "紀念日本電影登陸澳洲三十年，開幕片為是枝裕和《Look Back》澳洲首映，另有武滿徹免費回顧單元。",
+   "tip_zh": "放映地點為 Kino Cinema（Collins St），場次與購票方式請見官方頁面。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – Japanese Film Festival",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/japanese-film-festival"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "barbie-the-exhibition-melbourne-museum-2026",
+   "type": "event",
+   "title": "Barbie: The Exhibition",
+   "title_zh": "墨爾本博物館 Barbie 展",
+   "category": "entertainment",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Melbourne Museum",
+   "lat": -37.8033,
+   "lng": 144.9717,
+   "start": "2026-11-28",
+   "end": "2027-05-16",
+   "schedule_zh": "每日 9:00–17:00",
+   "price_zh": "成人 A$30／學生優待 A$25",
+   "free": false,
+   "highlight": "展期逾 5 個月",
+   "summary_zh": "墨爾本博物館展出逾 250 件物件，含約 150 個玩偶與 1959 年初代 Barbie。",
+   "tip_zh": "請經 Museums Victoria 官網訂票（亦可電話 13 11 02），每日 9:00–17:00；學生可用優待票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – Barbie: The Exhibition",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/barbie-the-exhibition-at-melbourne-museum"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-06"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "aldi-special-buys-2026-11-18-grocery-meat",
+   "type": "deal",
+   "title": "ALDI Special Buys – Grocery Specials and Limited Time Only Meat (Wed 18 Nov)",
+   "title_zh": "ALDI 11/18 食品特賣與限時肉品",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲 ALDI 門市",
+   "start": "2026-11-18",
+   "end": "2026-11-18",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "每週三特賣",
+   "summary_zh": "ALDI 官網列出 11 月 18 日（週三）的 Special Buys 主題，包含食品特賣與限時肉品。",
+   "tip_zh": "特賣品僅限門市販售，各店供貨可能不同。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Special Buys – 11 月檔期",
+     "url": "https://www.aldi.com.au/special-buys/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未公布各商品價格，限時肉品是否各店皆有也未確認。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "hungry-jacks-jacks-cafe-5th-coffee-free-2026",
+   "type": "deal",
+   "title": "Hungry Jack's – Jack's Cafe 5th Medium Coffee Free",
+   "title_zh": "Hungry Jack's 第 5 杯中杯咖啡免費",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲 Hungry Jack's 門市",
+   "start": "2026-11-06",
+   "end": null,
+   "price_zh": "第 5 杯中杯咖啡免費",
+   "free": false,
+   "highlight": "集點免費咖啡",
+   "summary_zh": "Hungry Jack's 官網表示，掃描 Jack's Cafe 數位集點卡，第 5 杯中杯咖啡即可免費。",
+   "tip_zh": "門市與得來速皆可使用，需掃描 Jack's Cafe 數位集點卡；條款請見官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Hungry Jack's 官網首頁",
+     "url": "https://www.hungryjacks.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未標示活動起迄日期與完整條款。"
+   },
+   "added": "2026-11-06"
+  },
+  {
+   "id": "greyhound-australia-travel-passes-2026",
+   "type": "deal",
+   "title": "Greyhound Australia Travel Passes",
+   "title_zh": "Greyhound 長途巴士通行券",
+   "category": "tickets",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲（東岸、全國路線）",
+   "start": "2026-11-06",
+   "end": null,
+   "price_zh": "East Coast 7 天 A$319 起；National 15 天 A$465 起",
+   "free": false,
+   "highlight": "長途通行券",
+   "summary_zh": "Greyhound 官網提供 East Coast 與 National 通行券，7 天 East Coast 通行券 A$319 起、15 天 National 通行券 A$465 起；訂購來回車票可享 5% 折扣，UNiDAYS 會員購買 Travel Pass 享 85 折。適合預算有限、需長途移動的背包客。",
+   "tip_zh": "官網標示為「起」價，實際價格與供票情況以訂票頁為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Greyhound – Travel Passes",
+     "url": "https://www.greyhound.com.au/travel-passes"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Greyhound – Deals & Discounts",
+     "url": "https://www.greyhound.com.au/deals"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未標示票價與優惠的適用期間。"
+   },
+   "added": "2026-11-06"
   }
  ]
 }

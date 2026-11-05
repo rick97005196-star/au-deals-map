@@ -252,3 +252,10 @@
 - 2026-11-05｜活動 NSW｜The Finders Keepers｜https://thefinderskeepers.com｜雪梨設計市集日期與票價
 - 2026-11-05｜活動 ACT｜SpringOUT｜https://springout.com.au｜坎培拉驕傲節活動官網
 - 2026-11-05｜活動 NSW｜Just For Laughs Sydney｜https://justforlaughs.sydney｜雪梨喜劇節場次與日期
+- 2026-11-06｜活動 QLD｜Visit South Bank｜https://www.visitsouthbank.com.au/whats-on｜布里斯本南岸官方活動頁，免費市集、導覽、健身課與週日音樂
+- 2026-11-06｜活動 QLD｜Stanthorpe Berry Festival｜https://www.berryfestival.com.au/｜莓果美食節官網
+- 2026-11-06｜活動 QLD｜Pan Pacific Masters Games｜https://mastersgames.com.au/｜黃金海岸大師運動會官網
+- 2026-11-06｜活動 QLD｜Brisbane City Council Pools｜https://www.brisbane.qld.gov.au/things-to-see-and-do/outdoor-activities/council-pools｜市議會泳池與 A$2 Summer Dips
+- 2026-11-06｜購物 AU｜Lebara｜https://www.lebara.com.au｜預付卡促銷
+- 2026-11-06｜活動 NSW｜AGNSW What's On｜https://www.artgallery.nsw.gov.au/whats-on｜新南威爾斯美術館免費展覽
+- 2026-11-06｜購物 AU｜ALDI Mobile｜https://www.aldimobile.com.au｜方案與促銷
