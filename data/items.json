@@ -134,9 +134,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網僅稱限時優惠，未列起訖日與參與門市。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "schedule_zh": "每週三至週五",
    "hot": true
@@ -186,9 +185,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "Click Frenzy 官方日曆頁無法開啟，日期依媒體報導確認。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "hot": true
   },
@@ -237,9 +235,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未載明入場費用及各活動是否免費。"
+    "status": "verified",
+    "checked": "2026-11-06"
    }
   },
   {
@@ -344,7 +341,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "schedule_zh": "11:00–22:00"
   },
@@ -394,8 +391,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "Fair Day 2026 票價官方尚未公布。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官方尚未公布 Fair Day 2026 票價。"
    }
   },
   {
@@ -415,7 +412,7 @@
    "free": false,
    "highlight": "布里斯本獨家",
    "summary_zh": "布里斯本獨家的大型展覽，展出 The Jim Henson Company 的作品世界，為 Brisbane Festival 期間開幕的 GOMA 展覽。",
-   "tip_zh": "門票採定時入場，最後入場時段為 16:00，17:00 閉館；建議先購票。",
+   "tip_zh": "每日 10:00–17:00 開放；門票採定時入場，建議先於官網購票。",
    "sources": [
     {
      "kind": "official",
@@ -437,9 +434,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方展覽頁無法開啟，票價依 QAGOMA 售票頁搜尋結果，開館起始時間未能確認。"
+    "status": "verified",
+    "checked": "2026-11-06"
    }
   },
   {
@@ -476,7 +472,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    }
   },
   {
@@ -519,7 +515,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    }
   },
   {
@@ -711,8 +707,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "Adelaide Metro 官方頁面無法直接開啟，98A/98C 行駛日與營運時間未能確認。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官方頁面無法直接開啟，電車付費路段範圍僅由搜尋摘要與第三方資料佐證。"
    },
    "area_zh": "阿德雷德市區"
   },
@@ -733,7 +729,7 @@
    "free": true,
    "highlight": "免費",
    "summary_zh": "北領地政府營運的公車目前免費，大達爾文地區（Casuarina、Palmerston 與郊區）及 Alice Springs 的公車均免費搭乘，官方頁面標示至 2026 年 12 月 31 日。",
-   "tip_zh": "媒體報導可能延長至 2027 年 1 月，建議出發前查閱 nt.gov.au 公告。",
+   "tip_zh": "免費期間官方標示至 2026 年 12 月 31 日，出發前請查閱 nt.gov.au 公告。",
    "sources": [
     {
      "kind": "official",
@@ -744,8 +740,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "nt.gov.au 官方頁面無法開啟，結束日僅由搜尋結果確認，媒體報導與官方頁面日期不同。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官方費率頁面無法直接開啟，終止日期依官方網站搜尋摘要。"
    },
    "area_zh": "達爾文、Alice Springs",
    "hot": true
@@ -838,9 +834,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未列出入場費用與市集內容細節。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "schedule_zh": "每週六 8:30–15:00",
    "hot": true
@@ -884,9 +879,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未列入場費用。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "schedule_zh": "每週六 8:30–12:30"
   },
@@ -929,9 +923,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未載明免費搭乘的起始日。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "area_zh": "塔州全境",
    "hot": true
@@ -975,9 +968,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未列出入場費用與攤位內容。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "schedule_zh": "每週日 9:30–14:30",
    "hot": true
@@ -1128,11 +1120,11 @@
    "lng": 144.6615,
    "start": "2026-11-27",
    "end": "2026-11-29",
-   "price_zh": "三日票成人 A$339（最終批）；單日 A$125–175",
+   "price_zh": "三日票成人 A$339；單日 A$125–175（含手續費與 GST）",
    "free": false,
    "highlight": "海濱音樂節",
    "summary_zh": "Bellarine 半島海濱小鎮 Queenscliff 的年度音樂節，11/27 至 11/29 舉行，陣容包括 Baker Boy、Kate Miller-Heidke、Lime Cordiale、Matt Corby 等。",
-   "tip_zh": "目前為最終批票券，票價可能調整，請見官網售票頁。",
+   "tip_zh": "售票頁列出的票價已含手續費與 GST，票價與供應情形請見官網售票頁。",
    "sources": [
     {
      "kind": "official",
@@ -1160,9 +1152,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未載明主場地名稱。"
+    "status": "verified",
+    "checked": "2026-11-06"
    }
   },
   {
@@ -1418,9 +1409,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未註明 A$25 適用的票種。"
+    "status": "verified",
+    "checked": "2026-11-06"
    }
   },
   {
@@ -1439,7 +1429,7 @@
    "price_zh": "依活動而異，請見官網",
    "free": false,
    "highlight": "年度美酒盛會",
-   "summary_zh": "Margaret River 地區為期 4 天的年度美酒美食節，11/19–11/22 舉行，官方列出 20 多場活動，多數於酒莊與餐廳舉辦。",
+   "summary_zh": "Margaret River 地區為期 4 天的年度美酒美食節，11/19–11/22 舉行，官方節目表列出 35 場活動，分散於地區內多處場地。",
    "tip_zh": "活動分散於各地，請事先參閱官網規劃行程。",
    "sources": [
     {
@@ -1474,9 +1464,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未列出票價。"
+    "status": "verified",
+    "checked": "2026-11-06"
    }
   },
   {
@@ -1639,7 +1628,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-10"
   },
@@ -1683,9 +1672,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未載明入場費。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-10-10"
   },
@@ -1943,7 +1931,7 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "免費導覽・需預約",
-   "summary_zh": "布里斯本市政府的 Brisbane Greeters 免費導覽計畫，由在地導覽員帶領，涵蓋市中心、Fortitude Valley、Paddington、Bulimba 等街區，每趟約 2–3 小時，適合想深入認識城市的新來者。",
+   "summary_zh": "布里斯本市政府的 Brisbane Greeters 免費導覽計畫，由在地導覽員帶領，Best of Brisbane 涵蓋 12 個街區（包括 Fortitude Valley、Paddington、Kangaroo Point），每趟約 2–3 小時，適合想深入認識城市的新來者。",
    "tip_zh": "導覽須事先預約，可透過 Bookeo 線上預約頁、電郵或致電市政府；集合地點請於預約時確認。",
    "sources": [
     {
@@ -1966,9 +1954,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未載明集合地點。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-10-10"
   },
@@ -2017,9 +2004,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "Experience Adelaide 頁面無法開啟，免費與時長依搜尋結果，週末集合點未能確認。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-10-10",
    "schedule_zh": null
@@ -2282,7 +2268,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-12"
   },
@@ -2326,7 +2312,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-12"
   },
@@ -2365,7 +2351,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-12"
   },
@@ -2814,7 +2800,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-13"
   },
@@ -2851,9 +2837,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官網尚未公布建築總數，逾 70 處引自媒體報導。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-10-13"
   },
@@ -2870,11 +2855,11 @@
    "lng": 146.3268,
    "start": "2026-11-01",
    "end": "2026-11-07",
-   "price_zh": "請見官網",
-   "free": false,
+   "price_zh": "免費入場",
+   "free": true,
    "highlight": "壁畫節・7 天",
    "summary_zh": "Sheffield 國際壁畫創作競賽與藝術節，2026 年 11 月 1 日至 7 日在 Mural Park 舉行，為期一週。",
-   "tip_zh": null,
+   "tip_zh": "人氣獎投票自 11/2 上午 9 點起開放。",
    "sources": [
     {
      "kind": "official",
@@ -2885,8 +2870,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網頁面無法完整讀取，入場費與每日時程未能確認。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官方頁面內容無法完整讀取，免費入場與投票時間依搜尋摘要。"
    },
    "added": "2026-10-13",
    "schedule_zh": null
@@ -3233,7 +3218,7 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "街頭市集",
-   "summary_zh": "由 Sydney Street Makers Inc. 主辦的街頭市集，2026 年 12 月 5 日於 Marrickville 舉行，包含數百位創作者攤位、多個音樂舞台與兒童手作區。",
+   "summary_zh": "由 Marrickville Makers 主辦的街頭市集，2026 年 12 月 5 日於 Marrickville 舉行，包含數百位創作者攤位、多個音樂舞台與兒童手作區。",
    "tip_zh": "官網未載明具體場地地址，前往前請查看主辦單位公告。",
    "sources": [
     {
@@ -3245,8 +3230,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未列票價與具體場地。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官方頁面未列出具體場地地址與入場費。"
    },
    "added": "2026-10-15"
   },
@@ -3344,12 +3329,12 @@
    "lng": 153.066,
    "start": "2026-10-18",
    "end": null,
-   "schedule_zh": "每週日（營業時間請見官網）",
+   "schedule_zh": "每週日 6:00–12:00",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費入場・每週日",
    "summary_zh": "每週日於 Eagle Farm 賽馬場舉行的農夫市集，適合在週末採買在地農產品與食品的民眾。",
-   "tip_zh": "官方頁面未列出營業時間，前往前請先查閱最新公告。",
+   "tip_zh": "年底休市：12/20 為今年最後一場，2027 年 1/24 恢復營業。",
    "sources": [
     {
      "kind": "official",
@@ -3359,9 +3344,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未列出營業時間。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-10-15"
   },
@@ -3618,12 +3602,12 @@
    "lng": 145.784,
    "start": "2026-11-07",
    "end": "2026-11-07",
-   "schedule_zh": "11/7（時間請見官網）",
+   "schedule_zh": "11/7 7:00–13:00",
    "price_zh": "請見官網",
    "free": true,
    "highlight": "每月市集",
    "summary_zh": "Gordonvale 小屋市集每月第一個週六於 Norman Park 舉行，由 Gordonvale Scout Group 主辦。",
-   "tip_zh": "最新資訊請見主辦單位活動網站 gordonvalecottagemarkets.com.au。",
+   "tip_zh": "每月第一個週六舉行（2 月至 12 月）；遇大雨主辦單位可能限制車輛進入。",
    "sources": [
     {
      "kind": "official",
@@ -3634,8 +3618,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官方頁面無法確認市集時間與入場費用。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官方頁面無法直接開啟，時間依搜尋摘要；其他來源標示 12:00 結束。"
    },
    "added": "2026-10-18"
   },
@@ -3701,7 +3685,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
+    "checked": "2026-11-06",
     "unconfirmed_zh": "官方頁面未列票價。"
    },
    "added": "2026-10-18"
@@ -3735,7 +3719,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-18"
   },
@@ -3808,7 +3792,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -4078,7 +4062,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-24"
   },
@@ -4116,7 +4100,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-24"
   },
@@ -4181,8 +4165,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未確認週年說明與場次票價。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官方頁面無法開啟，日期由第三方列表確認，票價未能於官方頁面確認。"
    },
    "added": "2026-10-24"
   },
@@ -4214,8 +4198,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未明載免費觀賞與市區路線；experienceadelaide 頁面無法開啟。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未載明是否免費、開始時間與路線。"
    },
    "added": "2026-10-24",
    "hot": true
@@ -4248,9 +4232,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網暫時無法開啟，布里斯本—峇里島與萬那杜票價及票種條件未能確認。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-10-24"
   },
@@ -4502,8 +4485,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官方頁面未列入場費用。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未列入場費用。"
    },
    "added": "2026-10-28"
   },
@@ -4573,7 +4556,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-28"
   },
@@ -4638,7 +4621,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-28"
   },
@@ -4671,7 +4654,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-28"
   },
@@ -5038,7 +5021,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-31"
   },
@@ -5076,7 +5059,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-31"
   },
@@ -5214,7 +5197,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-31"
   },
@@ -5394,7 +5377,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-31"
   },
@@ -5427,7 +5410,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-31"
   },
@@ -5460,7 +5443,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-10-31"
   },
@@ -5498,8 +5481,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "預約頁面無法開啟，出發地點 Goolwa Wharf 未能確認。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未明載年份，僅列於 11 月主題公園。"
    },
    "added": "2026-10-31"
   },
@@ -5575,9 +5558,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未標示優惠起始日，起日為查證日。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-11-03"
   },
@@ -5608,9 +5590,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未標示優惠起始日，結束日只寫「6th January」未註明年份。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-11-03"
   },
@@ -5764,7 +5745,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-11-03"
   },
@@ -5868,7 +5849,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-11-03"
   },
@@ -5901,7 +5882,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-11-03"
   },
@@ -5922,7 +5903,7 @@
    "free": false,
    "highlight": "每月週五夜市",
    "summary_zh": "在 Sandy Bay Long Beach 舉辦的週五夜間市集，有在地美食、小批量飲品、設計攤位與現場音樂，每年 10 月至隔年 3 月的部分週五舉行。",
-   "tip_zh": "此頁僅列出 11 月 6 日場次，其他場次請見主辦單位網站。",
+   "tip_zh": "每年 10 月至隔年 3 月的部分週五舉行，另有 11 月 13 日場次，其他日期請見主辦單位網站。",
    "sources": [
     {
      "kind": "official",
@@ -5933,10 +5914,11 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官方頁面未列出開放時間與入場費。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "Discover Tasmania 頁面顯示 11 月 13 日場次，11 月 6 日場次僅由搜尋結果間接確認；票價未載明。"
    },
-   "added": "2026-11-03"
+   "added": "2026-11-03",
+   "schedule_zh": "週五 16:30–21:00"
   },
   {
    "id": "aldi-special-buys-2026-11-04-christmas-food",
@@ -5980,8 +5962,8 @@
    "id": "starbucks-au-panini-10-pastry-pairing-2026",
    "type": "deal",
    "category": "dining",
-   "title": "Starbucks Australia – Drink + Panini for $10 and Pastry Pairing",
-   "title_zh": "Starbucks 飲品加購帕里尼 A$10",
+   "title": "Starbucks Australia – Drink + Deli Roll for $10 and Pastry for $5",
+   "title_zh": "Starbucks 飲品加購 Deli Roll A$10",
    "region": "AU",
    "city": null,
    "venue": null,
@@ -5989,11 +5971,11 @@
    "lng": null,
    "start": "2026-11-03",
    "end": null,
-   "price_zh": "買任一飲品加購 Panini A$10",
+   "price_zh": "買任一飲品加購 Deli Roll A$10；上午 11 點前買飲品加購糕點 A$5",
    "free": false,
    "highlight": "加購優惠",
-   "summary_zh": "Starbucks 澳洲官網目前列出購買任一飲品後加購 Panini 為 A$10，以及上午 11 點前飲品搭配糕點的折扣。",
-   "tip_zh": "優惠條件請以官網 T&Cs 為準；糕點搭配折扣金額官網未載明。",
+   "summary_zh": "Starbucks 澳洲官網目前列出購買任一飲品後加購 Deli Roll 為 A$10（全天），以及上午 11 點前購買飲品加購任一糕點為 A$5。",
+   "tip_zh": "官網未標示結束日期，條件請以官網 T&Cs 為準。",
    "sources": [
     {
      "kind": "official",
@@ -6004,8 +5986,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未標示優惠起迄日期與適用門市，糕點搭配折扣金額也未載明。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未標示優惠結束日期與完整條款。"
    },
    "added": "2026-11-03"
   },
@@ -6037,15 +6019,15 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網只寫「限時」，未公布起迄日期與參與門市。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未標示結束日期與條款。"
    },
    "added": "2026-11-03"
   },
   {
    "id": "virgin-australia-domestic-sale-2026-11",
    "type": "deal",
-   "title": "Virgin Australia Domestic Sale (Red-dy for take off and NSW sale)",
+   "title": "Virgin Australia NSW Sale",
    "title_zh": "Virgin Australia 國內線單程特價 A$55 起",
    "category": "tickets",
    "region": "AU",
@@ -6054,12 +6036,12 @@
    "lat": null,
    "lng": null,
    "start": "2026-11-02",
-   "end": "2026-11-17",
+   "end": "2026-11-08",
    "price_zh": "單程 A$55 起（Economy Lite）",
    "free": false,
    "highlight": "機票特價",
-   "summary_zh": "官網特價頁列出多條國內線單程 Economy Lite 特價，例如雪梨至 Ballina Byron A$55、Launceston 至墨爾本 A$79、霍巴特至雪梨 A$95、布里斯本至雪梨 A$105。各航線截止日不同。",
-   "tip_zh": "Red-dy for take off 系列（含 A$55 雪梨至 Ballina Byron、A$79 Launceston 至墨爾本、A$105 布里斯本至雪梨）於 11 月 4 日 23:59（AEST）截止；NSW sale 於 11 月 8 日截止，其餘於 11 月 17 日截止，各航線以官網標示為準。",
+   "summary_zh": "維珍澳洲 NSW sale 提供多條國內線單程 Economy Lite 特價，例如雪梨與 Ballina Byron 之間單程 A$55，銷售期間至 2026 年 11 月 8 日。",
+   "tip_zh": "優惠限指定航班與旅行日期（約 2027 年 1 月至 9 月），售完為止；以官網標示為準。",
    "sources": [
     {
      "kind": "official",
@@ -6082,8 +6064,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未標示特價起始日；各航線可訂旅行期間未逐一確認。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網頁面暫時無法開啟，其他航線票價與 11 月 17 日截止的航線未能確認。"
    },
    "added": "2026-11-03"
   },
@@ -6121,9 +6103,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未列出各區間的實際票價。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-11-03"
   },
@@ -6168,8 +6149,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未標示優惠的起訖日期。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網優惠頁未顯示有效日期。"
    },
    "added": "2026-11-03"
   },
@@ -6200,9 +6181,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網未標示優惠起始日。"
+    "status": "verified",
+    "checked": "2026-11-06"
    },
    "added": "2026-11-03"
   },
@@ -6987,11 +6967,11 @@
    "start": "2026-11-03",
    "end": null,
    "schedule_zh": "長期方案，品項不定期更換",
-   "price_zh": "官網標示會員享 30%–50% 折扣（限指定商品）",
+   "price_zh": "會員享 20%–50% 折扣（限指定商品）",
    "free": false,
    "highlight": "會員折扣・戶外裝備",
-   "summary_zh": "戶外用品品牌 Kathmandu 官網首頁標示會員可享 30%–50% 折扣，例如指定 Epiq 羽絨外套 50% 折扣、指定美麗諾羊毛衣 30% 折扣，適合準備農場工作、露營或健行裝備的打工度假者。",
-   "tip_zh": "會員折扣僅限指定商品，品項與期間會更換，以官網當時標示為準。",
+   "summary_zh": "戶外用品品牌 Kathmandu 官網標示 Out There Rewards 會員折扣，例如指定 Epiq 保暖外套 50%、指定美麗諾羊毛衣 30%，加入會員免費，適合準備農場工作、露營或健行裝備的打工度假者。",
+   "tip_zh": "折扣僅限指定商品，官網標示為限時；條款與期間請見 Out There Rewards T&Cs。",
    "sources": [
     {
      "kind": "official",
@@ -7002,8 +6982,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-03",
-    "unconfirmed_zh": "官網首頁的會員折扣品項會定期更換，未列明結束日。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未標示優惠起迄日期。"
    },
    "added": "2026-11-03"
   },
@@ -7234,7 +7214,7 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "3 天音樂節",
-   "summary_zh": "陽光海岸內陸 Maleny 的三天音樂節，演出涵蓋民謠、藍調、世界音樂與社區表演，並設有現場露營；陽光海岸市政府列為售票活動。",
+   "summary_zh": "位於陽光海岸內陸 Maleny Showgrounds 的三天音樂節，曲風以民謠、愛爾蘭傳統音樂、藍調與美國鄉村民謠為主，設有現場露營。",
    "tip_zh": "Maleny 距離海岸較遠，大眾運輸有限，建議事先規劃交通。",
    "sources": [
     {
@@ -7258,8 +7238,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "票價官方頁面未列出。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網首頁未列出 2026 確切日期與票價，日期由新聞報導確認。"
    },
    "added": "2026-11-04"
   },
@@ -7402,8 +7382,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-05"
+    "status": "partial",
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "Red Bull 官方頁面無法開啟，日期與免費入場由搜尋結果確認。"
    },
    "added": "2026-11-04"
   },
@@ -7912,8 +7893,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官網未列票價。"
+    "checked": "2026-11-06",
+    "unconfirmed_zh": "官網未列統一票價。"
    },
    "added": "2026-11-05"
   },
@@ -7946,7 +7927,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-05"
+    "checked": "2026-11-06"
    },
    "added": "2026-11-05"
   },
