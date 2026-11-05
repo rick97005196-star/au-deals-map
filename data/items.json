@@ -5043,38 +5043,6 @@
    "added": "2026-10-31"
   },
   {
-   "id": "foo-fighters-take-cover-brisbane-2026",
-   "type": "event",
-   "title": "Foo Fighters: Take Cover Tour – Brisbane",
-   "title_zh": "Foo Fighters 布里斯本演唱會",
-   "category": "music",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Suncorp Stadium",
-   "lat": -27.4648,
-   "lng": 153.0095,
-   "start": "2026-11-05",
-   "end": "2026-11-05",
-   "price_zh": "A$79.90 起（不含手續費）",
-   "free": false,
-   "highlight": "體育場演唱會",
-   "summary_zh": "Foo Fighters Take Cover 澳洲巡迴的布里斯本場，暖場為 Full Flower Moon Band 與 Mini Skirt。",
-   "tip_zh": "購票上限每人 8 張；開演前以官方售票為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Frontier Touring – Foo Fighters Take Cover Tour",
-     "url": "https://www.frontiertouring.com/foofighters"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-05"
-   },
-   "added": "2026-10-31"
-  },
-  {
    "id": "foo-fighters-take-cover-townsville-2026",
    "type": "event",
    "title": "Foo Fighters: Take Cover Tour – Townsville",
@@ -5863,39 +5831,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-03"
-   },
-   "added": "2026-11-03"
-  },
-  {
-   "id": "melbourne-museum-nocturnal-2026-11",
-   "type": "event",
-   "title": "Nocturnal: Museum After Dark",
-   "title_zh": "墨爾本博物館夜間開放",
-   "category": "arts",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Melbourne Museum",
-   "lat": -37.8033,
-   "lng": 144.9717,
-   "start": "2026-11-05",
-   "end": "2026-11-05",
-   "schedule_zh": "18:00–21:30",
-   "price_zh": "A$25（學生或優待票 A$22.50）",
-   "free": false,
-   "highlight": "無兒童夜間場",
-   "summary_zh": "夜間開放活動，可在無兒童的環境中參觀墨爾本博物館，設有現場 DJ，並供應來自館內 Museum Market Café 的飲品與點心。",
-   "tip_zh": "需事先於 Museums Victoria 網站訂票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "What's On Melbourne – Nocturnal",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/nocturnal-museum-after-dark"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-05"
    },
    "added": "2026-11-03"
   },
