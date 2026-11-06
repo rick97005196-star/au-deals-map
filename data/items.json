@@ -267,7 +267,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    }
   },
   {
@@ -306,44 +306,6 @@
     "status": "verified",
     "checked": "2026-11-04"
    }
-  },
-  {
-   "id": "diwali-festival-of-lights-brisbane-2026",
-   "type": "event",
-   "title": "Diwali Festival of Lights",
-   "title_zh": "布里斯本排燈節 Diwali",
-   "category": "festival",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "King George Square",
-   "lat": -27.4686,
-   "lng": 153.0237,
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・市中心",
-   "summary_zh": "布里斯本市政府網站列出的印度排燈節（Diwali）慶典，於市中心 King George Square 舉辦，免費參加，無須預約。",
-   "tip_zh": "免費參加，無須預約；活動時間為 11:00–22:00。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane City Council – Diwali Festival of Lights",
-     "url": "https://www.brisbane.qld.gov.au/events/diwali-festival-of-lights/207376446"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane City Council – event calendar file (.ics)",
-     "url": "https://www.brisbane.qld.gov.au/content/brisbanecitycouncil/home/events/diwali-festival-of-lights/207376446/calendar/207376446.ics"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
-   },
-   "schedule_zh": "11:00–22:00"
   },
   {
    "id": "brisbane-pride-fair-day-2026",
@@ -391,7 +353,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-06",
+    "checked": "2026-11-07",
     "unconfirmed_zh": "官方尚未公布 Fair Day 2026 票價。"
    }
   },
@@ -454,7 +416,7 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "季節限定",
-   "summary_zh": "由昆州公園局巡守員帶領的夜間導覽，於 Mon Repos 海灘觀察海龜產卵與幼龜孵化後爬向大海。導覽自 2026/11/7 起每晚舉行，至 2027/3/21 止。",
+   "summary_zh": "Mon Repos Conservation Park 的夜間海龜導覽，全程步行約 1.6 公里，參加者須能在黑暗中走過不平整路面與鬆軟沙地。導覽自 2026/11/7 起每晚舉行，至 2027/3/21 止。",
    "tip_zh": "每晚舉行，惟 12/24、25、31 停辦；線上預約每日 4pm 截止，建議提早預訂；是否適合參加請先參閱官網說明。",
    "sources": [
     {
@@ -471,8 +433,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方預約頁未列票價。"
    }
   },
   {
@@ -609,7 +572,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    }
   },
   {
@@ -625,11 +588,11 @@
    "lng": 138.6165,
    "start": "2026-11-26",
    "end": "2026-11-29",
-   "price_zh": "成人 GA 單日 A$39 起；週日 A$99 起；4 日 GA A$185 起",
+   "price_zh": "成人 GA 起價：週五 A$69、週六 A$89、週日 A$99、4 日 A$185",
    "free": false,
    "highlight": "Guns N' Roses 演出",
    "summary_zh": "Supercars 年度總決賽於市區街道賽道舉行，賽後另有演唱會：11/28（六）Hilltop Hoods、Ball Park Music，11/29（日）Guns N' Roses（特別嘉賓 Airbourne），可同時觀賞賽車與演唱會。",
-   "tip_zh": "週日與 4 日 GA 票含週日演唱會 GA 區入場；建議提早購票。",
+   "tip_zh": "購票前請於 Ticketmaster 確認各票種是否含演唱會入場；建議提早購票。",
    "sources": [
     {
      "kind": "official",
@@ -664,7 +627,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    }
   },
   {
@@ -759,11 +722,11 @@
    "lng": 147.344,
    "start": "2026-11-15",
    "end": "2026-11-15",
-   "price_zh": "半馬 A$120、10K A$75（10/31 止）；11/1 起半馬 A$145、10K A$90",
+   "price_zh": "半馬 A$145、10K A$90（晚報價，11/14 前報名）",
    "free": false,
    "highlight": "爬升 1,271 公尺",
    "summary_zh": "自 Sandy Bay 的 Wrest Point 跑步（或健走）登上 kunanyi/Mt Wellington 山頂的 21.1 公里半程馬拉松，總爬升 1,271 公尺，報名費含自山頂返回 Wrest Point 起點的巴士；另有難度較低的 10 公里 Point to Pub（爬升 426 公尺），終點為 Fern Tree Tavern，9:45 起有接駁車自 Tavern 發車。",
-   "tip_zh": "10/31 前為一般報名價，11/1–14 調整為晚報價（半馬 A$145、10K A$90）；健走組 7:00 出發，跑步組 8:00 出發。",
+   "tip_zh": "報名費已於 11/1 起調為晚報價，11/14 截止；健走組 7:00 出發，跑步組 8:00 出發。",
    "sources": [
     {
      "kind": "official",
@@ -786,7 +749,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    }
   },
   {
@@ -1019,7 +982,7 @@
    "lng": 144.9122,
    "start": "2026-10-31",
    "end": "2026-11-07",
-   "price_zh": "一般入場成人 A$50–120（依賽日）；12–17 歲 A$15–36；12 歲以下免費",
+   "price_zh": "一般入場票價依賽日而異，請見官網（Champions Stakes Day 成人 A$65）",
    "free": false,
    "highlight": "年度賽馬盛事",
    "summary_zh": "共四個賽馬日：10/31 Derby Day、11/3 墨爾本盃、11/5 Oaks Day、11/7 Champions Stakes Day，於 Flemington Racecourse 舉行。",
@@ -1051,8 +1014,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-31"
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "除 Champions Stakes Day 成人 A$65 外，其他賽日一般入場票價官方頁面未明確列出。"
    },
    "schedule_zh": "10/31、11/3、11/5、11/7 四個賽馬日",
    "hot": true
@@ -1184,7 +1148,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "schedule_zh": "每週五 16:30–21:30",
    "hot": true
@@ -1279,7 +1243,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "area_zh": "伯斯都會區",
    "hot": true
@@ -1542,7 +1506,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-10",
    "hot": true
@@ -1552,7 +1516,7 @@
    "type": "event",
    "title": "Rubber Duck – Melt Festival 2026",
    "title_zh": "布里斯本河巨型黃色小鴨",
-   "category": "family",
+   "category": "arts",
    "region": "QLD",
    "city": "Brisbane",
    "venue": "Brisbane River／New Farm Park（Brisbane Powerhouse 一帶）",
@@ -1565,7 +1529,7 @@
    "free": true,
    "highlight": "免費・Melt Festival",
    "summary_zh": "荷蘭藝術家 Florentijn Hofman 的 15 公尺高粉紅橡皮鴨公共藝術，由 Brisbane Powerhouse 作為 Melt Festival 的一部分於布里斯本河呈現，免費觀賞，展期至 11/8。",
-   "tip_zh": "官方 10/28 公告指橡皮鴨受暴雨影響暫時下線，條件許可後才會返回，尚無回歸日期；出發前請先查看官網或致電 Brisbane Powerhouse。",
+   "tip_zh": "11/7（六）橡皮鴨將於 Brisbane Powerhouse 前水面迎接 Brisbane Pride 遊行，再航向 Story Bridge 後返回；展期至 11/8，出發前請先查看官網最新公告。",
    "sources": [
     {
      "kind": "official",
@@ -1587,9 +1551,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-04",
-    "unconfirmed_zh": "橡皮鴨目前是否在水面展出，官方尚未公布回歸日期。"
+    "status": "verified",
+    "checked": "2026-11-07"
    },
    "added": "2026-10-10"
   },
@@ -1762,7 +1725,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-10"
   },
@@ -2027,7 +1990,7 @@
    "price_zh": "免費（須預約）",
    "free": true,
    "highlight": "免費導覽・每週 6 天",
-   "summary_zh": "墨爾本皇家植物園提供的免費導覽健行，由遊客中心出發，約 1.5 小時介紹園區植物與景觀，路線可通行輪椅與嬰兒車，適合親子與初訪墨爾本的旅客。",
+   "summary_zh": "墨爾本皇家植物園提供的免費導覽健行，由遊客中心出發，約 1.5 小時介紹園區植物與景觀，路線可通行輪椅與嬰兒車，適合初訪墨爾本的旅客。",
    "tip_zh": "須事先預約，週一無導覽；於植物園遊客中心集合。",
    "sources": [
     {
@@ -2039,7 +2002,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-10"
   },
@@ -2156,7 +2119,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2189,8 +2152,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
-    "unconfirmed_zh": "官方活動頁無法直接開啟，內容依搜尋結果摘要確認。"
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方活動頁目前無法開啟（HTTP 410），內容依搜尋結果摘要確認。"
    },
    "added": "2026-10-12"
   },
@@ -2223,7 +2186,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2240,7 +2203,7 @@
    "lng": 150.2875,
    "start": "2026-11-07",
    "end": "2026-11-07",
-   "schedule_zh": null,
+   "schedule_zh": "遊行 10:30 集合、11:30 出發；市集 10:00–16:00",
    "price_zh": "遊行與市集未列票價",
    "free": false,
    "highlight": "年度節慶・遊行",
@@ -2268,7 +2231,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2351,7 +2314,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2412,7 +2375,7 @@
    "free": true,
    "highlight": "免費入場",
    "summary_zh": "在 Federation Square 舉行一天的波蘭文化節，有民俗舞蹈、現場音樂、波蘭食物與甜點、手工藝市集與文化展示，今年為第 22 屆，適合所有年齡層。",
-   "tip_zh": "不需預約；多條電車路線停靠 Fed Square，開車可利用由 Russell Street 或 Batman Avenue 進出的 Fed Square 停車場。",
+   "tip_zh": "不需預約；會場位於 Fed Square（Swanston St 與 Flinders St 交會處）。",
    "sources": [
     {
      "kind": "official",
@@ -2429,7 +2392,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2450,7 +2413,7 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "免費・年度盛事",
-   "summary_zh": "第 44 屆荷伯特聖誕遊行在市中心舉行，由塔州偶戲團 Terrapin 擔任主創並製作新的大型戲偶，市政府表示通常吸引超過 3 萬人，適合全家觀賞。",
+   "summary_zh": "第 44 屆荷伯特聖誕遊行在市中心舉行，由塔州偶戲團 Terrapin 擔任主創並製作新的大型戲偶，市政府表示通常吸引超過 3 萬人。",
    "tip_zh": "官網未公布遊行路線，出發前可查看 City of Hobart 官網的最新資訊。",
    "sources": [
     {
@@ -2468,7 +2431,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2519,7 +2482,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2558,7 +2521,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2591,7 +2554,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-12"
   },
@@ -2632,20 +2595,20 @@
    "id": "nab-goodies-hoyts-discounted-tickets-2026",
    "type": "deal",
    "title": "NAB Goodies – HOYTS Discounted Movie Tickets",
-   "title_zh": "NAB 客戶 HOYTS 電影票 A$13",
+   "title_zh": "NAB 客戶 HOYTS 電影票 A$14",
    "category": "entertainment",
    "region": "AU",
    "city": null,
    "venue": null,
    "lat": null,
    "lng": null,
-   "start": "2026-10-01",
+   "start": "2026-11-01",
    "end": "2027-02-24",
-   "price_zh": "10 月一般廳 A$13；11 月起 A$14；LUX A$28",
+   "price_zh": "一般廳 A$14；LUX A$28",
    "free": false,
    "highlight": "每日皆適用",
-   "summary_zh": "持有 NAB 個人 Visa 簽帳卡或信用卡的客戶，可透過 NAB App 的 NAB Goodies 購買 HOYTS 優惠電影票：2026 年 10 月一般廳 A$13，11 月 1 日至 2027 年 2 月 24 日 A$14，LUX 豪華廳 A$28，週一至週日任何場次皆可使用。適合在 NAB 開戶的打工度假族。",
-   "tip_zh": "須從 NAB App 的 NAB Goodies 進入購票並以 NAB 卡付款，每人每日限一筆、每筆最多 6 張；特殊影廳另收加價。",
+   "summary_zh": "持有 NAB 個人 Visa 簽帳卡或信用卡的客戶，可透過 NAB App 的 NAB Goodies 購買 HOYTS 優惠電影票：2026 年 11 月 1 日至 2027 年 2 月 24 日一般廳 A$14，LUX 豪華廳 A$28，週一至週日任何場次皆可使用。",
+   "tip_zh": "須從 NAB App 的 NAB Goodies 進入購票並以 NAB 個人卡付款，每人每日限一筆、每筆最多 6 張；線上購票須另付訂票費，特殊影廳另收加價。",
    "sources": [
     {
      "kind": "official",
@@ -2656,7 +2619,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13"
   },
@@ -2773,7 +2736,7 @@
    "category": "food",
    "region": "QLD",
    "city": "Sunshine Coast",
-   "venue": "Sunshine & Sons（Distillery Door）, Woombye",
+   "venue": "Sunshine & Sons, Woombye",
    "lat": -26.668,
    "lng": 152.963,
    "start": "2026-11-07",
@@ -2800,7 +2763,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13"
   },
@@ -2838,7 +2801,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13"
   },
@@ -2893,7 +2856,7 @@
    "free": false,
    "highlight": "開幕優惠・單日",
    "summary_zh": "Guzman y Gomez 於 Logan 地區 Yarrabilba 的 Dixon Circuit 商圈（Tenancy 2, 1-31 Dixon Circuit）設立新門市，並於 11 月 11 日（三）推出捲餅與餐碗 A$5 單日優惠，僅限門市購買。",
-   "tip_zh": "優惠僅限門市，不適用 GYG App，每位顧客可能有數量限制；當日營業時間為 7:00–22:00。",
+   "tip_zh": "優惠僅限於 GYG Yarrabilba 門市購買，每位顧客可能有數量限制；優惠時間為 7:00–22:00。",
    "sources": [
     {
      "kind": "official",
@@ -2904,7 +2867,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-04"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13",
    "schedule_zh": "11/11 7:00–22:00"
@@ -2926,7 +2889,7 @@
    "free": false,
    "highlight": "入園證優惠・A$25",
    "summary_zh": "Kakadu 國家公園 2026 年 7 月 1 日至 10 月 31 日提前採用雨季（tropical summer）票價，成人 7 日入園證 A$25、兒童 A$12.50、家庭 A$65；11 月 1 日至 2027 年 5 月 14 日同樣適用此票價，原價成人為 A$40。",
-   "tip_zh": "可在 Parks Australia 官網線上購買，或至 Bowali 遊客中心、Katherine 遊客中心等地購買。",
+   "tip_zh": "入園證有效期為 7 天，購買方式請依 Kakadu 官網入園證頁面說明。",
    "sources": [
     {
      "kind": "official",
@@ -2943,7 +2906,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13"
   },
@@ -2976,7 +2939,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13"
   },
@@ -3054,7 +3017,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13",
    "hot": true
@@ -3094,7 +3057,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-13"
   },
@@ -3128,7 +3091,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-15"
   },
@@ -3243,9 +3206,9 @@
    "category": "travel",
    "region": "QLD",
    "city": "Sunshine Coast",
-   "venue": "The Wharf Carpark（Tourist Bus Stop）",
-   "lat": -26.6827,
-   "lng": 153.1277,
+   "venue": "Aquaduck 集合點（Parkyn Parade，SEA LIFE Sunshine Coast 前方，Mooloolaba）",
+   "lat": -26.6826,
+   "lng": 153.1205,
    "area_zh": null,
    "start": "2026-10-06",
    "end": "2026-12-11",
@@ -3270,9 +3233,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-04",
-    "unconfirmed_zh": "官網頁面直接開啟時未顯示早鳥優惠與班次時間，依搜尋結果摘要確認。"
+    "status": "verified",
+    "checked": "2026-11-07"
    },
    "added": "2026-10-15"
   },
@@ -3312,7 +3274,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-15"
   },
@@ -3456,7 +3418,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-16"
   },
@@ -3602,7 +3564,7 @@
    "lng": 145.784,
    "start": "2026-11-07",
    "end": "2026-11-07",
-   "schedule_zh": "11/7 7:00–13:00",
+   "schedule_zh": "11/7 7:00–12:00",
    "price_zh": "請見官網",
    "free": true,
    "highlight": "每月市集",
@@ -3618,8 +3580,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "官方頁面無法直接開啟，時間依搜尋摘要；其他來源標示 12:00 結束。"
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方頁面未能直接開啟，營業時間依搜尋摘要，入場是否免費未在官方頁面確認。"
    },
    "added": "2026-10-18"
   },
@@ -3771,7 +3733,7 @@
    "start": "2026-11-07",
    "end": "2026-11-29",
    "schedule_zh": "開幕節期間週一至週三 10:00–17:00；週四至週日營業至 21:00",
-   "price_zh": "博物館與多數展覽免費入場；16 歲以下免費參觀所有展覽；部分節目票價請見官網",
+   "price_zh": "博物館與多數展覽免費入場；未滿 16 歲免費參觀所有展覽；部分節目需購票，請見官網",
    "free": false,
    "highlight": "2026 年 11 月開幕",
    "summary_zh": "Powerhouse Parramatta 新館將於 2026 年 11 月 7 日開幕，首批開幕展覽共五項，《The Mall》為其中之一。開幕節期間為 11 月 7 日至 29 日，約 65% 的節目為免費活動。",
@@ -3792,7 +3754,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -3901,7 +3863,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "lead": "其他",
    "added": "2026-10-22"
@@ -3998,7 +3960,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-24"
   },
@@ -4030,7 +3992,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-24"
   },
@@ -4062,7 +4024,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-24"
   },
@@ -4100,7 +4062,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-24"
   },
@@ -4133,7 +4095,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-24"
   },
@@ -4556,7 +4518,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-28"
   },
@@ -4621,40 +4583,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
-   },
-   "added": "2026-10-28"
-  },
-  {
-   "id": "npws-trial-bay-gaol-twilight-tour-2026-11-06",
-   "type": "event",
-   "title": "Trial Bay Gaol Twilight Tour",
-   "title_zh": "Trial Bay 監獄黃昏導覽",
-   "category": "travel",
-   "region": "NSW",
-   "city": "South West Rocks",
-   "venue": "Trial Bay Gaol, Arakoon National Park",
-   "lat": -30.87,
-   "lng": 153.04,
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "schedule_zh": "11 月 6 日 18:30–20:00",
-   "price_zh": "成人 A$25 起",
-   "free": false,
-   "highlight": "國家公園導覽",
-   "summary_zh": "New South Wales 國家公園暨野生動物局在 Arakoon 國家公園內的 Trial Bay Gaol 舉辦黃昏導覽，介紹這座歷史監獄遺址。11 月場次為 6 日，12 月另有 4 日、21 日與 28 日場次。",
-   "tip_zh": "必須事先預約，可線上訂位或致電 1300 072 757；成人 A$25、優待票 A$21；集合點為監獄入口大門，建議穿包鞋並自備小手電筒。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "NSW National Parks – Trial Bay Gaol twilight tour",
-     "url": "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/trial-bay-gaol-twilight-tour"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-28"
   },
@@ -4695,7 +4624,7 @@
    "id": "hoyts-lux-28-weekday-2026",
    "type": "deal",
    "title": "$28 HOYTS LUX Tickets",
-   "title_zh": "HOYTS LUX 平日午前場 A$28",
+   "title_zh": "HOYTS LUX 平日 17:01 前場次 A$28",
    "category": "entertainment",
    "region": "AU",
    "city": null,
@@ -4709,7 +4638,7 @@
    "free": false,
    "highlight": "LUX 影廳優惠",
    "summary_zh": "HOYTS 提供週一、週三、週四、週五 17:01 前的 LUX 場次 A$28 票價，至 2026 年 12 月 14 日。適合想以較低價格體驗高規格影廳的旅客。",
-   "tip_zh": "國定假日與特別活動場次不適用，Chadstone 與 Melbourne Central 影城除外；另加訂票手續費。",
+   "tip_zh": "國定假日與特別活動場次不適用，Chadstone 與 Melbourne Central 影城除外；官網註明可能另有訂票手續費。",
    "sources": [
     {
      "kind": "official",
@@ -4720,7 +4649,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -4786,7 +4715,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -4819,7 +4748,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -4835,12 +4764,12 @@
    "lat": -37.8179,
    "lng": 144.9689,
    "start": "2026-08-19",
-   "end": "2027-01-31",
+   "end": "2027-05-16",
    "schedule_zh": "每日 10:00–17:00（12/25 休館）",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費展覽",
-   "summary_zh": "以 1934 至 1936 年長征為題材的橫向捲軸互動遊戲，使用雙螢幕與手把遊玩，同一時間一人體驗。",
+   "summary_zh": "以 1934 至 1936 年長征為題材的橫向捲軸互動遊戲，使用手把遊玩，同一時間一人體驗。",
    "tip_zh": "一次僅限一人操作，其他人可在旁觀看；作品含大音量與閃爍畫面，敏感者請留意。",
    "sources": [
     {
@@ -4852,7 +4781,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -4860,7 +4789,7 @@
    "id": "sydney-big-ticket-tower-eye-2026",
    "type": "deal",
    "title": "Sydney Big Ticket",
-   "title_zh": "雪梨 Big Ticket 多景點通票 A$39 起",
+   "title_zh": "雪梨 Big Ticket 多景點通票 A$49 起",
    "category": "entertainment",
    "region": "NSW",
    "city": "Sydney",
@@ -4869,11 +4798,11 @@
    "lng": 151.2089,
    "start": "2026-10-31",
    "end": null,
-   "price_zh": "A$39 起",
+   "price_zh": "A$49 起",
    "free": false,
    "highlight": "多景點通票",
-   "summary_zh": "Sydney Tower Eye 官網提供含 Tower Eye、SEA LIFE、WILD LIFE 與 Madame Tussauds 的多景點通票，雙景點通票 A$39 起，自首次入場起 60 天內有效。",
-   "tip_zh": "官網額外 A$10 折扣須於 11 月 2 日前訂票；後續景點需預約免費時段；SKYWALK 至 2026/11/12 暫停開放。",
+   "summary_zh": "Sydney Tower Eye 官網提供含 Tower Eye、SEA LIFE、WILD LIFE 與 Madame Tussauds 的多景點通票，雙景點通票線上價 A$49 起，自首次入場起最長 60 天內有效。",
+   "tip_zh": "SKYWALK 至 2026 年 11 月 12 日暫停開放，一般觀景台不受影響；實際票價與入場方式請以官網為準。",
    "sources": [
     {
      "kind": "official",
@@ -4884,7 +4813,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -4917,7 +4846,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -4950,7 +4879,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -4989,7 +4918,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5059,7 +4988,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5081,7 +5010,7 @@
    "free": true,
    "highlight": "免費展覽・至 11/29",
    "summary_zh": "展出 40 位入圍藝術家的當代澳洲肖像作品，獎金總額逾 A$140,000，地點位於伯斯文化中心的 WA Museum Boola Bardip。",
-   "tip_zh": "位於 Northbridge 的 Perth Cultural Centre，從伯斯火車站步行即可抵達。",
+   "tip_zh": "位於 Northbridge 的 Perth Cultural Centre，免費入場。",
    "sources": [
     {
      "kind": "official",
@@ -5092,7 +5021,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5131,7 +5060,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5164,7 +5093,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5197,7 +5126,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5236,7 +5165,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5307,7 +5236,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5326,7 +5255,7 @@
    "price_zh": "票價減半（例：Perth–Kalgoorlie 來回省約 A$100）",
    "free": false,
    "highlight": "長途票價減半",
-   "summary_zh": "西澳政府公布自 2026 年 1 月 1 日起，Transwa 區域火車與長途巴士票價永久降低 50%，涵蓋逾 200 個目的地，適合前往 Kalgoorlie、Esperance 等地的旅客。",
+   "summary_zh": "西澳政府公布自 2026 年 1 月 1 日起，Transwa 區域火車與長途巴士票價永久降低 50%，涵蓋逾 200 個目的地，例如 Perth–Kalgoorlie 的 Prospector 路線。",
    "tip_zh": "以 Transwa 官網查詢實際票價並訂位；官方新聞稿未列出限定身分。",
    "sources": [
     {
@@ -5344,7 +5273,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5377,7 +5306,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5410,7 +5339,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5520,8 +5449,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-10-31"
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方頁面未明載年份，僅確認 11 月 26 日 10:00–11:00 與免費。"
    },
    "added": "2026-10-31"
   },
@@ -5745,7 +5675,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-11-03"
   },
@@ -5831,7 +5761,7 @@
    "price_zh": "A$40–45（須線上購票）",
    "free": false,
    "highlight": "50 家烘豆商",
-   "summary_zh": "第二屆咖啡週末邀請約 50 家來自各國的精品手沖咖啡烘豆商進駐 Queen Victoria Market，需線上購票入場。",
+   "summary_zh": "第二屆咖啡週末邀請約 50 家精品手沖咖啡烘豆商進駐 Queen Victoria Market，需線上購票入場。",
    "tip_zh": "票券透過 Humanitix 預訂；QVM 官網標示 9:00–16:00，墨爾本市府頁面標示 8:00–16:00，出發前請再確認。",
    "sources": [
     {
@@ -5849,7 +5779,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-11-03"
   },
@@ -5882,43 +5812,9 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-11-03"
-  },
-  {
-   "id": "hobart-twilight-market-long-beach-2026-11",
-   "type": "event",
-   "title": "Hobart Twilight Market – Long Beach",
-   "title_zh": "荷伯特 Sandy Bay 黃昏市集",
-   "category": "market",
-   "region": "TAS",
-   "city": "Hobart",
-   "venue": "Long Beach, Sandy Bay",
-   "lat": -42.9065,
-   "lng": 147.33,
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "每月週五夜市",
-   "summary_zh": "在 Sandy Bay Long Beach 舉辦的週五夜間市集，有在地美食、小批量飲品、設計攤位與現場音樂，每年 10 月至隔年 3 月的部分週五舉行。",
-   "tip_zh": "每年 10 月至隔年 3 月的部分週五舉行，另有 11 月 13 日場次，其他日期請見主辦單位網站。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Hobart Twilight Market",
-     "url": "https://www.discovertasmania.com.au/event/hobarttwilightmarketsandybay"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "Discover Tasmania 頁面顯示 11 月 13 日場次，11 月 6 日場次僅由搜尋結果間接確認；票價未載明。"
-   },
-   "added": "2026-11-03",
-   "schedule_zh": "週五 16:30–21:00"
   },
   {
    "id": "aldi-special-buys-2026-11-04-christmas-food",
@@ -6215,7 +6111,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6248,7 +6144,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6268,9 +6164,9 @@
    "schedule_zh": "11 月 22 日（日）10:00–15:30",
    "price_zh": "免費入場、免費停車",
    "free": true,
-   "highlight": "200 多個本地設計、手作與美食攤位齊聚 UWA Winthrop Hall",
-   "summary_zh": "伯斯的大型設計市集，11 月場集合 200 多位本地藝術家、設計師與手作、美食品牌，免費入場。",
-   "tip_zh": "活動當日校園內可免費停車。",
+   "highlight": "180 多個本地設計、手作與美食攤位齊聚 UWA Winthrop Hall",
+   "summary_zh": "伯斯的大型設計市集，11 月場集合近 200 位本地藝術家、設計師與手作、美食品牌，免費入場。",
+   "tip_zh": "週日 UWA 校園停車免費，但停車場容易客滿。",
    "sources": [
     {
      "kind": "official",
@@ -6287,7 +6183,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6308,8 +6204,8 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "Fremantle 的歷史市集，每週五至週日與國定假日週一開放",
-   "summary_zh": "Fremantle 最具代表性的傳統市集，有生鮮、小吃、手工藝與紀念品攤位，每週五、六、日及週一國定假日營業；12 月 23、24、26 至 28 日加開，12 月 25 日休市。",
-   "tip_zh": "搭 Fremantle 線火車至 Fremantle 站，步行約 10 分鐘可達。",
+   "summary_zh": "Fremantle 的傳統市集，設有美食街頭小吃與生鮮、獨立工藝創作者、時尚、禮品與藝術品攤位，每週五、六、日及週一國定假日營業；12 月 23、24、26 至 28 日加開，12 月 25 日休市。",
+   "tip_zh": "位於 74 South Terrace，官網提供交通與停車資訊可供查詢。",
    "sources": [
     {
      "kind": "official",
@@ -6320,7 +6216,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6341,8 +6237,8 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "整個夏季每週日下午的免費草地音樂會",
-   "summary_zh": "Walyalup Fremantle Arts Centre 的夏季週日音樂會系列，每週日下午由不同樂團與歌手在藝術中心前庭草地演出，免費入場。",
-   "tip_zh": "可自備野餐墊與食物；座位有限，建議提早到。",
+   "summary_zh": "Walyalup Fremantle Arts Centre 的夏季週日音樂會系列，每週日下午由不同樂團與歌手在前庭花園演出，免費入場。",
+   "tip_zh": "部分場次時間與資訊請見官網音樂會資訊頁。",
    "sources": [
     {
      "kind": "official",
@@ -6359,7 +6255,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6392,7 +6288,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6425,7 +6321,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6458,7 +6354,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -6479,7 +6375,7 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "East Perth 河畔公園的免費銅管樂團音樂會",
-   "summary_zh": "City of Perth 聖誕系列活動之一，12 月 6 日傍晚在 East Perth 的 Victoria Gardens 舉行免費銅管樂團演出。",
+   "summary_zh": "East Perth 的 Victoria Gardens 於 12 月 6 日傍晚舉辦免費社區活動，有 WA Brass Band、East Perth Community Choir 等節慶表演，現場並有餐車與餐廳外帶。",
    "tip_zh": "戶外草地活動，建議自備野餐墊與防曬用品。",
    "sources": [
     {
@@ -6491,47 +6387,14 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-10-31"
-   },
-   "added": "2026-10-31"
-  },
-  {
-   "id": "subi-farmers-market-saturdays",
-   "type": "event",
-   "title": "Subi Farmers Market",
-   "title_zh": "Subiaco 週六農夫市集",
-   "category": "market",
-   "region": "WA",
-   "city": "Perth",
-   "venue": "Subiaco Primary School, 271 Bagot Road, Subiaco",
-   "lat": -31.9475,
-   "lng": 115.8285,
-   "start": "2026-10-31",
-   "end": null,
-   "schedule_zh": "每週六 8:00–12:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "伯斯近郊每週六早上的農夫市集，生鮮、麵包與熟食攤位",
-   "summary_zh": "位於 Subiaco 小學校園的常設農夫市集，每週六上午營業，販售本地蔬果、麵包、咖啡與熟食。",
-   "tip_zh": "建議自備購物袋。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Subi Farmers Market – 官方網站（每週六 8:00–12:00、地點）",
-     "url": "https://subifarmersmarket.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-10-31"
+    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
   {
    "id": "perth-christmas-lights-trail-2026",
    "type": "event",
-   "title": "Christmas Lights Trail 2026 (City of Perth)",
+   "title": "Rio Tinto Christmas Lights Trail 2026 (City of Perth)",
    "title_zh": "Perth 市中心聖誕燈飾步道",
    "category": "festival",
    "region": "WA",
@@ -6557,7 +6420,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
+    "checked": "2026-11-07",
     "unconfirmed_zh": "官網未標示是否免費，路線地圖也尚未公布。"
    },
    "added": "2026-10-31"
@@ -7109,7 +6972,7 @@
    "price_zh": "首單 15% 折扣",
    "free": false,
    "highlight": "新會員折扣",
-   "summary_zh": "Glassons 澳洲官網提供訂閱電子報或下載 App 即享首筆訂單 15% 折扣的新會員優惠，適用於女裝購物。",
+   "summary_zh": "Glassons 澳洲官網提供訂閱電子報或下載 App 即享首筆訂單 15% 折扣的新會員優惠。",
    "tip_zh": "官網未列出折扣的限制與到期日，結帳前請確認條款。",
    "sources": [
     {
@@ -7121,7 +6984,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
+    "checked": "2026-11-07",
     "unconfirmed_zh": "官網未公布此優惠的到期日與排除品項。"
    },
    "added": "2026-11-04"
@@ -7261,7 +7124,7 @@
    "free": false,
    "highlight": "電音音樂節",
    "summary_zh": "黃金海岸 HOTA 舉辦的單日電子舞曲音樂節，票價 A$149.95 至 269.95。",
-   "tip_zh": "購票前請於 HOTA 官網確認年齡限制；官方建議搭乘大眾運輸或步行前往。",
+   "tip_zh": "購票前請於 HOTA 官網確認年齡限制與入場規定。",
    "sources": [
     {
      "kind": "official",
@@ -7272,7 +7135,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
+    "checked": "2026-11-07",
     "unconfirmed_zh": "年齡限制官方頁面未列出。"
    },
    "added": "2026-11-04"
@@ -7382,9 +7245,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "Red Bull 官方頁面無法開啟，日期與免費入場由搜尋結果確認。"
+    "status": "verified",
+    "checked": "2026-11-07"
    },
    "added": "2026-11-04"
   },
@@ -7422,8 +7284,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
-    "unconfirmed_zh": "官網未標示年份與適用州別（頁尾為 2026，11/2 為星期一，與 2026 年吻合；優惠碼由 OzBargain 確認）。"
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網未標示年份與適用州別（頁尾為 2026；優惠碼由 OzBargain 確認）。"
    },
    "added": "2026-11-04"
   },
@@ -7439,10 +7301,10 @@
    "area_zh": "全澳區域航線",
    "start": "2026-11-03",
    "end": null,
-   "price_zh": "單程 A$149 起（依航線）",
+   "price_zh": "單程 A$187 起（依航線）",
    "free": false,
    "highlight": "區域航線特價",
-   "summary_zh": "Rex 官網列出 2026 年 11 月至 2027 年 6 月出發的區域航線單程特價，例如 Albury 至雪梨 A$195、Townsville 至 Cairns A$189、Albany 至伯斯 A$187，最低為 Wagga Wagga 至雪梨 A$149。每條航線僅列一個固定出發日。",
+   "summary_zh": "Rex 官網列出 2026 年 11 月至 2027 年 5 月出發的區域航線單程特價，例如 Albury 至雪梨 A$215、Townsville 至 Cairns A$189、Albany 至伯斯 A$187，最低為 Albany 或 Esperance 至伯斯 A$187。每條航線僅列一個固定出發日。",
    "tip_zh": "票價為單程、依艙位而定，另有付款與手續費；出發日固定，請在 rex.com.au 確認航線與日期。",
    "sources": [
     {
@@ -7454,8 +7316,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-04",
-    "unconfirmed_zh": "官方頁面未標示優惠截止日期。"
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方頁面未標示優惠截止日期，手續費金額也未列出。"
    },
    "added": "2026-11-04"
   },
@@ -7893,41 +7755,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-06",
+    "checked": "2026-11-07",
     "unconfirmed_zh": "官網未列統一票價。"
-   },
-   "added": "2026-11-05"
-  },
-  {
-   "id": "gyg-southbank-5-brekkie-free-coffee-2026-11-06",
-   "type": "deal",
-   "title": "$5 Brekkie & Free Coffee at GYG Southbank",
-   "title_zh": "GYG Southbank 早餐 A$5 加贈小杯咖啡",
-   "category": "dining",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "GYG Southbank, 179 Grey St, South Brisbane",
-   "lat": -27.4778,
-   "lng": 153.019,
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "schedule_zh": "11 月 6 日（週五）6:00–10:30",
-   "price_zh": "早餐 Burrito 或 Bowl A$5，另送小杯咖啡",
-   "free": false,
-   "highlight": "單日・早餐 A$5",
-   "summary_zh": "GYG 官方公告 Southbank 門市於 2026 年 11 月 6 日早上推出一般尺寸早餐 Burrito 與 Bowl 每份 A$5，並加贈一杯小杯咖啡，加濃縮、替代奶與糖漿不另收費。",
-   "tip_zh": "僅限門市內用或現場購買，不適用 App、網站與外送；不含 Big Brekkie Burrito，每人可能有數量限制。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "GYG – $5 Brekkie & Free Coffee at GYG Southbank",
-     "url": "https://www.guzmanygomez.com.au/5-brekkie-free-coffee-at-gyg-southbank/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
    },
    "added": "2026-11-05"
   },
@@ -7993,7 +7822,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
+    "checked": "2026-11-07",
     "unconfirmed_zh": "官網尚未列出 11 月 11 日的商品價格。"
    },
    "added": "2026-11-05"
@@ -8197,8 +8026,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "展覽專頁無法載入，結束日與作品內容官方列表未提供。"
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方列表未提供結束日與展覽說明。"
    },
    "added": "2026-11-06"
   },
@@ -8468,7 +8297,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-11-06"
   },
@@ -8489,8 +8318,8 @@
    "price_zh": "免費入場，不需預約",
    "free": true,
    "highlight": "免費・音樂會",
-   "summary_zh": "墨爾本交響樂團合唱團與 Footscray Yarraville City Band 於戰爭紀念館前廣場演出，曲目為戰時經典與追思歌曲。",
-   "tip_zh": "座位先到先坐，16:45 先有 Last Post 儀式；天氣不佳可能影響活動。",
+   "summary_zh": "墨爾本交響樂團合唱團與 Footscray Yarraville City Band 於戰爭紀念館前廣場演出，免費入場。",
+   "tip_zh": "16:45 先有 Last Post 儀式，音樂 17:00 開始；天氣可能影響活動，請查看 Shrine 社群帳號。",
    "sources": [
     {
      "kind": "official",
@@ -8501,7 +8330,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-06"
+    "checked": "2026-11-07"
    },
    "added": "2026-11-06"
   },
