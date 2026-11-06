@@ -259,3 +259,14 @@
 - 2026-11-06｜購物 AU｜Lebara｜https://www.lebara.com.au｜預付卡促銷
 - 2026-11-06｜活動 NSW｜AGNSW What's On｜https://www.artgallery.nsw.gov.au/whats-on｜新南威爾斯美術館免費展覽
 - 2026-11-06｜購物 AU｜ALDI Mobile｜https://www.aldimobile.com.au｜方案與促銷
+
+- 2026-11-07｜購物｜Felix Mobile（預付 SIM）｜https://www.felixmobile.com.au/｜Felix 預付方案價格、優惠碼與結束日（felix.com.au 已轉址至無關網站，請用此網域）
+- 2026-11-07｜活動 QLD｜Miami Marketta｜https://www.miamimarketta.com/｜黃金海岸街頭美食市集，營業時段、免費入場與每週活動行事曆
+- 2026-11-07｜活動 QLD｜Eat Street Northshore｜https://www.eatstreetnorthshore.com.au/｜布里斯本河畔美食夜市營業時間與週末演出
+- 2026-11-07｜活動 QLD｜Noosa Farmers Market｜https://www.noosafarmersmarket.com.au/｜Noosaville 週日農夫市集時間與地址
+- 2026-11-07｜活動 QLD｜Live Nation Australia（Queensland Country Bank Stadium）｜https://www.livenation.com.au/queensland-country-bank-stadium-tickets-vdp1435342｜湯斯維爾體育場演唱會日期與預售資訊
+- 2026-11-07｜活動 NSW｜Entertainment Quarter（Mediterranean Market）｜https://entertainmentquarter.com.au/visit/mediterranean-market-sydney/｜雪梨 Moore Park 場地官網，市集日期、時段、免費入場
+- 2026-11-07｜活動 SA｜Feast Festival 活動頁｜https://feast.org.au/events/port-adelaide-pride-festival｜Feast 彩虹藝術節各活動日期、地點與免費標示
+- 2026-11-07｜活動 NT｜Discover Darwin（Darwin 市議會）｜https://discover.darwin.nt.gov.au/blogs/darwin-markets｜Darwin 市集介紹（Parap、Rapid Creek、Nightcliff），未列時段與費用
+- 2026-11-07｜活動 NT｜Rapid Creek Markets｜https://www.rapidcreekmarkets.com.au/｜Darwin 週末市集時段與地址（頁面含過時疫情公告）
+- 2026-11-07｜吃喝 AU｜RASHAYS｜https://rashays.com/｜餐廳連鎖官網優惠與分店清單（Sydney／Canberra／Melbourne／Brisbane）

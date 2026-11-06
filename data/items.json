@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -8572,6 +8572,528 @@
     "unconfirmed_zh": "官網未標示票價與優惠的適用期間。"
    },
    "added": "2026-11-06"
+  },
+  {
+   "id": "felix-unlimited-half-price-6-months-2026",
+   "type": "deal",
+   "title": "Felix Mobile Unlimited plan – half price for 6 months",
+   "title_zh": "Felix 預付無限數據方案前 6 個月半價",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-06",
+   "end": "2026-11-30",
+   "price_zh": "Unlimited 前 6 個月每月 A$20（之後 A$40）；Unlimited+ 每月 A$25（之後 A$50）",
+   "free": false,
+   "highlight": "前 6 個月半價・無綁約",
+   "summary_zh": "Felix 為新客戶及符合資格的客戶提供 Unlimited 方案前 6 個月半價，優惠碼 UNL40；Unlimited+ 方案優惠碼為 UNL80。官方說明無綁約、按月自動續約，僅限行動網路使用。",
+   "tip_zh": "結帳時輸入優惠碼；方案按月自動續約，離境前須自行取消。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Felix Mobile – plans and promo codes",
+     "url": "https://www.felixmobile.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網僅標示優惠於 2026 年 11 月 30 日結束，未標示開始日；開始日以查證日期代入。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "miami-marketta-gold-coast-2026",
+   "type": "event",
+   "title": "Miami Marketta",
+   "title_zh": "Miami Marketta 黃金海岸街頭美食夜市",
+   "category": "food",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Miami Marketta, 23 Hillcrest Parade, Miami",
+   "lat": -28.0733,
+   "lng": 153.4421,
+   "start": "2026-11-07",
+   "end": null,
+   "schedule_zh": "週三至週六 17:00 起",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・每週營業",
+   "summary_zh": "黃金海岸 Miami 的街頭美食市集，週三至週六 17:00 起免費入場、無須預約；另有需購票的演出與活動，各場資訊請見官網行事曆。",
+   "tip_zh": "購票活動另計，各場價格請見官網行事曆。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Miami Marketta",
+     "url": "https://www.miamimarketta.com/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網未明寫年份，11 月節目的星期與 2026 年相符。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "eat-street-northshore-2026",
+   "type": "event",
+   "title": "Eat Street Northshore",
+   "title_zh": "Eat Street Northshore 布里斯本河畔美食夜市",
+   "category": "food",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Eat Street Northshore, 221D MacArthur Avenue, Hamilton",
+   "lat": -27.4398,
+   "lng": 153.0702,
+   "start": "2026-11-07",
+   "end": null,
+   "schedule_zh": "週五、週六 16:00–22:00；週日 16:00–21:00",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "60 多個美食攤位",
+   "summary_zh": "布里斯本河畔的夜間美食園區，官網列出 60 多個微型廚房、酒吧與體驗，以及 4 個現場音樂舞台。",
+   "tip_zh": "官網表示票價採浮動定價，出發前請先查官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Eat Street Northshore",
+     "url": "https://www.eatstreetnorthshore.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網未明列入場費，且未標示 2026 年季節結束日。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "guns-n-roses-townsville-2026",
+   "type": "event",
+   "title": "Guns N' Roses World Tour 2026 – Townsville",
+   "title_zh": "Guns N' Roses 湯斯維爾演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Townsville",
+   "venue": "Queensland Country Bank Stadium",
+   "lat": -19.2745,
+   "lng": 146.8003,
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "世界巡迴澳洲站",
+   "summary_zh": "Guns N' Roses 2026 世界巡迴澳洲站於 12 月 2 日在湯斯維爾 Queensland Country Bank Stadium 舉行。",
+   "tip_zh": "票務由 Ticketmaster 販售，官方頁面未顯示是否仍有餘票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Live Nation – Queensland Country Bank Stadium",
+     "url": "https://www.livenation.com.au/queensland-country-bank-stadium-tickets-vdp1435342"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Townsville North Queensland – events",
+     "url": "https://www.townsvillenorthqueensland.com.au/events/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方頁面未公布票價、剩餘票數與暖場嘉賓。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "currumbin-christmas-carols-2026",
+   "type": "event",
+   "title": "Currumbin Christmas Carols",
+   "title_zh": "Currumbin 聖誕頌歌音樂會",
+   "category": "festival",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "Merv Craig Recreation Park, 26 Galleon Way, Currumbin Waters",
+   "lat": -28.1383,
+   "lng": 153.4775,
+   "start": "2026-12-20",
+   "end": "2026-12-20",
+   "schedule_zh": "17:00–19:30",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・聖誕音樂會",
+   "summary_zh": "黃金海岸 Currumbin Waters 的社區聖誕頌歌音樂會，入場免費，2026 年為第 10 屆。",
+   "tip_zh": "活動在公園舉行，出發前請查詢大眾運輸或共乘方式。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "What's On Gold Coast – Currumbin Christmas Carols",
+     "url": "https://www.whatsongoldcoast.au/All-events/Currumbin-Christmas-Carols"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-07"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "noosa-farmers-market-sundays",
+   "type": "event",
+   "title": "Noosa Farmers Market",
+   "title_zh": "Noosa 週日農夫市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Noosaville",
+   "venue": "155 Weyba Rd, Noosaville",
+   "lat": -26.4017,
+   "lng": 153.0589,
+   "start": "2026-11-08",
+   "end": null,
+   "schedule_zh": "每週日 7:00–12:00",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "每週日農夫市集",
+   "summary_zh": "陽光海岸 Noosaville 的週日農夫市集，每週日 7:00 至中午營業，地址為 155 Weyba Rd。",
+   "tip_zh": "營業至中午，建議早點前往；入場費請先查官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Noosa Farmers Market",
+     "url": "https://www.noosafarmersmarket.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網未標示 2026 年日期與入場費。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "mediterranean-market-sydney-2026-11-08",
+   "type": "event",
+   "title": "Mediterranean Market Sydney",
+   "title_zh": "雪梨地中海風情市集",
+   "category": "market",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Market Canopy, Entertainment Quarter, Moore Park",
+   "lat": -33.8925,
+   "lng": 151.2225,
+   "start": "2026-11-08",
+   "end": "2026-11-08",
+   "schedule_zh": "週日 9:00–16:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・單日市集",
+   "summary_zh": "Entertainment Quarter 的 Market Canopy 於 2026 年 11 月 8 日舉辦地中海風味市集，官方頁面列出免費入場。",
+   "tip_zh": "營業時間以官方頁面為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Entertainment Quarter – Mediterranean Market Sydney",
+     "url": "https://entertainmentquarter.com.au/visit/mediterranean-market-sydney/"
+    },
+    {
+     "kind": "community",
+     "platform": "新聞",
+     "label": "sydney.com – Mediterranean Market",
+     "url": "https://www.sydney.com/destinations/sydney/sydney-east/moore-park/events/mediterranean-market"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-07"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "head-on-photo-festival-2026",
+   "type": "event",
+   "title": "Head On Photo Festival 2026",
+   "title_zh": "Head On 雪梨攝影節 2026",
+   "category": "arts",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Bondi Pavilion / Paddington Reservoir Gardens",
+   "lat": -33.8914,
+   "lng": 151.2742,
+   "start": "2026-11-06",
+   "end": null,
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "年度攝影節",
+   "summary_zh": "Head On Photo Festival 2026 於 11 月 6 日在 Bondi Pavilion 舉行開幕夜，為期一個月的活動包含 Bondi Pavilion 的展覽、講座與攝影書市集，以及 Paddington Reservoir Gardens 的導覽活動。",
+   "tip_zh": "開幕夜需購票，其他場次入場方式請先查官網節目表。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Head On Foundation – launch party 2026 (Humanitix)",
+     "url": "https://events.humanitix.com/head-on-photo-festival-launch-2026"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Head On Photo Festival – festival",
+     "url": "https://headon.org.au/festival"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網擋自動讀取，節慶結束日、展覽入場費與每日開放時間未能確認。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "port-adelaide-pride-street-market-2026-11-07",
+   "type": "event",
+   "title": "Port Adelaide Pride Festival Street Market",
+   "title_zh": "Port Adelaide 驕傲街頭市集",
+   "category": "market",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Nile Street and Commercial Road, Port Adelaide",
+   "lat": -34.8467,
+   "lng": 138.5043,
+   "start": "2026-11-07",
+   "end": "2026-11-07",
+   "schedule_zh": "10:00 起，約 7 小時",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・Feast 藝術節活動",
+   "summary_zh": "Feast Festival 的一部分，2026 年 11 月 7 日在 Port Adelaide 街頭舉行的免費社區活動，官方頁面標示適合所有年齡。",
+   "tip_zh": "官方頁面透過 Humanitix 提供免費票券登記。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Feast Festival – Port Adelaide Pride Festival",
+     "url": "https://feast.org.au/events/port-adelaide-pride-festival"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-07"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "made-on-the-left-christmas-market-fremantle-2026",
+   "type": "event",
+   "title": "Made on the Left Markets",
+   "title_zh": "Fremantle Made on the Left 市集",
+   "category": "market",
+   "region": "WA",
+   "city": "Fremantle",
+   "venue": "Fremantle",
+   "lat": -32.0571,
+   "lng": 115.7442,
+   "start": "2026-11-21",
+   "end": "2026-11-22",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "週末手作市集",
+   "summary_zh": "City of Fremantle 2026–27 活動行事曆列出 Made on the Left Markets 於 11 月 21 至 22 日舉行。",
+   "tip_zh": "出發前請向主辦單位確認場地、時段與入場方式。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Fremantle – Events Calendar FY26-27 (PDF)",
+     "url": "https://www.visitfremantle.com.au/sites/default/files/2026-08/5407%20CoF%20Events%20Calendar%20FY26-27%20FINAL.pdf"
+    },
+    {
+     "kind": "community",
+     "platform": "新聞",
+     "label": "Weekend Notes – Made on the Left 2026",
+     "url": "https://www.weekendnotes.com/made-on-the-left-2026-christmas-market/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方行事曆只列日期，入場費、每日時段與確切場地未能確認。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "parap-village-markets-darwin",
+   "type": "event",
+   "title": "Parap Village Markets",
+   "title_zh": "Darwin Parap 週六市集",
+   "category": "market",
+   "region": "NT",
+   "city": "Darwin",
+   "venue": "Parap Village, Parap",
+   "lat": -12.428,
+   "lng": 130.839,
+   "start": "2026-11-07",
+   "end": null,
+   "schedule_zh": "每週六 8:00–14:00（全年）",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "每週六固定市集",
+   "summary_zh": "Top End 觀光局列出 Parap Village Markets 全年每週六 8:00 至 14:00 營業。",
+   "tip_zh": "出發前可先查官網確認營業資訊。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Tourism Top End – Markets",
+     "url": "https://www.visittopend.com.au/markets"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Discover Darwin – Darwin Markets",
+     "url": "https://discover.darwin.nt.gov.au/blogs/darwin-markets"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方頁面未列入場費與確切地址。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "rapid-creek-markets-darwin",
+   "type": "event",
+   "title": "Rapid Creek Markets",
+   "title_zh": "Darwin Rapid Creek 週末市集",
+   "category": "market",
+   "region": "NT",
+   "city": "Darwin",
+   "venue": "48 Trower Road, Rapid Creek",
+   "lat": -12.3858,
+   "lng": 130.8545,
+   "start": "2026-11-07",
+   "end": null,
+   "schedule_zh": "每週六、週日 7:00–14:00",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "週末固定市集",
+   "summary_zh": "Rapid Creek Markets 官網與 Top End 觀光局皆列出每週六、日 7:00 至 14:00 營業，地址為 48 Trower Road。",
+   "tip_zh": "官網留有疫情暫停公告，出發前可先電話確認營業，電話 (08) 8948 4866。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Rapid Creek Markets",
+     "url": "https://www.rapidcreekmarkets.com.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Tourism Top End – Markets",
+     "url": "https://www.visittopend.com.au/markets"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官方頁面未列入場費，且含過時公告。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "muffin-break-6-iced-latte-members-2026",
+   "type": "deal",
+   "title": "Muffin Break – $6 Regular Iced Latte Daily",
+   "title_zh": "Muffin Break 每日 A$6 冰拿鐵",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-06",
+   "end": "2026-11-24",
+   "price_zh": "A$6（regular 冰拿鐵）",
+   "free": false,
+   "highlight": "每日 A$6",
+   "summary_zh": "Muffin Break 官網公告，至 11 月 24 日每天可以 A$6 購買一杯 regular 冰拿鐵，詳細條款依官網 T&Cs。",
+   "tip_zh": "官網僅標示 T&Cs apply，是否限會員及參與門市請洽門市或查條款。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Muffin Break – 首頁優惠橫幅",
+     "url": "https://www.muffinbreak.com.au/"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "Frugal Feeds – Muffin Break $6 Iced Lattes until November 24",
+     "url": "https://www.frugalfeeds.com.au/2026/muffin-break-offers-6-iced-lattes-every-day-for-members-until-november-24"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網只寫「至 11 月 24 日」，未標示年份、開始日與是否限會員；年份僅由頁面圖片路徑推斷。"
+   },
+   "added": "2026-11-07"
+  },
+  {
+   "id": "rashays-15-chicken-chips-lunch-2026",
+   "type": "deal",
+   "title": "RASHAYS – $15 Chicken & Chips Lunch with Free Soft Drink",
+   "title_zh": "RASHAYS 平日 A$15 雞肉薯條",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-03",
+   "end": null,
+   "schedule_zh": "週一至週五 16:30 前（限內用）",
+   "price_zh": "A$15（含免費汽水）",
+   "free": false,
+   "highlight": "A$15 含汽水",
+   "summary_zh": "RASHAYS 官網公告自 11 月 3 日起限時推出 A$15 雞肉薯條加免費汽水，週一至週五 16:30 前、限內用。",
+   "tip_zh": "週末不適用；官網 Locations 頁未標示參與分店，請先洽門市。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "RASHAYS – Current Deals",
+     "url": "https://rashays.com/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "RASHAYS – Locations",
+     "url": "https://rashays.com/locations/"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "Frugal Feeds – RASHAYS $15 Chicken and Chips Lunch Deal until November 16",
+     "url": "https://www.frugalfeeds.com.au/2026/rashays-launches-15-chicken-and-chips-lunch-deal-with-free-soft-drink-until-november-16"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-07",
+    "unconfirmed_zh": "官網只寫「11 月 3 日起、限時」，未標示年份與結束日；參與分店未確認。"
+   },
+   "added": "2026-11-07"
   }
  ]
 }
