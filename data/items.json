@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -8563,6 +8563,656 @@
     "unconfirmed_zh": "官網只寫「11 月 3 日起、限時」，未標示年份與結束日；參與分店未確認。"
    },
    "added": "2026-11-07"
+  },
+  {
+   "id": "myer-black-friday-2026",
+   "type": "deal",
+   "title": "Myer Black Friday Sale 2026",
+   "title_zh": "Myer 黑色星期五特賣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-27",
+   "end": "2026-11-30",
+   "price_zh": "折扣幅度請見官網",
+   "free": false,
+   "highlight": "全國 56 間門市與線上",
+   "summary_zh": "Myer 官網公布黑色星期五為 11 月 27 日，優惠持續至 11 月 30 日網購星期一，全國 56 間門市與線上同步進行，涵蓋時尚、美妝、居家、玩具與科技。Myer one 會員為選填，非會員也可購買。",
+   "tip_zh": "官網尚未列出各類別折扣，折扣內容請見官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Myer – Black Friday",
+     "url": "https://www.myer.com.au/content/black-friday"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "williams-shoes-30-off-sitewide-2026-11",
+   "type": "deal",
+   "title": "Williams Shoes 30% Off Sitewide",
+   "title_zh": "Williams Shoes 全站 7 折（線上）",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-09",
+   "end": "2026-11-23",
+   "price_zh": "全價與降價款式 7 折",
+   "free": false,
+   "highlight": "線上限定・全站 7 折",
+   "summary_zh": "Williams Shoes 官方促銷條款列出 11 月 9 日至 11 月 23 日線上全站 7 折，全價與降價款式皆適用，結帳時自動折抵。禮品卡不適用，數量有限。",
+   "tip_zh": "僅限線上購物，不與門市限定或全店促銷併用，詳情以官方條款為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Williams Shoes – Promotions",
+     "url": "https://www.williamsshoes.com.au/promotions"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "williams-shoes-second-pair-half-price-2026",
+   "type": "deal",
+   "title": "Williams Shoes Second Pair Half Price",
+   "title_zh": "Williams Shoes 第二雙半價",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-02-02",
+   "end": null,
+   "price_zh": "第二雙半價（折扣按比例分攤於兩雙）",
+   "free": false,
+   "highlight": "第二雙半價",
+   "summary_zh": "Williams Shoes 官方條款列出，同一筆交易購買兩雙全價或降價鞋款時，第二雙（價值須相同或較低）享半價，結帳自動折抵，折扣按比例分攤於兩雙；禮品卡與配件不適用。官方未列結束日期。",
+   "tip_zh": "官方未列結束日期，結帳前請再確認條款；條款提及門市收據與線上發票，但未明確標示適用通路。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Williams Shoes – Promotions",
+     "url": "https://www.williamsshoes.com.au/promotions"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方未列結束日期，也未明確標示適用門市或線上。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "superdry-black-friday-30-50-off-2026",
+   "type": "deal",
+   "title": "Superdry Black Friday – 30–50% Off",
+   "title_zh": "Superdry 黑色星期五 3 至 5 折優惠",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-04",
+   "end": "2026-11-30",
+   "price_zh": "全館 30%–50% 折扣；基本 T 恤 4 件 A$100",
+   "free": false,
+   "highlight": "品牌黑五・全館折扣",
+   "summary_zh": "Superdry 澳洲官網標示黑色星期五全館 30%–50% 折扣，並有多件組合，例如基本 T 恤 4 件 A$100、圖案 T 恤 3 件 A$99。DFO Moorabbin 官網同列此優惠期間為 11 月 4 日至 30 日。",
+   "tip_zh": "官網未列完整條款，線上或門市適用範圍請以官方頁面為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Superdry Australia – 官網",
+     "url": "https://www.superdry.com.au/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Moorabbin – 官網（優惠公告）",
+     "url": "https://www.moorabbin.dfo.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "Superdry 官網未列起訖日期，日期取自 DFO Moorabbin 官網。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "dfo-moorabbin-melbourne-outlet",
+   "type": "deal",
+   "title": "DFO Moorabbin",
+   "title_zh": "DFO 墨爾本 Moorabbin Outlet",
+   "category": "shopping",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "DFO Moorabbin, 250 Centre Dandenong Road, Moorabbin Airport",
+   "lat": -37.9713,
+   "lng": 145.0889,
+   "start": "2026-11-08",
+   "end": null,
+   "schedule_zh": "每日 10:00–18:00（官網標示）",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・墨爾本東南",
+   "summary_zh": "墨爾本東南 Moorabbin Airport 的 DFO Outlet 購物中心，官網列有 Bonds Outlet、Fossil、lululemon、Polo Ralph Lauren Outlet、Tommy Hilfiger 等品牌，每日營業。",
+   "tip_zh": "各店折扣不同，前往前可先查官網品牌清單。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Moorabbin – 官網",
+     "url": "https://www.moorabbin.dfo.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "dfo-eastern-creek-sydney-outlet",
+   "type": "deal",
+   "title": "DFO Eastern Creek",
+   "title_zh": "DFO 雪梨 Eastern Creek Outlet",
+   "category": "shopping",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "DFO Eastern Creek, 4 Church Street, Rooty Hill",
+   "lat": -33.7885,
+   "lng": 150.847,
+   "start": "2026-11-08",
+   "end": null,
+   "schedule_zh": "週一至三 10:00–17:00；週四、五 10:00–19:00；週六 10:00–18:00；週日 10:00–17:00",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・雪梨西部",
+   "summary_zh": "雪梨西部 Rooty Hill 的 DFO Outlet 購物中心，官網列有 Calvin Klein、Oroton、Puma、Tommy Hilfiger 等品牌，並註明各日營業時間。",
+   "tip_zh": "位置偏離市中心，建議先在官網確認交通方式與營業時間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Eastern Creek – 官網",
+     "url": "https://www.easterncreek.dfo.com.au"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "dfo-uni-hill-melbourne-outlet",
+   "type": "deal",
+   "title": "DFO Uni Hill",
+   "title_zh": "DFO 墨爾本 Uni Hill Outlet",
+   "category": "shopping",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "DFO Uni Hill, 2 Janefield Drive, Bundoora",
+   "lat": -37.6811,
+   "lng": 145.0707,
+   "start": "2026-11-08",
+   "end": null,
+   "schedule_zh": "每日 10:00–18:00（官網標示）",
+   "price_zh": "各店折扣不一，以店內標示為準",
+   "free": false,
+   "highlight": "Outlet 常態折扣・墨爾本北區",
+   "summary_zh": "墨爾本北區 Bundoora 的 DFO Outlet 購物中心，官網列有 Coach、Nike Factory Outlet、Peter Alexander、Puma、Tommy Hilfiger 等品牌，每日營業。",
+   "tip_zh": "各店折扣不同，交通方式請見官網 Getting Here 頁面。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "DFO Uni Hill – 官網",
+     "url": "https://www.unihill.dfo.com.au"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "qld-pga-championship-nudgee-2026",
+   "type": "event",
+   "title": "2026 Queensland PGA Championship",
+   "title_zh": "昆士蘭 PGA 錦標賽（Nudgee 免費入場）",
+   "category": "sport",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Nudgee Golf Club",
+   "lat": -27.3783,
+   "lng": 153.1007,
+   "start": "2026-11-16",
+   "end": "2026-11-22",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・7 天・百年賽事",
+   "summary_zh": "昆士蘭 PGA 錦標賽邁入第 100 年，於布里斯本 Nudgee Golf Club 舉行，每日 6:00–18:00，官方頁面標示免費入場，適合想近距離觀賽的旅客。",
+   "tip_zh": "球場位於布里斯本北郊，建議事先查詢大眾運輸或共乘方式前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Visit Brisbane",
+     "label": "Visit Brisbane – 2026 Queensland PGA Championship",
+     "url": "https://visit.brisbane.qld.au/whats-on/northern-suburbs/sporting-events/2026-queensland-pga-championship-a3cb"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "robbie-williams-brisbane-suncorp-2026",
+   "type": "event",
+   "title": "Robbie Williams – Brisbane",
+   "title_zh": "Robbie Williams 布里斯本 Suncorp 體育場演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Suncorp Stadium",
+   "lat": -27.4648,
+   "lng": 153.0095,
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "price_zh": "A$119.90 起",
+   "free": false,
+   "highlight": "體育場演唱會",
+   "summary_zh": "Robbie Williams 於 2026 年 11 月 20 日在 Suncorp Stadium 演出，18:30 開演，G Flip 與 Lottery Winners 擔任嘉賓；最低票價 A$119.90。",
+   "tip_zh": "官方票價另計訂位手續費；球場鄰近 Milton 火車站，可搭火車前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Frontier Touring",
+     "label": "Frontier Touring – Robbie Williams",
+     "url": "https://www.frontiertouring.com/robbiewilliams"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "khalid-brisbane-riverstage-2026",
+   "type": "event",
+   "title": "Khalid – Brisbane",
+   "title_zh": "Khalid 布里斯本 Riverstage 演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Riverstage",
+   "lat": -27.4766,
+   "lng": 153.03,
+   "start": "2026-11-11",
+   "end": "2026-11-11",
+   "price_zh": "A$169.90 起（站票）",
+   "free": false,
+   "highlight": "戶外演唱會",
+   "summary_zh": "Khalid 於 2026 年 11 月 11 日在布里斯本植物園內的 Riverstage 演出，站票自 A$169.90 起，每人限購 4 張。",
+   "tip_zh": "每人限購 4 張，票價另計訂位手續費。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Frontier Touring",
+     "label": "Frontier Touring – Khalid",
+     "url": "https://www.frontiertouring.com/khalid"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "iron-maiden-brisbane-2026",
+   "type": "event",
+   "title": "Iron Maiden with Megadeth – Brisbane",
+   "title_zh": "Iron Maiden 布里斯本演唱會（2 場）",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane Entertainment Centre",
+   "lat": -27.3434,
+   "lng": 153.0645,
+   "start": "2026-11-18",
+   "end": "2026-11-19",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "兩晚演出",
+   "summary_zh": "Iron Maiden 與 Megadeth 於 2026 年 11 月 18 日與 19 日在 Brisbane Entertainment Centre 演出，每晚 18:30–22:30。",
+   "tip_zh": "票價請至官方售票頁確認；場館位於 Boondall。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Visit Brisbane",
+     "label": "Visit Brisbane – Iron Maiden",
+     "url": "https://visit.brisbane.qld.au/whats-on/northern-suburbs/live-performances/iron-maiden-2bea"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "頁面未列出票價。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "wildlands-brisbane-nye-2026",
+   "type": "event",
+   "title": "Wildlands Brisbane 2026",
+   "title_zh": "Wildlands 布里斯本跨年電音節",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane Showgrounds",
+   "lat": -27.4486,
+   "lng": 153.0357,
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "price_zh": "請見官網（DICE 售票）",
+   "free": false,
+   "highlight": "跨年音樂節",
+   "summary_zh": "Wildlands 於 2026 年 12 月 31 日在 Brisbane Showgrounds 舉行，陣容包括 Skepta、Overmono、John Summit 等，限 18 歲以上。",
+   "tip_zh": "限 18 歲以上入場，票券經 DICE 販售。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Wildlands",
+     "label": "Wildlands – Brisbane",
+     "url": "https://www.wildlandsfestival.com.au/qld/landing"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官網未列出票價。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "j-cole-brisbane-2026",
+   "type": "event",
+   "title": "J. Cole – The Fall-Off Tour Brisbane",
+   "title_zh": "J. Cole 布里斯本演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Brisbane Entertainment Centre",
+   "lat": -27.3434,
+   "lng": 153.0645,
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "巡迴演出",
+   "summary_zh": "J. Cole The Fall-Off Tour 於 2026 年 11 月 25 日在 Brisbane Entertainment Centre 演出，票券經 Ticketek 販售。",
+   "tip_zh": "票價請至 Ticketek 確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Live Nation",
+     "label": "Live Nation – J. Cole",
+     "url": "https://www.livenation.com.au/event/j-cole-the-fall-off-tour-brisbane-tickets-edp1653083"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "頁面未列出票價。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "melville-summer-music-2026-27",
+   "type": "event",
+   "title": "Melville Summer Music 2026-27",
+   "title_zh": "Melville 夏季免費戶外音樂會",
+   "category": "music",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Centennial Park, Bull Creek（11 月場次）",
+   "lat": -32.0581,
+   "lng": 115.861,
+   "start": "2026-11-07",
+   "end": "2027-03-27",
+   "schedule_zh": "週六 17:00–19:00，共 10 場（11 月在 Centennial Park，12 月在 Piney Lakes Reserve）",
+   "price_zh": "免費入場，免報名",
+   "free": true,
+   "highlight": "免費・週六音樂會",
+   "summary_zh": "City of Melville 主辦的 2026 至 2027 夏季戶外音樂會系列，11 月至隔年 3 月共 10 場週六活動，11 月場次在 Bull Creek 的 Centennial Park 舉行，現場有餐車。",
+   "tip_zh": "11 月場次停車位於 John Creaney Park（Francisco Crescent 入口）；各場地點不同，出發前請查官網場次表。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melville – Melville Summer Music",
+     "url": "https://www.melvillecity.com.au/melvillesummermusic"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "So Perth – Melville Summer Music 2026 season schedule",
+     "url": "https://soperth.com.au/whats-on/melville-summer-music-2026-free-concerts-point-walter-1384"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "geelong-city-market-2026",
+   "type": "event",
+   "title": "Geelong City Market",
+   "title_zh": "Geelong 週六城市市集",
+   "category": "market",
+   "region": "VIC",
+   "city": "Geelong",
+   "venue": "Little Malop Street Central, Geelong",
+   "lat": -38.1465,
+   "lng": 144.3586,
+   "start": "2026-10-17",
+   "end": "2026-12-19",
+   "schedule_zh": "每週六 9:00–14:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・週六市集",
+   "summary_zh": "位於 Geelong 市中心 Little Malop Street Central 的週六市集，2026 年 10 月 17 日至 12 月 19 日每週舉行，11 月的 7 日、14 日、21 日、28 日皆有開市。",
+   "tip_zh": "官方網站標示每週六 9:00–14:00，攤位名單請見官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Geelong City Market",
+     "url": "https://www.geelongcitymarket.com.au"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Geelong Bellarine – Geelong City Market",
+     "url": "https://www.visitgeelongbellarine.com.au/products/geelong-city-market"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方網站未列出 2026 年完整日期，日期取自 Visit Geelong Bellarine 頁面。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "todd-mall-markets-alice-springs-2026",
+   "type": "event",
+   "title": "Todd Mall Markets",
+   "title_zh": "愛麗斯泉 Todd Mall 週日市集",
+   "category": "market",
+   "region": "NT",
+   "city": "Alice Springs",
+   "venue": "Todd Mall, Alice Springs",
+   "lat": -23.698,
+   "lng": 133.8807,
+   "start": "2026-11-08",
+   "end": "2026-12-31",
+   "schedule_zh": "每週日 9:00–13:00",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "週日戶外市集",
+   "summary_zh": "愛麗斯泉市中心 Todd Mall 的非營利戶外市集，攤位有手作、服飾、藝術品與餐點，適合在紅土中心停留期間順道參觀。",
+   "tip_zh": "官方頁面寫市集每年 3 月至 12 月舉行，且未列逐週開市日期，出發前可聯絡主辦單位確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Discover Central Australia – Todd Mall Markets",
+     "url": "https://www.discovercentralaustralia.com/things-to-do/events/event/106436-todd-mall-markets"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方頁面未列入場費；結束日期與逐週開市日期未明確（頁面寫 3 月至 12 月，列表期間卻到 2027 年），結束日暫以 2026 年底計。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "cruel-intentions-90s-musical-melbourne-2026",
+   "type": "event",
+   "title": "Cruel Intentions: The 90s Musical",
+   "title_zh": "《Cruel Intentions》90 年代音樂劇（墨爾本）",
+   "category": "arts",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Irene Mitchell Studio, St Martins Youth Arts Centre, South Yarra",
+   "lat": -37.8386,
+   "lng": 144.9906,
+   "start": "2026-11-13",
+   "end": "2026-11-21",
+   "schedule_zh": "11/13、14、18–21 開演；11/14 與 11/21 另有日場",
+   "price_zh": "A$37（學生／優待 A$32）；11/14、11/21 日場 A$30",
+   "free": false,
+   "highlight": "小劇場音樂劇",
+   "summary_zh": "改編自 1990 年代同名電影的音樂劇，搭配多首 90 年代流行搖滾歌曲，於 South Yarra 的小劇場演出。",
+   "tip_zh": "11/14 與 11/21 的 13:30 日場票價 A$30，需透過 What's On Melbourne 專屬連結購票。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – Cruel Intentions: The 90s Musical",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/cruel-intentions-the-90s-musical"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-08"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "woolworths-mad-mex-hot-chicken-2026-11-16",
+   "type": "deal",
+   "title": "Woolworths x Mad Mex Chilli & Lime Hot Chicken",
+   "title_zh": "Woolworths 限量 Mad Mex 辣味烤雞 A$13.50",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-16",
+   "end": null,
+   "price_zh": "A$13.50（前兩週優惠價，之後 A$14.50）",
+   "free": false,
+   "highlight": "限量新口味",
+   "summary_zh": "Woolworths 與 Mad Mex 合作推出限量 Chilli & Lime Hot Chicken，以萊姆、柑橘與煙燻紅椒辣粉調味，搭配墨西哥飯、番茄、玉米與甜椒內餡。11 月 16 日起於全國 Woolworths Supermarkets 與 Metro 門市販售。",
+   "tip_zh": "官方稱為限量版，結束日期與供應數量未公布。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Woolworths Group – Mad Mex Hot Roast Chicken 新聞稿",
+     "url": "https://www.woolworthsgroup.com.au/au/en/our-newsroom/media-releases/latest-news/2026/woolworths-teams-up-with-mad-mex-for-a-new-twist-on-the-iconic-h.html"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方未公布結束日期，限量供應時間不明。"
+   },
+   "added": "2026-11-08"
+  },
+  {
+   "id": "nsw-opal-fare-freeze-weekly-cap-2026-27",
+   "type": "deal",
+   "title": "Opal fares freeze and $50 weekly travel cap",
+   "title_zh": "雪梨 Opal 票價凍漲與每週 A$50 封頂",
+   "category": "tickets",
+   "region": "NSW",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "新州 Opal 路網",
+   "start": "2026-07-06",
+   "end": "2027-07-05",
+   "price_zh": "成人每週最高 A$50；週五、週六、週日與公共假期單日最高 A$9.65",
+   "free": false,
+   "highlight": "票價封頂",
+   "summary_zh": "新州 Opal 路網成人每週車資最高 A$50，週五、週六、週日與公共假期單日最高 A$9.65。媒體報導票價維持 2025 年水準 12 個月。適合以大眾運輸為主的旅客。",
+   "tip_zh": "使用 Opal 卡或感應式信用卡、手機支付皆可自動計算封頂；機場站使用費另計。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Transport for NSW – Opal fares and caps",
+     "url": "https://transportnsw.info/tickets-fares/fares"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "Time Out Sydney – Opal fares stay at 2025 prices for 12 months",
+     "url": "https://www.timeout.com/sydney/news/sydneys-opal-fares-will-stay-capped-at-2025-prices-for-the-next-12-months-070626"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方頁面的封頂金額已確認，但 12 個月票價凍漲的起訖日僅見於新聞報導（2026 年 7 月 6 日），官方公告未能開啟。"
+   },
+   "hot": true,
+   "added": "2026-11-08"
   }
  ]
 }

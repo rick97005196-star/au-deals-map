@@ -270,3 +270,5 @@
 - 2026-11-07｜活動 NT｜Discover Darwin（Darwin 市議會）｜https://discover.darwin.nt.gov.au/blogs/darwin-markets｜Darwin 市集介紹（Parap、Rapid Creek、Nightcliff），未列時段與費用
 - 2026-11-07｜活動 NT｜Rapid Creek Markets｜https://www.rapidcreekmarkets.com.au/｜Darwin 週末市集時段與地址（頁面含過時疫情公告）
 - 2026-11-07｜吃喝 AU｜RASHAYS｜https://rashays.com/｜餐廳連鎖官網優惠與分店清單（Sydney／Canberra／Melbourne／Brisbane）
+- 2026-11-08｜活動 VIC｜Geelong City Market｜https://www.geelongcitymarket.com.au｜Geelong 週六市集，時間、地點與攤位名單
+- 2026-11-08｜活動 NT｜Discover Central Australia｜https://www.discovercentralaustralia.com/things-to-do/activities/events｜紅土中心（愛麗斯泉）官方活動列表與年度活動月曆 PDF
