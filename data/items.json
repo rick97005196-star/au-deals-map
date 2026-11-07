@@ -1091,9 +1091,9 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-03"
+    "checked": "2026-11-08"
    },
-   "schedule_zh": "每月第二個週四 17:00–20:00"
+   "schedule_zh": "每月第二個週四 17:00 起"
   },
   {
    "id": "transperth-free-sundays-go-anywhere-fare",
@@ -2647,7 +2647,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-07"
+    "checked": "2026-11-08"
    },
    "added": "2026-10-13",
    "schedule_zh": "11/11 7:00–22:00"
@@ -3120,8 +3120,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官方頁面未列票價與各場次是否免費。"
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方頁面未公布票價，也未說明哪些場次免費。"
    },
    "added": "2026-10-15"
   },
@@ -4227,7 +4227,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-07"
+    "checked": "2026-11-08"
    },
    "added": "2026-10-28"
   },
@@ -4842,7 +4842,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-07"
+    "checked": "2026-11-08"
    },
    "added": "2026-10-31"
   },
@@ -4912,7 +4912,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-07"
+    "checked": "2026-11-08"
    },
    "added": "2026-10-31"
   },
@@ -6000,8 +6000,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官網未列時段與入場費，17:00–21:00 與免費入場取自 SO Perth 報導。"
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官網僅標示每週四傍晚，17:00–21:00、攤位數與免費 Surf CAT 巴士取自 SO Perth 報導。"
    },
    "added": "2026-10-31"
   },
@@ -6922,9 +6922,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官網未標示此優惠的結束日期。"
+    "status": "verified",
+    "checked": "2026-11-08"
    },
    "added": "2026-11-05"
   },
@@ -6944,8 +6943,8 @@
    "price_zh": "2 館 A$49 起、3 館 A$54 起、4 館 A$59 起",
    "free": false,
    "highlight": "聯票優惠",
-   "summary_zh": "官方頁面列出雪梨塔觀景台、Madame Tussauds、SEA LIFE 與 WILD LIFE 的聯票，2 館 A$49 起，另一館須於 60 天內參觀。適合在雪梨停留數週的旅客。",
-   "tip_zh": "需預約入場時段；其他景點的時段須在各自官網預約。",
+   "summary_zh": "官方頁面列出雪梨塔觀景台、Madame Tussauds、SEA LIFE 與 WILD LIFE 的聯票，2 館 A$49 起、3 館 A$54 起、4 館 A$59 起，聯票自首次入場起 60 天內有效。",
+   "tip_zh": "持聯票者須預約各景點的日期與時段，其他景點請至各自官網預約。",
    "sources": [
     {
      "kind": "official",
@@ -6961,9 +6960,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官網未標示聯票優惠的截止日期。"
+    "status": "verified",
+    "checked": "2026-11-08"
    },
    "added": "2026-11-05"
   },
@@ -7060,7 +7058,7 @@
    "price_zh": "門票 A$25–745（依票種），車輛通行證 A$10–80",
    "free": false,
    "highlight": "年度盛事・跨年",
-   "summary_zh": "澳洲規模最大的藝術與表演聚會，逾 450 組演出涵蓋音樂、舞蹈、馬戲、喜劇與劇場，另有工作坊、論壇與元旦火焰儀式，園區提供露營。",
+   "summary_zh": "逾 450 組演出，涵蓋音樂、街頭劇場與電影，另有工作坊、論壇，並於元旦舉行火焰儀式，園區提供多種露營選擇。",
    "tip_zh": "距布里斯本約一小時車程，園區可露營；各票種與車輛通行證請至官網確認。",
    "sources": [
     {
@@ -7077,9 +7075,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "主辦單位官網無法讀取，各票種明細未能逐項確認。"
+    "status": "verified",
+    "checked": "2026-11-08"
    },
    "hot": true,
    "added": "2026-11-05"
@@ -7118,7 +7115,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
+    "checked": "2026-11-08",
     "unconfirmed_zh": "官方頁面未列出票價。"
    },
    "added": "2026-11-05"
@@ -7236,15 +7233,15 @@
    "category": "festival",
    "region": "ACT",
    "city": "Canberra",
-   "venue": "Glebe Park（Fair Day）／Braddon 等地",
+   "venue": "Glebe Park（Fair Day）等地",
    "lat": -35.279,
    "lng": 149.133,
-   "start": "2026-10-31",
-   "end": "2026-11-30",
+   "start": "2026-10-23",
+   "end": "2026-12-01",
    "price_zh": "含免費與低價活動，請見官網",
    "free": false,
-   "highlight": "年度節慶・為期一個月",
-   "summary_zh": "坎培拉的月度彩虹驕傲節，以 Glebe Park 的 Fair Day 揭開序幕，節目包括電影、喜劇、音樂與社群活動。",
+   "highlight": "年度節慶・約一個月",
+   "summary_zh": "坎培拉的彩虹驕傲節，節目包括 Glebe Park 的 Fair Day、酷兒運動日、喜劇晚會與現場音樂，官方表示有許多免費與戶外活動。",
    "tip_zh": "各場次日期與票價請查 SpringOUT 官網。",
    "sources": [
     {
@@ -7262,8 +7259,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "個別場次的日期與票價官方頁面未列出；SpringOUT 官網寫 10 月 23 日至 12 月 1 日，Visit Canberra 寫 10 月 31 日至 11 月 30 日。"
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方頁面未列出 Fair Day 日期與各場次票價。"
    },
    "added": "2026-11-05"
   },
@@ -7295,8 +7292,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-07",
-    "unconfirmed_zh": "官網未列統一票價。"
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "票價依各場次而異，官網未統一列出。"
    },
    "added": "2026-11-05"
   },
@@ -7327,9 +7324,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官方頁面尚未公布 12 月 10 日的營業時段與條款。"
+    "status": "verified",
+    "checked": "2026-11-08"
    },
    "added": "2026-11-05"
   },
@@ -7361,9 +7357,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-07",
-    "unconfirmed_zh": "官網尚未列出 11 月 11 日的商品價格。"
+    "status": "verified",
+    "checked": "2026-11-08"
    },
    "added": "2026-11-05"
   },
@@ -7381,10 +7376,10 @@
    "area_zh": "全澳洲區域航線",
    "start": "2026-11-05",
    "end": null,
-   "price_zh": "單程 A$149 起（例如 Wagga Wagga 至雪梨 A$149、Albany 至伯斯 A$187）",
+   "price_zh": "單程 A$187 起（例如 Albany 至伯斯 A$187、Coffs Harbour 至雪梨 A$199）",
    "free": false,
    "highlight": "區域航線單程特價",
-   "summary_zh": "Rex 官網列出多條區域航線的單程經濟艙促銷票價，出發日期涵蓋 2026 年 11 月至 2027 年 4 月，例如 Coffs Harbour 至雪梨 A$199、Roma 至布里斯本 A$228、Port Lincoln 至阿德雷德 A$225。",
+   "summary_zh": "Rex 官網列出多條區域航線的單程經濟艙促銷票價，出發日期涵蓋 2026 年 11 月至 2027 年 6 月，例如 Coffs Harbour 至雪梨 A$199、Roma 至布里斯本 A$228、Port Lincoln 至阿德雷德 A$225。",
    "tip_zh": "票價依出發日期與座位而異，另有付款與訂位手續費；請在官網確認日期後訂票。",
    "sources": [
     {
@@ -7395,9 +7390,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-05",
-    "unconfirmed_zh": "官方未公布優惠截止日，票價與日期可能隨時更動。"
+    "status": "verified",
+    "checked": "2026-11-08"
    },
    "added": "2026-11-05"
   },
@@ -7836,8 +7830,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
+    "status": "partial",
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官方頁面未標示年份，僅標示 11 月 8 日週日。"
    },
    "added": "2026-11-06"
   },
@@ -8282,8 +8277,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-07",
-    "unconfirmed_zh": "官網未標示 2026 年日期與入場費。"
+    "checked": "2026-11-08",
+    "unconfirmed_zh": "官網未列出入場費。"
    },
    "added": "2026-11-07"
   },
@@ -8322,7 +8317,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-07"
+    "checked": "2026-11-08"
    },
    "added": "2026-11-07"
   },
