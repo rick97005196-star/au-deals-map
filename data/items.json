@@ -308,56 +308,6 @@
    }
   },
   {
-   "id": "brisbane-pride-fair-day-2026",
-   "type": "event",
-   "title": "Brisbane Pride Rally, March & Fair Day",
-   "title_zh": "Brisbane Pride 遊行",
-   "category": "festival",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Ann St 與 Brunswick St 路口 → New Farm Park",
-   "lat": -27.4688,
-   "lng": 153.0525,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "price_zh": "遊行免費；Fair Day 票價官方尚未公布",
-   "free": false,
-   "highlight": "遊行免費・改期",
-   "summary_zh": "原訂 10/24 的活動因雨天改期至 11/7：上午 9 點於 Ann St 與 Brunswick St 路口集合的 Rally and March 約 11 點抵達 New Farm Park，Fair Day 於 10am–5pm 舉行，設有主舞台、彩虹市集與美食區。",
-   "tip_zh": "遊行免費參加；Fair Day 票券透過 Eventbrite 販售，2026 年票價官方仍在確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Pride Festival – home",
-     "url": "https://brisbanepride.org.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Pride – Fair Day 2026",
-     "url": "https://brisbanepride.org.au/fair-day"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Pride – Fair Day 2026 event page",
-     "url": "https://brisbanepride.org.au/events/fair-day/fair-day-2026/"
-    },
-    {
-     "kind": "community",
-     "platform": "WeekendNotes",
-     "label": "WeekendNotes – What's on Brisbane this spring 2026",
-     "url": "https://www.weekendnotes.com/whats-on-brisbane-queensland-this-spring-2026-events-festivals-things-to-do/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-07",
-    "unconfirmed_zh": "官方尚未公布 Fair Day 2026 票價。"
-   }
-  },
-  {
    "id": "goma-make-believe-magic-jim-henson",
    "type": "event",
    "title": "Make, Believe, Magic: The Worlds of The Jim Henson Company",
@@ -968,58 +918,6 @@
     "checked": "2026-11-04"
    },
    "area_zh": "坎培拉全區"
-  },
-  {
-   "id": "melbourne-cup-carnival-2026",
-   "type": "event",
-   "title": "Melbourne Cup Carnival",
-   "title_zh": "墨爾本盃賽馬嘉年華",
-   "category": "sport",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Flemington Racecourse",
-   "lat": -37.7886,
-   "lng": 144.9122,
-   "start": "2026-10-31",
-   "end": "2026-11-07",
-   "price_zh": "一般入場票價依賽日而異，請見官網（Champions Stakes Day 成人 A$65）",
-   "free": false,
-   "highlight": "年度賽馬盛事",
-   "summary_zh": "共四個賽馬日：10/31 Derby Day、11/3 墨爾本盃、11/5 Oaks Day、11/7 Champions Stakes Day，於 Flemington Racecourse 舉行。",
-   "tip_zh": "一般入場票透過 Ticketmaster 購買；Value Ticket 含 A$50 餐飲額度，購票前請確認票種。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "VRC – 2026 Melbourne Cup Carnival general admission tickets",
-     "url": "https://www.vrc.com.au/products/2025-2026/general-admission/general-admission/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "VRC – Lexus Melbourne Cup Day 2026",
-     "url": "https://www.vrc.com.au/race-days-and-events/2026-2027/lexus-melbourne-cup-day/"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@flemingtonvrc on Instagram",
-     "url": "https://www.instagram.com/flemingtonvrc/"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "TTR AusNZ – Racing Victoria unveils reshaped 2026 spring carnival",
-     "url": "https://www.ttrausnz.com.au/edition/2026-07-17/the-big-spring-switch-racing-victoria-unveils-reshaped-carnival-program"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-07",
-    "unconfirmed_zh": "除 Champions Stakes Day 成人 A$65 外，其他賽日一般入場票價官方頁面未明確列出。"
-   },
-   "schedule_zh": "10/31、11/3、11/5、11/7 四個賽馬日",
-   "hot": true
   },
   {
    "id": "colours-of-asia-garden-of-wonders-2026",
@@ -2191,51 +2089,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "blackheath-rhododendron-festival-2026",
-   "type": "event",
-   "title": "Blackheath Rhododendron Festival",
-   "title_zh": "藍山 Blackheath 杜鵑花節",
-   "category": "festival",
-   "region": "NSW",
-   "city": "Blackheath",
-   "venue": "Wentworth Street, Blackheath",
-   "lat": -33.634,
-   "lng": 150.2875,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "schedule_zh": "遊行 10:30 集合、11:30 出發；市集 10:00–16:00",
-   "price_zh": "遊行與市集未列票價",
-   "free": false,
-   "highlight": "年度節慶・遊行",
-   "summary_zh": "藍山 Blackheath 一年一度的杜鵑花節，2026 年遊行訂於 11 月 7 日（週六），10:30 集合、11:30 出發，沿 Wentworth Street 前進至 Hat Hill Road。",
-   "tip_zh": "遊行與參加辦法請見官網 Parade 2026 頁面。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Rhodo Festival – Parade 2026",
-     "url": "https://rhodofestival.org/parade-2026/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Rhodo Festival – Stalls（市集時段）",
-     "url": "https://rhodofestival.org/stalls/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Rhodo Festival – 2026 Festival",
-     "url": "https://rhodofestival.org/2026-festival/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "the-lakes-festival-central-coast-2026",
    "type": "event",
    "title": "The Lakes Festival",
@@ -2729,45 +2582,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "taste-the-biosphere-woombye-2026",
-   "type": "event",
-   "title": "Taste the Biosphere",
-   "title_zh": "陽光海岸生物圈美食節",
-   "category": "food",
-   "region": "QLD",
-   "city": "Sunshine Coast",
-   "venue": "Sunshine & Sons, Woombye",
-   "lat": -26.668,
-   "lng": 152.963,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "schedule_zh": "14:00–19:00",
-   "price_zh": "免費入場（品嚐、導覽與工作坊須先登記）",
-   "free": true,
-   "highlight": "免費・需登記",
-   "summary_zh": "陽光海岸市政府主辦的免費活動，介紹陽光海岸生物圈，內容包括在地食品與飲品品嚐、手作活動、導覽自然步行及生物圈聲景與故事分享。",
-   "tip_zh": "一般入場免費；品嚐、導覽與工作坊須先在 Humanitix 登記，名額有限。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Sunshine Coast Council – Taste the Biosphere",
-     "url": "https://www.sunshinecoast.qld.gov.au/news/taste-the-biosphere-a-free-celebration-to-savour"
-    },
-    {
-     "kind": "official",
-     "platform": "Humanitix",
-     "label": "Taste the Biosphere – 登記頁",
-     "url": "https://events.humanitix.com/tastethebiosphere"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-13"
-  },
-  {
    "id": "tas-open-house-hobart-2026",
    "type": "event",
    "title": "Open House Hobart 2026",
@@ -2804,40 +2618,6 @@
     "checked": "2026-11-07"
    },
    "added": "2026-10-13"
-  },
-  {
-   "id": "tas-sheffield-mural-fest-2026",
-   "type": "event",
-   "title": "International Mural Fest 2026",
-   "title_zh": "Sheffield 國際壁畫節",
-   "category": "arts",
-   "region": "TAS",
-   "city": "Sheffield",
-   "venue": "Mural Park",
-   "lat": -41.382,
-   "lng": 146.3268,
-   "start": "2026-11-01",
-   "end": "2026-11-07",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "壁畫節・7 天",
-   "summary_zh": "Sheffield 國際壁畫創作競賽與藝術節，2026 年 11 月 1 日至 7 日在 Mural Park 舉行，為期一週。",
-   "tip_zh": "人氣獎投票自 11/2 上午 9 點起開放。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "International Mural Fest – 官方網站",
-     "url": "https://muralfest.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "官方頁面內容無法完整讀取，免費入場與投票時間依搜尋摘要。"
-   },
-   "added": "2026-10-13",
-   "schedule_zh": null
   },
   {
    "id": "gyg-yarrabilba-5-burritos-2026",
@@ -3552,40 +3332,6 @@
    "added": "2026-10-18"
   },
   {
-   "id": "cairns-gordonvale-cottage-markets-2026-11",
-   "type": "event",
-   "title": "Gordonvale Cottage Markets",
-   "title_zh": "Gordonvale 小屋市集（11 月）",
-   "category": "market",
-   "region": "QLD",
-   "city": "Gordonvale",
-   "venue": "Norman Park, Gordonvale",
-   "lat": -17.086,
-   "lng": 145.784,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "schedule_zh": "11/7 7:00–12:00",
-   "price_zh": "請見官網",
-   "free": true,
-   "highlight": "每月市集",
-   "summary_zh": "Gordonvale 小屋市集每月第一個週六於 Norman Park 舉行，由 Gordonvale Scout Group 主辦。",
-   "tip_zh": "每月第一個週六舉行（2 月至 12 月）；遇大雨主辦單位可能限制車輛進入。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Cairns Regional Council – Gordonvale Cottage Markets, November 2026",
-     "url": "https://www.cairns.qld.gov.au/experience-cairns/events/council-events/markets/gordonvale-nov2026"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-07",
-    "unconfirmed_zh": "官方頁面未能直接開啟，營業時間依搜尋摘要，入場是否免費未在官方頁面確認。"
-   },
-   "added": "2026-10-18"
-  },
-  {
    "id": "cairns-palm-cove-markets-2026-12",
    "type": "event",
    "title": "Palm Cove Markets",
@@ -3988,76 +3734,6 @@
      "platform": "官方網站",
      "label": "Museum of Brisbane – What's on",
      "url": "https://www.museumofbrisbane.com.au/whats-on/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "moreton-bay-eco-fest-2026",
-   "type": "event",
-   "title": "Moreton Bay Eco Fest",
-   "title_zh": "莫頓灣環保節 2026",
-   "category": "outdoors",
-   "region": "QLD",
-   "city": "Moreton Bay",
-   "venue": "UniSC Petrie（Petrie 校區）",
-   "lat": -27.2735,
-   "lng": 152.9865,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・環保主題",
-   "summary_zh": "由莫頓灣市政府主辦的免費社區活動，主題為永續生活與減少廢棄物，邀請 ABC《The War on Waste》的 Craig Reucassel 出席。",
-   "tip_zh": "活動時間為上午 9 時至下午 1 時，現場提供免費停車，校區鄰近 Petrie 車站；請自備水壺，現場提供免費過濾水。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Moreton Bay – Moreton Bay Eco Fest",
-     "url": "https://www.moretonbay.qld.gov.au/Events/Moreton-Bay-Eco-Fest"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-24"
-  },
-  {
-   "id": "manly-harbour-free-movies-in-the-park-2026-11",
-   "type": "event",
-   "title": "Free Movies in the Park - Manly Harbour Village",
-   "title_zh": "Manly 港灣免費公園露天電影",
-   "category": "family",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Little Bayside Park（Manly Harbour Village）",
-   "lat": -27.453,
-   "lng": 153.1876,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・露天電影",
-   "summary_zh": "於 Manly 港灣 Little Bayside Park 舉辦的免費戶外電影夜，每月第一個週六舉行，放映片目請見官網。",
-   "tip_zh": "夏季放映時間為晚上 7 時起，冬季為 6 時起，實際時間以官網公告為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Queensland.com – Free Movies in the Park, Manly Harbour Village",
-     "url": "https://www.queensland.com/au/en/things-to-do/events/p-63c0b1f1260ba306197d8ed3-free-movies-in-the-park--manly-harbour-village"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Brisbane – Free Movies in the Park, Manly Harbour Village",
-     "url": "https://visit.brisbane.qld.au/whats-on/eastern-suburbs/eat-and-drink-events/free-movies-in-the-park-manly-harbour-village-8ed3"
     }
    ],
    "verified": {
@@ -4491,38 +4167,6 @@
    "added": "2026-10-28"
   },
   {
-   "id": "7-eleven-day-free-coffee-slurpee-2026",
-   "type": "deal",
-   "title": "7-Eleven Day – Free Coffee or Slurpee",
-   "title_zh": "7-Eleven Day 免費咖啡或 Slurpee",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "price_zh": "免費（需任一消費）",
-   "free": true,
-   "highlight": "免費咖啡・Slurpee",
-   "summary_zh": "7-Eleven 官網公布 2026 年 11 月 7 日為 7-Eleven Day，任一消費即可免費領取一杯中杯咖啡、小杯 Slurpee 或大杯 Slurpee。",
-   "tip_zh": "每筆交易限領一份，僅限門市、售完為止，菸品不適用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "7-Eleven Australia – homepage offers",
-     "url": "https://www.7eleven.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-28"
-  },
-  {
    "id": "7-eleven-summer-savers-8-meal-deal-2026",
    "type": "deal",
    "title": "7-Eleven Summer Savers $8 Meal Deal",
@@ -4951,44 +4595,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-06"
-   },
-   "added": "2026-10-31"
-  },
-  {
-   "id": "foo-fighters-take-cover-townsville-2026",
-   "type": "event",
-   "title": "Foo Fighters: Take Cover Tour – Townsville",
-   "title_zh": "Foo Fighters 湯斯維爾演唱會",
-   "category": "music",
-   "region": "QLD",
-   "city": "Townsville",
-   "venue": "Queensland Country Bank Stadium",
-   "lat": -19.269,
-   "lng": 146.812,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "price_zh": "A$99.90 起（不含手續費）",
-   "free": false,
-   "highlight": "體育場演唱會",
-   "summary_zh": "Foo Fighters Take Cover 澳洲巡迴的湯斯維爾場，暖場為 Full Flower Moon Band 與 DOWNGIRL。",
-   "tip_zh": "購票上限每人 8 張；以官方售票為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Frontier Touring – Foo Fighters Take Cover Tour",
-     "url": "https://www.frontiertouring.com/foofighters"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Townsville North Queensland – Events",
-     "url": "https://www.townsvillenorthqueensland.com.au/events/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
    },
    "added": "2026-10-31"
   },
@@ -5647,39 +5253,6 @@
    "added": "2026-11-03"
   },
   {
-   "id": "melbourne-korea-festival-2026",
-   "type": "event",
-   "title": "Korea Festival",
-   "title_zh": "墨爾本韓國節",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Flagstaff Gardens",
-   "lat": -37.8105,
-   "lng": 144.9544,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "schedule_zh": "11:00–21:30",
-   "price_zh": "免費入場，免預約",
-   "free": true,
-   "highlight": "免費・1 天",
-   "summary_zh": "一日文化節，慶祝韓澳建交 65 週年，內容包括韓服秀、傳統樂器演奏、K-Pop 舞團與歌手競演，以及韓式美食與市集攤位。",
-   "tip_zh": "現場有 18 歲以上限定的傳統酒品試飲區，需出示身分證件。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "What's On Melbourne – Korea Festival",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/korea-festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-11-03"
-  },
-  {
    "id": "qvm-christmas-night-market-2026",
    "type": "event",
    "title": "Christmas Night Market at Queen Victoria Market",
@@ -5775,39 +5348,6 @@
      "platform": "官方網站",
      "label": "What's On Melbourne – Coffee Weekend",
      "url": "https://whatson.melbourne.vic.gov.au/things-to-do/melbourne-coffee-weekend"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-11-03"
-  },
-  {
-   "id": "immigration-museum-diwali-2026",
-   "type": "event",
-   "title": "Diwali at the Immigration Museum",
-   "title_zh": "移民博物館排燈節活動",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Immigration Museum",
-   "lat": -37.8201,
-   "lng": 144.9553,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "schedule_zh": "11:00–16:00",
-   "price_zh": "免費至 A$15",
-   "free": false,
-   "highlight": "免費與低價活動",
-   "summary_zh": "排燈節主題的一日活動，包括印度刺繡工作坊、傳統與現代融合的舞蹈、指甲花彩繪、Rangoli 圖案製作與傳統遊戲；一般入場免預約，刺繡工作坊另收費。",
-   "tip_zh": "刺繡工作坊為 A$10–15，其他活動免預約。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "What's On Melbourne – Diwali at the Immigration Museum",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/diwali-at-the-immigration-museum"
     }
    ],
    "verified": {
@@ -8269,39 +7809,6 @@
    "added": "2026-11-06"
   },
   {
-   "id": "melbourne-palestine-cultural-festival-2026",
-   "type": "event",
-   "title": "Palestine Cultural Festival",
-   "title_zh": "Fed Square 巴勒斯坦文化節",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Federation Square",
-   "lat": -37.818,
-   "lng": 144.9691,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "schedule_zh": "16:00–22:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・單日",
-   "summary_zh": "第 10 屆巴勒斯坦文化節，現場有傳統音樂與舞蹈、劇場、料理示範、餐車、工作坊與市集攤位。",
-   "tip_zh": "免費入場、不需預約，活動時間為 16:00–22:00。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Palestine Cultural Festival",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/palestine-cultural-festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-11-06"
-  },
-  {
    "id": "shrine-commemoration-in-concert-2026",
    "type": "event",
    "title": "Commemoration in Concert",
@@ -8855,39 +8362,6 @@
     "status": "partial",
     "checked": "2026-11-07",
     "unconfirmed_zh": "官網擋自動讀取，節慶結束日、展覽入場費與每日開放時間未能確認。"
-   },
-   "added": "2026-11-07"
-  },
-  {
-   "id": "port-adelaide-pride-street-market-2026-11-07",
-   "type": "event",
-   "title": "Port Adelaide Pride Festival Street Market",
-   "title_zh": "Port Adelaide 驕傲街頭市集",
-   "category": "market",
-   "region": "SA",
-   "city": "Adelaide",
-   "venue": "Nile Street and Commercial Road, Port Adelaide",
-   "lat": -34.8467,
-   "lng": 138.5043,
-   "start": "2026-11-07",
-   "end": "2026-11-07",
-   "schedule_zh": "10:00 起，約 7 小時",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・Feast 藝術節活動",
-   "summary_zh": "Feast Festival 的一部分，2026 年 11 月 7 日在 Port Adelaide 街頭舉行的免費社區活動，官方頁面標示適合所有年齡。",
-   "tip_zh": "官方頁面透過 Humanitix 提供免費票券登記。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Feast Festival – Port Adelaide Pride Festival",
-     "url": "https://feast.org.au/events/port-adelaide-pride-festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
    },
    "added": "2026-11-07"
   },
