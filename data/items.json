@@ -191,55 +191,6 @@
    "hot": true
   },
   {
-   "id": "grafton-jacaranda-festival-2026",
-   "type": "event",
-   "title": "Grafton Jacaranda Festival",
-   "title_zh": "Grafton 藍花楹節",
-   "category": "festival",
-   "region": "NSW",
-   "city": "Grafton",
-   "venue": "Market Square (Prince St & Pound St), Grafton",
-   "lat": -29.6905,
-   "lng": 152.9335,
-   "start": "2026-10-23",
-   "end": "2026-11-08",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "澳洲最悠久花卉節",
-   "summary_zh": "Grafton Jacaranda Festival 為澳洲最悠久的花卉節（1934 年起），2026 年 10/23 至 11/8 於 Grafton 多處場地舉行，包括 Market Square、Memorial Park 與 Prince St，節目內容請見官方節目表。",
-   "tip_zh": "11/6 晚間 9 點於 Memorial Park 有煙火，11/7 下午 5 點於 Prince St 有花車遊行；各活動費用請見官網節目表。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Grafton Jacaranda Festival – official program",
-     "url": "https://jacafest.com/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit NSW – Grafton Jacaranda Festival",
-     "url": "https://www.visitnsw.com/destinations/north-coast/clarence-valley/grafton/events/grafton-jacaranda-festival-3"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@graftonjacarandafestival on Instagram",
-     "url": "https://www.instagram.com/graftonjacarandafestival/"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "Grafton Jacaranda Festival on Facebook",
-     "url": "https://www.facebook.com/GraftonJacarandaFestival/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
-   }
-  },
-  {
    "id": "the-gong-crawl-2026",
    "type": "event",
    "title": "The Gong Crawl",
@@ -386,49 +337,6 @@
     "status": "partial",
     "checked": "2026-11-07",
     "unconfirmed_zh": "官方預約頁未列票價。"
-   }
-  },
-  {
-   "id": "airlie-beach-festival-of-music-2026",
-   "type": "event",
-   "title": "Airlie Beach Festival of Music",
-   "title_zh": "Airlie Beach 音樂節",
-   "category": "music",
-   "region": "QLD",
-   "city": "Airlie Beach",
-   "venue": "Whitsunday Sailing Club & village venues",
-   "lat": -20.267,
-   "lng": 148.72,
-   "start": "2026-11-06",
-   "end": "2026-11-08",
-   "price_zh": "單日 A$135 起",
-   "free": false,
-   "highlight": "60 組以上演出",
-   "summary_zh": "Airlie Beach 年度音樂節，6–8 日多組藝人於約 15 個場地演出，主舞台位於海濱的 Whitsunday Sailing Club，2026 年陣容包括 Xavier Rudd、The Whitlams、Mental As Anything 等。",
-   "tip_zh": "限 18 歲以上；單日票 A$135、兩日票 A$250、3 日票 A$340（均另收手續費，現場購票價格較高）。3 日票含歡迎派對及 After Party，亦可另行單獨購買（A$25／A$30）。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Airlie Beach Festival of Music – official site",
-     "url": "https://www.airliebeachfestivalofmusic.com.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Airlie Beach Festival of Music – Tickets",
-     "url": "https://www.airliebeachfestivalofmusic.com.au/tickets"
-    },
-    {
-     "kind": "community",
-     "platform": "WeekendNotes",
-     "label": "WeekendNotes – What's on Queensland this spring 2026",
-     "url": "https://www.weekendnotes.com/whats-on-brisbane-queensland-this-spring-2026-events-festivals-things-to-do/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
    }
   },
   {
@@ -1408,90 +1316,6 @@
    },
    "added": "2026-10-10",
    "hot": true
-  },
-  {
-   "id": "brisbane-rubber-duck-melt-2026",
-   "type": "event",
-   "title": "Rubber Duck – Melt Festival 2026",
-   "title_zh": "布里斯本河巨型黃色小鴨",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Brisbane River／New Farm Park（Brisbane Powerhouse 一帶）",
-   "lat": -27.4683,
-   "lng": 153.053,
-   "start": "2026-10-21",
-   "end": "2026-11-08",
-   "schedule_zh": "每日 9:00–21:00",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "免費・Melt Festival",
-   "summary_zh": "荷蘭藝術家 Florentijn Hofman 的 15 公尺高粉紅橡皮鴨公共藝術，由 Brisbane Powerhouse 作為 Melt Festival 的一部分於布里斯本河呈現，免費觀賞，展期至 11/8。",
-   "tip_zh": "11/7（六）橡皮鴨將於 Brisbane Powerhouse 前水面迎接 Brisbane Pride 遊行，再航向 Story Bridge 後返回；展期至 11/8，出發前請先查看官網最新公告。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Powerhouse – Rubber Duck",
-     "url": "https://brisbanepowerhouse.org/events/rubber-duck/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Powerhouse – Rubber Duck (Melt Festival 2026)",
-     "url": "https://brisbanepowerhouse.org/?p=27044"
-    },
-    {
-     "kind": "community",
-     "platform": "Brisbane Kids",
-     "label": "Brisbane Kids – Giant Rubber Duck",
-     "url": "https://brisbanekids.com.au/event/rubber-duck/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "supanova-brisbane-2026",
-   "type": "event",
-   "title": "Supanova Comic Con & Gaming Brisbane 2026",
-   "title_zh": "Supanova 布里斯本動漫展",
-   "category": "entertainment",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Brisbane Convention & Exhibition Centre",
-   "lat": -27.4766,
-   "lng": 153.0181,
-   "start": "2026-11-06",
-   "end": "2026-11-08",
-   "schedule_zh": "每日 10:00–18:00",
-   "price_zh": "三日票 A$77.50 起（線上）；單日 A$30–49.50",
-   "free": false,
-   "highlight": "三天動漫展",
-   "summary_zh": "Supanova 布里斯本場於 11/6 起在布里斯本會展中心舉行，結合動漫與遊戲相關展售。",
-   "tip_zh": "現場購票價格較高，建議線上先購；12 歲以下兒童須由付費成人陪同方可免費入場；Supa-Q 與 VIP Supa-Star 票券已售完。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Supanova Brisbane 2026 – Ticket Info",
-     "url": "https://www.supanova.com.au/events/brisbane-2026/ticket-info/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Supanova Brisbane 2026 – Event Home",
-     "url": "https://www.supanova.com.au/events/brisbane-2026/event-home/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
-   },
-   "added": "2026-10-10"
   },
   {
    "id": "eumundi-markets",
@@ -2582,44 +2406,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "tas-open-house-hobart-2026",
-   "type": "event",
-   "title": "Open House Hobart 2026",
-   "title_zh": "荷伯特建築開放日",
-   "category": "arts",
-   "region": "TAS",
-   "city": "Hobart",
-   "venue": "Various buildings across Hobart",
-   "lat": -42.8814,
-   "lng": 147.3326,
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "price_zh": "免費（部分建築須預約）",
-   "free": true,
-   "highlight": "免費・逾 70 處建築與活動",
-   "summary_zh": "每年一度的建築開放週末，2026 年 11 月 7 至 8 日於荷伯特及周邊逾 70 處建築與體驗開放，內容包括建築開放與導覽，適合對建築與城市歷史有興趣的人。",
-   "tip_zh": "部分建築與導覽須事先預約，請參閱各建築頁面的入場條件。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Open House Hobart – FAQs",
-     "url": "https://openhousehobart.org/faqs/"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "ArchitectureAU – Open House Hobart 2026 program launches",
-     "url": "https://architectureau.com/articles/open-house-hobart-2026-program-launches/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-13"
-  },
-  {
    "id": "gyg-yarrabilba-5-burritos-2026",
    "type": "deal",
    "title": "Welcome GYG Yarrabilba – $5 Burritos and Bowls",
@@ -3226,38 +3012,6 @@
      "platform": "官網",
      "label": "Visit Ballarat – SpringFest Ballarat Market Sunday",
      "url": "https://www.visitballarat.com.au/whats-on/springfest-ballarat-market-sunday"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-03"
-   },
-   "added": "2026-10-16"
-  },
-  {
-   "id": "agricultured-launceston-2026",
-   "type": "event",
-   "title": "agriCULTURED 2026",
-   "title_zh": "agriCULTURED 2026 飲食節（Launceston）",
-   "category": "food",
-   "region": "TAS",
-   "city": "Launceston",
-   "venue": "Launceston 地區多個場地",
-   "lat": -41.4332,
-   "lng": 147.1441,
-   "start": "2026-11-02",
-   "end": "2026-11-08",
-   "price_zh": "部分活動免費，其餘付費（票價請見官網）",
-   "free": false,
-   "highlight": "部分免費・4 天",
-   "summary_zh": "以農夫、廚師與食材生產者為主題的飲食節，2026 年 11 月 2 日至 8 日在 Launceston 地區舉辦，包括晚宴、工作坊、論壇與紀錄片放映，部分活動免費（例如 11 月 8 日 QVMAG 的 REMADE 永續服飾展演）。",
-   "tip_zh": "免費場次名額有限，官網已標示部分免費活動售罄，建議提早確認。付費活動需至官網購票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官網",
-     "label": "agriCULTURED – Full Program",
-     "url": "https://www.agricultured.com.au/full-program/"
     }
    ],
    "verified": {
@@ -3985,77 +3739,6 @@
    "added": "2026-10-28"
   },
   {
-   "id": "melt-festival-brisbane-powerhouse-2026",
-   "type": "event",
-   "title": "MELT Festival of Queer Arts and Culture 2026",
-   "title_zh": "MELT 酷兒藝術文化節",
-   "category": "festival",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Brisbane Powerhouse",
-   "lat": -27.4678,
-   "lng": 153.0508,
-   "start": "2026-10-21",
-   "end": "2026-11-08",
-   "price_zh": "依場次而定，部分免費",
-   "free": false,
-   "highlight": "3 週藝文節慶",
-   "summary_zh": "由 Brisbane Powerhouse 製作的 Melt Festival，節期為 2026 年 10 月 21 日至 11 月 8 日。Melting Pot 為節期內的據點，匯集酷兒藝術家在藝術、時尚與聲音等領域的創作，場次票價各異。",
-   "tip_zh": "購票請至各場次頁面；The Huxleys 的 bloodlines 展覽免費。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "MELT Festival 2026",
-     "url": "https://www.melt.org.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Powerhouse – Melting Pot",
-     "url": "https://brisbanepowerhouse.org/events/melting-pot/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-04"
-   },
-   "added": "2026-10-28"
-  },
-  {
-   "id": "melt-bloodlines-huxleys-free-2026",
-   "type": "event",
-   "title": "bloodlines by The Huxleys (Melt Festival 2026)",
-   "title_zh": "The Huxleys《bloodlines》免費展",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Brisbane Powerhouse, Fairfax Studio and Main Foyer",
-   "lat": -27.4678,
-   "lng": 153.0508,
-   "start": "2026-10-21",
-   "end": "2026-11-08",
-   "schedule_zh": "每日 9:00–17:00（11 月 3 至 7 日開放時間略有調整，請見官網）",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費展覽",
-   "summary_zh": "The Huxleys 以攝影、影像、服裝與表演呈現的展覽，緬懷因愛滋病失去的酷兒藝術家，屬 Melt Festival 節目。官方標示含性相關內容。",
-   "tip_zh": "展場位於 New Farm 的 Brisbane Powerhouse（Fairfax Studio 與主大廳）。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Powerhouse – bloodlines",
-     "url": "https://brisbanepowerhouse.org/events/bloodlines/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-04"
-   },
-   "added": "2026-10-28"
-  },
-  {
    "id": "gold-coast-mayors-christmas-carols-2026",
    "type": "event",
    "title": "Mayor's Christmas Carols",
@@ -4704,39 +4387,6 @@
    "added": "2026-10-31"
   },
   {
-   "id": "darwin-tactile-arts-christmas-makers-market-2026",
-   "type": "event",
-   "title": "TACTILE ARTS Christmas Makers Market 2026",
-   "title_zh": "達爾文 Tactile Arts 聖誕手作市集",
-   "category": "market",
-   "region": "NT",
-   "city": "Darwin",
-   "venue": "Territory Marrara Netball Stadium",
-   "lat": -12.4058,
-   "lng": 130.887,
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "schedule_zh": "週六、週日 9:00–16:00",
-   "price_zh": "入場投硬幣或感應付款",
-   "free": false,
-   "highlight": "手作市集・2 天",
-   "summary_zh": "位於 Marrara 的聖誕手作市集，入場費為投硬幣或感應付款，收入支持非營利組織 Tactile Arts。",
-   "tip_zh": "Marrara 離市區較遠，建議事先查好公車路線或共乘。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Tourism Top End – Tactile Arts Christmas Makers Market",
-     "url": "https://www.visittopend.com.au/events/event/87343-tactile-arts-christmas-makers-market-2026"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-31"
-  },
-  {
    "id": "perth-makers-market-heathcote-dec-2026",
    "type": "event",
    "title": "Perth Makers Market – Heathcote",
@@ -5319,44 +4969,6 @@
    "added": "2026-11-03"
   },
   {
-   "id": "qvm-coffee-weekend-2026",
-   "type": "event",
-   "title": "Melbourne Coffee Weekend",
-   "title_zh": "墨爾本咖啡週末",
-   "category": "food",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Queen Victoria Market",
-   "lat": -37.8076,
-   "lng": 144.9568,
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "price_zh": "A$40–45（須線上購票）",
-   "free": false,
-   "highlight": "50 家烘豆商",
-   "summary_zh": "第二屆咖啡週末邀請約 50 家精品手沖咖啡烘豆商進駐 Queen Victoria Market，需線上購票入場。",
-   "tip_zh": "票券透過 Humanitix 預訂；QVM 官網標示 9:00–16:00，墨爾本市府頁面標示 8:00–16:00，出發前請再確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "QVM – What's on (Coffee Weekend)",
-     "url": "https://qvm.com.au/whats-on/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "What's On Melbourne – Coffee Weekend",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/melbourne-coffee-weekend"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-11-03"
-  },
-  {
    "id": "aldi-special-buys-2026-11-04-christmas-food",
    "type": "deal",
    "category": "grocery",
@@ -5457,51 +5069,6 @@
     "status": "partial",
     "checked": "2026-11-06",
     "unconfirmed_zh": "官網未標示結束日期與條款。"
-   },
-   "added": "2026-11-03"
-  },
-  {
-   "id": "virgin-australia-domestic-sale-2026-11",
-   "type": "deal",
-   "title": "Virgin Australia NSW Sale",
-   "title_zh": "Virgin Australia 國內線單程特價 A$55 起",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-02",
-   "end": "2026-11-08",
-   "price_zh": "單程 A$55 起（Economy Lite）",
-   "free": false,
-   "highlight": "機票特價",
-   "summary_zh": "維珍澳洲 NSW sale 提供多條國內線單程 Economy Lite 特價，例如雪梨與 Ballina Byron 之間單程 A$55，銷售期間至 2026 年 11 月 8 日。",
-   "tip_zh": "優惠限指定航班與旅行日期（約 2027 年 1 月至 9 月），售完為止；以官網標示為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Virgin Australia – All current specials",
-     "url": "https://www.virginaustralia.com/au/en/specials/all/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Virgin Australia – Specials and flight sales",
-     "url": "https://www.virginaustralia.com/au/en/specials/"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "Virgin Australia domestic sale – OzBargain",
-     "url": "https://www.ozbargain.com.au/node/981042"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "官網頁面暫時無法開啟，其他航線票價與 11 月 17 日截止的航線未能確認。"
    },
    "added": "2026-11-03"
   },
@@ -6602,51 +6169,6 @@
    "added": "2026-11-04"
   },
   {
-   "id": "maleny-music-festival-2026",
-   "type": "event",
-   "title": "Maleny Music Festival 2026",
-   "title_zh": "Maleny 音樂節 2026",
-   "category": "music",
-   "region": "QLD",
-   "city": "Maleny",
-   "venue": "Maleny Showground",
-   "lat": -26.76,
-   "lng": 152.85,
-   "start": "2026-11-06",
-   "end": "2026-11-08",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "3 天音樂節",
-   "summary_zh": "位於陽光海岸內陸 Maleny Showgrounds 的三天音樂節，曲風以民謠、愛爾蘭傳統音樂、藍調與美國鄉村民謠為主，設有現場露營。",
-   "tip_zh": "Maleny 距離海岸較遠，大眾運輸有限，建議事先規劃交通。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Maleny Music Festival – 官方網站",
-     "url": "https://malenymusicfestival.com"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Sunshine Coast Council – 活動預告（Maleny Music Festival 6–8 November）",
-     "url": "https://www.sunshinecoast.qld.gov.au/news/spring-into-september-with-sunshine-coast-events"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "GC News – Award winning festival returns to Maleny 2026",
-     "url": "https://gcnews.com.au/award-winning-festival-returns-to-maleny-2026/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "官網首頁未列出 2026 確切日期與票價，日期由新聞報導確認。"
-   },
-   "added": "2026-11-04"
-  },
-  {
    "id": "ministry-of-sound-summer-dance-festival-hota-2026",
    "type": "event",
    "title": "Ministry of Sound Summer Dance Festival",
@@ -6755,38 +6277,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-04"
-   },
-   "added": "2026-11-04"
-  },
-  {
-   "id": "red-bull-aeriality-scarborough-2026",
-   "type": "event",
-   "title": "Red Bull Aeriality",
-   "title_zh": "Red Bull Aeriality 水上摩托衝浪賽",
-   "category": "sport",
-   "region": "WA",
-   "city": "Perth",
-   "venue": "Scarborough Beach",
-   "lat": -31.8944,
-   "lng": 115.7566,
-   "start": "2026-11-07",
-   "end": "2026-11-08",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・衝浪賽",
-   "summary_zh": "以水上摩托車拖曳衝浪者入浪、進行空中動作的邀請賽，採單淘汰對戰。主辦單位依浪況於 11 月 7 日或 8 日其中一天舉行。",
-   "tip_zh": "實際舉辦日依浪況於賽前決定，出發前請先查看 Red Bull 官方頁面。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Red Bull – What is Red Bull Aeriality",
-     "url": "https://www.redbull.com/au-en/what-is-red-bull-aeriality"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
    },
    "added": "2026-11-04"
   },
@@ -7632,39 +7122,6 @@
    "added": "2026-11-06"
   },
   {
-   "id": "brisbane-portrait-prize-2026",
-   "type": "event",
-   "title": "Brisbane Portrait Prize 2026",
-   "title_zh": "布里斯本肖像獎 2026 免費展",
-   "category": "arts",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "State Library of Queensland, Gallery level 2",
-   "lat": -27.4702,
-   "lng": 153.0187,
-   "start": "2026-09-19",
-   "end": "2026-11-08",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費展覽",
-   "summary_zh": "昆士蘭州立圖書館展出入圍的布里斯本人物肖像作品，主題涵蓋身分、歸屬與被看見。",
-   "tip_zh": "官網兩處列出的開放時間不一致，出發前請向昆士蘭州立圖書館確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit South Bank – Brisbane Portrait Prize 2026",
-     "url": "https://www.visitsouthbank.com.au/events/brisbane-portrait-prize-2026"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-06",
-    "unconfirmed_zh": "官網兩處列出的開放時間互相矛盾，無法確認。"
-   },
-   "added": "2026-11-06"
-  },
-  {
    "id": "south-bank-free-yoga-saturdays-2026",
    "type": "event",
    "title": "Yoga at South Bank",
@@ -7799,40 +7256,6 @@
     "status": "partial",
     "checked": "2026-11-06",
     "unconfirmed_zh": "官網未列出整體賽期（僅見 Pan Pacs Central 11 月 6–14 日與各項目日期），游泳、跳水與徒手體操的入場費金額也未公布。"
-   },
-   "added": "2026-11-06"
-  },
-  {
-   "id": "shrine-commemoration-in-concert-2026",
-   "type": "event",
-   "title": "Commemoration in Concert",
-   "title_zh": "Shrine 紀念音樂會（免費）",
-   "category": "music",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Shrine of Remembrance",
-   "lat": -37.8305,
-   "lng": 144.9733,
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "schedule_zh": "16:45–17:45",
-   "price_zh": "免費入場，不需預約",
-   "free": true,
-   "highlight": "免費・音樂會",
-   "summary_zh": "墨爾本交響樂團合唱團與 Footscray Yarraville City Band 於戰爭紀念館前廣場演出，免費入場。",
-   "tip_zh": "16:45 先有 Last Post 儀式，音樂 17:00 開始；天氣可能影響活動，請查看 Shrine 社群帳號。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Commemoration in Concert",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/commemoration-in-concert"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-08",
-    "unconfirmed_zh": "官方頁面未標示年份，僅標示 11 月 8 日週日。"
    },
    "added": "2026-11-06"
   },
@@ -8279,45 +7702,6 @@
     "status": "partial",
     "checked": "2026-11-08",
     "unconfirmed_zh": "官網未列出入場費。"
-   },
-   "added": "2026-11-07"
-  },
-  {
-   "id": "mediterranean-market-sydney-2026-11-08",
-   "type": "event",
-   "title": "Mediterranean Market Sydney",
-   "title_zh": "雪梨地中海風情市集",
-   "category": "market",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Market Canopy, Entertainment Quarter, Moore Park",
-   "lat": -33.8925,
-   "lng": 151.2225,
-   "start": "2026-11-08",
-   "end": "2026-11-08",
-   "schedule_zh": "週日 9:00–16:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・單日市集",
-   "summary_zh": "Entertainment Quarter 的 Market Canopy 於 2026 年 11 月 8 日舉辦地中海風味市集，官方頁面列出免費入場。",
-   "tip_zh": "營業時間以官方頁面為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Entertainment Quarter – Mediterranean Market Sydney",
-     "url": "https://entertainmentquarter.com.au/visit/mediterranean-market-sydney/"
-    },
-    {
-     "kind": "community",
-     "platform": "新聞",
-     "label": "sydney.com – Mediterranean Market",
-     "url": "https://www.sydney.com/destinations/sydney/sydney-east/moore-park/events/mediterranean-market"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-08"
    },
    "added": "2026-11-07"
   },
