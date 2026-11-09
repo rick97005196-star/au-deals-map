@@ -272,3 +272,5 @@
 - 2026-11-07｜吃喝 AU｜RASHAYS｜https://rashays.com/｜餐廳連鎖官網優惠與分店清單（Sydney／Canberra／Melbourne／Brisbane）
 - 2026-11-08｜活動 VIC｜Geelong City Market｜https://www.geelongcitymarket.com.au｜Geelong 週六市集，時間、地點與攤位名單
 - 2026-11-08｜活動 NT｜Discover Central Australia｜https://www.discovercentralaustralia.com/things-to-do/activities/events｜紅土中心（愛麗斯泉）官方活動列表與年度活動月曆 PDF
+- 2026-11-10｜市集 QLD｜The Market Folk（布里斯本手作市集主辦單位）｜https://themarketfolk.com.au｜The Market Folk（布里斯本手作市集主辦單位）
+- 2026-11-10｜tickets｜Metro Trains Melbourne 假期交通｜https://www.metrotrains.com.au/christmas-new-year-travel/｜墨爾本聖誕與跨年期間班次與票價公告（2026-27 尚未公布）
