@@ -4250,38 +4250,6 @@
    "added": "2026-10-31"
   },
   {
-   "id": "travelling-film-festival-cairns-2026",
-   "type": "event",
-   "title": "Sydney Film Festival Travelling Film Festival – Cairns",
-   "title_zh": "雪梨影展巡迴放映 Cairns 場",
-   "category": "entertainment",
-   "region": "QLD",
-   "city": "Cairns",
-   "venue": "Event Cinemas Cairns Central",
-   "lat": -16.9234,
-   "lng": 145.7765,
-   "start": "2026-11-06",
-   "end": "2026-11-09",
-   "price_zh": "A$22；優待與 26 歲以下 A$20.50（另加 A$2 手續費）",
-   "free": false,
-   "highlight": "影展・4 天",
-   "summary_zh": "雪梨影展巡迴放映於 Cairns Central 的 Event Cinemas 舉行四天（11 月 6 至 9 日）。",
-   "tip_zh": "26 歲以下適用 A$20.50 優待票價；片單與場次請見官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Sydney Film Festival – TFF Cairns tickets",
-     "url": "https://www.sff.org.au/tff/tickets/cairns/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-06"
-   },
-   "added": "2026-10-31"
-  },
-  {
    "id": "perth-lester-prize-portraiture-2026",
    "type": "event",
    "title": "The Lester Prize for Portraiture 2026 Main Awards",
