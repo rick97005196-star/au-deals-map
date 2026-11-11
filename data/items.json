@@ -3848,39 +3848,6 @@
    "added": "2026-10-28"
   },
   {
-   "id": "gyg-merrylands-opening-5-burritos-2026",
-   "type": "deal",
-   "title": "Welcome GYG Merrylands with $5 Burritos & Bowls",
-   "title_zh": "GYG Merrylands 開幕 A$5 捲餅與餐碗",
-   "category": "dining",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "GYG Merrylands, 250 Pitt St",
-   "lat": -33.8349,
-   "lng": 150.9901,
-   "start": "2026-11-10",
-   "end": "2026-11-10",
-   "schedule_zh": "8:00–22:00（早餐捲餅與餐碗供應至 10:30）",
-   "price_zh": "A$5",
-   "free": false,
-   "highlight": "開幕 A$5",
-   "summary_zh": "Guzman y Gomez Merrylands 新店開幕當日，Regular 捲餅與餐碗每份 A$5。",
-   "tip_zh": "僅限門市內購買，不適用 GYG App；可能有每人限購數量。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "GYG – Welcome GYG Merrylands",
-     "url": "https://www.guzmanygomez.com.au/welcome-gyg-merrylands-with-5-burrito-bowls/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-10"
-   },
-   "added": "2026-10-28"
-  },
-  {
    "id": "npws-fitzroy-falls-nature-tour-2026-27",
    "type": "event",
    "title": "Fitzroy Falls Nature Tour",
