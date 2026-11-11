@@ -274,3 +274,9 @@
 - 2026-11-08｜活動 NT｜Discover Central Australia｜https://www.discovercentralaustralia.com/things-to-do/activities/events｜紅土中心（愛麗斯泉）官方活動列表與年度活動月曆 PDF
 - 2026-11-10｜市集 QLD｜The Market Folk（布里斯本手作市集主辦單位）｜https://themarketfolk.com.au｜The Market Folk（布里斯本手作市集主辦單位）
 - 2026-11-10｜tickets｜Metro Trains Melbourne 假期交通｜https://www.metrotrains.com.au/christmas-new-year-travel/｜墨爾本聖誕與跨年期間班次與票價公告（2026-27 尚未公布）
+- 2026-11-12｜活動 QLD｜Queensland Country Tourism – Events｜https://www.queenslandcountrytourism.com.au/events｜昆州內陸（Toowoomba、Stanthorpe 等）官方活動列表（southernqueenslandcountry.com.au 已轉址至此）
+- 2026-11-12｜活動 NSW｜Sydney New Year's Eve（City of Sydney）｜https://www.sydneynewyearseve.com/｜雪梨跨年煙火官網，觀賞點清單（vantage-points）、酒類規定與購票／抽籤場地
+- 2026-11-12｜活動 NSW｜The Rocks – What's on｜https://www.therocks.com/whats-on｜The Rocks 官方活動頁，Sydney Cellar Door、Picnic Under The Bridge、聖誕季等（部分頁面未標年份）
+- 2026-11-12｜活動 NSW｜Darling Harbour – What's on｜https://www.darlingharbour.com/whats-on/campaigns/christmas｜達令港聖誕樹、煙火與免費聖誕節慶日期與節目
+- 2026-11-12｜活動 ACT｜Visit Canberra 活動資料庫｜https://events.canberra.com.au/whats-on｜坎培拉官方活動列表（Haig Park 聖誕市集等），列出日期、地點與入場費
+- 2026-11-12｜travel｜Adelaide Christmas Pageant – 大眾運輸｜https://christmaspageant.com.au/pageant-day/public-transport｜遊行日期與 Adelaide Metro 免費搭乘時段、City Connector 公車說明
