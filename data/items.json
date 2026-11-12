@@ -3369,38 +3369,6 @@
    "added": "2026-10-23"
   },
   {
-   "id": "macpac-summer-launch-multibuy-2026",
-   "type": "deal",
-   "title": "Macpac Summer Launch Multibuy Offer",
-   "title_zh": "Macpac 夏季新品多件優惠",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-22",
-   "end": "2026-11-12",
-   "price_zh": "服飾兩件以上享 40% 折扣；器材兩件以上享 30% 折扣",
-   "free": false,
-   "highlight": "多件折扣・會員限定",
-   "summary_zh": "Macpac 夏季新品多件優惠，門市與線上皆可適用，僅限 Macpac Club 會員。清貨品、Fund for Good 商品、禮品卡與維修服務不適用，且不得與其他優惠併用。",
-   "tip_zh": "購買前請確認會員身分；官方得提前結束優惠，且不得與其他優惠併用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Macpac – Promotions Terms and Conditions",
-     "url": "https://www.macpac.com.au/promotions-terms-and-conditions.html"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-07"
-   },
-   "added": "2026-10-24"
-  },
-  {
    "id": "museum-of-brisbane-in-residence-2026",
    "type": "event",
    "title": "Museum of Brisbane – In Residence: A Decade of Creative Practice",
@@ -4332,39 +4300,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-10"
-   },
-   "added": "2026-10-31"
-  },
-  {
-   "id": "gyg-cessnock-opening-5-burritos-2026",
-   "type": "deal",
-   "title": "Welcome GYG Cessnock with $5 Burritos & Bowls",
-   "title_zh": "GYG Cessnock A$5 捲餅與碗餐",
-   "category": "dining",
-   "region": "NSW",
-   "city": "Cessnock",
-   "venue": "GYG Cessnock（226 Wollombi Road）",
-   "lat": -32.8326,
-   "lng": 151.3548,
-   "start": "2026-11-12",
-   "end": "2026-11-12",
-   "schedule_zh": "11/12 7:00–22:00（早餐捲餅與碗餐 7:00–10:30）",
-   "price_zh": "普通捲餅與碗餐 A$5",
-   "free": false,
-   "highlight": "新店 A$5 優惠",
-   "summary_zh": "Guzman y Gomez 於 Hunter Valley 的 Cessnock 新門市開幕日（11 月 12 日，週四）推出普通尺寸捲餅與碗餐 A$5 優惠，僅限該門市內購買。",
-   "tip_zh": "優惠僅限門市，不適用 GYG App；加料或客製另計費，每位顧客可能有數量限制。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Guzman y Gomez – Welcome GYG Cessnock",
-     "url": "https://www.guzmanygomez.com.au/welcome-gyg-cessnock-with-5-burrito-bowls/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-12"
    },
    "added": "2026-10-31"
   },
@@ -8373,72 +8308,6 @@
     "status": "partial",
     "checked": "2026-11-10",
     "unconfirmed_zh": "官網未列各場次票價。"
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "melbourne-3rrr-50-years-fed-square-2026",
-   "type": "event",
-   "title": "Fed Square presents: 50 Years of 3RRR",
-   "title_zh": "3RRR 五十週年 Fed Square 免費演出",
-   "category": "music",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Federation Square",
-   "lat": -37.818,
-   "lng": 144.9691,
-   "start": "2026-11-12",
-   "end": "2026-11-12",
-   "schedule_zh": "18:15–21:30",
-   "price_zh": "免費入場，免預約",
-   "free": true,
-   "highlight": "免費・單日演出",
-   "summary_zh": "為慶祝電台 3RRR 成立 50 週年，Fed Square 舉辦免費演出，陣容包括 Courtney Barnett、Party Dozen 與 KAIIT，並有電台主持人與 DJ。",
-   "tip_zh": "無需訂位，建議提早入場；位於市中心，可搭電車或火車至 Flinders Street。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – 50 Years of 3RRR",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/fed-square-presents-50-years-of-3rrr"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-12"
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "melbourne-sunset-market-william-angliss-2026-11",
-   "type": "event",
-   "title": "Sunset Market",
-   "title_zh": "William Angliss 日落市集",
-   "category": "market",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "William Angliss Institute Courtyard, 555 La Trobe St",
-   "lat": -37.8091,
-   "lng": 144.9585,
-   "start": "2026-11-12",
-   "end": "2026-11-12",
-   "schedule_zh": "16:00–20:00",
-   "price_zh": "免費入場，免預約",
-   "free": true,
-   "highlight": "免費・傍晚市集",
-   "summary_zh": "由 William Angliss Institute 活動管理課程學生籌辦，設有平價小吃、市集攤位與現場表演，另有 A$10 以下的二手衣物區，收益捐助 Special Olympics Australia。",
-   "tip_zh": "二手衣物區單品皆在 A$10 以內，適合預算有限的旅人。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Sunset Market",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/sunset-market"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-12"
    },
    "added": "2026-11-10"
   },
