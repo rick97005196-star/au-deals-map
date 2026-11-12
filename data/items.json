@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -9067,6 +9067,967 @@
     "checked": "2026-11-13"
    },
    "added": "2026-11-12"
+  },
+  {
+   "id": "macpac-black-friday-club-2026",
+   "type": "deal",
+   "title": "Macpac Black Friday Sale",
+   "title_zh": "Macpac 黑色星期五戶外用品最高 5 折",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-12",
+   "end": "2026-12-01",
+   "price_zh": "全價商品最高 5 折",
+   "free": false,
+   "highlight": "最高 5 折・會員限定",
+   "summary_zh": "2026 年 11 月 12 日至 12 月 1 日，Macpac 自有品牌全價服飾與裝備最高 5 折，門市與線上皆適用，限 Macpac Club 會員。新品、清倉商品、禮品卡不適用。",
+   "tip_zh": "結帳前需先登入 Macpac Club 會員；官方註明優惠可能提前結束。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Macpac – Promotions Terms and Conditions",
+     "url": "https://www.macpac.com.au/promotions-terms-and-conditions.html"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "event-cinemas-half-price-gold-class-2026-11-14",
+   "type": "deal",
+   "title": "Event Cinemas Half Price Gold Class",
+   "title_zh": "Event Cinemas Gold Class 週末半價",
+   "category": "entertainment",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "price_zh": "Gold Class 全價票 5 折",
+   "free": false,
+   "highlight": "半價優惠・2 天",
+   "summary_zh": "2026 年 11 月 14 至 15 日，Cinebuzz 會員購買指定影城的 Gold Class 全價票享 5 折，每筆交易最多 4 張。餐飲、IMAX、特別場次不適用。",
+   "tip_zh": "須登入 Cinebuzz 會員或在櫃檯出示會員卡；同一場次須一併兌換，線上訂票另收手續費。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Event Cinemas – Half Price Gold Class",
+     "url": "https://www.eventcinemas.com.au/Promotions/HalfPriceGoldClass"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "macpac-bendigo-opening-sale-2026",
+   "type": "deal",
+   "title": "Macpac Bendigo Opening Offers",
+   "title_zh": "Macpac Bendigo 新店開幕特價",
+   "category": "shopping",
+   "region": "VIC",
+   "city": "Bendigo",
+   "venue": "Macpac Bendigo",
+   "lat": -36.757,
+   "lng": 144.2794,
+   "start": "2026-11-13",
+   "end": "2026-11-29",
+   "price_zh": "Macpac 商品最高 5 折",
+   "free": false,
+   "highlight": "開幕特價",
+   "summary_zh": "Macpac Bendigo 新店開幕優惠至 2026 年 11 月 29 日：自有品牌服飾與裝備最高 5 折、鞋類最高 7 折，非自有品牌 8 折。11 月 21 日另有限量贈品。",
+   "tip_zh": "僅限該門市；官方頁面未列開始日，贈品數量有限。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Macpac – Promotions Terms and Conditions",
+     "url": "https://www.macpac.com.au/promotions-terms-and-conditions.html"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未列開始日與門市確切地址。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "macpac-noarlunga-opening-sale-2026",
+   "type": "deal",
+   "title": "Macpac Noarlunga Opening Offers",
+   "title_zh": "Macpac Noarlunga 新店開幕特價",
+   "category": "shopping",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Macpac Noarlunga",
+   "lat": -35.1396,
+   "lng": 138.496,
+   "start": "2026-11-13",
+   "end": "2026-11-29",
+   "price_zh": "Macpac 商品最高 5 折",
+   "free": false,
+   "highlight": "開幕特價",
+   "summary_zh": "Macpac Noarlunga 新店開幕優惠至 2026 年 11 月 29 日：自有品牌服飾與裝備最高 5 折、鞋類最高 7 折，非自有品牌 8 折。11 月 21 日另有限量贈品。",
+   "tip_zh": "僅限該門市，位於阿德雷德南郊；官方頁面未列開始日。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Macpac – Promotions Terms and Conditions",
+     "url": "https://www.macpac.com.au/promotions-terms-and-conditions.html"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未列開始日與門市確切地址。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "brisbane-lord-mayors-christmas-tree-lighting-2026",
+   "type": "event",
+   "title": "Lord Mayor's Lighting of the Christmas Tree",
+   "title_zh": "布里斯本市長點亮聖誕樹",
+   "category": "festival",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "King George Square",
+   "lat": -27.4705,
+   "lng": 153.0237,
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・聖誕開幕夜",
+   "summary_zh": "布里斯本市中心 King George Square 於 11 月 27 日晚間 6:30 至 9:00 舉行點燈儀式，高 22 公尺的聖誕樹首次亮燈，現場有 Santa 與歌手 Jem Cassar-Daley 演出。",
+   "tip_zh": "建議提早抵達；同一廣場的 City Hall Lights 燈光秀預計 12 月 4 日起開始。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Lord Mayor's Lighting of the Christmas Tree 2026",
+     "url": "https://visit.brisbane.qld.au/whats-on/the-city/festivals-and-celebrations/lord-mayors-lighting-of-the-christmas-tree-2026"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Christmas in Brisbane – Brisbane City Council",
+     "url": "https://www.brisbane.qld.gov.au/things-to-see-and-do/whats-on-and-events/christmas-in-brisbane"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "brisbane-city-hall-lights-2026",
+   "type": "event",
+   "title": "City Hall Lights",
+   "title_zh": "布里斯本市政廳聖誕燈光秀",
+   "category": "festival",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "King George Square",
+   "lat": -27.4705,
+   "lng": 153.0237,
+   "start": "2026-12-04",
+   "end": "2026-12-24",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・聖誕燈光秀",
+   "summary_zh": "市政廳外牆於 12 月 4 日至 24 日每晚 7:30 至午夜，每 15 分鐘播放一場聖誕燈光投影，在 King George Square 觀賞。",
+   "tip_zh": "市議會頁面未列票價，Visit Brisbane 頁面標示免費入場，但該頁顯示的是舊年份日期，出發前再確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Christmas in Brisbane – Brisbane City Council",
+     "url": "https://www.brisbane.qld.gov.au/things-to-see-and-do/whats-on-and-events/christmas-in-brisbane"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City Hall Lights – Visit Brisbane",
+     "url": "https://visit.brisbane.qld.au/whats-on/the-city/festivals-and-celebrations/city-hall-lights"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "市議會頁面確認 2026 年 12 月 4–24 日與時段，但未列票價；免費入場出自 Visit Brisbane 舊年份頁面。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "slq-big-things-exhibition-2026",
+   "type": "event",
+   "title": "Big Things",
+   "title_zh": "昆士蘭州立圖書館《Big Things》免費特展",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "SLQ Gallery, State Library of Queensland",
+   "lat": -27.4723,
+   "lng": 153.0188,
+   "start": "2026-12-11",
+   "end": "2027-02-07",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・夏季特展",
+   "summary_zh": "展出昆士蘭 12 座知名公路巨型地標的歷史與故事，運用照片、影片與文物；位於南岸州立圖書館 2 樓。",
+   "tip_zh": "開放時間：週一至四 10:00–20:00，週五至日 10:00–17:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Big Things – Visit South Bank",
+     "url": "https://www.visitsouthbank.com.au/events/big-things"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "gold-coast-movies-under-the-stars-polar-express-2026",
+   "type": "event",
+   "title": "Movies Under the Stars: The Polar Express",
+   "title_zh": "黃金海岸露天電影《北極特快車》",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Surfers Paradise",
+   "venue": "Lionel Perry Park",
+   "lat": -28.0108,
+   "lng": 153.43,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費・露天電影",
+   "summary_zh": "City of Gold Coast 免費露天電影活動，11 月 28 日晚間 7:00 於 Surfers Paradise 的 Lionel Perry Park 放映《北極特快車》。",
+   "tip_zh": "自備野餐墊與飲食；天候不佳可能調整，請留意官方活動頁。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Movies Under the Stars: The Polar Express – What's On Gold Coast",
+     "url": "https://www.whatsongoldcoast.au/All-events/Movies-Under-the-Stars-The-Polar-Express"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "spilt-milk-gold-coast-2026",
+   "type": "event",
+   "title": "Spilt Milk Gold Coast 2026",
+   "title_zh": "Spilt Milk 黃金海岸音樂節",
+   "category": "music",
+   "region": "QLD",
+   "city": "Carrara",
+   "venue": "Gold Coast Sports Precinct",
+   "lat": -28.0033,
+   "lng": 153.3677,
+   "start": "2026-12-13",
+   "end": "2026-12-13",
+   "price_zh": "A$224.95–274.95",
+   "free": false,
+   "highlight": "音樂節・一日",
+   "summary_zh": "12 月 13 日 11:30 至 22:30 於 Carrara 舉行，陣容含 RAYE、Lewis Capaldi、Kettama 與 Maisie Peters，票務經 Moshtix。",
+   "tip_zh": "官網未載明年齡限制，購票前請先確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Spilt Milk – What's On Gold Coast",
+     "url": "https://www.whatsongoldcoast.au/All-events/Spilt-Milk-Gold-Coast-64af491340162b92310ccd61"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "年齡限制官網未載明。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "spacey-jane-brisbane-riverstage-2026",
+   "type": "event",
+   "title": "Spacey Jane – Brisbane 2026",
+   "title_zh": "Spacey Jane 布里斯本 Riverstage 演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Riverstage",
+   "lat": -27.4753,
+   "lng": 153.0366,
+   "start": "2026-11-26",
+   "end": "2026-11-27",
+   "price_zh": "A$99 起（兩場通票 A$150）",
+   "free": false,
+   "highlight": "兩晚演出",
+   "summary_zh": "Frontier Touring 官方頁列出 11 月 26 與 27 日在 Brisbane Botanic Gardens 的 Riverstage 演出，站票 A$99，兩場通票 A$150，Ticketmaster 售票中，licensed all ages。",
+   "tip_zh": "票價不含手續費，每人每場限購 8 張。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Spacey Jane – Frontier Touring",
+     "url": "https://www.frontiertouring.com/current-tours/spaceyjane-b96miNr/spacey-jane-2026-26-nov-bne"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "wolf-alice-brisbane-fortitude-2026",
+   "type": "event",
+   "title": "Wolf Alice – Brisbane",
+   "title_zh": "Wolf Alice 布里斯本演唱會",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "The Fortitude Music Hall",
+   "lat": -27.4575,
+   "lng": 153.0346,
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "price_zh": "A$119.90（站票）",
+   "free": false,
+   "highlight": "單場演出",
+   "summary_zh": "英國樂團 Wolf Alice 於 12 月 2 日在 Fortitude Valley 的 Fortitude Music Hall 演出，站票 A$119.90，Ticketmaster 售票中，限 18 歲以上。",
+   "tip_zh": "票價不含手續費。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Wolf Alice – Frontier Touring",
+     "url": "https://www.frontiertouring.com/current-tours/wolfalice-02c0GsR/wolf-alice-2026-2-dec-brisbane"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "carreras-and-friends-gabba-2026",
+   "type": "event",
+   "title": "Carreras & Friends",
+   "title_zh": "Carreras & Friends 聯合演唱會（Gabba）",
+   "category": "music",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "The Gabba",
+   "lat": -27.4858,
+   "lng": 153.0381,
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "體育場演唱會",
+   "summary_zh": "12 月 5 日於 Gabba 舉行，José Carreras 主持，演出者含 Robbie Williams、The Corrs、Ronan Keating、Natalie Imbruglia 等，並有昆士蘭交響樂團。大門 17:00 開放，19:00 開演。",
+   "tip_zh": "票務僅經 Ticketmaster，每筆限購 10 張。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Carreras & Friends – The Gabba",
+     "url": "https://thegabba.com.au/events/carreras---friends---jose-carreras--robbie-williams--the-corrs--0"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官網頁面未列票價。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "melbourne-christmas-square-fed-square-2026",
+   "type": "event",
+   "title": "Christmas Square",
+   "title_zh": "Fed Square 聖誕廣場",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Federation Square",
+   "lat": -37.818,
+   "lng": 144.9691,
+   "start": "2026-11-27",
+   "end": "2026-12-25",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・近 1 個月",
+   "summary_zh": "墨爾本市政府與 Fed Square 合辦，廣場設有 17.5 公尺聖誕樹、燈光音響秀與發光鐘形鞦韆。",
+   "tip_zh": "免費且不需預約；交通以市區電車或 Flinders Street 車站最方便。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Christmas Square",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-square"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "melbourne-christmas-tree-lighting-2026",
+   "type": "event",
+   "title": "Christmas Tree Lighting",
+   "title_zh": "Fed Square 聖誕樹點燈",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Federation Square",
+   "lat": -37.818,
+   "lng": 144.9691,
+   "start": "2026-11-27",
+   "end": "2026-11-27",
+   "schedule_zh": "18:00–21:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・單日",
+   "summary_zh": "Fed Square 17.5 公尺聖誕樹點燈儀式，18:00 至 21:00 有 DJ、合唱與爵士樂團表演，另有與聖誕老人合照等活動。",
+   "tip_zh": "免費且不需預約；點燈倒數前人潮較多，建議提早到場。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Christmas Tree Lighting",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-tree-lighting"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "melbourne-myer-christmas-windows-2026",
+   "type": "event",
+   "title": "Myer Christmas Windows",
+   "title_zh": "Myer 聖誕櫥窗展",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Myer Melbourne, 336 Bourke St",
+   "lat": -37.8142,
+   "lng": 144.9631,
+   "start": "2026-11-13",
+   "end": "2027-01-05",
+   "price_zh": "免費參觀",
+   "free": true,
+   "highlight": "免費・長期展出",
+   "summary_zh": "Myer 第 71 屆聖誕櫥窗，以迪士尼與皮克斯的《Toy Story》故事繪本打造六個主題櫥窗。",
+   "tip_zh": "免費且不需預約；每日 10:00–20:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Myer Christmas Windows",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/myer-christmas-windows"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "melbourne-taste-of-persia-2026",
+   "type": "event",
+   "title": "Taste of Persia",
+   "title_zh": "波斯文化美食日",
+   "category": "food",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "The Atrium, Flinders St",
+   "lat": -37.8179,
+   "lng": 144.967,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "schedule_zh": "10:00–17:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・單日",
+   "summary_zh": "由 Yarra Foundation 主辦的慈善文化活動，設有波斯美食、藝術展示、社區攤位與 DJ 表演，收益用於資助弱勢兒童教育。",
+   "tip_zh": "免費入場，餐點另計；10:00–17:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Taste of Persia",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/taste-of-persia"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "southbank-makers-market-2026",
+   "type": "event",
+   "title": "Southbank Makers Market",
+   "title_zh": "Southbank 手作市集",
+   "category": "market",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Southbank Promenade",
+   "lat": -37.8205,
+   "lng": 144.965,
+   "start": "2026-11-15",
+   "end": "2027-02-28",
+   "schedule_zh": "多數週日 10:00–16:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・週日市集",
+   "summary_zh": "沿 Yarra 河畔步道設攤，販售本地手作首飾、藝術品、陶瓷與家居小物。",
+   "tip_zh": "多數週日 10:00–16:00；12 月 6、13、20 日延長至 18:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Southbank Makers Market",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/southbank-makers-market"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "hartbeats-live-jazz-whitehart-bar-2026",
+   "type": "event",
+   "title": "Hartbeats Live Jazz",
+   "title_zh": "Whitehart Bar 週日免費爵士",
+   "category": "music",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Whitehart Bar, 22 Whitehart Ln",
+   "lat": -37.8165,
+   "lng": 144.9667,
+   "start": "2026-11-15",
+   "end": "2026-11-29",
+   "schedule_zh": "週日 15:00–23:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・週日現場",
+   "summary_zh": "墨爾本市中心小巷酒吧的週日現場音樂，下午為 Soul Lane 場次，晚間接著現場演奏與 DJ。",
+   "tip_zh": "官方頁面列出 11 月 15、22、29 日 15:00–23:00；免費入場，不需預約。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Hartbeats Live Jazz",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/hartbeats-live-jazz"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "christmas-district-docklands-2026",
+   "type": "event",
+   "title": "Christmas at The District Docklands",
+   "title_zh": "Docklands 聖誕小熊步道",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "The District Docklands, 440 Docklands Dr",
+   "lat": -37.8148,
+   "lng": 144.9461,
+   "start": "2026-11-26",
+   "end": "2026-12-31",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・約 5 週",
+   "summary_zh": "Gummy Bears 大型裝置沿 District Docklands 巷弄展出，12 月 14 日起 District After Dark 開放 20 多間娛樂場所與 40 多種餐飲。",
+   "tip_zh": "免費且不需預約。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Christmas at The District Docklands",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-at-the-district-docklands"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "live-at-the-gardens-renfair-rave-2026",
+   "type": "event",
+   "title": "Live at the Gardens: Renfair Rave",
+   "title_zh": "植物園中世紀主題電音夜",
+   "category": "music",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Southern Cross Lawn, Royal Botanic Gardens Victoria",
+   "lat": -37.8304,
+   "lng": 144.9796,
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "schedule_zh": "17:00–23:00",
+   "price_zh": "A$89.90",
+   "free": false,
+   "highlight": "單夜・預計售完",
+   "summary_zh": "Melbourne Renfair 團隊在皇家植物園舉辦的中世紀主題派對，現場有 DJ 與遊走表演，鼓勵變裝。",
+   "tip_zh": "官方預計很快售完，需先於 liveatthegardens.com.au 購票；17:00–23:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne – Live at the Gardens: Renfair Rave",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/live-at-the-gardens-renfair-rave"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "tas-mount-roland-folk-festival-2026",
+   "type": "event",
+   "title": "Mount Roland Folk Festival 2026",
+   "title_zh": "Mount Roland 民謠音樂節",
+   "category": "music",
+   "region": "TAS",
+   "city": "Sheffield",
+   "venue": "Sheffield town venues",
+   "lat": -41.3906,
+   "lng": 146.3228,
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "年度・3 天",
+   "summary_zh": "塔州 Sheffield 的小型民謠音樂節，含原聲音樂、舞蹈、詩歌、工作坊與音樂交流場次，由志工團隊籌辦。",
+   "tip_zh": "名額有限，請透過官方頁面的「Book now」連結購票；票價官網未列出。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Discover Tasmania – Mount Roland Folk Festival 2026",
+     "url": "https://www.discovertasmania.com.au/things-to-do/festivals-and-events/mount-roland-folk-festival-2026/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未列出票價。"
+   },
+   "schedule_zh": "17:00–23:00",
+   "added": "2026-11-13"
+  },
+  {
+   "id": "krispy-kreme-free-glazed-world-kindness-day-2026",
+   "type": "deal",
+   "title": "Krispy Kreme World Kindness Day – Free Original Glazed Doughnut",
+   "title_zh": "Krispy Kreme 免費 Original Glazed 甜甜圈",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "price_zh": "免費（每人 1 個）；另有 Original Glazed 一打 A$15、四入 A$7（限指定門市）",
+   "free": true,
+   "highlight": "免費・僅限 11/13",
+   "summary_zh": "World Kindness Day 當天，Krispy Kreme 全澳門市（南澳除外）提供每人一個免費 Original Glazed 甜甜圈，無需消費。同日部分門市另有一打 A$15、四入 A$7 的優惠。",
+   "tip_zh": "到門市向店員索取，數量有限售完為止；機場門市、第三方外送（Uber Eats、DoorDash）及 Coles、Woolworths、7-Eleven 等零售通路不適用。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Krispy Kreme Australia – Offers",
+     "url": "https://www.krispykreme.com.au/offers"
+    },
+    {
+     "kind": "community",
+     "platform": "OzBargain",
+     "label": "Free Original Glazed Doughnut for World Kindness Day 13/11",
+     "url": "https://www.ozbargain.com.au/node/982325"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "hungry-jacks-nbl27-free-cheeseburger-2026",
+   "type": "deal",
+   "title": "Hungry Jack's Free Cheeseburger – NBL27 and WNBL Season",
+   "title_zh": "Hungry Jack's NBL 賽季免費起司漢堡",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-09-20",
+   "end": null,
+   "price_zh": "免費起司漢堡（App 線上訂單須最低消費 A$1）",
+   "free": true,
+   "highlight": "免費・需 App",
+   "summary_zh": "NBL27 與 WNBL 例行賽期間，客隊球員連續兩次罰球不進時會公布暗號，於 NBL App 輸入後可取得 Hungry Jack's 免費起司漢堡兌換券。每個帳號每一輪限領一次。",
+   "tip_zh": "需下載 NBL App 並訂閱電子郵件、同時註冊 Hungry Jack's App；須在該輪最後一場比賽當天 23:59 前輸入暗號，兌換券在 Rewards 頁面。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NBL – How to get free Hungry Jack's cheeseburgers",
+     "url": "https://www.nbl.com.au/news/how-to-get-free-hungry-jacks-cheeseburgers-by-watching-nbl27-games"
+    },
+    {
+     "kind": "community",
+     "platform": "OzBargain",
+     "label": "Free Hungry Jack's Cheeseburger (NBL Round 9)",
+     "url": "https://www.ozbargain.com.au/node/982837"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方文章未標示優惠起始日與結束日。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "muffin-break-6-iced-latte-2026-11",
+   "type": "deal",
+   "title": "Muffin Break $6 Regular Iced Latte",
+   "title_zh": "Muffin Break 冰拿鐵 A$6",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-13",
+   "end": "2026-11-24",
+   "price_zh": "中杯冰拿鐵 A$6",
+   "free": false,
+   "highlight": "限時・至 11/24",
+   "summary_zh": "Muffin Break 官網目前公布每日供應中杯冰拿鐵 A$6，優惠至 11 月 24 日。",
+   "tip_zh": "以各門市實際供應為準，條款請見官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Muffin Break – Home",
+     "url": "https://www.muffinbreak.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官網未標示年份與完整條款。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "starbucks-pastry-5-deli-roll-10-2026-11",
+   "type": "deal",
+   "title": "Starbucks Australia – $5 Pastry with Any Drink and $10 Deli Roll with Any Drink",
+   "title_zh": "Starbucks 買飲品加購酥點 A$5、鹹食 A$10",
+   "category": "dining",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-13",
+   "end": null,
+   "price_zh": "點任一飲品，11 點前酥點 A$5；全天 Deli Roll A$10",
+   "free": false,
+   "highlight": "飲品加購優惠",
+   "summary_zh": "Starbucks 澳洲官網目前列出兩項加購優惠：購買任一飲品於上午 11 點前可以 A$5 加購任一酥點，另有購買任一飲品以 A$10 加購 Deli Roll（全天）。",
+   "tip_zh": "適用條款與參與門市請見官網 T&Cs。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Starbucks Australia – Home",
+     "url": "https://www.starbucks.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官網只寫「節慶期間」，未標示起訖日期。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "flixbus-first-birthday-sale-2026",
+   "type": "deal",
+   "title": "FlixBus First Birthday Sale – fares from $10",
+   "title_zh": "FlixBus 週年慶長途巴士 A$10 起",
+   "category": "tickets",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲 FlixBus 路線",
+   "start": "2026-11-10",
+   "end": "2026-11-23",
+   "schedule_zh": "11/10–11/23 訂票，11/10 至 2027/4/30 出發；12/21–1/3 及 3/26–3/29 不適用",
+   "price_zh": "A$10 起（限量）",
+   "free": false,
+   "highlight": "長途巴士特價",
+   "summary_zh": "FlixBus 慶祝進入澳洲一週年推出特價車票。官方頁面列出訂票期間為 11 月 10 至 23 日，出發期間為 2026 年 11 月 10 日至 2027 年 4 月 30 日。",
+   "tip_zh": "12 月 21 日至 1 月 3 日及 3 月 26 至 29 日不適用；A$10 起的價格與數量有限依新聞報導，官方頁面未列價格。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "FlixBus Australia – 促銷期間與出發日期",
+     "url": "https://www.flixbus.com.au/"
+    },
+    {
+     "kind": "news",
+     "platform": "新聞",
+     "label": "Time Out – FlixBus first birthday sale",
+     "url": "https://www.timeout.com/sydney/news/this-popular-backpackers-bus-is-offering-10-tickets-from-sydney-to-melbourne-111026"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-13",
+    "unconfirmed_zh": "官方頁面未列出 A$10 起的價格，僅新聞報導提及。"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "nsw-trainlink-online-saver-fares-2026",
+   "type": "deal",
+   "title": "NSW TrainLink Online Saver Fares",
+   "title_zh": "新州長途火車線上特惠票最高 65 折",
+   "category": "tickets",
+   "region": "NSW",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "新州區域火車與巴士路線",
+   "start": "2026-11-13",
+   "end": "2027-07-01",
+   "schedule_zh": "出發期間：至 2026/12/14、2027/1/31–4/8、2027/4/26–7/1",
+   "price_zh": "雪梨至 Coffs Harbour A$53 起、至 Armidale A$57 起、至布里斯本 A$73 起",
+   "free": false,
+   "highlight": "最高 65 折",
+   "summary_zh": "NSW TrainLink 官網的線上特惠票，指定班次成人全票最高減 35%，例如雪梨至 Coffs Harbour A$53、至 Dubbo A$44、至 Broadmeadow A$17。適合安排雪梨出發的新州與昆州長途移動。",
+   "tip_zh": "僅限官網訂購、單程、指定班次並視座位而定，只適用成人全票；出發日須在 2026 年 10 月 12 日至 12 月 14 日、2027 年 1 月 31 日至 4 月 8 日等指定期間。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Transport for NSW – Online saver fares",
+     "url": "https://transportnsw.info/regional-travel/regional-offers/online-saver-fares"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Transport for NSW – Regional offers",
+     "url": "https://transportnsw.info/regional-travel/regional-offers"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
+  },
+  {
+   "id": "nsw-trainlink-discovery-pass-2026",
+   "type": "deal",
+   "title": "NSW TrainLink Discovery Pass",
+   "title_zh": "新州區域火車 Discovery Pass 14 天 A$232",
+   "category": "tickets",
+   "region": "NSW",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "新州區域火車網",
+   "start": "2026-11-13",
+   "end": null,
+   "price_zh": "14 天 A$232、1 個月 A$275（成人經濟艙）",
+   "free": false,
+   "highlight": "不限次數搭乘",
+   "summary_zh": "NSW TrainLink 區域火車與巴士的通行證，可在效期內不限次數預訂行程，14 天 A$232、1 個月 A$275、3 個月 A$298、6 個月 A$420。涵蓋新州區域及墨爾本、布里斯本、黃金海岸等跨州目的地。",
+   "tip_zh": "通行證不是車票，每趟仍須另外訂位；不可退款、不可轉讓，且不適用 Sydney Trains 與 Intercity。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Transport for NSW – Discovery Pass",
+     "url": "https://transportnsw.info/regional-travel/regional-offers/discovery-pass"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-13"
+   },
+   "added": "2026-11-13"
   }
  ]
 }

@@ -280,3 +280,8 @@
 - 2026-11-12｜活動 NSW｜Darling Harbour – What's on｜https://www.darlingharbour.com/whats-on/campaigns/christmas｜達令港聖誕樹、煙火與免費聖誕節慶日期與節目
 - 2026-11-12｜活動 ACT｜Visit Canberra 活動資料庫｜https://events.canberra.com.au/whats-on｜坎培拉官方活動列表（Haig Park 聖誕市集等），列出日期、地點與入場費
 - 2026-11-12｜travel｜Adelaide Christmas Pageant – 大眾運輸｜https://christmaspageant.com.au/pageant-day/public-transport｜遊行日期與 Adelaide Metro 免費搭乘時段、City Connector 公車說明
+- 2026-11-13｜活動 QLD｜The Gabba｜https://thegabba.com.au/events/｜Gabba 體育場活動官網
+- 2026-11-13｜吃喝｜Krispy Kreme Australia Offers｜https://www.krispykreme.com.au/offers｜甜甜圈限時與每日優惠、條件與排除門市
+- 2026-11-13｜吃喝｜NBL（Hungry Jack's 免費起司漢堡說明）｜https://www.nbl.com.au/news/how-to-get-free-hungry-jacks-cheeseburgers-by-watching-nbl27-games｜NBL27 賽季免費漢堡領取方式與條件
+- 2026-11-13｜吃喝｜Muffin Break｜https://www.muffinbreak.com.au/｜咖啡與烘焙限時優惠
+- 2026-11-13｜tickets｜FlixBus Australia｜https://www.flixbus.com.au/｜長途巴士促銷期間、出發日期與不適用日
