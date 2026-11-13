@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -3674,46 +3674,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-12"
-   },
-   "added": "2026-10-28"
-  },
-  {
-   "id": "brisstyle-twilight-market-nov-2026",
-   "type": "event",
-   "title": "BrisStyle Twilight Market",
-   "title_zh": "BrisStyle 黃昏手作市集（11 月）",
-   "category": "market",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "King George Square",
-   "lat": -27.4692,
-   "lng": 153.0235,
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "schedule_zh": "16:00–21:00",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "市中心手作市集",
-   "summary_zh": "在 City Hall 下方的 King George Square 舉行，有布里斯本設計師與藝術家的手作商品、餐車與現場音樂。",
-   "tip_zh": "位於市中心，搭乘大眾運輸最方便。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "BrisStyle Twilight Market",
-     "url": "https://www.brisstyle.com.au/brisstyle-twilight-market/"
-    },
-    {
-     "kind": "community",
-     "platform": "Brisbane Kids",
-     "label": "BrisStyle Twilight Markets 場次（列有 2026-11-13）",
-     "url": "https://brisbanekids.com.au/event/brisstyle-twilight-markets-king-george-square-2/2026-11-13/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-13",
-    "unconfirmed_zh": "官網未標示 11 月場次的年份。"
    },
    "added": "2026-10-28"
   },
@@ -8292,39 +8252,6 @@
    "added": "2026-11-10"
   },
   {
-   "id": "hobart-st-davids-park-100th-garden-party-2026",
-   "type": "event",
-   "title": "St David's Park 100th birthday garden party",
-   "title_zh": "St David's Park 百年園遊會",
-   "category": "festival",
-   "region": "TAS",
-   "city": "Hobart",
-   "venue": "St David's Park, Davey Street",
-   "lat": -42.8836,
-   "lng": 147.329,
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "schedule_zh": "10:00–13:00",
-   "price_zh": "免費，需於 Humanitix 預訂免費票",
-   "free": true,
-   "highlight": "免費・百年紀念",
-   "summary_zh": "慶祝公園成立 100 週年，現場有德文郡茶點、塔斯馬尼亞傳統弦樂團與荷伯特及 Glenorchy 銅管樂隊演出、歷史講座，並舉行兩棵巨杉的種植儀式。",
-   "tip_zh": "需先在 Humanitix 預訂免費票；活動在週五上午，位於荷伯特市中心。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Hobart – St David's Park 100th birthday garden party",
-     "url": "https://www.hobartcity.com.au/Things-To-Do/Upcoming-events/St-Davids-Park-100th-birthday-garden-party"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
-   "added": "2026-11-10"
-  },
-  {
    "id": "gyg-10-burritos-uber-eats-2026-11-09",
    "type": "deal",
    "title": "Guzman y Gomez – $10 Burritos on Uber Eats",
@@ -9770,44 +9697,6 @@
     "unconfirmed_zh": "官方頁面未列出票價。"
    },
    "schedule_zh": "17:00–23:00",
-   "added": "2026-11-13"
-  },
-  {
-   "id": "krispy-kreme-free-glazed-world-kindness-day-2026",
-   "type": "deal",
-   "title": "Krispy Kreme World Kindness Day – Free Original Glazed Doughnut",
-   "title_zh": "Krispy Kreme 免費 Original Glazed 甜甜圈",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "price_zh": "免費（每人 1 個）；另有 Original Glazed 一打 A$15、四入 A$7（限指定門市）",
-   "free": true,
-   "highlight": "免費・僅限 11/13",
-   "summary_zh": "World Kindness Day 當天，Krispy Kreme 全澳門市（南澳除外）提供每人一個免費 Original Glazed 甜甜圈，無需消費。同日部分門市另有一打 A$15、四入 A$7 的優惠。",
-   "tip_zh": "到門市向店員索取，數量有限售完為止；機場門市、第三方外送（Uber Eats、DoorDash）及 Coles、Woolworths、7-Eleven 等零售通路不適用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Krispy Kreme Australia – Offers",
-     "url": "https://www.krispykreme.com.au/offers"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "Free Original Glazed Doughnut for World Kindness Day 13/11",
-     "url": "https://www.ozbargain.com.au/node/982325"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
    "added": "2026-11-13"
   },
   {
