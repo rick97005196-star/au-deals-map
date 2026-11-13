@@ -285,3 +285,12 @@
 - 2026-11-13｜吃喝｜NBL（Hungry Jack's 免費起司漢堡說明）｜https://www.nbl.com.au/news/how-to-get-free-hungry-jacks-cheeseburgers-by-watching-nbl27-games｜NBL27 賽季免費漢堡領取方式與條件
 - 2026-11-13｜吃喝｜Muffin Break｜https://www.muffinbreak.com.au/｜咖啡與烘焙限時優惠
 - 2026-11-13｜tickets｜FlixBus Australia｜https://www.flixbus.com.au/｜長途巴士促銷期間、出發日期與不適用日
+- 2026-11-14｜購物｜The Good Guys｜https://www.thegoodguys.com.au/black-friday｜黑色星期五家電特價與價格
+- 2026-11-14｜購物｜Officeworks Black Friday｜https://www.officeworks.com.au/shop/officeworks/c/black-friday｜黑五特價與 OnePass 活動
+- 2026-11-14｜活動 QLD｜Sunshine Coast Council – Events｜https://www.sunshinecoast.qld.gov.au/events｜陽光海岸議會活動行事曆，含跨年煙火；sunshinecoaststadium.com.au 為 Kawana 場館活動
+- 2026-11-14｜活動 WA｜Cricket Australia（West Test Festival）｜https://www.cricket.com.au/tickets/west-test-festival｜西澳測試賽球迷節日期與免費入場說明
+- 2026-11-14｜活動 WA｜WASO 官方網站｜https://www.waso.com.au/whats-on/2026/productions/special-events/santas-symphony-in-the-park｜西澳交響樂團免費戶外音樂會日期與條件
+- 2026-11-14｜活動 WA｜City of Fremantle What's On｜https://www.fremantle.wa.gov.au/arts-and-culture/whats-on/｜Fremantle 市政府活動頁，含日期、場地與免費說明
+- 2026-11-14｜活動 NT｜City of Darwin What's On｜https://www.darwin.nt.gov.au/community/things-to-do/whats-on｜達爾文市政府活動日曆，含日期、場地與免費標示
+- 2026-11-14｜活動 NSW｜City of Sydney What's On｜https://whatson.cityofsydney.nsw.gov.au/events/ai-weiwei-mushrooms-2026｜雪梨市政府活動頁，含日期與免費標示
+- 2026-11-14｜travel｜Kakadu National Park – Park passes｜https://kakadu.gov.au/plan/passes/｜Kakadu 入園證夏季／旱季價格

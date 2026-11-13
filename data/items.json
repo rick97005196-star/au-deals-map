@@ -9884,6 +9884,576 @@
     "checked": "2026-11-13"
    },
    "added": "2026-11-13"
+  },
+  {
+   "id": "acmi-play-on-2026",
+   "type": "event",
+   "title": "Play On – ACMI",
+   "title_zh": "ACMI《Play On》街機遊戲免費展",
+   "category": "entertainment",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "ACMI, Federation Square",
+   "lat": -37.8179,
+   "lng": 144.9691,
+   "start": "2026-08-24",
+   "end": "2027-01-31",
+   "schedule_zh": "每日 10:00–17:00（12/25 休館）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・常設展",
+   "summary_zh": "ACMI 於聯邦廣場一樓展出三款澳洲開發者新作街機遊戲，包含《Quiver》《QIP》《Pop-up Crashout》，可直接上機遊玩。",
+   "tip_zh": "遊戲含閃爍畫面與大音量，對光敏感者請留意。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ACMI – Play On",
+     "url": "https://www.acmi.net.au/whats-on/play-on/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "hoyts-movie-of-the-week-12-50-2026",
+   "type": "deal",
+   "title": "HOYTS Movie of the Week – $12.50 tickets for HOYTS Rewards members",
+   "title_zh": "HOYTS 每週一片 A$12.50 會員票",
+   "category": "entertainment",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-14",
+   "end": null,
+   "price_zh": "A$12.50（官網標示需符合條款，HOYTS Rewards 會員適用指定電影）",
+   "free": false,
+   "highlight": "會員優惠票",
+   "summary_zh": "HOYTS 官網目前主推《Pressure》A$12.50 的 Movie of the Week 優惠，並標示 HOYTS Rewards 會員可以 A$12.50 購買指定電影的票。",
+   "tip_zh": "訂票前請先查看官網的優惠條款與適用場次。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "HOYTS – Offers",
+     "url": "https://www.hoyts.com.au/offers"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-14",
+    "unconfirmed_zh": "官網未標示優惠條款、結束日與適用片單，每週更換。"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "officeworks-black-friday-2026",
+   "type": "deal",
+   "title": "Officeworks Black Friday deals",
+   "title_zh": "Officeworks 黑色星期五特價",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-14",
+   "end": null,
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "黑五特價",
+   "summary_zh": "Officeworks 官網列出黑色星期五特價，包含 Philips、Lenovo、Acer 螢幕，以及指定耳機、平板、筆電與聖誕禮品類的科技商品。",
+   "tip_zh": "特價品項與價格以官網即時顯示為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Officeworks – Black Friday",
+     "url": "https://www.officeworks.com.au/shop/officeworks/c/black-friday"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-14",
+    "unconfirmed_zh": "官網未公布特賣起訖日期與各品項價格。"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "hota-comedy-underground-saturday-2026",
+   "type": "event",
+   "title": "Comedy Underground Saturday Showcase",
+   "title_zh": "HOTA 週六喜劇秀 Comedy Underground",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "HOTA, Home of the Arts",
+   "lat": -28.0006,
+   "lng": 153.414,
+   "start": "2026-11-14",
+   "end": "2026-12-19",
+   "schedule_zh": "每週六 19:00 起",
+   "price_zh": "A$37（6 人以上團體每人 A$34）",
+   "free": false,
+   "highlight": "週六現場喜劇",
+   "summary_zh": "HOTA 地下室每週六舉辦約 90 分鐘的脫口秀專場，集結知名與新銳喜劇演員。限 16 歲以上，適合想體驗在地夜生活的成人。",
+   "tip_zh": "需事先購票；官方列出的場次至 12 月 19 日。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "HOTA – Comedy Underground Saturday Showcase",
+     "url": "https://hota.com.au/events/comedy-underground-saturday-showcase"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "hota-summer-series-craft-spritz-2026-11",
+   "type": "event",
+   "title": "Summer Series: Craft + Spritz",
+   "title_zh": "HOTA 夏季系列：手作與調酒夜",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "HOTA, Home of the Arts",
+   "lat": -28.0006,
+   "lng": 153.414,
+   "start": "2026-11-20",
+   "end": "2026-11-20",
+   "schedule_zh": "週五 16:00–19:00",
+   "price_zh": "A$45（含一杯飲品）",
+   "free": false,
+   "highlight": "藝廊夜間活動",
+   "summary_zh": "HOTA 藝廊 Gallery Studio 的成人夜間活動，11 月 20 日有紮染工作坊、古著快閃攤、拍立得拼貼與 DJ 現場播放，並可進入 Minna Gilligan 展覽。",
+   "tip_zh": "可現場參加，費用含一杯飲品（調酒、葡萄酒、啤酒或無酒精）。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "HOTA – Summer Series: Craft + Spritz",
+     "url": "https://hota.com.au/events/summer-series-craft-spritz"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "hota-christmas-twilight-markets-2026",
+   "type": "event",
+   "title": "HOTA Christmas Twilight Markets",
+   "title_zh": "HOTA 聖誕黃昏市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Gold Coast",
+   "venue": "HOTA, Home of the Arts",
+   "lat": -28.0006,
+   "lng": 153.414,
+   "start": "2026-12-19",
+   "end": "2026-12-20",
+   "price_zh": "免費入場（需先在 Eventbrite 登記免費票）",
+   "free": true,
+   "highlight": "免費・聖誕夜市",
+   "summary_zh": "HOTA 於 12 月 19、20 日舉辦的聖誕傍晚市集，入場免費，需事先登記免費票，登記者可參加抽獎。",
+   "tip_zh": "先到 Eventbrite 登記免費票；官方頁面未列出開放時段。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Experience Gold Coast – HOTA Christmas Twilight Markets",
+     "url": "https://experiencegoldcoast.com/events/hota-christmas-twilight-markets"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-14",
+    "unconfirmed_zh": "官方頁面尚未公布開放時段。"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "brisbane-powerhouse-banksia-prize-2026",
+   "type": "event",
+   "title": "Banksia Prize 2026",
+   "title_zh": "Brisbane Powerhouse Banksia 繪畫獎展",
+   "category": "arts",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Fairfax Studio, Brisbane Powerhouse",
+   "lat": -27.4687,
+   "lng": 153.0529,
+   "start": "2026-11-13",
+   "end": "2026-11-29",
+   "schedule_zh": "每日 9:00–17:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・藝術展",
+   "summary_zh": "Brisbane Powerhouse 展出以澳洲人物、風景與日常生活為主題的收購型繪畫獎入選作品，每日開放。",
+   "tip_zh": null,
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane Powerhouse – Banksia Prize 2026",
+     "url": "https://brisbanepowerhouse.org/events/banksia-prize-2026/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "tom-cashman-npc-brisbane-powerhouse-2026",
+   "type": "event",
+   "title": "Tom Cashman: NPC (nearly Proficient Comedian) Live Comedy Taping",
+   "title_zh": "Tom Cashman 脫口秀錄製場（Powerhouse）",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Powerhouse Theatre, Brisbane Powerhouse",
+   "lat": -27.4687,
+   "lng": 153.0529,
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "price_zh": "A$39.90（另加手續費 A$7.20）",
+   "free": false,
+   "highlight": "單場脫口秀",
+   "summary_zh": "Tom Cashman 的全新一小時脫口秀專場，11 月 14 日有 18:30 與 20:30 兩場現場錄製。適合 15 歲以上，內容含成人主題與粗話。",
+   "tip_zh": "場內全程閉門，遲到者不得入場。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane Powerhouse – Tom Cashman",
+     "url": "https://brisbanepowerhouse.org/events/tom-cashman/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "sunshine-coast-nye-fireworks-2026",
+   "type": "event",
+   "title": "Sunshine Coast New Year's Eve 2026",
+   "title_zh": "陽光海岸跨年煙火（Mooloolaba、Caloundra、Coolum）",
+   "category": "festival",
+   "region": "QLD",
+   "city": "Sunshine Coast",
+   "venue": "Mooloolaba 海灘周邊、Kings Beach Amphitheatre（Caloundra）、Tickle Park（Coolum）",
+   "lat": -26.6808,
+   "lng": 153.1196,
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "price_zh": "免費觀賞",
+   "free": true,
+   "highlight": "免費・跨年煙火",
+   "summary_zh": "陽光海岸議會支持的跨年活動：Mooloolaba 離岸煙火 20:30 與午夜、Caloundra 21:30、Coolum 20:30，另有餐車與表演。現場禁止玻璃容器與酒精。",
+   "tip_zh": "官方活動頁日期欄寫「30 Dec」，Mooloolaba 詳細資訊將於近期公布，出發前請再確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sunshine Coast Council – New Year's Eve 2026",
+     "url": "https://www.sunshinecoast.qld.gov.au/events/sunshine-coast-new-year-s-eve-2026"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-14",
+    "unconfirmed_zh": "官方頁面日期欄顯示 30 Dec，詳細資訊將於近期公布。"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "perth-west-test-festival-2026",
+   "type": "event",
+   "title": "West Test Festival 2026",
+   "title_zh": "西澳測試賽免費球迷節",
+   "category": "sport",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Perth Stadium Precinct",
+   "lat": -31.9512,
+   "lng": 115.889,
+   "start": "2026-12-09",
+   "end": "2026-12-12",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・4 天",
+   "summary_zh": "Cricket Australia 官方頁面列為免費球迷節，於 Perth Stadium 周邊舉行，配合 NRMA Insurance West Test，有現場音樂、餐車、遊戲區與大螢幕轉播。",
+   "tip_zh": "測試賽門票另售；球迷節各日開放時間不同，約 8:00–18:30。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Cricket Australia",
+     "label": "West Test Festival",
+     "url": "https://www.cricket.com.au/tickets/west-test-festival"
+    },
+    {
+     "kind": "official",
+     "platform": "Tourism WA",
+     "label": "West Test Festival",
+     "url": "https://www.westernaustralia.com/en/things-to-do/events/west-test-festival"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "perth-santas-symphony-burswood-2026",
+   "type": "event",
+   "title": "Santa's Symphony in the Park 2026",
+   "title_zh": "Burswood 免費聖誕交響樂野餐",
+   "category": "music",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "Burswood Park",
+   "lat": -31.9605,
+   "lng": 115.8967,
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "schedule_zh": "16:00 起，現場演出 17:45",
+   "price_zh": "免費入場，無需票券",
+   "free": true,
+   "highlight": "免費・露天音樂會",
+   "summary_zh": "西澳交響樂團與合唱團在 Burswood Park 演出聖誕曲目，下午 4 點起有餐車與同場 Christmas Twilight Perth Makers Market，現場演出約 17:45 開始。",
+   "tip_zh": "可自備野餐，現場 16:00 起也有餐車。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "WASO 官方網站",
+     "label": "Santa's Symphony in the Park",
+     "url": "https://www.waso.com.au/whats-on/2026/productions/special-events/santas-symphony-in-the-park"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "fremantle-very-freo-christmas-2026",
+   "type": "event",
+   "title": "A Very Freo Christmas 2026",
+   "title_zh": "Fremantle 聖誕村與露天電影",
+   "category": "festival",
+   "region": "WA",
+   "city": "Fremantle",
+   "venue": "Walyalup Koort",
+   "lat": -32.0553,
+   "lng": 115.7463,
+   "start": "2026-12-18",
+   "end": "2026-12-20",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・3 天",
+   "summary_zh": "City of Fremantle 官方頁面：12 月 18 至 19 日有聖誕村與報佳音，19 日放映《The Grinch》，20 日晚間露天放映《Love Actually》。",
+   "tip_zh": "週五的 Santa 合照官方建議預約，可至 Visit Fremantle 網站辦理。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "City of Fremantle",
+     "label": "A Very Freo Christmas",
+     "url": "https://www.fremantle.wa.gov.au/arts-and-culture/whats-on/a-very-freo-christmas/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "schedule_zh": "12/18 16:00–19:30；12/19 16:00–20:00；12/20 19:30–22:00",
+   "added": "2026-11-14"
+  },
+  {
+   "id": "darwin-christmas-light-trail-2026",
+   "type": "event",
+   "title": "Christmas Light Trail 2026 (Darwin Waterfront)",
+   "title_zh": "達爾文海濱聖誕燈飾步道",
+   "category": "festival",
+   "region": "NT",
+   "city": "Darwin",
+   "venue": "Darwin Waterfront",
+   "lat": -12.4707,
+   "lng": 130.8468,
+   "start": "2026-11-28",
+   "end": "2027-01-03",
+   "schedule_zh": "每晚 17:00–20:30",
+   "price_zh": "請見官網",
+   "free": null,
+   "highlight": "燈飾步道・5 週",
+   "summary_zh": "Northern Territory 官方旅遊網頁：約 1 公里燈飾步道，有 11 組裝置、衝浪聖誕老人、燈塔與巨型章魚，每晚 17:00–20:30 開放，並有街頭表演。",
+   "tip_zh": "週五至週日晚間聖誕老人出現。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Top End 官方活動頁",
+     "label": "Christmas Light Trail",
+     "url": "https://www.visittopend.com.au/events/event/87401-christmas-light-trail"
+    },
+    {
+     "kind": "official",
+     "platform": "Northern Territory 官方旅遊",
+     "label": "Christmas Light Trail",
+     "url": "https://northernterritory.com/darwin-and-surrounds/events/christmas-light-trail"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-14",
+    "unconfirmed_zh": "官方頁面沒有標示票價或是否免費。"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "darwin-nye-waterfront-2026",
+   "type": "event",
+   "title": "New Year's Eve at Darwin Waterfront 2026",
+   "title_zh": "達爾文海濱跨年煙火",
+   "category": "festival",
+   "region": "NT",
+   "city": "Darwin",
+   "venue": "Darwin Waterfront",
+   "lat": -12.4707,
+   "lng": 130.8468,
+   "start": "2026-12-31",
+   "end": "2026-12-31",
+   "price_zh": "請見官網",
+   "free": null,
+   "highlight": "跨年・兩場煙火",
+   "summary_zh": "官方頁面列出 17:00–23:59 主舞台演出（Birds of Tokyo 等）、21:00 與午夜兩場煙火。",
+   "tip_zh": "票價官方未標示，行前請查海濱官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "Top End 官方活動頁",
+     "label": "New Year's Eve - Darwin Waterfront",
+     "url": "https://www.visittopend.com.au/events/event/87395-new-years-eve-darwin-waterfront"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-14",
+    "unconfirmed_zh": "官方頁面沒有標示票價或是否免費。"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "sydney-ai-weiwei-mushrooms-mca-2026",
+   "type": "event",
+   "title": "Ai Weiwei: Mushrooms, 2026",
+   "title_zh": "艾未未《Mushrooms》戶外裝置",
+   "category": "arts",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Museum of Contemporary Art (Tallawoladah Lawn)",
+   "lat": -33.8602,
+   "lng": 151.2093,
+   "start": "2026-09-25",
+   "end": "2027-04-01",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費・大型公共藝術",
+   "summary_zh": "MCA 前草坪的公共藝術，由 500 個鑄鐵戰鬥頭盔複製品組成，長 40 公尺，可沿中央步道走入欣賞，每日開放。",
+   "tip_zh": "位於 The Rocks 的 MCA 前草坪，每日開放，可沿中央步道走入欣賞。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "City of Sydney What's On",
+     "label": "Ai Weiwei, Mushrooms, 2026",
+     "url": "https://whatson.cityofsydney.nsw.gov.au/events/ai-weiwei-mushrooms-2026"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "adelaide-carols-in-the-pub-maylands-2026",
+   "type": "event",
+   "title": "Carols in the Pub 2026 – Maylands Hotel",
+   "title_zh": "Maylands 酒館免費聖誕頌歌夜",
+   "category": "music",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Maylands Hotel",
+   "lat": -34.9054,
+   "lng": 138.6379,
+   "start": "2026-12-08",
+   "end": "2026-12-08",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・頌歌夜",
+   "summary_zh": "South Australia 官方旅遊頁面：Maylands Hotel 於 18:30–21:00 舉辦免費聖誕頌歌夜，活動收益捐給協助癌症患者及其家庭的慈善機構 Wellness Sisters。",
+   "tip_zh": "可預訂晚餐桌位，建議事先訂位。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "South Australia 官方旅遊",
+     "label": "Carols in the Pub 2026 – Maylands Hotel",
+     "url": "https://southaustralia.com/products/adelaide/event/carols-in-the-pub-2026-maylands-hotel"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
+  },
+  {
+   "id": "aldi-special-buys-2026-11-21-beach-summer",
+   "type": "deal",
+   "title": "ALDI Special Buys – Family Beach Day & Summer Activities (Sat 21 Nov 2026)",
+   "title_zh": "ALDI 11/21 海灘與夏日用品特賣",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "全澳洲 ALDI 門市",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "price_zh": "海灘推車 A$49.99、全臉浮潛面罩 A$19.99、海灘椅 A$19.99",
+   "free": false,
+   "highlight": "週六 Special Buys",
+   "summary_zh": "ALDI 官網列出 11/21（週六）共 27 項 Special Buys，主題為 Family Beach Day 與 Summer Activities，含海灘推車、浮潛面罩與海灘椅等夏日用品。",
+   "tip_zh": "限量商品賣完為止，價格與供貨依門市而異。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Special Buys – Saturday 21 November 2026",
+     "url": "https://www.aldi.com.au/special-buys/2026-11-21"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-14"
+   },
+   "added": "2026-11-14"
   }
  ]
 }
