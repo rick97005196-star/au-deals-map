@@ -1144,49 +1144,6 @@
    }
   },
   {
-   "id": "albany-agricultural-show-2026",
-   "type": "event",
-   "title": "Albany Agricultural Show 2026",
-   "title_zh": "Albany 農業嘉年華",
-   "category": "festival",
-   "region": "WA",
-   "city": "Albany",
-   "venue": "Albany Agricultural Society grounds, 88 Cockburn Road",
-   "lat": -35.012,
-   "lng": 117.889,
-   "start": "2026-11-13",
-   "end": "2026-11-14",
-   "price_zh": "A$25（官網未註明適用票種）",
-   "free": false,
-   "highlight": "週五晚間煙火",
-   "summary_zh": "西澳南岸 Albany 的年度農業展，11/13 至 11/14 於 Albany Agricultural Society 場地舉行，週五晚上 8 點有煙火秀。",
-   "tip_zh": "週五 9:00–22:00、週六 9:00–17:00，門票 A$25；11/15 另有牧羊犬比賽。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Albany – Albany Agricultural Show 2026",
-     "url": "https://www.albany.wa.gov.au/events/albany-agricultural-show-2026/104176"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Albany Agricultural Society – official site",
-     "url": "https://www.albanyshow.org.au/"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "The Albany Agricultural Society on Facebook",
-     "url": "https://www.facebook.com/TheAlbanyAgriculturalSociety/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   }
-  },
-  {
    "id": "paird-margaret-river-region-2026",
    "type": "event",
    "title": "Pair'd Margaret River Region",
@@ -1363,56 +1320,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-13"
-   },
-   "added": "2026-10-10"
-  },
-  {
-   "id": "nt-darwin-christmas-pageant-2026",
-   "type": "event",
-   "title": "Darwin Christmas Pageant 2026",
-   "title_zh": "達爾文聖誕大遊行",
-   "category": "festival",
-   "region": "NT",
-   "city": "Darwin",
-   "venue": "Darwin City Centre（The Esplanade 至 Civic Park）",
-   "lat": -12.463,
-   "lng": 130.8418,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費入場",
-   "summary_zh": "City of Darwin 主辦的年度聖誕遊行，自 The Esplanade 與 Knuckey St 路口出發，經 Knuckey St、Cavanagh St、Bennett St 與 Smith St，至 Civic Park 結束；當天另有 Makers Market、聖誕樹點燈與聖誕音樂會，皆免費參加。",
-   "tip_zh": "遊行時間 6:00–6:45pm。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Darwin – Darwin Christmas Pageant",
-     "url": "https://www.darwin.nt.gov.au/node/66349"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Darwin – Christmas in Darwin 2026",
-     "url": "https://www.darwin.nt.gov.au/christmas"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Tourism NT – Darwin Christmas Pageant",
-     "url": "https://northernterritory.com/gb/en/darwin-and-surrounds/events/darwin-christmas-pageant"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "National Tribune – Darwin Christmas Pageant returns for 2026",
-     "url": "https://www.nationaltribune.com.au/tis-season-darwin-christmas-pageant-returns-for-2026/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
    },
    "added": "2026-10-10"
   },
@@ -2532,41 +2439,6 @@
    "added": "2026-10-13"
   },
   {
-   "id": "monster-energy-pbr-townsville-2026",
-   "type": "event",
-   "title": "Monster Energy PBR 2026 Grand Finals",
-   "title_zh": "2026 PBR 職業公牛騎乘總決賽",
-   "category": "sport",
-   "region": "QLD",
-   "city": "Townsville",
-   "venue": "Townsville Entertainment and Convention Centre",
-   "lat": -19.2583,
-   "lng": 146.8209,
-   "area_zh": null,
-   "start": "2026-11-13",
-   "end": "2026-11-14",
-   "schedule_zh": "11 月 13 日（週五）、14 日（週六）",
-   "price_zh": "請見官方票務頁面（週六已售完）",
-   "free": false,
-   "highlight": "總決賽",
-   "summary_zh": "Monster Energy PBR 2026 總決賽，11 月 13 至 14 日於湯斯維爾娛樂與會議中心舉行；官方票務頁面標示週六場次已售完，週五票務請以官方頁面為準。",
-   "tip_zh": "週六場次已售完，欲購票請以官方票務頁面為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Townsville What's On – Monster Energy PBR 2026 Grand Finals",
-     "url": "https://whatson.townsville.qld.gov.au/events/monster-energy-pbr-2026-grand-finals"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-13",
-    "unconfirmed_zh": "官方頁面無法開啟，週五票價與開演時間未能確認。"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "cricket-mens-t20-england-carrara-2026",
    "type": "event",
    "title": "Men's T20 Series vs England | 2nd T20",
@@ -3307,39 +3179,6 @@
    "added": "2026-10-23"
   },
   {
-   "id": "taste-the-tamar-2026",
-   "type": "event",
-   "title": "Taste the Tamar 2026",
-   "title_zh": "Taste the Tamar 美食節 2026",
-   "category": "food",
-   "region": "TAS",
-   "city": "Exeter",
-   "venue": "Exeter（Winkleigh Road 2 號）",
-   "lat": -41.2833,
-   "lng": 146.9167,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "price_zh": "門票制，票價請見官網（Eventbrite 購票）；品酒杯現場另售 A$5",
-   "free": false,
-   "highlight": "年度盛事・門票制",
-   "summary_zh": "塔斯馬尼亞北部塔瑪河谷地區的年度美食活動，11 月 14 日 11:30 至 18:30 於 Exeter 舉行，須於 Eventbrite 購票。",
-   "tip_zh": "官網設有 Eventbrite 購票連結；品酒杯為可重複使用，需於現場另行購買。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Taste the Tamar 2026",
-     "url": "https://www.discovertasmania.com.au/things-to-do/festivals-and-events/taste-the-tamar-2026/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-14",
-    "unconfirmed_zh": "官網未列票價。"
-   },
-   "added": "2026-10-23"
-  },
-  {
    "id": "museum-of-brisbane-in-residence-2026",
    "type": "event",
    "title": "Museum of Brisbane – In Residence: A Decade of Creative Practice",
@@ -3435,40 +3274,6 @@
     "checked": "2026-11-10"
    },
    "added": "2026-10-24"
-  },
-  {
-   "id": "adelaide-national-pharmacies-christmas-pageant-2026",
-   "type": "event",
-   "title": "National Pharmacies Christmas Pageant",
-   "title_zh": "國家藥房聖誕大遊行",
-   "category": "festival",
-   "region": "SA",
-   "city": "Adelaide",
-   "venue": "Adelaide CBD",
-   "lat": -34.9255,
-   "lng": 138.5935,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・年度大遊行",
-   "summary_zh": "阿德雷德每年 11 月舉辦的聖誕大遊行，2026 年訂於 11 月 14 日（週六）上午 9:30 開始，在市中心舉行。",
-   "tip_zh": "路線請見官方網站 christmaspageant.com.au。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官網",
-     "label": "Experience Adelaide – National Pharmacies Christmas Pageant",
-     "url": "https://www.experienceadelaide.com.au/whats-on/national-pharmacies-christmas-pageant/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-14",
-    "unconfirmed_zh": "官網頁面未明確標示費用。"
-   },
-   "added": "2026-10-24",
-   "hot": true
   },
   {
    "id": "virgin-australia-welcome-abroad-2026",
@@ -4667,39 +4472,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-10"
-   },
-   "added": "2026-11-03"
-  },
-  {
-   "id": "qvm-diwali-2026",
-   "type": "event",
-   "title": "Diwali at Queen Victoria Market",
-   "title_zh": "維多利亞女王市場排燈節",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Queen Victoria Market",
-   "lat": -37.8076,
-   "lng": 144.9568,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "schedule_zh": "9:00–16:00",
-   "price_zh": "免費入場，免預約",
-   "free": true,
-   "highlight": "免費・1 天",
-   "summary_zh": "Queen Victoria Market 舉辦的印度排燈節慶典，包括各地印度舞蹈、現場演唱與音樂、燈飾與印度風佈置，以及數十個美食攤位。",
-   "tip_zh": "建議預留 2 至 3 小時，全程路線有屋頂遮蔭。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "QVM – Diwali",
-     "url": "https://qvm.com.au/whats-on/diwali-at-queen-victoria-market/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
    },
    "added": "2026-11-03"
   },
@@ -6644,39 +6416,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-13"
-   },
-   "added": "2026-11-06"
-  },
-  {
-   "id": "stanthorpe-berry-festival-2026",
-   "type": "event",
-   "title": "Stanthorpe Berry Festival 2026",
-   "title_zh": "Stanthorpe 莓果美食節",
-   "category": "food",
-   "region": "QLD",
-   "city": "Stanthorpe",
-   "venue": "Stanthorpe Showgrounds",
-   "lat": -28.658,
-   "lng": 151.937,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "price_zh": "線上 A$30／現場 A$35",
-   "free": false,
-   "highlight": "莓果美食節・單日",
-   "summary_zh": "Stanthorpe Showgrounds 舉行的莓果美食節，2026 年 11 月 14 日舉行。",
-   "tip_zh": "地點在 Stanthorpe，距布里斯本有一段車程，請先規劃交通；線上購票 A$30 比現場 A$35 便宜。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Stanthorpe Berry Festival",
-     "url": "https://www.berryfestival.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-14",
-    "unconfirmed_zh": "官網只提供節目 PDF，開放時間與節目內容未能確認。"
    },
    "added": "2026-11-06"
   },
@@ -8755,38 +8494,6 @@
    "added": "2026-11-12"
   },
   {
-   "id": "aldi-special-buys-2026-11-14-christmas",
-   "type": "deal",
-   "title": "ALDI Special Buys – Christmas (Sat 14 Nov)",
-   "title_zh": "ALDI 11/14 聖誕主題特賣",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "聖誕特賣",
-   "summary_zh": "ALDI 官網特賣日程列出 11 月 14 日（週六）為聖誕主題 Special Buys，於門市限量販售。",
-   "tip_zh": "特賣品數量有限，售完為止，建議開門時到店。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ALDI Australia – Special Buys",
-     "url": "https://www.aldi.com.au/special-buys/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   },
-   "added": "2026-11-12"
-  },
-  {
    "id": "aldi-black-wednesday-2026-11-25",
    "type": "deal",
    "title": "ALDI Special Buys – Black Wednesday (Wed 25 Nov)",
@@ -8927,40 +8634,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-12"
-   },
-   "added": "2026-11-12"
-  },
-  {
-   "id": "adelaide-metro-free-travel-christmas-pageant-2026",
-   "type": "deal",
-   "title": "Free public transport to the National Pharmacies Christmas Pageant",
-   "title_zh": "阿德雷德聖誕遊行日大眾運輸免費",
-   "category": "tickets",
-   "region": "SA",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "阿德雷德都會區",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "schedule_zh": "6:00–14:00",
-   "price_zh": "免費搭乘",
-   "free": true,
-   "highlight": "限時免費搭乘",
-   "summary_zh": "遊行當日 6:00 至 14:00，前往或離開聖誕遊行的 Adelaide Metro 公車、電車與火車免費，並加開班次；市區免費 City Connector 公車週末行駛至 19:15。",
-   "tip_zh": "部分市區公車路線受封路影響，出發前請以 Adelaide Metro 路線規劃確認；電車 Glenelg 與 Festival 線終點為 South Terrace 站。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Christmas Pageant – public transport",
-     "url": "https://christmaspageant.com.au/pageant-day/public-transport"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
    },
    "added": "2026-11-12"
   },
@@ -10108,38 +9781,6 @@
      "platform": "官方網站",
      "label": "Brisbane Powerhouse – Banksia Prize 2026",
      "url": "https://brisbanepowerhouse.org/events/banksia-prize-2026/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   },
-   "added": "2026-11-14"
-  },
-  {
-   "id": "tom-cashman-npc-brisbane-powerhouse-2026",
-   "type": "event",
-   "title": "Tom Cashman: NPC (nearly Proficient Comedian) Live Comedy Taping",
-   "title_zh": "Tom Cashman 脫口秀錄製場（Powerhouse）",
-   "category": "entertainment",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Powerhouse Theatre, Brisbane Powerhouse",
-   "lat": -27.4687,
-   "lng": 153.0529,
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "price_zh": "A$39.90（另加手續費 A$7.20）",
-   "free": false,
-   "highlight": "單場脫口秀",
-   "summary_zh": "Tom Cashman 的全新一小時脫口秀專場，11 月 14 日有 18:30 與 20:30 兩場現場錄製。適合 15 歲以上，內容含成人主題與粗話。",
-   "tip_zh": "場內全程閉門，遲到者不得入場。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Brisbane Powerhouse – Tom Cashman",
-     "url": "https://brisbanepowerhouse.org/events/tom-cashman/"
     }
    ],
    "verified": {
