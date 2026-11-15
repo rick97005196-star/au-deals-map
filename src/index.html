@@ -675,6 +675,10 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
 .pin-hot{position:absolute;top:-11px;right:-11px;width:15px;height:15px;border-radius:4px;display:grid;place-items:center;background:var(--urgent);color:var(--paper);box-shadow:0 0 0 1.5px var(--ring)}
 .pin-hot svg{width:10px;height:10px}
 .legend .pin-hot{position:static;display:inline-grid}
+/* iPhone 在輸入框文字小於 16px 時會自動放大畫面，所以手機與平板一律 16px */
+@media (max-width:1023px){input,select,textarea{font-size:16px!important}}
+/* 選單字變大後，手機上把左右內距各縮一點，390 寬的工具列才不用左右滑 */
+@media (max-width:640px){.select{padding:0 26px 0 10px}}
 </style>
 
 <div class="notice" role="note" aria-label="免責聲明">
