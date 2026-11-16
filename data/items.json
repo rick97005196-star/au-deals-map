@@ -571,49 +571,6 @@
    "hot": true
   },
   {
-   "id": "tas-point-to-pinnacle-2026",
-   "type": "event",
-   "title": "Point to Pinnacle",
-   "title_zh": "威靈頓山登頂半馬",
-   "category": "sport",
-   "region": "TAS",
-   "city": "Hobart",
-   "venue": "Wrest Point（起點）→ kunanyi/Mt Wellington 山頂",
-   "lat": -42.9008,
-   "lng": 147.344,
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "price_zh": "半馬 A$145、10K A$90（晚報價，11/14 前報名）",
-   "free": false,
-   "highlight": "爬升 1,271 公尺",
-   "summary_zh": "自 Sandy Bay 的 Wrest Point 跑步（或健走）登上 kunanyi/Mt Wellington 山頂的 21.1 公里半程馬拉松，總爬升 1,271 公尺，報名費含自山頂返回 Wrest Point 起點的巴士；另有難度較低的 10 公里 Point to Pub（爬升 426 公尺），終點為 Fern Tree Tavern，9:45 起有接駁車自 Tavern 發車。",
-   "tip_zh": "報名費已於 11/1 起調為晚報價，11/14 截止；健走組 7:00 出發，跑步組 8:00 出發。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Point to Pinnacle – official site (dates & entry fees)",
-     "url": "https://www.pointtopinnacle.com.au/"
-    },
-    {
-     "kind": "social",
-     "platform": "Instagram",
-     "label": "@pointtopinnacle on Instagram",
-     "url": "https://www.instagram.com/pointtopinnacle/"
-    },
-    {
-     "kind": "social",
-     "platform": "Facebook",
-     "label": "Point to Pinnacle on Facebook",
-     "url": "https://www.facebook.com/Point-to-Pinnacle-68515800572/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   }
-  },
-  {
    "id": "tas-salamanca-market",
    "type": "event",
    "title": "Salamanca Market",
@@ -1324,45 +1281,6 @@
    "added": "2026-10-10"
   },
   {
-   "id": "sa-agsa-monet-to-matisse-2026",
-   "type": "event",
-   "title": "Monet to Matisse: Defying Tradition",
-   "title_zh": "莫內到馬諦斯特展",
-   "category": "arts",
-   "region": "SA",
-   "city": "Adelaide",
-   "venue": "Art Gallery of South Australia",
-   "lat": -34.9206,
-   "lng": 138.604,
-   "start": "2026-07-11",
-   "end": "2026-11-15",
-   "schedule_zh": null,
-   "price_zh": "成人 A$30 起；12 歲以下免費",
-   "free": false,
-   "highlight": "限期特展",
-   "summary_zh": "南澳美術館特展「Monet to Matisse: Defying Tradition」，展期至 11/15。",
-   "tip_zh": "定時票成人 A$30；彈性票（A$40）目前已售完；12 歲以下免費。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "AGSA – Monet to Matisse: Defying Tradition",
-     "url": "https://www.agsa.sa.gov.au/whats-on/exhibitions/monet-to-matisse-defying-tradition/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Experience Adelaide – Monet to Matisse",
-     "url": "https://www.experienceadelaide.com.au/whats-on/monet-to-matisse-defying-tradition/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   },
-   "added": "2026-10-10"
-  },
-  {
    "id": "woolworths-lower-shelf-price-1000-products-2026",
    "type": "deal",
    "title": "Woolworths Lower Shelf Price – over 1,000 everyday products",
@@ -1794,50 +1712,6 @@
    "added": "2026-10-12"
   },
   {
-   "id": "the-lakes-festival-central-coast-2026",
-   "type": "event",
-   "title": "The Lakes Festival",
-   "title_zh": "中央海岸 The Lakes 湖區節",
-   "category": "festival",
-   "region": "NSW",
-   "city": "The Entrance",
-   "venue": "Various locations, The Entrance",
-   "lat": -33.3436,
-   "lng": 151.4985,
-   "start": "2026-11-06",
-   "end": "2026-11-15",
-   "price_zh": "20 項以上免費活動",
-   "free": true,
-   "highlight": "免費活動・10 天",
-   "summary_zh": "Central Coast Council 主辦的湖區節，為期 10 天，在中央海岸各地湖泊與水域周邊舉辦運動、親子、文化、教育、藝術與現場音樂活動，其中 20 項以上免費。",
-   "tip_zh": "各項活動地點與時段不同，出發前請先查看官方節目表。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Love Central Coast – The Lakes Festival 2026",
-     "url": "https://www.lovecentralcoast.com/lakesfestival"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "The Lakes Festival 2026 節目表（PDF）",
-     "url": "https://www.lovecentralcoast.com/sites/default/files/2026-10/Lakes_Festival_Digital_Program_2026.pdf"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit NSW – The Lakes Festival",
-     "url": "https://www.visitnsw.com/destinations/central-coast/wyong-area/the-entrance/events/the-lakes-festival"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
-   "added": "2026-10-12"
-  },
-  {
    "id": "nan-tien-market-wollongong-2026",
    "type": "event",
    "title": "Nan Tien Market",
@@ -1868,84 +1742,6 @@
      "platform": "官方網站",
      "label": "Destination Wollongong – The Nan Tien Market",
      "url": "https://www.visitwollongong.com.au/event/nan-tien-health-wellbeing-market/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "act-undercurrent-design-market-2026",
-   "type": "event",
-   "title": "Undercurrent Design Market 2026",
-   "title_zh": "坎培拉 Undercurrent 設計市集",
-   "category": "market",
-   "region": "ACT",
-   "city": "Canberra",
-   "venue": "Ainslie Arts Centre, Braddon",
-   "lat": -35.2717,
-   "lng": 149.1391,
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "schedule_zh": "週五 16:00–20:00；週六、日 10:00–16:00",
-   "price_zh": "自由捐款入場",
-   "free": true,
-   "highlight": "50 多位澳洲創作者",
-   "summary_zh": "Craft + Design Canberra Festival 期間的設計市集，集合 50 多位澳洲創作者的手作作品。",
-   "tip_zh": "入場採自由捐款；同期 Craft + Design Canberra Festival 另有其他活動，可在官網以「Free」篩選免費節目。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Craft + Design Canberra Festival – Undercurrent Design Market",
-     "url": "https://craftanddesigncanberrafestival.org/2026program/undercurrent-design-market"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Craft + Design Canberra Festival – 官方網站",
-     "url": "https://craftanddesigncanberrafestival.org/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "melbourne-polish-festival-2026",
-   "type": "event",
-   "title": "Polish Festival 2026",
-   "title_zh": "Fed Square 波蘭文化節",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Federation Square",
-   "lat": -37.818,
-   "lng": 144.9691,
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "schedule_zh": "10:00–17:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費入場",
-   "summary_zh": "在 Federation Square 舉行一天的波蘭文化節，有民俗舞蹈、現場音樂、波蘭食物與甜點、手工藝市集與文化展示，今年為第 22 屆，適合所有年齡層。",
-   "tip_zh": "不需預約；會場位於 Fed Square（Swanston St 與 Flinders St 交會處）。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Polish Festival Melbourne",
-     "url": "https://www.polishfestival.com.au"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "What's On Melbourne – Polish Festival",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/polish-festival-2026"
     }
    ],
    "verified": {
@@ -2654,40 +2450,6 @@
    "added": "2026-10-15"
   },
   {
-   "id": "craft-design-canberra-festival-2026",
-   "type": "event",
-   "title": "2026 Craft + Design Canberra Festival",
-   "title_zh": "坎培拉工藝與設計節 2026",
-   "category": "arts",
-   "region": "ACT",
-   "city": "Canberra",
-   "venue": "Craft + Design Canberra（1 London Circuit）",
-   "lat": -35.281,
-   "lng": 149.1305,
-   "start": "2026-11-05",
-   "end": "2026-11-15",
-   "schedule_zh": "2026 年 11 月 5 日至 15 日",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "十日設計節",
-   "summary_zh": "以「Dissent」為主題的設計與工藝節，2026 年 11 月 5 日至 15 日於 Craft + Design Canberra 及市區各處舉行，十天內共有超過 120 項活動。",
-   "tip_zh": "票價與各場次是否免費，請以官網公告為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "VisitCanberra – 2026 Craft + Design Canberra Festival",
-     "url": "https://visitcanberra.com.au/events/6a72b7170691731919b2f120/2026-craft-and-design-canberra-festival"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-12",
-    "unconfirmed_zh": "官方頁面未公布票價，也未說明哪些場次免費。"
-   },
-   "added": "2026-10-15"
-  },
-  {
    "id": "david-hockney-bigger-closer-carriageworks-2026",
    "type": "event",
    "title": "David Hockney: Bigger & Closer (not smaller & further away)",
@@ -3309,44 +3071,6 @@
    "added": "2026-10-24"
   },
   {
-   "id": "amaysim-prepaid-15gb-11-42gb-12-2026",
-   "type": "deal",
-   "title": "amaysim Prepaid – Unlimited 15GB first renewal $11 / 42GB first renewal $12",
-   "title_zh": "amaysim 預付卡首期 A$11 起",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-28",
-   "end": "2026-11-15",
-   "price_zh": "15GB 首期 A$11；42GB 首期 A$12（原價 A$35）",
-   "free": false,
-   "highlight": "預付折扣・僅限新用戶",
-   "summary_zh": "amaysim 預付方案新用戶線上辦理：15GB 方案首期 A$11（優惠至 12 月 11 日）；42GB 方案首期 A$12（原價 A$35），並於前 3 次續約附贈額外數據（至 11 月 15 日前申辦）。",
-   "tip_zh": "僅限線上新啟用；42GB 方案須於 2026 年 11 月 15 日前申辦、11 月 30 日前啟用；15GB 方案優惠至 12 月 11 日。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "amaysim – 首頁",
-     "url": "https://www.amaysim.com.au/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "amaysim – 42GB 方案",
-     "url": "https://www.amaysim.com.au/sim-plans/28-day-sim-plans/unlimited-42gb"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-10"
-   },
-   "added": "2026-10-28"
-  },
-  {
    "id": "spotify-premium-individual-free-month-au",
    "type": "deal",
    "title": "Spotify Premium Individual – 1 month free for new Premium users (Australia)",
@@ -3742,39 +3466,6 @@
      "platform": "官方網站",
      "label": "Sydney Tower Eye – Multiple attractions tickets",
      "url": "https://www.sydneytowereye.com.au/tickets-passes/tickets/multiple-attractions/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   },
-   "added": "2026-10-31"
-  },
-  {
-   "id": "rlwc-2026-mens-womens-finals-suncorp",
-   "type": "event",
-   "title": "Rugby League World Cup 2026: Men's & Women's Finals",
-   "title_zh": "聯盟式橄欖球世界盃決賽雙重賽",
-   "category": "sport",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Suncorp Stadium",
-   "lat": -27.4648,
-   "lng": 153.0095,
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "schedule_zh": "14:15 開門；女子決賽 15:10、男子決賽 18:35 開賽",
-   "price_zh": "請見 Ticketmaster",
-   "free": false,
-   "highlight": "世界盃決賽・單日",
-   "summary_zh": "2026 年聯盟式橄欖球世界盃男子與女子決賽於 Suncorp Stadium 連續舉行。持票者可使用 Translink 免費大眾運輸與活動接駁。",
-   "tip_zh": "僅透過 Ticketmaster 購票；場館全面無現金，隨身包包須在 A3 尺寸以內。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Suncorp Stadium – RLWC 2026 Men's & Women's Finals",
-     "url": "https://suncorpstadium.com.au/events/rugby-league-world-cup-2026-mens-womens-finals"
     }
    ],
    "verified": {
@@ -4623,39 +4314,6 @@
     "checked": "2026-11-13"
    },
    "added": "2026-11-03"
-  },
-  {
-   "id": "perth-multicultural-festival-elizabeth-quay-2026",
-   "type": "event",
-   "title": "Perth Multicultural Festival 2026",
-   "title_zh": "伯斯多元文化節",
-   "category": "festival",
-   "region": "WA",
-   "city": "Perth",
-   "venue": "Elizabeth Quay, Perth",
-   "lat": -31.9578,
-   "lng": 115.8575,
-   "start": "2026-11-14",
-   "end": "2026-11-15",
-   "schedule_zh": "11 月 14 日（六）、15 日（日）17:00–21:00",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "連續兩晚免費的多元文化舞台表演與各國小吃",
-   "summary_zh": "連續兩晚在 Elizabeth Quay 舉行的多元文化節，由各文化團體於水上舞台演出，設有餐車，以煙火作結，免費入場；Lotterywest 為主要支持單位。",
-   "tip_zh": "活動期間 Elizabeth Quay 人行天橋每晚 16:00–22:30 關閉，建議搭火車或公車前往。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Perth – Perth Multicultural Festival（日期、時間與免費入場）",
-     "url": "https://www.visitperth.com/events/perth-multicultural-festival/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   },
-   "added": "2026-10-31"
   },
   {
    "id": "agwa-art-gallery-wa-free-entry",
@@ -5909,39 +5567,6 @@
    "added": "2026-11-05"
   },
   {
-   "id": "finders-keepers-sydney-design-market-ss26-2026",
-   "type": "event",
-   "title": "The Finders Keepers Sydney Design Market (Spring Summer 2026)",
-   "title_zh": "Finders Keepers 雪梨設計市集",
-   "category": "market",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "Carriageworks, Eveleigh",
-   "lat": -33.8929,
-   "lng": 151.1948,
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "schedule_zh": "週五 16:00–21:00、週六與週日 10:00–17:00",
-   "price_zh": "單日 A$7、週末通票 A$10",
-   "free": false,
-   "highlight": "設計市集・3 天",
-   "summary_zh": "Carriageworks 舉辦的春夏設計市集，11 月 15 日 9:00–10:00 另設低感官時段，適合想逛在地創意商品的旅客。",
-   "tip_zh": "票券需線上購買，另加少額手續費。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Finders Keepers – Sydney market",
-     "url": "https://thefinderskeepers.com/sydney-markets/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
-   "added": "2026-11-05"
-  },
-  {
    "id": "handmade-market-canberra-summer-2026",
    "type": "event",
    "title": "Handmade Market Canberra – Summer",
@@ -6416,77 +6041,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-13"
-   },
-   "added": "2026-11-06"
-  },
-  {
-   "id": "pan-pacific-masters-games-gold-coast-2026",
-   "type": "event",
-   "title": "Pan Pacific Masters Games 2026",
-   "title_zh": "泛太平洋大師運動會（黃金海岸）",
-   "category": "sport",
-   "region": "QLD",
-   "city": "Gold Coast",
-   "venue": "Gold Coast（多處場地）",
-   "lat": -28.034,
-   "lng": 153.43,
-   "start": "2026-11-06",
-   "end": "2026-11-15",
-   "price_zh": "多數場地免費觀賽",
-   "free": true,
-   "highlight": "大型運動盛事",
-   "summary_zh": "多項目運動會，分布於黃金海岸多處場地，賽事約自 11 月 6 日至 15 日。",
-   "tip_zh": "官網說明多數場地觀賽不需支持者費用，但游泳、跳水與徒手體操需另付入場費。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Pan Pacific Masters Games – Enter / Spectators",
-     "url": "https://mastersgames.com.au/enter/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Pan Pacific Masters Games",
-     "url": "https://mastersgames.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
-   "added": "2026-11-06"
-  },
-  {
-   "id": "qvm-stock-up-vintage-market-2026-11",
-   "type": "event",
-   "title": "Stock Up Vintage Market",
-   "title_zh": "女王市場 Stock Up 古著市集",
-   "category": "market",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Queen Victoria Market（C Shed）",
-   "lat": -37.8076,
-   "lng": 144.9568,
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "schedule_zh": "9:00–16:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・古著市集",
-   "summary_zh": "精選古著市集，攤商販售古著、90 年代與 Y2K 服飾、街頭潮流、球鞋與收藏品，現場有黑膠 DJ。",
-   "tip_zh": "全程有頂棚遮蔭，不需預約，開放 9:00–16:00。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Queen Victoria Market – Stock Up Vintage Market",
-     "url": "https://qvm.com.au/whats-on/stock-up-vintage-market/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
    },
    "added": "2026-11-06"
   },
@@ -7744,45 +7298,6 @@
    "added": "2026-11-10"
   },
   {
-   "id": "steve-irwin-day-australia-zoo-2026",
-   "type": "event",
-   "title": "Steve Irwin Day 2026",
-   "title_zh": "Australia Zoo 史蒂夫・厄文日",
-   "category": "family",
-   "region": "QLD",
-   "city": "Beerwah",
-   "venue": "Australia Zoo",
-   "lat": -26.8365,
-   "lng": 152.9613,
-   "start": "2026-11-15",
-   "end": "2026-11-15",
-   "schedule_zh": "8:00–17:00",
-   "price_zh": "需購入園區門票（價格請見官網）；穿卡其色衣物入場享 9 折",
-   "free": false,
-   "highlight": "年度紀念日・卡其色 9 折",
-   "summary_zh": "Australia Zoo 於 11 月 15 日舉辦年度紀念活動，園區 8:00 開放，Crocoseum 有 Sheppard 現場演出與 Wildlife Warriors 表演，並提供免費皮膚檢查。",
-   "tip_zh": "當天於售票口購票並穿卡其色衣物可享 10% 折扣，不可與其他優惠併用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Australia Zoo – Steve Irwin Day",
-     "url": "https://www.australiazoo.com.au/events/steve-irwin-day/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Sunshine Coast – Steve Irwin Day",
-     "url": "https://www.visitsunshinecoast.com/event/69019f407510ab8d6f1f3e81/steve-irwin-day"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
-   },
-   "added": "2026-11-10"
-  },
-  {
    "id": "sculpture-on-the-edge-flaxton-2026",
    "type": "event",
    "title": "Sculpture on the Edge 2026",
@@ -7956,45 +7471,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-14"
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "gyg-10-burritos-uber-eats-2026-11-09",
-   "type": "deal",
-   "title": "Guzman y Gomez – $10 Burritos on Uber Eats",
-   "title_zh": "GYG Uber Eats 捲餅 A$10",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": null,
-   "start": "2026-11-09",
-   "end": "2026-11-15",
-   "price_zh": "Regular Burrito A$10（另加外送與服務費）",
-   "free": false,
-   "highlight": "限時外送優惠",
-   "summary_zh": "Guzman y Gomez 於 Uber Eats Ding Dong Deals 推出 Regular Burrito A$10，11 月 9 日上午 10:30 至 11 月 15 日晚上 11:59。不含 Brekkie、Mini、Cali Burrito 與 Caesar 系列，BBQ Beef Rib 與 Beef Brisket 口味需加價。",
-   "tip_zh": "僅限 Uber Eats 訂購，須另付外送與服務費，不可與其他優惠併用；官方頁面未說明自取是否免手續費。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "GYG – $10 Burritos on Uber Eats",
-     "url": "https://www.guzmanygomez.com.au/10-burritos-on-uber-eats-11-26/"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "$10 Burritos @ Guzman Y Gomez via Uber Eats",
-     "url": "https://www.ozbargain.com.au/node/982196"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-10"
    },
    "added": "2026-11-10"
   },
@@ -8281,39 +7757,6 @@
    "added": "2026-11-12"
   },
   {
-   "id": "sydney-cellar-door-the-rocks-2026-11",
-   "type": "event",
-   "title": "Sydney Cellar Door",
-   "title_zh": "雪梨酒莊開放日（The Rocks）",
-   "category": "food",
-   "region": "NSW",
-   "city": "Sydney",
-   "venue": "First Fleet Park, The Rocks",
-   "lat": -33.8586,
-   "lng": 151.21,
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "schedule_zh": "週五 16:00–20:30；週六 12:00–19:30；週日 12:00–18:30",
-   "price_zh": "免費入場；試飲套票 A$40 起",
-   "free": true,
-   "highlight": "免費入場・35 家酒莊",
-   "summary_zh": "35 家以上新南威爾斯酒莊在 The Rocks 設攤。入場免費，試飲需另購套票：Explorer A$40（含紀念杯與 5 枚代幣）、Connoisseur A$65（含紀念杯與 10 枚代幣）。",
-   "tip_zh": "每枚代幣 A$5，用於兌換試飲；入場免費，可先決定是否購買套票。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "The Rocks – Sydney Cellar Door",
-     "url": "https://www.therocks.com/whats-on/campaigns/sydney-cellar-door"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
-   "added": "2026-11-12"
-  },
-  {
    "id": "darling-harbour-christmas-2026",
    "type": "event",
    "title": "Darling Harbour Christmas",
@@ -8456,40 +7899,6 @@
     "status": "partial",
     "checked": "2026-11-12",
     "unconfirmed_zh": "woolworths.com.au 擋自動讀取，僅能從其型錄平台確認；各州價格可能不同。"
-   },
-   "added": "2026-11-12"
-  },
-  {
-   "id": "iga-3-day-specials-2026-11-13",
-   "type": "deal",
-   "title": "IGA 3 Day Specials (Fri 13 – Sun 15 Nov)",
-   "title_zh": "IGA 11/13–11/15 週末三日特價",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "schedule_zh": "週五至週日",
-   "price_zh": "豬里肌烤肉 A$12/kg、培根 A$14/kg、V 能量飲 4 入 A$6",
-   "free": false,
-   "highlight": "三日限定",
-   "summary_zh": "IGA 週末三日特價（11 月 13 日至 15 日，售完為止）包含豬里肌烤肉 A$12/kg、短切培根 A$14/kg、BBQ 細香腸 1.5kg A$9，以及半價的 M&M's 分享包 A$3.50。",
-   "tip_zh": "僅限門市；IGA 為獨立門市，各州與各店價格與供貨可能不同。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "SaleFinder – IGA 官方型錄（3 Day Specials）",
-     "url": "https://www.salefinder.com.au/iga-catalogue"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-13",
-    "unconfirmed_zh": "IGA 官方頁面未能讀取，僅由特價型錄網站確認，州別未標示。"
    },
    "added": "2026-11-12"
   },
@@ -8666,38 +8075,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-13"
-   },
-   "added": "2026-11-13"
-  },
-  {
-   "id": "event-cinemas-half-price-gold-class-2026-11-14",
-   "type": "deal",
-   "title": "Event Cinemas Half Price Gold Class",
-   "title_zh": "Event Cinemas Gold Class 週末半價",
-   "category": "entertainment",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-14",
-   "end": "2026-11-15",
-   "price_zh": "Gold Class 全價票 5 折",
-   "free": false,
-   "highlight": "半價優惠・2 天",
-   "summary_zh": "2026 年 11 月 14 至 15 日，Cinebuzz 會員購買指定影城的 Gold Class 全價票享 5 折，每筆交易最多 4 張。餐飲、IMAX、特別場次不適用。",
-   "tip_zh": "須登入 Cinebuzz 會員或在櫃檯出示會員卡；同一場次須一併兌換，線上訂票另收手續費。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Event Cinemas – Half Price Gold Class",
-     "url": "https://www.eventcinemas.com.au/Promotions/HalfPriceGoldClass"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-14"
    },
    "added": "2026-11-13"
   },
@@ -9303,40 +8680,6 @@
     "checked": "2026-11-13",
     "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
    },
-   "added": "2026-11-13"
-  },
-  {
-   "id": "tas-mount-roland-folk-festival-2026",
-   "type": "event",
-   "title": "Mount Roland Folk Festival 2026",
-   "title_zh": "Mount Roland 民謠音樂節",
-   "category": "music",
-   "region": "TAS",
-   "city": "Sheffield",
-   "venue": "Sheffield town venues",
-   "lat": -41.3906,
-   "lng": 146.3228,
-   "start": "2026-11-13",
-   "end": "2026-11-15",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "年度・3 天",
-   "summary_zh": "塔州 Sheffield 的小型民謠音樂節，含原聲音樂、舞蹈、詩歌、工作坊與音樂交流場次，由志工團隊籌辦。",
-   "tip_zh": "名額有限，請透過官方頁面的「Book now」連結購票；票價官網未列出。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Discover Tasmania – Mount Roland Folk Festival 2026",
-     "url": "https://www.discovertasmania.com.au/things-to-do/festivals-and-events/mount-roland-folk-festival-2026/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-13",
-    "unconfirmed_zh": "官方頁面未列出票價。"
-   },
-   "schedule_zh": "17:00–23:00",
    "added": "2026-11-13"
   },
   {
