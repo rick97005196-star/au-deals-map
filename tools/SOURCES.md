@@ -16,7 +16,7 @@
 | 超市會員 | Everyday Rewards、Flybuys 公告頁 | 集點、兌換活動 |
 | 速食 App | mcdonalds.com.au（MyMacca's 優惠、Free Fries Friday 等）、hungryjacks.com.au、kfc.com.au、dominos.com.au（offers）、pizzahut.com.au、subway.com/en-AU、redrooster.com.au、guzmanygomez.com/au、grilld.com.au、nandos.com.au、oporto.com.au、zambrero.com.au | App 限定也可以收，但要寫清楚「需使用 App」 |
 | 咖啡、便利商店 | 7eleven.com.au（My 7-Eleven）、boostjuice.com.au、gloriajeans.com.au、starbucks.com.au、muffinbreak.com.au | 免費咖啡日、會員日 |
-| 外送 | ubereats.com/au、doordash.com/en-AU、menulog.com.au | 只收官方頁面寫明的全站優惠，不收個人化優惠碼 |
+| 外送 | ubereats.com/au、doordash.com/en-AU | 只收官方頁面寫明的全站優惠，不收個人化優惠碼 |
 | 餐廳、美食活動 | IKEA 餐廳（ikea.com/au）、各州美食節官網、Good Food Month、各城市 Night Noodle Markets | |
 | 線索 | OzBargain（ozbargain.com.au/deals）、r/AussieFrugal、r/australia、Threads、Instagram、TikTok、小紅書（「澳洲 麥當勞 優惠」「澳洲 超市 半價」） | |
 
