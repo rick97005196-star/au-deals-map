@@ -1,13 +1,22 @@
 # 每日自動更新流程
 
-給排程任務用。每天早上（布里斯本時間約 4:50）跑一次，目標是讓網站在大家起床時就是最新、正確的資料。
+給排程任務用。每天早上（布里斯本時間約 4:50）跑一次，目標是讓網站在大家起床時就是最新、正確的資料。清晨那次沒有完成時（例如用量額度已滿被拒絕執行），中午約 12:50 的「每日排程補跑檢查」會再觸發一次，流程完全相同。
 
 **流程以本檔為準。** 排程任務的提示若寫「3 位研究員」，那是舊版本；研究員人數與分工一律照下面第 3 步（5 位），網站分類照 tools/SCHEMA.md。
 
 **最重要的原則：寧缺勿濫。** 社群貼文只是線索，每一筆都要在官方頁面確認 2026 年的日期、價格、地點，再由另一位沒參與蒐集的查證員重新確認，才能上架。
 
+**子代理的模型（節省用量，一定要照做）：** 用 Agent 工具派子代理時一定要指定 model。
+- 研究員（第 3 步）一律 `model: "haiku"`：只負責蒐集線索、初步整理，交來的每一筆都還要經查證員查證。
+- 查證員（第 2 步重新查證、第 4 步查證新項目）一律 `model: "sonnet"`，不可以用 haiku。
+
 ## 0. 準備
-- 用 add_repo（access: push）加入 `rick97005196-star/au-deals-map`，clone 下來。完整讀 `README.md`、`tools/SCHEMA.md`、`tools/VERIFY.md`、`tools/SOURCES.md`。
+- **先確認今天是否已經完成**（清晨已完成、又被補跑觸發時，不要重做）：
+  ```bash
+  rm -rf /tmp/adm-check && git clone -q --filter=blob:none --no-checkout --depth 80 https://github.com/rick97005196-star/au-deals-map /tmp/adm-check && git -C /tmp/adm-check log -n 80 --format=%s | python3 -c 'import sys,re,datetime as d;t=d.datetime.now(d.timezone(d.timedelta(hours=10)));p=re.compile("^每日更新 %d/%d(?![0-9])[^：:]*[：:]新增"%(t.month,t.day));print("已完成" if any(p.match(l) for l in sys.stdin.buffer.read().decode("utf-8").splitlines()) else "未完成")'
+  ```
+  印出「已完成」就只回報「今天的每日更新已經完成，這次略過」並結束，後面的步驟都不要做。印出「未完成」或指令失敗才繼續。（判斷依據：`main` 上有今天的「每日更新 M/D：新增 …」commit，所以第 5 步的 commit 訊息一定要用這個開頭。）
+- 倉庫已經 clone 在工作資料夾就直接用；沒有的話才用 add_repo（access: push）加入 `rick97005196-star/au-deals-map` 並 clone。完整讀 `README.md`、`tools/SCHEMA.md`、`tools/VERIFY.md`、`tools/SOURCES.md`。
 - 今天日期和星期用布里斯本時間（UTC+10，沒有夏令時間）。
 - 記下目前筆數：`node tools/daily.js count`。
 
@@ -61,12 +70,13 @@ WebSearch 次數用完時，改用 WebFetch 直接打開 SOURCES.md 裡的官方
 ## 5. 檢查、上線
 1. `node tools/daily.js stamp`，再 `node build.js`（會檢查每一筆的格式，有錯就修到沒錯）。
 2. 保護機制：今天結束時的筆數比第 0 步少超過 40%，或少於 30 筆，就**不要上線**，回報原因。
-3. 用繁體中文 commit（包含 data/items.json 和 tools/SOURCES.md）（例如「每日更新 10/9：新增 6、下架 3、修正 4」）。推送前先執行 `git pull --rebase origin main` 拉最新版本（每天 06:30 GitHub Actions「每日自動整理」也會推送下架結果），再推送到 `main`。拉的時候發生衝突，就執行 `git rebase --abort`，改用本節第 5 點。推送被拒絕時，再拉一次、推一次；還是失敗，同樣改用第 5 點。Cloudflare Pages 會自動建置，約 1–2 分鐘。
+3. 用繁體中文 commit（包含 data/items.json 和 tools/SOURCES.md）。最後這個 commit 的訊息一定要用「每日更新 M/D：新增 N、…」開頭（例如「每日更新 10/9：新增 6、下架 3、修正 4」，沒有新增也寫「新增 0」），補跑檢查和每日報告都靠它判斷今天是否完成。推送前先執行 `git pull --rebase origin main` 拉最新版本（每天 06:30 GitHub Actions「每日自動整理」也會推送下架結果），再推送到 `main`。拉的時候發生衝突，就執行 `git rebase --abort`，改用本節第 5 點。推送被拒絕時，再拉一次、推一次；還是失敗，同樣改用第 5 點。Cloudflare Pages 會自動建置，約 1–2 分鐘。
 4. 等 2 分鐘後用 WebFetch 打開 https://au-deals-map.pages.dev ，確認頁面原始碼裡的 `"updated":"今天日期"` 已經出現。
 5. 推送被擋時不要用其他方法繞過：推到 `daily-<日期>` 分支並開 Pull Request 到 main，在回報裡附上連結請 Rick 合併。
 
 ## 6. 回報（推播到 Rick 手機，繁體中文、台灣用語、簡短）
 - 今天：新增幾筆（列出標題＋州）、下架幾筆、修正幾筆、目前共幾筆
+- 研究員交來 N 筆，查證通過 M 筆（讓 Rick 判斷研究員改用 haiku 後品質有沒有下降）
 - 內容充實度：`node tools/daily.js gaps` 還偏少的分類與州；今天新增了幾個資訊來源
 - 有 Threads 線索並查證通過的項目，標明「來自 Threads」
 - 被擋的來源、查不到或要人工確認的地方
