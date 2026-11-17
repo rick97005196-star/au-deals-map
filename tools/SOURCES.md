@@ -294,3 +294,4 @@
 - 2026-11-14｜活動 NT｜City of Darwin What's On｜https://www.darwin.nt.gov.au/community/things-to-do/whats-on｜達爾文市政府活動日曆，含日期、場地與免費標示
 - 2026-11-14｜活動 NSW｜City of Sydney What's On｜https://whatson.cityofsydney.nsw.gov.au/events/ai-weiwei-mushrooms-2026｜雪梨市政府活動頁，含日期與免費標示
 - 2026-11-14｜travel｜Kakadu National Park – Park passes｜https://kakadu.gov.au/plan/passes/｜Kakadu 入園證夏季／旱季價格
+- 2026-11-17｜活動 QLD｜Stable NQ（湯斯維爾市中心聖誕活動）｜https://stablenq.com.au/stable-2026｜Stable in the City 的 2026 年日期（12 月 3 至 5 日）、四個據點與免費接駁巴士資訊
