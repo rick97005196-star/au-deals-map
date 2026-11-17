@@ -433,7 +433,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-14"
+    "checked": "2026-11-18"
    }
   },
   {
@@ -1311,44 +1311,6 @@
    },
    "added": "2026-10-10",
    "hot": true
-  },
-  {
-   "id": "red-rooster-crunch-pack-795-2026",
-   "type": "deal",
-   "title": "Red Rooster $7.95 Crunch Pack",
-   "title_zh": "Red Rooster 炸雞套餐 A$7.95",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-10-10",
-   "end": "2026-11-17",
-   "price_zh": "A$7.95（部分門市 A$8.95）",
-   "free": false,
-   "highlight": "優惠套餐",
-   "summary_zh": "Red Rooster Crunch Pack 內含炸雞 2 塊、小份薯條與 375ml 飲料，售價 A$7.95，可加 A$1 改為 Reds Hot 或 Hot Honey 口味，適合預算有限的午晚餐。",
-   "tip_zh": "限門市與 Click & Collect 自取，不適用外送及體育場、機場門市，且不得與其他折扣併用。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Red Rooster – Value（$7.95 Crunch Pack）",
-     "url": "https://www.redrooster.com.au/value/"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Red Rooster – home page",
-     "url": "https://www.redrooster.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-12"
-   },
-   "added": "2026-10-10"
   },
   {
    "id": "good-food-wine-show-sydney-christmas-2026",
@@ -3034,39 +2996,6 @@
    "added": "2026-10-24"
   },
   {
-   "id": "virgin-australia-welcome-abroad-2026",
-   "type": "deal",
-   "title": "Virgin Australia Welcome Abroad International Fares",
-   "title_zh": "Virgin Australia 國際航線特價",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "澳洲各主要城市出發",
-   "start": "2026-10-24",
-   "end": "2026-11-17",
-   "price_zh": "Economy Lite 來回票價起：墨爾本—峇里島 A$565、布里斯本—Nadi A$675",
-   "free": false,
-   "highlight": "國際航線特價・峇里島與斐濟售至 11 月 17 日",
-   "summary_zh": "維珍澳洲官網公布的 Welcome Abroad 國際航線特價，峇里島與斐濟票價售至 2026 年 11 月 17 日。",
-   "tip_zh": "Economy Lite 票種不含座位選擇與託運行李，且不可取消；行程尚未確定者，宜選擇較具彈性的票種。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Virgin Australia – Welcome Abroad international fares",
-     "url": "https://www.virginaustralia.com/au/en/specials/welcome-abroad/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-13"
-   },
-   "added": "2026-10-24"
-  },
-  {
    "id": "spotify-premium-individual-free-month-au",
    "type": "deal",
    "title": "Spotify Premium Individual – 1 month free for new Premium users (Australia)",
@@ -4380,7 +4309,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-14"
+    "checked": "2026-11-18"
    },
    "added": "2026-10-31"
   },
@@ -5922,39 +5851,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-13"
-   },
-   "added": "2026-11-06"
-  },
-  {
-   "id": "japanese-film-festival-melbourne-2026",
-   "type": "event",
-   "title": "Japanese Film Festival 2026",
-   "title_zh": "墨爾本日本影展 2026",
-   "category": "arts",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Kino Cinema",
-   "lat": -37.8155,
-   "lng": 144.9686,
-   "start": "2026-10-29",
-   "end": "2026-11-17",
-   "price_zh": "一般票 A$25／學生與優待票 A$20",
-   "free": false,
-   "highlight": "日本影展・免費回顧單元",
-   "summary_zh": "紀念日本電影登陸澳洲三十年，開幕片為是枝裕和《Look Back》澳洲首映，另有武滿徹免費回顧單元。",
-   "tip_zh": "放映地點為 Kino Cinema（Collins St），場次與購票方式請見官方頁面。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Japanese Film Festival",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/japanese-film-festival"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-18",
-    "unconfirmed_zh": "官方頁面未標示年份，日期為 10 月 29 日至 11 月 17 日。"
    },
    "added": "2026-11-06"
   },
@@ -9669,6 +9565,223 @@
     "status": "partial",
     "checked": "2026-11-18",
     "unconfirmed_zh": "官方新聞稿只寫「一年」，未列明起訖日；起訖依 2026–27 年度推定。"
+   },
+   "added": "2026-11-18"
+  },
+  {
+   "id": "brisstyle-twilight-markets-king-george-square-2026",
+   "type": "event",
+   "title": "BrisStyle Twilight Markets",
+   "title_zh": "BrisStyle 黃昏手作市集（布里斯本）",
+   "category": "market",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "King George Square",
+   "lat": -27.4687,
+   "lng": 153.0234,
+   "area_zh": null,
+   "start": "2026-11-13",
+   "end": "2026-12-18",
+   "schedule_zh": "2026 年 12 月 4 日、12 月 18 日 16:00–21:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・手作市集",
+   "summary_zh": "於布里斯本市中心 King George Square 舉行的手作市集，販售手工飾品、陶瓷、藝術品與家飾，現場並有餐車與現場音樂。適合傍晚在市中心逛市集的旅客。",
+   "tip_zh": "位於市中心，可搭乘大眾運輸前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Brisbane – BrisStyle Twilight Markets 2026",
+     "url": "https://visit.brisbane.qld.au/whats-on/the-city/festivals-and-celebrations/brisstyle-twilight-markets-2026"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-18"
+   },
+   "added": "2026-11-18"
+  },
+  {
+   "id": "riverside-at-the-gardens-market-2026",
+   "type": "event",
+   "title": "Riverside at the Gardens Market",
+   "title_zh": "Riverside 花園週日市集（布里斯本）",
+   "category": "market",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "City Botanic Gardens（147 Alice Street）",
+   "lat": -27.4745,
+   "lng": 153.03,
+   "area_zh": null,
+   "start": "2026-12-06",
+   "end": null,
+   "schedule_zh": "每週日 08:00–15:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・每週日市集",
+   "summary_zh": "位於布里斯本市區植物園（City Botanic Gardens）的週日市集，販售藝術工藝品與服飾，並有國際美食、咖啡與現場音樂。適合週末安排輕鬆散步的旅客。",
+   "tip_zh": "出發前可先查看主辦單位網站，確認當日營業狀況。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane City Council – Riverside at the Gardens Market",
+     "url": "https://www.brisbane.qld.gov.au/events/riverside-at-the-gardens-market/201096854"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Queensland Markets – Riverside Markets",
+     "url": "https://queenslandmarkets.com.au/riverside-markets/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-18",
+    "unconfirmed_zh": "官方頁面未標示年份，2026 年 12 月的日期係依星期推算；聖誕假期是否休市未見官方公告。"
+   },
+   "added": "2026-11-18"
+  },
+  {
+   "id": "fullarton-christmas-fair-2026",
+   "type": "event",
+   "title": "Fullarton Christmas Fair",
+   "title_zh": "富勒頓聖誕市集",
+   "category": "market",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Fullarton Park Community Centre（411 Fullarton Road）",
+   "lat": -34.9578,
+   "lng": 138.6251,
+   "area_zh": null,
+   "start": "2026-11-21",
+   "end": "2026-11-22",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・2 天",
+   "summary_zh": "阿德雷德 Fullarton 社區中心舉辦的聖誕市集，為期兩天、免費入場，適合想體驗在地社區市集的旅客。",
+   "tip_zh": "週六 9:00–16:00、週日 10:00–15:00 開放；出發前可至 Unley 市政府活動頁再次確認時段與地址。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Unley – Fullarton Christmas Fair 2026 event listing",
+     "url": "https://www.unley.sa.gov.au/Events-directory/FP-26-11-Fullarton-Christmas-Fair"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-18"
+   },
+   "added": "2026-11-18"
+  },
+  {
+   "id": "adelaide-central-market-festive-fridays-2026",
+   "type": "event",
+   "title": "Adelaide Central Market Christmas 2026 Friday live music",
+   "title_zh": "阿德雷德中央市場聖誕季週五音樂",
+   "category": "market",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Adelaide Central Market",
+   "lat": -34.9286,
+   "lng": 138.5956,
+   "area_zh": null,
+   "start": "2026-11-27",
+   "end": "2026-12-18",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "週五免費現場音樂",
+   "summary_zh": "阿德雷德中央市場於聖誕季每週五 18:00–20:00 安排南澳音樂家免費現場演出；11 月 27 日至 12 月 15 日另有學校與社區合唱團演出。適合晚間想體驗在地市集氣氛的旅客。",
+   "tip_zh": "演出時段與聖誕季節目以官網公告為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Adelaide Central Market – What's On (Christmas 2026 program)",
+     "url": "https://adelaidecentralmarket.com.au/whats-on"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-18",
+    "unconfirmed_zh": "官網各頁對每週五演出的說明不一致，12 月 18 日是否仍有演出未能逐日確認。"
+   },
+   "added": "2026-11-18"
+  },
+  {
+   "id": "iga-nsw-weekly-specials-2026-11-18",
+   "type": "deal",
+   "title": "IGA Weekly Specials Catalogue (NSW), valid 18–24 Nov 2026",
+   "title_zh": "IGA 新南威爾斯州每週特價型錄",
+   "category": "grocery",
+   "region": "NSW",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": "新南威爾斯州（部分門市，以各店為準）",
+   "start": "2026-11-18",
+   "end": "2026-11-24",
+   "price_zh": "部分商品半價，例如 Nescafé 咖啡包 A$4.00（1/2 價）",
+   "free": false,
+   "highlight": "每週型錄・半價商品",
+   "summary_zh": "IGA 新南威爾斯州門市 2026 年 11 月 18 日至 24 日的每週特價型錄，列出零食、飲料、咖啡與橄欖油等半價商品。適合在超市採購日常食材的讀者。",
+   "tip_zh": "特價依品項與門市而異，到店前可先於 IGA 官網或 App 選擇門市查看完整型錄。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "IGA – Weekly Specials Catalogue",
+     "url": "https://www.iga.com.au/catalogue"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "SaleFinder – IGA 官方型錄（NSW，11/18–11/24）",
+     "url": "https://www.salefinder.com.au/iga-catalogue"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-18",
+    "unconfirmed_zh": "IGA 官網型錄頁僅讀到標題，商品明細與日期取自 SaleFinder 托管的 IGA 型錄；各門市是否一致未能確認。"
+   },
+   "added": "2026-11-18"
+  },
+  {
+   "id": "bruny-island-ferry-walk-on-free-2026",
+   "type": "deal",
+   "title": "SeaLink Bruny Island Ferry – walk-on passengers",
+   "title_zh": "布魯尼島渡輪 步行乘客免費",
+   "category": "travel",
+   "region": "TAS",
+   "city": "Kettering",
+   "venue": "Kettering Terminal",
+   "lat": -43.1276,
+   "lng": 147.256,
+   "area_zh": null,
+   "start": "2026-09-28",
+   "end": null,
+   "schedule_zh": null,
+   "price_zh": "步行乘客免費；單車來回 A$8.10（官網表列）",
+   "free": false,
+   "highlight": "步行乘客免費",
+   "summary_zh": "SeaLink 經營的布魯尼島渡輪，官網說明步行乘客免費搭乘，單車來回另計 A$8.10。2026 年 9 月 28 日起，訪客票價改為 Regular 與 Saver 兩種。適合搭乘公車或其他交通抵達 Kettering 碼頭、想到布魯尼島一日遊的旅客。",
+   "tip_zh": "前往 Kettering 碼頭的交通與班次請另行查詢，票價與班次以官網為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "SeaLink Bruny Island – Bruny Island ferry fares（FAQ 與票價表）",
+     "url": "https://www.islandconnections.com.au/bruny-island/ferry-information/bruny-island-ferry-fares/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-18",
+    "unconfirmed_zh": "官網未列出步行乘客免費政策的結束日期。"
    },
    "added": "2026-11-18"
   }

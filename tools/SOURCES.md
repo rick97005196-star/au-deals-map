@@ -295,3 +295,8 @@
 - 2026-11-14｜活動 NSW｜City of Sydney What's On｜https://whatson.cityofsydney.nsw.gov.au/events/ai-weiwei-mushrooms-2026｜雪梨市政府活動頁，含日期與免費標示
 - 2026-11-14｜travel｜Kakadu National Park – Park passes｜https://kakadu.gov.au/plan/passes/｜Kakadu 入園證夏季／旱季價格
 - 2026-11-17｜活動 QLD｜Stable NQ（湯斯維爾市中心聖誕活動）｜https://stablenq.com.au/stable-2026｜Stable in the City 的 2026 年日期（12 月 3 至 5 日）、四個據點與免費接駁巴士資訊
+- 2026-11-18｜entertainment｜Australian Museum（雪梨）｜https://australian.museum/whatson｜一般入場免費、每日 10:00–17:00；特展另收費
+- 2026-11-18｜entertainment｜Museum of Contemporary Art Australia｜https://www.mca.com.au/｜雪梨當代藝術館官網
+- 2026-11-18｜活動｜Queensland Markets（Riverside Markets）｜https://queenslandmarkets.com.au/riverside-markets/｜布里斯本 City Botanic Gardens 週日市集主辦單位網站，營業時間與地點
+- 2026-11-18｜活動 SA｜City of Unley – Events directory（Fullarton Christmas Fair）｜https://www.unley.sa.gov.au/Events-directory/FP-26-11-Fullarton-Christmas-Fair｜Unley 市政府活動頁，列出 2026 年 11 月 21–22 日時段、地址與免費入場
+- 2026-11-18｜travel｜SeaLink Bruny Island Ferry 票價頁（islandconnections.com.au）｜https://www.islandconnections.com.au/bruny-island/ferry-information/bruny-island-ferry-fares/｜布魯尼島渡輪票價表與步行乘客免費說明（sealink.com.au 會轉址至此）
