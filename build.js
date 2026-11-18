@@ -209,7 +209,8 @@ function buildLang(l, tm) {
     let out = l === 'zh' ? html : translateHtml(html, tr);
     out = out.replace('<!--LANG_MENU_HERO-->', () => langMenu(l, rel, 'lang-hero'));
     out = out.replace('<!--LANG_SWITCH-->', () => langSwitch(l, rel) + LANG_JS);
-    const note = l !== 'zh' && dataMissing ? `<div class="i18n-note" role="note"><div class="wrap">${tr(UNTRANSLATED)}</div></div>` : '';
+    const notice = tr(UNTRANSLATED); // 每次都查一次：翻譯完整時也要留著這段譯文（prune 不能刪）
+    const note = l !== 'zh' && dataMissing ? `<div class="i18n-note" role="note"><div class="wrap">${notice}</div></div>` : '';
     return out.replace('<!--UNTRANSLATED-->', () => note);
   };
   // 首頁

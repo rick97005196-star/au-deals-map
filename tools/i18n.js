@@ -87,11 +87,11 @@ function verify(src, out, l) {
   if (!out) return '空白';
   if (out.length < Math.max(1, src.length * 0.15)) return '太短';
   if ((l === 'en' || l === 'ko') && HAN.test(out)) return '還有中文字';
-  if (l === 'ja' && out === src && src.length > 2) return '沒有翻譯';
+  if (l === 'ja' && out === src && src.length > 8) return '沒有翻譯'; // 短的漢字詞日文常常一樣（季節限定）
   const nums = (s) => (s.match(/\d+(?:[.,]\d+)*/g) || []).map((x) => x.replace(/,/g, ''));
   const money = src.match(/\$\s?\d[\d,]*(?:\.\d+)?|\d+(?:\.\d+)?\s?%/g) || [];
   const outNums = new Set(nums(out));
-  for (const m of money) for (const n of nums(m)) if (!outNums.has(n)) return `價格或百分比 ${m} 不見了`;
+  for (const m of money) if (!/^100\s?%$/.test(m)) for (const n of nums(m)) if (!outNums.has(n)) return `價格或百分比 ${m} 不見了`; // 100% 免費 → 完全無料 也算對
   if (/[<>]/.test(out) && !/[<>]/.test(src)) return '多了 < >';
   return '';
 }
@@ -113,20 +113,30 @@ async function cmdAuto(args) {
     let done = 0, bad = 0;
     console.log(`${l}：要翻 ${todo.length} 段${skipped.length ? `（另有 ${skipped.length} 段介面文字要人工翻譯）` : ''}`);
     const queue = todo.slice();
+    const one = async (text) => { // 翻一段；失敗重試，太多次連續失敗（被限速）就整個停下
+      for (let tryN = 0; tryN < 4 && !stopped; tryN++) {
+        try { const o = tidy(await google(text, GOOGLE_LANG[l]), l); failStreak = 0; return o; }
+        catch (e) {
+          failStreak++;
+          if (failStreak >= 12) { stopped = `連續失敗 ${failStreak} 次（${e.message}），可能被限速`; break; }
+          await sleep(e.status === 429 || e.status === 503 ? 15000 * (tryN + 1) : 2000);
+        }
+      }
+      return '';
+    };
     const worker = async () => {
       while (queue.length && !stopped) {
         const k = queue.shift();
-        let out = '';
-        for (let tryN = 0; tryN < 4 && !stopped; tryN++) {
-          try { out = tidy(await google(k, GOOGLE_LANG[l]), l); failStreak = 0; break; }
-          catch (e) {
-            failStreak++;
-            if (failStreak >= 12) { stopped = `連續失敗 ${failStreak} 次（${e.message}），可能被限速`; break; }
-            await sleep(e.status === 429 || e.status === 503 ? 15000 * (tryN + 1) : 2000);
-          }
-        }
+        let out = await one(k);
         if (!out) continue;
-        const why = verify(k, out, l);
+        let why = verify(k, out, l);
+        // 整段檢查沒過（例如漏掉括號裡的價格）：改成一句一句翻再接起來
+        const parts = why ? k.split(/(?<=[。；！？])/).filter((x) => x.trim()) : [];
+        if (parts.length > 1) {
+          const outs = [];
+          for (const part of parts) { const o = HAS_CJK.test(part) ? await one(part) : part; if (!o) break; outs.push(o); await sleep(120); }
+          if (outs.length === parts.length) { const joined = tidy(outs.join(l === 'ja' ? '' : ' '), l); if (!verify(k, joined, l)) { out = joined; why = ''; } }
+        }
         if (why) { bad++; console.log(`  ✗ ${why}：${k.slice(0, 40)} → ${out.slice(0, 60)}`); continue; }
         tm[k] = out; done++; total++;
         if (done % 100 === 0) { saveTM(l, tm); console.log(`  …${l} 已翻 ${done} 段`); }
