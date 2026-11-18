@@ -217,7 +217,8 @@ function buildLang(l, tm) {
   const indexTpl = read('src/index.html');
   const before = missing.size;
   const d = l === 'zh' ? data : { updated: data.updated, items: data.items.map((it) => translateItem(it, l, trData)) };
-  const dataMissing = missing.size > before;
+  // 提示列只在缺不少翻譯時出現（剛推送的新項目、翻譯還在跑）；零星幾段自動翻譯一直沒通過檢查的不另外提示
+  const dataMissing = missing.size - before > 10;
   const dict = scriptDict(indexTpl, tr);
   const cfg = { api: true, tiles: true, lang: l, prefix: LANG_META[l].prefix };
   pages.index = finish(wrap(fill(indexTpl, cfg, d, dict), og(l) + headLinks(l, ''), l), '', dataMissing);

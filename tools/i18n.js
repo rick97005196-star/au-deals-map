@@ -70,7 +70,13 @@ function cmdPrune() {
 
 /* ---------- 自動翻譯（Google 翻譯公開介面，和超市特價網站的備援翻譯相同） ---------- */
 const sleep = (ms) => new Promise((ok) => setTimeout(ok, ms));
+// 澳幣金額先寫成「AUD 12.81」再送，翻好再換回「A$12.81」：Google 有時會把 A$8 換算成 ¥800、₩12,800
+const AMOUNT = /A\$\s?(\d[\d,]*(?:\.\d+)?)/g;
 async function google(text, tl) {
+  const out = await googleRaw(text.replace(AMOUNT, 'AUD $1'), tl);
+  return out.replace(/AUD\s?(\d[\d,]*(?:\.\d+)?)/g, 'A$$$1');
+}
+async function googleRaw(text, tl) {
   const base = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=zh-TW&tl=' + tl + '&dt=t';
   const ua = { 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }; // 和超市特價網站的備援翻譯相同
   const long = encodeURIComponent(text).length > 6000;
