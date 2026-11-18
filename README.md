@@ -46,6 +46,17 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 
 相關檔案：`tools/DAILY.md`（流程）、`tools/SOURCES.md`（資訊來源清單，會自動增加）、`tools/SCHEMA.md`（格式、分類與收錄規則）、`tools/VERIFY.md`（查證規則）、`tools/daily.js`（小工具，`gaps` 看哪些分類偏少）。
 
+## 多語言（繁中、English、日本語、한국어）
+
+和集簽圖書館、澳洲超市特價相同的四種語言。繁中在根目錄 `/`，英文 `/en/`、日文 `/ja/`、韓文 `/ko/`（免責聲明也一樣：`/en/disclaimer/`…）。電腦版頁首右上角四個按鈕並排；平板收成頁首的下拉選單；手機（760 寬以下）放在開場區右上角。換語言時會保留網址的 `#`（打開中的那一筆）。
+
+- 翻譯對照：`i18n/en.json`、`i18n/ja.json`、`i18n/ko.json`，格式是 `{ "中文原文": "譯文" }`。`build.js` 依這三份檔案產生各語言的頁面；中文原文一改，就會變成「缺翻譯」，那一段先顯示中文，頁面上方會提示。
+- **介面文字**（`src/index.html`、`src/disclaimer.html`）是人工翻譯好放在同一份檔案。改版型文字時：版型裡的 HTML 文字直接寫中文就好；`<script>` 裡要給使用者看的中文要寫成 `TR("中文")`（有變數用 `TR("剩餘 {0} 天", n)`）。改完執行 `node tools/i18n.js missing 缺翻譯.json`，把英日韓填進去，再 `node tools/i18n.js apply 缺翻譯.json`。
+- **資料**（`data/items.json` 的標題、介紹、價格、提醒…）由 GitHub Actions「自動翻譯」（`.github/workflows/translate.yml`，跑 `node tools/i18n.js auto`）在每次推送後自動補上：Google 翻譯公開介面、不需要密鑰；只補缺的、不覆蓋已有譯文；價格與百分比沒有原樣保留、英韓譯文還留著中文字的，就不採用（先顯示中文，下次再試）。英文版的標題直接用官方英文名稱（`title`）。
+- 想修正某一段的翻譯：直接改 `i18n/<語言>.json` 那一行（自動翻譯不會蓋掉）。
+- `node tools/i18n.js prune` 會刪掉已經用不到的舊翻譯（自動翻譯每次都會順便做）。
+- 統計頁（`/stats/`）只有繁中。
+
 ## 資料欄位（data/items.json）
 
 | 欄位 | 說明 |
@@ -93,7 +104,9 @@ Windows 可以直接雙擊 `建置網站.bat`；建置完雙擊 `public/index.ht
 | `brand/` | Logo（SVG） |
 | `src/stats.html` | 統計頁 |
 | `functions/api/` | Cloudflare Pages Functions：`track`、`stats`、`popular` |
-| `build.js` | 檢查資料並產生 `public/`、`artifact/` |
+| `build.js` | 檢查資料並產生 `public/`（四種語言）、`artifact/` |
+| `i18n/` | 英日韓翻譯對照（見上面「多語言」） |
+| `tools/i18n.js` | 翻譯小工具：`missing`、`apply`、`auto`、`prune` |
 | `wrangler.toml` | Cloudflare Pages 與 D1 綁定設定 |
 | `schema.sql` | D1 資料表 |
 

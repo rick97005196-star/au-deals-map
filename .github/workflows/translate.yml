@@ -1,0 +1,42 @@
+# 英日韓自動翻譯：每次 main 的資料或版型有變動（每日更新推送後），把還沒翻譯的新項目翻成英文、日文、韓文
+# （Google 翻譯公開介面，不需要任何密鑰），再推送 i18n/*.json，Cloudflare 會自動重新上線。
+# 只補缺的翻譯、不改已經有的譯文；介面文字（含 HTML 或 {0}）不自動翻，留給人工。翻到一半被限速也會先存起來，下次接著翻。
+name: 自動翻譯
+on:
+  push:
+    branches: [main]
+    paths: ['data/items.json', 'src/**', 'build.js', 'tools/i18n.js']
+  schedule:
+    - cron: '50 21 * * *'   # 布里斯本 07:50 備援（推送觸發沒跑到的時候）
+  workflow_dispatch: {}      # 可以在 GitHub 網頁上手動執行
+permissions:
+  contents: write            # 只用 GitHub 內建的推送權限
+concurrency:
+  group: auto-translate
+  cancel-in-progress: false
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: 補上新項目的英日韓翻譯
+        run: node tools/i18n.js auto
+      - name: 刪掉用不到的舊翻譯
+        run: node tools/i18n.js prune
+      - name: 建置檢查
+        run: node build.js
+      - name: 有變動才推送（翻到一半也先存）
+        if: always()
+        run: |
+          git diff --quiet -- i18n && { echo '沒有變動'; exit 0; }
+          for f in i18n/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || { echo "$f 格式有誤，不推送"; exit 1; }; done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add i18n
+          git commit -m "自動翻譯 $(TZ=Australia/Brisbane date +%-m/%-d)：補上英日韓翻譯"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push && exit 0; sleep 10; done
+          echo '和其他推送撞到，下次再補'
