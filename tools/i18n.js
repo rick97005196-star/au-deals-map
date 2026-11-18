@@ -125,7 +125,7 @@ async function cmdAuto(args) {
         catch (e) {
           failStreak++;
           if (failStreak >= 12) { stopped = `連續失敗 ${failStreak} 次（${e.message}），可能被限速`; break; }
-          await sleep(e.status === 429 || e.status === 503 ? 15000 * (tryN + 1) : 2000);
+          await sleep(e.status === 429 || e.status >= 500 ? 15000 * (tryN + 1) : 2000); // 被限速時 Google 也會回 500
         }
       }
       return '';
