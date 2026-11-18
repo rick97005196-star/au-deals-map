@@ -300,3 +300,8 @@
 - 2026-11-18｜活動｜Queensland Markets（Riverside Markets）｜https://queenslandmarkets.com.au/riverside-markets/｜布里斯本 City Botanic Gardens 週日市集主辦單位網站，營業時間與地點
 - 2026-11-18｜活動 SA｜City of Unley – Events directory（Fullarton Christmas Fair）｜https://www.unley.sa.gov.au/Events-directory/FP-26-11-Fullarton-Christmas-Fair｜Unley 市政府活動頁，列出 2026 年 11 月 21–22 日時段、地址與免費入場
 - 2026-11-18｜travel｜SeaLink Bruny Island Ferry 票價頁（islandconnections.com.au）｜https://www.islandconnections.com.au/bruny-island/ferry-information/bruny-island-ferry-fares/｜布魯尼島渡輪票價表與步行乘客免費說明（sealink.com.au 會轉址至此）
+- 2026-11-19｜活動 QLD｜Brisbane Racing Club（Members Mile Day、Eagle Farm）｜https://www.brc.com.au/?p=25121｜Eagle Farm 賽馬日行程與一般入場票價（Boxing Day 2026）
+- 2026-11-19｜活動 QLD｜Magic Millions（Gold Coast 賽馬日）｜https://www.magicmillions.com.au/?p=288｜2027 年 1 月 Gold Coast Turf Club 賽馬日日期與地點
+- 2026-11-19｜sport｜Sydney Cricket Ground｜https://www.sydneycricketground.com.au/articles/summer_2026_27_international_cricket_locked_in_for｜SCG 2026–27 國際賽程公告（板球測試賽日期、對手與購票說明）
+- 2026-11-19｜sport｜Cricket NSW｜https://www.cricketnsw.com.au/news/4474731/sydney-fixtures-locked-in-for-2026-27-international-summer｜Cricket NSW 雪梨 2026–27 國際賽程公告
+- 2026-11-19｜活動 ACT｜Harmonie German Club｜https://harmonieclub.com.au/events/german-christmas-markets/｜Narrabundah 德國俱樂部聖誕德式市集日期、地址、免費入場與停車說明
