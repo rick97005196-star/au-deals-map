@@ -305,3 +305,6 @@
 - 2026-11-19｜sport｜Sydney Cricket Ground｜https://www.sydneycricketground.com.au/articles/summer_2026_27_international_cricket_locked_in_for｜SCG 2026–27 國際賽程公告（板球測試賽日期、對手與購票說明）
 - 2026-11-19｜sport｜Cricket NSW｜https://www.cricketnsw.com.au/news/4474731/sydney-fixtures-locked-in-for-2026-27-international-summer｜Cricket NSW 雪梨 2026–27 國際賽程公告
 - 2026-11-19｜活動 ACT｜Harmonie German Club｜https://harmonieclub.com.au/events/german-christmas-markets/｜Narrabundah 德國俱樂部聖誕德式市集日期、地址、免費入場與停車說明
+- 2026-11-20｜sport｜MCG（2026 Boxing Day Test Day 1）｜https://www.mcg.org.au/events/2026/december/boxing-day-test-day-1-australia-v-new-zealand｜墨爾本板球場 2026 聖誕節後測試賽活動頁與 Ticketek 購票說明
+- 2026-11-20｜活動 VIC｜Carols by Candlelight（Vision Australia 門票頁）｜https://carols.visionaustralia.org/tickets｜墨爾本 Sidney Myer Music Bowl 2026 燭光聖誕頌歌票價與開售說明
+- 2026-11-20｜吃喝｜Ampol Foodary（咖啡集點）｜https://www.ampol.com.au/convenience/foodary/coffee｜Ampol 便利商店咖啡集點優惠與條款（第 5 杯常規熱飲免費）
