@@ -308,3 +308,6 @@
 - 2026-11-20｜sport｜MCG（2026 Boxing Day Test Day 1）｜https://www.mcg.org.au/events/2026/december/boxing-day-test-day-1-australia-v-new-zealand｜墨爾本板球場 2026 聖誕節後測試賽活動頁與 Ticketek 購票說明
 - 2026-11-20｜活動 VIC｜Carols by Candlelight（Vision Australia 門票頁）｜https://carols.visionaustralia.org/tickets｜墨爾本 Sidney Myer Music Bowl 2026 燭光聖誕頌歌票價與開售說明
 - 2026-11-20｜吃喝｜Ampol Foodary（咖啡集點）｜https://www.ampol.com.au/convenience/foodary/coffee｜Ampol 便利商店咖啡集點優惠與條款（第 5 杯常規熱飲免費）
+- 2026-11-21｜travel｜WA Government – Media statements｜https://www.wa.gov.au/government/media-statements｜西澳州政府新聞稿，含 Rottnest 夜間回程班次等交通公告
+- 2026-11-21｜tickets｜Rottnest Express 官方訂票與優惠｜https://rottnestexpress.com.au/offers/telethon-saver-deals/｜Rottnest Express 來回船票與 Telethon 優惠條款（有效至 2028 年 6 月 30 日）
+- 2026-11-21｜tickets｜Finnair 澳洲官網特價頁｜https://www.finnair.com/au-en/offers｜歐洲與曼谷航線特價（A$719 起，book by 30 Nov）
