@@ -1,21 +1,201 @@
 {
- "updated": "2026-11-21 22:21",
+ "updated": "2026-11-22 07:03",
  "note": "自動蒐集的線索（RSS），只是線索，每一筆都要到官方頁面查證。",
  "failed": [
   "rd-frugal（HTTP 404）",
   "rd-brisbane（HTTP 404）",
   "rd-goldcoast（HTTP 429）",
   "rd-sunshine（HTTP 404）",
-  "rd-cairns（HTTP 429）",
-  "rd-sydney（HTTP 404）",
-  "rd-melbourne（HTTP 429）",
-  "rd-perth（HTTP 404）",
+  "rd-cairns（HTTP 404）",
+  "rd-sydney（HTTP 429）",
+  "rd-melbourne（HTTP 404）",
+  "rd-perth（HTTP 429）",
   "rd-adelaide（HTTP 404）",
   "rd-canberra（HTTP 429）",
   "rd-hobart（HTTP 404）",
   "rd-darwin（HTTP 429）"
  ],
  "leads": [
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "7th Day Free on 7+ Day Gold Coast Car Hire (e.g. 7 Days Kia Picanto ~$169) + Free Airport Shuttle @ OCR Car Rentals",
+   "url": "https://www.ozbargain.com.au/node/984705",
+   "date": "2026-11-22",
+   "snippet": "G'day OzBargainers, Nick here, owner of OCR Car Rentals, an independent, locally owned car hire company on the Gold Coast. Book 7 days or more direct at ocr-australia.com and your 7th day is …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "Yale Unity Digital Security Screen Door Lock Matt Silver YUR/SSDL/1/SIL $99.95 Delivered @SEC",
+   "url": "https://www.ozbargain.com.au/node/984703",
+   "date": "2026-11-22",
+   "snippet": "use code YALE for free delivery Features Lock and unlock with your smart device using the Yale Home app Grant access to others: one-time, for a set period of time, or for a date range Keep track of …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "Adventure Kings Escape 40 Fridge Value Pack $218.80 + Delivery($0 C&C) @ 4WD Supacentre",
+   "url": "https://www.ozbargain.com.au/node/984702",
+   "date": "2026-11-22",
+   "snippet": "Good value portable fridge/freezer if you're planning any upcoming trips over Christmas or New Year. Pair this with your Anker Solix C800 battery deal and you've got yourself a great …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "Ninja Foodi Smart XL Grill & Air Fryer, 5.7L $188 (RRP $349.99) Delivered @ Amazon AU",
+   "url": "https://www.ozbargain.com.au/node/984700",
+   "date": "2026-11-22",
+   "snippet": "Great mixed use product (grill + air fry), with the ability to cook on the grill directly from frozen. Be mindful of 10kg weight, meaning it's likely a permanent bench top fixture. …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "Mortal Kombat II (4K Ultra HD + Digital) $18.09 +Delivery ($0 Prime/$59 Spend) @ Amazon AU",
+   "url": "https://www.ozbargain.com.au/node/984699",
+   "date": "2026-11-22",
+   "snippet": "great price for those who haven't seen it yet. Features: Bonus Content 4K Ultra HD Digital Copy",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "B",
+   "feed": "news-2",
+   "region": "QLD",
+   "topic": "新聞：(\"Gold Coast\" OR \"Sunshine Coast\") (festival OR event OR \"things to do\")",
+   "title": "Travel Alerts: K Rd festival, Michelin trip, Alaska, Hawaii and sim racing - NZ Herald",
+   "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPek1wb281YzVMTkNGem1POU85Nkdxd3BBOGtONjVOLUl5ZVdra3RWYUFFc2ZnVHBXbzNWT2duY21qeEdOU0xTT2pkWk4tc1EtOG1iaV81MWYzRkUyV1h0amV2SWNlejhCWXc0U2dXOFRWRVpwSjR4aFl3THptWWFQMzZLMm5LUVlDejQ3WkZEWUdsTFN0cnRpUlppNno5M3k1X2hBUlp2TUtDQVVlMDdPRGFlTDBJMXNUbGprb0k1NktjQUpHQmhkVkJ2dGRmOXktMDVIVFYxbmpsdkw2enZaTWZvREEyeGZfZVZwUnJhdXRWdmxFYjRqN2t0UjFMdXN5eVAyZ3NQNXB0QnNoREVOempaZEpVdDBm?oc=5",
+   "date": "2026-11-22",
+   "snippet": "Travel Alerts: K Rd festival, Michelin trip, Alaska, Hawaii and sim racing &nbsp;&nbsp; NZ Herald",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "news-19",
+   "region": "AU",
+   "topic": "新聞：(HOYTS OR \"Event Cinemas\" OR \"Village Cinemas\" OR museum) (cheap OR free OR deal) Australia",
+   "title": "The terracotta warriors are marching to Brisbane for an Queensland-exclusive exhibition - InDaily Queensland",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVTdRMXktVDEtOUZDNllBSUhpV20tUDlFM2xlem5kQ0hGTnVMbS13V3pyeTFfMU1MS0ZlaTljR2RsMmdlSWd2Rk1pZVF2MWxoa2RWdFVaclVVVjE5cFRNcE5NS19lX0xBaFpwN2VsQndWTTM5MnYtcnVHLXRCU1NJSjZYYnJiUG1fbC1tNFVzcTY4X283TkUyNnJRRkkxZy1ZZzktOQ?oc=5",
+   "date": "2026-11-22",
+   "snippet": "The terracotta warriors are marching to Brisbane for an Queensland-exclusive exhibition &nbsp;&nbsp; InDaily Queensland",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "AMEX - Qantas Ultimate new cardholder 75k QFF + 50 status credit - $450 annual fee (with $450 AMEX Qantas travel credit)",
+   "url": "https://www.ozbargain.com.au/node/984696",
+   "date": "2026-11-21",
+   "snippet": "This is a fairly decent AMEX new credit card opening offer given recent scale-back of credit card opening offer from merchant credit card surcharge ban. I am falling short of just 90 status credit to …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "Hisense 2.5kW Air Q Reverse Cycle Split System $699 ($629 with Price Check) @ The Good Guys.",
+   "url": "https://www.ozbargain.com.au/node/984695",
+   "date": "2026-11-21",
+   "snippet": "The Good guys have a few Aircons on Sale, This Hisense one seems pretty good deal for upcoming Summer. Hisense 2.5kW Air Q Reverse Cycle Split System $699 ($629 with Price Check) @ The Good Guys.",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "Nikon Z5 II 24.5 MP Full-Frame Mirrorless Camera (Body Only) $1,998 (RRP $2,699) Delivered @ Amazon AU",
+   "url": "https://www.ozbargain.com.au/node/984694",
+   "date": "2026-11-21",
+   "snippet": "Ensure the seller is Amazon AU in order to qualify for the current $150 Nikon bonus eftpos gift card offer. Features: Only Amazon AU versions are eligible for warranty service within …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "C",
+   "feed": "news-4",
+   "region": "NSW",
+   "topic": "新聞：Sydney (\"free event\" OR festival OR \"things to do\")",
+   "title": "‘Flung to the ground’: Multiple people struck by lightning at music festival - Nine.com.au",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN25tdXdPbkhxSUNhbDJzX0syN185ZmVnS21QUnN6LUsxSGxqdm4ybnQtbXE2WGluOFZQcDd3SkhVVUJ4Qks1eGlqbWN5Ym5CQ2xkXzFUdGlaVW9LMWVRRFpjS1d4X0NLd19ja0dVMjBFamtva2VOQ3hVbFJvYUE4X0tqR3pVc05FTy12ME1hUVgtWW0zN0RoR1VPdTFTNENSNFB1SG9ZYWFwbGR1SWdKaXBLYzJ6UEVIWVU3cnQ4ZEQzWVFMY3BNaWJZT3VtSmc?oc=5",
+   "date": "2026-11-21",
+   "snippet": "‘Flung to the ground’: Multiple people struck by lightning at music festival &nbsp;&nbsp; Nine.com.au",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "C",
+   "feed": "news-5",
+   "region": "VIC",
+   "topic": "新聞：Melbourne (\"free event\" OR festival OR \"things to do\")",
+   "title": "Tamil Festival Australia 2027 Set to Welcome 10,000 Visitors in Melbourne - Desi Australia",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMkRzVjhxaXl6QnFiUjBaZGZURGwyU1BaRk1vZmJHc28tT2FTUkExWUZFYUxKemhDcHg2V2E5eldneGhhbm5PTm9tcWxCRVdHQVVucEJmV2t2VFNYdlhfWG5MdDc1V0lCRzFxdnVmQzR5VDBoeEpYbkVZTWIySVdKQmkxeFJUWjJkblBmMWJvV2V6NkpLRlAxWGdxQ3U1cnNXLUtMclZVdVRKWUtzaXQ0ZHBOSk8wTnNHaDBtYzVnbHM0XzdOR0FyVw?oc=5",
+   "date": "2026-11-21",
+   "snippet": "Tamil Festival Australia 2027 Set to Welcome 10,000 Visitors in Melbourne &nbsp;&nbsp; Desi Australia",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "C",
+   "feed": "news-8",
+   "region": "SA",
+   "topic": "新聞：Adelaide (\"free event\" OR festival OR \"things to do\")",
+   "title": "2026 film festivals and markets calendar: latest dates - Screen Daily",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZkE0MTRabzdEUTJEbGxOQWd3dVVIS25BVlhYRlg5U2hXbGRQSk9ibi1iaUNLemwzMC1VRFhiRUN4VWZCajRMLXJlZU9sdkt4VG9PUXM0RUJBTnQweUszU0pGbzZxUlMwTDBIUXJkQjVPLW1kTjd6NHcwQUZLOWJ5dEZrMzdMMUx4SjFvQTZLVWRlb2xLVFEtbWtXWUk1UWtKeFNXYQ?oc=5",
+   "date": "2026-11-21",
+   "snippet": "2026 film festivals and markets calendar: latest dates &nbsp;&nbsp; Screen Daily",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "news-20",
+   "region": "AU",
+   "topic": "新聞：(DFO OR \"Harbour Town\" OR \"brand outlet\" OR Uniqlo OR \"Cotton On\" OR Kathmandu OR Bonds OR \"H&M\") (sale OR outlet OR \"off\" OR members)",
+   "title": "SpaceX Sells $32 Billion of AI Chip Debt at Yields Topping 8% - Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONVcyODRRd3dtZnhoUVlCTGhjdjZjamw4Wll5Z1BhZ01iUFZFX2N0dUNXYlQ5Sk5uU2lVQnJJNERaTnc5TER1aGRvV3ZKWk41a1Ywbm5fTVU5LVVpcjNpaHZFQWw1ZG9aUE95TkRSSkV0Qnd0YVhXUmtpSFhJWEFrUmwwRWxMb2NDdE8zdXR4YjZhM3E4eTc3TVpoUWNkelNUM0lEUEVCcDg3UU00UTNoZVNB?oc=5",
+   "date": "2026-11-21",
+   "snippet": "SpaceX Sells $32 Billion of AI Chip Debt at Yields Topping 8% &nbsp;&nbsp; Bloomberg.com",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "C",
+   "feed": "news-4",
+   "region": "NSW",
+   "topic": "新聞：Sydney (\"free event\" OR festival OR \"things to do\")",
+   "title": "Just an hour from Sydney, this country town is kicking off Christmas this weekend with markets, food and live music - Secret Sydney",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfOEFSbkVGM05Ed3RhRVZkN3hkR2EwVHI5OHVqajZVMm5DOUE4TjA3WUNDM2RveUw1NkFYVDhCaHhiRi1zdHR1ajNrRlQ0RTd2aFVVQW5SUVZuQkxrX2FmanpvYzVGVF9JN1QyVA?oc=5",
+   "date": "2026-11-20",
+   "snippet": "Just an hour from Sydney, this country town is kicking off Christmas this weekend with markets, food and live music &nbsp;&nbsp; Secret Sydney",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
   {
    "for": "C",
    "feed": "ef-fremantle",
@@ -26,7 +206,7 @@
    "date": "2027-02-21",
    "snippet": "Freo's favourite 90s shindig FREOPALOOZA returns to turn the summer of 2027 up to 11 with THE ULTIMATE 90S TRIBUTE FESTIVAL! Celebrating an era when bands ruled the festival stages and south of the river was home to ... ",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -38,7 +218,7 @@
    "date": "2027-02-20",
    "snippet": "Join us at Royal Perth Yacht Club’s Fremantle Annexe for an action-packed weekend watching the Oracle Perth Sail Grand Prix! Enjoy all the racing action on the huge screen, with mall day entertainment in a fantastic, ...",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -50,7 +230,7 @@
    "date": "2027-02-20",
    "snippet": "LANDSLIDE CELEBRATE 50 YEARS OF RUMOURS IN 2027! One of the greatest albums of all time turns 50, and LANDSLIDE are celebrating with a special live tribute to FLEETWOOD MAC'S all time classic, \"RUMOURS\"! Experience the .",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -62,7 +242,7 @@
    "date": "2027-02-20",
    "snippet": "Akmal returns, sharing stories and thoughts about people who affected his life. Like his uncle, who pretended to be a doctor for many years by skipping medical school and simply buying a stethoscope and a white coat. ...",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -74,7 +254,7 @@
    "date": "2027-02-20",
    "snippet": "BIGGER AND BOLDER. SAILGP IS BACK. The world’s most exciting racing on water returns to Bathers Bay for the Oracle Perth Sail Grand Prix, Presented by KPMG, Australia’s standalone SailGP event, on 20–21 February ... Pert",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -86,7 +266,7 @@
    "date": "2027-01-31",
    "snippet": "The Charing Cross Crew return to the sea breeze surrounds of PORT BEACH BREWERY, NORTH FREMANTLE for SOHO SOCIAL – THE GREATEST BRITS | SUMMER SETS on SATURDAY 30 JANUARY 2027. Come soak up some festive summer fun, as ..",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -98,7 +278,7 @@
    "date": "2026-12-21",
    "snippet": "Bring the family along to the Circus Substation in Fremantle for a relaxed session of circus play, where you can explore, experiment and have a go at a range of beginner circus skills. Please note: This is a casual, ... ",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -110,7 +290,7 @@
    "date": "2026-12-17",
    "snippet": "Public talk with international guest teacher Buddhist nun Gen-la Kelsang Kunsang ESCAPE FROM THE BUSYNESS of the festive season and enjoy a peaceful, uplifting evening of wisdom and meditation at the Fremantle Town ... P",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -122,7 +302,7 @@
    "date": "2026-12-12",
    "snippet": "Coastal Drift make their debut at Shenanigans Sports Bar in Freo & will have 3 sets of up-tempo 'banging' cool tunes to keep those feet a tapping! Perth | Friday, 11 December 2026 - Sunday, 7 March 2027",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -134,7 +314,7 @@
    "date": "2026-12-04",
    "snippet": "It's been three years but the Gospel Extravaganza Christmas Show is finally back! The Gospel Extravaganza returns this December for a big night of Christmas favourites, served up with a generous helping of gospel, soul .",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -146,7 +326,7 @@
    "date": "2026-11-30",
    "snippet": "Join Us for a Fun-Filled Afternoon at the Free 2026 International Day of People with Disability Dance Extravaganza! We're excited to invite you to a heartwarming celebration of inclusivity and joy! This special ... Perth",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -158,7 +338,7 @@
    "date": "2026-11-29",
    "snippet": "Enjoy a pre-dinner one hour show at our New-York Style comedy club upstairs at the Leederville Hotel. Featuring local, national and international acts in a comedy showcase. Perfect to kick off your Saturday night out! ..",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -170,7 +350,7 @@
    "date": "2026-11-28",
    "snippet": "RTRFM is pleased to be teaming up with Arts and Culture Trust WA for the 13th year to bring live, local music into the heart of Northbridge; a free four-week concert series taking place on Friday evenings from 13 ... Per",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -182,7 +362,7 @@
    "date": "2026-11-28",
    "snippet": "Unearth the Restless Past on Perth's Ghosts & Dark History Tour Take a Walk on the Dark Side... Get comfortably unsettled on a journey through Perth’s supernatural past, where some secrets refuse to stay buried. ... Pert",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -194,7 +374,7 @@
    "date": "2026-11-28",
    "snippet": "Friday night in Northbridge now comes with an hour of live comedy, a drink in hand and the whole weekend still ahead of you. Presented by Grassroots Comedy, The Speakeasy Comedy Club is a weekly stand-up showcase held ..",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -206,7 +386,7 @@
    "date": "2026-11-28",
    "snippet": "Ever wondered what it takes to become a pilot? WA Aviation College is inviting aspiring aviators and curious aviation enthusiasts to get up close to aircraft, meet instructors and discover the possibilities of a flying .",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -218,7 +398,7 @@
    "date": "2026-11-27",
    "snippet": "Jazz On The Corner happens every Thursday at Tom's from 6-8pm. A smorgasbord of jazz awaits to tantalise your musical taste buds and it's FREE ENTRY :) Bass player Pete Jeavons assembles his talented friends every ... Pe",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -230,7 +410,7 @@
    "date": "2026-11-27",
    "snippet": "Personal and Spiritual Development Classes Join us at the Banksia Grove Community Centre for an inspiring series of Personal and Spiritual Development Classes. This event offers a wonderful opportunity to explore and ...",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -242,7 +422,7 @@
    "date": "2026-11-27",
    "snippet": "Stevie Wonder. Four musicians. A catalogue that never gets old. After two sold-out shows, Sam Nafie (vocals), Harry Mitchell (piano) and Joe Southwell (bass) are back for another trip through Stevie’s catalogue, this ...",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -254,7 +434,7 @@
    "date": "2026-11-27",
    "snippet": "Fischer-Z will embark on their first-ever Australian tour in November–December 2026, as part of the band’s worldwide 50th anniversary celebrations. Although they have never toured Australia, Fischer-Z have enjoyed ... Pe",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -266,7 +446,7 @@
    "date": "2026-11-26",
    "snippet": "Presented by bass player Pete Jeavons in partnership with The Moon Cafe, Jazz Wednesdays happens every week from 6-8pm, FREE ENTRY! That's right, there is no cover charge to come and enjoy the music so you can just drop ",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -278,7 +458,7 @@
    "date": "2026-11-25",
    "snippet": "\"Wall-to-wall comedy at this show. A jam-packed dead-to-rights laugh factory.\" ★★★★★ Josh Woodward, FringeFeed, 2022 \"It is better than any ‘best of’ shows at FRINGE\" ★★★★★ FringeFeed, 2023 ... Perth | Tuesday, 13 Januar",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -290,7 +470,7 @@
    "date": "2026-11-25",
    "snippet": "Music Makers Just for Minis is an engaging craft and music play-based experience for children aged 2- to 5- years old. Session Details If you know Curate, you know we just adore crafting and music. But do you ... Perth |",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -302,7 +482,7 @@
    "date": "2026-11-24",
    "snippet": "\"There’s nothing to do in Perth on a Monday night.\" Yeah? Not anymore. Cap Off Comedy is live every Monday at 7:30PM at the Bassendean Hotel — and entry is completely free, sponsored by the Hotel! No tickets. No ... Pert",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -314,7 +494,7 @@
    "date": "2026-11-23",
    "snippet": "Delve into Perth’s Dark Past on Perth’s True Crime Tour Take a Walk on the Dark Side… Discover Perth’s darkest true crime tales intertwined with its shadowy past… Follow the trail on a guided tour of Perth’s ... Perth | ",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -326,7 +506,7 @@
    "date": "2026-11-23",
    "snippet": "Unlock Fremantle’s Forgotten Crimes on Fremantle’s True Crime Tour Take a Walk on the Dark Side… Venture into Fremantle’s history and reveal the secret tales of a town whose tough residents created a much darker ... Pert",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -338,7 +518,7 @@
    "date": "2026-11-23",
    "snippet": "Perth Folk and Roots Club is back at the Inglewood Bowling and Sports Club on Sunday 22nd November 2026 supported by City of Stirling with renewed community grants support and the Inglewood Bowling and Sports Club. ... P",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -350,7 +530,7 @@
    "date": "2026-11-22",
    "snippet": "Explore the wonders of our oceans in Scitech's brand-new feature exhibition, Oceans: The World Beneath the Waves, developed in partnership with Minderoo Foundation. Climb aboard a research vessel and discover how ... Per",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -362,7 +542,7 @@
    "date": "2026-11-22",
    "snippet": "Step into a world of stories, imagination and creativity at the 2026 Young Readers Day Out. Meet some of Australia’s most exciting authors and illustrators, including Renae Hayward, James Foley, Sally Murphy, Steve ... P",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -374,7 +554,7 @@
    "date": "2026-11-22",
    "snippet": "Taking over Fremantle's Esplanade Park on Saturday 21 and Sunday 22 November 2026, the much-loved Made on the Left Christmas Markets will bring together more than 100 of the State's most talented artists, designers and .",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -386,19 +566,19 @@
    "date": "2026-11-21",
    "snippet": "examples of 70% off https://mayvers.com.au/products/squeezy-crunchy-peanut-butte… $1.80 from …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
    "feed": "ozb-deals",
    "region": "AU",
    "topic": "全澳優惠",
-   "title": "Milwaukee 12V 3 Piece 1x 2.5Ah/5.0Ah Combo KIT Power Pack $781.20 (Click & Collect) Was $868 at Total Tools",
+   "title": "Milwaukee 12V 3 Piece 1x 2.5Ah/5.0Ah Combo Kit Power Pack M12FPP3D25252C $781.20 (Was $868) Delivered @ Total Tools",
    "url": "https://www.ozbargain.com.au/node/984691",
    "date": "2026-11-21",
    "snippet": "Part of Milwaukee 10% Off sale. Discounted price only shows in cart. Great set for automotive use. Stubby M12 with the 5 ah battery is meant to be small, light and powerful. Plus the extended reach …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -410,7 +590,7 @@
    "date": "2026-11-21",
    "snippet": "Found this in my Google One. Makes the 400GB AI Plus plan $5 cheaper ($39.99) than the Standard 200GB plan ($44.99) for a year. Not sure if it is for everyone. I have an existing lower plan. …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -422,7 +602,7 @@
    "date": "2026-11-21",
    "snippet": "I've been eyeing off some Koala furniture and waiting to see what's on sale. It's up to 35% off site wide Plus until Sunday 22/11, it's an extra $100 off $1000 spend. Don't …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -434,7 +614,7 @@
    "date": "2026-11-21",
    "snippet": "Features: Product Type: Tools Package Quantity: 1 Country of Origin: China Fast and strikefree window cleaning due to the knowhow Bosch wiper blade technology from the automotive …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -446,7 +626,7 @@
    "date": "2026-11-21",
    "snippet": "What's in the box - 1 x genuine leather ratchet strap — choose Full-Grain or Split Leather - 2 x interchangeable Western automatic buckles - 1 x JASGOOD signature gift box Features - Two …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -458,7 +638,7 @@
    "date": "2026-11-21",
    "snippet": "Still not as good as the $1100 deal from earlier this year but cheaper than the recent $1452 deal. Other on sale items",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -470,19 +650,19 @@
    "date": "2026-11-21",
    "snippet": "Features: 【Made for Apple Silicon Macs】Compatible with M-series Macs only. Not compatible with Intel Macs, Windows PCs, Chromebooks, or other non-Mac computers. Connect both included …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
    "feed": "ozb-deals",
    "region": "AU",
    "topic": "全澳優惠",
-   "title": "1/2 Price Pirelli Tyres at Mycar on The 27th November 2026",
+   "title": "1/2 Price Pirelli Tyres @ mycar Tyre & Auto",
    "url": "https://www.ozbargain.com.au/node/984683",
    "date": "2026-11-21",
    "snippet": "First deal so hopefully is worthy of posting This doesn't seem to be advertised yet but i can confirm its going to take place since a friend of mine knows someone in head office. Also my local …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -494,7 +674,7 @@
    "date": "2026-11-21",
    "snippet": "Been watching this washer. It was $888 before this week and it is down to $767 via price beat button. Design is very sleek. auto dose smart sensing annual energy consumption of 228kWh. Its 4.5 star …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -506,7 +686,7 @@
    "date": "2026-11-21",
    "snippet": "Features: Castrol EDGE 5W-30 A3/B4 with Fluid TITANIUM is the natural choice for drivers who demand maximum engine performance from today’s modern vehicles requiring a high level of …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -518,7 +698,7 @@
    "date": "2026-11-21",
    "snippet": "So the real deal is that OW currently still has it listed for $399 although there doesn't appear to be stock in stores. You need to call and get a price beat. Might be good for someone who …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -530,7 +710,7 @@
    "date": "2026-11-21",
    "snippet": "360-degree immersive sound fills any room with rich audio. App control Transparent dome design adds an elegant, striking visual to your space. Deep bass and clear highs from a 3-way speaker design …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -542,7 +722,7 @@
    "date": "2026-11-21",
    "snippet": "Hey guys, I just came across a great deal on a Bosch dishwasher if anyone is looking for one. It seems to be the lowest price I’ve seen for this Series 6 model. Bosch Series 6 60cm Built-Under …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -554,7 +734,7 @@
    "date": "2026-11-21",
    "snippet": "Hi OzB, I'm the founder of FairMock (declaring up front: it's my business). We're running a free live mock on Saturday 5 December for school kids in NSW and …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -566,7 +746,7 @@
    "date": "2026-11-21",
    "snippet": "Erla PRO is 70% off the first year for Black Friday: A$29 instead of A$99.99, after a 7-day free trial. I'm the developer. Erla teaches a language by understanding it first: short listening …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -578,7 +758,7 @@
    "date": "2026-11-21",
    "snippet": "ㅤ Why jump through hoops (pun intended) just to get a free cheeseburger? This will be the last direct link that I post until December 2026. TL;DR - just give me the damn link for my free NBL …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -590,7 +770,7 @@
    "date": "2026-11-21",
    "snippet": "Amazon Devices (Echo, Fire TV, Ring Security, Kindle, Eero) 20% Home Improvement & Tools 10% Kitchen, Home; Furniture 5% All Other Categories (see terms for exclusions) 0.4%** You must empty …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -602,7 +782,7 @@
    "date": "2026-11-21",
    "snippet": "Keane’s 2nd album re-issued on vinyl at a good price.",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -614,7 +794,7 @@
    "date": "2026-11-21",
    "snippet": "I'm Philip, founder and maker of Options Matrix Pro. First time posting on OzBargain about OMP, and I'm offering 50% off for Black Friday. I'm a wheel trader (cash-secured puts, …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -626,7 +806,7 @@
    "date": "2026-11-21",
    "snippet": "PETstock has the Purobot Max Pro 2.0 at 25% off (was $899, now $674.25) in their Black Furday sale. Online only, free delivery (5-7 business days), should be 24-month warranty. I've been …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -638,7 +818,7 @@
    "date": "2026-11-21",
    "snippet": "In this charmingly offbeat action comedy, Cinderella's \"evil\" stepsister Lilith steals the Fairy Godmother's wand and shatters the story as we know it. Users who wish to block …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -746,7 +926,7 @@
    "date": "2026-11-21",
    "snippet": "Came up on my app as November is my birthday month. This legendary Quarter Chicken Deluxe Meal is the essence of El Jannah, served with our famous toum (garlic sauce), medium chips sprinkled in …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -758,7 +938,7 @@
    "date": "2026-11-21",
    "snippet": "Vitasoy is running a silent-disco-style \"Essential Protein Frequencies Listening Station\" pop-up at The Sandbar in Middle Park this weekend after next. What you get (free): - A free …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -770,7 +950,7 @@
    "date": "2026-11-21",
    "snippet": "The Transformers: The Movie streams FREE on YouTube, November 27th. AND stay past the credits for the bonus footage: Optimus Prime: Awakening. RIP Peter Cullen",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -782,7 +962,7 @@
    "date": "2026-11-21",
    "snippet": "Hi all, back in September I posted the app here and the response blew me away. I want to share with everyone this Black Friday deal. One of the core of OzPerks is an easy way to compare actual …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -794,7 +974,7 @@
    "date": "2026-11-21",
    "snippet": "A new approach for Brisbane International Film Festival &nbsp;&nbsp; FilmInk",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -806,7 +986,7 @@
    "date": "2026-11-21",
    "snippet": "Brisbane Deepavali festival draws more than 6,000 people &nbsp;&nbsp; The Indian Sun",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -818,7 +998,7 @@
    "date": "2026-11-21",
    "snippet": "$8000 for Movember &nbsp;&nbsp; Cairns Local News",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -830,7 +1010,7 @@
    "date": "2026-11-21",
    "snippet": "‘F***ed’: Wild weather at Strawberry Fields festival horrifies &nbsp;&nbsp; The Cairns Post",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -854,7 +1034,7 @@
    "date": "2026-11-21",
    "snippet": "Sydney Fish Market Seals Its Awards Hat-Trick With a World Title &nbsp;&nbsp; Wood Central",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -878,7 +1058,7 @@
    "date": "2026-11-21",
    "snippet": "See Healing Park light up, community members celebrate at lighting festival tonight &nbsp;&nbsp; Oil City News",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -890,7 +1070,7 @@
    "date": "2026-11-21",
    "snippet": "CANCELLED // Crafted Festival Melbourne 2026 &nbsp;&nbsp; The Crafty Pint",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -902,7 +1082,7 @@
    "date": "2026-11-21",
    "snippet": "In 1997, the Melbourne Jazz Co-operative founded a festival to champion women in music; 27 years later, the Melbourne Women's International Jazz Festival returns with 8 days of live performances &nbsp;&nbsp; Secret Melbo",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -914,7 +1094,7 @@
    "date": "2026-11-21",
    "snippet": "Adelaide Film Festival Announces 2027 Dates & calls for Film Submissions and New Investment Fund Projects &nbsp;&nbsp; FilmInk",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -926,7 +1106,7 @@
    "date": "2026-11-21",
    "snippet": "Get your backside trackside for one of the best eats of the year ... and you'll get change from a $20! &nbsp;&nbsp; This is Canberra",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -938,7 +1118,7 @@
    "date": "2026-11-21",
    "snippet": "BASSINTHEGRASS 2027 confirms Darwin date and $80 early-bird tickets &nbsp;&nbsp; The AU Review",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -950,7 +1130,7 @@
    "date": "2026-11-21",
    "snippet": "Seismic-like event, possible earthquake, reported minutes ago near Darwin, Northern Territory, Australia &nbsp;&nbsp; Volcano Discovery",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -962,7 +1142,7 @@
    "date": "2026-11-21",
    "snippet": "Unconfirmed earthquake or seismic-like event: 18 km east of Darwin, Darwin, Northern Territory, Australia, Saturday, Nov 21, 2026, at 07:12 pm (GMT +9:30) &nbsp;&nbsp; Volcano Discovery",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "D",
@@ -974,7 +1154,7 @@
    "date": "2026-11-21",
    "snippet": "Aldi’s bold $304 million cost-of-living shot at Coles and Woolworths ahead of major supermarket showdown &nbsp;&nbsp; Yahoo Lifestyle Australia",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "D",
@@ -998,7 +1178,7 @@
    "date": "2026-11-21",
    "snippet": "Transform Your Holiday Decor with Aldi's $14.99 LED Cardinal Lantern &nbsp;&nbsp; Yahoo",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "D",
@@ -1010,7 +1190,7 @@
    "date": "2026-11-21",
    "snippet": "Albo’s $150m diplomatic circus: Hot-mic gaffes, clumsy encounters and a hefty taxpayer bill &nbsp;&nbsp; The Daily Telegraph",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "D",
@@ -1022,7 +1202,7 @@
    "date": "2026-11-21",
    "snippet": "Leftover pumpkins in Cambridge help deliver 1,000th free meal &nbsp;&nbsp; BBC",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1034,7 +1214,7 @@
    "date": "2026-11-21",
    "snippet": "Under Armour drops outrageous sitewide sale &nbsp;&nbsp; News.com.au",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1046,7 +1226,7 @@
    "date": "2026-11-21",
    "snippet": "50% off: ‘Sexiest coffee machine I’ve seen’ &nbsp;&nbsp; News.com.au",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1058,7 +1238,7 @@
    "date": "2026-11-21",
    "snippet": "I Just Found One of H&M's Best-Selling Knits in the 2026 Black Friday Sale &nbsp;&nbsp; Who What Wear",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1070,7 +1250,7 @@
    "date": "2026-11-21",
    "snippet": "Torrent Power Plans Up to 20B Rupee Bond Sale &nbsp;&nbsp; Briefs Finance",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1082,7 +1262,7 @@
    "date": "2026-11-21",
    "snippet": "Washington Suburban Sanitary District GO bonds win AAA rating as $471 million sale nears &nbsp;&nbsp; Traders Union",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1106,7 +1286,7 @@
    "date": "2026-11-21",
    "snippet": "Alphabet sells C$6B of bonds, a 40-year at 6%, at wider spreads than its May deal &nbsp;&nbsp; Techi",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1118,7 +1298,7 @@
    "date": "2026-11-20",
    "snippet": "The first 250 Attendees that participate in the Activation and follow all requirements will receive a free UNIQLO UV Protection Hoodie. Visit the UNIQLO UV protection activation Place a sticker on …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1130,7 +1310,7 @@
    "date": "2026-11-20",
    "snippet": "Don't know what the occasion is. Wasn't even given a marketing spiel when I asked. But it doesn't matter, it's free. Sign says \"1 per person\" but the staff even said to …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1142,7 +1322,7 @@
    "date": "2026-11-20",
    "snippet": "Welcome to the underground arena, where chaos meets competition. You're on a mission, dig through destructible caves packed with minerals, power-ups, and rival moles. Mine resources, outsmart …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1154,7 +1334,7 @@
    "date": "2026-11-20",
    "snippet": "To celebrate our grand opening, the first 100 customers get a FREE Beef Pepper Rice. 🗓️ Saturday, 21 November · Doors open at 11:00 am 📍 Pepper Lunch Marsden Park · 9 Hollinsworth Rd",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1166,7 +1346,7 @@
    "date": "2026-11-20",
    "snippet": "This deal is back with the first 100 customers at each participating store receiving a free large pepperoni pizza. However, loads more stores are participating this time around. A limited range of …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1178,7 +1358,7 @@
    "date": "2026-11-20",
    "snippet": "WHAT’S ON: 🔥 11:00 AM: First 50 in line eat FREE (1/4 Chicken & Chips w/ Garlic Dip OR 2x Tenders & Chips w/ Signature Sauce) 🔥 ALL DAY: $10 1/4 Chicken & Chips OR 2 x …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1190,7 +1370,7 @@
    "date": "2026-11-20",
    "snippet": "The first 250 people in line each day will get a FREE White Fox tote and t-shirt, Morning Made Tumbler and Matcha Sachet & a Brooki Cookie. 📍410 Oxford St Paddington NSW 2021 9:00am …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1202,7 +1382,7 @@
    "date": "2026-11-20",
    "snippet": "Can’t believe we’re saying this… we have our VERY OWN SMOOTHIE, with the most iconic cafe in Bondi Beach!! This Saturday, we’re celebrating with you! 8am-10am we’ll be at Harry’s, …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1214,7 +1394,7 @@
    "date": "2026-11-20",
    "snippet": "Free perks at per every week at KFC. Free Game of Bowling at Zone Bowling, $35 off $150 Voucher at CityBeach or 1 Round of 9 Hole Mini Golf Holey Moley",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1226,7 +1406,7 @@
    "date": "2026-11-20",
    "snippet": "Data Defense is a minimalist tower defense indie game set in cyberspace. Protect servers from being infected by a slew of oncoming glitches, bugs and viruses. Use each server's particular …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1238,7 +1418,7 @@
    "date": "2026-11-20",
    "snippet": "Join us Saturday, November 21st from 12–3pm AEST for live music, entertainment, and FREE* Small Churros for all new and existing el SOCIAL members. 🥖✨ 📍 Shop 314 Bryants Rd, …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1274,7 +1454,7 @@
    "date": "2026-11-20",
    "snippet": "Screenshot Just got notifed that Amazon has made it onto Eatclub Earn. I cant see an expiry on this one so I imagine its here to stay. I dont see an indication that this is targetted in the email or …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "D",
@@ -1286,7 +1466,7 @@
    "date": "2026-11-20",
    "snippet": "Bonus cashback is calculated based on the amount paid with your linked eligible Bank card. The Coles Gift Card allows you to shop in all Coles Supermarkets and Coles Central stores nationwide. This …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1298,7 +1478,7 @@
    "date": "2026-11-20",
    "snippet": "This deal is back but slightly better: Solo traveller charge down from $670 to $600. More dates for $999, March-June then October-November. Complimentary Plaza Premium Lounge Access (Webjet offer …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1310,7 +1490,7 @@
    "date": "2026-11-20",
    "snippet": "Bangkok – $687 Return Flights with Finnair ($1582 in PE Rtn, $2822 in Business Rtn) Availability: 1 February -> 10 March 2027 5-28 April 2027 Inclusions: Direct Flights aboard …",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1322,7 +1502,7 @@
    "date": "2026-11-20",
    "snippet": "I was looking for iPhone 17, but noticed 17e is on sale for $999. It’s on sale after a long time since Apple hiked the price. Same price at Officeworks and JB Hi-Fi.",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1334,7 +1514,7 @@
    "date": "2026-11-20",
    "snippet": "Just PB at Officeworks for a total of $1082.99. OW only blue in stock: https://www.officeworks.com.au/shop/officeworks/p/iphone-air…",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1346,7 +1526,7 @@
    "date": "2026-11-20",
    "snippet": "Black/Electro Green. I have the 2100 Casioak in this colourway and it looks great. Currently $200 on Watch Depot, cheapest I can see elsewhere online is $120",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1358,7 +1538,7 @@
    "date": "2026-11-20",
    "snippet": "Showers are on the way, which is the best excuse you'll get to stay in, invite some friends over, and bring out the games. Here's what to play, from the biggest new releases to an old-fashioned poker night. The post From",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -1382,7 +1562,7 @@
    "date": "2026-11-20",
    "snippet": "Brisbane City Hall hosts civic reception for Diwali festival organisers &nbsp;&nbsp; The Indian Sun",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -1394,7 +1574,7 @@
    "date": "2026-11-20",
    "snippet": "WARWICK THORNTON TO RECEIVE PRESTIGIOUS CHAUVEL AWARD AT GOLD COAST FILM FESTIVAL 2026 &nbsp;&nbsp; FilmInk",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -1406,7 +1586,7 @@
    "date": "2026-11-20",
    "snippet": "Manifold of events at Elixir &nbsp;&nbsp; Cairns Local News",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "B",
@@ -1418,7 +1598,7 @@
    "date": "2026-11-20",
    "snippet": "Free T20 Gold Clash fun day &nbsp;&nbsp; Cairns Local News",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1430,7 +1610,7 @@
    "date": "2026-11-20",
    "snippet": "Sydney Festival 2027 Theatre and Cabaret Highlights &nbsp;&nbsp; Theatre Matters",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1442,7 +1622,7 @@
    "date": "2026-11-20",
    "snippet": "NSW’s biggest Philippine Christmas festival is returning to Sydney this weekend — with traditional food, a colourful parade and live music &nbsp;&nbsp; Secret Sydney",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1454,7 +1634,7 @@
    "date": "2026-11-20",
    "snippet": "Liberals pledge $200,000 to keep Melbourne’s Halloumi Festival sizzling &nbsp;&nbsp; Neos Kosmos",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1478,7 +1658,7 @@
    "date": "2026-11-20",
    "snippet": "Grab the popcorn, it’s the final weekend of the Melbourne Queer Film Festival &nbsp;&nbsp; Q News Pty Ltd",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1490,7 +1670,7 @@
    "date": "2026-11-20",
    "snippet": "Major Perth traffic congestion expected this weekend &nbsp;&nbsp; PerthNow",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1514,7 +1694,7 @@
    "date": "2026-11-20",
    "snippet": "Suzi Quatro Adelaide 2026 | Festival Theatre Dec 5 &nbsp;&nbsp; On Your Markus",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1562,7 +1742,7 @@
    "date": "2026-11-20",
    "snippet": "BASSINTHEGRASS Opens Presale Sign-Ups for $80 Tickets to Its 2027 Darwin Festival &nbsp;&nbsp; Blunt Magazine",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1586,7 +1766,7 @@
    "date": "2026-11-20",
    "snippet": "Dolphins to Return to Darwin for Blockbuster NRL Clash in 2027 &nbsp;&nbsp; Tourism and Events NT",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "D",
@@ -1598,7 +1778,7 @@
    "date": "2026-11-20",
    "snippet": "BIG W's 2026 Black Friday Sale &nbsp;&nbsp; Woolworths Group",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "D",
@@ -1610,7 +1790,7 @@
    "date": "2026-11-20",
    "snippet": "Fast food chain unveils free collectibles to rival Bunnings favourite &nbsp;&nbsp; Yahoo Lifestyle Australia",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1622,7 +1802,7 @@
    "date": "2026-11-20",
    "snippet": "Qantas to cut 850 jobs in Accenture AI outsourcing deal, Greens say &nbsp;&nbsp; https://onnotice.com.au/",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1646,7 +1826,7 @@
    "date": "2026-11-20",
    "snippet": "Could the Qantas share price fly to $11 in 2027? &nbsp;&nbsp; The Motley Fool Australia",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1658,7 +1838,7 @@
    "date": "2026-11-20",
    "snippet": "Tickets go on sale for exhibition featuring £4.5m tyrannosaurus skeleton &nbsp;&nbsp; The Independent",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1670,7 +1850,7 @@
    "date": "2026-11-20",
    "snippet": "Fair fares would cost Victoria next to nothing, postgraduates say &nbsp;&nbsp; Times Higher Education",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1682,7 +1862,7 @@
    "date": "2026-11-20",
    "snippet": "Un-fare transport deal for PG Students &nbsp;&nbsp; Future Campus",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "E",
@@ -1706,7 +1886,7 @@
    "date": "2026-11-20",
    "snippet": "Doorstop, Deli Planet, Fyshwick Markets &nbsp;&nbsp; Minister for Trade and Tourism",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1718,7 +1898,7 @@
    "date": "2026-11-20",
    "snippet": "Free family weekend at the Carnavalet Museum &nbsp;&nbsp; Arts in the City",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1754,7 +1934,7 @@
    "date": "2026-11-20",
    "snippet": "Alphabet Sells C$6B Canadian Bonds &nbsp;&nbsp; Briefs Finance",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
@@ -1790,7 +1970,7 @@
    "date": "2026-11-20",
    "snippet": "RBI flags suspicious off-market deals in state bonds &nbsp;&nbsp; The Economic Times",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1802,7 +1982,7 @@
    "date": "2026-11-20",
    "snippet": "Melbourne Documentary Film Festival Awards &nbsp;&nbsp; FilmInk",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "C",
@@ -1814,7 +1994,7 @@
    "date": "2026-11-20",
    "snippet": "Upcoming Sporting Events in Australia 2027: Full Schedule &nbsp;&nbsp; sportstralia.com.au",
    "first_seen": "2026-11-21",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "for": "A",
