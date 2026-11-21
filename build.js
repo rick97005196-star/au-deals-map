@@ -232,7 +232,7 @@ function buildLang(l, tm) {
   if (l === 'zh') pages.artifact = finish(fill(indexTpl, { api: false, tiles: false }, d, dict), '', false);
   // 免責聲明
   const disclaimerTpl = read('src/disclaimer.html');
-  pages.disclaimer = finish(wrap(disclaimerTpl, headLinks(l, 'disclaimer/'), l), 'disclaimer/', false);
+  pages.disclaimer = finish(wrap(disclaimerTpl, '<meta property="og:image" content="https://au-working-holiday.pages.dev/images/deals.jpg">\n' + headLinks(l, 'disclaimer/'), l), 'disclaimer/', false);
   return { pages, used, missing, ui };
 }
 
