@@ -53,6 +53,7 @@ function prep(it) {
 // 查證過確定是不同活動、名稱卻很像的組合（例：Sea Acres 早上的文化導覽和下午的海岸導覽）
 const NOT_DUPES = new Set([
   'npws-sea-acres-aboriginal-culture-tour-2026-11|nsw-sea-acres-aboriginal-coastal-tour-2026',
+  'martin-place-christmas-markets-2026|sydney-martin-place-christmas-tree-2026',
 ]);
 const pairKey = (a, b) => [a, b].sort().join('|');
 function compare(A, B) {

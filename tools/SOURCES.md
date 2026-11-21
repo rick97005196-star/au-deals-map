@@ -311,3 +311,9 @@
 - 2026-11-21｜travel｜WA Government – Media statements｜https://www.wa.gov.au/government/media-statements｜西澳州政府新聞稿，含 Rottnest 夜間回程班次等交通公告
 - 2026-11-21｜tickets｜Rottnest Express 官方訂票與優惠｜https://rottnestexpress.com.au/offers/telethon-saver-deals/｜Rottnest Express 來回船票與 Telethon 優惠條款（有效至 2028 年 6 月 30 日）
 - 2026-11-21｜tickets｜Finnair 澳洲官網特價頁｜https://www.finnair.com/au-en/offers｜歐洲與曼谷航線特價（A$719 起，book by 30 Nov）
+- 2026-11-22｜活動 SA｜Botanic Gardens of South Australia – Moonlight Cinema｜https://www.botanicgardens.sa.gov.au/whats-on/moonlight-cinema｜Botanic Park 月光露天電影 2026–27 季的日期、場次時間與票價
+- 2026-11-22｜travel｜Royal Botanic Garden Sydney – Guided Walks｜https://www.botanicgardens.org.au/whats-on/guided-walks｜植物園每日導覽的時間、集合點與費用（捐款制）
+- 2026-11-22｜travel WA｜Kings Park and Botanic Garden – Water Views and Bushland walk｜https://www.bgpa.wa.gov.au/kings-park/events/water-views-and-bushland｜珀斯 Kings Park 免費導覽（每週一早上，官網列出 2026 年 7 月 6 日至 10 月 26 日的場次與集合點）
+- 2026-11-22｜活動 QLD｜NPAQ – November Park of the Month（Eventbrite）｜https://www.eventbrite.com.au/e/2003945561118?aff=oddtdtcreator｜伯利角國家公園 11 月免費活動，2026 年 11 月 28 日 8:00–13:00，需線上預約
+- 2026-11-22｜活動 QLD｜NPAQ – Upcoming events｜https://npaq.org.au/upcoming-events-page｜昆士蘭國家公園協會每月 Park of the Month 活動列表與預約連結
+- 2026-11-22｜活動 QLD｜Rockhampton Heritage Village – Christmas Markets｜https://heritagevillage.rockhamptonregion.qld.gov.au/Whats-On/HVMarkets_Christmas2026｜Rockhampton 歷史村聖誕市集，2026 年 11 月 28 日 16:00–21:00，免費入場

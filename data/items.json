@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -433,7 +433,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    }
   },
   {
@@ -488,7 +488,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    }
   },
   {
@@ -932,13 +932,13 @@
    "venue": "Perth City Farm, 1 City Farm Place, East Perth",
    "lat": -31.9516,
    "lng": 115.8738,
-   "start": "2026-11-12",
+   "start": "2026-12-10",
    "end": "2026-12-10",
    "price_zh": "免費入場（個別活動與工作坊須購票）",
    "free": true,
    "highlight": "每月第二個週四・免費",
    "summary_zh": "每月第二個週四傍晚，East Perth 的 Perth City Farm 舉辦農場夜，可用餐、逛街、學習與參與活動，入場免費。",
-   "tip_zh": "官網標示為每月第二個週四（冬季 17:00–20:00、夏季 17:00–21:00）；11/12 場次已結束，下一場依規則為 12/10，行前請再確認。個別活動與工作坊須購票，園區導覽免費。",
+   "tip_zh": "官網標示為每月第二個週四（冬季 17:00–20:00、夏季 17:00–21:00），下一場為 12/10；行前請再確認。個別活動與工作坊須購票。",
    "sources": [
     {
      "kind": "official",
@@ -960,9 +960,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官方頁面未列出 12/10 是否舉辦（另有來源稱 12 月不舉辦），免費入場亦僅見於搜尋結果摘要。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "schedule_zh": "每月第二個週四 17:00 起"
   },
@@ -1154,9 +1153,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官方頁面未列出票價。"
+    "status": "verified",
+    "checked": "2026-11-22"
    }
   },
   {
@@ -1499,7 +1497,7 @@
    "free": true,
    "highlight": "免費入場・每日解說",
    "summary_zh": "昆州政府設立的無尾熊教育中心，位於布里斯本南方的 Daisy Hill 保育公園，設有戶外無尾熊園區與展示，每日 11:00 與 14:00 有免費解說，入場免費。",
-   "tip_zh": "耶穌受難日、聖誕節與元旦休館；地址為 253 Daisy Hill Road。",
+   "tip_zh": "耶穌受難日、聖誕節與元旦休館。",
    "sources": [
     {
      "kind": "official",
@@ -1516,8 +1514,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官方頁面無法直接開啟，11:00 與 14:00 解說時段僅見於非官方來源。"
+    "checked": "2026-11-22",
+    "unconfirmed_zh": "官方頁面無法直接開啟，開放時間與免費解說係由搜尋結果摘要確認。"
    },
    "added": "2026-10-10"
   },
@@ -1594,9 +1592,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-18",
-    "unconfirmed_zh": "官網未標示優惠年份與結束日期。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-10-12"
   },
@@ -1664,45 +1661,6 @@
      "platform": "官方網站",
      "label": "Destination Wollongong – The Nan Tien Market",
      "url": "https://www.visitwollongong.com.au/event/nan-tien-health-wellbeing-market/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-21"
-   },
-   "added": "2026-10-12"
-  },
-  {
-   "id": "tas-hobart-christmas-pageant-2026",
-   "type": "event",
-   "title": "Myer City of Hobart Christmas Pageant",
-   "title_zh": "荷伯特聖誕大遊行",
-   "category": "festival",
-   "region": "TAS",
-   "city": "Hobart",
-   "venue": "Hobart CBD",
-   "lat": -42.8826,
-   "lng": 147.3297,
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "schedule_zh": "10:30–12:00",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "免費・年度盛事",
-   "summary_zh": "第 44 屆荷伯特聖誕遊行在市中心舉行，由塔州偶戲團 Terrapin 擔任主創並製作新的戲偶，市政府表示通常吸引超過 3 萬人。",
-   "tip_zh": "遊行自 Melville St 與 Elizabeth St 路口出發，沿 Elizabeth St、Liverpool St、Harrington St 至 Collins St，於 Elizabeth St 與 Collins St 路口附近結束；路線為今年新規劃。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Hobart – Myer City of Hobart Christmas Pageant",
-     "url": "https://www.hobartcity.com.au/Things-To-Do/Christmas/Myer-City-of-Hobart-Christmas-Pageant"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Hobart 新聞稿 – Terrapin takes the reins",
-     "url": "https://www.hobartcity.com.au/Council/News-and-publications/Media-releases/Terrapin-takes-the-reins-of-Hobart’s-beloved-Christmas-Pageant"
     }
    ],
    "verified": {
@@ -1826,6 +1784,12 @@
      "platform": "官方網站",
      "label": "Queensland Rail Travel – 2 For 1 Outback Rail",
      "url": "https://www.queenslandrailtravel.com.au/2-for-1-outback-rail"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Queensland Rail Travel – home",
+     "url": "https://www.queenslandrailtravel.com.au/"
     }
    ],
    "verified": {
@@ -2151,9 +2115,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方活動頁未列票價。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-10-15"
   },
@@ -2683,7 +2646,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -2920,9 +2883,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官網頁面未明確標示試用優惠適用的方案。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-10-28"
   },
@@ -3335,45 +3297,6 @@
    "added": "2026-10-31"
   },
   {
-   "id": "straddie-oyster-seafood-festival-2026",
-   "type": "event",
-   "title": "Straddie Oyster and Seafood Festival",
-   "title_zh": "Straddie 生蠔與海鮮節",
-   "category": "food",
-   "region": "QLD",
-   "city": "North Stradbroke Island",
-   "venue": "North Stradbroke Island Rugby League and Allsports Club",
-   "lat": -27.502,
-   "lng": 153.405,
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "schedule_zh": "10:00–18:00",
-   "price_zh": "免費入場；Bay Island 接駁船來回 A$35",
-   "free": true,
-   "highlight": "免費・離島海鮮節",
-   "summary_zh": "北斯特拉布魯克島的海鮮節，設有現場演出、市集攤位、生蠔與大蝦比賽及泥蟹賽跑，免費入場。",
-   "tip_zh": "需搭船前往；Bay Island 接駁船來回 A$35，須先預約，官方列出的聯絡電話為 07 3409 9216。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Redlands Coast – Straddie Oyster and Seafood Festival",
-     "url": "https://www.redlandscoast.com.au/ATDW/Events/Straddie-Oyster-and-Seafood-Festival-634fc2b63cdd2b4004a8e648"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Straddie Tourism – Oyster Festival",
-     "url": "https://stradbrokeisland.com/straddie-oyster-festival/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-21"
-   },
-   "added": "2026-10-31"
-  },
-  {
    "id": "perth-lester-prize-portraiture-2026",
    "type": "event",
    "title": "The Lester Prize for Portraiture 2026 Main Awards",
@@ -3473,9 +3396,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面僅寫「下午」，未公布確切開始時間。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-10-31"
   },
@@ -3765,7 +3687,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-18"
+    "checked": "2026-11-22"
    },
    "added": "2026-10-31"
   },
@@ -3990,7 +3912,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    },
    "added": "2026-11-03"
   },
@@ -4024,45 +3946,6 @@
     "status": "partial",
     "checked": "2026-11-20",
     "unconfirmed_zh": "官網未標示優惠起迄日期與條款。"
-   },
-   "added": "2026-11-03"
-  },
-  {
-   "id": "queensland-rail-2-for-1-outback-2026-27",
-   "type": "deal",
-   "title": "Queensland Rail Travel 2 for 1 Outback Rail",
-   "title_zh": "昆州西部長途火車 2 人同行一人價",
-   "category": "tickets",
-   "region": "QLD",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "昆州西部（Longreach、Charleville、Mount Isa）",
-   "start": "2026-11-01",
-   "end": "2027-03-31",
-   "price_zh": "兩人同行單程只付一人票價；單人搭乘 AChoice 成人票 5 折",
-   "free": false,
-   "highlight": "2 人同行半價",
-   "summary_zh": "適用 Spirit of the Outback（布里斯本至 Longreach）、Westlander（布里斯本至 Charleville）與 Inlander（Townsville 至 Mount Isa）。票價依 BQuick 條件，以單程計算。",
-   "tip_zh": "此優惠不能線上訂位，須電洽 1800 872 467、至 Queensland Rail Travel Centre 或透過旅行社；Spirit of the Outback 需起訖點在 Rockhampton 以西，座位有限。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Queensland Rail Travel – 2 for 1 Outback Rail",
-     "url": "https://www.queenslandrailtravel.com.au/2-for-1-outback-rail"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Queensland Rail Travel – home",
-     "url": "https://www.queenslandrailtravel.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-20"
    },
    "added": "2026-11-03"
   },
@@ -4166,7 +4049,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    },
    "added": "2026-10-31"
   },
@@ -4272,7 +4155,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    },
    "added": "2026-10-31"
   },
@@ -5340,7 +5223,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-22"
    },
    "added": "2026-11-05"
   },
@@ -6435,9 +6318,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "頁面未列出票價。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-11-08"
   },
@@ -6522,39 +6404,6 @@
    "added": "2026-11-08"
   },
   {
-   "id": "cruel-intentions-90s-musical-melbourne-2026",
-   "type": "event",
-   "title": "Cruel Intentions: The 90s Musical",
-   "title_zh": "《Cruel Intentions》90 年代音樂劇（墨爾本）",
-   "category": "arts",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Irene Mitchell Studio, St Martins Youth Arts Centre, South Yarra",
-   "lat": -37.8386,
-   "lng": 144.9906,
-   "start": "2026-11-13",
-   "end": "2026-11-21",
-   "schedule_zh": "11/20 19:30；11/21 13:30、18:30",
-   "price_zh": "A$37（學生／優待 A$32）",
-   "free": false,
-   "highlight": "小劇場音樂劇",
-   "summary_zh": "1990 年代主題音樂劇《Cruel Intentions: The 90s Musical》，由 DIY Collective 於 South Yarra 的 St Martins Youth Arts Centre 小劇場演出。",
-   "tip_zh": "經 Humanitix 訂票，所有售出的票不退款；11 月 21 日另有 13:30 日場。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne What's On – Cruel Intentions: The 90s Musical",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/cruel-intentions-the-90s-musical"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-20"
-   },
-   "added": "2026-11-08"
-  },
-  {
    "id": "woolworths-mad-mex-hot-chicken-2026-11-16",
    "type": "deal",
    "title": "Woolworths x Mad Mex Chilli & Lime Hot Chicken",
@@ -6621,44 +6470,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-20"
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "telstra-prepaid-44-plan-13-black-friday-2026",
-   "type": "deal",
-   "title": "Telstra Pre-Paid Black Friday – $44 Pre-Paid Mobile for $13",
-   "title_zh": "Telstra 預付卡黑五 28 天方案 A$13",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-03",
-   "end": "2026-11-30",
-   "price_zh": "A$13（原價 A$44，僅限新啟用）",
-   "free": false,
-   "highlight": "黑五預付卡・限新啟用",
-   "summary_zh": "Telstra 官網黑色星期五預付卡優惠：A$44 的 28 天方案新啟用 A$13，僅限新啟用，日後儲值恢復原價。預付卡無綁約。",
-   "tip_zh": "優惠至 11 月 30 日 23:59（AEDT），部分優惠可能提前售完；方案內容與條款請見官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Telstra – Black Friday deals",
-     "url": "https://www.telstra.com.au/deals/black-friday"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Telstra – Pre-Paid offers and rates",
-     "url": "https://www.telstra.com.au/mobile-phones/prepaid-mobiles/offers-and-rates"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-18"
    },
    "added": "2026-11-10"
   },
@@ -6908,40 +6719,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-21"
-   },
-   "added": "2026-11-10"
-  },
-  {
-   "id": "starbucks-au-pastry-5-before-11am-2026",
-   "type": "deal",
-   "title": "Starbucks Australia – Drink + Pastry for $5 (before 11am)",
-   "title_zh": "Starbucks 11 點前飲品加購點心 A$5",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": null,
-   "start": "2026-11-10",
-   "end": null,
-   "price_zh": "點心加購 A$5",
-   "free": false,
-   "highlight": "早晨加購優惠",
-   "summary_zh": "Starbucks 澳洲官網列出：上午 11 點前購買任一飲品，可加購一份點心 A$5，適用條款以官方 T&C 為準。",
-   "tip_zh": "僅限上午 11 點前，實際參與門市與條款請查看官網 T&C。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Starbucks Australia – 首頁優惠",
-     "url": "https://www.starbucks.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-20",
-    "unconfirmed_zh": "官網未標明優惠期間與完整條款。"
    },
    "added": "2026-11-10"
   },
@@ -7298,9 +7075,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網尚未列出商品與價格，僅確認日期與主題。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-11-12"
   },
@@ -7715,7 +7491,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-22"
    },
    "added": "2026-11-13"
   },
@@ -7946,7 +7722,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    },
    "added": "2026-11-13"
   },
@@ -7979,7 +7755,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    },
    "added": "2026-11-13"
   },
@@ -8010,9 +7786,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-11-13"
   },
@@ -8052,72 +7827,6 @@
     "status": "partial",
     "checked": "2026-11-21",
     "unconfirmed_zh": "官方文章未標示優惠起始日與結束日。"
-   },
-   "added": "2026-11-13"
-  },
-  {
-   "id": "muffin-break-6-iced-latte-2026-11",
-   "type": "deal",
-   "title": "Muffin Break $6 Regular Iced Latte",
-   "title_zh": "Muffin Break 冰拿鐵 A$6",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-13",
-   "end": "2026-11-24",
-   "price_zh": "中杯冰拿鐵 A$6",
-   "free": false,
-   "highlight": "限時・至 11/24",
-   "summary_zh": "Muffin Break 官網目前公布每日供應中杯冰拿鐵 A$6，優惠至 11 月 24 日。",
-   "tip_zh": "以各門市實際供應為準，條款請見官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Muffin Break – Home",
-     "url": "https://www.muffinbreak.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未標示年份與完整條款。"
-   },
-   "added": "2026-11-13"
-  },
-  {
-   "id": "starbucks-pastry-5-deli-roll-10-2026-11",
-   "type": "deal",
-   "title": "Starbucks Australia – $5 Pastry with Any Drink and $10 Deli Roll with Any Drink",
-   "title_zh": "Starbucks 買飲品加購酥點 A$5、鹹食 A$10",
-   "category": "dining",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-13",
-   "end": null,
-   "price_zh": "點任一飲品，11 點前酥點 A$5；全天 Deli Roll A$10",
-   "free": false,
-   "highlight": "飲品加購優惠",
-   "summary_zh": "Starbucks 澳洲官網目前列出兩項加購優惠：購買任一飲品於上午 11 點前可以 A$5 加購任一酥點，另有購買任一飲品以 A$10 加購 Deli Roll（全天）。",
-   "tip_zh": "適用條款與參與門市請見官網 T&Cs。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Starbucks Australia – Home",
-     "url": "https://www.starbucks.com.au/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網只寫「節慶期間」，未標示起訖日期。"
    },
    "added": "2026-11-13"
   },
@@ -8234,39 +7943,6 @@
     "checked": "2026-11-20"
    },
    "added": "2026-11-13"
-  },
-  {
-   "id": "acmi-play-on-2026",
-   "type": "event",
-   "title": "Play On – ACMI",
-   "title_zh": "ACMI《Play On》街機遊戲免費展",
-   "category": "entertainment",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "ACMI, Federation Square",
-   "lat": -37.8179,
-   "lng": 144.9691,
-   "start": "2026-08-24",
-   "end": "2027-01-31",
-   "schedule_zh": "每日 10:00–17:00（12/25 休館）",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費展覽",
-   "summary_zh": "ACMI 於聯邦廣場一樓展出三款澳洲開發者新作街機遊戲，包含《Quiver》《QIP》《Pop-up Crashout》，可直接上機遊玩。",
-   "tip_zh": "遊戲含閃爍畫面與大音量，對光敏感者請留意。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ACMI – Play On",
-     "url": "https://www.acmi.net.au/whats-on/play-on/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-21"
-   },
-   "added": "2026-11-14"
   },
   {
    "id": "hoyts-movie-of-the-week-12-50-2026",
@@ -8701,39 +8377,6 @@
      "platform": "South Australia 官方旅遊",
      "label": "Carols in the Pub 2026 – Maylands Hotel",
      "url": "https://southaustralia.com/products/adelaide/event/carols-in-the-pub-2026-maylands-hotel"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-21"
-   },
-   "added": "2026-11-14"
-  },
-  {
-   "id": "aldi-special-buys-2026-11-21-beach-summer",
-   "type": "deal",
-   "title": "ALDI Special Buys – Family Beach Day & Summer Activities (Sat 21 Nov 2026)",
-   "title_zh": "ALDI 11/21 海灘與夏日用品特賣",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "全澳洲 ALDI 門市",
-   "start": "2026-11-21",
-   "end": "2026-11-21",
-   "price_zh": "海灘推車 A$49.99、全臉浮潛面罩 A$19.99、海灘椅 A$19.99",
-   "free": false,
-   "highlight": "週六 Special Buys",
-   "summary_zh": "ALDI 官網列出 11 月 21 日（週六）Special Buys，主題為 Family Beach Day 與 Summer Activities，含海灘推車、浮潛面罩與海灘椅等夏日用品。",
-   "tip_zh": "限量商品賣完為止，價格與供貨依門市而異。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ALDI Special Buys – Saturday 21 November 2026",
-     "url": "https://www.aldi.com.au/special-buys/2026-11-21"
     }
    ],
    "verified": {
@@ -9611,9 +9254,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官網頁面未列出票價與購票資訊。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-11-19"
   },
@@ -9645,9 +9287,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官網活動頁未列出票價。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-11-19"
   },
@@ -9797,8 +9438,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官方尚未公布票價、開賽時間與開賣日期，僅能確認日期（2027 年 1 月 4 至 8 日）與對手。"
+    "checked": "2026-11-22",
+    "unconfirmed_zh": "官方尚未公布票價與開賣日期。"
    },
    "added": "2026-11-19"
   },
@@ -9819,8 +9460,8 @@
    "price_zh": "2 件 A$8（Flipside 330mL、Russ Energy 355mL、Bloom 355mL、Mother 500mL 指定口味）",
    "free": false,
    "highlight": "2 件 A$8",
-   "summary_zh": "7-Eleven 官網列出 Flipside、Russ Energy、Bloom、Mother 等飲品的指定口味 2 件 A$8 優惠，有效至 2026 年 12 月 1 日，不需會員即可適用。",
-   "tip_zh": "優惠僅適用官網列出的指定口味，品項與陳列以門市為準。",
+   "summary_zh": "7-Eleven 官網列出 Flipside、Russ Energy、Bloom、Mother 等飲品的指定口味 2 件 A$8 優惠，有效至 2026 年 12 月 1 日。Flipside、Russ Energy、Bloom 不需會員；Mother 另有 My 7-Eleven 會員價。",
+   "tip_zh": "優惠僅適用官網列出的指定口味，不可與其他優惠併用；外送平台僅限 7NOW，品項以門市為準。",
    "sources": [
     {
      "kind": "official",
@@ -9830,9 +9471,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官網只列結束日（2026 年 12 月 1 日），未列開始日；此處以查證日 11 月 19 日計。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-11-19"
   },
@@ -9853,7 +9493,7 @@
    "price_zh": "A$6（一份指定食品加一杯指定飲品）",
    "free": false,
    "highlight": "A$6 套餐",
-   "summary_zh": "7-Eleven 官網列出的 Lunch Legends 套餐，A$6 可選一款指定熱狗捲、Traveller 派、牛肉派或素食 pastie，再加一杯指定飲品，有效至 2026 年 12 月 1 日，不需會員。",
+   "summary_zh": "7-Eleven 官網列出的 Lunch Legends 套餐，A$6 可選一款指定熱狗捲、Traveller 派、牛肉派或素食 pastie，再加一杯指定飲品，有效至 2026 年 12 月 1 日。",
    "tip_zh": "不適用 Hot 與 Iced Matcha，不可與其他優惠併用，外送平台僅限 7NOW。",
    "sources": [
     {
@@ -9864,9 +9504,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-19",
-    "unconfirmed_zh": "官網只列結束日（2026 年 12 月 1 日），未列開始日。"
+    "status": "verified",
+    "checked": "2026-11-22"
    },
    "added": "2026-11-19"
   },
@@ -10180,7 +9819,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-22"
    },
    "added": "2026-11-20",
    "schedule_zh": "每日 7:00–10:30"
@@ -10389,6 +10028,345 @@
     "unconfirmed_zh": "官網未列出可出發日期，也未標示訂票截止的年份。"
    },
    "added": "2026-11-21"
+  },
+  {
+   "id": "moonlight-cinema-brisbane-2026-27",
+   "type": "event",
+   "title": "Moonlight Cinema Brisbane",
+   "title_zh": "布里斯本月光露天電影",
+   "category": "entertainment",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "The Amphitheatre, Roma Street Parkland",
+   "lat": -27.4623,
+   "lng": 153.0172,
+   "area_zh": null,
+   "start": "2026-12-04",
+   "end": "2027-02-14",
+   "schedule_zh": "週二至週日晚間放映（依場次），入場前 90 分鐘開放",
+   "price_zh": "請見官網（票價依場次與座位區而異）",
+   "free": false,
+   "highlight": "露天電影・夏季季節",
+   "summary_zh": "於布里斯本 Roma Street Parkland 圓形劇場舉辦的夏季戶外電影季，票種涵蓋草地一般席至懶人沙發座位。適合在夏季夜晚於戶外觀賞電影的旅客。",
+   "tip_zh": "需事先透過官方網站訂票，入場前 90 分鐘開放。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane City Council – Moonlight Cinema Brisbane",
+     "url": "https://www.brisbane.qld.gov.au/events/moonlight-cinema-brisbane/213788378"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-22",
+    "unconfirmed_zh": "官方活動頁未列出 2026–27 季的票價，請見官網。"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "moonlight-cinema-adelaide-2026-27",
+   "type": "event",
+   "title": "Moonlight Cinema Adelaide",
+   "title_zh": "阿德雷德月光露天電影",
+   "category": "entertainment",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Botanic Park（Tainmuntilla）",
+   "lat": -34.9183,
+   "lng": 138.6071,
+   "area_zh": null,
+   "start": "2026-11-26",
+   "end": "2027-02-14",
+   "schedule_zh": "19:00–23:00（電影約 20:45 開演）",
+   "price_zh": "每人 A$18.50–45（另加訂票費）",
+   "free": false,
+   "highlight": "露天電影・夏季影展",
+   "summary_zh": "於阿德雷德 Botanic Park 舉辦的夏季戶外電影季，場地位於百年歷史的摩頓灣無花果樹下。適合在夏季夜晚於戶外觀賞電影的旅客。",
+   "tip_zh": null,
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Botanic Gardens of South Australia – Moonlight Cinema",
+     "url": "https://www.botanicgardens.sa.gov.au/whats-on/moonlight-cinema"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-22"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "good-food-wine-show-melbourne-christmas-2026",
+   "type": "event",
+   "title": "Good Food & Wine Show – Christmas Edition Melbourne",
+   "title_zh": "墨爾本好食好酒展聖誕特別版",
+   "category": "food",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "MCEC（Melbourne Convention and Exhibition Centre）",
+   "lat": -37.8254,
+   "lng": 144.9556,
+   "area_zh": null,
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "schedule_zh": null,
+   "price_zh": "單日票 A$34.95 起；三天通行票 A$89.95 起",
+   "free": false,
+   "highlight": "聖誕特別版・3 天",
+   "summary_zh": "於 MCEC 舉辦、為期三天的美食與美酒展聖誕特別版，適合對美食與飲品有興趣的旅客。",
+   "tip_zh": "票種包含單日票、Flexi 票與三天通行票，詳見官網購票頁。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Good Food & Wine Show – Christmas Edition (Melbourne)",
+     "url": "https://goodfoodshow.com.au"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-22",
+    "unconfirmed_zh": "官網未列出各日開放時間。"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "nandos-launceston-quarter-chicken-chips-2026",
+   "type": "deal",
+   "title": "Nando's Australia – Launceston ¼ Chicken & Chips A$10 local offer",
+   "title_zh": "Nando's 朗瑟斯頓 ¼ 雞與薯條 A$10",
+   "category": "dining",
+   "region": "TAS",
+   "city": "Launceston",
+   "venue": null,
+   "lat": -41.4332,
+   "lng": 147.1438,
+   "area_zh": null,
+   "start": "2026-11-16",
+   "end": "2026-12-13",
+   "price_zh": "A$10（¼ 雞與薯條，內用與外帶）",
+   "free": false,
+   "highlight": "地區限定優惠",
+   "summary_zh": "Nando's 官網公告朗瑟斯頓地區限定的 ¼ 雞與薯條優惠，售價 A$10，適用內用與外帶，不適用第三方外送。適合在朗瑟斯頓停留、預算有限的旅客。",
+   "tip_zh": "本優惠為地區限定，前往前請先於 Nando's 官網或門市確認適用的分店。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Nando's Australia – Offers Terms and Conditions（Local Offers）",
+     "url": "https://www.nandos.com.au/offers-terms"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-22",
+    "unconfirmed_zh": "官網未列出具體分店地址，也未說明是否適用 Launceston 全部分店。"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "billai-dhagun-circuit-guided-walk-2026",
+   "type": "event",
+   "title": "Billai Dhagun Circuit Guided Walk",
+   "title_zh": "Billai Dhagun 環形步道導覽健行",
+   "category": "outdoors",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Boondall Wetlands Environment Centre",
+   "lat": -27.3406,
+   "lng": 153.0786,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・志工導覽",
+   "summary_zh": "布里斯本市議會於 Boondall 濕地舉辦的志工導覽健行，11 月 28 日 9:00 至 10:30 進行，全程約 2 公里，難度低，可參觀觀鳥屋並認識當地動植物。",
+   "tip_zh": "無需預約。園區內沒有餐飲店，建議攜帶水、帽子、防曬用品與野餐食物，並於開始前 10 分鐘抵達。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Brisbane City Council – Billai Dhagun Circuit guided walk",
+     "url": "https://www.brisbane.qld.gov.au/events/billai-dhagun-circuit-guided-walk/211790912"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-22"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "burleigh-head-park-of-the-month-2026-11",
+   "type": "event",
+   "title": "November Park of the Month – Burleigh Head National Park",
+   "title_zh": "11 月「本月公園」伯利角國家公園活動",
+   "category": "outdoors",
+   "region": "QLD",
+   "city": "Burleigh Heads",
+   "venue": "Jellurgal Aboriginal Cultural Centre",
+   "lat": -28.0966,
+   "lng": 153.4552,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price_zh": "免費（需於 Eventbrite 預約）",
+   "free": true,
+   "highlight": "免費・國家公園活動",
+   "summary_zh": "昆士蘭國家公園協會（NPAQ）每月舉辦的免費公園活動，11 月場次於伯利角國家公園進行，時間為 8:00 至 13:00，設有植物認識、海豚觀察等多個自然主題時段。",
+   "tip_zh": "名額有限，需於 Eventbrite 免費預約；各時段年齡下限不同（進階植物導覽 18 歲以上，海豚時段 8 歲以上），且部分時段重疊，無法同時報名。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NPAQ – November Park of the Month, Burleigh Head National Park (Eventbrite)",
+     "url": "https://www.eventbrite.com.au/e/2003945561118?aff=oddtdtcreator"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "NPAQ – Upcoming events",
+     "url": "https://npaq.org.au/upcoming-events-page"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-22"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "crft-wrk-market-qvm-melbourne-2026",
+   "type": "event",
+   "title": "CRFT*WRK Market",
+   "title_zh": "CRFT*WRK 手作市集（維多利亞女王市場）",
+   "category": "market",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Queen Victoria Market, Shed C",
+   "lat": -37.8076,
+   "lng": 144.9568,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・獨立設計師手作市集",
+   "summary_zh": "於維多利亞女王市場 C 棚舉行的手作市集，11 月 28 日 9:00 至 16:00 展售獨立創作者的在地設計與當代工藝作品。",
+   "tip_zh": "無需預約。市集以手作商品為主，官方頁面未列出餐飲攤位。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – CRFT*WRK Market",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/crft-wrk-market"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-22"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "canberra-christmas-market-quokka-2026",
+   "type": "event",
+   "title": "Canberra Christmas Market",
+   "title_zh": "坎培拉聖誕市集（Quokka Building）",
+   "category": "market",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "Quokka Building, Exhibition Park",
+   "lat": -35.248,
+   "lng": 149.14,
+   "start": "2026-11-28",
+   "end": "2026-11-29",
+   "price_zh": "免費入場（停車亦免費）",
+   "free": true,
+   "highlight": "免費・週末兩日市集",
+   "summary_zh": "於 Exhibition Park 的 Quokka Building 舉行的室內聖誕市集，11 月 28 至 29 日舉行，免費入場。官方頁面列出 11 月 28 日開放時間為 10:00 至 15:00。",
+   "tip_zh": "園區提供免費停車。",
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-22",
+    "unconfirmed_zh": "11 月 29 日的開放時間官網未列出。"
+   },
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "VisitCanberra – Canberra Christmas Market",
+     "url": "https://visitcanberra.com.au/events/5822a8815ac8210f333a55f0/canberra-christmas-market"
+    }
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "id": "rockhampton-heritage-village-christmas-markets-2026",
+   "type": "event",
+   "title": "Heritage Village Christmas Markets",
+   "title_zh": "Rockhampton 歷史村聖誕市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Rockhampton",
+   "venue": "Rockhampton Heritage Village",
+   "lat": -23.3084,
+   "lng": 150.5167,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・逾 160 攤",
+   "summary_zh": "於 Rockhampton Heritage Village 舉行的傍晚市集，11 月 28 日 16:00 至 21:00 進行，逾 160 個攤位，主打手作與在地商品，包含自製烘焙食品、蠟燭與珠寶，並有在地美食與現場音樂。",
+   "tip_zh": "園區位於 Parkhurst（Boundary Road 296 號），需自行前往。官方頁面未註明需要預約；不允許攜帶寵物入場（服務犬除外）。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Rockhampton Regional Council – Heritage Village Christmas Markets",
+     "url": "https://heritagevillage.rockhamptonregion.qld.gov.au/Whats-On/HVMarkets_Christmas2026"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-22"
+   },
+   "added": "2026-11-22"
+  },
+  {
+   "id": "martin-place-christmas-markets-2026",
+   "type": "event",
+   "title": "Martin Place Christmas Markets",
+   "title_zh": "馬丁廣場聖誕市集",
+   "category": "market",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": "Martin Place",
+   "lat": -33.8675,
+   "lng": 151.2094,
+   "area_zh": null,
+   "start": "2026-11-28",
+   "end": "2026-12-24",
+   "schedule_zh": "11:00–21:15（指定日期，詳見官網日期表）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費入場・聖誕市集",
+   "summary_zh": "位於馬丁廣場、市政府聖誕樹下的聖誕市集，約 60 個攤位販售獨特禮品、手作商品與精緻美食。適合在市區逛街、感受節慶氣氛的旅客。",
+   "tip_zh": "部分週六的免費工作坊需事先預約，請見官網日期表。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Sydney – Martin Place Christmas Markets 2026",
+     "url": "https://whatson.cityofsydney.nsw.gov.au/events/martin-place-christmas-markets"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-22"
+   },
+   "added": "2026-11-22"
   }
  ]
 }
