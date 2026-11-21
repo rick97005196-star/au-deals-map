@@ -86,6 +86,13 @@ function translateItem(it, l, tr) {
 /* ---------- 讀資料並檢查 ---------- */
 const data = JSON.parse(read('data/items.json'));
 const geo = JSON.parse(read('data/au-states.geojson'));
+// 合併重複項目：data/aliases.json 是「舊 id → 保留的 id」。舊的那筆不上網站、來源併到保留的那筆（tools/dupes.js），
+// 舊的分享連結（#舊id）和收藏也會指到保留的那筆；保留的那筆已下架的對照就不帶進頁面
+let aliases = {};
+try { aliases = JSON.parse(read('data/aliases.json')); } catch (e) { if (e.code !== 'ENOENT') throw new Error(`data/aliases.json 不是正確的 JSON：${e.message}`); }
+data.items = require('./tools/dupes').applyAliases(data.items, aliases).items;
+const liveIds = new Set(data.items.map((i) => i.id));
+aliases = Object.fromEntries(Object.entries(aliases).filter(([a, b]) => !liveIds.has(a) && liveIds.has(b)));
 const REGIONS = ['AU', 'QLD', 'NSW', 'VIC', 'SA', 'WA', 'TAS', 'ACT', 'NT'];
 const CATS = ['festival', 'music', 'food', 'market', 'arts', 'sport', 'outdoors', 'family', 'shopping', 'grocery', 'dining', 'tickets', 'entertainment', 'travel'];
 const KINDS = ['official', 'social', 'community', 'news'];
@@ -216,7 +223,7 @@ function buildLang(l, tm) {
   // 首頁
   const indexTpl = read('src/index.html');
   const before = missing.size;
-  const d = l === 'zh' ? data : { updated: data.updated, items: data.items.map((it) => translateItem(it, l, trData)) };
+  const d = l === 'zh' ? Object.assign({}, data, { aliases }) : { updated: data.updated, aliases, items: data.items.map((it) => translateItem(it, l, trData)) };
   // 提示列只在缺不少翻譯時出現（剛推送的新項目、翻譯還在跑）；零星幾段自動翻譯一直沒通過檢查的不另外提示
   const dataMissing = missing.size - before > 10;
   const dict = scriptDict(indexTpl, tr);

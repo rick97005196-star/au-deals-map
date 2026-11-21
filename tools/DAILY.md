@@ -66,7 +66,7 @@ WebSearch 次數用完時，改用 WebFetch 直接打開 SOURCES.md 裡的官方
 ## 4. 獨立查證新項目
 把所有 `/tmp/new-*.json` 合併成 `/tmp/new.json`。另外派一位（多於 20 筆就兩位、多於 40 筆就三位）**沒參與蒐集**的查證員子代理，依 `tools/VERIFY.md` 逐筆查證，結果寫到 `/tmp/new-verdicts.json`。然後：
 `node tools/daily.js add /tmp/new.json /tmp/new-verdicts.json`
-只有 ok／fix 的會加進去，重複的自動跳過。新增後執行 `grep -c '"hot": true' data/items.json`，超過 20 筆時，移除今天新增項目中較不具代表性者的 `"hot": true`，使全站不超過 20 筆。
+只有 ok／fix 的會加進去，重複的自動跳過（同 id、同標題，或和現有項目是同一個優惠：同州、日期重疊、同官方網域、名稱或金額很像）。接著執行 `node tools/daily.js dupes`：列出的疑似重複如果真的是同一個優惠，在 `data/aliases.json` 加上「舊 id → 保留的 id」（保留 `added` 較早的那筆；建置時會自動把舊的那筆的來源併過去並移除，舊分享連結和收藏也會打開保留的那筆）；確定是不同活動的，加進 `tools/dupes.js` 的 `NOT_DUPES`。新增後執行 `grep -c '"hot": true' data/items.json`，超過 20 筆時，移除今天新增項目中較不具代表性者的 `"hot": true`，使全站不超過 20 筆。
 
 ## 5. 檢查、上線
 1. `node tools/daily.js stamp`，再 `node build.js`（會檢查每一筆的格式，有錯就修到沒錯）。

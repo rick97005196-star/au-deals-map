@@ -1,6 +1,6 @@
 // 每日更新用的小工具（零相依）。用法：node tools/daily.js <指令> [檔案…]
 //
-//   prune                      移除已經結束的項目（end 早於今天，布里斯本時間）
+//   prune                      移除已經結束的項目（end 早於今天，布里斯本時間），並合併 data/aliases.json 記錄的重複項目
 //   list                       列出目前所有項目，給研究員比對重複用
 //   due [輸出檔]               列出今天要重新查證的現有項目（4 天內開始、部分查證滿 3 天、其他滿 7 天，
 //                              以及自動檢查發現官方網址連續找不到的），可輸出成 JSON 給查證員
@@ -8,12 +8,15 @@
 //                              <資料夾>/leads-<代號>.json，預設 /tmp
 //   verdicts <查證結果.json>   把查證員對「現有項目」的結果套進去：drop 移除、fix 修正，更新查證狀態與日期
 //   add <新項目.json> <查證結果.json>
-//                              只把查證結果是 ok／fix 的新項目加進去（套用修正、補 added＝今天），重複的跳過
+//                              只把查證結果是 ok／fix 的新項目加進去（套用修正、補 added＝今天），
+//                              重複的跳過（同 id、同標題，或 tools/dupes.js 判斷和現有項目是同一個優惠）
+//   dupes                      列出現有資料裡疑似重複的項目（同州、日期重疊、同官方網域、名稱或金額很像）
 //   stamp                      把 updated 改成今天
 //   gaps                       各分類、各州目前筆數，標出偏少的，研究員優先補這些
 //   count                      印出目前項目數
 const fs = require('fs');
 const path = require('path');
+const { findDupes, dupeOf, applyAliases } = require('./dupes');
 
 const FILE = path.join(__dirname, '..', 'data', 'items.json');
 const load = () => JSON.parse(fs.readFileSync(FILE, 'utf8'));
@@ -41,6 +44,12 @@ const d = load();
 
 switch (cmd) {
   case 'prune': {
+    // 先合併 data/aliases.json 記錄的重複項目（和 build.js、auto-daily.js 相同）
+    let aliases = {};
+    try { aliases = readJson(path.join(__dirname, '..', 'data', 'aliases.json')); } catch (e) { if (e.code !== 'ENOENT') throw e; }
+    const al = applyAliases(d.items, aliases);
+    d.items = al.items;
+    if (al.merged.length) console.log(`合併重複 ${al.merged.length} 筆：${al.merged.join('、')}`);
     const keep = [], gone = [];
     for (const it of d.items) (it.end && it.end < TODAY ? gone : keep).push(it);
     d.items = keep;
@@ -104,6 +113,8 @@ switch (cmd) {
       if (ids.has(c.id) || names.has(c.region + ':' + norm(c.title))) { skipped.push(`${c.id}（已經有了）`); continue; }
       if (!Array.isArray(c.sources) || !c.sources.some((s) => s.kind === 'official')) { skipped.push(`${c.id}（沒有官方來源）`); continue; }
       const it = applyVerdict({ ...c }, v);
+      const dup = dupeOf(it, d.items);
+      if (dup) { skipped.push(`${c.id}（和現有的 ${dup.it.id} 是同一個優惠：${dup.why}）`); continue; }
       it.added = TODAY;
       d.items.push(it);
       ids.add(it.id); names.add(it.region + ':' + norm(it.title));
@@ -113,6 +124,12 @@ switch (cmd) {
     console.log(`新增 ${added.length} 筆、跳過 ${skipped.length} 筆，目前共 ${d.items.length} 筆`);
     added.forEach((s) => console.log('  + ' + s));
     skipped.forEach((s) => console.log('  · ' + s));
+    break;
+  }
+  case 'dupes': {
+    const list = findDupes(d.items);
+    console.log(list.length ? `疑似重複 ${list.length} 組（留 added 較早的那筆，把另一筆的來源併過去，舊 id 寫進 data/aliases.json）：` : '沒有疑似重複的項目');
+    for (const { a, b, why } of list) console.log(`  ${a.id}｜${a.title_zh}\n  ${b.id}｜${b.title_zh}\n    → ${why}`);
     break;
   }
   case 'stamp': {

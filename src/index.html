@@ -536,6 +536,16 @@ body{font:16px/1.75 var(--f-body)}
 .rg[aria-pressed="true"]{position:relative;z-index:1}
 .rg .n{color:var(--muted)}
 
+/* 城市：選了州之後出現在地區下方 */
+.areas{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.areas .chip{height:34px}
+.areas .chip .n{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.areas .chip{flex:none}
+@media (max-width:640px){
+  .areas{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin:10px calc(var(--gutter) * -1) 0;padding:0 var(--gutter) 2px}
+  .areas::-webkit-scrollbar{display:none}
+}
+
 /* 快速入口、分類與篩選 */
 .qt{border:1px solid var(--line-strong);border-radius:6px;background:var(--paper)}
 .qt:hover{border-color:var(--ctl);box-shadow:none}
@@ -783,6 +793,7 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
     </div>
     <div class="regions-head"><p class="regions-label">選擇所在地區（全澳適用的優惠會一併顯示）</p><button type="button" class="btn" id="geoBtn" title="透過 GPS 自動偵測您所在的州，並由近到遠排序"><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg><span>定位自己的位置</span></button></div>
     <div class="regions" id="regions" role="group" aria-label="地區"></div>
+    <div class="areas" id="areas" role="group" aria-label="城市" hidden></div>
   </div>
 </section>
 
@@ -800,6 +811,7 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
       <button class="toggle" id="freeBtn" type="button" aria-pressed="false">僅顯示免費</button>
       <select class="select" id="when" aria-label="時間">
         <option value="any">所有日期</option>
+        <option value="today">今天</option>
         <option value="now">進行中</option>
         <option value="weekend">本週末</option>
         <option value="7">7 天內</option>
@@ -923,6 +935,9 @@ const DATA = JSON.parse(document.getElementById('data').textContent);
 const GEO = JSON.parse(document.getElementById('geo').textContent);
 const ITEMS = DATA.items;
 const BYID = Object.fromEntries(ITEMS.map(i => [i.id, i]));
+// 合併掉的重複項目：舊 id 換成保留的那筆（舊分享連結、舊收藏）
+const ALIAS = DATA.aliases || {};
+const realId = id => BYID[id] ? id : (ALIAS[id] && BYID[ALIAS[id]] ? ALIAS[id] : id);
 
 const REGIONS = [
   {code:'AU',  zh:TR("全澳洲"),     en:'Australia',         city:'Australia'},
@@ -999,8 +1014,30 @@ const isNew = it => it.added && TODAY - dn(it.added) <= 2;
 const isEnding = it => it._e !== null && it._s <= TODAY && it._e - TODAY <= 7;
 const onWeekend = it => weekendDays().some(d => activeOn(it, d));
 
+/* ---------- 城市：依座標分到主要城市圈（半徑內），州內其他地方歸「其他地區」 ---------- */
+const AREAS = {
+  QLD: [{k:'bne', zh:TR("布里斯本"), lat:-27.47, lng:153.03, r:35}, {k:'gc', zh:TR("黃金海岸"), lat:-28.02, lng:153.40, r:30}, {k:'sc', zh:TR("陽光海岸"), lat:-26.65, lng:153.02, r:45}, {k:'cns', zh:TR("凱恩斯"), lat:-16.92, lng:145.77, r:40}, {k:'tsv', zh:TR("湯斯維爾"), lat:-19.26, lng:146.82, r:30}],
+  NSW: [{k:'syd', zh:TR("雪梨"), lat:-33.87, lng:151.10, r:55}, {k:'wol', zh:TR("臥龍崗"), lat:-34.43, lng:150.89, r:25}, {k:'pmq', zh:TR("麥覺理港"), lat:-31.20, lng:152.90, r:60}],
+  VIC: [{k:'mel', zh:TR("墨爾本"), lat:-37.81, lng:144.96, r:50}],
+  SA:  [{k:'adl', zh:TR("阿德雷德"), lat:-34.93, lng:138.60, r:40}],
+  WA:  [{k:'per', zh:TR("伯斯"), lat:-31.95, lng:115.86, r:40}],
+  TAS: [{k:'hba', zh:TR("荷巴特"), lat:-42.88, lng:147.33, r:40}, {k:'lst', zh:TR("朗瑟斯頓"), lat:-41.44, lng:147.14, r:30}],
+  NT:  [{k:'drw', zh:TR("達爾文"), lat:-12.46, lng:130.84, r:40}],
+};
+const AREA_BY = {};
+Object.values(AREAS).forEach(list => list.forEach(a => AREA_BY[a.k] = a));
+function areaOf(it){
+  if (it.lat == null || it.lng == null || it.area_zh) return '';   // 全州或全澳適用：每個城市都看得到
+  const list = AREAS[it.region];
+  if (!list) return '';
+  let best = null, bd = Infinity;
+  list.forEach(a => { const d = km(it.lat, it.lng, a.lat, a.lng); if (d <= a.r && d < bd){ bd = d; best = a; } });
+  return best ? best.k : 'other';
+}
+ITEMS.forEach(it => { it._a = areaOf(it); });
+
 /* ---------- 狀態 ---------- */
-const DEF = {q:'', region:'AU', group:'all', cat:'all', free:false, when:'any', flag:'', quick:'', sort:'smart'};
+const DEF = {q:'', region:'AU', area:'', group:'all', cat:'all', free:false, when:'any', flag:'', quick:'', sort:'smart'};
 const S = Object.assign({}, DEF, {view:'list', open:null, hot:[]});
 const isHot = it => it.hot === true || S.hot.slice(0, 5).includes(it.id);
 try { const r = localStorage.getItem('adm_region'); if (r && RBY[r]) S.region = r; } catch(e) {}
@@ -1012,10 +1049,12 @@ function pass(it, skip){
   skip = skip || {};
   if (status(it).k === 'ended') return false;
   if (!skip.region && S.region !== 'AU' && it.region !== S.region && it.region !== 'AU') return false;
+  if (!skip.region && !skip.area && S.area && it._a && it._a !== S.area) return false;
   if (!skip.group && S.group !== 'all' && it._g !== S.group) return false;
   if (!skip.group && S.cat !== 'all' && it.category !== S.cat) return false;
   if (!skip.filters){
     if (S.free && !it.free) return false;
+    if (S.when === 'today' && !activeOn(it, TODAY)) return false;
     if (S.when === 'now' && it._s > TODAY) return false;
     if (S.when === 'weekend' && !onWeekend(it)) return false;
     if (S.when === '7' && it._s > TODAY + 7) return false;
@@ -1073,6 +1112,20 @@ function renderRegions(){
     const n = r.code === 'AU' ? base.length : base.filter(it => it.region === r.code || it.region === 'AU').length;
     return `<button type="button" class="rg" data-region="${r.code}" aria-pressed="${S.region === r.code}">${r.zh}<span class="n">${n}</span></button>`;
   }).join('');
+}
+function renderAreas(){
+  const list = AREAS[S.region] || [];
+  const base = ITEMS.filter(it => it.region === S.region && pass(it, {area:true}));
+  // 全州適用的（沒有確切地點）每個城市都會顯示，計數也一起算，和下面的結果筆數一致
+  const counts = {}, wide = base.filter(it => !it._a).length;
+  base.forEach(it => { if (it._a) counts[it._a] = (counts[it._a] || 0) + 1; });
+  const shown = list.filter(a => counts[a.k] || S.area === a.k);
+  if (counts.other || S.area === 'other') shown.push({k:'other', zh:TR("其他地區")});
+  // 只有一個城市圈（例如全部都在墨爾本）時不用分
+  if (shown.length < 2 && !S.area){ $('areas').hidden = true; $('areas').innerHTML = ''; return; }
+  $('areas').hidden = false;
+  $('areas').innerHTML = `<button type="button" class="chip" data-area="all" aria-pressed="${!S.area}">${TR("全州")}</button>` +
+    shown.map(a => `<button type="button" class="chip" data-area="${a.k}" aria-pressed="${S.area === a.k}">${a.zh}<span class="n">${(counts[a.k] || 0) + wide}</span></button>`).join('');
 }
 function renderTabs(){
   const base = ITEMS.filter(it => pass(it, {group:true}));
@@ -1159,6 +1212,7 @@ function section(title, note, arr, key){
 function renderActive(){
   const tags = [];
   if (S.region !== 'AU') tags.push(['region', RBY[S.region].zh]);
+  if (S.area) tags.push(['area', S.area === 'other' ? TR("其他地區") : AREA_BY[S.area].zh]);
   if (S.group !== 'all') tags.push(['group', S.cat !== 'all' ? CATS[S.cat] : GBY[S.group].zh]);
   if (S.free) tags.push(['free', TR("免費")]);
   if (S.when !== 'any') tags.push(['when', $('when').selectedOptions[0].textContent]);
@@ -1173,7 +1227,7 @@ function renderList(){
   const local = list.filter(it => it.region === S.region).length;
   $('count').innerHTML = S.region === 'AU'
     ? (list.length === 1 ? TR("共 <b>1</b> 筆") : TR("共 <b>{0}</b> 筆", list.length))
-    : TR("{0} <b>{1}</b> 筆・全澳適用 <b>{2}</b> 筆", R.zh, local, list.length - local);
+    : TR("{0} <b>{1}</b> 筆・全澳適用 <b>{2}</b> 筆", S.area ? (S.area === 'other' ? TR("其他地區") : AREA_BY[S.area].zh) : R.zh, local, list.length - local);
   if (S.sort === 'near') $('count').innerHTML += TR("・由近到遠，沒有確切地點的排在最後");
   renderActive();
   let html = '';
@@ -1257,7 +1311,7 @@ sheet.addEventListener('close', () => {
 });
 sheet.addEventListener('click', e => { if (e.target === sheet) sheet.close(); });
 
-function hashId(){ try { return decodeURIComponent(location.hash.slice(1)); } catch(e) { return ''; } }
+function hashId(){ try { return realId(decodeURIComponent(location.hash.slice(1))); } catch(e) { return ''; } }
 
 /* ---------- 社群搜尋 ---------- */
 const SOCIAL = [
@@ -1361,6 +1415,11 @@ function fitRegion(code){
   if (code === 'ACT' && b) b = b.pad(1.2);
   if (b) map.flyToBounds(b, {padding:[30,30], duration:.6, maxZoom:8});
 }
+function fitArea(){
+  if (!map || S.view !== 'map') return;
+  const a = AREA_BY[S.area];
+  if (a) map.flyTo([a.lat, a.lng], 10, {duration:.6}); else fitRegion(S.region);
+}
 function setView(v, boot){
   S.view = v;
   $('listView').hidden = v !== 'list';
@@ -1389,7 +1448,7 @@ const OZ = window.OZWH || null;
 let SAVED = new Set();   // 舊版收藏（adm_favorites），也是 SDK 無法載入時的備援
 try {
   const raw = localStorage.getItem('adm_favorites');
-  if (raw) SAVED = new Set(JSON.parse(raw));
+  if (raw) SAVED = new Set(JSON.parse(raw).map(realId));
 } catch(e) {}
 const BOOKMARK = filled => `<svg width="18" height="18" viewBox="0 0 24 24" fill="${filled ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>`;
 const isSaved = id => OZ ? OZ.has('save', id) : SAVED.has(id);
@@ -1502,6 +1561,8 @@ if (OZ){
   OZ.ready.then(() => {
     let moved = 0;
     SAVED.forEach(id => { if (BYID[id] && !OZ.has('save', id)) { OZ.add('save', saveEntry(BYID[id])); moved++; } });
+    // 收藏裡有合併掉的重複項目：換成保留的那筆
+    Object.keys(ALIAS).forEach(a => { const b = realId(a); if (b !== a && OZ.has('save', a)) { OZ.remove('save', a); if (!OZ.has('save', b)) OZ.add('save', saveEntry(BYID[b])); } });
     if (SAVED.size) { SAVED.clear(); try { localStorage.removeItem('adm_favorites'); } catch(e) {} }
     syncSaved();
   });
@@ -1597,11 +1658,12 @@ function downloadIcs(items, filename) {
 let lastList = [];
 function render(){
   SHOW = {};
-  renderRegions(); renderQuick(); renderTabs();
+  renderRegions(); renderAreas(); renderQuick(); renderTabs();
   lastList = renderList();
   renderMap(lastList);
 }
 function setRegion(code, silent){
+  if (code !== S.region) S.area = '';
   S.region = code;
   try { localStorage.setItem('adm_region', code); } catch(e) {}
   if (!silent) track('region', code);
@@ -1667,6 +1729,7 @@ document.addEventListener('click', e => {
   if (!t) return;
   if (t.hasAttribute('data-close')){ sheet.close(); return; }
   if (t.dataset.region){ setRegion(t.dataset.region); return; }
+  if (t.dataset.area){ manual(); S.area = t.dataset.area === 'all' ? '' : t.dataset.area; track('region', S.region + ':' + (S.area || 'all')); render(); fitArea(); return; }
   if (t.dataset.quick){ applyQuick(S.quick === t.dataset.quick ? '' : t.dataset.quick); return; }
   if (t.dataset.group){ manual(); S.group = t.dataset.group; S.cat = 'all'; track('cat', S.group); render(); scrollToResults(); return; }
   if (t.dataset.cat){ manual(); S.cat = t.dataset.cat; track('cat', S.cat); render(); return; }
@@ -1675,6 +1738,7 @@ document.addEventListener('click', e => {
     manual();
     if (k === 'all'){ Object.assign(S, DEF, {sort:S.sort}); setRegion('AU'); syncControls(); render(); return; }
     if (k === 'region'){ setRegion('AU'); return; }
+    if (k === 'area'){ S.area = ''; render(); fitRegion(S.region); return; }
     if (k === 'group'){ S.group = 'all'; S.cat = 'all'; }
     if (k === 'free') S.free = false;
     if (k === 'when') S.when = 'any';

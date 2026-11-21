@@ -7,7 +7,7 @@
 - 主機：Cloudflare Pages 專案 `au-deals-map`，連動 GitHub 倉庫 `rick97005196-star/au-deals-map` 的 `main` 分支
 - 免責聲明：https://au-deals-map.pages.dev/disclaimer/
 - 風格：白色主題、簡潔有質感、用詞正式
-- 版面（由上而下）：標題與搜尋、地區 → 快速瀏覽（本週末、免費、超市特價、餐飲與外送、交通與旅遊、即將截止）→ 分類列（全部／吃喝／活動／購物／行程交通，捲動時固定在上方）→ 卡片牆（電腦 3 欄、平板 2 欄、手機 1 欄）。點卡片打開詳細資訊（電腦從右側滑出、手機從底部滑出）。畫面下方的按鈕切換「地圖」檢視（Leaflet，放大後疊灰階 OpenStreetMap 底圖）。
+- 版面（由上而下）：標題與搜尋、地區（選了州之後下面會出現城市：例如昆士蘭可再選布里斯本、黃金海岸、陽光海岸、凱恩斯、湯斯維爾，州內其他地方歸「其他地區」；全州適用的優惠每個城市都會顯示）→ 快速瀏覽（本週末、免費、超市特價、餐飲與外送、交通與旅遊、即將截止）→ 分類列（全部／吃喝／活動／購物／行程交通，捲動時固定在上方）→ 卡片牆（電腦 3 欄、平板 2 欄、手機 1 欄）。點卡片打開詳細資訊（電腦從右側滑出、手機從底部滑出）。畫面下方的按鈕切換「地圖」檢視（Leaflet，放大後疊灰階 OpenStreetMap 底圖）。
 - Logo：`brand/`（價格標籤＋南十字星，琥珀色圓點是標籤孔）。`logo-mark.svg` 圖示、`logo.svg` 橫式、`logo-stacked.svg` 直式；網站上的圖示與分頁小圖示都從這裡來。
 
 ## 常用指令
@@ -51,6 +51,13 @@ GitHub Actions「自動蒐集線索」（`.github/workflows/collect.yml`，跑 `
 只在雲端更新，桌面資料夾不會自動變；要讓資料夾變成最新版，跟 Claude 說「同步」。
 
 相關檔案：`tools/DAILY.md`（流程）、`tools/SOURCES.md`（資訊來源清單，會自動增加）、`tools/SCHEMA.md`（格式、分類與收錄規則）、`tools/VERIFY.md`（查證規則）、`tools/daily.js`（小工具，`gaps` 看哪些分類偏少）。
+
+### 避免重複
+研究員常把同一個優惠用不同 id、不同標題再找一次。`tools/dupes.js` 用「同州、日期重疊、同官方網域、地點 3 公里內，再看中英文標題、官方網址、金額有多像」判斷是不是同一個優惠：
+- `node tools/daily.js add` 遇到和現有項目重複的新項目會自動跳過，並寫出是和哪一筆重複。
+- `node tools/daily.js dupes` 列出現有資料裡疑似重複的；每日自動整理（GitHub Actions）也會在紀錄裡提醒，但不擋上線。
+- 合併只要在 `data/aliases.json` 寫「舊 id → 保留的 id」（保留 `added` 較早的那筆）：建置時網站就不顯示舊的那筆、它的來源併到保留的那筆，舊的分享連結和收藏會打開保留的那筆；`daily.js prune` 和每日自動整理會把合併寫回 `data/items.json`。確定是不同活動、名稱卻很像的，加進 `tools/dupes.js` 的 `NOT_DUPES`。
+- 自我檢查：`node tools/dupes.test.js`。
 
 ## 多語言（繁中、English、日本語、한국어）
 
@@ -104,6 +111,7 @@ GitHub Actions「自動蒐集線索」（`.github/workflows/collect.yml`，跑 `
 | 路徑 | 內容 |
 |---|---|
 | `data/items.json` | 所有活動與特價 |
+| `data/aliases.json` | 合併掉的重複項目：舊 id → 保留的 id |
 | `data/au-states.geojson` | 澳洲各州邊界（Natural Earth，公有領域，已簡化） |
 | `src/index.html` | 首頁版型（`build.js` 會把資料塞進去） |
 | `src/disclaimer.html` | 免責聲明頁（修改內容時記得更新頁尾的「最後修訂日期」） |
