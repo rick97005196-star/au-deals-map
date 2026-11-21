@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 22:13",
+ "updated": "2026-11-21 22:21",
  "note": "自動蒐集的線索（RSS），只是線索，每一筆都要到官方頁面查證。",
  "failed": [
   "rd-frugal（HTTP 404）",
@@ -8,8 +8,8 @@
   "rd-sunshine（HTTP 404）",
   "rd-cairns（HTTP 429）",
   "rd-sydney（HTTP 404）",
-  "rd-melbourne（HTTP 404）",
-  "rd-perth（HTTP 429）",
+  "rd-melbourne（HTTP 429）",
+  "rd-perth（HTTP 404）",
   "rd-adelaide（HTTP 404）",
   "rd-canberra（HTTP 429）",
   "rd-hobart（HTTP 404）",
@@ -1098,6 +1098,18 @@
   },
   {
    "for": "A",
+   "feed": "news-20",
+   "region": "AU",
+   "topic": "新聞：(DFO OR \"Harbour Town\" OR \"brand outlet\" OR Uniqlo OR \"Cotton On\" OR Kathmandu OR Bonds OR \"H&M\") (sale OR outlet OR \"off\" OR members)",
+   "title": "Alphabet sells C$6B of bonds, a 40-year at 6%, at wider spreads than its May deal - Techi",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWE1qWFJvZmJ2SmY4emg1U1VUdGR2OFF5TmRERzBBd1Eza1pib3hGVFhWRU5QUE5ZX2ZseXhUSTVmUHJOcHQtZEwySXNTY0VDMnZRYTI0T3ZXdmczT3A0Wnh5UGlYbk5YbUZ2a1VDWERVUDhTLXB5OVdydld6LUcyUWpnc04wc181eXZ4WVVXbEV2QQ?oc=5",
+   "date": "2026-11-21",
+   "snippet": "Alphabet sells C$6B of bonds, a 40-year at 6%, at wider spreads than its May deal &nbsp;&nbsp; Techi",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21"
+  },
+  {
+   "for": "A",
    "feed": "ozb-freebies",
    "region": "AU",
    "topic": "免費",
@@ -1777,6 +1789,42 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQTA5NUc1clRCUmtfQWFLNFFRRGtSTmdEQkU3N3lzcDJmdE1EcEFyaS1WcXN2SEZRNEdvcjFTOThBR19kd1dZZ3hQZDRaQ1MwQ3FDN0dBV1h2RmxxN2hxZVEyQVhYMzUtUEt0bFNET2xweGw1ZXFQazk5THhiWUx2bVBrX3o4WWVHX2I5MGtkd05hQXkyX2puS1hKek9DSXdkdHVHOUIzWmpNSmdXMENhSW43YVcxVzJWZHRWalNnc3M1M1JaQ1RCbS1Rb9IB0AFBVV95cUxPdENDazBuWVpDeWN1M2R0eGNLMjJRM3JxRnJKal9HSWRSby1sdEhndHlTRFZRZk1SYlBxRlA5YnV4ZmhyamZJV0lvLWxrR0pNUE5xMHNmei00VTN6M0ppS1B6UGVNUGZyUGxLWl83NkhHR0M1SlhyeFk0N2lfTDZxTk1tNEV0V3ozc1ozNVl0S2ZPSWJHV0pUc0kyMXZycU9tcVZ0MmRKT0EySll2bGJHZ0o0UVp0Rzg1cVpGTC1JTGl0TVNBX3Q0anAzbGNRWlM1?oc=5",
    "date": "2026-11-20",
    "snippet": "RBI flags suspicious off-market deals in state bonds &nbsp;&nbsp; The Economic Times",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21"
+  },
+  {
+   "for": "C",
+   "feed": "news-5",
+   "region": "VIC",
+   "topic": "新聞：Melbourne (\"free event\" OR festival OR \"things to do\")",
+   "title": "Melbourne Documentary Film Festival Awards - FilmInk",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMnhrR19FSlhOcVNIZWNJVTRqb2Y3bEVnNmdLRUJRS1I5cXR3YzdyM2pjNk5MSzZGTWZpcExYcGVlckdIc2FycTV5cVdUamtrVERpbUdzQksxVDJ1dldNMEpJRllNaGFJWk1ZM09zejF2cnFSaE9kYVBJWFlVcHJEZ0ZMdm9GbjdSRXRuNA?oc=5",
+   "date": "2026-11-20",
+   "snippet": "Melbourne Documentary Film Festival Awards &nbsp;&nbsp; FilmInk",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21"
+  },
+  {
+   "for": "C",
+   "feed": "news-9",
+   "region": "TAS",
+   "topic": "新聞：(Hobart OR Launceston) (festival OR event)",
+   "title": "Upcoming Sporting Events in Australia 2027: Full Schedule - sportstralia.com.au",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5neHZBVGJldHhIdEU3clM3LVBnQk9OZHlFV1Mwa19XeTBsM0prbExjcnRnVHgwUjVsejFDamp1aUR6RVU1TUMzbF9scGVZYmtLWUVqeTduWVZNaDRubExTU2hwamNUZlIzQ2dScVI1SDNWRzR2Umc?oc=5",
+   "date": "2026-11-20",
+   "snippet": "Upcoming Sporting Events in Australia 2027: Full Schedule &nbsp;&nbsp; sportstralia.com.au",
+   "first_seen": "2026-11-21",
+   "last_seen": "2026-11-21"
+  },
+  {
+   "for": "A",
+   "feed": "news-20",
+   "region": "AU",
+   "topic": "新聞：(DFO OR \"Harbour Town\" OR \"brand outlet\" OR Uniqlo OR \"Cotton On\" OR Kathmandu OR Bonds OR \"H&M\") (sale OR outlet OR \"off\" OR members)",
+   "title": "SpaceX Sold $32B of Bonds at 8%+ Yields to Buy AI Chips; SPCX Stock Falls - TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNzc4VkpsVHRacFdEMzEzNWRpckFSb0dRbU0zcUV4NzRNUV90bXJsa24waHdPQXdNenJCUkl6OHV3UnFtUkJ6T1ZVNVZNZzliMUpGd0V3VFdncEpWWU9qQ2RKT3ByWllTdkxUQ1NhVEJhMFpPRUEyZ1Y4UVJ1aDlfYUV5VEkxZGFKVW5zTkxLZUwtMHNncVdZa2ZUTzI2aUpJ?oc=5",
+   "date": "2026-11-20",
+   "snippet": "SpaceX Sold $32B of Bonds at 8%+ Yields to Buy AI Chips; SPCX Stock Falls &nbsp;&nbsp; TipRanks",
    "first_seen": "2026-11-21",
    "last_seen": "2026-11-21"
   },
