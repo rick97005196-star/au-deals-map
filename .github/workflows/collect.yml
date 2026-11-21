@@ -1,0 +1,66 @@
+# 自動蒐集線索（不需要 Claude、不需要任何密鑰）：
+# - 每 3 小時讀 RSS（OzBargain、Reddit、Google 新聞），把新線索累積到 data/auto/leads.json
+# - 每天清晨一次完整檢查：再加上「官方網址還在不在」（data/auto/links.json）和「官方活動頁有沒有新內容」（data/auto/watch.json）
+# 每日 Claude 更新（約 04:50）直接讀這些檔案，不用自己從頭找。
+# commit 訊息帶 [skip ci]：只是線索檔，Cloudflare Pages 不會因此重新上線，其他 GitHub 自動化也不會被觸發。
+name: 自動蒐集線索
+on:
+  push:
+    branches: [claude/auto-collect]   # 暫時：測試用
+  schedule:
+    - cron: '25 */3 * * *'   # 每 3 小時（布里斯本 01:25、04:25、07:25…）：只讀 RSS
+    - cron: '10 17 * * *'    # 布里斯本 03:10：完整檢查（RSS＋官方網址＋官方活動頁）
+  workflow_dispatch:
+    inputs:
+      what:
+        description: '要做哪些（rss links watch，用空白分開；留空＝全部）'
+        required: false
+        default: ''
+permissions:
+  contents: write            # 只用 GitHub 內建的推送權限
+concurrency:
+  group: auto-collect
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: 決定這次要做哪些
+        id: plan
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then what="${{ github.event.inputs.what }}";
+          elif [ "${{ github.event.schedule }}" = "10 17 * * *" ]; then what="";
+          else what="rss"; fi
+          echo "what=$what" >> "$GITHUB_OUTPUT"
+          echo "這次：${what:-全部}"
+      - name: 自我檢查
+        run: node tools/collect.test.js
+      - name: 取回上次的官方頁面指紋
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: watch-state-${{ github.run_id }}
+          restore-keys: watch-state-
+      - name: 蒐集
+        run: node tools/collect.js ${{ steps.plan.outputs.what }}
+      - name: 存下這次的官方頁面指紋
+        if: always() && (steps.plan.outputs.what == '' || contains(steps.plan.outputs.what, 'watch'))
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: watch-state-${{ github.run_id }}
+      - name: 有變動才推送（[skip ci]：不會重新上線）
+        run: |
+          git diff --quiet -- data/auto && [ -z "$(git ls-files --others --exclude-standard data/auto)" ] && { echo '沒有變動'; exit 0; }
+          for f in data/auto/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || { echo "$f 格式有誤，不推送"; exit 1; }; done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/auto
+          git commit -m "自動蒐集 $(TZ=Australia/Brisbane date '+%-m/%-d %H:%M')：更新線索 [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0; sleep 15; done
+          echo '和其他推送撞到，下次再存'

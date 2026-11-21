@@ -1,5 +1,6 @@
 // 讀 tools/feeds.json 的 RSS（OzBargain、Reddit、Google 新聞），整理成研究員用的線索（零相依，Node 18 以上）。
 // 用法：node tools/feeds.js [輸出檔，預設 /tmp/leads-rss.json] [天數，預設 3]
+// 也可以被 tools/collect.js 呼叫：require('./feeds.js').readFeeds(天數, 已知標題)
 //
 // 線索只是線索：每一筆仍要照 tools/VERIFY.md 到官方頁面確認，RSS 的網址不能當官方來源。
 // 讀不到的來源（被擋、逾時）會列在最後，不會讓整個流程停下來。
@@ -7,10 +8,6 @@ const fs = require('fs');
 const path = require('path');
 
 const CFG = JSON.parse(fs.readFileSync(path.join(__dirname, 'feeds.json'), 'utf8'));
-const ITEMS = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'items.json'), 'utf8')).items;
-const OUT = process.argv[2] || '/tmp/leads-rss.json';
-const DAYS = Number(process.argv[3]) || 3;
-const SINCE = Date.now() - DAYS * 86400e3;
 const UA = 'Mozilla/5.0 (compatible; au-deals-map feed reader; +https://au-deals-map.pages.dev)';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 // 線索裡出現就跳過（網站不收的內容）
@@ -24,7 +21,7 @@ const decode = (s) => String(s || '')
 const strip = (s) => decode(decode(s)).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 const tag = (block, name) => { const m = block.match(new RegExp(`<${name}\\b[^>]*>([\\s\\S]*?)</${name}>`, 'i')); return m ? m[1] : ''; };
 const norm = (s) => String(s || '').toLowerCase().replace(/20\d\d/g, '').replace(/[^a-z0-9]+/g, '');
-const known = ITEMS.map((i) => norm(i.title)).filter((t) => t.length >= 8);
+const knownTitles = (items) => items.map((i) => norm(i.title)).filter((t) => t.length >= 8);
 
 function parse(xml) {
   const out = [];
@@ -50,7 +47,9 @@ async function get(url) {
   } finally { clearTimeout(t); }
 }
 
-(async () => {
+// 讀所有來源，回傳 { leads, failed }；known 是網站上已有項目的標題（正規化後）
+async function readFeeds(DAYS = 3, known = [], log = console.log) {
+  const SINCE = Date.now() - DAYS * 86400e3;
   const sources = [
     ...CFG.feeds.map((f) => ({ ...f, kind: f.url.includes('reddit.com') ? 'reddit' : 'rss' })),
     ...CFG.news.map((n, i) => ({ id: 'news-' + (i + 1), kind: 'news', topic: '新聞：' + n.q, region: n.region, for: n.for,
@@ -74,13 +73,23 @@ async function get(url) {
         leads.push({ for: s.for, feed: s.id, region: s.region, topic: s.topic, title: it.title, url: it.link,
           date: it.date ? new Date(it.date + 10 * 3600e3).toISOString().slice(0, 10) : null, snippet: it.snippet });
       }
-      console.log(`  ${s.id.padEnd(14)} ${String(n).padStart(3)} 筆`);
+      log(`  ${s.id.padEnd(14)} ${String(n).padStart(3)} 筆`);
     } catch (e) {
       failed.push(`${s.id}（${e.name === 'AbortError' ? '逾時' : e.message}）`);
-      console.log(`  ${s.id.padEnd(14)} 讀不到：${e.message}`);
+      log(`  ${s.id.padEnd(14)} 讀不到：${e.message}`);
     }
     await sleep(s.kind === 'reddit' ? 12000 : 1200); // 放慢速度，避免被限速
   }
+  return { leads, failed };
+}
+
+module.exports = { readFeeds, knownTitles, norm };
+
+if (require.main === module) (async () => {
+  const ITEMS = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'items.json'), 'utf8')).items;
+  const OUT = process.argv[2] || '/tmp/leads-rss.json';
+  const DAYS = Number(process.argv[3]) || 3;
+  const { leads, failed } = await readFeeds(DAYS, knownTitles(ITEMS));
   fs.writeFileSync(OUT, JSON.stringify(leads, null, 1));
   const by = leads.reduce((m, l) => ((m[l.for] = (m[l.for] || 0) + 1), m), {});
   console.log(`\n最近 ${DAYS} 天共 ${leads.length} 條線索 → ${OUT}`);
