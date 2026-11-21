@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-22 07:03",
+ "updated": "2026-11-22 08:16",
  "note": "自動蒐集的線索（RSS），只是線索，每一筆都要到官方頁面查證。",
  "failed": [
   "rd-frugal（HTTP 404）",
-  "rd-brisbane（HTTP 404）",
-  "rd-goldcoast（HTTP 429）",
-  "rd-sunshine（HTTP 404）",
+  "rd-brisbane（HTTP 429）",
+  "rd-goldcoast（HTTP 404）",
+  "rd-sunshine（HTTP 429）",
   "rd-cairns（HTTP 404）",
   "rd-sydney（HTTP 429）",
   "rd-melbourne（HTTP 404）",
-  "rd-perth（HTTP 429）",
-  "rd-adelaide（HTTP 404）",
-  "rd-canberra（HTTP 429）",
-  "rd-hobart（HTTP 404）",
-  "rd-darwin（HTTP 429）"
+  "rd-perth（HTTP 404）",
+  "rd-adelaide（HTTP 429）",
+  "rd-canberra（HTTP 404）",
+  "rd-hobart（HTTP 429）",
+  "rd-darwin（HTTP 404）"
  ],
  "leads": [
   {
@@ -97,6 +97,54 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVTdRMXktVDEtOUZDNllBSUhpV20tUDlFM2xlem5kQ0hGTnVMbS13V3pyeTFfMU1MS0ZlaTljR2RsMmdlSWd2Rk1pZVF2MWxoa2RWdFVaclVVVjE5cFRNcE5NS19lX0xBaFpwN2VsQndWTTM5MnYtcnVHLXRCU1NJSjZYYnJiUG1fbC1tNFVzcTY4X283TkUyNnJRRkkxZy1ZZzktOQ?oc=5",
    "date": "2026-11-22",
    "snippet": "The terracotta warriors are marching to Brisbane for an Queensland-exclusive exhibition &nbsp;&nbsp; InDaily Queensland",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "NO DOZ Effervescent Tablets Energy Berry Bolt or Citrus 8x20pk $29.99 (RRP $96) Delivered @ Lower Price People eBay",
+   "url": "https://www.ozbargain.com.au/node/984710",
+   "date": "2026-11-22",
+   "snippet": "NO DOZ Effervescent Tablets Energy Berry Bolt or Citrus (Expiry: 30/05/2027) 8x20pk $29.99 (RRP $96) Delivered @ Lower Price People eBay Citrus Link: …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "SodaKING Adventurer Green Soda Maker $35.96 w/ Coupon + $14.50 Delivery ($0 with $75 Order) @ SodaKING",
+   "url": "https://www.ozbargain.com.au/node/984709",
+   "date": "2026-11-22",
+   "snippet": "Same price as the red version, but still in stock. Included: 1x 1L water bottle (no gas cylinder included) Shipping: $14.50 flat rate ($50.46 delivered), or free over $75 Compatibility Note: …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "[VIC] FREE 300x Medium Cakes @ The Cheesecake Shop, Footscray — Grand Opening Sat 5 Dec, 11am-1pm",
+   "url": "https://www.ozbargain.com.au/node/984708",
+   "date": "2026-11-22",
+   "snippet": "The Cheesecake Shop is opening a new store in Footscray and is giving away 300 medium cakes at its grand opening party. When: Saturday, 5 December 2026, 11am-1pm Where: 145-147 Geelong Road, …",
+   "first_seen": "2026-11-22",
+   "last_seen": "2026-11-22"
+  },
+  {
+   "for": "E",
+   "feed": "news-16",
+   "region": "AU",
+   "topic": "新聞：(\"free public transport\" OR \"free travel\" OR \"fare\") (Queensland OR NSW OR Victoria OR Perth OR Adelaide OR Tasmania OR Canberra OR Darwin)",
+   "title": "Mystery review that could impact Spirit fares ordered for release - The Mercury",
+   "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOUEY5S0gxWGplSk5CYm91aGtmUVdLaV9nQ2V2czcwdEtERzZoRHdkTENnLUJ6TXY1RENyRF9tQUdyM3lWMGlXU09WRGgzVGdYdDV2RWhuUGdpeEd4UDZiWGJVU180ZzBQUnNKVTE3c2dHYktEOGFYN0dDcnBVMkNkV3R2OEpKQnhTVzVCMXl2UTA2Ui1iLVRvZXBXb2VNWlJDOVpxNTUwblpRcGdvejY3ekpSV3pPY3RSWElENDlpalBHTFJYbFNNS0Y2d3RFRWFoRzVnYVlmeG5aeWJDY3kzNWRMSThONDhoZHo2M3ZNbUxPQnRlWVlrY09DUW9SV0p3Y05rNW5vT1A?oc=5",
+   "date": "2026-11-22",
+   "snippet": "Mystery review that could impact Spirit fares ordered for release &nbsp;&nbsp; The Mercury",
    "first_seen": "2026-11-22",
    "last_seen": "2026-11-22"
   },

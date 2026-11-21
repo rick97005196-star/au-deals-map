@@ -1,13 +1,19 @@
 {
- "updated": "2026-11-21 22:24",
+ "updated": "2026-11-22 08:19",
  "note": "state：ok 正常、gone 找不到頁面（404／410）、blocked 被擋或暫時打不開。gone 連續 2 次以上會排進重新查證。",
- "broken": [],
+ "broken": [
+  {
+   "id": "farm-after-five-perth-city-farm-2026",
+   "url": "https://www.visitperth.com/events/farm-after-five",
+   "since": "2026-11-21"
+  }
+ ],
  "links": {
   "https://www.grilld.com.au/oscar-piastri": {
    "id": "grilld-oscar-piastri-burger-1281",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -15,7 +21,7 @@
    "id": "hoyts-cheap-tuesday-uber-one",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -23,7 +29,7 @@
    "id": "hoyts-cheap-tuesday-uber-one",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -31,7 +37,7 @@
    "id": "ikea-family-5-dollar-fridays",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -39,7 +45,7 @@
    "id": "ikea-family-5-dollar-fridays",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -47,7 +53,7 @@
    "id": "ikea-family-5-dollar-fridays",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -55,7 +61,7 @@
    "id": "black-friday-cyber-monday-2026-au",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -63,7 +69,7 @@
    "id": "the-gong-crawl-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -71,7 +77,7 @@
    "id": "hunter-valley-gardens-christmas-lights-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -79,7 +85,7 @@
    "id": "goma-make-believe-magic-jim-henson",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -87,7 +93,7 @@
    "id": "goma-make-believe-magic-jim-henson",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -95,7 +101,7 @@
    "id": "mon-repos-turtle-encounter-2026-27",
    "state": "blocked",
    "status": 503,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -103,7 +109,7 @@
    "id": "mon-repos-turtle-encounter-2026-27",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -111,7 +117,7 @@
    "id": "translink-50-cent-fares",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -119,7 +125,7 @@
    "id": "translink-50-cent-fares",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -127,7 +133,7 @@
    "id": "translink-50-cent-fares",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -135,7 +141,7 @@
    "id": "sa-feast-picnic-in-the-park-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -143,7 +149,7 @@
    "id": "adelaide-feast-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -151,7 +157,7 @@
    "id": "sa-bp-adelaide-grand-final-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -159,7 +165,7 @@
    "id": "sa-bp-adelaide-grand-final-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -167,7 +173,7 @@
    "id": "sa-bp-adelaide-grand-final-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -175,7 +181,7 @@
    "id": "sa-adelaide-metro-free-city-connector-tram",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -183,7 +189,7 @@
    "id": "sa-adelaide-metro-free-city-connector-tram",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -191,7 +197,7 @@
    "id": "sa-adelaide-metro-free-city-connector-tram",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -199,7 +205,7 @@
    "id": "nt-free-public-bus-darwin-alice-springs",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -207,7 +213,7 @@
    "id": "tas-salamanca-market",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -215,7 +221,7 @@
    "id": "tas-harvest-launceston-market",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -223,7 +229,7 @@
    "id": "tas-harvest-launceston-market",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -231,7 +237,7 @@
    "id": "tas-free-public-transport-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -239,7 +245,7 @@
    "id": "tas-free-public-transport-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -247,7 +253,7 @@
    "id": "tas-free-public-transport-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -255,7 +261,7 @@
    "id": "act-old-bus-depot-markets",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -263,7 +269,7 @@
    "id": "act-transport-canberra-weekend-cap",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -271,7 +277,7 @@
    "id": "colours-of-asia-garden-of-wonders-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -279,7 +285,7 @@
    "id": "colours-of-asia-garden-of-wonders-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -287,7 +293,7 @@
    "id": "queenscliff-music-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -295,7 +301,7 @@
    "id": "queenscliff-music-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -303,7 +309,7 @@
    "id": "twilight-food-market-perth-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -311,15 +317,15 @@
    "id": "farm-after-five-perth-city-farm-2026",
    "state": "gone",
    "status": 404,
-   "checked": "2026-11-21",
-   "fails": 1,
+   "checked": "2026-11-22",
+   "fails": 2,
    "since": "2026-11-21"
   },
   "https://perthcityfarm.org.au/farm-after-five/": {
    "id": "farm-after-five-perth-city-farm-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -327,7 +333,7 @@
    "id": "transperth-free-sundays-go-anywhere-fare",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -335,7 +341,7 @@
    "id": "transperth-free-sundays-go-anywhere-fare",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -343,7 +349,7 @@
    "id": "transperth-free-sundays-go-anywhere-fare",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -351,7 +357,7 @@
    "id": "rottnest-express-telethon-saver-fares",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -359,7 +365,7 @@
    "id": "rottnest-express-telethon-saver-fares",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -367,7 +373,7 @@
    "id": "pridefest-2026-parade-perth",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -375,7 +381,7 @@
    "id": "paird-margaret-river-region-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -383,7 +389,7 @@
    "id": "paird-margaret-river-region-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -391,7 +397,7 @@
    "id": "palace-cinemas-royal-discount-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -399,7 +405,7 @@
    "id": "palace-cinemas-royal-discount-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -407,7 +413,7 @@
    "id": "event-cinemas-half-price-tuesdays-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -415,7 +421,7 @@
    "id": "event-cinemas-half-price-tuesdays-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -423,7 +429,7 @@
    "id": "eumundi-markets",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -431,7 +437,7 @@
    "id": "eumundi-markets",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -439,7 +445,7 @@
    "id": "eumundi-markets",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -447,7 +453,7 @@
    "id": "woolworths-lower-shelf-price-1000-products-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -455,7 +461,7 @@
    "id": "good-food-wine-show-sydney-christmas-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -463,7 +469,7 @@
    "id": "uluru-ranger-guided-mala-walk",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -471,7 +477,7 @@
    "id": "uluru-ranger-guided-mala-walk",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -479,7 +485,7 @@
    "id": "uluru-ranger-guided-mala-walk",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -487,7 +493,7 @@
    "id": "adelaide-greeters-free-walking-tour",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -495,7 +501,7 @@
    "id": "adelaide-greeters-free-walking-tour",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -503,7 +509,7 @@
    "id": "adelaide-greeters-free-walking-tour",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -511,7 +517,7 @@
    "id": "adelaide-greeters-free-walking-tour",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -519,7 +525,7 @@
    "id": "rbg-melbourne-free-guided-walk",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -527,7 +533,7 @@
    "id": "daisy-hill-koala-centre-free-talks",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -535,7 +541,7 @@
    "id": "daisy-hill-koala-centre-free-talks",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -543,7 +549,7 @@
    "id": "im-free-walking-tours-sydney",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -551,7 +557,7 @@
    "id": "im-free-walking-tours-sydney",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -559,7 +565,7 @@
    "id": "dendy-canberra-budget-tuesdays",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -567,7 +573,7 @@
    "id": "dendy-canberra-budget-tuesdays",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -575,7 +581,7 @@
    "id": "surfers-paradise-beachfront-markets",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -583,7 +589,7 @@
    "id": "nan-tien-market-wollongong-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -591,23 +597,7 @@
    "id": "nan-tien-market-wollongong-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
-   "fails": 0,
-   "since": null
-  },
-  "https://www.hobartcity.com.au/Things-To-Do/Christmas/Myer-City-of-Hobart-Christmas-Pageant": {
-   "id": "tas-hobart-christmas-pageant-2026",
-   "state": "ok",
-   "status": 200,
-   "checked": "2026-11-21",
-   "fails": 0,
-   "since": null
-  },
-  "https://www.hobartcity.com.au/Council/News-and-publications/Media-releases/Terrapin-takes-the-reins-of-Hobart’s-beloved-Christmas-Pageant": {
-   "id": "tas-hobart-christmas-pageant-2026",
-   "state": "ok",
-   "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -615,7 +605,7 @@
    "id": "vic-public-transport-half-price-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -623,7 +613,7 @@
    "id": "vic-public-transport-half-price-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -631,7 +621,7 @@
    "id": "vic-public-transport-half-price-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -639,7 +629,7 @@
    "id": "vic-public-transport-half-price-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -647,7 +637,7 @@
    "id": "wsi-link-free-shuttle-st-marys-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -655,15 +645,23 @@
    "id": "wsi-link-free-shuttle-st-marys-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
   "https://www.queenslandrailtravel.com.au/2-for-1-outback-rail": {
-   "id": "queensland-rail-2-for-1-outback-2026-27",
+   "id": "qld-rail-2-for-1-outback-rail-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.queenslandrailtravel.com.au/": {
+   "id": "qld-rail-2-for-1-outback-rail-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -671,7 +669,7 @@
    "id": "nab-goodies-hoyts-discounted-tickets-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -679,7 +677,7 @@
    "id": "burleigh-market-saturdays-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -687,7 +685,7 @@
    "id": "coastal-markets-broadbeach-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -695,7 +693,7 @@
    "id": "dreamworld-night-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -703,7 +701,7 @@
    "id": "dreamworld-night-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -711,7 +709,7 @@
    "id": "npws-grand-cliff-top-walk-guided-tour-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -719,7 +717,7 @@
    "id": "queensland-rail-bquick-fares-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -727,7 +725,7 @@
    "id": "queensland-rail-bquick-fares-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -735,7 +733,7 @@
    "id": "melbourne-free-tram-zone",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -743,7 +741,7 @@
    "id": "melbourne-free-tram-zone",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -751,7 +749,7 @@
    "id": "transperth-free-transit-zone-cat-buses",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -759,7 +757,7 @@
    "id": "transperth-free-transit-zone-cat-buses",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -767,7 +765,7 @@
    "id": "cricket-mens-t20-england-carrara-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -775,7 +773,7 @@
    "id": "agnsw-brett-whiteley-travelling-art-scholarship-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -783,7 +781,7 @@
    "id": "sydney-street-fair-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -791,7 +789,7 @@
    "id": "aquaduck-sunshine-coast-earlybird-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -799,7 +797,7 @@
    "id": "aquaduck-sunshine-coast-earlybird-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -807,7 +805,7 @@
    "id": "ngv-triennial-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -815,7 +813,7 @@
    "id": "ngv-triennial-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -823,7 +821,7 @@
    "id": "eagle-farm-farmers-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -831,7 +829,7 @@
    "id": "david-hockney-bigger-closer-carriageworks-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -839,7 +837,7 @@
    "id": "david-hockney-bigger-closer-carriageworks-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -847,7 +845,7 @@
    "id": "african-music-cultural-festival-melbourne-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -855,7 +853,7 @@
    "id": "springfest-ballarat-market-sunday-2026",
    "state": "blocked",
    "status": 429,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -863,7 +861,7 @@
    "id": "qpac-the-lion-king-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -871,7 +869,7 @@
    "id": "brisbane-lord-mayors-christmas-carols-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -879,7 +877,7 @@
    "id": "cairns-palm-cove-markets-2026-12",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -887,7 +885,7 @@
    "id": "nsw-sea-acres-aboriginal-coastal-tour-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -895,7 +893,7 @@
    "id": "nsw-innes-ruins-guided-tour-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -903,7 +901,7 @@
    "id": "powerhouse-parramatta-opening-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -911,7 +909,7 @@
    "id": "powerhouse-parramatta-opening-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -919,7 +917,7 @@
    "id": "kmart-black-friday-onepass-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -927,7 +925,7 @@
    "id": "gyg-gomex-rewards-free-medium-fries-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -935,7 +933,7 @@
    "id": "vic-ovg-spring-2026-seasonal-offers",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -943,7 +941,7 @@
    "id": "vic-ovg-spring-2026-seasonal-offers",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -951,7 +949,7 @@
    "id": "qvm-cachivaches-latin-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -959,7 +957,7 @@
    "id": "museum-of-brisbane-in-residence-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -967,7 +965,7 @@
    "id": "carrara-markets-car-boot-sale-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -975,7 +973,7 @@
    "id": "adelaide-italian-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -983,7 +981,7 @@
    "id": "spotify-premium-individual-free-month-au",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -991,7 +989,7 @@
    "id": "powerhouse-farmers-markets-saturday-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -999,7 +997,7 @@
    "id": "powerhouse-farmers-markets-saturday-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1007,7 +1005,7 @@
    "id": "gold-coast-mayors-christmas-carols-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1015,7 +1013,7 @@
    "id": "sa-semaphore-street-fair-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1023,7 +1021,7 @@
    "id": "7-eleven-summer-savers-8-meal-deal-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1031,7 +1029,7 @@
    "id": "npws-fitzroy-falls-nature-tour-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1039,7 +1037,7 @@
    "id": "hoyts-lux-28-weekday-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1047,7 +1045,7 @@
    "id": "hoyts-sunday-sessions-from-12-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1055,15 +1053,15 @@
    "id": "agnsw-dobell-drawing-biennial-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
   "https://www.acmi.net.au/whats-on/play-on/": {
-   "id": "acmi-play-on-2026",
+   "id": "acmi-play-on-arcade-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1071,7 +1069,7 @@
    "id": "acmi-feng-mengbo-long-march-restart-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1079,7 +1077,7 @@
    "id": "sydney-big-ticket-tower-eye-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1087,23 +1085,7 @@
    "id": "hota-farmers-artisan-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
-   "fails": 0,
-   "since": null
-  },
-  "https://www.redlandscoast.com.au/ATDW/Events/Straddie-Oyster-and-Seafood-Festival-634fc2b63cdd2b4004a8e648": {
-   "id": "straddie-oyster-seafood-festival-2026",
-   "state": "gone",
-   "status": 404,
-   "checked": "2026-11-21",
-   "fails": 1,
-   "since": "2026-11-21"
-  },
-  "https://stradbrokeisland.com/straddie-oyster-festival/": {
-   "id": "straddie-oyster-seafood-festival-2026",
-   "state": "ok",
-   "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1111,7 +1093,7 @@
    "id": "perth-lester-prize-portraiture-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1119,7 +1101,7 @@
    "id": "nt-million-dollar-fish-season-12-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1127,7 +1109,7 @@
    "id": "nt-million-dollar-fish-season-12-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1135,7 +1117,7 @@
    "id": "adelaide-bp-grand-final-parade-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1143,7 +1125,7 @@
    "id": "perth-makers-market-heathcote-dec-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1151,7 +1133,7 @@
    "id": "perth-makers-christmas-twilight-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1159,7 +1141,7 @@
    "id": "adelaide-feast-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1167,7 +1149,7 @@
    "id": "wa-transwa-half-price-fares-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1175,7 +1157,7 @@
    "id": "wa-transwa-half-price-fares-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1183,7 +1165,7 @@
    "id": "npws-south-head-tunnels-tour-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1191,7 +1173,7 @@
    "id": "npws-smoky-cape-lighthouse-tour-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1199,7 +1181,7 @@
    "id": "npws-sea-acres-aboriginal-culture-tour-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1207,7 +1189,7 @@
    "id": "sa-coorong-park-of-the-month-nature-hunt-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1215,7 +1197,7 @@
    "id": "sa-coorong-cruises-25-off-2026-11",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1223,7 +1205,7 @@
    "id": "sa-goolwa-barrage-talk-2026-11-26",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1231,7 +1213,7 @@
    "id": "boost-black-friday-39-sim-for-12-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1239,7 +1221,7 @@
    "id": "boost-black-friday-39-sim-for-12-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1247,7 +1229,7 @@
    "id": "amaysim-125gb-13-three-renewals-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1255,7 +1237,7 @@
    "id": "ngv-passage-atong-atem-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1263,7 +1245,7 @@
    "id": "ngv-passage-atong-atem-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1271,7 +1253,7 @@
    "id": "agnsw-super-nature-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1279,7 +1261,7 @@
    "id": "agnsw-kaori-endo-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1287,7 +1269,7 @@
    "id": "brisbane-heat-bbl16-gabba-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1295,7 +1277,7 @@
    "id": "brisbane-heat-bbl16-gabba-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1303,7 +1285,7 @@
    "id": "brisbane-heat-bbl16-gabba-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1311,23 +1293,15 @@
    "id": "qvm-christmas-night-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
   "https://www.starbucks.com.au/": {
-   "id": "starbucks-pastry-5-deli-roll-10-2026-11",
+   "id": "starbucks-au-panini-10-pastry-pairing-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
-   "fails": 0,
-   "since": null
-  },
-  "https://www.queenslandrailtravel.com.au/": {
-   "id": "queensland-rail-2-for-1-outback-2026-27",
-   "state": "ok",
-   "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1335,7 +1309,7 @@
    "id": "skybus-launceston-express-intro-fare-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1343,7 +1317,7 @@
    "id": "agwa-art-gallery-wa-free-entry",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1351,7 +1325,7 @@
    "id": "perth-upmarket-uwa-nov-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1359,7 +1333,7 @@
    "id": "perth-upmarket-uwa-nov-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1367,7 +1341,7 @@
    "id": "fremantle-markets-weekend-trading",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1375,7 +1349,7 @@
    "id": "wfac-sunday-music-fremantle-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1383,7 +1357,7 @@
    "id": "wfac-sunday-music-fremantle-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1391,7 +1365,7 @@
    "id": "lotterywest-films-somerville-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1399,7 +1373,7 @@
    "id": "perth-christmas-carollers-forrest-place-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1407,7 +1381,7 @@
    "id": "perth-christmas-nativity-concert-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1415,7 +1389,7 @@
    "id": "brass-on-the-grass-victoria-gardens-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1423,7 +1397,7 @@
    "id": "perth-christmas-lights-trail-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1431,7 +1405,7 @@
    "id": "scarborough-sunset-markets-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1439,7 +1413,7 @@
    "id": "birkenhead-point-outlet-sydney",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1447,7 +1421,7 @@
    "id": "birkenhead-point-outlet-sydney",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1455,7 +1429,7 @@
    "id": "canberra-outlet-fyshwick",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1463,7 +1437,7 @@
    "id": "dfo-brisbane-airport-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1471,7 +1445,7 @@
    "id": "dfo-homebush-sydney-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1479,7 +1453,7 @@
    "id": "dfo-essendon-melbourne-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1487,7 +1461,7 @@
    "id": "dfo-perth-airport-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1495,23 +1469,23 @@
    "id": "kathmandu-out-there-member-multiplier-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
   "https://www.telstra.com.au/deals/black-friday": {
-   "id": "telstra-prepaid-44-plan-13-black-friday-2026",
+   "id": "telstra-prepaid-black-friday-13-28day-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
   "https://www.telstra.com.au/mobile-phones/prepaid-mobiles/offers-and-rates": {
-   "id": "telstra-prepaid-44-plan-13-black-friday-2026",
+   "id": "telstra-prepaid-black-friday-13-28day-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1519,7 +1493,7 @@
    "id": "glassons-au-15-percent-off-first-order",
    "state": "blocked",
    "status": 406,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1527,7 +1501,7 @@
    "id": "dfo-south-wharf-melbourne-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1535,7 +1509,7 @@
    "id": "flicks-fireworks-surfers-paradise-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1543,7 +1517,7 @@
    "id": "ministry-of-sound-summer-dance-festival-hota-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1551,7 +1525,7 @@
    "id": "wa-day-festival-burswood-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1559,7 +1533,7 @@
    "id": "wa-day-festival-burswood-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1567,7 +1541,7 @@
    "id": "wa-day-festival-burswood-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1575,7 +1549,7 @@
    "id": "adelaide-carols-by-candlelight-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1583,7 +1557,7 @@
    "id": "el-jannah-10-charcoal-chicken-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1591,7 +1565,7 @@
    "id": "rex-special-fares-regional-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1599,7 +1573,7 @@
    "id": "lebara-35-plan-110gb-10-first-28-days-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1607,7 +1581,7 @@
    "id": "lebara-25-sim-9-first-28-days-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1615,7 +1589,7 @@
    "id": "target-au-10-off-first-online-order-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1623,7 +1597,7 @@
    "id": "sydney-attractions-combo-pass-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1631,7 +1605,7 @@
    "id": "sydney-attractions-combo-pass-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1639,7 +1613,7 @@
    "id": "agnsw-free-entry-wednesday-late-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1647,7 +1621,7 @@
    "id": "hota-collects-alchemy-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1655,7 +1629,7 @@
    "id": "hota-collects-alchemy-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1663,7 +1637,7 @@
    "id": "woodford-folk-festival-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1671,7 +1645,7 @@
    "id": "woodford-folk-festival-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1679,7 +1653,7 @@
    "id": "good-things-festival-brisbane-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1687,7 +1661,7 @@
    "id": "good-things-festival-brisbane-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1695,7 +1669,7 @@
    "id": "handmade-market-canberra-summer-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1703,7 +1677,7 @@
    "id": "handmade-market-canberra-summer-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1711,7 +1685,7 @@
    "id": "sydney-martin-place-christmas-tree-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1719,7 +1693,7 @@
    "id": "canberra-springout-pride-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1727,7 +1701,7 @@
    "id": "canberra-springout-pride-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1735,7 +1709,7 @@
    "id": "just-for-laughs-sydney-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1743,7 +1717,7 @@
    "id": "gyg-caringbah-5-burritos-bowls-2026-12-10",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1751,7 +1725,7 @@
    "id": "brisbane-council-pools-2-summer-dips-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1759,7 +1733,7 @@
    "id": "agnsw-and-still-i-rise-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1767,7 +1741,7 @@
    "id": "south-bank-collective-markets-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1775,7 +1749,7 @@
    "id": "south-bank-free-guided-tours-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1783,7 +1757,7 @@
    "id": "south-bank-free-yoga-saturdays-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1791,7 +1765,7 @@
    "id": "south-bank-sunday-social-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1799,7 +1773,7 @@
    "id": "qvm-pinoy-christmas-fiesta-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1807,7 +1781,7 @@
    "id": "barbie-the-exhibition-melbourne-museum-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1815,7 +1789,7 @@
    "id": "hungry-jacks-jacks-cafe-5th-coffee-free-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1823,7 +1797,7 @@
    "id": "greyhound-australia-travel-passes-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1831,7 +1805,7 @@
    "id": "greyhound-australia-travel-passes-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1839,7 +1813,7 @@
    "id": "felix-unlimited-half-price-6-months-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1847,7 +1821,7 @@
    "id": "miami-marketta-gold-coast-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1855,7 +1829,7 @@
    "id": "eat-street-northshore-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1863,7 +1837,7 @@
    "id": "guns-n-roses-townsville-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1871,7 +1845,7 @@
    "id": "guns-n-roses-townsville-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1879,7 +1853,7 @@
    "id": "currumbin-christmas-carols-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1887,7 +1861,7 @@
    "id": "made-on-the-left-christmas-market-fremantle-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1895,7 +1869,7 @@
    "id": "rapid-creek-markets-darwin",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1903,7 +1877,7 @@
    "id": "parap-village-markets-darwin",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1911,15 +1885,15 @@
    "id": "rapid-creek-markets-darwin",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
   "https://www.muffinbreak.com.au/": {
-   "id": "muffin-break-6-iced-latte-2026-11",
+   "id": "muffin-break-6-iced-latte-members-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1927,7 +1901,7 @@
    "id": "myer-black-friday-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1935,7 +1909,7 @@
    "id": "williams-shoes-second-pair-half-price-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1943,7 +1917,7 @@
    "id": "dfo-moorabbin-melbourne-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1951,7 +1925,7 @@
    "id": "dfo-eastern-creek-sydney-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1959,7 +1933,7 @@
    "id": "dfo-uni-hill-melbourne-outlet",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1967,7 +1941,7 @@
    "id": "qld-pga-championship-nudgee-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1975,7 +1949,7 @@
    "id": "wildlands-brisbane-nye-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1983,7 +1957,7 @@
    "id": "j-cole-brisbane-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1991,7 +1965,7 @@
    "id": "melville-summer-music-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -1999,7 +1973,7 @@
    "id": "geelong-city-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2007,15 +1981,7 @@
    "id": "geelong-city-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
-   "fails": 0,
-   "since": null
-  },
-  "https://whatson.melbourne.vic.gov.au/things-to-do/cruel-intentions-the-90s-musical": {
-   "id": "cruel-intentions-90s-musical-melbourne-2026",
-   "state": "ok",
-   "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2023,7 +1989,7 @@
    "id": "woolworths-mad-mex-hot-chicken-2026-11-16",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2031,7 +1997,7 @@
    "id": "lebara-35-plan-110gb-10-first-28-days-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2039,7 +2005,7 @@
    "id": "king-street-christmas-twilight-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2047,7 +2013,7 @@
    "id": "carols-on-kings-caloundra-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2055,7 +2021,7 @@
    "id": "sculpture-on-the-edge-flaxton-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2063,7 +2029,7 @@
    "id": "sculpture-on-the-edge-flaxton-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2071,7 +2037,7 @@
    "id": "christmas-at-hota-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2079,7 +2045,7 @@
    "id": "christmas-at-hota-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2087,7 +2053,7 @@
    "id": "docklands-waterfront-farmers-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2095,7 +2061,7 @@
    "id": "crown-christmas-river-show-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2103,7 +2069,7 @@
    "id": "hobart-community-bake-days-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2111,7 +2077,7 @@
    "id": "aldi-mobile-double-data-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2119,7 +2085,7 @@
    "id": "agsa-two-islands-one-thread-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2127,7 +2093,7 @@
    "id": "agsa-dressed-up-fashion-photography-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2135,7 +2101,7 @@
    "id": "toowoomba-christmas-wonderland-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2143,7 +2109,7 @@
    "id": "toowoomba-christmas-wonderland-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2151,7 +2117,7 @@
    "id": "cooly-carols-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2159,7 +2125,7 @@
    "id": "sydney-nye-fireworks-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2167,7 +2133,7 @@
    "id": "sydney-nye-fireworks-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2175,7 +2141,7 @@
    "id": "sydney-nye-fireworks-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2183,7 +2149,7 @@
    "id": "darling-harbour-christmas-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2191,7 +2157,7 @@
    "id": "darling-harbour-christmas-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2199,7 +2165,7 @@
    "id": "the-rocks-homegrown-christmas-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2207,7 +2173,7 @@
    "id": "the-rocks-homegrown-christmas-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2215,7 +2181,7 @@
    "id": "act-haig-park-christmas-markets-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2223,7 +2189,7 @@
    "id": "aldi-black-wednesday-2026-11-25",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2231,7 +2197,7 @@
    "id": "npws-perisher-discovery-guided-walk-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2239,7 +2205,7 @@
    "id": "npws-perisher-discovery-guided-walk-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2247,7 +2213,7 @@
    "id": "npws-rockpool-ramble-shelly-beach-2026-12-31",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2255,7 +2221,7 @@
    "id": "npws-green-cape-lighthouse-tour-2027-01",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2263,7 +2229,7 @@
    "id": "npws-green-cape-lighthouse-tour-2027-01",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2271,7 +2237,7 @@
    "id": "macpac-noarlunga-opening-sale-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2279,7 +2245,7 @@
    "id": "brisbane-lord-mayors-christmas-tree-lighting-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2287,7 +2253,7 @@
    "id": "brisbane-city-hall-lights-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2295,7 +2261,7 @@
    "id": "brisbane-city-hall-lights-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2303,7 +2269,7 @@
    "id": "slq-big-things-exhibition-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2311,7 +2277,7 @@
    "id": "gold-coast-movies-under-the-stars-polar-express-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2319,7 +2285,7 @@
    "id": "spilt-milk-gold-coast-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2327,7 +2293,7 @@
    "id": "spacey-jane-brisbane-riverstage-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2335,7 +2301,7 @@
    "id": "wolf-alice-brisbane-fortitude-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2343,7 +2309,7 @@
    "id": "carreras-and-friends-gabba-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2351,7 +2317,7 @@
    "id": "melbourne-christmas-square-fed-square-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2359,7 +2325,7 @@
    "id": "melbourne-christmas-tree-lighting-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2367,7 +2333,7 @@
    "id": "melbourne-myer-christmas-windows-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2375,7 +2341,7 @@
    "id": "melbourne-taste-of-persia-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2383,7 +2349,7 @@
    "id": "southbank-makers-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2391,7 +2357,7 @@
    "id": "hartbeats-live-jazz-whitehart-bar-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2399,7 +2365,7 @@
    "id": "christmas-district-docklands-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2407,7 +2373,7 @@
    "id": "hungry-jacks-nbl27-free-cheeseburger-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2415,7 +2381,7 @@
    "id": "flixbus-first-birthday-sale-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2423,7 +2389,7 @@
    "id": "nsw-trainlink-online-saver-fares-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2431,7 +2397,7 @@
    "id": "nsw-trainlink-online-saver-fares-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2439,7 +2405,7 @@
    "id": "nsw-trainlink-discovery-pass-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2447,7 +2413,7 @@
    "id": "hoyts-movie-of-the-week-12-50-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2455,7 +2421,7 @@
    "id": "officeworks-black-friday-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2463,7 +2429,7 @@
    "id": "hota-comedy-underground-saturday-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2471,7 +2437,7 @@
    "id": "hota-christmas-twilight-markets-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2479,7 +2445,7 @@
    "id": "brisbane-powerhouse-banksia-prize-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2487,7 +2453,7 @@
    "id": "sunshine-coast-nye-fireworks-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2495,7 +2461,7 @@
    "id": "perth-west-test-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2503,7 +2469,7 @@
    "id": "perth-west-test-festival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2511,7 +2477,7 @@
    "id": "perth-santas-symphony-burswood-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2519,7 +2485,7 @@
    "id": "fremantle-very-freo-christmas-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2527,7 +2493,7 @@
    "id": "darwin-christmas-light-trail-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2535,7 +2501,7 @@
    "id": "darwin-christmas-light-trail-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2543,7 +2509,7 @@
    "id": "darwin-nye-waterfront-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2551,7 +2517,7 @@
    "id": "sydney-ai-weiwei-mushrooms-mca-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2559,15 +2525,7 @@
    "id": "adelaide-carols-in-the-pub-maylands-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
-   "fails": 0,
-   "since": null
-  },
-  "https://www.aldi.com.au/special-buys/2026-11-21": {
-   "id": "aldi-special-buys-2026-11-21-beach-summer",
-   "state": "ok",
-   "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2575,7 +2533,7 @@
    "id": "national-museum-australia-free-entry-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2583,7 +2541,7 @@
    "id": "australian-war-memorial-free-entry-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2591,7 +2549,7 @@
    "id": "everyday-mobile-prepaid-double-data-2026-11",
    "state": "blocked",
    "status": "逾時",
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2599,7 +2557,7 @@
    "id": "cairns-carols-in-the-park-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2607,7 +2565,7 @@
    "id": "townsville-carols-by-candlelight-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2615,7 +2573,7 @@
    "id": "townsville-stable-in-the-city-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2623,7 +2581,7 @@
    "id": "cairns-new-years-eve-fireworks-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2631,7 +2589,7 @@
    "id": "cairns-christmas-light-lane-2026",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2639,7 +2597,7 @@
    "id": "caloundra-christmas-street-fair-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2647,7 +2605,7 @@
    "id": "taste-of-summer-hobart-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2655,7 +2613,7 @@
    "id": "launceston-beerfest-nye-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2663,7 +2621,7 @@
    "id": "fed-square-christmas-outdoor-cinema-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2671,7 +2629,7 @@
    "id": "birrarung-marr-christmas-carnival-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2679,15 +2637,15 @@
    "id": "launceston-beerfest-nye-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
   "https://www.nandos.com.au/offers-terms": {
-   "id": "nandos-peri-chip-wrap-bundle-2026",
+   "id": "nandos-launceston-quarter-chicken-chips-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2695,7 +2653,7 @@
    "id": "nsw-opal-fares-held-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2703,7 +2661,7 @@
    "id": "brisstyle-twilight-markets-king-george-square-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2711,7 +2669,7 @@
    "id": "riverside-at-the-gardens-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2719,7 +2677,7 @@
    "id": "riverside-at-the-gardens-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2727,7 +2685,7 @@
    "id": "fullarton-christmas-fair-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2735,7 +2693,7 @@
    "id": "adelaide-central-market-festive-fridays-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2743,7 +2701,7 @@
    "id": "iga-nsw-weekly-specials-2026-11-18",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2751,7 +2709,7 @@
    "id": "iga-nsw-weekly-specials-2026-11-18",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2759,7 +2717,7 @@
    "id": "bruny-island-ferry-walk-on-free-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2767,7 +2725,7 @@
    "id": "christmas-markets-gc-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2775,7 +2733,7 @@
    "id": "heritage-lanes-christmas-market-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2783,7 +2741,7 @@
    "id": "members-mile-day-eagle-farm-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2791,7 +2749,7 @@
    "id": "magic-millions-raceday-gold-coast-2027",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2799,7 +2757,7 @@
    "id": "boxing-day-races-sunshine-coast-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2807,7 +2765,7 @@
    "id": "little-burley-market-canberra-2026-12-05",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2815,7 +2773,7 @@
    "id": "little-burley-market-canberra-2026-12-05",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2823,7 +2781,7 @@
    "id": "harmonie-german-christmas-markets-canberra-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2831,7 +2789,7 @@
    "id": "surry-hills-christmas-fair-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2839,7 +2797,7 @@
    "id": "surry-hills-christmas-fair-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2847,7 +2805,7 @@
    "id": "scg-pink-test-nz-2027-01",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2855,7 +2813,7 @@
    "id": "scg-pink-test-nz-2027-01",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2863,7 +2821,7 @@
    "id": "7-eleven-lunch-legends-6-meal-deal-2026-12-01",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2871,7 +2829,7 @@
    "id": "australian-museum-free-general-entry-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2879,7 +2837,7 @@
    "id": "brisbane-portrait-prize-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2887,7 +2845,7 @@
    "id": "boxing-day-test-mcg-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2895,7 +2853,7 @@
    "id": "melbourne-new-years-eve-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2903,7 +2861,7 @@
    "id": "carols-by-candlelight-melbourne-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2911,7 +2869,7 @@
    "id": "red-rooster-whole-roast-chicken-10-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2919,7 +2877,7 @@
    "id": "ampol-foodary-5th-coffee-free-2027",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2927,7 +2885,7 @@
    "id": "gyg-hervey-bay-maryborough-5-brekkie-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2935,7 +2893,7 @@
    "id": "gyg-hervey-bay-maryborough-5-brekkie-2026-11",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2943,7 +2901,7 @@
    "id": "telstra-upfront-mobile-50-off-4-months-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2951,7 +2909,7 @@
    "id": "rottnest-late-return-ferry-summer-2026-27",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2959,7 +2917,7 @@
    "id": "woolworths-nsw-weekly-catalogue-2026-11-18",
    "state": "blocked",
    "status": 403,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   },
@@ -2967,7 +2925,87 @@
    "id": "finnair-europe-bangkok-sale-2026",
    "state": "ok",
    "status": 200,
-   "checked": "2026-11-21",
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbane.qld.gov.au/events/moonlight-cinema-brisbane/213788378": {
+   "id": "moonlight-cinema-brisbane-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.botanicgardens.sa.gov.au/whats-on/moonlight-cinema": {
+   "id": "moonlight-cinema-adelaide-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://goodfoodshow.com.au": {
+   "id": "good-food-wine-show-melbourne-christmas-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbane.qld.gov.au/events/billai-dhagun-circuit-guided-walk/211790912": {
+   "id": "billai-dhagun-circuit-guided-walk-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.eventbrite.com.au/e/2003945561118?aff=oddtdtcreator": {
+   "id": "burleigh-head-park-of-the-month-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://npaq.org.au/upcoming-events-page": {
+   "id": "burleigh-head-park-of-the-month-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/crft-wrk-market": {
+   "id": "crft-wrk-market-qvm-melbourne-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://visitcanberra.com.au/events/5822a8815ac8210f333a55f0/canberra-christmas-market": {
+   "id": "canberra-christmas-market-quokka-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://heritagevillage.rockhamptonregion.qld.gov.au/Whats-On/HVMarkets_Christmas2026": {
+   "id": "rockhampton-heritage-village-christmas-markets-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.cityofsydney.nsw.gov.au/events/martin-place-christmas-markets": {
+   "id": "martin-place-christmas-markets-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-22",
    "fails": 0,
    "since": null
   }
