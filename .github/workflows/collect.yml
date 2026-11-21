@@ -34,7 +34,7 @@ jobs:
         id: plan
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then what="${{ github.event.inputs.what }}";
-          elif [ "${{ github.event.schedule }}" = "10 17 * * *" ]; then what="";
+          elif [ "${{ github.event.schedule }}" = "10 17 * * *" ] || [ "${{ github.event_name }}" = "push" ]; then what="";
           else what="rss"; fi
           echo "what=$what" >> "$GITHUB_OUTPUT"
           echo "這次：${what:-全部}"
