@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: '22'
       - name: 自我檢查
-        run: node tools/auto-daily.test.js
+        run: node tools/auto-daily.test.js && node tools/dupes.test.js
       - name: 下架過期、熱門上限、格式檢查、保護機制
         run: node tools/auto-daily.js .
       - name: 有變動才推送（推送就是上架）

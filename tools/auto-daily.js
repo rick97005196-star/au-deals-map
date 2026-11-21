@@ -5,6 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
+const { applyAliases, findDupes } = require('./dupes');
 
 const HOT_MAX = 20;
 const MIN_ITEMS = 30;
@@ -48,6 +49,12 @@ function main() {
   const d = JSON.parse(raw);
   const base = opt('--base') ? JSON.parse(fs.readFileSync(opt('--base'), 'utf8')).items.length : d.items.length;
 
+  // 先合併 data/aliases.json 記錄的重複項目（舊的那筆刪掉、來源併到保留的那筆）
+  let aliases = {};
+  try { aliases = JSON.parse(fs.readFileSync(path.join(dir, 'data', 'aliases.json'), 'utf8')); } catch (e) { if (e.code !== 'ENOENT') throw e; }
+  const al = applyAliases(d.items, aliases);
+  d.items = al.items;
+  if (al.merged.length) console.log(`合併重複 ${al.merged.length} 筆：${al.merged.join('、')}`);
   const { keep, gone } = prune(d.items, today);
   d.items = keep;
   const hot = capHot(d.items, today);
@@ -59,10 +66,13 @@ function main() {
   const why = guard(base, d.items.length);
   if (why) { console.error(`保護機制：${why}，不上線`); process.exit(2); }
 
-  const changed = gone.length > 0 || hot.removed.length > 0;
+  const changed = gone.length > 0 || hot.removed.length > 0 || al.merged.length > 0;
   if (changed) fs.writeFileSync(file, JSON.stringify(d, null, 1).replace(/\n/g, eol) + eol);
   try { execFileSync(process.execPath, ['build.js'], { cwd: dir, stdio: 'inherit' }); }
   catch { console.error('build.js 格式檢查沒過，不上線'); process.exit(1); }
+  // 疑似重複只提醒、不擋上線：交給下次 Claude 用 node tools/daily.js dupes 判斷合併
+  const dupes = findDupes(d.items);
+  if (dupes.length) console.log(`提醒：疑似重複 ${dupes.length} 組：` + dupes.map((x) => `${x.a.id} ↔ ${x.b.id}`).join('、'));
   // 不改 updated：updated 代表「Claude 查證的日期」，程式只整理、沒有查證
   console.log(`changed=${changed}`);
 }
