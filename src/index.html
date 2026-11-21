@@ -735,6 +735,22 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
 @media (max-width:1023px){input,select,textarea{font-size:16px!important}}
 /* 選單字變大後，手機上把左右內距各縮一點，390 寬的工具列才不用左右滑 */
 @media (max-width:640px){.select{padding:0 26px 0 10px}}
+/* 手機精簡（2026-11-22）：說明收起來，快速瀏覽改成一排可左右滑的小按鈕，搜尋與清單更快看到 */
+@media (max-width:640px){
+  .hero .sub{display:none}
+  .headline{font-size:26px}
+  .quick-sec .wrap{padding-top:14px;padding-bottom:4px}
+  .quick-sec .sec-title{margin-bottom:8px}
+  .quick-sec .sec-title h2{font-size:18px}
+  #quickHint{display:none}
+  .quick{display:flex;overflow-x:auto;gap:6px;margin:0 -16px;padding:0 16px 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .quick::-webkit-scrollbar{display:none}
+  .qt,.qt:disabled{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;padding:0 12px;min-height:40px;border-radius:999px;white-space:nowrap}
+  .qt .ic{width:22px;height:22px;border-radius:6px}
+  .qt .ic svg{width:14px;height:14px}
+  .qt .t{font-size:14px}
+  .qt .d{display:none}
+}
 </style>
 
 <div class="notice" role="note" aria-label="免責聲明">
