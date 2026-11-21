@@ -1,0 +1,2975 @@
+{
+ "updated": "2026-11-21 22:24",
+ "note": "state：ok 正常、gone 找不到頁面（404／410）、blocked 被擋或暫時打不開。gone 連續 2 次以上會排進重新查證。",
+ "broken": [],
+ "links": {
+  "https://www.grilld.com.au/oscar-piastri": {
+   "id": "grilld-oscar-piastri-burger-1281",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hoyts.com.au/cheap-tuesday": {
+   "id": "hoyts-cheap-tuesday-uber-one",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hoyts.com.au/uber-one": {
+   "id": "hoyts-cheap-tuesday-uber-one",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.ikea.com/au/en/campaigns/ikea-family-fridays-pubb5f98bd0/": {
+   "id": "ikea-family-5-dollar-fridays",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.ikea.com/au/en/files/pdf/87/fa/87fa38aa/ikea-au-loyalty-members-offer-ikea-family-friday-september-2026-terms-and-conditions.pdf": {
+   "id": "ikea-family-5-dollar-fridays",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.ikea.com/au/en/stores/restaurant/": {
+   "id": "ikea-family-5-dollar-fridays",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.clickfrenzy.com.au/calendar": {
+   "id": "black-friday-cyber-monday-2026-au",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitwollongong.com.au/event/the-gong-crawl/": {
+   "id": "the-gong-crawl-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.huntervalleygardens.com.au/christmas-lights-spectacular/": {
+   "id": "hunter-valley-gardens-christmas-lights-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.qagoma.qld.gov.au/exhibition/make-believe-magic-the-worlds-of-the-jim-henson-company": {
+   "id": "goma-make-believe-magic-jim-henson",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.qagoma.qld.gov.au/stories/tickets-on-sale-for-the-jim-henson-company-world-exclusive-exhibition-at-gallery-of-modern-art-brisbane": {
+   "id": "goma-make-believe-magic-jim-henson",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://book.parks.qld.gov.au/mon-repos-nightly-turtle-encounter": {
+   "id": "mon-repos-turtle-encounter-2026-27",
+   "state": "blocked",
+   "status": 503,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://parks.qld.gov.au/parks/mon-repos/about": {
+   "id": "mon-repos-turtle-encounter-2026-27",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://translink.com.au/tickets-and-fares/50-cent-fares": {
+   "id": "translink-50-cent-fares",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://statements.qld.gov.au/statements/101980": {
+   "id": "translink-50-cent-fares",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://statements.qld.gov.au/statements/105394": {
+   "id": "translink-50-cent-fares",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://feast.org.au/events/picnic-in-the-park/": {
+   "id": "sa-feast-picnic-in-the-park-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://feast.org.au/": {
+   "id": "adelaide-feast-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.adelaidegrandfinal.com.au/": {
+   "id": "sa-bp-adelaide-grand-final-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://adelaidegrandfinal.com.au/tickets": {
+   "id": "sa-bp-adelaide-grand-final-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.supercars.com/news/supercars-news-2026-adelaide-grand-final-track-schedule-revealed-times-racing-super2-series-finals-supports": {
+   "id": "sa-bp-adelaide-grand-final-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.adelaidemetro.com.au/plan-a-trip/free-and-special-transport": {
+   "id": "sa-adelaide-metro-free-city-connector-tram",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.adelaidemetro.com.au/plan-a-trip/free-and-special-transport/city-connector": {
+   "id": "sa-adelaide-metro-free-city-connector-tram",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.adelaidemetro.com.au/about-us/news/news-items/2026/public-transport-fares-are-changing-this-october": {
+   "id": "sa-adelaide-metro-free-city-connector-tram",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://nt.gov.au/driving/public-transport-cycling/public-buses/fares": {
+   "id": "nt-free-public-bus-darwin-alice-springs",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.salamancamarket.com.au/": {
+   "id": "tas-salamanca-market",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.discovertasmania.com.au/event/harvestlaunceston": {
+   "id": "tas-harvest-launceston-market",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.harvestmarket.org.au/": {
+   "id": "tas-harvest-launceston-market",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.metrotas.com.au/blog/free-bus-travel-2026/": {
+   "id": "tas-free-public-transport-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.transport.tas.gov.au/public_transport/fares": {
+   "id": "tas-free-public-transport-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.metrotas.com.au/fares/": {
+   "id": "tas-free-public-transport-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://obdm.com.au/": {
+   "id": "act-old-bus-depot-markets",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.transport.act.gov.au/tickets-and-myway/fares": {
+   "id": "act-transport-canberra-weekend-cap",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://asiaoasis.com.au/": {
+   "id": "colours-of-asia-garden-of-wonders-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/colours-of-asia-garden-of-wonders": {
+   "id": "colours-of-asia-garden-of-wonders-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.qmf.net.au/": {
+   "id": "queenscliff-music-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.qmf.net.au/tickets": {
+   "id": "queenscliff-music-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitperth.com/events/twilight-food-market": {
+   "id": "twilight-food-market-perth-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitperth.com/events/farm-after-five": {
+   "id": "farm-after-five-perth-city-farm-2026",
+   "state": "gone",
+   "status": 404,
+   "checked": "2026-11-21",
+   "fails": 1,
+   "since": "2026-11-21"
+  },
+  "https://perthcityfarm.org.au/farm-after-five/": {
+   "id": "farm-after-five-perth-city-farm-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.transperth.wa.gov.au/Tickets-Fares/Free-Travel": {
+   "id": "transperth-free-sundays-go-anywhere-fare",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.transperth.wa.gov.au/Tickets-Fares/Go-Anywhere-Fare": {
+   "id": "transperth-free-sundays-go-anywhere-fare",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/Major-cost-of-living-relief-locked-in-for-Western-Australians-20260419": {
+   "id": "transperth-free-sundays-go-anywhere-fare",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://rottnestexpress.com.au/offers/telethon-saver-deals/": {
+   "id": "rottnest-express-telethon-saver-fares",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://rottnestexpress.com.au/ferry-bookings/fares/": {
+   "id": "rottnest-express-telethon-saver-fares",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://pridewa.com.au/pridefest-2026/": {
+   "id": "pridefest-2026-parade-perth",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.westernaustralia.com/en/things-to-do/events/paird-margaret-river-region": {
+   "id": "paird-margaret-river-region-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://pairdmargaretriver.com/": {
+   "id": "paird-margaret-river-region-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.palacecinemas.com.au/offers/royal-discount": {
+   "id": "palace-cinemas-royal-discount-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.palacecinemas.com.au/offers": {
+   "id": "palace-cinemas-royal-discount-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.eventcinemas.com.au/Promotions/HalfPriceTuesdays": {
+   "id": "event-cinemas-half-price-tuesdays-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.eventcinemas.com.au/promotions": {
+   "id": "event-cinemas-half-price-tuesdays-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.experienceeumundi.com.au/see-do/eumundi-markets/": {
+   "id": "eumundi-markets",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.experienceeumundi.com.au/blog/kids-and-school-holidays-at-eumundi-markets/": {
+   "id": "eumundi-markets",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsunshinecoast.com/attraction/6443562216501159269135df/eumundi-markets": {
+   "id": "eumundi-markets",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.woolworthsgroup.com.au/au/en/our-newsroom/media-releases/latest-news/2026/woolworths-expands-lower-shelf-price-to-over-1-000-everyday-prod.html": {
+   "id": "woolworths-lower-shelf-price-1000-products-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://goodfoodshow.com.au/sydney-christmas-edition/": {
+   "id": "good-food-wine-show-sydney-christmas-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://uluru.gov.au/things-do/activities/ranger-guided-activities/ranger-guided-mala-walk/": {
+   "id": "uluru-ranger-guided-mala-walk",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://uluru.gov.au/things-do/activities/ranger-guided-activities/": {
+   "id": "uluru-ranger-guided-mala-walk",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://uluru.gov.au/plan/buy-your-pass/": {
+   "id": "uluru-ranger-guided-mala-walk",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.experienceadelaide.com.au/visit/visitor-information-centre/": {
+   "id": "adelaide-greeters-free-walking-tour",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://experienceadl.rezdy.com/600119/adelaide-greeters-walking-tour-weekdays": {
+   "id": "adelaide-greeters-free-walking-tour",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://experienceadl.rezdy.com/601287/adelaide-greeters-walking-tour-weekends": {
+   "id": "adelaide-greeters-free-walking-tour",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://southaustralia.com/products/adelaide/tour/adelaide-greeters/adelaide-greeters-walking-tour": {
+   "id": "adelaide-greeters-free-walking-tour",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.rbg.vic.gov.au/melbourne-gardens/whats-on-melbourne/free-guided-walk/": {
+   "id": "rbg-melbourne-free-guided-walk",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://parks.qld.gov.au/parks/daisy-hill-koala-centre/about": {
+   "id": "daisy-hill-koala-centre-free-talks",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://parks.qld.gov.au/parks/daisy-hill-koala-centre": {
+   "id": "daisy-hill-koala-centre-free-talks",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sydney.com/things-to-do/tours/im-free-walking-tours-sydney": {
+   "id": "im-free-walking-tours-sydney",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://imfree.tours/sydney/": {
+   "id": "im-free-walking-tours-sydney",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://canberra.dendy.com.au/budget-tuedays-at-dendy-canberra/": {
+   "id": "dendy-canberra-budget-tuesdays",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://canberra.dendy.com.au/budget-imax-tuesdays/": {
+   "id": "dendy-canberra-budget-tuesdays",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Surfers-Paradise-Beachfront-Markets": {
+   "id": "surfers-paradise-beachfront-markets",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nantien.org.au/en/upcoming-events/nan-tien-market": {
+   "id": "nan-tien-market-wollongong-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitwollongong.com.au/event/nan-tien-health-wellbeing-market/": {
+   "id": "nan-tien-market-wollongong-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hobartcity.com.au/Things-To-Do/Christmas/Myer-City-of-Hobart-Christmas-Pageant": {
+   "id": "tas-hobart-christmas-pageant-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hobartcity.com.au/Council/News-and-publications/Media-releases/Terrapin-takes-the-reins-of-Hobart’s-beloved-Christmas-Pageant": {
+   "id": "tas-hobart-christmas-pageant-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.vic.gov.au/half-price-travel": {
+   "id": "vic-public-transport-half-price-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.vline.com.au/News-Alerts/News-Articles/2026/March/Free-public-transport-across-Victoria": {
+   "id": "vic-public-transport-half-price-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.seniorsonline.vic.gov.au/seniors-card/public-transport-benefits": {
+   "id": "vic-public-transport-half-price-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.premier.vic.gov.au/one-million-young-victorians-now-travelling-free": {
+   "id": "vic-public-transport-half-price-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://transportnsw.info/wsi-link": {
+   "id": "wsi-link-free-shuttle-st-marys-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nsw.gov.au/ministerial-releases/tracks-laid-western-sydney-metro": {
+   "id": "wsi-link-free-shuttle-st-marys-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.queenslandrailtravel.com.au/2-for-1-outback-rail": {
+   "id": "queensland-rail-2-for-1-outback-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nab.com.au/content/dam/nab/documents/terms-and-conditions/promotions/nab-goodies-hoyts-october-discounted-movie-tickets-offer-terms-and-conditions.pdf": {
+   "id": "nab-goodies-hoyts-discounted-tickets-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Burleigh-Market": {
+   "id": "burleigh-market-saturdays-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/The-Coastal-Markets-Broadbeach": {
+   "id": "coastal-markets-broadbeach-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Dreamworld-Night-Market-62d0efd316f416de60fa4005": {
+   "id": "dreamworld-night-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://dreamworld.com.au/events/dreamworld-night-market": {
+   "id": "dreamworld-night-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/grand-cliff-top-walk-guided-tour": {
+   "id": "npws-grand-cliff-top-walk-guided-tour-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.queenslandrailtravel.com.au/Pages/BQuickfares.aspx": {
+   "id": "queensland-rail-bquick-fares-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.queenslandrailtravel.com.au/Planyourtrip/rail-fares": {
+   "id": "queensland-rail-bquick-fares-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://transport.vic.gov.au/plan-a-journey/visitors-to-victoria": {
+   "id": "melbourne-free-tram-zone",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/TransportWebsite/News-and-resources/Maps/tram/melbourne-free-tram-zone-and-city-circle-tram-map.pdf": {
+   "id": "melbourne-free-tram-zone",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.transperth.wa.gov.au/tickets-fares/free-travel": {
+   "id": "transperth-free-transit-zone-cat-buses",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.transperth.wa.gov.au/timetables/cat-timetables": {
+   "id": "transperth-free-transit-zone-cat-buses",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://experiencegoldcoast.com/events/mens-t20-series-vs-england--2nd-t20": {
+   "id": "cricket-mens-t20-england-carrara-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.artgallery.nsw.gov.au/whats-on/exhibitions/brett-whiteley-travelling-art-scholarship-2026": {
+   "id": "agnsw-brett-whiteley-travelling-art-scholarship-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.innerwest.nsw.gov.au/beyond-studio/sydney-street-fair-2026": {
+   "id": "sydney-street-fair-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsunshinecoast.com/tour/5d200c192f1156d373e0b3b3/aquaduck-sunshine-coast#deals": {
+   "id": "aquaduck-sunshine-coast-earlybird-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.aquaduck.com.au/sunshine-coast/": {
+   "id": "aquaduck-sunshine-coast-earlybird-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.ngv.vic.gov.au/exhibitons/triennial-2026/": {
+   "id": "ngv-triennial-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://creative.vic.gov.au/news/2026/free-ngv-triennial-returns-to-melbourne-this-summer": {
+   "id": "ngv-triennial-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visit.brisbane.qld.au/things-to-do/northern-suburbs/eat-and-drink/jan-powers-farmers-markets-eagle-farm-7954": {
+   "id": "eagle-farm-farmers-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://carriageworks.com.au/david-hockney-faq/": {
+   "id": "david-hockney-bigger-closer-carriageworks-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sydney.com/tw/destinations/sydney/inner-sydney/redfern-and-waterloo/events/david-hockney-bigger-closer-not-smaller-further-away": {
+   "id": "david-hockney-bigger-closer-carriageworks-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitmelbourne.com/regions/melbourne/whats-on/multicultural/african-music-and-cultural-festival-2026": {
+   "id": "african-music-cultural-festival-melbourne-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitballarat.com.au/whats-on/springfest-ballarat-market-sunday": {
+   "id": "springfest-ballarat-market-sunday-2026",
+   "state": "blocked",
+   "status": 429,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.qpac.com.au/whats-on/2026/the-lion-king": {
+   "id": "qpac-the-lion-king-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbane.qld.gov.au/events-arts-and-culture/what-s-on-in-brisbane/lord-mayor-s-christmas-carols": {
+   "id": "brisbane-lord-mayors-christmas-carols-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.cairns.qld.gov.au/experience-cairns/events/council-events/markets/palm-cove-december": {
+   "id": "cairns-palm-cove-markets-2026-12",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/sea-acres-aboriginal-coastal-tour": {
+   "id": "nsw-sea-acres-aboriginal-coastal-tour-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/innes-ruins-historic-site-guided-tour": {
+   "id": "nsw-innes-ruins-guided-tour-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://powerhouse.com.au/about/media/powerhouse-parramatta-opening-date-revealed": {
+   "id": "powerhouse-parramatta-opening-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://powerhouse.com.au/about/media/powerhouse-parramatta-opening-festival-program": {
+   "id": "powerhouse-parramatta-opening-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.kmart.com.au/black-friday/": {
+   "id": "kmart-black-friday-onepass-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.guzmanygomez.com.au/new-gomex-rewards/": {
+   "id": "gyg-gomex-rewards-free-medium-fries-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitvictoria.com/ovg-spring-coupons": {
+   "id": "vic-ovg-spring-2026-seasonal-offers",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitvictoria.com/deals": {
+   "id": "vic-ovg-spring-2026-seasonal-offers",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://qvm.com.au/whats-on-category/whats-on/": {
+   "id": "qvm-cachivaches-latin-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.museumofbrisbane.com.au/whats-on/": {
+   "id": "museum-of-brisbane-in-residence-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Carrara-Markets-Car-Boot-Sale-5ee186dcef56931323e5e481": {
+   "id": "carrara-markets-car-boot-sale-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.experienceadelaide.com.au/whats-on/adelaide-italian-festival/": {
+   "id": "adelaide-italian-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.spotify.com/au/premium/": {
+   "id": "spotify-premium-individual-free-month-au",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.janpowersfarmersmarkets.com.au/powerhouse-farmers-markets": {
+   "id": "powerhouse-farmers-markets-saturday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://brisbanepowerhouse.org/whats-on/": {
+   "id": "powerhouse-farmers-markets-saturday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Mayors-Christmas-Carols": {
+   "id": "gold-coast-mayors-christmas-carols-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://semaphorestreetfair.com.au": {
+   "id": "sa-semaphore-street-fair-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.7eleven.com.au/": {
+   "id": "7-eleven-summer-savers-8-meal-deal-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/fitzroy-falls-nature-tour": {
+   "id": "npws-fitzroy-falls-nature-tour-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hoyts.com.au/28-hoyts-lux-tickets": {
+   "id": "hoyts-lux-28-weekday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hoyts.com.au/sunday-sessions": {
+   "id": "hoyts-sunday-sessions-from-12-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.artgallery.nsw.gov.au/whats-on/exhibitions/dobell-australian-drawing-biennial-2026": {
+   "id": "agnsw-dobell-drawing-biennial-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.acmi.net.au/whats-on/play-on/": {
+   "id": "acmi-play-on-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.acmi.net.au/whats-on/feng-mengbo-long-march-restart/": {
+   "id": "acmi-feng-mengbo-long-march-restart-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sydneytowereye.com.au/tickets-passes/tickets/multiple-attractions/": {
+   "id": "sydney-big-ticket-tower-eye-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/HOTA-Farmers-and-Artisan-Market-60deb811cdcec11c46c40065": {
+   "id": "hota-farmers-artisan-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.redlandscoast.com.au/ATDW/Events/Straddie-Oyster-and-Seafood-Festival-634fc2b63cdd2b4004a8e648": {
+   "id": "straddie-oyster-seafood-festival-2026",
+   "state": "gone",
+   "status": 404,
+   "checked": "2026-11-21",
+   "fails": 1,
+   "since": "2026-11-21"
+  },
+  "https://stradbrokeisland.com/straddie-oyster-festival/": {
+   "id": "straddie-oyster-seafood-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visitperth.com/events/the-lester-prize-for-portraiture-2026-main-awards/": {
+   "id": "perth-lester-prize-portraiture-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visittopend.com.au/events/event/87299-million-dollar-fish-season-12": {
+   "id": "nt-million-dollar-fish-season-12-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.milliondollarfish.com.au/": {
+   "id": "nt-million-dollar-fish-season-12-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://southaustralia.com/products/adelaide/event/bp-adelaide-grand-final-parade-presented-by-experience-adelaide": {
+   "id": "adelaide-bp-grand-final-parade-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.melvillecity.com.au/things-to-do/events/whats-on/perth-makers-market": {
+   "id": "perth-makers-market-heathcote-dec-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.perthmakersmarket.com/": {
+   "id": "perth-makers-christmas-twilight-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://southaustralia.com/products/adelaide/event/feast-festival-2026": {
+   "id": "adelaide-feast-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/80s-public-transport-fares-to-ring-in-the-new-year-20251218": {
+   "id": "wa-transwa-half-price-fares-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://transwa.wa.gov.au/about-transwa/news/category/news": {
+   "id": "wa-transwa-half-price-fares-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/south-head-tunnels-tour": {
+   "id": "npws-south-head-tunnels-tour-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/smoky-cape-lighthouse-tour": {
+   "id": "npws-smoky-cape-lighthouse-tour-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/sea-acres-aboriginal-culture-tour": {
+   "id": "npws-sea-acres-aboriginal-culture-tour-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.parks.sa.gov.au/get-inspired/park-of-the-month": {
+   "id": "sa-coorong-park-of-the-month-nature-hunt-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://spiritaustralia.rezdy.com/catalog/88897/coorong-cruises": {
+   "id": "sa-coorong-cruises-25-off-2026-11",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://events.humanitix.com/gateway-to-the-coorong-a-goolwa-barrage-talk": {
+   "id": "sa-goolwa-barrage-talk-2026-11-26",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.boost.com.au/": {
+   "id": "boost-black-friday-39-sim-for-12-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.boost.com.au/plans": {
+   "id": "boost-black-friday-39-sim-for-12-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.amaysim.com.au/": {
+   "id": "amaysim-125gb-13-three-renewals-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.ngv.vic.gov.au/exhibition/passage-the-art-of-atong-atem/": {
+   "id": "ngv-passage-atong-atem-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.ngv.vic.gov.au/whats-on/exhibitions/": {
+   "id": "ngv-passage-atong-atem-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.artgallery.nsw.gov.au/whats-on/exhibitions/super-nature/": {
+   "id": "agnsw-super-nature-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.artgallery.nsw.gov.au/whats-on/": {
+   "id": "agnsw-kaori-endo-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbaneheat.com.au/tickets": {
+   "id": "brisbane-heat-bbl16-gabba-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbaneheat.com.au/matches": {
+   "id": "brisbane-heat-bbl16-gabba-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://thegabba.com.au/events/heat-v-sixers": {
+   "id": "brisbane-heat-bbl16-gabba-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://qvm.com.au/whats-on/christmas-night-market/": {
+   "id": "qvm-christmas-night-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.starbucks.com.au/": {
+   "id": "starbucks-pastry-5-deli-roll-10-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.queenslandrailtravel.com.au/": {
+   "id": "queensland-rail-2-for-1-outback-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.skybus.com.au/launceston-express": {
+   "id": "skybus-launceston-express-intro-fare-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://artgallery.wa.gov.au/": {
+   "id": "agwa-art-gallery-wa-free-entry",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.perthupmarket.com.au/events/351/": {
+   "id": "perth-upmarket-uwa-nov-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.perthupmarket.com.au/visitor_information/": {
+   "id": "perth-upmarket-uwa-nov-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://fremantlemarkets.com.au/trading-days-%26-hours": {
+   "id": "fremantle-markets-weekend-trading",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://wfac.org.au/posts/big-summer-sundays-sunday-music-unveils-full-2026-27-lineup": {
+   "id": "wfac-sunday-music-fremantle-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://wfac.org.au/whats-on/post/sunday-music-jinan-grace-barbe/": {
+   "id": "wfac-sunday-music-fremantle-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.perthfestival.com.au/program/season-2027/lotterywest-films": {
+   "id": "lotterywest-films-somerville-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitperth.com/events/city-of-perth-christmas-carollers-and-performances/": {
+   "id": "perth-christmas-carollers-forrest-place-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitperth.com/events/christmas-nativity-2026/": {
+   "id": "perth-christmas-nativity-concert-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitperth.com/events/brass-on-the-grass/": {
+   "id": "brass-on-the-grass-victoria-gardens-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitperth.com/christmas": {
+   "id": "perth-christmas-lights-trail-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://scarboroughsunsetmarkets.com/": {
+   "id": "scarborough-sunset-markets-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.birkenheadpoint.com.au/": {
+   "id": "birkenhead-point-outlet-sydney",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.birkenheadpoint.com.au/visit/hours": {
+   "id": "birkenhead-point-outlet-sydney",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.canberraoutlet.com.au/": {
+   "id": "canberra-outlet-fyshwick",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://brisbane.dfo.com.au/": {
+   "id": "dfo-brisbane-airport-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://homebush.dfo.com.au/": {
+   "id": "dfo-homebush-sydney-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://essendon.dfo.com.au/": {
+   "id": "dfo-essendon-melbourne-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://perth.dfo.com.au/": {
+   "id": "dfo-perth-airport-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.kathmandu.com.au/": {
+   "id": "kathmandu-out-there-member-multiplier-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.telstra.com.au/deals/black-friday": {
+   "id": "telstra-prepaid-44-plan-13-black-friday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.telstra.com.au/mobile-phones/prepaid-mobiles/offers-and-rates": {
+   "id": "telstra-prepaid-44-plan-13-black-friday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.glassons.com/au/": {
+   "id": "glassons-au-15-percent-off-first-order",
+   "state": "blocked",
+   "status": 406,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.south-wharf.dfo.com.au/": {
+   "id": "dfo-south-wharf-melbourne-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Flicks-and-Fireworks": {
+   "id": "flicks-fireworks-surfers-paradise-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Ministry-of-Sound-Summer-Dance-Festival": {
+   "id": "ministry-of-sound-summer-dance-festival-hota-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://celebratewa.com.au/2026-whats-on/": {
+   "id": "wa-day-festival-burswood-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://celebratewa.com.au/music/": {
+   "id": "wa-day-festival-burswood-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://celebratewa.com.au/plan-your-visit/": {
+   "id": "wa-day-festival-burswood-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://adelaidecarols.com.au": {
+   "id": "adelaide-carols-by-candlelight-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.eljannah.com.au/": {
+   "id": "el-jannah-10-charcoal-chicken-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://flights.rex.com.au/en/special-fares": {
+   "id": "rex-special-fares-regional-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.lebara.com.au/mobile-plan/small-sim": {
+   "id": "lebara-35-plan-110gb-10-first-28-days-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.lebara.com.au": {
+   "id": "lebara-25-sim-9-first-28-days-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.target.com.au": {
+   "id": "target-au-10-off-first-online-order-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sydneytowereye.com.au/tickets-passes": {
+   "id": "sydney-attractions-combo-pass-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.madametussauds.com/sydney/en/tickets/": {
+   "id": "sydney-attractions-combo-pass-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.artgallery.nsw.gov.au/visit/": {
+   "id": "agnsw-free-entry-wednesday-late-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://hota.com.au/events/hota-collects-alchemy": {
+   "id": "hota-collects-alchemy-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://experiencegoldcoast.com/events/hota-collects-alchemy": {
+   "id": "hota-collects-alchemy-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visit.brisbane.qld.au/whats-on/moreton-bay-region/live-performances/woodford-folk-festival-e337": {
+   "id": "woodford-folk-festival-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.queensland.com/tw/zh/things-to-do/events/p-56b264102cbcbe7073ade337-woodford-folk-festival": {
+   "id": "woodford-folk-festival-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://goodthingsfestival.com.au/": {
+   "id": "good-things-festival-brisbane-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visit.brisbane.qld.au/whats-on/inner-city/festivals-and-celebrations/good-things-festival-af44": {
+   "id": "good-things-festival-brisbane-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visitcanberra.com.au/events/65b99f0ef661619412e2d379/handmade-market-canberra-summer": {
+   "id": "handmade-market-canberra-summer-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://handmadecanberra.com.au/visiting-the-market/": {
+   "id": "handmade-market-canberra-summer-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.cityofsydney.nsw.gov.au/events/martin-place-christmas-tree": {
+   "id": "sydney-martin-place-christmas-tree-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visitcanberra.com.au/events/6531d078d3e2ef517e2e6da6/canberra-springout-pride-festival": {
+   "id": "canberra-springout-pride-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://springout.com.au/": {
+   "id": "canberra-springout-pride-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://justforlaughs.sydney": {
+   "id": "just-for-laughs-sydney-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.guzmanygomez.com.au/welcome-gyg-caringbah/": {
+   "id": "gyg-caringbah-5-burritos-bowls-2026-12-10",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbane.qld.gov.au/things-to-see-and-do/outdoor-activities/council-pools": {
+   "id": "brisbane-council-pools-2-summer-dips-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.artgallery.nsw.gov.au/whats-on/exhibitions/and-still-i-rise": {
+   "id": "agnsw-and-still-i-rise-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsouthbank.com.au/events/the-collective-markets-at-south-bank": {
+   "id": "south-bank-collective-markets-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsouthbank.com.au/events/south-bank-guided-tours": {
+   "id": "south-bank-free-guided-tours-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsouthbank.com.au/events/yoga": {
+   "id": "south-bank-free-yoga-saturdays-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsouthbank.com.au/events/sunday-social": {
+   "id": "south-bank-sunday-social-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://qvm.com.au/whats-on/the-grand-pinoy-christmas-fiesta-himig-ng-pasko/": {
+   "id": "qvm-pinoy-christmas-fiesta-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/barbie-the-exhibition-at-melbourne-museum": {
+   "id": "barbie-the-exhibition-melbourne-museum-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hungryjacks.com.au/": {
+   "id": "hungry-jacks-jacks-cafe-5th-coffee-free-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.greyhound.com.au/travel-passes": {
+   "id": "greyhound-australia-travel-passes-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.greyhound.com.au/deals": {
+   "id": "greyhound-australia-travel-passes-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.felixmobile.com.au/": {
+   "id": "felix-unlimited-half-price-6-months-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.miamimarketta.com/": {
+   "id": "miami-marketta-gold-coast-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.eatstreetnorthshore.com.au/": {
+   "id": "eat-street-northshore-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.livenation.com.au/queensland-country-bank-stadium-tickets-vdp1435342": {
+   "id": "guns-n-roses-townsville-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.townsvillenorthqueensland.com.au/events/": {
+   "id": "guns-n-roses-townsville-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Currumbin-Christmas-Carols": {
+   "id": "currumbin-christmas-carols-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitfremantle.com.au/sites/default/files/2026-08/5407%20CoF%20Events%20Calendar%20FY26-27%20FINAL.pdf": {
+   "id": "made-on-the-left-christmas-market-fremantle-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visittopend.com.au/markets": {
+   "id": "rapid-creek-markets-darwin",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://discover.darwin.nt.gov.au/blogs/darwin-markets": {
+   "id": "parap-village-markets-darwin",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.rapidcreekmarkets.com.au/": {
+   "id": "rapid-creek-markets-darwin",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.muffinbreak.com.au/": {
+   "id": "muffin-break-6-iced-latte-2026-11",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.myer.com.au/content/black-friday": {
+   "id": "myer-black-friday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.williamsshoes.com.au/promotions": {
+   "id": "williams-shoes-second-pair-half-price-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.moorabbin.dfo.com.au/": {
+   "id": "dfo-moorabbin-melbourne-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.easterncreek.dfo.com.au": {
+   "id": "dfo-eastern-creek-sydney-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.unihill.dfo.com.au": {
+   "id": "dfo-uni-hill-melbourne-outlet",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visit.brisbane.qld.au/whats-on/northern-suburbs/sporting-events/2026-queensland-pga-championship-a3cb": {
+   "id": "qld-pga-championship-nudgee-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.wildlandsfestival.com.au/qld/landing": {
+   "id": "wildlands-brisbane-nye-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.livenation.com.au/event/j-cole-the-fall-off-tour-brisbane-tickets-edp1653083": {
+   "id": "j-cole-brisbane-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.melvillecity.com.au/melvillesummermusic": {
+   "id": "melville-summer-music-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.geelongcitymarket.com.au": {
+   "id": "geelong-city-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitgeelongbellarine.com.au/products/geelong-city-market": {
+   "id": "geelong-city-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/cruel-intentions-the-90s-musical": {
+   "id": "cruel-intentions-90s-musical-melbourne-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.woolworthsgroup.com.au/au/en/our-newsroom/media-releases/latest-news/2026/woolworths-teams-up-with-mad-mex-for-a-new-twist-on-the-iconic-h.html": {
+   "id": "woolworths-mad-mex-hot-chicken-2026-11-16",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.lebara.com.au/": {
+   "id": "lebara-35-plan-110gb-10-first-28-days-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://themarketfolk.com.au/pages/king-street-christmas-twilight-market-2026": {
+   "id": "king-street-christmas-twilight-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsunshinecoast.com/event/6aa0e2cb0ac024b55104cc81/carols-on-kings-proudly-presented-by-caloundra-rsl": {
+   "id": "carols-on-kings-caloundra-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sculptureontheedge.com.au": {
+   "id": "sculpture-on-the-edge-flaxton-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsunshinecoast.com/event/69bb6173c2fbb6ce19d96802/sculpture-on-the-edge": {
+   "id": "sculpture-on-the-edge-flaxton-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://hota.com.au/events/christmas_at_hota": {
+   "id": "christmas-at-hota-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://experiencegoldcoast.com/events/christmas-at-hota": {
+   "id": "christmas-at-hota-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/docklands-waterfront-farmers-market": {
+   "id": "docklands-waterfront-farmers-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/crown-christmas-river-show": {
+   "id": "crown-christmas-river-show-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hobartcity.com.au/Things-To-Do/Upcoming-events/Community-Bake-Days": {
+   "id": "hobart-community-bake-days-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.aldimobile.com.au/": {
+   "id": "aldi-mobile-double-data-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.agsa.sa.gov.au/whats-on/exhibitions/two-islands-one-thread-textiles-of-lombok-bali/": {
+   "id": "agsa-two-islands-one-thread-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.agsa.sa.gov.au/whats-on/exhibitions/dressed-up-fashion-photography/": {
+   "id": "agsa-dressed-up-fashion-photography-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://christmaswonderland.com.au/": {
+   "id": "toowoomba-christmas-wonderland-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.queenslandcountrytourism.com.au/listings/toowoombas-christmas-wonderland": {
+   "id": "toowoomba-christmas-wonderland-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Cooly-Carols": {
+   "id": "cooly-carols-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sydneynewyearseve.com/": {
+   "id": "sydney-nye-fireworks-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sydneynewyearseve.com/vantage-points": {
+   "id": "sydney-nye-fireworks-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://transportnsw.info/events/2026/12/sydney-new-years-eve-2026": {
+   "id": "sydney-nye-fireworks-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.darlingharbour.com/whats-on/campaigns/christmas": {
+   "id": "darling-harbour-christmas-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.darlingharbour.com/whats-on/events/christmas-festival": {
+   "id": "darling-harbour-christmas-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.therocks.com/whats-on/campaigns/christmas": {
+   "id": "the-rocks-homegrown-christmas-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.therocks.com/whats-on": {
+   "id": "the-rocks-homegrown-christmas-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://events.canberra.com.au/whats-on/652dc63e1f77fae26117a42c/the-haig-park-christmas-markets": {
+   "id": "act-haig-park-christmas-markets-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.aldi.com.au/special-buys/": {
+   "id": "aldi-black-wednesday-2026-11-25",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/perisher-discovery-guided-walk": {
+   "id": "npws-perisher-discovery-guided-walk-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://nationalparks.nsw.gov.au/things-to-do/thredbo-perisher-guided-tours": {
+   "id": "npws-perisher-discovery-guided-walk-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/rockpool-ramble-shelly-beach": {
+   "id": "npws-rockpool-ramble-shelly-beach-2026-12-31",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/guided-tours/green-cape-lighthouse-guided-tour": {
+   "id": "npws-green-cape-lighthouse-tour-2027-01",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nationalparks.nsw.gov.au/things-to-do/lighthouse-tours-nsw-national-parks": {
+   "id": "npws-green-cape-lighthouse-tour-2027-01",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.macpac.com.au/promotions-terms-and-conditions.html": {
+   "id": "macpac-noarlunga-opening-sale-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visit.brisbane.qld.au/whats-on/the-city/festivals-and-celebrations/lord-mayors-lighting-of-the-christmas-tree-2026": {
+   "id": "brisbane-lord-mayors-christmas-tree-lighting-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbane.qld.gov.au/things-to-see-and-do/whats-on-and-events/christmas-in-brisbane": {
+   "id": "brisbane-city-hall-lights-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visit.brisbane.qld.au/whats-on/the-city/festivals-and-celebrations/city-hall-lights": {
+   "id": "brisbane-city-hall-lights-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsouthbank.com.au/events/big-things": {
+   "id": "slq-big-things-exhibition-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Movies-Under-the-Stars-The-Polar-Express": {
+   "id": "gold-coast-movies-under-the-stars-polar-express-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.whatsongoldcoast.au/All-events/Spilt-Milk-Gold-Coast-64af491340162b92310ccd61": {
+   "id": "spilt-milk-gold-coast-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.frontiertouring.com/current-tours/spaceyjane-b96miNr/spacey-jane-2026-26-nov-bne": {
+   "id": "spacey-jane-brisbane-riverstage-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.frontiertouring.com/current-tours/wolfalice-02c0GsR/wolf-alice-2026-2-dec-brisbane": {
+   "id": "wolf-alice-brisbane-fortitude-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://thegabba.com.au/events/carreras---friends---jose-carreras--robbie-williams--the-corrs--0": {
+   "id": "carreras-and-friends-gabba-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-square": {
+   "id": "melbourne-christmas-square-fed-square-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-tree-lighting": {
+   "id": "melbourne-christmas-tree-lighting-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/myer-christmas-windows": {
+   "id": "melbourne-myer-christmas-windows-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/taste-of-persia": {
+   "id": "melbourne-taste-of-persia-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/southbank-makers-market": {
+   "id": "southbank-makers-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/hartbeats-live-jazz": {
+   "id": "hartbeats-live-jazz-whitehart-bar-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-at-the-district-docklands": {
+   "id": "christmas-district-docklands-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nbl.com.au/news/how-to-get-free-hungry-jacks-cheeseburgers-by-watching-nbl27-games": {
+   "id": "hungry-jacks-nbl27-free-cheeseburger-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.flixbus.com.au/": {
+   "id": "flixbus-first-birthday-sale-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://transportnsw.info/regional-travel/regional-offers/online-saver-fares": {
+   "id": "nsw-trainlink-online-saver-fares-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://transportnsw.info/regional-travel/regional-offers": {
+   "id": "nsw-trainlink-online-saver-fares-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://transportnsw.info/regional-travel/regional-offers/discovery-pass": {
+   "id": "nsw-trainlink-discovery-pass-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.hoyts.com.au/offers": {
+   "id": "hoyts-movie-of-the-week-12-50-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.officeworks.com.au/campaigns/black-friday": {
+   "id": "officeworks-black-friday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://hota.com.au/events/comedy-underground-saturday-showcase": {
+   "id": "hota-comedy-underground-saturday-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://experiencegoldcoast.com/events/hota-christmas-twilight-markets": {
+   "id": "hota-christmas-twilight-markets-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://brisbanepowerhouse.org/events/banksia-prize-2026/": {
+   "id": "brisbane-powerhouse-banksia-prize-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sunshinecoast.qld.gov.au/events/sunshine-coast-new-year-s-eve-2026": {
+   "id": "sunshine-coast-nye-fireworks-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.cricket.com.au/tickets/west-test-festival": {
+   "id": "perth-west-test-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.westernaustralia.com/en/things-to-do/events/west-test-festival": {
+   "id": "perth-west-test-festival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.waso.com.au/whats-on/2026/productions/special-events/santas-symphony-in-the-park": {
+   "id": "perth-santas-symphony-burswood-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.fremantle.wa.gov.au/arts-and-culture/whats-on/a-very-freo-christmas/": {
+   "id": "fremantle-very-freo-christmas-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visittopend.com.au/events/event/87401-christmas-light-trail": {
+   "id": "darwin-christmas-light-trail-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://northernterritory.com/darwin-and-surrounds/events/christmas-light-trail": {
+   "id": "darwin-christmas-light-trail-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visittopend.com.au/events/event/87395-new-years-eve-darwin-waterfront": {
+   "id": "darwin-nye-waterfront-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.cityofsydney.nsw.gov.au/events/ai-weiwei-mushrooms-2026": {
+   "id": "sydney-ai-weiwei-mushrooms-mca-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://southaustralia.com/products/adelaide/event/carols-in-the-pub-2026-maylands-hotel": {
+   "id": "adelaide-carols-in-the-pub-maylands-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.aldi.com.au/special-buys/2026-11-21": {
+   "id": "aldi-special-buys-2026-11-21-beach-summer",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nma.gov.au/whats-on": {
+   "id": "national-museum-australia-free-entry-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.awm.gov.au/visit": {
+   "id": "australian-war-memorial-free-entry-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://mobile.everyday.com.au/plans/30-prepaid-mobile-plan": {
+   "id": "everyday-mobile-prepaid-double-data-2026-11",
+   "state": "blocked",
+   "status": "逾時",
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.cairns.qld.gov.au/experience-cairns/events/annual-events/carols-in-the-park": {
+   "id": "cairns-carols-in-the-park-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.townsville.qld.gov.au/events/carols-by-candlelight": {
+   "id": "townsville-carols-by-candlelight-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://stablenq.com.au/stable-2026": {
+   "id": "townsville-stable-in-the-city-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.cairns.qld.gov.au/experience-cairns/events/annual-events/new-years-eve": {
+   "id": "cairns-new-years-eve-fireworks-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.cairns.qld.gov.au/experience-cairns/events/annual-events/let-it-snow": {
+   "id": "cairns-christmas-light-lane-2026",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsunshinecoast.com/whats-on": {
+   "id": "caloundra-christmas-street-fair-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://tasmania.com/events/taste-of-summer/": {
+   "id": "taste-of-summer-hobart-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.discovertasmania.com.au/experiences/stories/tasmanian-food-festivals-summer/": {
+   "id": "launceston-beerfest-nye-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-outdoor-cinema": {
+   "id": "fed-square-christmas-outdoor-cinema-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/whats-on-december": {
+   "id": "birrarung-marr-christmas-carnival-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.eventbrite.com.au/e/launceston-beerfest-nye-30-31-december-tickets-1999969747352?aff=ebdssbcitybrowse": {
+   "id": "launceston-beerfest-nye-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nandos.com.au/offers-terms": {
+   "id": "nandos-peri-chip-wrap-bundle-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.nsw.gov.au/ministerial-releases/relief-now-cutting-cost-of-transport": {
+   "id": "nsw-opal-fares-held-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visit.brisbane.qld.au/whats-on/the-city/festivals-and-celebrations/brisstyle-twilight-markets-2026": {
+   "id": "brisstyle-twilight-markets-king-george-square-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brisbane.qld.gov.au/events/riverside-at-the-gardens-market/201096854": {
+   "id": "riverside-at-the-gardens-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://queenslandmarkets.com.au/riverside-markets/": {
+   "id": "riverside-at-the-gardens-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.unley.sa.gov.au/Events-directory/FP-26-11-Fullarton-Christmas-Fair": {
+   "id": "fullarton-christmas-fair-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://adelaidecentralmarket.com.au/whats-on": {
+   "id": "adelaide-central-market-festive-fridays-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.iga.com.au/catalogue": {
+   "id": "iga-nsw-weekly-specials-2026-11-18",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.salefinder.com.au/iga-catalogue": {
+   "id": "iga-nsw-weekly-specials-2026-11-18",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.islandconnections.com.au/bruny-island/ferry-information/bruny-island-ferry-fares/": {
+   "id": "bruny-island-ferry-walk-on-free-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://experiencegoldcoast.com/events/christmas-markets-gc": {
+   "id": "christmas-markets-gc-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://themarketfolk.com.au/pages/heritage-lanes-christmas-market-2026": {
+   "id": "heritage-lanes-christmas-market-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.brc.com.au/?p=25121": {
+   "id": "members-mile-day-eagle-farm-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.magicmillions.com.au/?p=288": {
+   "id": "magic-millions-raceday-gold-coast-2027",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.visitsunshinecoast.com/event/68db2def41b4004044345b2a/boxing-day-races": {
+   "id": "boxing-day-races-sunshine-coast-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://visitcanberra.com.au/attractions/62fa232d5e4ba3fa4f05340d/the-little-burley-market": {
+   "id": "little-burley-market-canberra-2026-12-05",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://events.canberra.com.au/whats-on/630717c1f26f049e5b6b23bb/the-little-burley-market": {
+   "id": "little-burley-market-canberra-2026-12-05",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://harmonieclub.com.au/events/german-christmas-markets/": {
+   "id": "harmonie-german-christmas-markets-canberra-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.cityofsydney.nsw.gov.au/events/surry-hills-christmas-fair": {
+   "id": "surry-hills-christmas-fair-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.cityofsydney.nsw.gov.au/opportunities/apply-surry-hills-christmas-fair": {
+   "id": "surry-hills-christmas-fair-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.sydneycricketground.com.au/articles/summer_2026_27_international_cricket_locked_in_for": {
+   "id": "scg-pink-test-nz-2027-01",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.cricketnsw.com.au/news/4474731/sydney-fixtures-locked-in-for-2026-27-international-summer": {
+   "id": "scg-pink-test-nz-2027-01",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.7eleven.com.au/offers.html": {
+   "id": "7-eleven-lunch-legends-6-meal-deal-2026-12-01",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://australian.museum/whatson": {
+   "id": "australian-museum-free-general-entry-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://brisbanepowerhouse.org/events/brisbane-portrait-prize-2/": {
+   "id": "brisbane-portrait-prize-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.mcg.org.au/events/2026/december/boxing-day-test-day-1-australia-v-new-zealand": {
+   "id": "boxing-day-test-mcg-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://whatson.melbourne.vic.gov.au/things-to-do/new-years-eve": {
+   "id": "melbourne-new-years-eve-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://carols.visionaustralia.org/tickets": {
+   "id": "carols-by-candlelight-melbourne-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.redrooster.com.au/value/": {
+   "id": "red-rooster-whole-roast-chicken-10-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.ampol.com.au/convenience/foodary/coffee": {
+   "id": "ampol-foodary-5th-coffee-free-2027",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.guzmanygomez.com.au/5-brekkie-burritos-and-bowls-at-gyg-hervey-bay-nov-26/": {
+   "id": "gyg-hervey-bay-maryborough-5-brekkie-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.guzmanygomez.com.au/5-brekkie-burritos-and-bowls-at-gyg-maryborough-nov-26/": {
+   "id": "gyg-hervey-bay-maryborough-5-brekkie-2026-11",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.telstra.com.au/deals": {
+   "id": "telstra-upfront-mobile-50-off-4-months-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.wa.gov.au/government/media-statements/Cook%20Labor%20Government/Stay-a-little-longer-on-summer-nights-with-Rottnest%27s-late-ferry-20261112": {
+   "id": "rottnest-late-return-ferry-summer-2026-27",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.salefinder.com.au/woolworths-catalogue": {
+   "id": "woolworths-nsw-weekly-catalogue-2026-11-18",
+   "state": "blocked",
+   "status": 403,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  },
+  "https://www.finnair.com/au-en/offers": {
+   "id": "finnair-europe-bangkok-sale-2026",
+   "state": "ok",
+   "status": 200,
+   "checked": "2026-11-21",
+   "fails": 0,
+   "since": null
+  }
+ }
+}

@@ -2,7 +2,10 @@
 //
 //   prune                      移除已經結束的項目（end 早於今天，布里斯本時間）
 //   list                       列出目前所有項目，給研究員比對重複用
-//   due [輸出檔]               列出今天要重新查證的現有項目（4 天內開始、部分查證滿 3 天、其他滿 7 天），可輸出成 JSON 給查證員
+//   due [輸出檔]               列出今天要重新查證的現有項目（4 天內開始、部分查證滿 3 天、其他滿 7 天，
+//                              以及自動檢查發現官方網址連續找不到的），可輸出成 JSON 給查證員
+//   leads [輸出資料夾]         整理自動蒐集的線索（data/auto/leads.json、watch.json），依研究員分成
+//                              <資料夾>/leads-<代號>.json，預設 /tmp
 //   verdicts <查證結果.json>   把查證員對「現有項目」的結果套進去：drop 移除、fix 修正，更新查證狀態與日期
 //   add <新項目.json> <查證結果.json>
 //                              只把查證結果是 ok／fix 的新項目加進去（套用修正、補 added＝今天），重複的跳過
@@ -54,13 +57,18 @@ switch (cmd) {
   case 'due': {
     const soon = bne(4), stale = bne(-7), partialStale = bne(-3);
     const checked = (it) => it.verified.checked || '0';
+    // 自動蒐集（tools/collect.js links）發現官方網址連續 2 次找不到頁面的，不管上次什麼時候查過，今天都要重查
+    let broken = {};
+    try { for (const b of readJson(path.join(__dirname, '..', 'data', 'auto', 'links.json')).broken || []) (broken[b.id] = broken[b.id] || []).push(b.url); } catch {}
     const due = d.items.filter((it) =>
+      (broken[it.id] && checked(it) < TODAY) ||                               // 官方網址找不到了：可能已結束或搬家
       (it.start >= TODAY && it.start <= soon && checked(it) < TODAY) ||       // 4 天內開始：開始前每天確認沒取消
       (it.verified.status === 'partial' && checked(it) <= partialStale) ||    // 部分查證：每 3 天看官方是否補上資訊
       checked(it) <= stale);                                                  // 其他：每 7 天重查一次
-    if (a1) fs.writeFileSync(a1, JSON.stringify(due, null, 1));
+    const out = due.map((it) => (broken[it.id] ? { ...it, _broken_urls: broken[it.id] } : it));
+    if (a1) fs.writeFileSync(a1, JSON.stringify(out, null, 1));
     console.log(`今天要重新查證 ${due.length} 筆${a1 ? `（已寫入 ${a1}）` : ''}`);
-    due.forEach((it) => console.log(`  - ${it.id} | ${it.verified.status} | 上次 ${it.verified.checked} | ${it.start}`));
+    due.forEach((it) => console.log(`  - ${it.id} | ${it.verified.status} | 上次 ${it.verified.checked} | ${it.start}${broken[it.id] ? ' | 官方網址找不到頁面' : ''}`));
     break;
   }
   case 'verdicts': {
@@ -130,6 +138,24 @@ switch (cmd) {
     for (const [r, goal] of Object.entries(GOAL_R)) console.log(`  ${(reg[r] || 0) < goal ? '偏少' : '　　'} ${r} ${reg[r] || 0}／${goal}`);
     const soon = live.filter((it) => it.start > TODAY && it.start <= bne(14)).length;
     console.log(`未來 14 天內開始：${soon} 筆${soon < 15 ? '（偏少，多找近期活動）' : ''}`);
+    break;
+  }
+  case 'leads': {
+    const dir = a1 || '/tmp';
+    const auto = (f) => { try { return readJson(path.join(__dirname, '..', 'data', 'auto', f)); } catch { return null; } };
+    const L = auto('leads.json'), W = auto('watch.json');
+    if (!L && !W) { console.log('沒有自動蒐集的線索（data/auto/ 不存在），改用 node tools/feeds.js'); break; }
+    const known = d.items.map((i) => norm(i.title)).filter((t) => t.length >= 8);
+    const fresh = (L ? L.leads : []).filter((l) => { const k = norm(l.title); return !known.some((t) => k.includes(t) || t.includes(k)); });
+    const by = {};
+    for (const l of fresh) (by[l.for] = by[l.for] || []).push(l);
+    for (const [k, v] of Object.entries(by)) fs.writeFileSync(path.join(dir, `leads-${k}.json`), JSON.stringify(v, null, 1));
+    fs.writeFileSync(path.join(dir, 'leads-all.json'), JSON.stringify(fresh, null, 1));
+    const changes = W ? W.changes : [];
+    fs.writeFileSync(path.join(dir, 'leads-watch.json'), JSON.stringify(changes, null, 1));
+    console.log(`RSS 線索 ${fresh.length} 條（${L ? '更新於 ' + L.updated : '沒有'}）：` + Object.entries(by).map(([k, v]) => `${k} ${v.length}`).join('、'));
+    console.log(`官方活動頁有新內容 ${changes.length} 頁（${W ? '更新於 ' + W.updated : '沒有'}）→ ${dir}/leads-watch.json`);
+    if (L && L.failed && L.failed.length) console.log('RSS 讀不到：' + L.failed.join('、'));
     break;
   }
   case 'count': {
