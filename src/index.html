@@ -7,7 +7,11 @@
     document.documentElement.dataset.theme = t;
     if (t === 'dark') document.querySelector('meta[name="theme-color"]').content = '#0E0E10'; })();
 </script>
-<style>/*__LEAFLET_CSS__*/</style>
+<style>/*__LEAFLET_CSS__*//* 2026-11-22 載入時不跳動：快速瀏覽與分類由 JS 填入，先留好位置 */
+#quick:empty{min-height:267px}
+#tabs:empty{min-height:50px}
+@media (max-width:640px){#quick:empty{min-height:46px}}
+</style>
 <style>
 /* 版面：由上而下閱讀。頁首 → 標題與搜尋、地區 → 快速入口 → 分類列（捲動時固定）→ 卡片牆。
    點卡片開詳細資訊（電腦：右側面板／手機：底部抽屜）；地圖改為可切換的檢視（畫面下方的按鈕）。 */
