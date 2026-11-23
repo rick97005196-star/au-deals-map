@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -135,60 +135,10 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未公布週三至週五版本的起訖日期。"
    },
    "schedule_zh": "每週三至週五",
-   "hot": true
-  },
-  {
-   "id": "black-friday-cyber-monday-2026-au",
-   "type": "event",
-   "title": "Black Friday & Cyber Monday 2026",
-   "title_zh": "黑色星期五與網購星期一",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-27",
-   "end": "2026-11-30",
-   "price_zh": "請見各店官網",
-   "free": false,
-   "highlight": "年度購物檔期",
-   "summary_zh": "澳洲年度大型購物折扣檔期，Black Friday 為 11/27（五），Cyber Monday 為 11/30（一），各零售商優惠內容以其官網公告為準。",
-   "tip_zh": "許多零售商可能提前推出優惠，建議先列出欲購商品並比價後再行購買。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Myer – Black Friday 2026",
-     "url": "https://www.myer.com.au/content/black-friday"
-    },
-    {
-     "kind": "community",
-     "platform": "OzBargain",
-     "label": "OzBargain – Black Friday event page",
-     "url": "https://www.ozbargain.com.au/event/black-friday"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "TechRadar AU – Black Friday sales 2026 in Australia: official dates",
-     "url": "https://www.techradar.com/au/black-friday/black-friday-gaming-deals-australia"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "Mozo – Black Friday 2026 in Australia",
-     "url": "https://www.mozo.com.au/online-shopping/black-friday"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-23"
-   },
    "hot": true
   },
   {
@@ -225,7 +175,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網活動頁未列出門票價格。"
    }
   },
@@ -269,8 +219,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未列出票價。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網頁面無法直接開啟，票價未能確認。"
    }
   },
   {
@@ -286,11 +236,11 @@
    "lng": 152.441,
    "start": "2026-11-07",
    "end": "2027-03-21",
-   "price_zh": "成人 A$31.30、兒童（5–17 歲）A$16.15",
+   "price_zh": "請見官網",
    "free": false,
    "highlight": "季節限定",
-   "summary_zh": "Mon Repos Conservation Park 的夜間海龜導覽，由護管員帶領，每晚舉行，季節約自 2026 年 11 月至 2027 年 3 月下旬。",
-   "tip_zh": "12/24、25、31 停辦；線上預約每日 16:00 截止，常提早售完；官方頁面另有 11/13–12/5 預約公告，購票前請先查看。",
+   "summary_zh": "Mon Repos Conservation Park 的夜間海龜導覽，每晚舉行，2026 年 11 月 7 日至 2027 年 3 月 21 日（12 月 24、25、31 日停辦），票券含 Turtle Centre 入場。",
+   "tip_zh": "售票自 2026 年 6 月 1 日起，建議儘早於官方訂位頁預約；12 月 24、25、31 日停辦。",
    "sources": [
     {
      "kind": "official",
@@ -307,8 +257,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面直接開啟失敗（503／403），確切起訖日期未能在官方頁面逐字確認；票價來自搜尋結果顯示的官方頁面摘要。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官方頁面無法直接開啟，2026–27 票價未能確認。"
    }
   },
   {
@@ -414,7 +364,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    }
   },
   {
@@ -477,7 +427,7 @@
    "price_zh": "免費搭乘",
    "free": true,
    "highlight": "免費",
-   "summary_zh": "大達爾文地區（Darwin、Casuarina、Palmerston）及 Alice Springs 的公營公車目前免費搭乘，自 2025 年 7 月 1 日起實施；NT 政府公告免費期間延長至 2027 年 1 月，之後將恢復收費。",
+   "summary_zh": "大達爾文地區（Darwin、Casuarina、Palmerston）及 Alice Springs 的公營公車目前免費搭乘；NT 政府公告免費期間延長至 2027 年 1 月，之後將恢復收費。",
    "tip_zh": "免費期間預計至 2027 年 1 月 24 日，之後可能恢復收費，出發前請查閱 nt.gov.au 公告。",
    "sources": [
     {
@@ -489,7 +439,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官方頁面無法直接開啟，免費期限依搜尋結果中的 NT 政府頁面摘要，建議出發前再確認。"
    },
    "area_zh": "達爾文、Alice Springs",
@@ -723,7 +673,7 @@
    "category": "music",
    "region": "VIC",
    "city": "Queenscliff",
-   "venue": "Princess Park, Queenscliff",
+   "venue": "Queenscliff 鎮區（含 The Pavilion、Lighthouse Stage）",
    "lat": -38.269,
    "lng": 144.6615,
    "start": "2026-11-27",
@@ -731,7 +681,7 @@
    "price_zh": "三日票成人 A$339；單日 A$125–175（含手續費與 GST）",
    "free": false,
    "highlight": "海濱音樂節",
-   "summary_zh": "Bellarine 半島海濱小鎮 Queenscliff 的年度音樂節，11/27 至 11/29 於 Princess Park 一帶舉行，陣容包括 Baker Boy、Kate Miller-Heidke、Matt Corby 等。",
+   "summary_zh": "Bellarine 半島海濱小鎮 Queenscliff 的年度音樂節，11 月 27 日至 29 日舉行，陣容包括 Baker Boy、Kate Miller-Heidke、Matt Corby 等。",
    "tip_zh": "售票頁列出的票價已含手續費與 GST，票價與供應情形請見官網售票頁。",
    "sources": [
     {
@@ -761,7 +711,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    }
   },
   {
@@ -975,8 +925,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-19"
+    "status": "partial",
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網未明文標示 After Party 免費，免費入場依 Star Observer 報導。"
    }
   },
   {
@@ -1053,7 +1004,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未標示優惠年份與起訖日期，僅寫「限時」。"
    },
    "added": "2026-10-10",
@@ -1198,8 +1149,8 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "免費導覽・志工帶領",
-   "summary_zh": "Adelaide Greeters 由志工導覽員帶領市區導覽，集合地點為阿德雷德遊客中心（25 Pirie Street），預約頁列為免費、最多 6 人。",
-   "tip_zh": "須透過預約頁預約，亦可來電洽詢；實際場次與是否收費請於預約時確認。",
+   "summary_zh": "Adelaide Greeters 由志工導覽員帶領市區導覽，約 3 小時、最多 6 人，預約頁列為免費；平日於阿德雷德遊客中心（25 Pirie Street）集合，週末場次於 Rundle Mall 的 Beehive Corner 集合。",
+   "tip_zh": "須透過預約頁事先預約；平日與週末集合地點不同，預約時請確認。",
    "sources": [
     {
      "kind": "official",
@@ -1228,7 +1179,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未列出 2026 年場次日期，免費與時長僅見於搜尋結果的預約頁摘要。"
    },
    "added": "2026-10-10",
@@ -1262,9 +1213,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網頁面未標示年份。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-10-10"
   },
@@ -1905,7 +1855,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-10-15"
   },
@@ -2071,7 +2021,7 @@
    "start": "2026-10-22",
    "end": "2027-01-24",
    "schedule_zh": "每日開放，場次時間依日期而異",
-   "price_zh": "A$39.90 起（另收 A$5 訂票手續費）",
+   "price_zh": "A$39.90 起（依場次而異）",
    "free": false,
    "highlight": "沉浸式展覽",
    "summary_zh": "David Hockney 與倫敦 Lightroom 共同打造的沉浸式展覽，以 360 度投影與音樂呈現其六十年創作歷程，包含經典作品與為本展新創作的內容。",
@@ -2092,8 +2042,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "Carriageworks 票務頁列開展日為 10 月 22 日，Sydney.com 列為 11 月 21 日，兩者不一致。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "Carriageworks 官網未列票價，A$39.90 起取自媒體報導。"
    },
    "added": "2026-10-15"
   },
@@ -2363,7 +2313,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-10-22",
    "lead": "其他"
@@ -2504,8 +2454,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網僅列「From $0」，未明文寫入場免費；列出的日期範圍前後不一致。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網僅列「From $0」，未明文寫入場免費。"
    },
    "added": "2026-10-24"
   },
@@ -2598,8 +2548,8 @@
    "price_zh": "免費",
    "free": true,
    "highlight": "免費・2 晚",
-   "summary_zh": "聖誕音樂會，由 Samantha Jade 與 DJ Havana Brown 領銜，結尾有煙火。官方表示戶外舞台門票已售完，HOTA Parklands 設有大螢幕轉播、餐車與免費摩天輪。",
-   "tip_zh": "舞台票已售完，可前往 HOTA Parklands 觀看大螢幕轉播。",
+   "summary_zh": "聖誕音樂會，由 Samantha Jade 與 DJ Havana Brown 領銜，結尾有煙火。官方表示戶外舞台門票已售完，HOTA Parklands 於 16:00 起設有大螢幕放映、餐車與免費摩天輪。",
+   "tip_zh": "舞台票已售完，可於 16:00 起前往 HOTA Parklands 觀看大螢幕放映。",
    "sources": [
     {
      "kind": "official",
@@ -2610,7 +2560,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-24"
    },
    "added": "2026-10-28"
   },
@@ -2779,7 +2729,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未標示優惠起始日與年份。"
    },
    "added": "2026-10-31"
@@ -2911,7 +2861,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未標示優惠年份，票價依季節與需求變動。"
    },
    "added": "2026-10-31"
@@ -3050,7 +3000,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官方頁面未列遊行的開始時間。"
    },
    "added": "2026-10-31"
@@ -3286,7 +3236,7 @@
    "free": true,
    "highlight": "免費講座",
    "summary_zh": "南澳國家公園 11 月 Coorong 主題活動之一，於 Goolwa Barrage 舉辦的 Coorong 入口導覽講座，免費參加。",
-   "tip_zh": "需先在 Humanitix 登記。",
+   "tip_zh": "請由 Humanitix 活動頁報名，於 Goolwa Barrage 旁遮蔭處集合；請穿包鞋並攜帶防曬用品與飲水，嚴重天氣或全面禁火日將取消。",
    "sources": [
     {
      "kind": "official",
@@ -3303,7 +3253,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-10-31"
   },
@@ -3527,7 +3477,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-03"
   },
@@ -3658,7 +3608,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未明確標示入場是否免費。"
    },
    "added": "2026-10-31"
@@ -3851,8 +3801,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "24 組燈飾・為期一個月",
-   "summary_zh": "City of Perth 的聖誕燈飾步道，今年為第 10 年，共 24 組燈光裝置，涵蓋 Yagan Square、Forrest Place、Murray Street Mall 與 Barrack Square 一帶，可走完整路線，或選擇適合親子的 The Merry Mile 短路線。",
-   "tip_zh": "12 月 1 日至 27 日每晚 18:00–21:00，Forrest Place 與 Murray Street Mall 一帶另有聖誕頌歌表演。",
+   "summary_zh": "Rio Tinto Christmas Lights Trail 於 Perth CBD 展出 24 組燈光裝置，涵蓋 Yagan Square、Forrest Place、Murray Street Mall 與 Barrack Square 一帶，可走完整路線，或選擇較短的 The Merry Mile 路線。",
+   "tip_zh": "每晚 18:00 起開放，現場巡迴表演 18:00–21:00；官網未列出入場費用。",
    "sources": [
     {
      "kind": "official",
@@ -3863,7 +3813,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未列出入場費用。"
    },
    "added": "2026-10-31"
@@ -3942,7 +3892,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未標示 2026 年具體活動日期，僅確認「最高 70% 折扣」標示。"
    },
    "added": "2026-11-03"
@@ -4131,8 +4081,8 @@
    "price_zh": "指定 Kathmandu 品牌商品 30%–50% 折扣；Out There Rewards 會員單筆滿 A$300 折 A$50、滿 A$500 折 A$100",
    "free": false,
    "highlight": "黑色星期五・戶外裝備",
-   "summary_zh": "戶外用品品牌 Kathmandu 官網標示黑色星期五特賣，指定 Kathmandu 品牌商品 30%–50% 折扣；Out There Rewards 會員（免費加入）登入後，單筆消費滿 A$300 可折 A$50，滿 A$500 可折 A$100。",
-   "tip_zh": "折扣僅限指定款式與顏色，不含 XT Series、清倉商品、禮品卡與備品；會員折扣每筆交易限用一次，可能無預警變更或結束，庫存售完為止。",
+   "summary_zh": "戶外用品品牌 Kathmandu 官網標示黑色星期五特賣，指定 Kathmandu 品牌商品 30%–50% 折扣；Out There Rewards 會員登入後，單筆消費滿 A$300 可折 A$50，滿 A$500 可折 A$100。",
+   "tip_zh": "折扣不含 XT Series、清倉商品、禮品卡與備品，庫存售完為止；會員折扣須自 Offers Tray 領取，每筆交易限用一次。",
    "sources": [
     {
      "kind": "official",
@@ -4143,8 +4093,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網只寫「限時」與「售完為止」，未公布黑色星期五特賣的結束日期。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網只寫「限時」與「售完為止」，未公布特賣結束日期。"
    },
    "added": "2026-11-03"
   },
@@ -4681,7 +4631,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未列出票價。"
    },
    "added": "2026-11-05"
@@ -4721,7 +4671,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-05"
   },
@@ -4754,7 +4704,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-05"
   },
@@ -4804,7 +4754,7 @@
    "category": "dining",
    "region": "NSW",
    "city": "Sydney",
-   "venue": "GYG Caringbah, 52 President Ave, Caringbah",
+   "venue": "GYG Caringbah, 51 President Ave, Caringbah",
    "lat": -34.0446,
    "lng": 151.1215,
    "start": "2026-12-10",
@@ -4824,7 +4774,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官方頁面未列出 A$5 優惠的條款與適用時段。"
    },
    "added": "2026-11-05"
@@ -5127,7 +5077,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-06"
   },
@@ -5283,7 +5233,7 @@
    "start": "2026-11-27",
    "end": "2027-01-03",
    "schedule_zh": "週五、週六 16:00–22:00；週日 16:00–21:00",
-   "price_zh": "入場費 A$6（13 歲以下免費），採浮動定價",
+   "price_zh": "入場費 A$6（未滿 13 歲免費），採浮動定價",
    "free": false,
    "highlight": "60 多個美食攤位",
    "summary_zh": "布里斯本河畔的夜間美食園區，官網列出 60 多個微型廚房、酒吧與體驗，以及 4 個現場音樂舞台。",
@@ -5298,7 +5248,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-07"
   },
@@ -5485,7 +5435,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未說明是否限會員，且各加盟門市售價可能不同。"
    },
    "added": "2026-11-07"
@@ -5518,39 +5468,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
-   },
-   "added": "2026-11-08"
-  },
-  {
-   "id": "williams-shoes-30-off-sitewide-2026-11",
-   "type": "deal",
-   "title": "Williams Shoes 30% Off Sitewide",
-   "title_zh": "Williams Shoes 全站 7 折（線上）",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-09",
-   "end": "2026-11-23",
-   "price_zh": "全價與降價款式 7 折",
-   "free": false,
-   "highlight": "線上限定・全站 7 折",
-   "summary_zh": "Williams Shoes 官方促銷條款列出 11 月 9 日至 11 月 23 日線上全站 7 折，全價與降價款式皆適用，結帳時自動折抵。禮品卡不適用，數量有限。",
-   "tip_zh": "僅限線上購物，不與門市限定或全店促銷併用，詳情以官方條款為準。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Williams Shoes – Promotions",
-     "url": "https://www.williamsshoes.com.au/promotions"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-18"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-08"
   },
@@ -5582,7 +5500,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官方未列結束日期，也未明確標示適用門市或線上。"
    },
    "added": "2026-11-08"
@@ -5714,7 +5632,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未列出票價。"
    },
    "added": "2026-11-08"
@@ -5747,7 +5665,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-08"
   },
@@ -5759,17 +5677,17 @@
    "category": "music",
    "region": "WA",
    "city": "Perth",
-   "venue": "Centennial Park, Bull Creek（11 月場次）",
-   "lat": -32.0581,
-   "lng": 115.861,
+   "venue": "Piney Lakes Reserve, 555 Leach Highway, Winthrop（12 月場次；各場地點不同）",
+   "lat": -32.0585,
+   "lng": 115.837,
    "start": "2026-11-21",
    "end": "2027-03-27",
    "schedule_zh": "週六 17:00–19:00；11 月 21 日在 Centennial Park，12 月 5、19 日在 Piney Lakes Reserve，1 月在 Point Walter，2 月在 Wireless Hill，3 月在 Kadidjiny Park",
    "price_zh": "免費入場，免報名",
    "free": true,
    "highlight": "免費・週六音樂會",
-   "summary_zh": "City of Melville 主辦的 2026 至 2027 夏季戶外音樂會系列，11 月至隔年 3 月於週六舉行，11 月 21 日場次在 Bull Creek 的 Centennial Park 舉行，現場有餐車，免費入場。",
-   "tip_zh": "11 月場次停車位於 John Creaney Park（Francisco Crescent 入口）；各場地點不同，出發前請查官網場次表。",
+   "summary_zh": "City of Melville 主辦的 2026 至 2027 夏季戶外音樂會系列，11 月至隔年 3 月共 10 場，於週六 17:00–19:00 在市內各公園舉行，免費入場，無須報名。",
+   "tip_zh": "每場地點不同（12 月 5、19 日在 Piney Lakes Reserve），16:30 開放入場，出發前請查官網場次表。",
    "sources": [
     {
      "kind": "official",
@@ -5786,8 +5704,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網只列出 11 至 12 月的確切日期，1 至 3 月日期（最後一場 3 月 27 日）取自 So Perth 報導。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網只列出 12 月 5、19 日與 1 月 16 日的確切日期，其餘月份日期未列。"
    },
    "added": "2026-11-08"
   },
@@ -5804,11 +5722,11 @@
    "lng": 144.3586,
    "start": "2026-11-21",
    "end": "2026-12-19",
-   "schedule_zh": "每週六 9:00–14:00",
+   "schedule_zh": "每週六（11/28、12/5、12/12、12/19）",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・週六市集",
-   "summary_zh": "位於 Geelong 市中心 Little Malop Street Central 的週六市集，Visit Geelong Bellarine 頁面列出 11 月 21、28 日與 12 月 5、12、19 日，免費入場。",
+   "summary_zh": "位於 Geelong 市中心 Little Malop Street 的週六市集，Visit Geelong Bellarine 頁面列出 11 月 21、28 日與 12 月 5、12、19 日，免費入場。",
    "tip_zh": "官網另有各週攤商名單，出發前可先查看。",
    "sources": [
     {
@@ -5826,8 +5744,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面僅列出 11/21 至 12/19 的場次，9:00–14:00 時段出自搜尋結果的市政廳說明，12/19 之後是否續辦未確認。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官方頁面僅列出日期，營業時段未能確認。"
    },
    "added": "2026-11-08"
   },
@@ -5936,7 +5854,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-10"
   },
@@ -5990,7 +5908,7 @@
    "free": false,
    "highlight": "96 位藝術家參展",
    "summary_zh": "陽光海岸腹地 Flaxton Gardens 的年度戶外雕塑展，來自全澳洲 96 位藝術家參展，設有戶外與室內展區。",
-   "tip_zh": "位於腹地，需自行開車前往，出發前請確認交通方式。",
+   "tip_zh": "每日 8:00–15:00 開放；官網未提供交通資訊，出發前請自行規劃前往方式。",
    "sources": [
     {
      "kind": "official",
@@ -6007,7 +5925,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-18"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-10"
   },
@@ -6045,7 +5963,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官網未列票價。"
    },
    "added": "2026-11-10"
@@ -6068,7 +5986,7 @@
    "free": true,
    "highlight": "免費・單日市集",
    "summary_zh": "Docklands 海濱的農夫市集，設有 50 多個攤位，販售維多利亞州農產、烘焙與現做餐點，現場有咖啡。",
-   "tip_zh": "免費入場、免預約；適合週日早午餐。",
+   "tip_zh": "免費入場、免預約；市集時間為 12 月 20 日 9:30–14:00。",
    "sources": [
     {
      "kind": "official",
@@ -6078,9 +5996,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面只列出 12 月 20 日一場，其他場次日期未公布。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-10"
   },
@@ -6458,7 +6375,7 @@
    "schedule_zh": "12/6、12/13、12/20 週日 8:00–14:00",
    "price_zh": "免費入場",
    "free": true,
-   "highlight": "免費・100 攤以上",
+   "highlight": "免費・3 個週日",
    "summary_zh": "Braddon 的 Haig Park 於 12 月 6、13、20 日週日舉辦聖誕市集，入場免費。",
    "tip_zh": "時段 8:00–14:00 為 12 月 6 日場次；其餘兩日請再確認。",
    "sources": [
@@ -6471,7 +6388,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "12 月 13、20 日的營業時間官網未分列。"
    },
    "added": "2026-11-12"
@@ -6492,7 +6409,7 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "黑色星期三",
-   "summary_zh": "ALDI 官網特賣日程列出 11 月 25 日（週三）推出 Black Wednesday 與 Black Wednesday Deals，另有節慶甜點、日常食品特價與限時肉品。",
+   "summary_zh": "ALDI 官網特賣頁在 11 月 25 日（週三）的特賣日程中列出 Black Wednesday 與 Black Wednesday Deals 兩個系列，商品與價格官網未說明。",
    "tip_zh": "官方表示商品數量有限且各門市庫存不同，價格請於特賣前再查看官網。",
    "sources": [
     {
@@ -6504,7 +6421,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-12"
   },
@@ -6679,7 +6596,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官方頁面未列開始日與門市確切地址。"
    },
    "added": "2026-11-13"
@@ -6712,7 +6629,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
+    "checked": "2026-11-24",
     "unconfirmed_zh": "官方頁面未列開始日與門市確切地址。"
    },
    "added": "2026-11-13"
@@ -6751,7 +6668,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -6789,8 +6706,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "市議會頁面確認 12 月 4–24 日與每 15 分鐘場次，但未列票價；免費入場出自 Visit Brisbane 舊年份頁面。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-13"
   },
@@ -6854,7 +6771,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -6885,9 +6802,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "年齡限制官網未載明。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -6919,7 +6835,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -6982,9 +6898,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網頁面未列票價。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -7015,9 +6930,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官方頁面未標示年份，但頁尾為 2026 且星期與日期相符。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -7049,9 +6963,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官方頁面未標示年份，但頁尾為 2026 且星期與日期相符。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -7115,9 +7028,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面未標示年份，但星期與日期和 2026 年曆相符。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -7215,7 +7127,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-13"
   },
@@ -7253,49 +7165,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方文章未標示優惠起始日與結束日。"
-   },
-   "added": "2026-11-13"
-  },
-  {
-   "id": "flixbus-first-birthday-sale-2026",
-   "type": "deal",
-   "title": "FlixBus First Birthday Sale – fares from $10",
-   "title_zh": "FlixBus 週年慶長途巴士 A$10 起",
-   "category": "tickets",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": "東岸（NSW、VIC、ACT、QLD）FlixBus 路線",
-   "start": "2026-11-10",
-   "end": "2026-11-23",
-   "schedule_zh": "11/10–11/23 訂票，11/10 至 2027/4/30 出發；12/21–1/3 及 3/26–3/29 不適用",
-   "price_zh": "A$10 起（限量，東岸路線）",
-   "free": false,
-   "highlight": "長途巴士特價",
-   "summary_zh": "FlixBus 慶祝進入澳洲一週年推出特價車票，東岸路線直達班次 A$10 起。官方頁面列出訂票期間為 11 月 10 至 23 日，出發期間為 2026 年 11 月 10 日至 2027 年 4 月 30 日。",
-   "tip_zh": "12 月 21 日至 1 月 3 日及 3 月 26 至 29 日不適用；A$10 席位有限，價格依新聞報導，官方頁面未列價格。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "FlixBus Australia – 促銷期間與出發日期",
-     "url": "https://www.flixbus.com.au/"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "Time Out – FlixBus first birthday sale",
-     "url": "https://www.timeout.com/sydney/news/this-popular-backpackers-bus-is-offering-10-tickets-from-sydney-to-melbourne-111026"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面未列出 A$10 起的價格，僅新聞報導提及。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-13"
   },
@@ -7388,7 +7259,7 @@
    "price_zh": "A$12.50（官網標示需符合條款，HOYTS Rewards 會員適用指定電影）",
    "free": false,
    "highlight": "會員優惠票",
-   "summary_zh": "HOYTS 官網標示每週一片（Movie of the Week）A$12.50 優惠，HOYTS Rewards 會員可以 A$12.50 購買指定電影的票，片單每週更換。",
+   "summary_zh": "HOYTS 官網優惠頁標示 Movie of the Week 票價 A$12.50，並註明 HOYTS Rewards 會員可在指定電影享 A$12.50 票價，詳細條款請見官網。",
    "tip_zh": "訂票前請先查看官網的優惠條款與適用場次。",
    "sources": [
     {
@@ -7400,41 +7271,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未標示優惠條款、結束日與適用片單，每週更換。"
-   },
-   "added": "2026-11-14"
-  },
-  {
-   "id": "officeworks-black-friday-2026",
-   "type": "deal",
-   "title": "Officeworks Black Friday deals",
-   "title_zh": "Officeworks 黑色星期五特價",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-16",
-   "end": "2026-12-02",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "黑五特價",
-   "summary_zh": "Officeworks 官網的 Black Friday 特賣已開跑，官網標示優惠至 2026 年 12 月 2 日，涵蓋科技、電競、家具、音響與手作機器等類別。",
-   "tip_zh": "官網未列各品項折扣，購買前請先於官網確認價格與適用條件。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Officeworks – Black Friday",
-     "url": "https://www.officeworks.com.au/campaigns/black-friday"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網頁面直接開啟失敗（403），結束日期與類別出自搜尋結果摘要，開始日由第三方型錄推定；各品項折扣未確認。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官方頁面未列開始日與完整條款。"
    },
    "added": "2026-11-14"
   },
@@ -7499,8 +7337,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "12 月 20 日的開放時段官方頁面未明確列出。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-14",
    "schedule_zh": "12/19 16:00–21:00（12/20 時段請見官網）"
@@ -7566,8 +7404,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面日期欄顯示 30 Dec，與跨年日期不符，詳細資訊將於近期公布。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-14"
   },
@@ -7710,8 +7548,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面未列票價。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "部分資訊官方尚未公布。"
    },
    "added": "2026-11-14"
   },
@@ -7743,8 +7581,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面未說明整體活動是否免費。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "部分資訊官方尚未公布。"
    },
    "added": "2026-11-14",
    "schedule_zh": "12 月 31 日 17:00–23:59"
@@ -8011,8 +7849,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未註明整體入場是否免費。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-18"
   },
@@ -8035,7 +7873,7 @@
    "free": false,
    "highlight": "跨年煙火・多會場",
    "summary_zh": "凱恩斯市議會主辦的跨年煙火活動，同日於 Cairns Esplanade、Palm Cove 碼頭與 Edmonton 的 Walker Road 運動園區施放煙火。",
-   "tip_zh": "Cairns Esplanade 餐飲區自 11:00 起封路，Palm Cove Esplanade 於 17:30 至 21:00 封路；官方表示煙火不論晴雨照常舉行，活動後可搭乘巴士返回。",
+   "tip_zh": "Cairns Esplanade 餐飲區自 11:00 起封路，Palm Cove Esplanade 於 17:30 至 21:00 封路；僅下雨會照常舉行，遇強風或雷暴可能取消，活動後有加開巴士。",
    "sources": [
     {
      "kind": "official",
@@ -8045,9 +7883,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未註明入場費用與是否需要預留座位。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-18"
   },
@@ -8081,8 +7918,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網頁面直接開啟失敗（403），日期出自搜尋結果摘要，且未列入場費用。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-18"
   },
@@ -8104,7 +7941,7 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・社區聖誕市集",
-   "summary_zh": "Caloundra 社區舉辦的免費聖誕街集與聖誕樹點燈活動，適合想感受澳洲節慶氣氛的訪客。",
+   "summary_zh": "Visit Sunshine Coast 活動列表標示 11 月 27 日於 Caloundra 舉行免費社區聖誕街集與聖誕樹點燈市集。",
    "tip_zh": null,
    "sources": [
     {
@@ -8116,8 +7953,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官方列表僅列出日期與免費說明，時間與確切地點尚未公布；地圖座標為 Caloundra 市中心近似位置。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官方列表未載明確切場地與時間。"
    },
    "added": "2026-11-18"
   },
@@ -8138,7 +7975,7 @@
    "free": false,
    "highlight": "年度美食節・八日",
    "summary_zh": "於霍巴特 Princes Wharf No. 1 舉辦的八日夏季美食節，集結逾 80 家塔斯馬尼亞食品、葡萄酒、烈酒、啤酒與蘋果酒攤位，並有跨年派對。",
-   "tip_zh": "票種包含多日、單日、跨年與高級票，部分場次可能免費；票價請見官網。",
+   "tip_zh": "官網說明票種可能包含多日、單日、跨年與高級票，部分場次可能免費；票價請見官網。",
    "sources": [
     {
      "kind": "official",
@@ -8154,9 +7991,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未列票價，亦未確認免費場次。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-18"
   },
@@ -8226,8 +8062,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方標示為免費活動，但未說明遊樂設施、遊戲與餐飲是否另行收費；頁面未標示年份。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "部分資訊官方尚未公布。"
    },
    "added": "2026-11-18"
   },
@@ -8247,7 +8083,7 @@
    "price_zh": "請見官網（需購票）",
    "free": false,
    "highlight": "跨年美食活動・兩日",
-   "summary_zh": "Launceston Royal Park 舉辦的兩日跨年啤酒節，設有塔斯馬尼亞在地啤酒、葡萄酒、蘋果酒與街頭美食，並有葡萄酒搭餐大師課；Eskimo Joe（30 日）與 Rogue Traders（31 日）為演出陣容，12 月 31 日 21:30 與午夜各施放煙火。",
+   "summary_zh": "Launceston Royal Park 舉辦的兩日跨年啤酒節，12 月 30 至 31 日設有現場音樂、脫口秀與遊走表演，Eskimo Joe（30 日）與 Rogue Traders（31 日）為演出陣容，12 月 31 日 21:30 與午夜各施放煙火。",
    "tip_zh": "需購票入場，分為一般入場與 VIP；票務頁註明不接受退票。",
    "sources": [
     {
@@ -8265,8 +8101,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "票務頁未列一般票價。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "票務頁面未顯示票價。"
    },
    "schedule_zh": "12 月 30 日 16:00–22:00；12 月 31 日 16:00–00:30（21:30 家庭煙火、午夜煙火）",
    "added": "2026-11-18"
@@ -8333,8 +8169,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方新聞稿只寫「一年」，未列明起訖日；起訖依 2026–27 年度推定。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-18"
   },
@@ -8407,9 +8243,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁面僅列出 12 月 13 日一個日期，年份與其他週日是否營業未明列。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-18"
   },
@@ -8426,11 +8261,11 @@
    "lng": 138.5956,
    "area_zh": null,
    "start": "2026-11-27",
-   "end": "2026-12-18",
+   "end": "2026-12-05",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "週五免費現場音樂",
-   "summary_zh": "阿德雷德中央市場每週五 18:00–20:00 有免費現場音樂；聖誕季期間 11 月 27 日至 12 月 15 日另有學校與社區合唱團免費演出，12 月 11 日設有 Festive Friday 晚間活動。",
+   "summary_zh": "阿德雷德中央市場每週五 18:00 至 20:00 有免費現場音樂（與 Music SA 合作）；聖誕季另列有學校與社區合唱團演出，日期為 11 月 27 日及 12 月 1、3、5 日。",
    "tip_zh": "演出時段與聖誕季節目以官網公告為準。",
    "sources": [
     {
@@ -8442,8 +8277,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網顯示每週五音樂為全年系列，12 月 18 日當天是否有聖誕季特別節目未能確認。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網未載明每週五現場音樂的結束日。"
    },
    "added": "2026-11-18",
    "schedule_zh": "每週五 18:00–20:00"
@@ -8465,7 +8300,7 @@
    "price_zh": "部分商品半價，例如 Nescafé 咖啡包 A$4.00（1/2 價）",
    "free": false,
    "highlight": "每週型錄・半價商品",
-   "summary_zh": "IGA 新南威爾斯州門市 2026 年 11 月 18 日至 24 日的每週特價型錄，列出零食、飲料、咖啡與橄欖油等半價商品。適合在超市採購日常食材的讀者。",
+   "summary_zh": "IGA 新南威爾斯州 2026 年 11 月 18 日至 24 日的每週特價型錄，列有多項半價商品，例如 Nescafé 咖啡包。",
    "tip_zh": "特價依品項與門市而異，到店前可先於 IGA 官網或 App 選擇門市查看完整型錄。",
    "sources": [
     {
@@ -8483,8 +8318,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "IGA 官網型錄頁僅讀到標題，商品明細與日期取自 SaleFinder 托管的 IGA 型錄；各門市是否一致未能確認。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "IGA 官網型錄頁無法讀取內容，日期與品項由 Salefinder 確認。"
    },
    "added": "2026-11-18"
   },
@@ -8517,9 +8352,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未列出步行乘客免費政策的結束日期，也未提及 Kettering 碼頭。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "added": "2026-11-18"
   },
@@ -9300,7 +9134,7 @@
    "lng": 115.7476,
    "area_zh": null,
    "start": "2026-11-21",
-   "end": "2027-01-31",
+   "end": "2027-04-25",
    "schedule_zh": "週四至週日 21:00 自 Rottnest 返回 Fremantle；2027 年 2 月 5 日至 4 月 25 日改為週五至週日",
    "price_zh": "下午班次 A$47.50 起（依條款）；17:00 後免除島嶼入場費（A$21.50）",
    "free": false,
@@ -9317,8 +9151,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方聲明未載明夜間班次的營運開始日，也未列出 21:00 班次的票價。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-21"
   },
@@ -9352,8 +9186,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官方頁未載明是否免費入場及票價。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-21"
   },
@@ -9374,7 +9208,7 @@
    "price_zh": "防曬用品 1/2 價，例如 Hamilton SPF 50+ 防曬乳 75g A$8.50（1/2 價）",
    "free": false,
    "highlight": "每週型錄・半價商品",
-   "summary_zh": "Woolworths 新南威爾斯州 2026 年 11 月 18 日至 24 日的每週型錄，本期列出多項防曬用品半價，包括 SPF 50+ 防曬乳與防曬噴霧。適合戶外活動較多的打工度假者。",
+   "summary_zh": "Woolworths 新南威爾斯州 2026 年 11 月 18 日至 24 日的每週型錄，列有防曬用品半價，例如 Hamilton SPF 50+ 防曬乳。適合戶外活動較多的打工度假者。",
    "tip_zh": "特價依品項與門市而異，到店前可於 Woolworths 官網選擇門市查看完整型錄。",
    "sources": [
     {
@@ -9386,8 +9220,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "Woolworths 官網型錄頁回傳 403，資料取自 SaleFinder 托管的型錄；各門市實際特價可能不同。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "未能開啟 Woolworths 官網，僅由 Salefinder 目錄確認。"
    },
    "added": "2026-11-21"
   },
@@ -9420,8 +9254,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-21",
-    "unconfirmed_zh": "官網未列出可出發日期，也未標示訂票截止的年份。"
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "partial"
    },
    "added": "2026-11-21"
   },
@@ -9490,7 +9324,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-22"
   },
@@ -9591,7 +9425,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-22"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-22"
   },
@@ -9612,7 +9446,7 @@
    "free": true,
    "highlight": "免費・國家公園活動",
    "summary_zh": "昆士蘭國家公園協會（NPAQ）每月舉辦的免費公園活動，11 月場次於伯利角國家公園進行，時間為 8:00 至 13:00，設有植物認識、海豚觀察等多個自然主題時段。",
-   "tip_zh": "名額有限，需於 Eventbrite 免費預約；各時段年齡下限不同（進階植物導覽 18 歲以上，海豚時段 8 歲以上），且部分時段重疊，無法同時報名。",
+   "tip_zh": "名額有限，需於 Eventbrite 免費預約；活動整體建議 16 歲以上，各時段年齡下限不同（進階植物導覽 18 歲以上，海豚時段 8 歲以上），植物入門與海豚時段時間重疊，無法同時報名。",
    "sources": [
     {
      "kind": "official",
@@ -9629,7 +9463,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-22"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-22"
   },
@@ -9661,7 +9495,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-22"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-22"
   },
@@ -9684,9 +9518,8 @@
    "summary_zh": "於 Exhibition Park 的 Quokka Building 舉行的室內聖誕市集，11 月 28 至 29 日舉行，免費入場。官方頁面列出 11 月 28 日開放時間為 10:00 至 15:00。",
    "tip_zh": "園區提供免費停車。",
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-22",
-    "unconfirmed_zh": "11 月 29 日的開放時間官網未列出。"
+    "status": "verified",
+    "checked": "2026-11-24"
    },
    "sources": [
     {
@@ -9726,7 +9559,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-22"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-22"
   },
@@ -9760,7 +9593,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-22"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-22"
   },
@@ -9792,7 +9625,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-24"
    },
    "added": "2026-11-23"
   },
@@ -9940,6 +9773,107 @@
     "checked": "2026-11-23"
    },
    "added": "2026-11-23"
+  },
+  {
+   "id": "melbourne-making-modern-melbourne-2026",
+   "type": "event",
+   "title": "Making Modern Melbourne",
+   "title_zh": "墨爾本現代城市發展展",
+   "category": "arts",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Old Treasury Building",
+   "lat": -37.8122,
+   "lng": 144.9745,
+   "start": "2026-11-24",
+   "end": "2026-12-31",
+   "schedule_zh": "10:00–16:00（場次以官網所列日期為準）",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費展覽",
+   "summary_zh": "以歷史照片與當代影像對照，呈現墨爾本二十世紀的城市發展，包括兩次世界大戰、經濟大蕭條、戰後經濟繁榮與歷史建築保護制度。",
+   "tip_zh": "免預約，可直接入場。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – Making Modern Melbourne",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/making-modern-melbourne"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網日期旁未標示年份，2026 年依星期對應（11/24 為週二）與頁尾推算。"
+   },
+   "added": "2026-11-24"
+  },
+  {
+   "id": "melbourne-street-social-disco-nights-2026",
+   "type": "event",
+   "title": "The Street Social: Disco Nights",
+   "title_zh": "Docklands 濱水區街頭聚會",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Harbour Esplanade, Docklands",
+   "lat": -37.8163,
+   "lng": 144.947,
+   "start": "2026-11-27",
+   "end": "2026-12-04",
+   "schedule_zh": "11/27、11/28、12/2、12/4 每日 15:00–20:00",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・濱水聚會",
+   "summary_zh": "位於 Docklands 濱水區的演唱會前聚會，設有餐車、現場 DJ 音樂與拍照區等，適合在墨爾本體育場活動前後前往。",
+   "tip_zh": "免預約，可直接前往。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – The Street Social: Disco Nights",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/the-street-social-disco-nights"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網日期旁未標示年份，2026 年依星期對應與頁尾推算；官網未指明對應的演唱會。"
+   },
+   "added": "2026-11-24"
+  },
+  {
+   "id": "melbourne-12-days-of-christmas-2026",
+   "type": "event",
+   "title": "12 Days of Christmas",
+   "title_zh": "墨爾本市中心聖誕燈飾尋寶步道",
+   "category": "outdoors",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Melbourne CBD（十二處燈飾點位）",
+   "lat": -37.8136,
+   "lng": 144.9631,
+   "start": "2026-11-27",
+   "end": "2026-12-25",
+   "price_zh": "免費",
+   "free": true,
+   "highlight": "免費・城市步道",
+   "summary_zh": "以澳洲動物為主題的聖誕燈飾步道，十二處點位分散於市中心，可自行步行尋找各項裝置。",
+   "tip_zh": "自行步行，無需預約。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Melbourne What's On – 12 Days of Christmas",
+     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/christmas/12-days-of-christmas"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-24",
+    "unconfirmed_zh": "官網日期旁未標示年份，2026 年依頁尾推算；各點位開放時間未列於官網。"
+   },
+   "added": "2026-11-24"
   }
  ]
 }
