@@ -111,7 +111,9 @@ async function cmdAuto(args) {
   const max = Number((args[args.indexOf('--max') + 1]) || 0) || Infinity;
   const { r, dataKeys } = collect();
   let failStreak = 0, total = 0, stopped = '';
-  for (const l of TARGETS) {
+  // 缺最多的語言先翻：免得每次都在前面的語言用完額度、排最後的韓文一直輪不到
+  const order = [...TARGETS].sort((a, b) => [...r[b].missing].length - [...r[a].missing].length);
+  for (const l of order) {
     const tm = loadTM(l);
     const human = (k) => r[l].ui.has(k) || !dataKeys.has(k) || isUiOnly(k); // 介面文字留給人工翻譯
     const todo = [...r[l].missing].filter((k) => !human(k)).slice(0, max);
