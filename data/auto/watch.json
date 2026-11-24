@@ -1,8 +1,742 @@
 {
- "updated": "2026-11-23 08:37",
+ "updated": "2026-11-24 13:31",
  "note": "官方活動頁最近 3 天新出現的文字，只是線索，要打開網址確認。",
  "blocked_count": 54,
  "changes": [
+  {
+   "url": "https://www.uber.com/au/en/newsroom/",
+   "cat": "吃喝",
+   "name": "Uber 澳洲新聞室",
+   "found": "2026-11-24",
+   "new_lines": [
+    "1428 articles",
+    "Introducing Uber Elite, the First Class of Uber",
+    "November 23, 2026"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://goodfoodshow.com.au/",
+   "cat": "吃喝",
+   "name": "Good Food & Wine Show",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Melbourne: 2027",
+    "Sydney: 2027",
+    "Perth : 2027",
+    "Brisbane: 2027"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.uber.com/en-AU/newsroom",
+   "cat": "吃喝 全國",
+   "name": "Uber Eats 澳洲新聞稿",
+   "found": "2026-11-24",
+   "new_lines": [
+    "1428 articles",
+    "Introducing Uber Elite, the First Class of Uber",
+    "November 23, 2026"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://brisbanepowerhouse.org/",
+   "cat": "活動 QLD",
+   "name": "Brisbane Powerhouse",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Cirque du Sleigh",
+    "Christmas Actually",
+    "The Music of Love Actually Live On Stage",
+    "Artist in Residence"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.experienceeumundi.com.au/see-do/eumundi-markets/",
+   "cat": "活動 QLD",
+   "name": "Experience Eumundi",
+   "found": "2026-11-24",
+   "new_lines": [
+    "The award winning Eumundi"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.guzmanygomez.com.au/blog/",
+   "cat": "吃喝",
+   "name": "GYG Newsroom（各門市優惠公告）",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Celebrate 1 year of GYG Mona Vale",
+    "Score $5 Brekkie Burritos and Bowls & free Medium Coffee at GYG Mona Vale!",
+    "WELCOME GYG MANOR LAKES!!!",
+    "Manor Lakes, the wait is nearly over 🙌",
+    "Celebrate 5 years of GYG Malvern East",
+    "Grab $5 Brekkie Burritos and Bowls at GYG Malvern East!"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://experiencegoldcoast.com/events",
+   "cat": "活動 QLD",
+   "name": "Experience Gold Coast",
+   "found": "2026-11-24",
+   "new_lines": [
+    "08 Aug 2024 - 15 May 2027",
+    "Grazy Arvo with Koalas at Currumbin Wildlife Sanctuary",
+    "24 Nov 2026 - 25 Nov 2026",
+    "24 Nov 2026 - 15 Jan 2027",
+    "Koi Sundown Sessions",
+    "24 Nov 2026 - 30 Jan 2027",
+    "HOTA Collects: Alchemy",
+    "Collective Visions - 8 Artists | One Shared Love of Making",
+    "20 Oct 2026 - 23 Jan 2027",
+    "23 November 2026",
+    "Gold Coast Christmas Carols & Festive Events"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.supercars.com/",
+   "cat": "運動 全國",
+   "name": "Supercars",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Driver Market",
+    "How 2027 Supercars grid stands after Team 18 shuffle",
+    "Hospitality & Experiences",
+    "2026 bp Adelaide Grand Final weather forecast",
+    "When and how to watch 2026 Adelaide Supercars: TV channels, streaming, times",
+    "Chaz Mostert",
+    "How the 2026 Super2 title will be won or lost",
+    "How Penrite Racing can clinch teams&#x27; championship",
+    "Supercars launches new era of fan access with Supercars Experiences",
+    "NEVER HAVE I EVER: Cried in a movie",
+    "Best of Championship Deciders",
+    "NEVER HAVE I EVER: Ignored The Team Radio"
+   ],
+   "more": 6
+  },
+  {
+   "url": "https://www.williamsshoes.com.au/promotions",
+   "cat": "購物",
+   "name": "Williams Shoes Promotions T&Cs",
+   "found": "2026-11-24",
+   "new_lines": [
+    "^30-60% Off Storewide - Terms & Conditions:",
+    "^30-60% OFF STOREWIDE:"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://hota.com.au/whats-on",
+   "cat": "活動 QLD",
+   "name": "HOTA, Home of the Arts",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Thu, 5 Nov 2026 – Wed, 2 Dec 2026",
+    "Thu, 12 Nov 2026 – Wed, 2 Dec 2026",
+    "Showing 1 – 10 of 88 event s"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.nationalparks.nsw.gov.au/things-to-do/kids-tours-greater-sydney",
+   "cat": "travel",
+   "name": "NSW National Parks – Sydney kids and family activities",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Looking for something new to do this month, or visiting the Sydney region for a holiday? Our guided tours in Sydney's national parks are a great option. We run a variety of ranger guided tours through",
+    "Sydney Harbour",
+    "Northern Sydney",
+    "Southern Sydney",
+    "Greycliffe House and Nielsen Park heritage tour",
+    "Travel back in time to the mid 1800s when you visit Greycliffe House in Sydney Harbour National Park. It's been a part of Sydney's history since its first residents moved in. Pack a picnic lunch to en",
+    "Tours run from 10.30am to 12.30pm. Meet at 10.15am.",
+    "1 and 22 November",
+    "6 and 27 June",
+    "12 September",
+    "Nielsen Park",
+    "Beehives and armoured casemate historical tour"
+   ],
+   "more": 25
+  },
+  {
+   "url": "https://www.visitmacedonranges.com/events/duneira-estate-bluebell-festival/",
+   "cat": "活動（VIC）",
+   "name": "Visit Macedon Ranges – Events",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Tue, 24 Nov 2026 Dates TBC Nov 2026 to early Dec 2026",
+    "Tue, 24 Nov 2026 Open 7 days a week, 10am-5pm, Now until May 2026",
+    "Tue, 24 Nov 2026 11:00am - 11:30am",
+    "Full Moon Yoga Nidra with Reiki",
+    "Wed, 25 Nov 2026 7:30pm - 09:00pm",
+    "MEMM Collective"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.sydneytowereye.com.au/",
+   "cat": "娛樂",
+   "name": "Sydney Tower Eye",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Black Friday deals end soon!",
+    "Black Friday deals end in..."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.aquaduck.com.au/sunshine-coast/",
+   "cat": "travel",
+   "name": "Aquaduck Sunshine Coast",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Our Location",
+    "Aquaduck, Parkyn Parade, Mooloolaba QLD 4557",
+    "Outside SEA LIFE Sunshine Coast",
+    "Get Directions"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.salefinder.com.au/woolworths-catalogue",
+   "cat": "吃喝",
+   "name": "SaleFinder – Woolworths 官方型錄",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Offer valid Wed 25 Nov 2026 - Tue 1 Dec 2026"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://whatson.melbourne.vic.gov.au/things-to-do/whats-on-october",
+   "cat": "活動（VIC）",
+   "name": "City of Melbourne What's On（10 月活動）",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Koorie Heritage Trust",
+    "An Australian First Peoples arts and cultural centre.",
+    "data-favourites-favourite-id-param=\"073bb185-7740-488a-a776-d0602378ad72\"",
+    "data-gtm-variable-favourite-name=\"Koorie Heritage Trust\">",
+    "Ian Potter Centre: NGV Australia",
+    "The world’s first major gallery dedicated exclusively to Australian art.",
+    "data-favourites-favourite-id-param=\"d017cd19-493f-4a2c-b271-f26ba1014c8e\"",
+    "data-gtm-variable-favourite-name=\"Ian Potter Centre: NGV Australia\">",
+    "Steve Pallas Bespoke Jewellery",
+    "Offering handcrafted jewellery, remodelling and repairs, specialising in diamond engagement rings.",
+    "data-favourites-favourite-id-param=\"e7ee72f2-2884-4234-8f4c-e18b1cd712bc\"",
+    "data-gtm-variable-favourite-name=\"Steve Pallas Bespoke Jewellery\">"
+   ],
+   "more": 27
+  },
+  {
+   "url": "https://www.ngv.vic.gov.au/exhibitons/triennial-2026/",
+   "cat": "活動（VIC）",
+   "name": "NGV Triennial 2026",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Christine Sun Kim",
+    "Meriem Bennani",
+    "Gabriel Chaile",
+    "Pamela Rosenkranz",
+    "Works in this exhibition are protected under the Australian Government's Protection of Cultural Objects on Loan Scheme."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://portrait.gov.au/calendar/virtual-highlight-tour-nppp2026",
+   "cat": "活動（ACT）",
+   "name": "National Portrait Gallery – NPPP2026 導覽",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Upcoming highlights",
+    "In Conversation",
+    "Dylan Alcott AO and Abdul Abdullah",
+    "6.00pm, Fri 11 Dec",
+    "Ready Steady Go at the Gallery",
+    "9.00am and 11.00am, selected days from 4 to 22 Jan 2027",
+    "10.30am, Fri 27 Nov",
+    "Portraits together",
+    "For people living with dementia",
+    "10.00 – 11.00am, Second Thursday of the month"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.salefinder.com.au/coles-catalogue",
+   "cat": "吃喝",
+   "name": "SaleFinder – Coles 官方型錄",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Offer valid Wed 25 Nov 2026 - Tue 1 Dec 2026"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://southaustralia.com/destinations/adelaide/deals",
+   "cat": "旅遊",
+   "name": "SA 旅遊優惠（southaustralia.com 阿德雷德優惠頁）",
+   "found": "2026-11-24",
+   "new_lines": [
+    "The More to Explore Australia Sale is on now at Qantas*",
+    "Save on flights to Adelaide, Kangaroo Island, Port Lincoln and more for a limited time. ...Show more",
+    "*Sale ends 11.59pm (AEDT) 30 November 2026 unless sold out prior. Food, drinks, baggage and entertainment are all included in the sale fare. Select routes, travel dates and conditions apply."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.hoyts.com.au/offers",
+   "cat": "entertainment AU",
+   "name": "HOYTS – Offers & Promotions",
+   "found": "2026-11-24",
+   "new_lines": [
+    "You can pay securely at HOYTS using PayPal. Your financial information is securely encrypted so you can pay online with confidence &#x2014; no need to re-enter your card details every time."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://boost.com.au/shop/boost-mobile-28-day-sims",
+   "cat": "shopping AU",
+   "name": "Boost Mobile – 28 Day Prepaid SIMs",
+   "found": "2026-11-24",
+   "new_lines": [
+    "CHOOSE $25 SIM DEAL"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.museumofbrisbane.com.au/whats-on/",
+   "cat": "娛樂 QLD",
+   "name": "Museum of Brisbane",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Please note: The quiet space is temporarily unavailable during today s Quiet Afternoons session (Tuesday 24 November). Thank you for your understanding.",
+    "runs every Tuesday between 2:00pm-5:00pm.",
+    "info eum fb i b n .c m. u",
+    "n useu o b is n .co .a",
+    "i fo s u ofb ane o . u"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.janpowersfarmersmarkets.com.au/powerhouse-farmers-markets",
+   "cat": "吃喝 QLD",
+   "name": "Jan Powers Farmers Markets – Powerhouse",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Next Market SAT 28 nov 2026"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.visittopend.com.au/events",
+   "cat": "活動 NT",
+   "name": "Tourism Top End – Events",
+   "found": "2026-11-24",
+   "new_lines": [
+    "BASSINTHEGRASS",
+    "Saturday 15 May 2027"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.perthmakersmarket.com/",
+   "cat": "活動 WA",
+   "name": "Perth Makers Market",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Sand Permanent Jewellery",
+    "Staffy and Bully Breed Rescue Inc.",
+    "Lalicious Pantry",
+    "MoonRaeJewellery",
+    "La Savonnerie Hand Crafted Soap",
+    "Witherspoons PURE Skin Care",
+    "Swan Pearl Jewelry",
+    "PrintedByStan",
+    "The Spunky Spud",
+    "Beachside Barista",
+    "Good Vibe Scents",
+    "Anton&#x27;s Bratwurst"
+   ],
+   "more": 5
+  },
+  {
+   "url": "https://www.ozbargain.com.au/cat/dining-takeaway/deals",
+   "cat": "吃喝 全國",
+   "name": "OzBargain 餐飲外帶分類",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Wicked Wings $1 Each (Max 10) @ KFC (App/Online Order Required, Pickup Only)",
+    "Wicked Wings $1 Each Pickup Only (Max 10) @ KFC (Online or App) More words because reasons.",
+    "25 Nov-25 Nov 10:00pm",
+    "[SA] Chicken & Pepperoni Footlong Sub, $9.95 at Subways within OTR stores (OTR App Required)",
+    "the swear jar",
+    "I know it s not an outstanding deal, but think it s pretty good considering the cheapest footlongs they have in-store start at $12.50 and this has chicken which is a more premium …",
+    "[VIC] Curry Chicken Kothu $13 @ Chili Bro Kothu Kitchen, Clyde",
+    "I m associated with Chili Bro Kothu Kitchen. Update: the $13 price now applies to all available pickup and delivery slots. The earlier Wednesday-Friday 5-9 PM restriction has been …",
+    "[VIC] 50% off Summer Menu When Melbourne Airport Hits 25°C+ (Lovely Rewards Members, App/QR Orders) @ The Pancake Parlour",
+    "pancakeparlour.com.au",
+    "The Pancake Parlour s new Summer Parlour menu goes half price on any day the temperature at Melbourne Airport reaches 25°C or above, going by the Bureau of Meteorology reading. Once it hits …",
+    "30 Nov 8:01am-28 Feb 2027 11:59pm"
+   ],
+   "more": 9
+  },
+  {
+   "url": "https://fremantlemarkets.com.au/trading-days-%26-hours",
+   "cat": "活動 WA",
+   "name": "Fremantle Markets",
+   "found": "2026-11-24",
+   "new_lines": [
+    "F.RE.O Fashion Festival"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://wfac.org.au/",
+   "cat": "活動 WA",
+   "name": "Walyalup Fremantle Arts Centre",
+   "found": "2026-11-24",
+   "new_lines": [
+    "30 Jan 2027 - 14 Feb 2027",
+    "Moores Building Art Space: d2+O",
+    "Sunday Music: Mossy Fogg & 2 PCE FEED",
+    "9 May 2026 - 23 May 2026",
+    "Moores Building Art Space | The Paper Bird Illustration Exhibition",
+    "Night Classes",
+    "16 Feb 2027 - 23 Mar 2027",
+    "Drypoint Printing Nights!",
+    "Gelli Print in a Day - Beginners",
+    "10 Jan 2027 - 24 Jan 2027",
+    "Sunday Morning Series with Miles",
+    "One Day Workshop"
+   ],
+   "more": 11
+  },
+  {
+   "url": "https://www.acmi.net.au/whats-on/",
+   "cat": "娛樂 VIC",
+   "name": "ACMI（Fed Square）",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Film seasons, festivals and clubs (15)",
+    "Focus on Queer 中文 Cinema",
+    "Fri 22 Jan – Tue 9 Feb 2027",
+    "View the program",
+    "Wed 25 Nov 2026 – Sun 31 Jan 2027",
+    "Wed 25 Nov 2026 – Sun 18 Apr 2027"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://soperth.com.au/feed",
+   "cat": "活動 WA",
+   "name": "So Perth",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Tue, 24 Nov 2026 01:29:57 +0000",
+    "PICA Reveals Its Free 2027 Program",
+    "https://soperth.com.au/whats-on/pica-2027-program-free-exhibitions-138818",
+    "Tue, 24 Nov 2026 01:26:17 +0000",
+    "https://soperth.com.au/?p=138818",
+    "You Can t See Speed , a work she developed over several years with blind motorcycle mechanic and rider Matthew Cassar. As always at",
+    ", every exhibition is free.",
+    "The 2027 program is defined by artists leading the conversation, from visibility and perception to First Nations cultural authority, emerging voices, and diaspora and belonging, said PICA CEO Hannah M",
+    "Season 1 with Perth Festival",
+    "Credit: PICA",
+    "Season 1 runs with Perth Festival from February 5th to March 28th, and its works deal with visibility, surveillance, and what can be known without sight.",
+    "In the West End Gallery, Glitch , curated by PICA s Georgia Hayward, looks at how people get counted and tracked, from colonial maps and censuses to biometric surveillance and algorithmic profiling, a"
+   ],
+   "more": 20
+  },
+  {
+   "url": "https://www.bonds.com.au/",
+   "cat": "購物 AU",
+   "name": "Bonds Rewards",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Get your bargain here.",
+    "Your new favourite piece."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.south-wharf.dfo.com.au/",
+   "cat": "購物 VIC",
+   "name": "DFO South Wharf",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Forever New | Up To 30% Off Selected Styles",
+    "Black Friday sale is here",
+    "25th - 30th November 2026",
+    "Icebreaker | Black Friday Special Offer",
+    "Special offer from 19 Nov to 30 Nov",
+    "19th - 30th November 2026"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://flights.rex.com.au/en/special-fares",
+   "cat": "行程交通 AU",
+   "name": "Rex Special Fares",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Depart: 08/02/2027",
+    "Seen: 7 hrs ago",
+    "Depart: 09/01/2027",
+    "Seen: 3 hrs ago",
+    "Depart: 08/12/2026",
+    "Depart: 25/04/2027",
+    "Depart: 17/03/2027",
+    "Depart: 04/12/2026",
+    "Depart: 14/01/2027",
+    "Seen: 15 hrs ago",
+    "Depart: 29/12/2026",
+    "Seen: 51 minutes ago"
+   ],
+   "more": 20
+  },
+  {
+   "url": "https://www.visitsouthbank.com.au/whats-on",
+   "cat": "活動 QLD",
+   "name": "Visit South Bank",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Elf Plush Toy",
+    "Magic Elf Candy"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://thefinderskeepers.com",
+   "cat": "活動 NSW",
+   "name": "The Finders Keepers",
+   "found": "2026-11-24",
+   "new_lines": [
+    "The Finders Keepers is Australia’s most loved design market, dedicated to supporting independent makers and championing conscious consumerism."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://mastersgames.com.au/",
+   "cat": "活動 QLD",
+   "name": "Pan Pacific Masters Games",
+   "found": "2026-11-24",
+   "new_lines": [
+    "12 - 14 Nov 2026 | Min Age: 18+",
+    "Gold Coast Performance Centre",
+    "1 Sports Drive, Runaway Bay, QLD 4216",
+    "6 Pinter Dr, Southport QLD 4215",
+    "Surfers Paradise Baseball Club",
+    "Surfers Paradise Baseball Club St Kevins Ave, Benowa QLD 4217",
+    "Broadbeach Cultural Centre",
+    "61 Sunshine Blvd, Mermaid Waters QLD 4218"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.eljannah.com.au/",
+   "cat": "吃喝 AU",
+   "name": "El Jannah",
+   "found": "2026-11-24",
+   "new_lines": [
+    "El Jannah Glenelg Grand Opening: What Adelaide Needs to Know",
+    "El Jannah has opened its first South Australian store at 70-72 Jetty Road, Glenelg. See the open hours, menu highlights and what to order first.",
+    "El Jannah Glenelg is officially opening on SATURDAY, 28 NOVEMBER, 10AM! 🎉",
+    "📍 70-72 Jetty Road, Glenelg, South Australia 5045",
+    "To celebrate, we’re bringing you our legendary $5 Opening Day Deal! 👀",
+    "🍗 ¼ Charcoal Chicken",
+    "🍟 Small Chips",
+    "🧄 Garlic Sauce (Toum)",
+    "ALL FOR JUST $5! 🤯🔥",
+    "You’ve waited long enough… so grab the family, round up your mates and come hungry! 😂🍗",
+    "Don’t forget to download the El Jannah app before the 28th of November and keep your eyes peeled for a surprise 😉",
+    "*Offer available in-store only. Quantity limits per customer may apply."
+   ],
+   "more": 1
+  },
+  {
+   "url": "https://www.aldimobile.com.au",
+   "cat": "購物 AU",
+   "name": "ALDI Mobile",
+   "found": "2026-11-24",
+   "new_lines": [
+    "We are experiencing large call volumes and extended wait times. If your query isn't urgent, you can skip the queue by finding an answer in",
+    ". If you had trouble with something earlier, please try again, as it may now be working. We apologise for the delay and appreciate your patience."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.miamimarketta.com/",
+   "cat": "活動 QLD",
+   "name": "Miami Marketta",
+   "found": "2026-11-24",
+   "new_lines": [
+    "hello street food!",
+    "Party With Us",
+    "Yes, please!",
+    "Corporate Events",
+    "Surface Festival",
+    "tell me more",
+    "Frequently Asked Questions",
+    "Important Gig Info:",
+    "All bags will be subject to search upon entry.",
+    "You must have a psychical I.D. for entry.",
+    "This is a licensed venue - No external alcohol permitted. We have a strict 0 tolerance policy for drugs in the venue.",
+    "No smoking/vaping inside Miami Marketta (designated smoking areas outside)"
+   ],
+   "more": 32
+  },
+  {
+   "url": "https://www.eatstreetnorthshore.com.au/",
+   "cat": "活動 QLD",
+   "name": "Eat Street Northshore",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Santa back every Friday, Saturday and Sunday until Christmas.",
+    "Friday 27 November",
+    "DJ Jonny Drama",
+    "Saturday 28 November",
+    "Bradley McCaw",
+    "Sunday 29 November",
+    "Nathan Ferguson",
+    "Grace Ira Trio",
+    "Santa, elves and festive characters every Fri–Sun until 20 Dec · Merry Mule cocktail and mocktail · Open Boxing Day and New Year’s Day · Entry $6, kids under 13 free",
+    "Santa and Christmas are back at Eat Street 🎄",
+    "Celebrate Christmas, Boxing Day and New Years Day at Eat Street. Discover what’s on and plan your visit.",
+    "Find Out More"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.therocks.com/whats-on",
+   "cat": "活動 NSW",
+   "name": "The Rocks – What's on",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Thu 26 Nov, 5.30pm",
+    "Meet Bill Lark, the Godfather of Australian Whisky",
+    "The Observer Hotel",
+    "Complimentary whisky tasting and exclusive meet & greet with Bill Lark, Founder and Godfather of Australian Whisky."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://rashays.com/",
+   "cat": "吃喝 AU",
+   "name": "RASHAYS",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Juicy steak, golden chips and all the flavour you",
+    "$15 Pizza Mondays are ON for RASHAYS Rewards membe"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.krispykreme.com.au/offers",
+   "cat": "吃喝",
+   "name": "Krispy Kreme Australia Offers",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Black Friday Sale: Buy a full-priced dozen, get a FREE Original Glazed Dozen - Online Only: 24th - 27th November 2026",
+    "Original Glaze",
+    "while stocks last.",
+    "November 2026",
+    "How to get your FREE Original Glazed",
+    "Delivery / Pick Up",
+    "Your FREE Original Glazed Dozen is automatically included in specially marked bundle products. Simply add your chosen bundle to",
+    "Preferred Date",
+    "Add any qualifying full-priced dozen to your cart, and",
+    "your FREE Original Glazed",
+    "automatically",
+    "Original Glazed Dozen"
+   ],
+   "more": 22
+  },
+  {
+   "url": "https://events.canberra.com.au/whats-on",
+   "cat": "活動 ACT",
+   "name": "Visit Canberra 活動資料庫",
+   "found": "2026-11-24",
+   "new_lines": [
+    "6-29 Nov 2026",
+    "Enough? Enough! ENOUGH",
+    "Canberra Potters, Watson Arts Centre, Watson",
+    "1-29 Nov 2026",
+    "Rose Gardens Guided Tours at Old Parliament House",
+    "Statue of Dame Dorothy Tangney & Enid Lyons | Old Parliament House Rose Gardens, Parkes",
+    "Next on today from 9:30am to 10:30am",
+    "16 Oct - 29 Nov 2026",
+    "Animal Portraits",
+    "Belconnen Arts Centre, Belconnen",
+    "Colour Through My Eyes",
+    "Histories & Habitats"
+   ],
+   "more": 11
+  },
+  {
+   "url": "https://www.flixbus.com.au/",
+   "cat": "tickets",
+   "name": "FlixBus Australia",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Miami, FL - Orlando, FL",
+    "Albany, NY - New York, NY",
+    "Orlando, FL - Miami, FL",
+    "New York, NY - Albany, NY",
+    "Tucson, AZ - Phoenix-Tempe, AZ",
+    "Austin, TX - Houston, TX"
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.officeworks.com.au/shop/officeworks/c/black-friday",
+   "cat": "購物",
+   "name": "Officeworks Black Friday",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Black Friday 3D print deals",
+    "Ready to start your next project? Discover Black Friday deals on 3D printers that will turn your designs into reality for less.",
+    "Update your Samsung TV with great deals this Black Friday. From 4K resolution to UHD picture quality, a Samsung TV delivers lifelike detail so you can enjoy all your favourite shows.",
+    "Black Friday fitness wearable deals",
+    "Track your health goals with deals on leading fitness wearables from Fitbit, Garmin, Samsung and more. Monitor activity, heart rate, sleep and more while saving on the brands you love."
+   ],
+   "more": 0
+  },
+  {
+   "url": "https://www.darwin.nt.gov.au/community/things-to-do/whats-on",
+   "cat": "活動 NT",
+   "name": "City of Darwin What's On",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Baby Book Time @ Casuarina Library",
+    "Tech Zone @ Nightcliff Library",
+    "Come and play with all our favourite tech in one place. Try out Osmo, robots, virtual reality",
+    "10/12 Pavonia Place",
+    "MADE Soccer - 2026-27 Wet Season Healthy Lifestyle Short Course",
+    "This Wet Season, MADE Academy is offering weekly soccer sessions in two eight-week blocks, open to",
+    "Bennett Park",
+    "4 Bennett Street",
+    "Pets & Wildlife",
+    "Noise Phobic - Pet Parent Workshop",
+    "Come to City of Darwin’s Noise Phobic animal behaviour workshop, delivered in partnership with",
+    "This is a human-only workshop; please leave your dogs at home."
+   ],
+   "more": 16
+  },
+  {
+   "url": "https://rottnestexpress.com.au/offers/telethon-saver-deals/",
+   "cat": "tickets",
+   "name": "Rottnest Express 官方訂票與優惠",
+   "found": "2026-11-24",
+   "new_lines": [
+    "Based on 1836 reviews"
+   ],
+   "more": 0
+  },
   {
    "url": "https://www.rbg.vic.gov.au/melbourne-gardens/whats-on-melbourne/free-guided-walk/",
    "cat": "travel",
@@ -21,36 +755,6 @@
    "more": 0
   },
   {
-   "url": "https://www.supercars.com/",
-   "cat": "運動 全國",
-   "name": "Supercars",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Bold Predictions",
-    "Max stakes, max pressure: Five bold Adelaide predictions",
-    "2026 bp Adelaide Grand Final - Practice 1",
-    "Follow the 2026 bp Adelaide Grand Final race live updates and timings"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://experiencegoldcoast.com/events",
-   "cat": "活動 QLD",
-   "name": "Experience Gold Coast",
-   "found": "2026-11-23",
-   "new_lines": [
-    "22 Feb 2026 - 28 Feb 2027",
-    "Paradise Country Koala Breakfast",
-    "16 Aug 2026 - 26 Dec 2027",
-    "Carrara Markets Car Boot Sale",
-    "09 Oct 2026 - 05 Dec 2026",
-    "22 Nov 2026 - 25 Nov 2026",
-    "Sunday (Weekly)",
-    "Sunday Sessions at The Loose Moose"
-   ],
-   "more": 0
-  },
-  {
    "url": "https://www.britbox.com/au/promo-terms",
    "cat": "購物（訂閱）",
    "name": "BritBox Australia promo terms",
@@ -63,131 +767,12 @@
    "more": 0
   },
   {
-   "url": "https://hota.com.au/whats-on",
-   "cat": "活動 QLD",
-   "name": "HOTA, Home of the Arts",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Showing 1 – 10 of 86 event s"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.visitmacedonranges.com/events/duneira-estate-bluebell-festival/",
-   "cat": "活動（VIC）",
-   "name": "Visit Macedon Ranges – Events",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Mon, 23 Nov 2026 Dates TBC Nov 2026 to early Dec 2026",
-    "Mon, 23 Nov 2026 Open 7 days a week, 10am-5pm, Now until May 2026",
-    "Duneira Estate Historical House and Art Collection Guided Tour",
-    "Mon, 23 Nov 2026 11:00am - 11:30am",
-    "Tuesday - Sunday 11am and 1.30pm",
-    "Mon, 23 Nov 2026 10:00am - 04:00pm",
-    "Daniel Butterworth Exhibition at Campaspe Mill Gallery",
-    "Mon, 23 Nov 2026 12:00pm - 05:00pm",
-    "Campaspe Mill Distillery",
-    "Tue, 24 Nov 2026 10:00am - 04:00pm"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.aquaduck.com.au/sunshine-coast/",
-   "cat": "travel",
-   "name": "Aquaduck Sunshine Coast",
-   "found": "2026-11-23",
-   "new_lines": [
-    "22 November 2026",
-    "Kids absolutely loved it. Great staff who were very fun and friendly :)",
-    "21 November 2026",
-    "Super fun experience"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.ngv.vic.gov.au/exhibitons/triennial-2026/",
-   "cat": "活動（VIC）",
-   "name": "NGV Triennial 2026",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Kent Monkman",
-    "Squish, Twist, Fizz: Mika Rottenberg for Kids",
-    "Cai Guo-Qiang",
-    "Noemie Goudal"
-   ],
-   "more": 0
-  },
-  {
    "url": "https://www.aldi.com.au/special-buys",
    "cat": "吃喝",
    "name": "ALDI Australia – Special Buys 上架日程",
    "found": "2026-11-23",
    "new_lines": [
     "Saturday 5th December"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.museumofbrisbane.com.au/whats-on/",
-   "cat": "娛樂 QLD",
-   "name": "Museum of Brisbane",
-   "found": "2026-11-23",
-   "new_lines": [
-    "f u umo brisb . om a",
-    "info s u of s e.c m u",
-    "o m mo bris n c .au"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.perthmakersmarket.com/",
-   "cat": "活動 WA",
-   "name": "Perth Makers Market",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Ceramics by Louise",
-    "Crust & Crumbs",
-    "MK Little Gift Shop",
-    "Coastal B Jewellery",
-    "Swan River Distilling",
-    "East African coffee",
-    "Nidev&#x27;s Food Factory",
-    "Australian Black Limes",
-    "PIXI Collections",
-    "Rainbow Vally Designs",
-    "Happy J Corn Dogs",
-    "Outback Delights"
-   ],
-   "more": 4
-  },
-  {
-   "url": "https://www.ozbargain.com.au/cat/dining-takeaway/deals",
-   "cat": "吃喝 全國",
-   "name": "OzBargain 餐飲外帶分類",
-   "found": "2026-11-23",
-   "new_lines": [
-    "[VIC] $10 Welcome Voucher, $20 Birthday Voucher @ Pub Perks",
-    "capslock janitor",
-    "pubperks.com.au",
-    "Earn $1 for every $10 SPENT $10 VOUCHER WHEN YOU SIGN UP BIRTHDAY REWARDS $20 Birthday voucher VALID ALL BIRTHDAY MONTH The Rewards Scan your app when you buy & get 10% back in …",
-    "[QLD] Free Pasta for First 100 in Line at Vapiano Newmarket Village",
-    "First 100 people in line get a free pasta from Vapiano Newmarket Village on Thursday 26 November at 11am. Shop 129/400 Newmarket road, Newmarket village QLD",
-    "Free Hungry Jack s Cheeseburger (in-Store or via Drive-Thru) or with $1 Minimum Spend Online (NBL Round 10) @ Hungry Jack s App",
-    "97 days left",
-    "69 days left",
-    "15 days left"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.acmi.net.au/whats-on/",
-   "cat": "娛樂 VIC",
-   "name": "ACMI（Fed Square）",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Film seasons, festivals and clubs (14)",
-    "Mon 23 Nov 2026 – Sun 31 Jan 2027",
-    "Mon 23 Nov 2026 – Sun 18 Apr 2027"
    ],
    "more": 0
   },
@@ -204,19 +789,6 @@
    "more": 0
   },
   {
-   "url": "https://wfac.org.au/",
-   "cat": "活動 WA",
-   "name": "Walyalup Fremantle Arts Centre",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Creative Cohort",
-    "Creative Business Support Group",
-    "Sunday Music: Blak Christmas Special",
-    "Bazaar Special Event: Make a Silver Ring in a Night"
-   ],
-   "more": 0
-  },
-  {
    "url": "https://cottonon.com/AU/perks/welcome/",
    "cat": "購物 AU",
    "name": "Cotton On & Co. Perks",
@@ -225,71 +797,6 @@
     "40% OFF JEANS",
     "40% OFF ACTIVE",
     "Selected styles."
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.bonds.com.au/",
-   "cat": "購物 AU",
-   "name": "Bonds Rewards",
-   "found": "2026-11-23",
-   "new_lines": [
-    "10 Winners. One day only.",
-    "Sleep Pointelle Short",
-    "*% off applies to RRP. % off not in addition to other discount or multi buy offers. Not available on gift cards. Offer ends 11:59PM AEDT 30/11/2026. Prices as marked. While stocks last.",
-    "Offer applies Online, in Bonds Stores and Bonds Outlets. Not available in Bonds Clearance stores or independent retailers."
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.south-wharf.dfo.com.au/",
-   "cat": "購物 VIC",
-   "name": "DFO South Wharf",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Guess | 30% Off Storewide Including Sale",
-    "Shop 30% off GUESS for a limited time",
-    "23rd November - 6th December 2026",
-    "Portmans | Up To 70% Off Storewide",
-    "So many styles, so little time",
-    "23rd - 30th November 2026",
-    "Shop Up To 70% Off Storewide Now",
-    "Black Friday"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://flights.rex.com.au/en/special-fares",
-   "cat": "行程交通 AU",
-   "name": "Rex Special Fares",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Depart: 16/12/2026",
-    "Depart: 29/01/2027",
-    "Depart: 18/01/2027",
-    "Depart: 11/12/2026",
-    "Depart: 17/12/2026",
-    "Seen: 4 hrs ago",
-    "Depart: 25/11/2026",
-    "Seen: 1 hour ago"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://mastersgames.com.au/",
-   "cat": "活動 QLD",
-   "name": "Pan Pacific Masters Games",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Surfers Paradise Rugby Union Club",
-    "12 - 14 Nov 2026 | Min Age: M30+ & W25+",
-    "Fremar Street Broadbeach Waters QLD 9726",
-    "Gold Coast Aquatic Centre",
-    "Marine Parade, Southport QLD 4215",
-    "Ned Twohill Equestrian Centre Home of Southport Pony and Hack Club",
-    "Ned Twohill Equestrian Park, Baratta Street, Southport Queensland 4215",
-    "Gold Coast Outrigger Canoe Club",
-    "Muriel Henchman Dr, Main Beach QLD 4217"
    ],
    "more": 0
   },
@@ -304,38 +811,6 @@
    "more": 0
   },
   {
-   "url": "https://www.therocks.com/whats-on",
-   "cat": "活動 NSW",
-   "name": "The Rocks – What's on",
-   "found": "2026-11-23",
-   "new_lines": [
-    "The Rocks Markets: Christmas Edition",
-    "Tis the season to be shopping. Find authentic handmade gifts, one-of-a-kind treats and authentic flavours right here at The Rocks Markets: Christmas Edition."
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://events.canberra.com.au/whats-on",
-   "cat": "活動 ACT",
-   "name": "Visit Canberra 活動資料庫",
-   "found": "2026-11-23",
-   "new_lines": [
-    "23-28 Nov 2026",
-    "Doctor Who: The Satan Pit - One Night Only Event Screening",
-    "23 Nov - 5 Dec 2026",
-    "Science Time: Inside the Body",
-    "Questacon, Parkes",
-    "Next on today from 10:00am to 10:45am",
-    "26 Oct - 14 Dec 2026",
-    "Nature Play at the Arboretum",
-    "National Arboretum Canberra, Molonglo",
-    "Next on today from 10:00am to 12:00pm",
-    "5 Nov - 31 Dec 2026",
-    "Brainstorm: Inside the mind of Andy Griffiths"
-   ],
-   "more": 36
-  },
-  {
    "url": "https://thegabba.com.au/events/",
    "cat": "活動 QLD",
    "name": "The Gabba",
@@ -347,58 +822,6 @@
     "Guns N' Roses - World Tour 2026",
     "Wednesday 2 December, 2026",
     "Queensland Country Bank Stadium"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://rashays.com/",
-   "cat": "吃喝 AU",
-   "name": "RASHAYS",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Too good not to have! 🧡 Order your favourites at R"
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.officeworks.com.au/shop/officeworks/c/black-friday",
-   "cat": "購物",
-   "name": "Officeworks Black Friday",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Black Friday Samsung TV deals",
-    "Get your Samsung TVs for less this Black Friday. From 4K resolution to UHD picture quality, a Samsung TV delivers lifelike detail so you can enjoy all your favourite shows."
-   ],
-   "more": 0
-  },
-  {
-   "url": "https://www.darwin.nt.gov.au/community/things-to-do/whats-on",
-   "cat": "活動 NT",
-   "name": "City of Darwin What's On",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Beginners HIIT - 2026-27 Healthy Darwin Wet Season Weekly Activity",
-    "Holiday Closure: Last class for 2026 - 15 Dec First class for 2027 - 12 Jan Beginners’ HIIT is a low",
-    "Casuarina Aquatic & Leisure Centre - Community Room",
-    "17 Gsell Street",
-    "Council & Committees Meetings",
-    "Public Forum & Council Meeting",
-    "Share your thoughts on local issues and shape the future of Darwin at our monthly Public Forums",
-    "Civic Centre",
-    "Harry Chan Avenue",
-    "Author Talk with Maya Linnell",
-    "POSTPONED until November A beloved voice in Australian rural fiction, Maya Linnell talks life, love",
-    "Zumba and Toning for Mums ‘n’ Bubs & Seniors - 2026-27 Healthy Darwin Wet Season Weekly Activity"
-   ],
-   "more": 5
-  },
-  {
-   "url": "https://rottnestexpress.com.au/offers/telethon-saver-deals/",
-   "cat": "tickets",
-   "name": "Rottnest Express 官方訂票與優惠",
-   "found": "2026-11-23",
-   "new_lines": [
-    "Based on 1834 reviews"
    ],
    "more": 0
   }
