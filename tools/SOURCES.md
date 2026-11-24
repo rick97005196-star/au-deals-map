@@ -317,3 +317,8 @@
 - 2026-11-22｜活動 QLD｜NPAQ – November Park of the Month（Eventbrite）｜https://www.eventbrite.com.au/e/2003945561118?aff=oddtdtcreator｜伯利角國家公園 11 月免費活動，2026 年 11 月 28 日 8:00–13:00，需線上預約
 - 2026-11-22｜活動 QLD｜NPAQ – Upcoming events｜https://npaq.org.au/upcoming-events-page｜昆士蘭國家公園協會每月 Park of the Month 活動列表與預約連結
 - 2026-11-22｜活動 QLD｜Rockhampton Heritage Village – Christmas Markets｜https://heritagevillage.rockhamptonregion.qld.gov.au/Whats-On/HVMarkets_Christmas2026｜Rockhampton 歷史村聖誕市集，2026 年 11 月 28 日 16:00–21:00，免費入場
+- 2026-11-25｜活動 TAS｜Cygnet Folk Festival｜https://cygnetfolkfestival.org/｜Cygnet 民謠音樂節官網，2027 年 1 月 8–10 日日期、週末票與露營票說明
+- 2026-11-25｜活動 NSW｜Superposition Festival｜https://superpositionfestival.com｜藍山 Superposition 藝文節官網，2026 年 11 月 26–29 日日期與節目說明
+- 2026-11-25｜活動 WA｜Experimental Comedy Club 官網｜https://experimentalcomedy.com.au｜伯斯 Northbridge（Lynott's Lounge）每週二 19:00 喜劇夜，售票與場地資訊（未列 2026 年具體場次）
+- 2026-11-25｜活動 NSW｜Cirque du Soleil KOOZA 雪梨售票頁｜https://www.cirquedusoleil.com/australia/sydney/kooza/buy-tickets｜雪梨 Entertainment Quarter 官方售票入口（頁面未顯示場次與價格）
+- 2026-11-25｜活動 NT｜Palmerston 市政府活動頁｜https://palmerston.nt.gov.au/events｜Palmerston 市政府活動行事曆，Christmas Wonderland 2026（12/16–23，每晚 5–9pm，免費入場）
