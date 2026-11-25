@@ -8,6 +8,7 @@ on:
     paths: ['data/items.json', 'src/**', 'build.js', 'tools/i18n.js']
   schedule:
     - cron: '50 21 * * *'   # 布里斯本 07:50 備援（推送觸發沒跑到的時候）
+    - cron: '20 1,4,7,10,13,16 * * *'  # 白天再補翻幾次：Google 免費翻譯常被限速（每次約 200 段就停），換一台機器、隔幾小時再試就能接著翻；沒缺翻譯時不到 1 分鐘就結束
   workflow_dispatch: {}      # 可以在 GitHub 網頁上手動執行
 permissions:
   contents: write            # 只用 GitHub 內建的推送權限
