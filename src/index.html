@@ -238,6 +238,8 @@ html:not(:lang(zh)) .brand-name{white-space:normal;line-height:1.2;text-wrap:bal
 .bar .wrap{display:flex;align-items:center;gap:16px;min-height:60px}
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
 .tabs::-webkit-scrollbar{display:none}
+/* 電腦（滑鼠）：分類放不下時換行全部顯示（滑鼠無法左右滑，藏在右邊的會點不到）；手機照舊左右滑 */
+@media (hover:hover) and (pointer:fine){.tabs{flex-wrap:wrap;overflow-x:visible}}
 .tab{position:relative;display:inline-flex;align-items:center;gap:7px;height:60px;padding:0 14px;border:0;background:none;cursor:pointer;font-size:15px;color:var(--ink-2);white-space:nowrap}
 .tab .dot{width:8px;height:8px;border-radius:50%;background:var(--c,var(--ink))}
 .tab .n{font-family:var(--f-mono);font-size:12px;color:var(--faint)}
