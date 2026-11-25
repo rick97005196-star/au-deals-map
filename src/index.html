@@ -755,6 +755,15 @@ html[data-theme="dark"] .ozwh-hubnav a:focus-visible{outline-color:#ECEAE4}
   .qt .t{font-size:14px}
   .qt .d{display:none}
 }
+/* ==== 全站統一標題規格（2026-11-25，與主網站同一套）==== */
+:root{--oz-mark:#FFD45C}
+html[data-theme="dark"]{--oz-mark:rgba(255,212,92,.38)}
+.hero .headline{font-size:clamp(30px,4.4vw + 6px,56px);font-weight:800;line-height:1.22;letter-spacing:.02em}
+.hero .headline span:not(.h1a){font-style:normal;color:inherit;border-bottom:0;background:linear-gradient(transparent 62%,var(--oz-mark) 62%);padding:0 .04em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hero-kick{display:inline-flex;align-items:center;gap:8px;padding:0;border:0;border-radius:0;background:none;font-size:12px;font-weight:800;letter-spacing:.14em;line-height:1.6;text-transform:uppercase;color:var(--amber-ink)}
+.hero-kick::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:currentColor}
+.sec-title h2{font-size:clamp(20px,1.2vw + 14px,26px);font-weight:800;line-height:1.35;letter-spacing:.02em}
+@media (max-width:640px){.quick-sec .sec-title h2{font-size:18px}}
 </style>
 
 <div class="notice" role="note" aria-label="免責聲明">
