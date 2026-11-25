@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -17,7 +17,7 @@
    "price_zh": "A$12.81（原價 A$18.90）",
    "free": false,
    "highlight": "F1 週日限定",
-   "summary_zh": "Grill'd 為澳洲 F1 車手 Oscar Piastri 推出雞肉或和牛漢堡，Relish 會員於其出賽的週日可享特價 A$12.81（原價 A$18.90）。尚餘適用日期為 11/22、11/29 及 12/6。",
+   "summary_zh": "Grill'd 為澳洲 F1 車手 Oscar Piastri 推出雞肉或和牛漢堡，Relish 會員於其出賽的週日可享特價 A$12.81（原價 A$18.90）。尚餘適用日期為 11/29 及 12/6。",
    "tip_zh": "須為 Grill'd Relish 會員，優惠券會加入會員帳號，限當日使用，每筆訂單限用一張、一份標準漢堡；內用、外帶、官網／App、Drive-Thru 及 Grill'd Delivery 均適用，第三方外送平台不適用。",
    "sources": [
     {
@@ -35,7 +35,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "schedule_zh": "Piastri 出賽的週日"
   },
@@ -85,7 +85,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "schedule_zh": "每週二（Uber One 會員每天）"
   },
@@ -307,7 +307,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "area_zh": "昆州全境",
    "hot": true
@@ -364,7 +364,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    }
   },
   {
@@ -491,9 +491,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未載明入場費。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "schedule_zh": "每週六 8:30–15:00",
    "hot": true
@@ -537,9 +536,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未載明入場費。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "schedule_zh": "每週六 8:30–12:30"
   },
@@ -627,9 +625,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未載明入場費。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "schedule_zh": "每週日 9:30–14:30",
    "hot": true
@@ -662,7 +659,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "area_zh": "坎培拉全區"
   },
@@ -712,8 +709,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-25",
-    "unconfirmed_zh": "官網未直接列出日期與場地，11 月 27 至 29 日及場地依 Moshtix 報導確認。"
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官網未明列場地名稱。"
    }
   },
   {
@@ -789,8 +786,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官方頁面未明載入場費（免費資訊來自第三方活動列表），12/10 場次為依每月第二個週四推算。"
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官網未載明入場是否免費，且 12/10 為依「每月第二個週四」推算，未見官方單場公告。"
    },
    "schedule_zh": "每月第二個週四 17:00 起"
   },
@@ -927,9 +924,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-25",
-    "unconfirmed_zh": "官網未明文標示 After Party 免費，免費入場依 Star Observer 報導。"
+    "status": "verified",
+    "checked": "2026-11-26"
    }
   },
   {
@@ -967,7 +963,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-10"
   },
@@ -1073,7 +1069,7 @@
    "price_zh": "平均較原價低 16.4%",
    "free": false,
    "highlight": "長期降價",
-   "summary_zh": "Woolworths 自 8/26 起新增 105 項 Lower Shelf Price 長期降價品項，總數達 1,035 項，官方稱平均較原標準價低 16.4%，新增品項包括牛絞肉與起司塊等日常商品，門市可購買。",
+   "summary_zh": "Woolworths 自 8/26 起新增 105 項 Lower Shelf Price 長期降價品項，總數達 1,035 項，官方稱平均較原標準價低 16.4%，官方舉例包括牛絞肉（500g 由 A$9 降至 A$8.50），門市與線上皆可購買。",
    "tip_zh": "此為長期價格而非限時特價；品項及價格請見官網。",
    "sources": [
     {
@@ -1085,7 +1081,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-10",
    "hot": true
@@ -1131,7 +1127,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-10"
   },
@@ -1294,7 +1290,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-10",
    "schedule_zh": "Sydney Sights 每日 10:30（約 2.5 小時）；Sydney Highlights 週一、三、五、六 15:00（約 1.5 小時）；The Rocks 每日 18:00"
@@ -1600,7 +1596,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-13"
   },
@@ -1633,7 +1629,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-13"
   },
@@ -1672,7 +1668,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-13"
   },
@@ -1744,7 +1740,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-13"
   },
@@ -1842,7 +1838,7 @@
    "area_zh": null,
    "start": "2026-12-05",
    "end": "2026-12-05",
-   "schedule_zh": "10:00–18:00",
+   "schedule_zh": "11:00–17:00（Afters 17:00–23:00）",
    "price_zh": "請見官網",
    "free": false,
    "highlight": "街頭市集",
@@ -1857,9 +1853,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未載明具體場地地址與入場費。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-10-15"
   },
@@ -2029,23 +2024,29 @@
    "lng": 143.844,
    "start": "2026-11-29",
    "end": "2026-11-29",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費入場・湖畔市集",
-   "summary_zh": "巴拉瑞特 Lake Wendouree 湖畔的春季市集，2026 年 11 月 29 日上午 10 點至下午 4 點舉辦，入場免費，適合週末逛市集與散步。",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "湖畔市集",
+   "summary_zh": "巴拉瑞特 Lake Wendouree 湖畔的春季市集，2026 年 11 月 29 日上午 10 點至下午 4 點舉辦，適合週末逛市集與散步。",
    "tip_zh": null,
    "sources": [
     {
      "kind": "official",
-     "platform": "官網",
-     "label": "Visit Ballarat – SpringFest Ballarat Market Sunday",
+     "platform": "官方網站",
+     "label": "SpringFest Ballarat – Market Sunday",
+     "url": "https://ballaratspringfest.com.au/about/market-sunday/"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Ballarat – SpringFest Market Sunday",
      "url": "https://www.visitballarat.com.au/whats-on/springfest-ballarat-market-sunday"
     }
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-25",
-    "unconfirmed_zh": "官方頁面暫時無法開啟（429），日期、時間與免費入場由搜尋結果摘要確認。"
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官方頁面未載明是否免費入場。"
    },
    "added": "2026-10-16"
   },
@@ -2110,7 +2111,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-18"
   },
@@ -2319,7 +2320,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "lead": "其他",
    "added": "2026-10-22"
@@ -2496,9 +2497,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未載明入場費。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-10-28"
   },
@@ -2531,7 +2531,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-28"
   },
@@ -2569,7 +2569,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-28"
   },
@@ -2634,7 +2634,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-28"
   },
@@ -2943,40 +2943,6 @@
    "added": "2026-10-31"
   },
   {
-   "id": "adelaide-bp-grand-final-parade-2026",
-   "type": "event",
-   "title": "bp Adelaide Grand Final Parade",
-   "title_zh": "阿德雷德 Supercars 總決賽遊行",
-   "category": "sport",
-   "region": "SA",
-   "city": "Adelaide",
-   "venue": "Victoria Square / Tarntanyangga",
-   "lat": -34.9285,
-   "lng": 138.6007,
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "schedule_zh": "官方未列確切時間",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "免費・市中心遊行",
-   "summary_zh": "Supercars 總決賽遊行於 2026 年 11 月 25 日（週三）舉行，從 Adelaide Street Circuit 出發，終點為市中心的 Victoria Square / Tarntanyangga，免費參加。",
-   "tip_zh": "確切時間請查官方公告，建議提早前往 Victoria Square。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "South Australia – bp Adelaide Grand Final Parade",
-     "url": "https://southaustralia.com/products/adelaide/event/bp-adelaide-grand-final-parade-presented-by-experience-adelaide"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-25",
-    "unconfirmed_zh": "官方頁面未列遊行的開始時間。"
-   },
-   "added": "2026-10-31"
-  },
-  {
    "id": "perth-makers-market-heathcote-dec-2026",
    "type": "event",
    "title": "Perth Makers Market – Heathcote",
@@ -3224,7 +3190,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-10-31"
   },
@@ -3479,9 +3445,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未標示優惠起迄日期與條款。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-11-03"
   },
@@ -3783,9 +3748,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-25",
-    "unconfirmed_zh": "官網未列出入場費用。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-10-31"
   },
@@ -3898,7 +3862,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "官網首頁未列出具體折扣內容。"
    },
    "added": "2026-11-03"
@@ -4104,7 +4068,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-04"
   },
@@ -4135,9 +4099,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未列出折扣條款與到期日。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-11-04"
   },
@@ -4154,11 +4117,11 @@
    "lng": 144.9517,
    "start": "2026-11-04",
    "end": null,
-   "schedule_zh": "週五 10:00–21:00；其餘日子 10:00–18:00",
+   "schedule_zh": "週一至週四 10:00–18:00；週六、週日 9:00–19:00；黑色星期五（11 月 27 日）9:00–21:00",
    "price_zh": "免費入場；品牌折扣依店家公布",
    "free": true,
    "highlight": "Outlet 購物中心",
-   "summary_zh": "位於墨爾本 South Wharf 的 Outlet，進駐 Calvin Klein、Coach、Nike Factory Outlet、Peter Alexander、Puma、Tommy Hilfiger 等品牌。官網優惠頁目前列有 House（11 月 12 日至 12 月 30 日，原價 25 至 50% 折扣）、Florsheim（11 月 17 至 25 日）及多個品牌的黑色星期五優惠。",
+   "summary_zh": "位於墨爾本 South Wharf 的 Outlet，進駐 Calvin Klein、Coach、Nike Factory Outlet、Peter Alexander、Puma、Tommy Hilfiger 等品牌。官網優惠頁列有 House（11 月 12 日至 12 月 30 日，原價 25 至 50% 折扣）、Florsheim（11 月 26 至 30 日，全價品 7 折）及多個品牌的黑色星期五優惠。",
    "tip_zh": "各店折扣與期間不同，出發前請先看官網優惠頁。",
    "sources": [
     {
@@ -4169,8 +4132,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-19"
+    "status": "partial",
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官網未列出一般週五的營業時間，僅標示黑色星期五（11 月 27 日）為 9:00–21:00。"
    },
    "added": "2026-11-04"
   },
@@ -4209,7 +4173,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-04"
   },
@@ -4275,7 +4239,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-04"
   },
@@ -4312,9 +4276,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網只標示優惠至 11 月 29 日結束，未標明開始日期與適用條款。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-11-04"
   },
@@ -4381,7 +4344,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-05"
   },
@@ -4488,7 +4451,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-05"
   },
@@ -4526,7 +4489,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-05"
   },
@@ -4643,7 +4606,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-05"
   },
@@ -4676,7 +4639,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-05"
   },
@@ -4817,9 +4780,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網頁面無法直接開啟，免費、地點與展期僅由搜尋結果中的官方頁面摘要確認。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-11-06"
   },
@@ -5050,7 +5012,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-06"
   },
@@ -5082,9 +5044,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官網未標明優惠期間，完整條款請見官網。"
+    "status": "verified",
+    "checked": "2026-11-26"
    },
    "added": "2026-11-06"
   },
@@ -5205,12 +5166,12 @@
    "lng": 153.0702,
    "start": "2026-11-27",
    "end": "2027-01-03",
-   "schedule_zh": "至 12/20 每週五、週六 16:00–22:00，週日 16:00–21:00；之後營業日請見官網（含 12/26、1/1、1/3）",
+   "schedule_zh": "每週五、週六 16:00–22:00，週日 16:00–21:00；聖誕活動期間 11/27 起至 1/3，12/26 與 1/1 亦營業，其餘日期請見官網",
    "price_zh": "入場費 A$6（未滿 13 歲免費），採浮動定價",
    "free": false,
    "highlight": "60 多個美食攤位",
    "summary_zh": "布里斯本河畔的夜間美食園區，官網列出 60 多個微型廚房、酒吧與體驗，以及 4 個現場音樂舞台。",
-   "tip_zh": "票價採浮動定價，出發前請先查官網；聖誕節期間有休息日。",
+   "tip_zh": "票價採浮動定價，出發前請先查官網；12 月 25 日是否營業官網未列，請先確認。",
    "sources": [
     {
      "kind": "official",
@@ -5220,8 +5181,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-25"
+    "status": "partial",
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官網未列出完整營業日曆與聖誕節當日是否營業，僅確認 12 月 20 日前每週五至週日、12/26 與 1/1 營業。"
    },
    "added": "2026-11-07"
   },
@@ -5387,11 +5349,11 @@
    "lng": null,
    "start": "2026-11-27",
    "end": "2026-11-30",
-   "price_zh": "折扣幅度請見官網",
+   "price_zh": "女裝與男裝最高 5 折；其他類別折扣請見官網",
    "free": false,
    "highlight": "全國 56 間門市與線上",
    "summary_zh": "Myer 官網公布黑色星期五為 11 月 27 日，優惠持續至 11 月 30 日網購星期一，全國 56 間門市與線上同步進行，涵蓋時尚、美妝、居家、玩具與科技。Myer one 會員為選填，非會員也可購買。",
-   "tip_zh": "官網尚未列出各類別折扣，折扣內容請見官網。",
+   "tip_zh": "非會員也可購買；官網列出的優惠包含女裝、男裝最高 5 折，部分美妝 6 至 8 折，兒童服飾 6 折，LEGO 6 至 8 折。",
    "sources": [
     {
      "kind": "official",
@@ -5402,7 +5364,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-08"
   },
@@ -5569,38 +5531,6 @@
     "status": "partial",
     "checked": "2026-11-24",
     "unconfirmed_zh": "官網未列出票價。"
-   },
-   "added": "2026-11-08"
-  },
-  {
-   "id": "j-cole-brisbane-2026",
-   "type": "event",
-   "title": "J. Cole – The Fall-Off Tour Brisbane",
-   "title_zh": "J. Cole 布里斯本演唱會",
-   "category": "music",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Brisbane Entertainment Centre",
-   "lat": -27.3434,
-   "lng": 153.0645,
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "巡迴演出",
-   "summary_zh": "J. Cole The Fall-Off Tour 於 2026 年 11 月 25 日在 Brisbane Entertainment Centre 演出，票券經 Ticketek 販售。",
-   "tip_zh": "票價請至 Ticketek 確認。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "Live Nation",
-     "label": "Live Nation – J. Cole",
-     "url": "https://www.livenation.com.au/event/j-cole-the-fall-off-tour-brisbane-tickets-edp1653083"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-25"
    },
    "added": "2026-11-08"
   },
@@ -5789,7 +5719,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-10"
   },
@@ -5860,7 +5790,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-10"
   },
@@ -6030,7 +5960,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6063,7 +5993,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6096,7 +6026,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6135,7 +6065,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6213,7 +6143,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6273,7 +6203,7 @@
    "free": true,
    "highlight": "免費・街頭音樂與市集",
    "summary_zh": "The Rocks 於 11 月 19 日至 12 月 25 日舉辦聖誕季，街區有節慶裝飾、手作市集延長營業時間與免費現場音樂。",
-   "tip_zh": "The Rocks Markets 聖誕版於 12 月 4 至 20 日週五至週日 10:00–19:00；Jolly Christmas Night Markets 12 月 10 至 20 日 16:00–22:30，免費入場。",
+   "tip_zh": "The Rocks Markets 聖誕版於 12 月 4 至 20 日週五至週日舉行，營業時間延長；Jolly Christmas Night Markets 12 月 10 至 20 日 16:00–22:30，免費入場。",
    "sources": [
     {
      "kind": "official",
@@ -6290,7 +6220,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6329,39 +6259,6 @@
    "added": "2026-11-12"
   },
   {
-   "id": "aldi-black-wednesday-2026-11-25",
-   "type": "deal",
-   "title": "ALDI Special Buys – Black Wednesday (Wed 25 Nov)",
-   "title_zh": "ALDI 11/25 Black Wednesday 特賣",
-   "category": "grocery",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "start": "2026-11-25",
-   "end": "2026-11-25",
-   "price_zh": "請見官網",
-   "free": false,
-   "highlight": "黑色星期三",
-   "summary_zh": "ALDI 官網特賣頁在 11 月 25 日（週三）的特賣日程中列出 Black Wednesday 與 Black Wednesday Deals 兩個系列，商品與價格官網未說明。",
-   "tip_zh": "官方表示商品數量有限且各門市庫存不同，價格請於特賣前再查看官網。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "ALDI Australia – Special Buys",
-     "url": "https://www.aldi.com.au/special-buys/"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-25",
-    "unconfirmed_zh": "官網特賣頁未列出商品與價格。"
-   },
-   "added": "2026-11-12"
-  },
-  {
    "id": "npws-perisher-discovery-guided-walk-2026-27",
    "type": "event",
    "title": "Perisher discovery guided walk",
@@ -6396,7 +6293,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6429,7 +6326,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6468,7 +6365,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-12"
   },
@@ -6587,7 +6484,7 @@
    "free": true,
    "highlight": "免費・聖誕開幕夜",
    "summary_zh": "布里斯本市中心 King George Square 於 11 月 27 日晚間 6:30 至 9:00 舉行點燈儀式，高 22 公尺的聖誕樹首次亮燈，現場有 Santa 與歌手 Jem Cassar-Daley 演出。",
-   "tip_zh": "建議提早抵達；同一廣場的 City Hall Lights 燈光秀預計 12 月 4 日起開始。",
+   "tip_zh": "建議提早抵達；City Hall Lights 燈光秀 12 月 4 日起至 12 月 24 日，每 15 分鐘一場。",
    "sources": [
     {
      "kind": "official",
@@ -6604,7 +6501,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-13"
   },
@@ -6707,7 +6604,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-13"
   },
@@ -6771,7 +6668,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-13"
   },
@@ -6867,7 +6764,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-13"
   },
@@ -6900,7 +6797,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-13"
   },
@@ -6965,7 +6862,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-13"
   },
@@ -7063,7 +6960,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-13"
   },
@@ -7484,7 +7381,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "官網未列出票價。"
    },
    "added": "2026-11-14"
@@ -7841,7 +7738,7 @@
    "area_zh": null,
    "start": "2026-11-29",
    "end": "2026-12-24",
-   "schedule_zh": "11 月 29 日（19:00–21:00）；12 月 4–6、11–13、18–20 日；12 月 23、24 日，除 11 月 29 日外皆為 18:00–21:00",
+   "schedule_zh": "12 月 23、24 日 18:00–21:00；其餘日期與時段請見市議會官網",
    "price_zh": "請見官網",
    "free": false,
    "highlight": "海濱聖誕燈光步道",
@@ -7857,8 +7754,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-25",
-    "unconfirmed_zh": "官網無法直接開啟，11 月 29 日的確切時段與中間日期未能逐一確認。"
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官網無法直接開啟，僅從搜尋結果確認 12 月 23、24 日 18:00–21:00 及活動共 12 天、自 11 月 29 日起，其餘日期與時段未能逐一確認。"
    },
    "added": "2026-11-18"
   },
@@ -7892,7 +7789,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "官方列表未註明具體地點與時間。"
    },
    "added": "2026-11-18"
@@ -8217,7 +8114,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-18",
    "schedule_zh": "每週五 18:00–20:00"
@@ -8285,7 +8182,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-19"
   },
@@ -8318,7 +8215,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-19"
   },
@@ -8351,7 +8248,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-19"
   },
@@ -8437,7 +8334,7 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費入場・湖畔市集",
-   "summary_zh": "位於 Lake Burley Griffin 湖畔的市集，每月第一個週六舉行；2026 年最後一場為 12 月 5 日上午 9 時至下午 2 時，免費入場，適合週末在市區外走走的短期停留者。",
+   "summary_zh": "位於 Lake Burley Griffin 湖畔的市集，2026 年場次至 12 月 5 日為止；最後一場為 12 月 5 日上午 9 時至下午 2 時，免費入場，適合週末在市區外走走的短期停留者。",
    "tip_zh": "市集位於湖畔露天場地，建議穿著舒適的鞋子並留意天氣；出發前可再次確認官網的場次資訊。",
    "sources": [
     {
@@ -8455,7 +8352,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "schedule_zh": "12 月 5 日 9:00–14:00",
    "added": "2026-11-19"
@@ -8488,7 +8385,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "schedule_zh": "12 月 13 日（星期日）9:00–13:00",
    "added": "2026-11-19"
@@ -8528,7 +8425,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-19"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-19"
   },
@@ -8667,7 +8564,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "官網未標示 2026 年日期；一般入場免費、每日 10:00–17:00、聖誕節休館為頁面現行內容。"
    },
    "added": "2026-11-20"
@@ -8700,7 +8597,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "官網未標示優惠起訖日期，且官方註明可能隨時變更或撤銷。"
    },
    "added": "2026-11-20"
@@ -8758,7 +8655,7 @@
    "free": false,
    "highlight": "年度板球盛事",
    "summary_zh": "澳洲對紐西蘭板球測試賽首日，於墨爾本板球場舉行，為聖誕節後的代表性體育賽事，適合喜愛運動賽事的旅客。",
-   "tip_zh": "門票經 Ticketek 販售，熱門場次可能售罄，建議提早購票；場內票價依座位區分，以官網為準。",
+   "tip_zh": "門票經 Ticketek 販售，一般公眾已於 6 月開售；票價以購票頁為準。",
    "sources": [
     {
      "kind": "official",
@@ -8770,8 +8667,8 @@
    "hot": true,
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官方頁面未列出票價區間，請見 Ticketek 購票頁。"
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官方頁面未列出票價，請見 Ticketek 購票頁。"
    },
    "added": "2026-11-20"
   },
@@ -8806,7 +8703,7 @@
    "hot": true,
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "官方尚未公布煙火時間與慶祝區的確切位置。"
    },
    "added": "2026-11-20"
@@ -8908,8 +8805,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
-    "unconfirmed_zh": "官方頁面未標示起始日期；有效期限寫「04/05/27」，依澳洲日期格式解讀為 2027 年 5 月 4 日；集點卡是否收費、集點是否過期，官方頁面未說明。"
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "官方頁面未標示起始日期；有效期限寫「04/05/27」，依澳洲日期格式解讀為 2027 年 5 月 4 日。"
    },
    "added": "2026-11-20"
   },
@@ -8972,7 +8869,7 @@
    "free": true,
    "highlight": "免費・自然探索",
    "summary_zh": "南澳 Coorong 國家公園 2026 年 11 月的月度公園重點，官方提供免費的 42 Mile Crossing 尋寶與 Coorong 自然探索活動單，可自行前往。適合喜愛戶外與自然景觀的旅客。",
-   "tip_zh": "活動單為官網下載的 PDF，可於出發前列印或存至手機；前往公園請留意官網公告的道路與露營區狀況。",
+   "tip_zh": "活動單為官網下載的 PDF，可於出發前列印或存至手機；11 月 26 日另有 Goolwa Barrage 講座、28 日有 Art in the Park，詳見官網。",
    "sources": [
     {
      "kind": "official",
@@ -8983,7 +8880,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-23",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "活動單 PDF 未實際打開；座標為 Coorong 國家公園概略位置，未能核對在 2 公里內。"
    },
    "added": "2026-11-20"
@@ -9188,7 +9085,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-22"
   },
@@ -9288,7 +9185,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-22"
   },
@@ -9326,7 +9223,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-22"
   },
@@ -9358,7 +9255,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-22"
   },
@@ -9382,7 +9279,7 @@
    "tip_zh": "園區提供免費停車。",
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "sources": [
     {
@@ -9422,7 +9319,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-22"
   },
@@ -9456,7 +9353,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-22"
   },
@@ -9656,7 +9553,7 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・濱水聚會",
-   "summary_zh": "位於 Docklands 濱水區的演唱會前聚會，設有餐車、現場 DJ 音樂、拍照區與花藝吧等，免費入場。",
+   "summary_zh": "位於 Docklands 濱水區的免費活動，設有餐車、現場 DJ 音樂、拍照區與花藝吧等。",
    "tip_zh": "免預約，可直接前往。",
    "sources": [
     {
@@ -9668,7 +9565,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-24"
   },
@@ -9700,7 +9597,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-25"
+    "checked": "2026-11-26"
    },
    "added": "2026-11-24"
   },
@@ -9759,8 +9656,8 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "四日藝文節",
-   "summary_zh": "2026 年 11 月 26 至 29 日於藍山地區舉行的多領域藝文節，內容涵蓋表演、音樂、視覺藝術與裝置。適合希望認識當代藝文與夜間活動的旅客。",
-   "tip_zh": "節目分布於藍山一帶，行前請先查閱官網節目與購票頁。",
+   "summary_zh": "2026 年 11 月 26 至 29 日於藍山與 Penrith 一帶舉行的藝文節，內容涵蓋表演、音樂、視覺藝術與裝置。",
+   "tip_zh": "節目分布於多處，行前請先查閱官網節目頁；票券於官網連結的售票頁購買。",
    "sources": [
     {
      "kind": "official",
@@ -9777,7 +9674,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-25",
+    "checked": "2026-11-26",
     "unconfirmed_zh": "官網未列出票價與各場次節目，免費場次亦未確認。"
    },
    "added": "2026-11-25"
@@ -9928,6 +9825,171 @@
     "unconfirmed_zh": "Woolworths 官網型錄頁無法開啟，僅由 SaleFinder 型錄確認；其他州別未查證。"
    },
    "added": "2026-11-25"
+  },
+  {
+   "id": "el-jannah-glenelg-opening-2026",
+   "type": "deal",
+   "title": "El Jannah Glenelg Grand Opening",
+   "title_zh": "El Jannah Glenelg 開幕日 A$5 套餐",
+   "category": "dining",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "70–72 Jetty Road, Glenelg",
+   "lat": -34.9803,
+   "lng": 138.5148,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "price_zh": "開幕當日 A$5（¼ 炭烤雞、小薯條、蒜味醬）",
+   "free": false,
+   "highlight": "開幕優惠・A$5",
+   "summary_zh": "El Jannah 於 2026 年 11 月 28 日在 Glenelg 的 Jetty Road 開幕，開幕當日推出 A$5 套餐（¼ 炭烤雞、小薯條與蒜味醬），適合想嘗試炭烤雞餐的旅客。",
+   "tip_zh": "限店內購買，每位顧客數量可能受限；購買前可先查看官網公告。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "El Jannah 官網（Glenelg 開幕公告與 A$5 開幕日優惠）",
+     "url": "https://www.eljannah.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-26"
+   },
+   "added": "2026-11-26"
+  },
+  {
+   "id": "iga-black-friday-specials-2026",
+   "type": "deal",
+   "title": "IGA Black Friday Specials",
+   "title_zh": "IGA 黑色星期五特價",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "start": "2026-11-27",
+   "end": "2026-11-30",
+   "price_zh": "部分商品 A$1.50 起（例如 Pepsi、Schweppes 或 Lipton 1.25L A$1.50；Cheezels 190g A$2.00）",
+   "free": false,
+   "highlight": "黑色星期五特價・4 天",
+   "summary_zh": "IGA 黑色星期五特價期間為 2026 年 11 月 27 日至 11 月 30 日，型錄列有飲料、零食、清潔用品與寵物食品等特價商品，適合日常採購。",
+   "tip_zh": "各門市參與情況不一，特價商品以門市為準，購買前可先向附近門市確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "SaleFinder（IGA 官方型錄）",
+     "label": "IGA 黑色星期五特價型錄（2026 年 11 月 27 日至 30 日）",
+     "url": "https://www.salefinder.com.au/iga-catalogue"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "型錄未列明參與的門市與各州適用範圍，請以門市公告為準。"
+   },
+   "added": "2026-11-26"
+  },
+  {
+   "id": "target-au-black-friday-2026",
+   "type": "deal",
+   "title": "Target Australia Black Friday 2026",
+   "title_zh": "Target 2026 黑色星期五特賣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": null,
+   "start": "2026-11-23",
+   "end": "2026-11-30",
+   "price_zh": "依類別減價 20% 至 50%（請見官網）",
+   "free": false,
+   "highlight": "最高半價・Main Event 11/23–11/30",
+   "summary_zh": "Target 澳洲官網公布 2026 年黑色星期五主要活動期間為 11 月 23 日至 11 月 30 日（網購星期一）。家居、寢具、玩具、服飾與鞋類分別提供減價 20% 至 50% 的優惠，部分鞋款第二件半價。",
+   "tip_zh": "多數優惠為售完為止，且不得與其他優惠併用；部分網路限定商品不供西澳（WA）顧客購買，詳細條款請見官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Target Australia – Black Friday",
+     "url": "https://www.target.com.au/black-friday"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "各商品的確切售價未在頁面完整列出，請見官網。"
+   },
+   "added": "2026-11-26"
+  },
+  {
+   "id": "big-w-black-friday-2026",
+   "type": "deal",
+   "title": "BIG W Black Friday Sale 2026",
+   "title_zh": "BIG W 2026 黑色星期五特賣",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": null,
+   "start": "2026-11-12",
+   "end": null,
+   "price_zh": "依商品而異（例：Dyson V8 Advanced A$324、Apple AirPods Pro 3 A$299）",
+   "free": false,
+   "highlight": "1,000 項以上商品・分三階段推出",
+   "summary_zh": "BIG W 公布 2026 年黑色星期五特賣，優惠分階段推出（11 月 12 日起早鳥優惠、11 月 19 日起加碼、11 月 26 日再推出新一輪優惠），涵蓋 1,000 項以上商品，包含家居、科技與廚房家電。",
+   "tip_zh": "比價承諾僅適用於實體門市，不適用網購，有效期至 12 月 9 日；Everyday Rewards 會員購物可累積點數。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Woolworths Group newsroom – BIG W 2026 Black Friday Sale",
+     "url": "https://woolworthsgroup.com.au/au/en/our-newsroom/media-releases/latest-news/2026/big-w-s-2026-black-friday-sale.html"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "整體活動的結束日未在官方頁面明確標示，請見官網。"
+   },
+   "added": "2026-11-26"
+  },
+  {
+   "id": "jb-hi-fi-black-friday-2026",
+   "type": "deal",
+   "title": "JB Hi-Fi Black Friday 2026",
+   "title_zh": "JB Hi-Fi 2026 黑色星期五",
+   "category": "shopping",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "area_zh": null,
+   "start": "2026-11-27",
+   "end": "2026-11-30",
+   "price_zh": "請見官網（頁面未列出具體售價）",
+   "free": false,
+   "highlight": "黑色星期五 11/27・網購星期一 11/30",
+   "summary_zh": "JB Hi-Fi 官網公布 2026 年黑色星期五為 11 月 27 日，網購星期一為 11 月 30 日，並延長門市營業時間至 11 月 23 日至 30 日。電視、吸塵器、廚房家電、手機、電腦與遊戲等類別陸續推出優惠。",
+   "tip_zh": "加入 JB Perks 免費，可取得會員優惠；延長營業時間請向附近門市確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "JB Hi-Fi – Black Friday Sale",
+     "url": "https://www.jbhifi.com.au/pages/black-friday-sale"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-26",
+    "unconfirmed_zh": "頁面僅列出類別，未標示具體商品與售價，請見官網。"
+   },
+   "added": "2026-11-26"
   }
  ]
 }
