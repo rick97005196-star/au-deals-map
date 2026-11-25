@@ -764,6 +764,15 @@ html[data-theme="dark"]{--oz-mark:rgba(255,212,92,.38)}
 .hero-kick::before{content:"";flex:none;width:8px;height:8px;border-radius:50%;background:currentColor}
 .sec-title h2{font-size:clamp(20px,1.2vw + 14px,26px);font-weight:800;line-height:1.35;letter-spacing:.02em}
 @media (max-width:640px){.quick-sec .sec-title h2{font-size:18px}}
+/* ==== 全站圓角方框（2026-11-25）：小標籤 6px、按鈕／輸入框 10px、卡片／框 14px ==== */
+:root{--r:10px}
+.card,.qt,.acct,.empty,.kv,.sources,.verify,.itin-item,.fbk,.mapbox,dialog.how,.legend,.lang-pop{border-radius:14px}
+.search input,.toggle,.select,.chip,.btn,.fab,.x,.social-links a,.nav .theme-btn,.nav a,.nav button,.lang-menu summary,.lang-hero summary,.lang-pop a,.btn-star,.af,.af span,.itin-badge,.qt .ic,.verify .ic,.ozwh-hubnav-btn,.search .clear,.itin-item-del{border-radius:10px}
+.leaflet-bar{border-radius:10px!important}
+.leaflet-tooltip.tt,.rcode,.tag-new,.tag-hot,.sources .k,.hl,.status,.notice b,.pin-hot,.steps li::before,.nav .lang-switch a,.toggle::before,.cat,.free-mark{border-radius:6px}
+.regions{gap:6px}
+.rg,.rg:first-child,.rg:last-child{margin-left:0;border-radius:10px}
+@media (max-width:640px){dialog.sheet{border-radius:16px 16px 0 0}}
 </style>
 
 <div class="notice" role="note" aria-label="免責聲明">
