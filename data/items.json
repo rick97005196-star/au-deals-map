@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -135,7 +135,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網未公布週三至週五版本的起訖日期。"
    },
    "schedule_zh": "每週三至週五",
@@ -157,7 +157,7 @@
    "price_zh": "門票請見官網；遊樂設施 A$6/次",
    "free": false,
    "highlight": "聖誕限定",
-   "summary_zh": "獵人谷花園年度聖誕燈光秀，官方稱有數百萬顆燈，位於 Hunter Valley 酒鄉的 Hunter Valley Gardens。",
+   "summary_zh": "獵人谷花園年度聖誕燈光秀，於 Hunter Valley 酒鄉的 Hunter Valley Gardens 舉行，傍晚 17:30 起開放，並設有收費遊樂設施。",
    "tip_zh": "燈光秀 17:30–22:30（最後入場 21:30），12/25 休園；遊樂設施單次 A$6，6 次套票 A$30；門票價格請見官網。",
    "sources": [
     {
@@ -175,7 +175,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網活動頁未列出門票價格。"
    }
   },
@@ -219,7 +219,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網頁面無法直接開啟，票價未能確認。"
    }
   },
@@ -239,7 +239,7 @@
    "price_zh": "請見官網",
    "free": false,
    "highlight": "季節限定",
-   "summary_zh": "Mon Repos Conservation Park 的夜間海龜導覽，每晚舉行，2026 年 11 月 7 日至 2027 年 3 月 21 日（12 月 24、25、31 日停辦），票券含 Turtle Centre 入場。",
+   "summary_zh": "Mon Repos Conservation Park 的夜間海龜導覽，每晚舉行，2026 年 11 月 7 日至 2027 年 3 月 21 日（12 月 24、25、31 日停辦）。",
    "tip_zh": "售票自 2026 年 6 月 1 日起，建議儘早於官方訂位頁預約；12 月 24、25、31 日停辦。",
    "sources": [
     {
@@ -257,7 +257,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官方頁面無法直接開啟，2026–27 票價未能確認。"
    }
   },
@@ -440,8 +440,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官方頁面無法直接開啟，免費期限依搜尋結果中的 NT 政府頁面摘要，建議出發前再確認。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官方頁面無法直接開啟，免費期限依搜尋結果摘要，出發前請再確認。"
    },
    "area_zh": "達爾文、Alice Springs",
    "hot": true
@@ -581,7 +581,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "area_zh": "塔州全境",
    "hot": true
@@ -709,8 +709,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-26",
-    "unconfirmed_zh": "官網未明列場地名稱。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網售票頁未明列場地與日期，僅見於搜尋結果。"
    }
   },
   {
@@ -924,8 +924,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-26"
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "Pride WA 官網未載明 After Party 是否免費，僅 Visit Perth 列為免費。"
    }
   },
   {
@@ -1002,7 +1003,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網未標示優惠年份與起訖日期，僅寫「限時」。"
    },
    "added": "2026-10-10",
@@ -1023,7 +1024,7 @@
    "end": null,
    "schedule_zh": "週三 8:00–14:00、週六 7:00–14:00；週五 7:30–14:00 僅 Eumundi Square",
    "price_zh": "免費入場",
-   "free": false,
+   "free": true,
    "highlight": "陽光海岸代表性市集",
    "summary_zh": "位於陽光海岸內陸的大型市集，包含 Original Eumundi Markets、Parkside Markets 與 Eumundi Square 等區域，週三與週六營業，週五僅 Eumundi Square 開放。",
    "tip_zh": "各區域地點不同，行前請於官網確認；週五僅 Eumundi Square 開放。",
@@ -1049,7 +1050,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-10"
   },
@@ -1177,8 +1178,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官網未列出 2026 年場次日期，免費與時長僅見於搜尋結果的預約頁摘要。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列出 2026 年場次日期，免費與時長未能於官方頁面確認。"
    },
    "added": "2026-10-10",
    "schedule_zh": null
@@ -1951,12 +1952,12 @@
    "lng": 153.066,
    "start": "2026-10-18",
    "end": null,
-   "schedule_zh": "每週日 6:00–12:00",
+   "schedule_zh": "每週日",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費入場・每週日",
    "summary_zh": "每週日於 Eagle Farm 賽馬場舉行的農夫市集，適合在週末採買在地農產品與食品的民眾。",
-   "tip_zh": "年底休市：12/20 為今年最後一場，2027 年 1/17 恢復營業。",
+   "tip_zh": "營業時間各來源不一，出發前請向主辦單位確認。",
    "sources": [
     {
      "kind": "official",
@@ -1966,8 +1967,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-20"
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官方頁面未列營業時間與年底休市日期。"
    },
    "added": "2026-10-15"
   },
@@ -2006,8 +2008,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "Carriageworks 官網未列票價，A$39.90 起取自媒體報導。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "Carriageworks 官網未列票價與展期，取自新聞稿與搜尋結果。"
    },
    "added": "2026-10-15"
   },
@@ -2045,7 +2047,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-26",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官方頁面未載明是否免費入場。"
    },
    "added": "2026-10-16"
@@ -2160,9 +2162,9 @@
    "venue": "Sea Acres Rainforest Centre",
    "lat": -31.4639,
    "lng": 152.9314,
-   "start": "2026-11-06",
-   "end": "2026-12-18",
-   "schedule_zh": "11/6、11/20、12/4、12/18（週五）14:00–15:30",
+   "start": "2026-12-04",
+   "end": "2027-01-22",
+   "schedule_zh": "12/4、12/18、1/8、1/15、1/22（週五）14:00–15:30",
    "price_zh": "成人 A$25、優惠票 A$21、兒童 A$18",
    "free": false,
    "highlight": "原住民文化導覽・需預約",
@@ -2178,7 +2180,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-18"
   },
@@ -2392,7 +2394,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網僅列「From $0」，未明文寫入場免費。"
    },
    "added": "2026-10-24"
@@ -2497,7 +2499,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-28"
   },
@@ -2535,7 +2537,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-28"
   },
@@ -2567,7 +2569,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-28"
   },
@@ -2666,7 +2668,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網未標示優惠起始日與年份。"
    },
    "added": "2026-10-31"
@@ -2798,7 +2800,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網未標示優惠年份，票價依季節與需求變動。"
    },
    "added": "2026-10-31"
@@ -3061,9 +3063,9 @@
    "venue": "Sea Acres Rainforest Centre, Sea Acres National Park",
    "lat": -31.4639,
    "lng": 152.9254,
-   "start": "2026-11-06",
-   "end": "2026-12-18",
-   "schedule_zh": "11 月 6、20 日與 12 月 4、18 日（週五）10:00–11:30",
+   "start": "2026-12-04",
+   "end": "2027-01-22",
+   "schedule_zh": "12/4、12/18、1/8、1/15、1/22（週五）10:00–11:30",
    "price_zh": "成人 A$25／優待 A$21",
    "free": false,
    "highlight": "原住民文化導覽",
@@ -3079,7 +3081,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-31"
   },
@@ -3155,15 +3157,15 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-03"
   },
   {
    "id": "amaysim-125gb-13-three-renewals-2026",
    "type": "deal",
-   "title": "amaysim 125GB 28-day prepaid $13 for first three renewals",
-   "title_zh": "amaysim 預付卡 125GB 首三期 A$13",
+   "title": "amaysim 28-day unlimited 95GB prepaid $13 for first three renewals",
+   "title_zh": "amaysim 預付卡 95GB 首三期 A$13",
    "category": "shopping",
    "region": "AU",
    "city": null,
@@ -3172,11 +3174,11 @@
    "lng": null,
    "start": "2026-11-03",
    "end": "2026-11-30",
-   "price_zh": "A$13／28 天（前三次續約）；之後 A$45／95GB",
+   "price_zh": "A$13／28 天（前三次續約）；之後 A$45",
    "free": false,
    "highlight": "首三期 A$13・預付",
-   "summary_zh": "amaysim 官網列出 125GB、28 天效期預付方案，新客戶前三次續約為 A$13，並附免費 Number Link；優惠至 2026 年 11 月 30 日。預付制，不需綁約。",
-   "tip_zh": "僅限線上新啟用；之後恢復 A$45（95GB）。",
+   "summary_zh": "amaysim 官網列出 28 天效期 95GB 預付方案，前三次續約為 A$13，並附免費 Number Link，之後為 A$45。預付制，不需綁約。",
+   "tip_zh": "實際條款與適用對象請以官網方案頁為準。",
    "sources": [
     {
      "kind": "official",
@@ -3186,8 +3188,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-20"
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網首頁未明確標示此方案的優惠結束日期與僅限線上新啟用。"
    },
    "added": "2026-11-03"
   },
@@ -3405,7 +3408,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-03"
   },
@@ -3471,7 +3474,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網未明確標示入場是否免費。"
    },
    "added": "2026-10-31"
@@ -3577,7 +3580,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-21"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-31"
   },
@@ -3676,7 +3679,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-10-31"
   },
@@ -3755,7 +3758,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網未標示 2026 年具體活動日期，僅確認「最高 70% 折扣」標示。"
    },
    "added": "2026-11-03"
@@ -3956,7 +3959,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網只寫「限時」與「售完為止」，未公布特賣結束日期。"
    },
    "added": "2026-11-03"
@@ -4100,7 +4103,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-04"
   },
@@ -4475,7 +4478,7 @@
    "price_zh": "請見官網（Oztix 售票）",
    "free": false,
    "highlight": "一日音樂節・16 歲以上",
-   "summary_zh": "單日搖滾音樂節，12 月 6 日中午 12 點開始，主要演出者包括 Limp Bizkit、Simple Plan、Spiritbox、Polaris 與 The All-American Rejects，限 16 歲以上入場。",
+   "summary_zh": "單日搖滾音樂節，12 月 6 日中午 12 點於 Brisbane Showgrounds 舉行，限 16 歲以上入場；官網公布的全站陣容包括 Limp Bizkit、Simple Plan、Spiritbox 等，未標示各城市場次。",
    "tip_zh": "票價與購票請見 Oztix 頁面。",
    "sources": [
     {
@@ -4493,8 +4496,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官網未列出票價。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列出票價與 Brisbane 場次專屬陣容。"
    },
    "added": "2026-11-05"
   },
@@ -4533,7 +4536,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-05"
   },
@@ -4616,7 +4619,7 @@
    "category": "dining",
    "region": "NSW",
    "city": "Sydney",
-   "venue": "GYG Caringbah, 51 President Ave, Caringbah",
+   "venue": "GYG Caringbah, 52 President Ave, Caringbah",
    "lat": -34.0446,
    "lng": 151.1215,
    "start": "2026-12-10",
@@ -4624,8 +4627,8 @@
    "price_zh": "Burrito 與 Bowl A$5",
    "free": false,
    "highlight": "單日・A$5",
-   "summary_zh": "GYG 官方頁面公布 Caringbah 新門市 11 月 18 日開幕，並於 2026 年 12 月 10 日（週四）提供 A$5 Burrito 與 Bowl。",
-   "tip_zh": "官方頁面未列出條款與時段，行前請再向門市或官網確認。",
+   "summary_zh": "GYG 官方頁面公布 Caringbah 新門市於 2026 年 12 月 10 日（週四）提供 A$5 Burrito 與 Bowl，僅限門市內用，限一般 Burrito 與 Bowl。",
+   "tip_zh": "僅限 Caringbah 門市內用，每人可能有數量限制。",
    "sources": [
     {
      "kind": "official",
@@ -4635,11 +4638,11 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官方頁面未列出 A$5 優惠的條款與適用時段。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
-   "added": "2026-11-05"
+   "added": "2026-11-05",
+   "schedule_zh": "12/10 8:00–22:00"
   },
   {
    "id": "brisbane-council-pools-2-summer-dips-2026",
@@ -4676,7 +4679,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-06"
   },
@@ -4774,7 +4777,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-06"
   },
@@ -4806,8 +4809,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-20"
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網對導覽開放日描述不一致（每日或週一、二、五、六、日）。"
    },
    "added": "2026-11-06"
   },
@@ -4840,7 +4844,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-06"
   },
@@ -4873,7 +4877,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-06"
   },
@@ -4906,7 +4910,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-06"
   },
@@ -4939,7 +4943,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-06"
   },
@@ -5076,7 +5080,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-07"
   },
@@ -5109,8 +5113,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-26",
-    "unconfirmed_zh": "官網未列出完整營業日曆與聖誕節當日是否營業，僅確認 12 月 20 日前每週五至週日、12/26 與 1/1 營業。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列出完整營業日曆與聖誕節當日是否營業。"
    },
    "added": "2026-11-07"
   },
@@ -5220,7 +5224,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-07"
   },
@@ -5258,8 +5262,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-20"
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網仍留有疫情暫停公告，營業狀況請電話確認。"
    },
    "added": "2026-11-07"
   },
@@ -5291,7 +5296,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-08"
   },
@@ -5323,7 +5328,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官方未列結束日期，也未明確標示適用門市或線上。"
    },
    "added": "2026-11-08"
@@ -5456,7 +5461,7 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
+    "checked": "2026-11-27",
     "unconfirmed_zh": "官網未列出票價。"
    },
    "added": "2026-11-08"
@@ -5472,14 +5477,14 @@
    "venue": "Piney Lakes Reserve, 555 Leach Highway, Winthrop（12 月場次；各場地點不同）",
    "lat": -32.0585,
    "lng": 115.837,
-   "start": "2026-11-21",
+   "start": "2026-12-05",
    "end": "2027-03-27",
-   "schedule_zh": "週六 17:00–19:00；11 月 21 日在 Centennial Park，12 月 5、19 日在 Piney Lakes Reserve，1 月在 Point Walter，2 月在 Wireless Hill，3 月在 Kadidjiny Park",
+   "schedule_zh": "週六 17:00–19:00；12 月 5、19 日在 Piney Lakes Reserve，1 月 16 日在 Point Walter，11 月 Centennial Park、2 月 Wireless Hill、3 月 Kadidjiny Park（確切日期請見官網）",
    "price_zh": "免費入場，免報名",
    "free": true,
    "highlight": "免費・週六音樂會",
    "summary_zh": "City of Melville 主辦的 2026 至 2027 夏季戶外音樂會系列，11 月至隔年 3 月共 10 場，於週六 17:00–19:00 在市內各公園舉行，免費入場，無須報名。",
-   "tip_zh": "每場地點不同（12 月 5、19 日在 Piney Lakes Reserve），16:30 開放入場，出發前請查官網場次表。",
+   "tip_zh": "每場地點不同，約 16:30 開放入場，出發前請查官網場次表。",
    "sources": [
     {
      "kind": "official",
@@ -5496,8 +5501,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官網只列出 12 月 5、19 日與 1 月 16 日的確切日期，其餘月份日期未列。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網僅列 12 月 5、19 日與 1 月 16 日確切日期，其餘場次日期未列。"
    },
    "added": "2026-11-08"
   },
@@ -5513,12 +5518,12 @@
    "lat": -38.1465,
    "lng": 144.3586,
    "start": "2026-11-21",
-   "end": "2026-12-19",
-   "schedule_zh": "每週六（11/28、12/5、12/12、12/19）",
+   "end": null,
+   "schedule_zh": "每週六 9:00–14:00",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・週六市集",
-   "summary_zh": "位於 Geelong 市中心 Little Malop Street 的週六市集，Visit Geelong Bellarine 頁面列出 11 月 21、28 日與 12 月 5、12、19 日，免費入場。",
+   "summary_zh": "位於 Geelong 市中心 Little Malop Street Central（Yarra 與 Moorabool 街之間）的週六市集，每週六 9:00 至 14:00 舉行，免費入場。",
    "tip_zh": "官網另有各週攤商名單，出發前可先查看。",
    "sources": [
     {
@@ -5535,9 +5540,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官方頁面僅列出日期，營業時段未能確認。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-08"
   },
@@ -5607,7 +5611,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-10"
   },
@@ -5646,7 +5650,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-10"
   },
@@ -5677,8 +5681,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-20"
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列開始時間。"
    },
    "added": "2026-11-10"
   },
@@ -5717,7 +5722,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-10"
   },
@@ -5754,9 +5759,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官網未列票價。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-10"
   },
@@ -6109,7 +6113,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-12"
   },
@@ -6164,7 +6168,7 @@
    "lng": 149.136,
    "start": "2026-12-06",
    "end": "2026-12-20",
-   "schedule_zh": "12/6、12/13、12/20 週日 8:00–14:00",
+   "schedule_zh": "週日 8:00–14:00",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・3 個週日",
@@ -6179,9 +6183,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "12 月 13、20 日的營業時間官網未分列。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-12"
   },
@@ -6324,7 +6327,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6355,9 +6358,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官方頁面未列開始日與門市確切地址。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6388,9 +6390,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官方頁面未列開始日與門市確切地址。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6428,7 +6429,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6465,9 +6466,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6499,7 +6499,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6531,7 +6531,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6627,7 +6627,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6691,7 +6691,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6724,7 +6724,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6789,7 +6789,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6924,9 +6924,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6949,7 +6948,7 @@
    "free": false,
    "highlight": "最高 65 折",
    "summary_zh": "NSW TrainLink 官網的線上特惠票，指定班次成人全票最高減 35%，例如雪梨至 Coffs Harbour A$53、至 Dubbo A$44、至 Broadmeadow A$17。適合安排雪梨出發的新州與昆州長途移動。",
-   "tip_zh": "僅限官網訂購、單程、指定班次並視座位而定，只適用成人全票；出發日須在 2026 年 10 月 12 日至 12 月 14 日、2027 年 1 月 31 日至 4 月 8 日等指定期間。",
+   "tip_zh": "特惠票僅適用指定出發期間（2026 年 10 月 12 日至 12 月 14 日、2027 年 1 月 31 日至 4 月 8 日、4 月 26 日至 7 月 1 日），訂票前請先確認班次與日期。",
    "sources": [
     {
      "kind": "official",
@@ -6966,7 +6965,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -6999,7 +6998,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-13"
   },
@@ -7020,7 +7019,7 @@
    "free": false,
    "highlight": "會員優惠票",
    "summary_zh": "HOYTS 官網優惠頁標示 Movie of the Week 票價 A$12.50，並註明 HOYTS Rewards 會員可在指定電影享 A$12.50 票價，詳細條款請見官網。",
-   "tip_zh": "訂票前請先查看官網的優惠條款與適用場次。",
+   "tip_zh": "須為 HOYTS Rewards 會員，且場次需具 Movie of the Week 標示；不適用 LUX 與 IMAX，線上訂票手續費另計。",
    "sources": [
     {
      "kind": "official",
@@ -7031,8 +7030,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官方頁面未列開始日與完整條款。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列出本期指定電影與適用日期。"
    },
    "added": "2026-11-14"
   },
@@ -7096,9 +7095,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-14",
    "schedule_zh": "12/19 16:00–21:00（12/20 時段請見官網）"
@@ -7164,8 +7162,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官方頁面日期欄顯示 30 Dec，31 日確切日期尚待官方確認。"
    },
    "added": "2026-11-14"
   },
@@ -7308,8 +7306,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-26",
-    "unconfirmed_zh": "官網未列出票價。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列票價。"
    },
    "added": "2026-11-14"
   },
@@ -7341,11 +7339,11 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "部分資訊官方尚未公布。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列入場費用。"
    },
    "added": "2026-11-14",
-   "schedule_zh": "12 月 31 日 17:00–23:59"
+   "schedule_zh": "17:00–23:59"
   },
   {
    "id": "sydney-ai-weiwei-mushrooms-mca-2026",
@@ -7596,7 +7594,7 @@
    "area_zh": null,
    "start": "2026-12-03",
    "end": "2026-12-05",
-   "schedule_zh": "12 月 3 至 5 日 17:30–21:00；12 月 5 日另設午後無障礙場次（僅 Hub 1，需預約免費票，官網載為 15:00 至 17:30，FAQ 另載 17:00）",
+   "schedule_zh": "週四至週六 17:30–21:00",
    "price_zh": "請見官網",
    "free": false,
    "highlight": "市中心聖誕燈光活動",
@@ -7612,8 +7610,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列一般入場票價。"
    },
    "added": "2026-11-18"
   },
@@ -7665,7 +7663,7 @@
    "area_zh": null,
    "start": "2026-11-29",
    "end": "2026-12-24",
-   "schedule_zh": "12 月 23、24 日 18:00–21:00；其餘日期與時段請見市議會官網",
+   "schedule_zh": "11 月 29 日、12 月 4–6 日、11 日、23–24 日（約 18:00–21:00）",
    "price_zh": "請見官網",
    "free": false,
    "highlight": "海濱聖誕燈光步道",
@@ -7681,8 +7679,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-26",
-    "unconfirmed_zh": "官網無法直接開啟，僅從搜尋結果確認 12 月 23、24 日 18:00–21:00 及活動共 12 天、自 11 月 29 日起，其餘日期與時段未能逐一確認。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網僅列出部分夜晚，日期與票價以官方公告為準。"
    },
    "added": "2026-11-18"
   },
@@ -7716,8 +7714,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-26",
-    "unconfirmed_zh": "官方列表未註明具體地點與時間。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列時間與確切地點。"
    },
    "added": "2026-11-18"
   },
@@ -7825,8 +7823,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "部分資訊官方尚未公布。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "列表頁未明載年份（頁尾為 2026），遊樂設施是否另收費未列。"
    },
    "added": "2026-11-18"
   },
@@ -7863,9 +7861,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "票務頁面未顯示票價。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "schedule_zh": "12 月 30 日 16:00–22:00；12 月 31 日 16:00–00:30（21:30 家庭煙火、午夜煙火）",
    "added": "2026-11-18"
@@ -7932,8 +7929,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官方未明列起訖日期與金額。"
    },
    "added": "2026-11-18"
   },
@@ -8041,7 +8038,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-18",
    "schedule_zh": "每週五 18:00–20:00"
@@ -8559,7 +8556,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-20"
   },
@@ -8665,7 +8662,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-20"
   },
@@ -8683,11 +8680,11 @@
    "area_zh": "全澳洲 Red Rooster 門市（機場及球場門市除外）",
    "start": "2026-11-16",
    "end": "2026-12-09",
-   "schedule_zh": "每週一至週三",
+   "schedule_zh": "週一至週三",
    "price_zh": "A$10（各地價格略有不同，部分門市加 A$1）",
    "free": false,
    "highlight": "每人限購 2 隻",
-   "summary_zh": "Red Rooster 於 2026 年 11 月 16 日至 12 月 9 日推出整隻烤雞特價，可於門市購買或以點擊取貨優惠券取餐，適合想以較低預算購買現成烤雞的人。",
+   "summary_zh": "Red Rooster 於 2026 年 11 月 16 日至 12 月 9 日的每週一至週三推出整隻烤雞特價，每位顧客限購 2 隻，可於門市購買或以點擊取貨優惠券取餐，不適用外送，適合想以較低預算購買現成烤雞的人。",
    "tip_zh": "不提供外送，機場及球場門市不適用，且不可與其他折扣併用；請留意各地價格差異。",
    "sources": [
     {
@@ -8699,7 +8696,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-20"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-20"
   },
@@ -8873,9 +8870,8 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-21"
   },
@@ -8909,8 +8905,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未列入場費用。"
    },
    "added": "2026-11-21"
   },
@@ -8928,7 +8924,7 @@
    "area_zh": "澳洲出發（官網可選墨爾本、雪梨等城市）",
    "start": "2026-11-21",
    "end": "2026-11-30",
-   "price_zh": "曼谷來回 A$719 起（官網標示，以出發日實際價格為準）",
+   "price_zh": "曼谷來回 A$720 起（官網標示，以出發日實際價格為準）",
    "free": false,
    "highlight": "航空特價",
    "summary_zh": "芬蘭航空公布澳洲出發至曼谷的來回特價，訂票截止日為 11 月 30 日。適合規劃東南亞行程的打工度假者參考。",
@@ -8943,8 +8939,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "partial"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未標明訂票截止日的年份，也未列曼谷專屬旅行期間。"
    },
    "added": "2026-11-21"
   },
@@ -9112,7 +9108,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-22"
   },
@@ -9150,7 +9146,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-22"
   },
@@ -9182,7 +9178,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-22"
   },
@@ -9202,11 +9198,11 @@
    "price_zh": "免費入場（停車亦免費）",
    "free": true,
    "highlight": "免費・週末兩日市集",
-   "summary_zh": "於 Exhibition Park 的 Quokka Building 舉行的室內聖誕市集，11 月 28 至 29 日舉行，免費入場。官方頁面列出 11 月 28 日開放時間為 10:00 至 15:00。",
+   "summary_zh": "於 Exhibition Park 的 Quokka Building 舉行的室內聖誕市集，11 月 28 至 29 日舉行，免費入場，停車亦免費。官方頁面列出的開放時間為 10:00 至 15:00。",
    "tip_zh": "園區提供免費停車。",
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "sources": [
     {
@@ -9216,7 +9212,8 @@
      "url": "https://visitcanberra.com.au/events/5822a8815ac8210f333a55f0/canberra-christmas-market"
     }
    ],
-   "added": "2026-11-22"
+   "added": "2026-11-22",
+   "schedule_zh": "10:00–15:00"
   },
   {
    "id": "rockhampton-heritage-village-christmas-markets-2026",
@@ -9234,7 +9231,7 @@
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費入場・逾 160 攤",
-   "summary_zh": "於 Rockhampton Heritage Village 舉行的傍晚市集，11 月 28 日 16:00 至 21:00 進行，逾 160 個攤位，主打手作與在地商品，包含自製烘焙食品、蠟燭與珠寶，並有在地美食與現場音樂。",
+   "summary_zh": "於 Rockhampton Heritage Village 舉行的傍晚聖誕市集，11 月 28 日 16:00 至 21:00 進行，逾 160 個攤位，販售中央昆士蘭在地業者的手作與在地商品，並有在地美食與現場音樂。",
    "tip_zh": "園區位於 Parkhurst（Boundary Road 296 號），需自行前往。官方頁面未註明需要預約；不允許攜帶寵物入場（服務犬除外）。",
    "sources": [
     {
@@ -9246,7 +9243,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-22"
   },
@@ -9264,7 +9261,7 @@
    "area_zh": null,
    "start": "2026-11-28",
    "end": "2026-12-24",
-   "schedule_zh": "11:00–21:15（指定日期，詳見官網日期表）",
+   "schedule_zh": "11:00–21:15；至最後一週前為週三至週六，其後每日開放",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費入場・聖誕市集",
@@ -9280,7 +9277,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-22"
   },
@@ -9319,7 +9316,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-23"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-23"
   },
@@ -9442,7 +9439,7 @@
    "lng": 144.9745,
    "start": "2026-11-24",
    "end": "2026-12-31",
-   "schedule_zh": "10:00–16:00（場次以官網所列日期為準）",
+   "schedule_zh": "10:00–16:00（週六未列入開放日）",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費展覽",
@@ -9458,8 +9455,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-24",
-    "unconfirmed_zh": "官網日期旁未標示年份，2026 年依星期對應（11/24 為週二）與頁尾推算。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網列出的開放日從 11 月 27 日起，24 日起訖未確認。"
    },
    "added": "2026-11-24"
   },
@@ -9476,7 +9473,7 @@
    "lng": 144.947,
    "start": "2026-11-27",
    "end": "2026-12-04",
-   "schedule_zh": "11/27、11/28、12/2、12/4 每日 15:00–20:00",
+   "schedule_zh": "11 月 27、28 日及 12 月 2、4 日 15:00–20:00",
    "price_zh": "免費入場",
    "free": true,
    "highlight": "免費・濱水聚會",
@@ -9492,7 +9489,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-24"
   },
@@ -9523,8 +9520,9 @@
     }
    ],
    "verified": {
-    "status": "verified",
-    "checked": "2026-11-26"
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "頁面未明載年份（頁尾為 2026）。"
    },
    "added": "2026-11-24"
   },
@@ -9781,7 +9779,7 @@
    ],
    "verified": {
     "status": "verified",
-    "checked": "2026-11-26"
+    "checked": "2026-11-27"
    },
    "added": "2026-11-26"
   },
@@ -9811,8 +9809,8 @@
    ],
    "verified": {
     "status": "partial",
-    "checked": "2026-11-26",
-    "unconfirmed_zh": "型錄未列明參與的門市與各州適用範圍，請以門市公告為準。"
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "來源為型錄彙整站 Salefinder，IGA 官網未能確認。"
    },
    "added": "2026-11-26"
   },
@@ -9912,11 +9910,81 @@
     }
    ],
    "verified": {
-    "status": "partial",
-    "checked": "2026-11-26",
-    "unconfirmed_zh": "頁面僅列出類別，未標示具體商品與售價，請見官網。"
+    "status": "verified",
+    "checked": "2026-11-27"
    },
    "added": "2026-11-26"
+  },
+  {
+   "id": "vegan-festival-adelaide-2026",
+   "type": "event",
+   "title": "Vegan Festival Adelaide",
+   "title_zh": "阿德雷德純素美食節",
+   "category": "food",
+   "region": "SA",
+   "city": "Adelaide",
+   "venue": "Rundle Park (Park 13)",
+   "lat": -34.9226,
+   "lng": 138.6131,
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "price_zh": "全日入場 A$5（另加售票費）；Friend of the Festival A$10；12 歲以下及持 companion card 免費",
+   "free": false,
+   "highlight": "全日入場 A$5",
+   "summary_zh": "阿德雷德純素節於單日舉行，設有純素商家攤位、現場音樂、工作坊與烹飪示範及講者演講，適合想認識純素飲食的旅客。",
+   "tip_zh": "門票需於 Humanitix 購票頁預先購買，另加訂票費；活動時間為 12:00 至 20:00。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Vegan Festival Adelaide – 官方網站（2026 年 12 月 5 日 12–8pm、$5 全日入場）",
+     "url": "https://www.veganfestival.info/welcome"
+    },
+    {
+     "kind": "official",
+     "platform": "Humanitix",
+     "label": "Vegan Festival Adelaide – 主辦單位購票頁（Rundle Park 地址、票價）",
+     "url": "https://events.humanitix.com/2026-vegan-festival-adelaide"
+    }
+   ],
+   "verified": {
+    "status": "verified",
+    "checked": "2026-11-27"
+   },
+   "added": "2026-11-27"
+  },
+  {
+   "id": "coburg-night-market-2026",
+   "type": "event",
+   "title": "Coburg Night Market",
+   "title_zh": "Coburg 夜市（墨爾本北郊）",
+   "category": "food",
+   "region": "VIC",
+   "city": "Coburg",
+   "venue": "Bridges Reserve",
+   "lat": -37.7425,
+   "lng": 144.966,
+   "start": "2026-12-17",
+   "end": "2026-12-19",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "美食夜市・3 天",
+   "summary_zh": "為期三晚的戶外夜市，攤位涵蓋土耳其、義大利、巴西、越南、委內瑞拉、日本、馬來西亞、墨西哥等多國街頭美食，並設有 Co-Conspirators 啤酒吧與快閃酒吧。適合想在墨爾本北郊體驗多元飲食文化的旅客。",
+   "tip_zh": "12 月 17、18 日為 17:00–22:00，12 月 19 日為 14:00–22:00；入場費用官網未載明，前往前請先確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Merri-bek City Council – Coburg Night Market",
+     "url": "https://www.merri-bek.vic.gov.au/coburg-night-market/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-27",
+    "unconfirmed_zh": "官網未載明一般入場費用，是否免費尚未確認。"
+   },
+   "added": "2026-11-27"
   }
  ]
 }

@@ -322,3 +322,5 @@
 - 2026-11-25｜活動 WA｜Experimental Comedy Club 官網｜https://experimentalcomedy.com.au｜伯斯 Northbridge（Lynott's Lounge）每週二 19:00 喜劇夜，售票與場地資訊（未列 2026 年具體場次）
 - 2026-11-25｜活動 NSW｜Cirque du Soleil KOOZA 雪梨售票頁｜https://www.cirquedusoleil.com/australia/sydney/kooza/buy-tickets｜雪梨 Entertainment Quarter 官方售票入口（頁面未顯示場次與價格）
 - 2026-11-25｜活動 NT｜Palmerston 市政府活動頁｜https://palmerston.nt.gov.au/events｜Palmerston 市政府活動行事曆，Christmas Wonderland 2026（12/16–23，每晚 5–9pm，免費入場）
+- 2026-11-27｜活動 SA｜Vegan Festival Adelaide 官網｜https://www.veganfestival.info/welcome｜阿德雷德純素美食節官網，2026 年 12 月 5 日 12–8pm 日期與 $5 全日入場說明
+- 2026-11-27｜活動 VIC｜Coburg Night Market（Merri-bek City Council）｜https://www.merri-bek.vic.gov.au/coburg-night-market/｜Coburg 夜市官方頁，2026 年 12 月 17–19 日，Bridges Reserve，列出 25 家食物攤位
