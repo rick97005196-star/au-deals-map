@@ -2257,40 +2257,6 @@
    "lead": "其他"
   },
   {
-   "id": "kmart-black-friday-onepass-2026",
-   "type": "deal",
-   "title": "Kmart Black Friday 2026 (OnePass early access)",
-   "title_zh": "Kmart 黑色星期五 2026 會員搶先購",
-   "category": "shopping",
-   "region": "AU",
-   "city": null,
-   "venue": null,
-   "lat": null,
-   "lng": null,
-   "area_zh": null,
-   "start": "2026-11-25",
-   "end": "2026-11-26",
-   "price_zh": "請見官網（商品限量，依庫存販售）",
-   "free": false,
-   "highlight": "會員搶先購・依庫存",
-   "summary_zh": "Kmart 2026 黑色星期五活動，OnePass 會員可於 11 月 25 日（週三）澳東夏令時間晚上 8 點（布里斯本為晚上 7 點）起至午夜線上搶先選購，一般顧客於 11 月 26 日（週四）上午 8 點（澳東夏令時間）起可線上或至門市選購，依庫存販售。",
-   "tip_zh": "搶先購僅限線上；黑色星期五商品不提供 layby 保留；部分門市不販售全部活動商品。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Kmart – Black Friday 2026",
-     "url": "https://www.kmart.com.au/black-friday/"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-25"
-   },
-   "added": "2026-10-22",
-   "lead": "其他"
-  },
-  {
    "id": "gyg-gomex-rewards-free-medium-fries-2026",
    "type": "deal",
    "title": "GOMEX Rewards",
@@ -3152,45 +3118,6 @@
    "verified": {
     "status": "verified",
     "checked": "2026-11-25"
-   },
-   "added": "2026-10-31"
-  },
-  {
-   "id": "sa-goolwa-barrage-talk-2026-11-26",
-   "type": "event",
-   "title": "Gateway to the Coorong – Goolwa Barrage talk",
-   "title_zh": "Goolwa 攔河壩免費導覽講座",
-   "category": "outdoors",
-   "region": "SA",
-   "city": "Goolwa",
-   "venue": "Goolwa Barrage",
-   "lat": -35.519,
-   "lng": 138.804,
-   "start": "2026-11-26",
-   "end": "2026-11-26",
-   "schedule_zh": "10:00–11:00",
-   "price_zh": "免費",
-   "free": true,
-   "highlight": "免費講座",
-   "summary_zh": "南澳國家公園 11 月 Coorong 主題活動之一，於 Goolwa Barrage 舉辦的 Coorong 入口導覽講座，免費參加。",
-   "tip_zh": "請由 Humanitix 活動頁報名，於 Goolwa Barrage 旁遮蔭處集合；請穿包鞋並攜帶防曬用品與飲水。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "NPWS South Australia – Park of the month",
-     "url": "https://www.parks.sa.gov.au/get-inspired/park-of-the-month"
-    },
-    {
-     "kind": "official",
-     "platform": "Humanitix",
-     "label": "Gateway to the Coorong – Goolwa Barrage talk",
-     "url": "https://events.humanitix.com/gateway-to-the-coorong-a-goolwa-barrage-talk"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-26"
    },
    "added": "2026-10-31"
   },
