@@ -5616,45 +5616,6 @@
    "added": "2026-11-10"
   },
   {
-   "id": "king-street-christmas-twilight-market-2026",
-   "type": "event",
-   "title": "King Street Christmas Twilight Market",
-   "title_zh": "King Street 聖誕黃昏市集",
-   "category": "market",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "King Street, Bowen Hills",
-   "lat": -27.4448,
-   "lng": 153.0372,
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "schedule_zh": "16:00–20:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・聖誕市集",
-   "summary_zh": "The Market Folk 於 Bowen Hills 舉辦的聖誕主題黃昏市集，有本地手作者販售飾品、陶器、蠟燭、藝術品與小吃，入場免費、無需訂票。",
-   "tip_zh": "免費入場、無需訂票；完整攤商名單將由主辦單位於官網部落格與 Instagram 另行公布。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "The Market Folk – King Street Christmas Twilight Market 2026",
-     "url": "https://themarketfolk.com.au/pages/king-street-christmas-twilight-market-2026"
-    },
-    {
-     "kind": "news",
-     "platform": "新聞",
-     "label": "InDaily – King St Christmas Twilight Market",
-     "url": "https://www.indailyqld.com.au/theweekendedition-brisbane/events/king-st-christmas-markets-2"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-27"
-   },
-   "added": "2026-11-10"
-  },
-  {
    "id": "carols-on-kings-caloundra-2026",
    "type": "event",
    "title": "Carols on Kings (Caloundra RSL)",
@@ -6396,44 +6357,6 @@
    "added": "2026-11-13"
   },
   {
-   "id": "brisbane-lord-mayors-christmas-tree-lighting-2026",
-   "type": "event",
-   "title": "Lord Mayor's Lighting of the Christmas Tree",
-   "title_zh": "布里斯本市長點亮聖誕樹",
-   "category": "festival",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "King George Square",
-   "lat": -27.4705,
-   "lng": 153.0237,
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・聖誕開幕夜",
-   "summary_zh": "布里斯本市中心 King George Square 於 11 月 27 日晚間 6:30 至 9:00 舉行點燈儀式，高 22 公尺的聖誕樹首次亮燈，現場有 Santa 與歌手 Jem Cassar-Daley 演出。",
-   "tip_zh": "建議提早抵達；City Hall Lights 燈光秀 12 月 4 日起至 12 月 24 日，每 15 分鐘一場。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Lord Mayor's Lighting of the Christmas Tree 2026",
-     "url": "https://visit.brisbane.qld.au/whats-on/the-city/festivals-and-celebrations/lord-mayors-lighting-of-the-christmas-tree-2026"
-    },
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Christmas in Brisbane – Brisbane City Council",
-     "url": "https://www.brisbane.qld.gov.au/things-to-see-and-do/whats-on-and-events/christmas-in-brisbane"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-27"
-   },
-   "added": "2026-11-13"
-  },
-  {
    "id": "brisbane-city-hall-lights-2026",
    "type": "event",
    "title": "City Hall Lights",
@@ -6568,38 +6491,6 @@
    "added": "2026-11-13"
   },
   {
-   "id": "spacey-jane-brisbane-riverstage-2026",
-   "type": "event",
-   "title": "Spacey Jane – Brisbane 2026",
-   "title_zh": "Spacey Jane 布里斯本 Riverstage 演唱會",
-   "category": "music",
-   "region": "QLD",
-   "city": "Brisbane",
-   "venue": "Riverstage",
-   "lat": -27.4753,
-   "lng": 153.0366,
-   "start": "2026-11-26",
-   "end": "2026-11-27",
-   "price_zh": "A$99 起（兩場通票 A$150）",
-   "free": false,
-   "highlight": "兩晚演出",
-   "summary_zh": "Frontier Touring 官方頁列出 11 月 26 與 27 日在 Brisbane Botanic Gardens 的 Riverstage 演出，站票 A$99，兩場通票 A$150，Ticketmaster 售票中，licensed all ages。",
-   "tip_zh": "票價不含手續費，每人每場限購 8 張。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Spacey Jane – Frontier Touring",
-     "url": "https://www.frontiertouring.com/current-tours/spaceyjane-b96miNr/spacey-jane-2026-26-nov-bne"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-26"
-   },
-   "added": "2026-11-13"
-  },
-  {
    "id": "wolf-alice-brisbane-fortitude-2026",
    "type": "event",
    "title": "Wolf Alice – Brisbane",
@@ -6687,39 +6578,6 @@
      "platform": "官方網站",
      "label": "City of Melbourne – Christmas Square",
      "url": "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-square"
-    }
-   ],
-   "verified": {
-    "status": "verified",
-    "checked": "2026-11-27"
-   },
-   "added": "2026-11-13"
-  },
-  {
-   "id": "melbourne-christmas-tree-lighting-2026",
-   "type": "event",
-   "title": "Christmas Tree Lighting",
-   "title_zh": "Fed Square 聖誕樹點燈",
-   "category": "festival",
-   "region": "VIC",
-   "city": "Melbourne",
-   "venue": "Federation Square",
-   "lat": -37.818,
-   "lng": 144.9691,
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "schedule_zh": "18:30–21:00",
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・單日",
-   "summary_zh": "Fed Square 17.5 公尺聖誕樹點燈儀式，18:30 至 21:00 有 DJ、Glee Club 帶領的大合唱與爵士樂團表演，另有與聖誕老人合照等活動。",
-   "tip_zh": "免費入場，不需預約。",
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "City of Melbourne – Christmas Tree Lighting",
-     "url": "https://whatson.melbourne.vic.gov.au/things-to-do/christmas-tree-lighting"
     }
    ],
    "verified": {
@@ -7681,41 +7539,6 @@
     "status": "partial",
     "checked": "2026-11-27",
     "unconfirmed_zh": "官網僅列出部分夜晚，日期與票價以官方公告為準。"
-   },
-   "added": "2026-11-18"
-  },
-  {
-   "id": "caloundra-christmas-street-fair-2026",
-   "type": "event",
-   "title": "Christmas Street Fair and Tree Lighting Market",
-   "title_zh": "Caloundra 聖誕街集與點燈市集",
-   "category": "market",
-   "region": "QLD",
-   "city": "Caloundra",
-   "venue": null,
-   "lat": -26.8007,
-   "lng": 153.134,
-   "area_zh": null,
-   "start": "2026-11-27",
-   "end": "2026-11-27",
-   "schedule_zh": null,
-   "price_zh": "免費入場",
-   "free": true,
-   "highlight": "免費・社區聖誕市集",
-   "summary_zh": "Visit Sunshine Coast 活動列表標示 11 月 27 日於 Caloundra 舉行免費社區聖誕街集與聖誕樹點燈市集。",
-   "tip_zh": null,
-   "sources": [
-    {
-     "kind": "official",
-     "platform": "官方網站",
-     "label": "Visit Sunshine Coast – What's On",
-     "url": "https://www.visitsunshinecoast.com/whats-on"
-    }
-   ],
-   "verified": {
-    "status": "partial",
-    "checked": "2026-11-27",
-    "unconfirmed_zh": "官網未列時間與確切地點。"
    },
    "added": "2026-11-18"
   },
