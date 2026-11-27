@@ -324,3 +324,11 @@
 - 2026-11-25｜活動 NT｜Palmerston 市政府活動頁｜https://palmerston.nt.gov.au/events｜Palmerston 市政府活動行事曆，Christmas Wonderland 2026（12/16–23，每晚 5–9pm，免費入場）
 - 2026-11-27｜活動 SA｜Vegan Festival Adelaide 官網｜https://www.veganfestival.info/welcome｜阿德雷德純素美食節官網，2026 年 12 月 5 日 12–8pm 日期與 $5 全日入場說明
 - 2026-11-27｜活動 VIC｜Coburg Night Market（Merri-bek City Council）｜https://www.merri-bek.vic.gov.au/coburg-night-market/｜Coburg 夜市官方頁，2026 年 12 月 17–19 日，Bridges Reserve，列出 25 家食物攤位
+- 2026-11-28｜運動 全國｜CommBank Matildas（Matildas 官網）｜https://www.matildas.com.au/｜澳洲女子國家隊 2026 年國際賽日期、場地與票價頁入口
+- 2026-11-28｜活動 全國｜Spilt Milk 巡迴音樂節｜https://www.spilt-milk.com.au/｜各城市場次、演出陣容與 Moshtix 票務入口
+- 2026-11-28｜活動 VIC｜Midsumma Festival 官網｜https://midsumma.org.au/｜墨爾本與維多利亞州酷兒文化節官網，2027 年 1 月 17 日至 2 月 7 日檔期與節目說明
+- 2026-11-28｜活動 NSW｜Sydney Festival 官網｜https://www.sydneyfestival.org.au/｜雪梨藝術節官網，2027 年 1 月節目與免費場次說明
+- 2026-11-28｜活動 WA｜WWE 官方賽事頁（Wrestlepalooza 2026）｜https://www.wwe.com/shows/wrestlepalooza/2026｜伯斯 RAC Arena 2026 年 12 月賽事日期與購票說明（票價未列出）
+- 2026-11-28｜活動 WA｜City of Mandurah｜https://www.mandurah.wa.gov.au/｜Mandurah 聖誕活動與燈飾步道官方列表（2026 年 12 月 4 日起）
+- 2026-11-28｜活動 SA｜Adelaide Fringe 年度日程｜https://avr.adelaidefringe.com.au/blog/events/key-dates｜2027 年藝穗節日期、早鳥票與票務開賣時間
+- 2026-11-28｜活動 SA｜Barossa Vintage Festival｜https://barossavintagefestival.com.au｜巴羅莎葡萄酒節官網，2027 年 4 月 21 至 25 日日期公告

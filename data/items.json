@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "items": [
   {
    "id": "grilld-oscar-piastri-burger-1281",
@@ -9667,6 +9667,347 @@
     "unconfirmed_zh": "官網未載明一般入場費用，是否免費尚未確認。"
    },
    "added": "2026-11-27"
+  },
+  {
+   "id": "gasworks-plaza-christmas-market-2026",
+   "type": "event",
+   "title": "Gasworks Plaza Christmas Market",
+   "title_zh": "Gasworks Plaza 聖誕市集",
+   "category": "market",
+   "region": "QLD",
+   "city": "Brisbane",
+   "venue": "Gasworks Plaza（76 Skyring Terrace, Newstead）",
+   "lat": -27.4502,
+   "lng": 153.0438,
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "schedule_zh": "12 月 5 日 9:00–13:00",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "週六聖誕市集",
+   "summary_zh": "The Market Folk 於 Newstead Gasworks Plaza 舉辦的聖誕市集，2026 年 12 月 5 日（週六）9:00 至 13:00 開放。",
+   "tip_zh": "入場費與攤位內容官網未列出，出發前請至主辦單位網站確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "The Market Folk – 布里斯本市集場次",
+     "url": "https://themarketfolk.com.au"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網未標示入場費與攤位內容。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "matildas-vs-colombia-canberra-2026",
+   "type": "event",
+   "title": "CommBank Matildas vs Colombia Women (International Friendly)",
+   "title_zh": "CommBank Matildas 對哥倫比亞女子友誼賽",
+   "category": "sport",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "GIO Stadium Canberra",
+   "lat": -35.2461,
+   "lng": 149.1003,
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "schedule_zh": "11 月 28 日 19:35 開賽",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "國家隊友誼賽",
+   "summary_zh": "澳洲女子國家隊 CommBank Matildas 與哥倫比亞女子國家隊的國際友誼賽，於坎培拉 GIO Stadium 舉行。",
+   "tip_zh": "票務與入場方式請至官方網站確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Matildas – 賽事資訊",
+     "url": "https://www.matildas.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網未列出票價。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "aus-vs-eng-5th-t20-manuka-oval-2026",
+   "type": "event",
+   "title": "Australia v England Men's T20I – 5th T20",
+   "title_zh": "澳洲對英格蘭男子 T20 國際賽（第 5 場）",
+   "category": "sport",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "Manuka Oval",
+   "lat": -35.321,
+   "lng": 149.1361,
+   "start": "2026-12-02",
+   "end": "2026-12-02",
+   "schedule_zh": "12 月 2 日 19:15 開賽",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "國際板球賽",
+   "summary_zh": "澳洲與英格蘭男子國家隊 T20 國際系列賽第 5 場，於坎培拉 Manuka Oval 舉行。",
+   "tip_zh": "票價與販售狀態請至 Cricket Australia 官方票務頁確認。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Visit Canberra – Events（Men's T20 Series vs England, 5th T20）",
+     "url": "https://www.visitcanberra.com.au/events"
+    },
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Cricket Australia – Tickets（Australia v England T20Is 2026 - Men）",
+     "url": "https://www.cricket.com.au/tickets/series/CA%3A4604"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網確認日期與開賽時間，但未直接列出 Manuka Oval 場地、票價與販售狀態。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "spilt-milk-canberra-2026",
+   "type": "event",
+   "title": "Spilt Milk Festival 2026 – Canberra",
+   "title_zh": "Spilt Milk 音樂節坎培拉場",
+   "category": "music",
+   "region": "ACT",
+   "city": "Canberra",
+   "venue": "坎培拉（場地請見官網）",
+   "lat": -35.2809,
+   "lng": 149.13,
+   "start": "2026-12-12",
+   "end": "2026-12-12",
+   "schedule_zh": "12 月 12 日",
+   "price_zh": "Nova Red GA 起價 $93.70（以官網為準）",
+   "free": false,
+   "highlight": "大型音樂節",
+   "summary_zh": "Spilt Milk 澳洲巡迴音樂節坎培拉場，2026 年 12 月 12 日（週六）舉行，官網列出 Lewis Capaldi、RAYE、Baby Keem 等藝人演出。",
+   "tip_zh": "票券透過 Moshtix 販售，購票前請至官網確認場地與票種。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Spilt Milk – 2026 巡迴場次與票務",
+     "url": "https://www.spilt-milk.com.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網未明確列出場地名稱（頁面僅出現 Ngunnawal，為地名標示而非確切場地）、開放時間與完整票價範圍。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "melbourne-observatory-stellar-nights-2026-27",
+   "type": "event",
+   "title": "Stellar Nights at Melbourne Observatory",
+   "title_zh": "墨爾本天文台星夜導覽",
+   "category": "travel",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": "Melbourne Observatory",
+   "lat": -37.8293,
+   "lng": 144.9743,
+   "start": "2026-11-23",
+   "end": "2027-02-22",
+   "price_zh": "A$25 起",
+   "free": false,
+   "highlight": "夜間天文導覽",
+   "summary_zh": "由 Royal Botanic Gardens Victoria 與維多利亞天文學會（The Astronomical Society of Victoria）共同主辦的夜間導覽，由學會導覽員帶領，活動時長約 2 小時 15 分鐘。",
+   "tip_zh": "場次時間與訂位方式請見官網。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Royal Botanic Gardens Victoria – Stellar Nights（What's on）",
+     "url": "https://www.rbg.vic.gov.au/melbourne-gardens/whats-on-melbourne/free-guided-walk/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "場次時間與訂位方式官網未列明。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "midsumma-festival-2027",
+   "type": "event",
+   "title": "Midsumma Festival 2027",
+   "title_zh": "墨爾本 Midsumma 節 2027",
+   "category": "festival",
+   "region": "VIC",
+   "city": "Melbourne",
+   "venue": null,
+   "lat": -37.8136,
+   "lng": 144.9631,
+   "start": "2027-01-17",
+   "end": "2027-02-07",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "約 220 場活動・酷兒文化節",
+   "summary_zh": "Midsumma 為維多利亞州的酷兒文化節。官網顯示 2027 年節目檔期為 1 月 17 日至 2 月 7 日，並提及約 220 場活動、150 處以上場地。",
+   "tip_zh": "各場次票價與免費活動請於官網節目表查詢。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Midsumma Festival 官網",
+     "url": "https://midsumma.org.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "整體票價與免費活動範圍官網未列明；檔期取自首頁 2027 節目橫幅。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "sydney-festival-2027",
+   "type": "event",
+   "title": "Sydney Festival 2027",
+   "title_zh": "雪梨藝術節 2027",
+   "category": "festival",
+   "region": "NSW",
+   "city": "Sydney",
+   "venue": null,
+   "lat": -33.8688,
+   "lng": 151.2093,
+   "start": "2027-01-07",
+   "end": "2027-01-25",
+   "price_zh": "A$49 起（部分場次免費）",
+   "free": false,
+   "highlight": "年度一月藝文節・A$49 起",
+   "summary_zh": "雪梨藝術節為雪梨每年一月舉辦的藝文節。官網列出的 2027 年節目集中於 1 月 7 日至 25 日，包括劇場、舞蹈、音樂與喜劇，其中如 The Party（1 月 8 日）為免費場次。",
+   "tip_zh": "官網設有 A$49 票價專區與免費場次，請於官網查詢各場次。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "Sydney Festival 官網",
+     "url": "https://www.sydneyfestival.org.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網未明列整體開幕與閉幕日期，7 至 25 日為已列節目的日期範圍。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "wwe-perth-wrestlepalooza-2026",
+   "type": "event",
+   "title": "WWE Wrestlepalooza: Perth",
+   "title_zh": "WWE 伯斯三場摔角賽事",
+   "category": "entertainment",
+   "region": "WA",
+   "city": "Perth",
+   "venue": "RAC Arena",
+   "lat": -31.948,
+   "lng": 115.8575,
+   "start": "2026-12-11",
+   "end": "2026-12-14",
+   "price_zh": "請見官網",
+   "free": false,
+   "highlight": "12 月・三場大型賽事",
+   "summary_zh": "WWE 於 2026 年 12 月 11 日（SmackDown）、12 日（Wrestlepalooza: Perth）與 14 日（Raw）在伯斯 RAC Arena 舉辦賽事，另有套裝行程可選。",
+   "tip_zh": "門票透過 Ticketek 販售，請至官方網站確認販售狀態。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "WWE – Wrestlepalooza 2026（Perth）",
+     "url": "https://www.wwe.com/shows/wrestlepalooza/2026"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網未列出票價、剩餘票券與各場對戰卡。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "mandurah-christmas-lights-trail-2026",
+   "type": "event",
+   "title": "Mandurah Christmas Lights Trail",
+   "title_zh": "Mandurah 聖誕燈飾步道",
+   "category": "family",
+   "region": "WA",
+   "city": "Mandurah",
+   "venue": "Eastern Foreshore Reserve 及市中心、Mandurah Ocean Marina 沿線",
+   "lat": -32.5269,
+   "lng": 115.7217,
+   "start": "2026-12-04",
+   "end": "2027-01-03",
+   "price_zh": "免費入場",
+   "free": true,
+   "highlight": "免費・35 組燈飾",
+   "summary_zh": "Mandurah 市政府舉辦的聖誕燈飾步道，官網稱為西澳最大的聖誕燈飾步道，於 Eastern Foreshore Reserve、市中心與 Mandurah Ocean Marina 設有 35 組燈飾裝置，免費入場。",
+   "tip_zh": "官網列出 12 月 4 日 18:00 至 22:00 的開放時段，結束日期請以市政府官網為準。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "City of Mandurah 首頁（2026 Christmas Lights Trail 活動列表）",
+     "url": "https://www.mandurah.wa.gov.au/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網只列出 12 月 4 日起的開放時段（18:00–22:00），未明列結束日期（資料中的 2027 年 1 月 3 日無法確認）。"
+   },
+   "added": "2026-11-28"
+  },
+  {
+   "id": "aldi-special-buys-wed-sat-2026",
+   "type": "deal",
+   "title": "ALDI Special Buys",
+   "title_zh": "ALDI 每週三、六 Special Buys",
+   "category": "grocery",
+   "region": "AU",
+   "city": null,
+   "venue": null,
+   "lat": null,
+   "lng": null,
+   "start": "2026-11-28",
+   "end": null,
+   "schedule_zh": "每週三、週六上架（依門市與期別而定）",
+   "price_zh": "請見官網（各期價格不同）",
+   "free": false,
+   "highlight": "每週三、六上架",
+   "summary_zh": "ALDI 每週三與週六上架的限時特價商品（Special Buys），數量有限，售完為止。",
+   "tip_zh": "官網列有各期上架日期；價格與庫存依門市而異。",
+   "sources": [
+    {
+     "kind": "official",
+     "platform": "官方網站",
+     "label": "ALDI Special Buys 上架日程",
+     "url": "https://www.aldi.com.au/special-buys/"
+    }
+   ],
+   "verified": {
+    "status": "partial",
+    "checked": "2026-11-28",
+    "unconfirmed_zh": "官網只確認上架日期（11 月 28 日、12 月 2、5、9、12 日），各期商品類別與價格以官網每期頁面為準。"
+   },
+   "added": "2026-11-28"
   }
  ]
 }
