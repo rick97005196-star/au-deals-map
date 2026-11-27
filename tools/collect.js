@@ -32,7 +32,7 @@ const items = () => readJson(path.join(ROOT, 'data', 'items.json'), { items: [] 
 
 // ---------- rss ----------
 function mergeLeads(old, fresh, known, today) {
-  const cut = bne(-LEAD_DAYS);
+  const cut = new Date(Date.parse(today + 'T00:00:00Z') - LEAD_DAYS * 86400e3).toISOString().slice(0, 10); // 以傳入的「今天」算，測試才不會隨日期壞掉
   const by = new Map(old.map((l) => [l.url, l]));
   for (const l of fresh) {
     const prev = by.get(l.url);
