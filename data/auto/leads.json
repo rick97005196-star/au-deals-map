@@ -1,27 +1,19 @@
 {
- "updated": "2026-11-28 09:41",
+ "updated": "2026-11-28 10:38",
  "note": "自動蒐集的線索（RSS），只是線索，每一筆都要到官方頁面查證。",
  "failed": [
-  "ozb-groceries（逾時）",
-  "ozb-travel（逾時）",
-  "ozb-entertain（HTTP 502）",
-  "ozb-mobile（HTTP 502）",
-  "ozb-fashion（HTTP 502）",
   "rd-frugal（HTTP 404）",
-  "rd-brisbane（HTTP 429）",
-  "rd-goldcoast（HTTP 404）",
+  "rd-brisbane（HTTP 404）",
+  "rd-goldcoast（HTTP 429）",
   "rd-sunshine（HTTP 404）",
   "rd-cairns（HTTP 429）",
   "rd-sydney（HTTP 404）",
-  "rd-melbourne（HTTP 429）",
-  "rd-perth（HTTP 404）",
+  "rd-melbourne（HTTP 404）",
+  "rd-perth（HTTP 429）",
   "rd-adelaide（HTTP 404）",
   "rd-canberra（HTTP 429）",
   "rd-hobart（HTTP 404）",
-  "rd-darwin（HTTP 429）",
-  "news-9（HTTP 429）",
-  "news-12（HTTP 429）",
-  "news-13（HTTP 429）"
+  "rd-darwin（HTTP 429）"
  ],
  "leads": [
   {
@@ -425,6 +417,90 @@
    "feed": "ozb-deals",
    "region": "AU",
    "topic": "全澳優惠",
+   "title": "TCL 65 C7L SQD-Mini LED Google 4K UHD TV $1345 + Delivery ($0 C&C) @JB Hi-Fi",
+   "url": "https://www.ozbargain.com.au/node/986206",
+   "date": "2026-11-28",
+   "snippet": "OZB favourite mini led back on sale. While not quite as low as the previous Costco deal ($1,099.99), this is strong value and the lowest price currently available. Specifications Feature …",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
+   "title": "$10 off with Minimum $10 Spend in-Store (Exclusions Apply, Free VIP Membership Required) @ Spotlight",
+   "url": "https://www.ozbargain.com.au/node/986205",
+   "date": "2026-11-28",
+   "snippet": "$10 Bonus instant savings coupon When you spend $10 or more in one transaction Its a QR code so single use only, Targeted Exclusions apply. Instore only Valid Saturday 28th November 2026. Single …",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "C",
+   "feed": "news-8",
+   "region": "SA",
+   "topic": "新聞：Adelaide (\"free event\" OR festival OR \"things to do\")",
+   "title": "Our Sound festival moves to Adelaide’s Elder Park with Andy C, Example and JME - Glam Adelaide",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLTFBTXBZLXJMcm5xYWdmZzM5LS1vdUZBaHpkSk1mc1daTHZaSHVfQWpCclFaSGtrZ1RESGJ4VC1rUTJIZ09zLVlISFg1SXJxSmZWbFE2bk9hOG90STlLOTdKYW4zWTQ5MEtpWF9oQkJlY3Nudlc3UDZweTl2YWZ2QkVrV0dJUFdzSDVDVnl5cmE5eEdjLXdjN2VjbFpjNldwWjRVaXRaeWM?oc=5",
+   "date": "2026-11-28",
+   "snippet": "Our Sound festival moves to Adelaide’s Elder Park with Andy C, Example and JME &nbsp;&nbsp; Glam Adelaide",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "C",
+   "feed": "news-10",
+   "region": "ACT",
+   "topic": "新聞：Canberra (festival OR event OR \"things to do\")",
+   "title": "UC's yearly music festival StoneFest cast aside due to cost-of-living pressure - Region Canberra",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUGlydmFuSlZGczhJSm9HZXlldUJLVC1uSVpqODBaQ01qTlNWeWRRQ0diOVNqRE9UQ1NxOU5Cdzc4NjZiY3dic2RqdEZnQTV2QUxLTWQ4OHQ2Vjc1dHdLSzJHX2x0ZlVJNDZ5UjVjdzlLdkJmNFZ2d1lUalZPTnBRX0VzY09TSjFndXZKc0IyNTM0cHd5bjRnZWF1Tl96WHpMSmg4d1hzTlBIUzhz?oc=5",
+   "date": "2026-11-28",
+   "snippet": "UC's yearly music festival StoneFest cast aside due to cost-of-living pressure &nbsp;&nbsp; Region Canberra",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "D",
+   "feed": "news-12",
+   "region": "AU",
+   "topic": "新聞：(Woolworths OR Coles OR ALDI OR IGA) (specials OR \"half price\" OR catalogue)",
+   "title": "Upgrade Your Dog-Walking Style with Aldi's $7 Holiday Leggings - Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY2pEbjlpNWpoMV85SGNmRU5YbmRsdENyc0Q5d0gzS3RYV0NnZXhoNVNyMXZlWVZNUmJtbGlhQ09QUTdhRTFzR05iTHNEb1hXU1o5Uy05MFA0VnpzZ1pJVTItT19fNnJaVXMzX2haVExRY0dWTmZYMXlaMU9pMUZLZENJXzdvUy1kdXFKT29QRnpwSUgwd2lqd3MtYmNnQQ?oc=5",
+   "date": "2026-11-28",
+   "snippet": "Upgrade Your Dog-Walking Style with Aldi's $7 Holiday Leggings &nbsp;&nbsp; Yahoo",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "D",
+   "feed": "news-13",
+   "region": "AU",
+   "topic": "新聞：(McDonald's OR \"Hungry Jack's\" OR KFC OR \"Guzman y Gomez\" OR Domino's) (deal OR free OR app) Australia",
+   "title": "‘Relieved’: Influencer’s surprise 4-word verdict on major event’s cancellation - News24",
+   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQUzV4YXRjb1JDZl95elp2Y1l1VkZjXzFPWWFSdm1QRnc5dDBJVDQzV0dVV1RvTlN6WGdsRjd3bVloeFEyYTM0MlNwUVhkQ2ZYSEwzOTUyNzVtSHQ2bkJNazFJZ00tWnJab3R5c3RLZ3V4RjJqeDZJTThTMGRHVHNWNktQN3dfb3YzdENBamYydEFZRG1ON25GVmVmM1hnYlJqRUhuZ2lFNnBEVllJU2RsaVpGVTBRZHFyX3hZcEt4SlFHdndVMnNxV0daYlRWMHFGanVIdDVJdlc5c2pwdFkyM0JiVmhSVm1ucm11bWJsUUx2THZwcEdVdWRmdmxDT2twUVZESmRNV2JTZFc5MC13QndjTG5SRVh3aEx4cUdoSTMtbE1NRmY2ODBpOU1zRHZzNlZTY1p1aVFvRWN4aTlRWW5ORVQ3MjVpcVcyMlRpSXhTZC02c3BUZ2M2aUVWem9Kb04xcWZXVi3SAe4CQVVfeXFMTXVTa3VkZXUtNFhjRThuY3NQenpBaGlMQkNmV2hIaVZzRVdGWDhvU041bDRPVDdEZE45elc5M2lrSWhFaldVYkdKaThRQkFGVENNTkI4N3BOdjdjT1kzbmFOeHdtOW9YY1B4TU1iN05CdUZ0ejZ4VFJLRHJBb3ZmNEFUWFBSeENoUEJLbk1QaU9BN2laQnUyeldxUm5sOUExZGdGSUNJZXJqN3g3TWtWcHdqSFJfMlVoZGp1dGVoWmpWa0swTWtiWkdkNEZWdDZGaG9aUlZ5bTFFXzVlR1NIWDE0X2I0U2dMaDVPZy1UeGYyRjNIU3N4bjZmQ3NCNnF5MndJTWlvSkU1b2ItMFU3Tk1EYlNkdXZmUEthbEZuaVJDN0lHMW9jcVFBWWNoZUZ1VlAyemFDd1MzSWw0dHJ5SEQ0ZnVhN0FYbkNzRUVrUFZMeFliUl9aRjhzOUs0dkNqU2M5OUtqeFpWRTFuRmVn?oc=5",
+   "date": "2026-11-28",
+   "snippet": "‘Relieved’: Influencer’s surprise 4-word verdict on major event’s cancellation &nbsp;&nbsp; News24",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "D",
+   "feed": "news-13",
+   "region": "AU",
+   "topic": "新聞：(McDonald's OR \"Hungry Jack's\" OR KFC OR \"Guzman y Gomez\" OR Domino's) (deal OR free OR app) Australia",
+   "title": "McDonald's Stock Edges Lower to $282.62 as S&P 500 Rallies - JournalArta",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbzlOZ2JhUGtGc0otczJuWGZVTW8xZkh4QlRoQ3dBeDdDdU1GRlpqUWkySm5sbTVWcFQ1VlQzVzZuamtIeDEyQ1F2ZGRXWkdWYm14M0NYUTUtZm91UnNMTFVTdTFpNzg2a3pSNlZrZG5sdndKaWpncTFlYzlOekl4ZGRYNXAxb25vQWhua1R1bw?oc=5",
+   "date": "2026-11-28",
+   "snippet": "McDonald's Stock Edges Lower to $282.62 as S&P 500 Rallies &nbsp;&nbsp; JournalArta",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "A",
+   "feed": "ozb-deals",
+   "region": "AU",
+   "topic": "全澳優惠",
    "title": "Apple AirPods Pro 3 $279.99 Delivered @ Amazon AU",
    "url": "https://www.ozbargain.com.au/node/986164",
    "date": "2026-11-27",
@@ -434,9 +510,9 @@
   },
   {
    "for": "A",
-   "feed": "ozb-deals",
+   "feed": "ozb-freebies",
    "region": "AU",
-   "topic": "全澳優惠",
+   "topic": "免費",
    "title": "[WA] Free Brushed Potatoes @ Spudshed",
    "url": "https://www.ozbargain.com.au/node/986163",
    "date": "2026-11-27",
@@ -541,6 +617,18 @@
    "last_seen": "2026-11-28"
   },
   {
+   "for": "E",
+   "feed": "ozb-travel",
+   "region": "AU",
+   "topic": "交通與旅遊",
+   "title": "[VIC] Yearly Myki Pass (Zones 1-15) $1010 + $50 Membership Fee + Free Delivery @ PTUA",
+   "url": "https://www.ozbargain.com.au/node/986082",
+   "date": "2026-11-27",
+   "snippet": "Hi all, Tomorrow is your last chance to order a yearly commuter club myki from the PTUA using the half price public transportation. This gives you a 1 year Myki pass delivered to your door for …",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
    "for": "C",
    "feed": "news-4",
    "region": "NSW",
@@ -609,6 +697,30 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RZFVzalJrQkdUTEdKZUVBZVowRVEwemhlaFJLRDBjaFZBY09HZ2R3NHVRT2J2Y3U1X3dSck1vaHMyOXA3RFV5MWRHVEVfbmRLcG44eDBLX1R1dVJxMGV1RUdNd2J0ZXJDNk90VzVLVzJpUkZpdUNma1djbTZQbVk?oc=5",
    "date": "2026-11-26",
    "snippet": "Guild Wars 2 Gnashbash Birthday Event Hands Out a Party Crown &nbsp;&nbsp; Happy Gamer",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "E",
+   "feed": "news-15",
+   "region": "AU",
+   "topic": "新聞：(Jetstar OR \"Virgin Australia\" OR Qantas OR Rex) (sale OR fares OR deal)",
+   "title": "The Best Black Friday Travel Deals To Book Now, From International Flights to Dreamy Holidays - Broadsheet",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdWVFTXdwcmdsY1U3NklZdTlLUkZqUGZEb3N1MTJjVHFwOU1UX3VjM0VJcTdWd091bFE5WFZjS0Y2ZW1CRURTRlA1S0VQa0dRRGNPVkVXVEJub0VVTmJNR3dEV2xSQ1kxVmFHM2lJd0o1UnQtcTFrQUhndGNGdkpGYnVfQlkxcWtRT1BQRGgzQVlpc2JlX3Q0M1Bic3FWcDFlUC0zX3lBdDhwQQ?oc=5",
+   "date": "2026-11-26",
+   "snippet": "The Best Black Friday Travel Deals To Book Now, From International Flights to Dreamy Holidays &nbsp;&nbsp; Broadsheet",
+   "first_seen": "2026-11-28",
+   "last_seen": "2026-11-28"
+  },
+  {
+   "for": "A",
+   "feed": "news-19",
+   "region": "AU",
+   "topic": "新聞：(HOYTS OR \"Event Cinemas\" OR \"Village Cinemas\" OR museum) (cheap OR free OR deal) Australia",
+   "title": "| Kyabram Free Press - Kyabram Free Press",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPN0hJZlZGcFVQWkY4WjUxT3VPeWhQclhiMVJOS21nSmppVHNlQkVhczZTXzhXQU5jZmR5VlBXMlFSa0drNkpGSzRSQ1VTQnNlS3ZCOC1kZlNlWGJ1WWwtSzdoRDdISzZLNUVtYzg1UkpQeWo3eURHWnpnZElGNnJMM0daTGtvcGtpWDZENHlsSE4ySHQxcWZiZDRpQ2Q5UC1WVjUwOUx6VQ?oc=5",
+   "date": "2026-11-26",
+   "snippet": "| Kyabram Free Press &nbsp;&nbsp; Kyabram Free Press",
    "first_seen": "2026-11-28",
    "last_seen": "2026-11-28"
   },
@@ -1186,7 +1298,7 @@
    "date": "2026-11-27",
    "snippet": "Part of the weekly deals - posting from my phone so can a mod fix the post if required Partner Perks T&Cs Perk Description and Terms and Conditions Quantity Strike Bowling - One …",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "A",
@@ -1198,7 +1310,7 @@
    "date": "2026-11-27",
    "snippet": "Limited colourways of Bonds Men's Chafe Off trunks at this price. Unsure of expiry on this discount. Nu Black/Parisian Red - …",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "A",
@@ -1210,7 +1322,7 @@
    "date": "2026-11-27",
    "snippet": "Decent enough price on these colours. Please leave your comments below on how your one from Bunnings is cheaper or how this is a ridiculous spend for an umbrella.",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "B",
@@ -1453,10 +1565,10 @@
    "last_seen": "2026-11-28"
   },
   {
-   "for": "E",
-   "feed": "news-17",
-   "region": "AU",
-   "topic": "新聞：Australia (\"national park\" OR tourism) (free OR deal OR discount)",
+   "for": "C",
+   "feed": "news-9",
+   "region": "TAS",
+   "topic": "新聞：(Hobart OR Launceston) (festival OR event)",
    "title": "Here comes summer: 100 Tassie things to do for $100 or less - The Mercury",
    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPY2tzLVR4TVA2RzRwd2V5dTFNSzE2YU8wOXE3dEE5Y0RzbXNjdlVyZ0VJcFdzQXQwMlNHajh1NWxLdjFZM2tCaUE2Sk1NRU9JUXBqZEJsR0JSaUVlYVRyU29HMUU3Z3BkeW9MOGhpSXR5MDJmRHYzb3NkQUVqYkhxUVNrb1VUSVVZdjF2LVIyV1pjLXdsaEUwZkl1NXJSVmxJQnJWSmxIdG9iM2tETWZERHlST2ZXZVZwOU9lUVBQUmNZTjNjUU1RUkxBeTNWcy1TbzVQT3RJb0NJSGhHVURSRkpqWjVyYmRZaUVLUXVPVzVJQmNWY2J5NmhBV2ZNSG5fYjVPellhLXBMWnVwR2c?oc=5",
    "date": "2026-11-27",
@@ -1474,7 +1586,7 @@
    "date": "2026-11-27",
    "snippet": "'Losing that money hurts': BBQ vendor out $1750 in fake festival scam &nbsp;&nbsp; The Examiner",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "C",
@@ -1558,7 +1670,7 @@
    "date": "2026-11-27",
    "snippet": "Aldi's $50 Vintage Floral Area Rug Adds Character to Any Room &nbsp;&nbsp; Yahoo",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -1582,7 +1694,7 @@
    "date": "2026-11-27",
    "snippet": "Red Rooster pays rent to McDonald’s after $8.1m Alphington deal &nbsp;&nbsp; Real Commercial",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -1594,7 +1706,7 @@
    "date": "2026-11-27",
    "snippet": "McDonald’s pays $8.1m for Red Rooster site &nbsp;&nbsp; realestatesource",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -1606,7 +1718,7 @@
    "date": "2026-11-27",
    "snippet": "Macca’s opens controversial Northcote store, buys Alphington site for $8.1m &nbsp;&nbsp; SMH.com.au",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -1618,7 +1730,7 @@
    "date": "2026-11-27",
    "snippet": "How is Guzman Y Gomez Limited (ASX:GYG) tracking with its on-market share buy-back? &nbsp;&nbsp; Kalkine",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -1630,7 +1742,7 @@
    "date": "2026-11-27",
    "snippet": "Macca’s opens controversial Northcote store, buys Alphington site for $8.1m &nbsp;&nbsp; The Age",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -1654,7 +1766,7 @@
    "date": "2026-11-27",
    "snippet": "KFC Nigeria Black Friday Buy 2 Get 1 Free Zinger Deal &nbsp;&nbsp; Head Topics",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "E",
@@ -2098,7 +2210,7 @@
    "date": "2026-11-26",
    "snippet": "To get this price, you must add the accessory bag which would get 35% off from the bag price. Accessory Bag You would be able to see the deal just below price within Amazon App. Interesting deal …",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "E",
@@ -2110,7 +2222,7 @@
    "date": "2026-11-26",
    "snippet": "$0 return for free deals start from Sydney - Seoul $343 return Sydney - Ballina $40 return Brisbane - Seoul $342 return Melbourne - Phuket $347 return Brisbane - Cairns $92 return Adelaide - Bali …",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "E",
@@ -2146,7 +2258,7 @@
    "date": "2026-11-26",
    "snippet": "I dont know why it worked out this way, but add the bag in the link first, then click the 45% off with a qualifying purchase - Shop items. You will then go to a page with the electronics organiser. …",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "A",
@@ -2278,7 +2390,7 @@
    "date": "2026-11-26",
    "snippet": "Hayden Kenny Classic: world-class ocean racing this weekend at Alexandra Headland &nbsp;&nbsp; OurSC",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "B",
@@ -2290,7 +2402,7 @@
    "date": "2026-11-26",
    "snippet": "CRSSD Festival 2027 Lineup: Eric Prydz, Adam Beyer & More &nbsp;&nbsp; EDM House Network",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "B",
@@ -2554,7 +2666,7 @@
    "date": "2026-11-26",
    "snippet": "Crazy savings: The top Black Friday deals on right now &nbsp;&nbsp; Canstar",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -2566,7 +2678,7 @@
    "date": "2026-11-26",
    "snippet": "Black Friday specials extend to ... supermarket broccoli? &nbsp;&nbsp; Stuff",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -2578,7 +2690,7 @@
    "date": "2026-11-26",
    "snippet": "Beats Studio Pro at 50% Off Makes Premium Over-Ear Headphones Cheaper Than AirPods Pro 3 &nbsp;&nbsp; Gizmodo",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "D",
@@ -2602,7 +2714,7 @@
    "date": "2026-11-26",
    "snippet": "McDonald’s rolls out free Fries across two UK retail parks &nbsp;&nbsp; QSR Media UK",
    "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   {
    "for": "E",
@@ -4701,126 +4813,6 @@
    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LRDkzTjVUaVZQLUp5THNpX3dDT01ta3pnSDVjZFpRTGVDcVFKaDVqRDFJSUJIeC1jc2hDck5Hc00zbDN1V0xweC16cjgwajlT?oc=5",
    "date": "2026-11-25",
    "snippet": "Latest News, Free Agents to Watch, Swings and Misses - NBL Marketplace &nbsp;&nbsp; NBL",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "D",
-   "feed": "news-13",
-   "region": "AU",
-   "topic": "新聞：(McDonald's OR \"Hungry Jack's\" OR KFC OR \"Guzman y Gomez\" OR Domino's) (deal OR free OR app) Australia",
-   "title": "Matt Burton Signs Long-Term Deal With Perth Bears To Commence In 2028 - Perth Bears",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSy1PS1pwNmJmMElDTjRQZmFmbTRXeF9DdHhQZ01Mak5iOXZ2LXh5UEswdFhaaThrdVh5Q3JmYXlwNmgxWUNUSGQzWDdZUlRDYWRLVjVBSnk0dFdLVDBfbDhVYXNpWVBKUGdVUldRaEJHODMwY2NGU1NybEpxbU5pWGtIV1R3WW92Z1pTd3RkcWFWOU5GVjJGZ0RXSng?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Matt Burton Signs Long-Term Deal With Perth Bears To Commence In 2028 &nbsp;&nbsp; Perth Bears",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "D",
-   "feed": "news-13",
-   "region": "AU",
-   "topic": "新聞：(McDonald's OR \"Hungry Jack's\" OR KFC OR \"Guzman y Gomez\" OR Domino's) (deal OR free OR app) Australia",
-   "title": "Domino's Pizza Enterprises Shares Jump 4% to Top ASX 200 Gainers as Pizza Chain Bucks Inflation-Hit Market - International Business Times Australia",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTi1hSGxTNWt4SHRIRVViNVR1X2tldEVLamE3NUFDcVNKcF9qUEtGQlpBNWtlcDg1eGw4T05wX29kNGx6aXR5OFFJbGlVTGpIU3VUYU0xckt4RGdrSDBsamljMkY5S0tUYXF6cjhkRlptM1NuVmMtQ0N1V0NlV0pSRGxYVFNPMUhlLWc?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Domino's Pizza Enterprises Shares Jump 4% to Top ASX 200 Gainers as Pizza Chain Bucks Inflation-Hit Market &nbsp;&nbsp; International Business Times Australia",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "E",
-   "feed": "news-15",
-   "region": "AU",
-   "topic": "新聞：(Jetstar OR \"Virgin Australia\" OR Qantas OR Rex) (sale OR fares OR deal)",
-   "title": "Rugby Australia Re-Signs Qantas as Official Airline Partner in Three-Year Deal - Ministry of Sport",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUTdUV3hQb1lDT2xzMzlTQ1NEdU9KZmlHZU9hX2RCM2VORjJPQm1zakJodFZiX2xKeHBnVkk0c283dWVacGhJNGhuT0kwT2V0b1QxeU1uZVZDWDB2UmxEelh3ckdvbW1GRHlyVzF2RnVuNFhwdDhNcGdadmZsOUc0WVplbGFKZWFlbVFtVHdGZFJhWmZFbTN6UlEzdmVuUmd6V1M4MlN4OE10MjQ?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Rugby Australia Re-Signs Qantas as Official Airline Partner in Three-Year Deal &nbsp;&nbsp; Ministry of Sport",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "E",
-   "feed": "news-15",
-   "region": "AU",
-   "topic": "新聞：(Jetstar OR \"Virgin Australia\" OR Qantas OR Rex) (sale OR fares OR deal)",
-   "title": "Qantas regional airfare sale offers Wagga and Griffith return flights to Sydney for $258 - SSBCrack",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUWg4T1g1U3dPR1pBUEhWbUM2eEVUV1JLemtydXhzOEE3LWhIOW84UzBYaHdVdHBpN3o1TDJDZmxBN1ZCdzRSU20zSVBTMXBScnJZSXNCaC11LU5pWmNVcGtIeDFzYVNvTGI5b1dtTDJ6cmh4OXpaRmZ0d2VHMGwtREZmT1doc2lvWTExMDMyUG9oQlZRMDJNbjh1Uk5vcTNMN09zSTRjLTFxZl9QZC1kSjV6UHQ?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Qantas regional airfare sale offers Wagga and Griffith return flights to Sydney for $258 &nbsp;&nbsp; SSBCrack",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "E",
-   "feed": "news-17",
-   "region": "AU",
-   "topic": "新聞：Australia (\"national park\" OR tourism) (free OR deal OR discount)",
-   "title": "Australia assures Bangladesh of post-LDC duty-free market access - Jagonews24",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PYUVtLWJsQUQtazhyOUt1cExNUzVBaThMWmU4cFhRckVfY1haczRkVmdtSlNrWFdjclJnV2d1TDBlUlpIdlJnVkJzbUlnWnVfZm1zOG9hUFA0czA2c3c?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Australia assures Bangladesh of post-LDC duty-free market access &nbsp;&nbsp; Jagonews24",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "A",
-   "feed": "news-19",
-   "region": "AU",
-   "topic": "新聞：(HOYTS OR \"Event Cinemas\" OR \"Village Cinemas\" OR museum) (cheap OR free OR deal) Australia",
-   "title": "London museum makes ‘miraculous’ move to former meat market - The Australian",
-   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxON0NMVno2UFpTVVFTZmJSWFpzUEF1UTJ3Z3l3bEtEYjQyUTBqSWhBaFBRNlhXenJ3dk5ZTXIzekI1NmdCMThwck5ia3BsbU9PbmxMbkxLNnN3Y01ZME9GWVctTERGbEV1LThOd2xjSHVwQ1FEUEcwN3QwVlVFS0cydUkxaUFqZndzZDMxejJtSFVTQVF5TWV2ckpGTUh2cmZFYjV2NHpqY1Y3djVVR1NvTjRLYkVoYnd5QnM4UnJrUXFOUzVlcHVnTlRRWTgwaE9ZdC1yeWpDSTZkMGVCV1liOTRJdm9vQQ?oc=5",
-   "date": "2026-11-25",
-   "snippet": "London museum makes ‘miraculous’ move to former meat market &nbsp;&nbsp; The Australian",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "A",
-   "feed": "news-19",
-   "region": "AU",
-   "topic": "新聞：(HOYTS OR \"Event Cinemas\" OR \"Village Cinemas\" OR museum) (cheap OR free OR deal) Australia",
-   "title": "Free entry for Cape Leeuwin Lighthouse’s 130th birthday - Augusta-Margaret River Times",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQUJkdlhNc3FHbUZBOHNFMnUtVnJ5QTdTYUYxbUVmSnZ2MGVJZ3RiTnRqNXROMW5jTFV3allPWVMyNzUwcE1GTTRsZnI2b3RxRzZUNXJSWkptblVBbVdiT2Z6WlB5VkhGUnB0NHNOa2ZpTGVTSk5udXF1enVwbTliemlWMWg3WVlJT1E1WXhKelo3c1M0d19KTEZUYXJWMVIyR0ZXdWhIR1JwckNXY3NWY0Z5NDRJN00zaTR6U1RDTkpoY29mNlA1ZThnMFpjUkFpbWlF?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Free entry for Cape Leeuwin Lighthouse’s 130th birthday &nbsp;&nbsp; Augusta-Margaret River Times",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "A",
-   "feed": "news-19",
-   "region": "AU",
-   "topic": "新聞：(HOYTS OR \"Event Cinemas\" OR \"Village Cinemas\" OR museum) (cheap OR free OR deal) Australia",
-   "title": "| Kyabram Free Press - Kyabram Free Press",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZ29QLUwxZkR6VlhwR1VoWTNGQkljNlNXMG5TaU9tZVlQMzdUUTVUYmhMLW8zR0E0LTBiVW9NRUtLT2ZkV0RKOXBwWnc0WnY1LXdrcEUtaW9rNDZVNTVZTHFuX0tXYU9mMDVjMHJFWG94RFZ3UXUwalpOSFZkYTRqQmFFUHdFVThrR1RZTDBWb0V2V3BmR1NUd244clhDMUE?oc=5",
-   "date": "2026-11-25",
-   "snippet": "| Kyabram Free Press &nbsp;&nbsp; Kyabram Free Press",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "A",
-   "feed": "news-20",
-   "region": "AU",
-   "topic": "新聞：(DFO OR \"Harbour Town\" OR \"brand outlet\" OR Uniqlo OR \"Cotton On\" OR Kathmandu OR Bonds OR \"H&M\") (sale OR outlet OR \"off\" OR members)",
-   "title": "Japan 40-Year Bond Sale Sees Weaker Demand Than 12-Month Average - Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONTlfTEdXZmd2eHJuenFwZ05RRzlNWDVWb216UEkxZURMcU9yWWRVb3FNeENBRVNEYzNKX3lkVVdNQ3RGaG5PZkpIS2kzcFRVN1NEeEZwQjNrazFVLXJZZXhYRGZyVUhxVkZSV1lCQ3k4d3RYNVBHT3F1RmtubnBWUGdBcVBITDZtT0IyUU56M1VCTW1ubG84SnhFVFFDY0VuWGo4N3hWWlV5THFXWlhkVlpUcktOc2cxVVhkU0lfVndnUQ?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Japan 40-Year Bond Sale Sees Weaker Demand Than 12-Month Average &nbsp;&nbsp; Bloomberg.com",
-   "first_seen": "2026-11-25",
-   "last_seen": "2026-11-25"
-  },
-  {
-   "for": "A",
-   "feed": "news-20",
-   "region": "AU",
-   "topic": "新聞：(DFO OR \"Harbour Town\" OR \"brand outlet\" OR Uniqlo OR \"Cotton On\" OR Kathmandu OR Bonds OR \"H&M\") (sale OR outlet OR \"off\" OR members)",
-   "title": "Alibaba in Talks for Potential Yuan, Dollar Bond Sale Next Year - Bloomberg.com",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOXNFMnc0c0p5cHBVblZMNlI4V1JKdGdqdG1LdjgwbFBNNTJoMWpzNmZUMU50a3pTMERpQjNHdHdIVTRJOTgwWFZDQVlTNXNEMktiaTRtRWxhV01qSHp5QjZEX0lYcjBsR0h3Rk1vQjVXMnBzN1ppOEwwRjVDcVJoTk1HMzg5cW1YS09CVjlSclR5ZW1nWi16bnZoUXB5bjZKVGNrZlN4NjZXMjZpVFRjMGloTQ?oc=5",
-   "date": "2026-11-25",
-   "snippet": "Alibaba in Talks for Potential Yuan, Dollar Bond Sale Next Year &nbsp;&nbsp; Bloomberg.com",
    "first_seen": "2026-11-25",
    "last_seen": "2026-11-25"
   }
